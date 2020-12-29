@@ -222,8 +222,5 @@ raw의 1차, 2차 데이터에서 아래의 기준에 맞는 데이터(3,640개)
 ## Publisher
 [Machine Reading Lab](http://semanticweb.kaist.ac.kr/) @ KAIST
 
-## Contact
-Kuntae Kim. `kuntaek@kaist.ac.kr`
-
 ## Acknowledgement
 This work was supported by Institute for Information & communications Technology Promotion(IITP) grant funded by the Korea government(MSIT) (2013-0-00109, WiseKB: Big data based self-evolving knowledge base and reasoning platform)
