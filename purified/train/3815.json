@@ -1,0 +1,110 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "량치차오는 러일 전쟁 전투에 참여했다. 그는 러일 전쟁의 지휘관이었다. ",
+    "entities": {
+        "량치차오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/량치차오"
+        },
+        "러일_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러일_전쟁"
+        },
+        "아시아": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아시아"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        }
+    },
+    "id": 3815,
+    "pid": "195-19",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "량치차오",
+            "p": "지휘관(commander)",
+            "s": "러일_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "러일_전쟁",
+            "p": "전투(battle)",
+            "s": "량치차오"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "량치차오",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "유럽",
+            "p": "~의부분(isPartOf)",
+            "s": "아시아"
+        }
+    ]
+}

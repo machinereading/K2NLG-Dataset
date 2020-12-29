@@ -1,0 +1,170 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 식스토 4세의 직업은 철학과 관련이 있다. 그의 직함은 교황이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_식스토_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_식스토_4세"
+        },
+        "미술": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미술"
+        },
+        "손": {
+            "ne_type": "AM_PART",
+            "type": [
+                "http://dbpedia.org/ontology/AnatomicalStructure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손"
+        },
+        "신학": {
+            "ne_type": "FD_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신학"
+        },
+        "이탈리아어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아어"
+        },
+        "참나무속": {
+            "ne_type": "PT_TREE",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Plant",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/참나무속"
+        },
+        "철학": {
+            "ne_type": "FD_PHILOSOPHY",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/철학"
+        }
+    },
+    "id": 1743,
+    "pid": "37-19",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "철학",
+            "p": "직업(occupation)",
+            "s": "교황_식스토_4세"
+        },
+        {
+            "Rep": false,
+            "o": "신학",
+            "p": "계통(languageFamily)",
+            "s": "이탈리아어"
+        },
+        {
+            "Rep": false,
+            "o": "철학",
+            "p": "직업(occupation)",
+            "s": "손"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아어",
+            "p": "언어(language)",
+            "s": "신학"
+        },
+        {
+            "Rep": false,
+            "o": "철학",
+            "p": "직업(occupation)",
+            "s": "참나무속"
+        },
+        {
+            "Rep": false,
+            "o": "철학",
+            "p": "직업(occupation)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "국가(country)",
+            "s": "철학"
+        },
+        {
+            "Rep": false,
+            "o": "철학",
+            "p": "계통(languageFamily)",
+            "s": "이탈리아어"
+        },
+        {
+            "Rep": false,
+            "o": "미술",
+            "p": "계통(languageFamily)",
+            "s": "이탈리아어"
+        },
+        {
+            "Rep": false,
+            "o": "철학",
+            "p": "직업(occupation)",
+            "s": "미술"
+        },
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_식스토_4세"
+        }
+    ]
+}

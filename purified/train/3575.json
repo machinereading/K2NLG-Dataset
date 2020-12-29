@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "노무현의 정당은 민주당이다. 그는 민주당의 지도자다.",
+    "entities": {
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주당_(미국)"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "천정배": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/천정배"
+        }
+    },
+    "id": 3575,
+    "pid": "114-118",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "노무현"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "천정배"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "노무현"
+        },
+        {
+            "Rep": true,
+            "o": "노무현",
+            "p": "지도자(leader)",
+            "s": "민주당"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "천정배"
+        },
+        {
+            "Rep": false,
+            "o": "천정배",
+            "p": "지도자(leader)",
+            "s": "민주당"
+        }
+    ]
+}

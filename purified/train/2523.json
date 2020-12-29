@@ -1,0 +1,91 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "마오쩌둥은 소련의 지도자다. 그는 소련의 리더였다.",
+    "entities": {
+        "관료": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/관료"
+        },
+        "덩샤오핑": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/덩샤오핑"
+        },
+        "마오쩌둥": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마오쩌둥"
+        },
+        "소련": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소련"
+        }
+    },
+    "id": 2523,
+    "pid": "515-32",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "관료",
+            "p": "직업(occupation)",
+            "s": "덩샤오핑"
+        },
+        {
+            "Rep": true,
+            "o": "마오쩌둥",
+            "p": "지도자(leader)",
+            "s": "소련"
+        },
+        {
+            "Rep": true,
+            "o": "마오쩌둥",
+            "p": "리더이름(leaderName)",
+            "s": "소련"
+        }
+    ]
+}

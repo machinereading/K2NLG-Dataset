@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "고려인은 원나라에도 있다. ",
+    "entities": {
+        "고려": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려"
+        },
+        "고려인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려인"
+        },
+        "랴오허": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/River",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/랴오허"
+        },
+        "명나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/명나라"
+        },
+        "원나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/NobleFamily",
+                "http://dbpedia.org/ontology/Family",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원나라"
+        }
+    },
+    "id": 3289,
+    "pid": "808-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "고려",
+            "p": "국가(country)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "고려",
+            "p": "국가(country)",
+            "s": "랴오허"
+        },
+        {
+            "Rep": false,
+            "o": "명나라",
+            "p": "국가(country)",
+            "s": "고려"
+        },
+        {
+            "Rep": true,
+            "o": "원나라",
+            "p": "있는곳(populationPlace)",
+            "s": "고려인"
+        },
+        {
+            "Rep": false,
+            "o": "고려",
+            "p": "있는곳(populationPlace)",
+            "s": "고려인"
+        }
+    ]
+}

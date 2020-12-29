@@ -1,0 +1,87 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "현대건설의 제품은 자동차이다. 현대자동차의 제품도 자동차다.",
+    "entities": {
+        "경성부": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경성부"
+        },
+        "자동차": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자동차"
+        },
+        "현대건설": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현대건설"
+        },
+        "현대자동차": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현대자동차"
+        }
+    },
+    "id": 2080,
+    "pid": "301-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "자동차",
+            "p": "제품(product)",
+            "s": "현대건설"
+        },
+        {
+            "Rep": true,
+            "o": "자동차",
+            "p": "제품(product)",
+            "s": "현대자동차"
+        },
+        {
+            "Rep": false,
+            "o": "경성부",
+            "p": "위치/지역(location)",
+            "s": "자동차"
+        }
+    ]
+}

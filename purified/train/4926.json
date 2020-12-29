@@ -1,0 +1,141 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "아일랜드의 지도자는 빅토리아다.",
+    "entities": {
+        "런던": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/런던"
+        },
+        "벨기에": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/벨기에"
+        },
+        "빅토리아": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빅토리아_(영국)"
+        },
+        "아일랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아일랜드"
+        },
+        "참회왕_에드워드": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/참회왕_에드워드"
+        },
+        "켄징턴": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/켄징턴"
+        }
+    },
+    "id": 4926,
+    "pid": "475-5",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "참회왕_에드워드",
+            "p": "리더이름(leaderName)",
+            "s": "런던"
+        },
+        {
+            "Rep": false,
+            "o": "빅토리아",
+            "p": "리더이름(leaderName)",
+            "s": "런던"
+        },
+        {
+            "Rep": false,
+            "o": "켄징턴",
+            "p": "~의부분(isPartOf)",
+            "s": "런던"
+        },
+        {
+            "Rep": true,
+            "o": "빅토리아",
+            "p": "지도자(leader)",
+            "s": "아일랜드"
+        },
+        {
+            "Rep": false,
+            "o": "빅토리아",
+            "p": "~의부분(isPartOf)",
+            "s": "런던"
+        },
+        {
+            "Rep": false,
+            "o": "참회왕_에드워드",
+            "p": "리더이름(leaderName)",
+            "s": "켄징턴"
+        },
+        {
+            "Rep": false,
+            "o": "참회왕_에드워드",
+            "p": "~의부분(isPartOf)",
+            "s": "런던"
+        },
+        {
+            "Rep": false,
+            "o": "빅토리아",
+            "p": "리더이름(leaderName)",
+            "s": "벨기에"
+        }
+    ]
+}

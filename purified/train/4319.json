@@ -1,0 +1,114 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 율리오 2세는 베네치아 공화국의 리더다. 그는 프랑스를 이끌었다.",
+    "entities": {
+        "교황_율리오_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_율리오_2세"
+        },
+        "베네치아_공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베네치아_공화국"
+        },
+        "페르난도_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페르난도_2세_(아라곤)"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        },
+        "헨리_8세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헨리_8세"
+        }
+    },
+    "id": 4319,
+    "pid": "41-19",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "교황_율리오_2세",
+            "p": "리더이름(leaderName)",
+            "s": "베네치아_공화국"
+        },
+        {
+            "Rep": true,
+            "o": "교황_율리오_2세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "헨리_8세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "페르난도_2세",
+            "p": "리더이름(leaderName)",
+            "s": "베네치아_공화국"
+        },
+        {
+            "Rep": false,
+            "o": "페르난도_2세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        }
+    ]
+}

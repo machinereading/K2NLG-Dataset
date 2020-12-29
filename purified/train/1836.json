@@ -1,0 +1,156 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "교황 바오로 3세의 직업은 시인이다. 그의 종교는 개신교이다. 그의 전임자는 마르틴 루터이다. 그는 로마에서 사망했다.",
+    "entities": {
+        "개신교": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개신교"
+        },
+        "교황_바오로_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_바오로_3세"
+        },
+        "로마": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "마르틴_루터": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마르틴_루터"
+        },
+        "시인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시인"
+        }
+    },
+    "id": 1836,
+    "pid": "44-10",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "마르틴_루터"
+        },
+        {
+            "Rep": true,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "교황_바오로_3세"
+        },
+        {
+            "Rep": false,
+            "o": "개신교",
+            "p": "종교(religion)",
+            "s": "시인"
+        },
+        {
+            "Rep": false,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "개신교"
+        },
+        {
+            "Rep": true,
+            "o": "개신교",
+            "p": "종교(religion)",
+            "s": "교황_바오로_3세"
+        },
+        {
+            "Rep": false,
+            "o": "시인",
+            "p": "종교(religion)",
+            "s": "개신교"
+        },
+        {
+            "Rep": false,
+            "o": "개신교",
+            "p": "종교(religion)",
+            "s": "마르틴_루터"
+        },
+        {
+            "Rep": false,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "로마"
+        },
+        {
+            "Rep": false,
+            "o": "개신교",
+            "p": "직업(occupation)",
+            "s": "마르틴_루터"
+        },
+        {
+            "Rep": false,
+            "o": "마르틴_루터",
+            "p": "리더이름(leaderName)",
+            "s": "로마"
+        },
+        {
+            "Rep": true,
+            "o": "마르틴_루터",
+            "p": "전임자(predecessor)",
+            "s": "교황_바오로_3세"
+        },
+        {
+            "Rep": true,
+            "o": "로마",
+            "p": "사망지(deathPlace)",
+            "s": "교황_바오로_3세"
+        },
+        {
+            "Rep": false,
+            "o": "개신교",
+            "p": "직업(occupation)",
+            "s": "교황_바오로_3세"
+        }
+    ]
+}

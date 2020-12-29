@@ -1,0 +1,96 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "장충단공원은 서울특별시에 있다. 현석호의 직함은 교장이다.",
+    "entities": {
+        "교장": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교장"
+        },
+        "동성고등학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동성고등학교"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "장충단공원": {
+            "ne_type": "AF_CULTURAL_ASSET",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Park"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장충단공원"
+        },
+        "현석호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현석호"
+        }
+    },
+    "id": 3386,
+    "pid": "829-251",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "위치/지역(location)",
+            "s": "장충단공원"
+        },
+        {
+            "Rep": false,
+            "o": "교장",
+            "p": "타입/종류(type)",
+            "s": "동성고등학교"
+        },
+        {
+            "Rep": true,
+            "o": "교장",
+            "p": "직함/포지션(position)",
+            "s": "현석호"
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "남해 차차웅은 신라를 이끈 사람이다. 그의 배우자는 운제부인이다.",
+    "entities": {
+        "경주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경주시"
+        },
+        "남해_차차웅": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남해_차차웅"
+        },
+        "시조": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시조"
+        },
+        "신라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신라"
+        },
+        "알영부인": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알영부인"
+        },
+        "운제부인": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/운제부인"
+        },
+        "합천군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/합천군"
+        }
+    },
+    "id": 4783,
+    "pid": "420-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "남해_차차웅",
+            "p": "리더이름(leaderName)",
+            "s": "신라"
+        },
+        {
+            "Rep": false,
+            "o": "경주시",
+            "p": "~의부분(isPartOf)",
+            "s": "합천군"
+        },
+        {
+            "Rep": false,
+            "o": "알영부인",
+            "p": "리더이름(leaderName)",
+            "s": "신라"
+        },
+        {
+            "Rep": false,
+            "o": "합천군",
+            "p": "~의부분(isPartOf)",
+            "s": "경주시"
+        },
+        {
+            "Rep": false,
+            "o": "운제부인",
+            "p": "리더이름(leaderName)",
+            "s": "신라"
+        },
+        {
+            "Rep": false,
+            "o": "알영부인",
+            "p": "친척(relative)",
+            "s": "운제부인"
+        },
+        {
+            "Rep": false,
+            "o": "운제부인",
+            "p": "~의부분(isPartOf)",
+            "s": "경주시"
+        },
+        {
+            "Rep": true,
+            "o": "남해_차차웅",
+            "p": "배우자(spouse)",
+            "s": "운제부인"
+        },
+        {
+            "Rep": false,
+            "o": "시조",
+            "p": "배우자(spouse)",
+            "s": "운제부인"
+        },
+        {
+            "Rep": false,
+            "o": "남해_차차웅",
+            "p": "부모(parent)",
+            "s": "운제부인"
+        },
+        {
+            "Rep": false,
+            "o": "시조",
+            "p": "~의부분(isPartOf)",
+            "s": "경주시"
+        }
+    ]
+}

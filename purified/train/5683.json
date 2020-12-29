@@ -1,0 +1,70 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "쇼와 천황은 아키히토의 부모이다. 그는 아키히토의 전임자다.",
+    "entities": {
+        "쇼와_천황": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쇼와_천황"
+        },
+        "아키히토": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아키히토"
+        }
+    },
+    "id": 5683,
+    "pid": "752-34",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "쇼와_천황",
+            "p": "부모(parent)",
+            "s": "아키히토"
+        },
+        {
+            "Rep": false,
+            "o": "아키히토",
+            "p": "자식(child)",
+            "s": "쇼와_천황"
+        },
+        {
+            "Rep": true,
+            "o": "쇼와_천황",
+            "p": "전임자(predecessor)",
+            "s": "아키히토"
+        }
+    ]
+}

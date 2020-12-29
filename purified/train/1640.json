@@ -1,0 +1,97 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "노태우는 김영삼의 전임자이다. 그의 직업은 군인이었다.",
+    "entities": {
+        "군인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/군인"
+        },
+        "김영삼": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김영삼"
+        },
+        "노태우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노태우"
+        },
+        "전두환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전두환"
+        }
+    },
+    "id": 1640,
+    "pid": "280-50",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "전두환",
+            "p": "전임자(predecessor)",
+            "s": "노태우"
+        },
+        {
+            "Rep": true,
+            "o": "노태우",
+            "p": "전임자(predecessor)",
+            "s": "김영삼"
+        },
+        {
+            "Rep": true,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "노태우"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "전두환"
+        }
+    ]
+}

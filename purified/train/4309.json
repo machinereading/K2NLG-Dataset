@@ -1,0 +1,150 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 비오 2세의 직함은 교황이다. 그의 계승자는 교황 특사이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_비오_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_비오_2세"
+        },
+        "교황_특사": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_특사"
+        },
+        "대주교": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대주교"
+        },
+        "박사": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Award",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박사"
+        },
+        "페루자_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페루자_대학교"
+        }
+    },
+    "id": 4309,
+    "pid": "40-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_비오_2세"
+        },
+        {
+            "Rep": false,
+            "o": "대주교",
+            "p": "타입/종류(type)",
+            "s": "박사"
+        },
+        {
+            "Rep": false,
+            "o": "페루자_대학교",
+            "p": "기원/소속(affiliation)",
+            "s": "박사"
+        },
+        {
+            "Rep": false,
+            "o": "교황_비오_2세",
+            "p": "계승자/후임(successor)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황_비오_2세",
+            "p": "리더이름(leaderName)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "대주교",
+            "p": "타입/종류(type)",
+            "s": "페루자_대학교"
+        },
+        {
+            "Rep": true,
+            "o": "교황_특사",
+            "p": "계승자/후임(successor)",
+            "s": "교황_비오_2세"
+        },
+        {
+            "Rep": false,
+            "o": "대주교",
+            "p": "직함/포지션(position)",
+            "s": "교황_비오_2세"
+        },
+        {
+            "Rep": false,
+            "o": "박사",
+            "p": "기원/소속(affiliation)",
+            "s": "페루자_대학교"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "대주교"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "라인란트팔츠 주에는 마인츠 대학교가 있다. 라인란트팔츠 주에서 가장 큰 도시는 마인츠다.",
+    "entities": {
+        "라인란트팔츠_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라인란트팔츠_주"
+        },
+        "마인츠": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Town",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마인츠"
+        },
+        "마인츠_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마인츠_대학교"
+        },
+        "요하네스_구텐베르크": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요하네스_구텐베르크"
+        }
+    },
+    "id": 4724,
+    "pid": "383-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "라인란트팔츠_주",
+            "p": "지역/분양(region)",
+            "s": "마인츠"
+        },
+        {
+            "Rep": true,
+            "o": "라인란트팔츠_주",
+            "p": "주(state)",
+            "s": "마인츠_대학교"
+        },
+        {
+            "Rep": false,
+            "o": "마인츠_대학교",
+            "p": "학력(education)",
+            "s": "요하네스_구텐베르크"
+        },
+        {
+            "Rep": true,
+            "o": "마인츠",
+            "p": "가장큰도시(largestCity)",
+            "s": "라인란트팔츠_주"
+        }
+    ]
+}

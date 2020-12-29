@@ -1,0 +1,116 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "쑨원의 안식처는 미국이다. 그의 정당은 중국동맹회다.",
+    "entities": {
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "샌프란시스코": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/샌프란시스코"
+        },
+        "쑨원": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쑨원"
+        },
+        "중국동맹회": {
+            "ne_type": "OG_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국동맹회"
+        },
+        "화교": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/화교"
+        }
+    },
+    "id": 3824,
+    "pid": "195-37",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "안식처(restingPlace)",
+            "s": "쑨원"
+        },
+        {
+            "Rep": true,
+            "o": "중국동맹회",
+            "p": "정당(party)",
+            "s": "쑨원"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "있는곳(populationPlace)",
+            "s": "화교"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "샌프란시스코"
+        },
+        {
+            "Rep": false,
+            "o": "샌프란시스코",
+            "p": "가장큰도시(largestCity)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "화교",
+            "p": "민족(ethnicGroup)",
+            "s": "미국"
+        }
+    ]
+}

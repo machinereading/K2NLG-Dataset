@@ -1,0 +1,103 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "대한항공의 모기업은 한진그룹이다. 대한항공의 본부는 서울특별시에 있다.",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "대한민국_교통부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_교통부"
+        },
+        "대한항공": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Airline",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한항공"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "한진그룹": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한진그룹"
+        }
+    },
+    "id": 1378,
+    "pid": "210-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "한진그룹",
+            "p": "모기업(parentCompany)",
+            "s": "대한항공"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "본부/본사(headquarter)",
+            "s": "대한항공"
+        },
+        {
+            "Rep": false,
+            "o": "대한항공",
+            "p": "자회사(subsidiary)",
+            "s": "한진그룹"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "위치/지역(location)",
+            "s": "대한민국_교통부"
+        }
+    ]
+}

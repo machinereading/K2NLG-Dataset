@@ -1,0 +1,148 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 1,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "만주에서 가장 큰 도시는 룽징 시다. 경원군은 함경북도에 속한다. ",
+    "entities": {
+        "경원군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경원군_(함경북도)"
+        },
+        "극동_사령부": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/극동_사령부_(미국)"
+        },
+        "러시아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아"
+        },
+        "룽징_시": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/룽징_시"
+        },
+        "만주": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주"
+        },
+        "함경북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/함경북도"
+        }
+    },
+    "id": 5851,
+    "pid": "818-8",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "함경북도"
+        },
+        {
+            "Rep": true,
+            "o": "룽징_시",
+            "p": "가장큰도시(largestCity)",
+            "s": "만주"
+        },
+        {
+            "Rep": false,
+            "o": "극동_사령부",
+            "p": "~의부분(isPartOf)",
+            "s": "함경북도"
+        },
+        {
+            "Rep": true,
+            "o": "함경북도",
+            "p": "~의부분(isPartOf)",
+            "s": "경원군"
+        },
+        {
+            "Rep": false,
+            "o": "경원군",
+            "p": "~의부분(isPartOf)",
+            "s": "함경북도"
+        },
+        {
+            "Rep": false,
+            "o": "만주",
+            "p": "~의부분(isPartOf)",
+            "s": "룽징_시"
+        },
+        {
+            "Rep": false,
+            "o": "경원군",
+            "p": "본부/본사(headquarter)",
+            "s": "극동_사령부"
+        },
+        {
+            "Rep": false,
+            "o": "경원군",
+            "p": "부분(part)",
+            "s": "함경북도"
+        },
+        {
+            "Rep": false,
+            "o": "함경북도",
+            "p": "본부/본사(headquarter)",
+            "s": "극동_사령부"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "경원군"
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "스페인의 지도자는 빌헬름 1세다.",
+    "entities": {
+        "빌헬름_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빌헬름_1세"
+        },
+        "스페인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인"
+        },
+        "오토_폰_비스마르크": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오토_폰_비스마르크"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 4854,
+    "pid": "443-40",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "스페인",
+            "p": "국가(country)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "빌헬름_1세",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "오토_폰_비스마르크",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "오토_폰_비스마르크",
+            "p": "전임자(predecessor)",
+            "s": "빌헬름_1세"
+        },
+        {
+            "Rep": false,
+            "o": "오토_폰_비스마르크",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        }
+    ]
+}

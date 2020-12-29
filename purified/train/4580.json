@@ -1,0 +1,94 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 바오로 6세의 전임자는 교황 요한 21세다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_바오로_6세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_바오로_6세"
+        },
+        "교황_요한_21세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_요한_21세"
+        }
+    },
+    "id": 4580,
+    "pid": "8-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_요한_21세"
+        },
+        {
+            "Rep": false,
+            "o": "교황_요한_21세",
+            "p": "리더이름(leaderName)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황_바오로_6세",
+            "p": "리더이름(leaderName)",
+            "s": "교황"
+        },
+        {
+            "Rep": true,
+            "o": "교황_요한_21세",
+            "p": "전임자(predecessor)",
+            "s": "교황_바오로_6세"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_바오로_6세"
+        }
+    ]
+}

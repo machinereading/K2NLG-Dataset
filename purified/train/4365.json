@@ -1,0 +1,122 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "헨리 8세는 잉글랜드와 몽골 제국을 이끌었다. 그의 직함은 교황이다.",
+    "entities": {
+        "개신교": {
+            "ne_type": "TR_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개신교"
+        },
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_바오로_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_바오로_3세"
+        },
+        "몽골_제국": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몽골_제국"
+        },
+        "잉글랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잉글랜드"
+        },
+        "헨리_8세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헨리_8세"
+        }
+    },
+    "id": 4365,
+    "pid": "44-17",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "헨리_8세",
+            "p": "지도자(leader)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "헨리_8세"
+        },
+        {
+            "Rep": false,
+            "o": "개신교",
+            "p": "종교(religion)",
+            "s": "교황_바오로_3세"
+        },
+        {
+            "Rep": false,
+            "o": "잉글랜드",
+            "p": "사망지(deathPlace)",
+            "s": "교황_바오로_3세"
+        },
+        {
+            "Rep": true,
+            "o": "헨리_8세",
+            "p": "지도자(leader)",
+            "s": "몽골_제국"
+        }
+    ]
+}

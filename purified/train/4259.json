@@ -1,0 +1,113 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "교황 바오로 2세의 직업은 시인이다. 그의 종교는 신학이다.",
+    "entities": {
+        "교황_바오로_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_바오로_2세"
+        },
+        "로마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "수사학": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수사학"
+        },
+        "시인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시인"
+        },
+        "신학": {
+            "ne_type": "FD_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신학"
+        }
+    },
+    "id": 4259,
+    "pid": "35-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "교황_바오로_2세"
+        },
+        {
+            "Rep": false,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "수사학"
+        },
+        {
+            "Rep": false,
+            "o": "수사학",
+            "p": "직업(occupation)",
+            "s": "교황_바오로_2세"
+        },
+        {
+            "Rep": false,
+            "o": "신학",
+            "p": "직업(occupation)",
+            "s": "교황_바오로_2세"
+        },
+        {
+            "Rep": false,
+            "o": "로마",
+            "p": "본부/본사(headquarter)",
+            "s": "신학"
+        },
+        {
+            "Rep": true,
+            "o": "신학",
+            "p": "종교(religion)",
+            "s": "교황_바오로_2세"
+        }
+    ]
+}

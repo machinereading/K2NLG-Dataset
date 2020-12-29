@@ -1,0 +1,113 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "심정과 남곤은 친척관계다. 조광조와 조선 중종은 친척관계다. 심정과 조광조는 친척관계다.",
+    "entities": {
+        "남곤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남곤"
+        },
+        "심정": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/심정_(1471년)"
+        },
+        "조광조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조광조"
+        },
+        "조선_중종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_중종"
+        }
+    },
+    "id": 3974,
+    "pid": "230-49",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "남곤",
+            "p": "친척(relative)",
+            "s": "심정"
+        },
+        {
+            "Rep": false,
+            "o": "심정",
+            "p": "친척(relative)",
+            "s": "남곤"
+        },
+        {
+            "Rep": true,
+            "o": "조선_중종",
+            "p": "친척(relative)",
+            "s": "조광조"
+        },
+        {
+            "Rep": true,
+            "o": "조광조",
+            "p": "친척(relative)",
+            "s": "심정"
+        },
+        {
+            "Rep": false,
+            "o": "심정",
+            "p": "친척(relative)",
+            "s": "조광조"
+        },
+        {
+            "Rep": false,
+            "o": "조선_중종",
+            "p": "친척(relative)",
+            "s": "남곤"
+        },
+        {
+            "Rep": false,
+            "o": "조선_중종",
+            "p": "친척(relative)",
+            "s": "심정"
+        },
+        {
+            "Rep": false,
+            "o": "조광조",
+            "p": "친척(relative)",
+            "s": "남곤"
+        }
+    ]
+}

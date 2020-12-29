@@ -1,0 +1,104 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "세균학은 외과에 속한다. 조지프 리스터는 외과로 잘 알려졌다.",
+    "entities": {
+        "세균": {
+            "ne_type": "AM_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Bacteria",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/세균"
+        },
+        "세균학": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/세균학"
+        },
+        "외과": {
+            "ne_type": "FD_MEDICINE",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/외과"
+        },
+        "조지프_리스터": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조지프_리스터"
+        }
+    },
+    "id": 1260,
+    "pid": "188-27",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "외과",
+            "p": "과_생물분류단계(family)",
+            "s": "세균"
+        },
+        {
+            "Rep": true,
+            "o": "외과",
+            "p": "과_생물분류단계(family)",
+            "s": "세균학"
+        },
+        {
+            "Rep": true,
+            "o": "외과",
+            "p": "~로알려진(knownFor)",
+            "s": "조지프_리스터"
+        },
+        {
+            "Rep": false,
+            "o": "세균학",
+            "p": "목_생물분류단계(order)",
+            "s": "외과"
+        },
+        {
+            "Rep": false,
+            "o": "조지프_리스터",
+            "p": "대통령/회장(president)",
+            "s": "세균학"
+        },
+        {
+            "Rep": false,
+            "o": "세균학",
+            "p": "종교(religion)",
+            "s": "외과"
+        }
+    ]
+}

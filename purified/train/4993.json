@@ -1,0 +1,151 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "의민태자는 대한제국에서 태어났다. 대한제국을 이끈 사람은 대한제국 고종이다. 대한제국 순종의 후임자는 의친왕이다.",
+    "entities": {
+        "대한제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한제국"
+        },
+        "대한제국_고종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한제국_고종"
+        },
+        "대한제국_순종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한제국_순종"
+        },
+        "의민태자": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의민태자"
+        },
+        "의친왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의친왕"
+        },
+        "이구": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이구_(1931년)"
+        }
+    },
+    "id": 4993,
+    "pid": "493-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한제국",
+            "p": "출생지(birthPlace)",
+            "s": "의민태자"
+        },
+        {
+            "Rep": true,
+            "o": "대한제국_고종",
+            "p": "리더이름(leaderName)",
+            "s": "대한제국"
+        },
+        {
+            "Rep": false,
+            "o": "의민태자",
+            "p": "계승자/후임(successor)",
+            "s": "대한제국_순종"
+        },
+        {
+            "Rep": true,
+            "o": "의친왕",
+            "p": "계승자/후임(successor)",
+            "s": "대한제국_순종"
+        },
+        {
+            "Rep": false,
+            "o": "의친왕",
+            "p": "부모(parent)",
+            "s": "대한제국_순종"
+        },
+        {
+            "Rep": false,
+            "o": "대한제국_순종",
+            "p": "전임자(predecessor)",
+            "s": "의민태자"
+        },
+        {
+            "Rep": false,
+            "o": "이구",
+            "p": "전임자(predecessor)",
+            "s": "의친왕"
+        },
+        {
+            "Rep": false,
+            "o": "의친왕",
+            "p": "계승자/후임(successor)",
+            "s": "의민태자"
+        },
+        {
+            "Rep": false,
+            "o": "대한제국_순종",
+            "p": "전임자(predecessor)",
+            "s": "의친왕"
+        }
+    ]
+}

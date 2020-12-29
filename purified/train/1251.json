@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "문근영은 해남군에서 태어났다. 그녀는 영화에서 주연을 했다. ",
+    "entities": {
+        "문근영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문근영"
+        },
+        "시드니": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시드니"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "오스트레일리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트레일리아"
+        },
+        "해남군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/해남군"
+        }
+    },
+    "id": 1251,
+    "pid": "183-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": true,
+            "o": "해남군",
+            "p": "출생지(birthPlace)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "문근영",
+            "p": "지도자(leader)",
+            "s": "오스트레일리아"
+        },
+        {
+            "Rep": false,
+            "o": "시드니",
+            "p": "가장큰도시(largestCity)",
+            "s": "오스트레일리아"
+        },
+        {
+            "Rep": false,
+            "o": "시드니",
+            "p": "출생지(birthPlace)",
+            "s": "문근영"
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "장면은 이승만 내각의 국무총리였다. 그는 대한민국 국회 소속이다.",
+    "entities": {
+        "대한민국_국회": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Legislature",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국회"
+        },
+        "박용만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박용만_(1881년)"
+        },
+        "비서": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비서"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "장면": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장면"
+        }
+    },
+    "id": 3376,
+    "pid": "829-214",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "장면",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_국회",
+            "p": "직함/포지션(position)",
+            "s": "장면"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "장면"
+        },
+        {
+            "Rep": false,
+            "o": "박용만",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "비서",
+            "p": "직함/포지션(position)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "비서",
+            "p": "직함/포지션(position)",
+            "s": "장면"
+        },
+        {
+            "Rep": false,
+            "o": "장면",
+            "p": "계승자/후임(successor)",
+            "s": "박용만"
+        }
+    ]
+}

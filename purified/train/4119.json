@@ -1,0 +1,171 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "고구려를 이끈 사람은 전욱이다.",
+    "entities": {
+        "가야": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가야"
+        },
+        "고구려": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고구려"
+        },
+        "삼국사기": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/삼국사기"
+        },
+        "소호": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/HistoricPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소호_(맨해튼)"
+        },
+        "신라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신라"
+        },
+        "전욱": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전욱"
+        },
+        "조선_선조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_선조"
+        }
+    },
+    "id": 4119,
+    "pid": "277-26",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "전욱",
+            "p": "리더이름(leaderName)",
+            "s": "고구려"
+        },
+        {
+            "Rep": false,
+            "o": "신라",
+            "p": "국가(country)",
+            "s": "고구려"
+        },
+        {
+            "Rep": false,
+            "o": "전욱",
+            "p": "리더이름(leaderName)",
+            "s": "신라"
+        },
+        {
+            "Rep": false,
+            "o": "조선_선조",
+            "p": "리더이름(leaderName)",
+            "s": "고구려"
+        },
+        {
+            "Rep": false,
+            "o": "조선_선조",
+            "p": "저자(author)",
+            "s": "삼국사기"
+        },
+        {
+            "Rep": false,
+            "o": "고구려",
+            "p": "국가(country)",
+            "s": "신라"
+        },
+        {
+            "Rep": false,
+            "o": "고구려",
+            "p": "출생지(birthPlace)",
+            "s": "조선_선조"
+        },
+        {
+            "Rep": false,
+            "o": "전욱",
+            "p": "저자(author)",
+            "s": "삼국사기"
+        },
+        {
+            "Rep": false,
+            "o": "고구려",
+            "p": "국가(country)",
+            "s": "삼국사기"
+        },
+        {
+            "Rep": false,
+            "o": "고구려",
+            "p": "국가(country)",
+            "s": "소호"
+        },
+        {
+            "Rep": false,
+            "o": "고구려",
+            "p": "국가(country)",
+            "s": "가야"
+        },
+        {
+            "Rep": false,
+            "o": "전욱",
+            "p": "직함/포지션(position)",
+            "s": "조선_선조"
+        },
+        {
+            "Rep": false,
+            "o": "신라",
+            "p": "출생지(birthPlace)",
+            "s": "조선_선조"
+        }
+    ]
+}

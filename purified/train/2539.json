@@ -1,0 +1,118 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "아폴로 극장은 인디애나 주에 있다. 아폴로 극장은 미시간 주에도 있다.",
+    "entities": {
+        "가수": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가수"
+        },
+        "미시간_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미시간_주"
+        },
+        "아폴로_극장": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아폴로_극장"
+        },
+        "얼굴": {
+            "ne_type": "AM_PART",
+            "type": [
+                "http://dbpedia.org/ontology/AnatomicalStructure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/얼굴"
+        },
+        "인디애나_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인디애나_주"
+        },
+        "잭슨": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잭슨_(미시시피_주)"
+        }
+    },
+    "id": 2539,
+    "pid": "531-7",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "잭슨"
+        },
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "얼굴"
+        },
+        {
+            "Rep": true,
+            "o": "인디애나_주",
+            "p": "위치/지역(location)",
+            "s": "아폴로_극장"
+        },
+        {
+            "Rep": true,
+            "o": "미시간_주",
+            "p": "위치/지역(location)",
+            "s": "아폴로_극장"
+        }
+    ]
+}

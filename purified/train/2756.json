@@ -1,0 +1,104 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "다비트 힐베르트의 직업은 교수다. 페르디난트 폰 린데만의 직업도 교수다. ",
+    "entities": {
+        "교수": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교수"
+        },
+        "다비트_힐베르트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다비트_힐베르트"
+        },
+        "뮌헨": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뮌헨"
+        },
+        "취리히": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/취리히"
+        },
+        "페르디난트_폰_린데만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페르디난트_폰_린데만"
+        }
+    },
+    "id": 2756,
+    "pid": "547-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "페르디난트_폰_린데만"
+        },
+        {
+            "Rep": true,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "다비트_힐베르트"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "뮌헨"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "취리히"
+        }
+    ]
+}

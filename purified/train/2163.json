@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "바린 바얀은 송나라의 리더이다. 그는 몽골의 리더이다.",
+    "entities": {
+        "몽골": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몽골"
+        },
+        "바린_바얀": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바린_바얀"
+        },
+        "송나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송나라"
+        }
+    },
+    "id": 2163,
+    "pid": "374-16",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "몽골",
+            "p": "국가(country)",
+            "s": "송나라"
+        },
+        {
+            "Rep": true,
+            "o": "바린_바얀",
+            "p": "리더이름(leaderName)",
+            "s": "송나라"
+        },
+        {
+            "Rep": false,
+            "o": "송나라",
+            "p": "국가(country)",
+            "s": "몽골"
+        },
+        {
+            "Rep": true,
+            "o": "바린_바얀",
+            "p": "리더이름(leaderName)",
+            "s": "몽골"
+        },
+        {
+            "Rep": false,
+            "o": "바린_바얀",
+            "p": "수도(capital)",
+            "s": "몽골"
+        }
+    ]
+}

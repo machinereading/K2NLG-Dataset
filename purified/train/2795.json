@@ -1,0 +1,102 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "평양직할시에는 룡천역이 있다. 평양직할시에는 신의주시도 있다.",
+    "entities": {
+        "룡천역": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RailwayStation",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/룡천역"
+        },
+        "신의주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신의주시"
+        },
+        "평양직할시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평양직할시"
+        },
+        "평의선": {
+            "ne_type": "AF_ROAD",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/RailwayLine"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평의선"
+        }
+    },
+    "id": 2795,
+    "pid": "588-8",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "평의선",
+            "p": "노선(servingRailwayLine)",
+            "s": "룡천역"
+        },
+        {
+            "Rep": true,
+            "o": "룡천역",
+            "p": "부분(part)",
+            "s": "평양직할시"
+        },
+        {
+            "Rep": true,
+            "o": "신의주시",
+            "p": "부분(part)",
+            "s": "평양직할시"
+        },
+        {
+            "Rep": false,
+            "o": "평양직할시",
+            "p": "~의부분(isPartOf)",
+            "s": "신의주시"
+        }
+    ]
+}

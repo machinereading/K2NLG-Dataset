@@ -1,0 +1,107 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "스웨덴과 스페인의 지도자는 교황 클레멘스 9세이다. ",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_클레멘스_9세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_클레멘스_9세"
+        },
+        "스웨덴": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스웨덴"
+        },
+        "스페인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 4504,
+    "pid": "61-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "교황_클레멘스_9세"
+        },
+        {
+            "Rep": true,
+            "o": "교황_클레멘스_9세",
+            "p": "지도자(leader)",
+            "s": "스웨덴"
+        },
+        {
+            "Rep": true,
+            "o": "교황_클레멘스_9세",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        }
+    ]
+}

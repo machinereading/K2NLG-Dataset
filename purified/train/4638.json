@@ -1,0 +1,150 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "방일영의 배우자는 박현숙이다.",
+    "entities": {
+        "고영선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고영선"
+        },
+        "박현숙": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박현숙_(1896년)"
+        },
+        "방우영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/방우영"
+        },
+        "방응모": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/방응모"
+        },
+        "방일영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/방일영"
+        },
+        "숙명여자고등학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/숙명여자고등학교"
+        },
+        "한학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한학자"
+        }
+    },
+    "id": 4638,
+    "pid": "331-7",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "한학자",
+            "p": "직업(occupation)",
+            "s": "고영선"
+        },
+        {
+            "Rep": false,
+            "o": "한학자",
+            "p": "직업(occupation)",
+            "s": "박현숙"
+        },
+        {
+            "Rep": true,
+            "o": "박현숙",
+            "p": "배우자(spouse)",
+            "s": "방일영"
+        },
+        {
+            "Rep": false,
+            "o": "박현숙",
+            "p": "배우자(spouse)",
+            "s": "방우영"
+        },
+        {
+            "Rep": false,
+            "o": "숙명여자고등학교",
+            "p": "학력(education)",
+            "s": "박현숙"
+        },
+        {
+            "Rep": false,
+            "o": "숙명여자고등학교",
+            "p": "학력(education)",
+            "s": "한학자"
+        },
+        {
+            "Rep": false,
+            "o": "방응모",
+            "p": "배우자(spouse)",
+            "s": "박현숙"
+        },
+        {
+            "Rep": false,
+            "o": "숙명여자고등학교",
+            "p": "학력(education)",
+            "s": "고영선"
+        },
+        {
+            "Rep": false,
+            "o": "한학자",
+            "p": "직업(occupation)",
+            "s": "숙명여자고등학교"
+        },
+        {
+            "Rep": false,
+            "o": "고영선",
+            "p": "배우자(spouse)",
+            "s": "한학자"
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "마오쩌둥은 신사군 사건에 참여하였다. 그는 신사군 사건의 지휘관이다.",
+    "entities": {
+        "국민혁명군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국민혁명군"
+        },
+        "마오쩌둥": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마오쩌둥"
+        },
+        "신사군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신사군"
+        },
+        "신사군_사건": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신사군_사건"
+        },
+        "장제스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장제스"
+        },
+        "중국국민당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국국민당"
+        }
+    },
+    "id": 4961,
+    "pid": "480-53",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "마오쩌둥",
+            "p": "지휘관(commander)",
+            "s": "신사군_사건"
+        },
+        {
+            "Rep": true,
+            "o": "신사군_사건",
+            "p": "전투(battle)",
+            "s": "마오쩌둥"
+        },
+        {
+            "Rep": false,
+            "o": "신사군_사건",
+            "p": "전투(battle)",
+            "s": "신사군"
+        },
+        {
+            "Rep": false,
+            "o": "장제스",
+            "p": "지휘관(commander)",
+            "s": "신사군_사건"
+        },
+        {
+            "Rep": false,
+            "o": "마오쩌둥",
+            "p": "전임자(predecessor)",
+            "s": "장제스"
+        },
+        {
+            "Rep": false,
+            "o": "마오쩌둥",
+            "p": "전임자(predecessor)",
+            "s": "신사군"
+        },
+        {
+            "Rep": false,
+            "o": "장제스",
+            "p": "지휘관(commander)",
+            "s": "국민혁명군"
+        },
+        {
+            "Rep": false,
+            "o": "신사군_사건",
+            "p": "전투(battle)",
+            "s": "장제스"
+        },
+        {
+            "Rep": false,
+            "o": "중국국민당",
+            "p": "정당(party)",
+            "s": "장제스"
+        },
+        {
+            "Rep": false,
+            "o": "신사군_사건",
+            "p": "전투(battle)",
+            "s": "국민혁명군"
+        },
+        {
+            "Rep": false,
+            "o": "국민혁명군",
+            "p": "직함/포지션(position)",
+            "s": "장제스"
+        }
+    ]
+}

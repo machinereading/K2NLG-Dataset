@@ -1,0 +1,113 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "조선민주주의인민공화국의 수도는 개성특급시다. 조선민주주의인민공화국에서 가장 큰 도시가 개성특급시다. ",
+    "entities": {
+        "개성특급시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개성특급시"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "조선민주주의인민공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선민주주의인민공화국"
+        },
+        "조선민주주의인민공화국_총참모부": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선민주주의인민공화국_총참모부"
+        },
+        "한반도": {
+            "ne_type": "LCG_BAY",
+            "type": [
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한반도"
+        }
+    },
+    "id": 5121,
+    "pid": "535-54",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "조선민주주의인민공화국"
+        },
+        {
+            "Rep": true,
+            "o": "개성특급시",
+            "p": "수도(capital)",
+            "s": "조선민주주의인민공화국"
+        },
+        {
+            "Rep": false,
+            "o": "조선민주주의인민공화국",
+            "p": "국가(country)",
+            "s": "한반도"
+        },
+        {
+            "Rep": true,
+            "o": "개성특급시",
+            "p": "가장큰도시(largestCity)",
+            "s": "조선민주주의인민공화국"
+        },
+        {
+            "Rep": false,
+            "o": "조선민주주의인민공화국_총참모부",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "조선민주주의인민공화국_총참모부",
+            "p": "지도자(leader)",
+            "s": "조선민주주의인민공화국"
+        }
+    ]
+}

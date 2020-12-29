@@ -1,0 +1,130 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "국민정부를 이끈 사람은 장제스이다. 그는 국공 내전에 참여하였다.",
+    "entities": {
+        "국공_내전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국공_내전"
+        },
+        "국민정부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국민정부"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "장제스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장제스"
+        },
+        "중국국민당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국국민당"
+        },
+        "중국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국인"
+        }
+    },
+    "id": 4968,
+    "pid": "480-63",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "장제스",
+            "p": "지휘관(commander)",
+            "s": "국공_내전"
+        },
+        {
+            "Rep": true,
+            "o": "장제스",
+            "p": "리더이름(leaderName)",
+            "s": "국민정부"
+        },
+        {
+            "Rep": true,
+            "o": "국공_내전",
+            "p": "전투(battle)",
+            "s": "장제스"
+        },
+        {
+            "Rep": false,
+            "o": "중국인",
+            "p": "민족(ethnicGroup)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "있는곳(populationPlace)",
+            "s": "중국인"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "사망지(deathPlace)",
+            "s": "장제스"
+        },
+        {
+            "Rep": false,
+            "o": "중국국민당",
+            "p": "정당(party)",
+            "s": "중국인"
+        }
+    ]
+}

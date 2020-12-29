@@ -1,0 +1,145 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "피사는 달마티아의 지역이다. 비잔티움 제국의 수도는 콘스탄티노폴리스다. 보나벤투라의 직함은 교황이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "달마티아": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/달마티아"
+        },
+        "박사": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Award",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박사"
+        },
+        "보나벤투라": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보나벤투라"
+        },
+        "비잔티움_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비잔티움_제국"
+        },
+        "신학": {
+            "ne_type": "FD_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신학"
+        },
+        "콘스탄티노폴리스": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/콘스탄티노폴리스"
+        },
+        "피사": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피사"
+        }
+    },
+    "id": 3690,
+    "pid": "15-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "리더이름(leaderName)",
+            "s": "비잔티움_제국"
+        },
+        {
+            "Rep": true,
+            "o": "달마티아",
+            "p": "지역/분양(region)",
+            "s": "피사"
+        },
+        {
+            "Rep": true,
+            "o": "콘스탄티노폴리스",
+            "p": "수도(capital)",
+            "s": "비잔티움_제국"
+        },
+        {
+            "Rep": false,
+            "o": "박사",
+            "p": "학력(education)",
+            "s": "신학"
+        },
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "보나벤투라"
+        },
+        {
+            "Rep": false,
+            "o": "보나벤투라",
+            "p": "리더이름(leaderName)",
+            "s": "교황"
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "윤웅렬은 윤영렬, 윤치영, 윤치소와 친척관계다. 대한제국은 유영렬, 윤웅렬, 윤치호가 이끌었다.",
+    "entities": {
+        "대한제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한제국"
+        },
+        "윤영렬": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤영렬"
+        },
+        "윤웅렬": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤웅렬"
+        },
+        "윤치소": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치소"
+        },
+        "윤치영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치영"
+        },
+        "윤치호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치호"
+        }
+    },
+    "id": 5266,
+    "pid": "541-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "윤영렬",
+            "p": "친척(relative)",
+            "s": "윤웅렬"
+        },
+        {
+            "Rep": true,
+            "o": "윤치영",
+            "p": "친척(relative)",
+            "s": "윤웅렬"
+        },
+        {
+            "Rep": true,
+            "o": "윤치소",
+            "p": "친척(relative)",
+            "s": "윤웅렬"
+        },
+        {
+            "Rep": true,
+            "o": "윤영렬",
+            "p": "리더이름(leaderName)",
+            "s": "대한제국"
+        },
+        {
+            "Rep": true,
+            "o": "윤웅렬",
+            "p": "리더이름(leaderName)",
+            "s": "대한제국"
+        },
+        {
+            "Rep": true,
+            "o": "윤치호",
+            "p": "리더이름(leaderName)",
+            "s": "대한제국"
+        },
+        {
+            "Rep": false,
+            "o": "윤웅렬",
+            "p": "친척(relative)",
+            "s": "윤치호"
+        }
+    ]
+}

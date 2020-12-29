@@ -1,0 +1,102 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "서울특별시에는 용산구가 있다. 용산구는 서울특별시의 한 부분이다.",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "미군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미군"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "용산구": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/용산구"
+        },
+        "용산기지": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/용산기지"
+        }
+    },
+    "id": 5443,
+    "pid": "647-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "용산구",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "용산구"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "미군"
+        },
+        {
+            "Rep": false,
+            "o": "용산기지",
+            "p": "~의부분(isPartOf)",
+            "s": "용산구"
+        }
+    ]
+}

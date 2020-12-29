@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "자유민주당의 지도자는 아베 신조다. 공명당은 자유민주당 소속이다.",
+    "entities": {
+        "공명당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공명당"
+        },
+        "아베_신조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아베_신조"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "자유민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유민주당_(일본)"
+        },
+        "참의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Legislature",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/참의원_(일본)"
+        }
+    },
+    "id": 5700,
+    "pid": "752-64",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "아베_신조",
+            "p": "지도자(leader)",
+            "s": "자유민주당"
+        },
+        {
+            "Rep": false,
+            "o": "참의원",
+            "p": "직함/포지션(position)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "참의원"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "공명당"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "참의원"
+        },
+        {
+            "Rep": true,
+            "o": "공명당",
+            "p": "기원/소속(affiliation)",
+            "s": "자유민주당"
+        }
+    ]
+}

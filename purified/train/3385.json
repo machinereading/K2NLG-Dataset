@@ -1,0 +1,85 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "김옥윤은 서울특별시에서 사망했다. 중림동은 서울특별시 안에 있다.",
+    "entities": {
+        "김옥윤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김옥윤"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "중림동": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중림동"
+        }
+    },
+    "id": 3385,
+    "pid": "829-250",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "사망지(deathPlace)",
+            "s": "김옥윤"
+        },
+        {
+            "Rep": true,
+            "o": "중림동",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "김옥윤",
+            "p": "리더이름(leaderName)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "지역/분양(region)",
+            "s": "중림동"
+        }
+    ]
+}

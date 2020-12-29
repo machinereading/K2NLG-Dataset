@@ -1,0 +1,109 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이승만 내각의 총리는 장택상 씨가 맡고 있다. 박정희 내각의 총리는 이범석 씨가 맡고 있다.  ",
+    "entities": {
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        },
+        "이범석": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이범석_(1900년)"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "장택상": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장택상"
+        },
+        "허정": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/허정"
+        }
+    },
+    "id": 5963,
+    "pid": "831-106",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "이범석",
+            "p": "총리(primeMinister)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "장택상",
+            "p": "총리(primeMinister)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "허정",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "이범석",
+            "p": "총리(primeMinister)",
+            "s": "박정희"
+        }
+    ]
+}
