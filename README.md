@@ -1,10 +1,8 @@
-# Dataset of Generation From Knowledge
-
-This repository provides the publicly available dataset for natural language generation from a knowledge.
+# Dataset of Knowledge to Natural Language Generation(K2NLG)
 
 이 데이터셋은 [KBox](http://kbox.kaist.ac.kr/)에서 추출한 RDF 트리플 형태의 지식을 대상으로 제작되었습니다. 
 
-##제작 방법
+## 제작 방법
 이 데이터셋은 크게 작업과 검수라는 2개의 과정으로 구축되었습니다.
 
 ### 작업 과정
@@ -64,7 +62,7 @@ This repository provides the publicly available dataset for natural language gen
 	* Naturalness: 자연스러움 정도  
 	* Quality: 문법상의 품질
 	* Restriction: 표층형 수정 허용 수준 준수
-###Example
+### Example
 
 	
 	{
