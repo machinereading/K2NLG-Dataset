@@ -1,0 +1,116 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "동해가 있는 나라는 일본이다. 한국의 지도자는 노무현이다. 일본의 지도자는 노무현이다. 미국의 지도자는 노무현이다. 노무현의 국가는 일본이다.",
+    "entities": {
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "동해": {
+            "ne_type": "LCG_OCEAN",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Artist"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동해"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "한국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국"
+        }
+    },
+    "id": 87,
+    "pid": "114-65",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "한국"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "동해"
+        },
+        {
+            "Rep": true,
+            "o": "노무현",
+            "p": "지도자(leader)",
+            "s": "한국"
+        },
+        {
+            "Rep": true,
+            "o": "노무현",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "노무현",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "노무현"
+        }
+    ]
+}

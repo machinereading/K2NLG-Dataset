@@ -1,0 +1,173 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "태백선의 소유자는 한국철도시설공단이다. 영주역의 소유조직은 한국철도공사이다. 안동역은 중앙선에 위치한다. 영주역은 중앙선에 있다. 도담역은 중앙선에 있다. 영주역은 태백선에 있다. 안동역의 노선은 태백선이다. 안동역의 소유조직은 한국철도공사이다. 제천시의 소유조직은 한국철도공사이다.",
+    "entities": {
+        "도담역": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RailwayStation",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도담역"
+        },
+        "안동역": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RailwayStation",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안동역"
+        },
+        "영주역": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RailwayStation",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영주역"
+        },
+        "제천시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제천시"
+        },
+        "중앙선": {
+            "ne_type": "AF_ROAD",
+            "type": [
+                "http://dbpedia.org/ontology/RailwayLine",
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중앙선"
+        },
+        "태백선": {
+            "ne_type": "AF_ROAD",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/RailwayLine"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태백선"
+        },
+        "한국철도공사": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국철도공사"
+        },
+        "한국철도시설공단": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국철도시설공단"
+        }
+    },
+    "id": 5330,
+    "pid": "595-24",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "한국철도시설공단",
+            "p": "소유자/주주(owner)",
+            "s": "태백선"
+        },
+        {
+            "Rep": true,
+            "o": "한국철도공사",
+            "p": "소유조직(owningOrganisation)",
+            "s": "영주역"
+        },
+        {
+            "Rep": true,
+            "o": "중앙선",
+            "p": "노선(servingRailwayLine)",
+            "s": "안동역"
+        },
+        {
+            "Rep": true,
+            "o": "중앙선",
+            "p": "노선(servingRailwayLine)",
+            "s": "영주역"
+        },
+        {
+            "Rep": true,
+            "o": "중앙선",
+            "p": "노선(servingRailwayLine)",
+            "s": "도담역"
+        },
+        {
+            "Rep": true,
+            "o": "태백선",
+            "p": "노선(servingRailwayLine)",
+            "s": "영주역"
+        },
+        {
+            "Rep": true,
+            "o": "태백선",
+            "p": "노선(servingRailwayLine)",
+            "s": "안동역"
+        },
+        {
+            "Rep": true,
+            "o": "한국철도공사",
+            "p": "소유조직(owningOrganisation)",
+            "s": "안동역"
+        },
+        {
+            "Rep": true,
+            "o": "한국철도공사",
+            "p": "소유조직(owningOrganisation)",
+            "s": "제천시"
+        }
+    ]
+}

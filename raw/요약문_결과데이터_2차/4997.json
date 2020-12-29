@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "인도인은 인도에 있다. 그들은 인도에 있는 민족 중 하나이다.",
+    "entities": {
+        "다람살라": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Town",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다람살라"
+        },
+        "달라이_라마": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/달라이_라마"
+        },
+        "승려": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/승려"
+        },
+        "인도": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인도"
+        },
+        "인도인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인도인"
+        }
+    },
+    "id": 4997,
+    "pid": "497-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "인도",
+            "p": "있는곳(populationPlace)",
+            "s": "인도인"
+        },
+        {
+            "Rep": false,
+            "o": "다람살라",
+            "p": "수도(capital)",
+            "s": "인도"
+        },
+        {
+            "Rep": false,
+            "o": "승려",
+            "p": "직업(occupation)",
+            "s": "달라이_라마"
+        },
+        {
+            "Rep": true,
+            "o": "인도인",
+            "p": "민족(ethnicGroup)",
+            "s": "인도"
+        },
+        {
+            "Rep": false,
+            "o": "인도",
+            "p": "국가(country)",
+            "s": "다람살라"
+        },
+        {
+            "Rep": false,
+            "o": "승려",
+            "p": "관련되(related)",
+            "s": "인도인"
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "노무현의 전임자는 김영삼이다. 김영삼은 노무현의 계승자이다.",
+    "entities": {
+        "김영삼": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김영삼"
+        },
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "이랜드그룹": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이랜드그룹"
+        },
+        "한국노동조합총연맹": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/TradeUnion",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국노동조합총연맹"
+        }
+    },
+    "id": 1064,
+    "pid": "114-178",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김영삼",
+            "p": "전임자(predecessor)",
+            "s": "노무현"
+        },
+        {
+            "Rep": false,
+            "o": "이랜드그룹",
+            "p": "모기업(parentCompany)",
+            "s": "한국노동조합총연맹"
+        },
+        {
+            "Rep": true,
+            "o": "김영삼",
+            "p": "계승자/후임(successor)",
+            "s": "노무현"
+        }
+    ]
+}

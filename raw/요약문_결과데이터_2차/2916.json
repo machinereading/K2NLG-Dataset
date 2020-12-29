@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "요코스카 시는 도쿄의 한 부분이다. 요코스카 시는 나가노 시의 한 부분이기도 하다.",
+    "entities": {
+        "나가노_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나가노_시"
+        },
+        "도쿄": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿄"
+        },
+        "요코스카_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요코스카_시"
+        },
+        "제7함대": {
+            "ne_type": "AF_WEAPON",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제7함대_(미국)"
+        }
+    },
+    "id": 2916,
+    "pid": "646-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "도쿄",
+            "p": "~의부분(isPartOf)",
+            "s": "요코스카_시"
+        },
+        {
+            "Rep": true,
+            "o": "나가노_시",
+            "p": "~의부분(isPartOf)",
+            "s": "요코스카_시"
+        },
+        {
+            "Rep": false,
+            "o": "제7함대",
+            "p": "~의부분(isPartOf)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "제7함대",
+            "p": "~의부분(isPartOf)",
+            "s": "나가노_시"
+        },
+        {
+            "Rep": false,
+            "o": "나가노_시",
+            "p": "~의부분(isPartOf)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "요코스카_시",
+            "p": "부분(part)",
+            "s": "나가노_시"
+        },
+        {
+            "Rep": false,
+            "o": "요코스카_시",
+            "p": "~의부분(isPartOf)",
+            "s": "도쿄"
+        }
+    ]
+}

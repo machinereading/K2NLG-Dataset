@@ -1,0 +1,192 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "비잔티움 제국의 수도는 콘스탄티노폴리스이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_인노첸시오_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_인노첸시오_3세"
+        },
+        "베네치아": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베네치아"
+        },
+        "베네치아_공화국": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베네치아_공화국"
+        },
+        "비잔티움_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비잔티움_제국"
+        },
+        "십자군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/십자군"
+        },
+        "자다르": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자다르"
+        },
+        "콘스탄티노폴리스": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/콘스탄티노폴리스"
+        },
+        "프랑스인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup",
+                "http://dbpedia.org/ontology/Population"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스인"
+        }
+    },
+    "id": 3535,
+    "pid": "0-23",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "콘스탄티노폴리스",
+            "p": "수도(capital)",
+            "s": "비잔티움_제국"
+        },
+        {
+            "Rep": false,
+            "o": "십자군",
+            "p": "전투(battle)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "자다르",
+            "p": "수도(capital)",
+            "s": "베네치아_공화국"
+        },
+        {
+            "Rep": false,
+            "o": "십자군",
+            "p": "전투(battle)",
+            "s": "교황_인노첸시오_3세"
+        },
+        {
+            "Rep": false,
+            "o": "십자군",
+            "p": "수도(capital)",
+            "s": "베네치아_공화국"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "십자군"
+        },
+        {
+            "Rep": false,
+            "o": "교황_인노첸시오_3세",
+            "p": "지휘관(commander)",
+            "s": "십자군"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_인노첸시오_3세"
+        },
+        {
+            "Rep": false,
+            "o": "십자군",
+            "p": "수도(capital)",
+            "s": "비잔티움_제국"
+        },
+        {
+            "Rep": false,
+            "o": "베네치아_공화국",
+            "p": "있는곳(populationPlace)",
+            "s": "프랑스인"
+        },
+        {
+            "Rep": false,
+            "o": "베네치아_공화국",
+            "p": "국가(country)",
+            "s": "베네치아"
+        },
+        {
+            "Rep": false,
+            "o": "베네치아_공화국",
+            "p": "국가(country)",
+            "s": "십자군"
+        }
+    ]
+}

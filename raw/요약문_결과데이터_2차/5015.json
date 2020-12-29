@@ -1,0 +1,124 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "삼성그룹의 국가는 대한민국이다. 소니는 삼성그룹의 아래에 있다.",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "마이크로소프트": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마이크로소프트"
+        },
+        "삼성그룹": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/삼성그룹"
+        },
+        "소니": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소니"
+        },
+        "심비안": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/심비안"
+        },
+        "애플": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애플_(기업)"
+        },
+        "팜_OS": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Software",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팜_OS"
+        }
+    },
+    "id": 5015,
+    "pid": "505-18",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "삼성그룹"
+        },
+        {
+            "Rep": false,
+            "o": "마이크로소프트",
+            "p": "개발자/개발사(developer)",
+            "s": "팜_OS"
+        },
+        {
+            "Rep": true,
+            "o": "삼성그룹",
+            "p": "모기업(parentCompany)",
+            "s": "소니"
+        },
+        {
+            "Rep": false,
+            "o": "애플",
+            "p": "개발자/개발사(developer)",
+            "s": "팜_OS"
+        },
+        {
+            "Rep": false,
+            "o": "심비안",
+            "p": "제품(product)",
+            "s": "마이크로소프트"
+        }
+    ]
+}

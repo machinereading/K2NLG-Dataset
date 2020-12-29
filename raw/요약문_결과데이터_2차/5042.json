@@ -1,0 +1,132 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "한나라를 이끌었던 고려 태조는 명나라에서 사망하였다. 그의 전임자는 마오쩌둥이다.",
+    "entities": {
+        "고려_태조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_태조"
+        },
+        "마오쩌둥": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마오쩌둥"
+        },
+        "명나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/명나라"
+        },
+        "전한_고제": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전한_고제"
+        },
+        "한나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한나라"
+        }
+    },
+    "id": 5042,
+    "pid": "515-17",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "고려_태조",
+            "p": "리더이름(leaderName)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "마오쩌둥",
+            "p": "리더이름(leaderName)",
+            "s": "명나라"
+        },
+        {
+            "Rep": true,
+            "o": "고려_태조",
+            "p": "리더이름(leaderName)",
+            "s": "한나라"
+        },
+        {
+            "Rep": false,
+            "o": "전한_고제",
+            "p": "리더이름(leaderName)",
+            "s": "한나라"
+        },
+        {
+            "Rep": false,
+            "o": "전한_고제",
+            "p": "리더이름(leaderName)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "마오쩌둥",
+            "p": "리더이름(leaderName)",
+            "s": "한나라"
+        },
+        {
+            "Rep": true,
+            "o": "마오쩌둥",
+            "p": "전임자(predecessor)",
+            "s": "고려_태조"
+        },
+        {
+            "Rep": true,
+            "o": "명나라",
+            "p": "사망지(deathPlace)",
+            "s": "고려_태조"
+        }
+    ]
+}

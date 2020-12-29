@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "시칠리아를 이끈 사람은 카를로 1세이다.",
+    "entities": {
+        "시칠리아": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/EthnicGroup",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시칠리아"
+        },
+        "시칠리아_섬": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Island"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시칠리아_섬"
+        },
+        "앙주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/앙주"
+        },
+        "카를로_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카를로_1세"
+        }
+    },
+    "id": 3652,
+    "pid": "13-8",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "앙주",
+            "p": "지역/분양(region)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": true,
+            "o": "카를로_1세",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": false,
+            "o": "시칠리아_섬",
+            "p": "사망지(deathPlace)",
+            "s": "카를로_1세"
+        }
+    ]
+}

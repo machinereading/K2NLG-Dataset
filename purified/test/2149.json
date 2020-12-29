@@ -1,0 +1,234 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "무라사키 시키부는 겐지 이야기의 저자이다. 그는 마쿠라노소시의 저자이다.",
+    "entities": {
+        "가나": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가나"
+        },
+        "겐지_이야기": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/겐지_이야기"
+        },
+        "고금와카집": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고금와카집"
+        },
+        "기노_쓰라유키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기노_쓰라유키"
+        },
+        "도사_닛키": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Poem"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도사_닛키"
+        },
+        "마쿠라노소시": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마쿠라노소시"
+        },
+        "무라사키_시키부": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/무라사키_시키부"
+        },
+        "무사": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/무사"
+        },
+        "승려": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/승려"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "일본어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본어"
+        },
+        "작가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작가"
+        },
+        "한시": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한시"
+        }
+    },
+    "id": 2149,
+    "pid": "367-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "겐지_이야기"
+        },
+        {
+            "Rep": false,
+            "o": "마쿠라노소시",
+            "p": "유명한작품(notableWork)",
+            "s": "기노_쓰라유키"
+        },
+        {
+            "Rep": true,
+            "o": "무라사키_시키부",
+            "p": "저자(author)",
+            "s": "겐지_이야기"
+        },
+        {
+            "Rep": true,
+            "o": "무라사키_시키부",
+            "p": "저자(author)",
+            "s": "마쿠라노소시"
+        },
+        {
+            "Rep": false,
+            "o": "기노_쓰라유키",
+            "p": "저자(author)",
+            "s": "마쿠라노소시"
+        },
+        {
+            "Rep": false,
+            "o": "승려",
+            "p": "직업(occupation)",
+            "s": "무사"
+        },
+        {
+            "Rep": false,
+            "o": "기노_쓰라유키",
+            "p": "저자(author)",
+            "s": "겐지_이야기"
+        },
+        {
+            "Rep": false,
+            "o": "마쿠라노소시",
+            "p": "유명한작품(notableWork)",
+            "s": "무라사키_시키부"
+        },
+        {
+            "Rep": false,
+            "o": "기노_쓰라유키",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "무라사키_시키부",
+            "p": "저자(author)",
+            "s": "도사_닛키"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "쓰이는곳(spokenIn)",
+            "s": "일본어"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "언어(language)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "도사_닛키",
+            "p": "유명한작품(notableWork)",
+            "s": "기노_쓰라유키"
+        },
+        {
+            "Rep": false,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "가나"
+        },
+        {
+            "Rep": false,
+            "o": "고금와카집",
+            "p": "제품(product)",
+            "s": "한시"
+        }
+    ]
+}

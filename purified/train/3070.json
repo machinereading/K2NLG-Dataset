@@ -1,0 +1,129 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "731부대의 본부는 헤이룽장 성에 있다. 하얼빈 시는 헤이룽장 성에 속한다. ",
+    "entities": {
+        "731부대": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/731부대"
+        },
+        "관동군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/관동군"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "일본_제국_육군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본_제국_육군"
+        },
+        "하얼빈_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하얼빈_시"
+        },
+        "헤이룽장_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헤이룽장_성"
+        }
+    },
+    "id": 3070,
+    "pid": "709-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "헤이룽장_성"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "하얼빈_시"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "일본_제국_육군"
+        },
+        {
+            "Rep": false,
+            "o": "하얼빈_시",
+            "p": "수도(capital)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "관동군"
+        },
+        {
+            "Rep": true,
+            "o": "헤이룽장_성",
+            "p": "~의부분(isPartOf)",
+            "s": "하얼빈_시"
+        },
+        {
+            "Rep": true,
+            "o": "헤이룽장_성",
+            "p": "본부/본사(headquarter)",
+            "s": "731부대"
+        }
+    ]
+}

@@ -1,0 +1,181 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "일본의 수도는 요코스카 시이다. 제7함ㅁ대는 요코스카 시에 있다.",
+    "entities": {
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "미국_태평양_함대": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국_태평양_함대"
+        },
+        "요코스카_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요코스카_시"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "제7함대": {
+            "ne_type": "AF_WEAPON",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제7함대_(미국)"
+        },
+        "태평양": {
+            "ne_type": "LCG_OCEAN",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Ocean",
+                "http://dbpedia.org/ontology/Airport",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태평양"
+        }
+    },
+    "id": 5438,
+    "pid": "646-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "태평양"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "미국_태평양_함대"
+        },
+        {
+            "Rep": true,
+            "o": "요코스카_시",
+            "p": "수도(capital)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "요코스카_시",
+            "p": "수도(capital)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "태평양",
+            "p": "수도(capital)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "제7함대"
+        },
+        {
+            "Rep": true,
+            "o": "요코스카_시",
+            "p": "본부/본사(headquarter)",
+            "s": "제7함대"
+        },
+        {
+            "Rep": false,
+            "o": "요코스카_시",
+            "p": "본부/본사(headquarter)",
+            "s": "미국_태평양_함대"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "요코스카_시"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "요코스카_시"
+        },
+        {
+            "Rep": false,
+            "o": "제7함대",
+            "p": "타입/종류(type)",
+            "s": "태평양"
+        },
+        {
+            "Rep": false,
+            "o": "제7함대",
+            "p": "타입/종류(type)",
+            "s": "미국_태평양_함대"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "태평양"
+        }
+    ]
+}

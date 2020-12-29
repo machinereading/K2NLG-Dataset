@@ -1,0 +1,117 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "필리프 6세는 프랑스의 지도자이다. 프랑스는 그의 안식처이다. ",
+    "entities": {
+        "스코틀랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스코틀랜드"
+        },
+        "잉글랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잉글랜드"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        },
+        "프랑스인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup",
+                "http://dbpedia.org/ontology/Population"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스인"
+        },
+        "필리프_6세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/필리프_6세"
+        }
+    },
+    "id": 300,
+    "pid": "21-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "프랑스",
+            "p": "안식처(restingPlace)",
+            "s": "필리프_6세"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "있는곳(populationPlace)",
+            "s": "프랑스인"
+        },
+        {
+            "Rep": true,
+            "o": "필리프_6세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "잉글랜드",
+            "p": "~의부분(isPartOf)",
+            "s": "스코틀랜드"
+        },
+        {
+            "Rep": false,
+            "o": "스코틀랜드",
+            "p": "국가(country)",
+            "s": "잉글랜드"
+        }
+    ]
+}

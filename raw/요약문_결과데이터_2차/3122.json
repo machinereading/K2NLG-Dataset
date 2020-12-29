@@ -1,0 +1,169 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "리콜라 루이 드 라카유는 천왕성으로 잘 알려졌다. 그는 프랑스의 지도자이다.",
+    "entities": {
+        "니콜라_루이_드_라카유": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/니콜라_루이_드_라카유"
+        },
+        "달": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/달"
+        },
+        "레온하르트_오일러": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레온하르트_오일러"
+        },
+        "알렉시_클로드_클레로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알렉시_클로드_클레로"
+        },
+        "윌리엄_허셜": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윌리엄_허셜"
+        },
+        "조제프루이_라그랑주": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조제프루이_라그랑주"
+        },
+        "천문학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/천문학자"
+        },
+        "천왕성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/천왕성"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        },
+        "피에르시몽_라플라스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피에르시몽_라플라스"
+        }
+    },
+    "id": 3122,
+    "pid": "733-15",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "천왕성",
+            "p": "~로알려진(knownFor)",
+            "s": "윌리엄_허셜"
+        },
+        {
+            "Rep": true,
+            "o": "천왕성",
+            "p": "~로알려진(knownFor)",
+            "s": "니콜라_루이_드_라카유"
+        },
+        {
+            "Rep": false,
+            "o": "달",
+            "p": "~로알려진(knownFor)",
+            "s": "피에르시몽_라플라스"
+        },
+        {
+            "Rep": false,
+            "o": "달",
+            "p": "~로알려진(knownFor)",
+            "s": "조제프루이_라그랑주"
+        },
+        {
+            "Rep": false,
+            "o": "달",
+            "p": "~로알려진(knownFor)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": false,
+            "o": "달",
+            "p": "~로알려진(knownFor)",
+            "s": "알렉시_클로드_클레로"
+        },
+        {
+            "Rep": false,
+            "o": "천왕성",
+            "p": "~로알려진(knownFor)",
+            "s": "천문학자"
+        },
+        {
+            "Rep": true,
+            "o": "니콜라_루이_드_라카유",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        }
+    ]
+}

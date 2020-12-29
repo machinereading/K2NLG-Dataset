@@ -1,0 +1,121 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "일본의 지도자는 윤보선과 문익환이다. 윤보선과 문익환은 친척관계다.",
+    "entities": {
+        "김재준": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김재준"
+        },
+        "목사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/목사"
+        },
+        "문익환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문익환"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "함석헌": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/함석헌"
+        }
+    },
+    "id": 5212,
+    "pid": "541-242",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "학력(education)",
+            "s": "함석헌"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "문익환",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "목사",
+            "p": "직업(occupation)",
+            "s": "김재준"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "친척(relative)",
+            "s": "문익환"
+        },
+        {
+            "Rep": false,
+            "o": "문익환",
+            "p": "계승자/후임(successor)",
+            "s": "윤보선"
+        }
+    ]
+}

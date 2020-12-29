@@ -1,0 +1,113 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "미군은 한국 전쟁에서 전투에 참여했다.",
+    "entities": {
+        "미군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미군"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "자위대": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자위대"
+        },
+        "태평양_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태평양_전쟁"
+        },
+        "한국_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국_전쟁"
+        }
+    },
+    "id": 2841,
+    "pid": "623-10",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "한국_전쟁",
+            "p": "전투(battle)",
+            "s": "자위대"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "장소(place)",
+            "s": "한국_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "한국_전쟁",
+            "p": "전투(battle)",
+            "s": "미군"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "장소(place)",
+            "s": "태평양_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "자위대"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "미군"
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "제천시는 충청북도에 속한다. 월악산은 제천시에 위치한다. ",
+    "entities": {
+        "경상북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상북도"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "문경시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문경시"
+        },
+        "월악산": {
+            "ne_type": "LC_TOUR",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/월악산"
+        },
+        "제천시": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제천시"
+        },
+        "충청북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/충청북도"
+        }
+    },
+    "id": 5328,
+    "pid": "595-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "경상북도",
+            "p": "있는곳(locatedInArea)",
+            "s": "월악산"
+        },
+        {
+            "Rep": true,
+            "o": "제천시",
+            "p": "있는곳(locatedInArea)",
+            "s": "월악산"
+        },
+        {
+            "Rep": false,
+            "o": "충청북도",
+            "p": "있는곳(locatedInArea)",
+            "s": "월악산"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "제천시"
+        },
+        {
+            "Rep": false,
+            "o": "문경시",
+            "p": "~의부분(isPartOf)",
+            "s": "경상북도"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "충청북도"
+        },
+        {
+            "Rep": true,
+            "o": "충청북도",
+            "p": "~의부분(isPartOf)",
+            "s": "제천시"
+        },
+        {
+            "Rep": false,
+            "o": "경상북도",
+            "p": "지역/분양(region)",
+            "s": "문경시"
+        }
+    ]
+}

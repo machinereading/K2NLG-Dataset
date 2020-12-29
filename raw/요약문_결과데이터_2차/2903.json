@@ -1,0 +1,212 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "지미 카터는 미국에서 태어났다. 그는 미국의 지도자이며 미군의 지도자다. 미군은 베트남 전쟁과 이라크 전쟁에 참여했다. 지미 카터는 미국 국적이다.",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "미군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미군"
+        },
+        "베트남_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베트남_전쟁"
+        },
+        "이라크_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이라크_전쟁"
+        },
+        "제2보병사단": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제2보병사단_(미국)"
+        },
+        "제7보병사단": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제7보병사단_(미국)"
+        },
+        "지미_카터": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지미_카터"
+        },
+        "한국_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국_전쟁"
+        },
+        "한반도": {
+            "ne_type": "LCG_BAY",
+            "type": [
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한반도"
+        }
+    },
+    "id": 2903,
+    "pid": "644-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "출생지(birthPlace)",
+            "s": "지미_카터"
+        },
+        {
+            "Rep": false,
+            "o": "한국_전쟁",
+            "p": "전투(battle)",
+            "s": "제2보병사단"
+        },
+        {
+            "Rep": false,
+            "o": "이라크_전쟁",
+            "p": "전투(battle)",
+            "s": "제2보병사단"
+        },
+        {
+            "Rep": false,
+            "o": "베트남_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "이라크_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "이라크_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "베트남_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "지미_카터",
+            "p": "지도자(leader)",
+            "s": "한반도"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "미군"
+        },
+        {
+            "Rep": false,
+            "o": "제7보병사단",
+            "p": "타입/종류(type)",
+            "s": "제2보병사단"
+        },
+        {
+            "Rep": true,
+            "o": "베트남_전쟁",
+            "p": "전투(battle)",
+            "s": "미군"
+        },
+        {
+            "Rep": true,
+            "o": "이라크_전쟁",
+            "p": "전투(battle)",
+            "s": "미군"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "제7보병사단"
+        },
+        {
+            "Rep": true,
+            "o": "지미_카터",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "한반도"
+        },
+        {
+            "Rep": true,
+            "o": "지미_카터",
+            "p": "지도자(leader)",
+            "s": "미군"
+        },
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "국적(nationality)",
+            "s": "지미_카터"
+        }
+    ]
+}

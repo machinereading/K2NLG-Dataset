@@ -1,0 +1,95 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김굉필과 정광필은 친척관계다.",
+    "entities": {
+        "김굉필": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김굉필"
+        },
+        "정광필": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정광필"
+        },
+        "정몽주": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정몽주"
+        }
+    },
+    "id": 3964,
+    "pid": "230-35",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "김굉필",
+            "p": "친척(relative)",
+            "s": "정광필"
+        },
+        {
+            "Rep": false,
+            "o": "정몽주",
+            "p": "친척(relative)",
+            "s": "김굉필"
+        },
+        {
+            "Rep": false,
+            "o": "김굉필",
+            "p": "친척(relative)",
+            "s": "정몽주"
+        },
+        {
+            "Rep": false,
+            "o": "정광필",
+            "p": "친척(relative)",
+            "s": "정몽주"
+        },
+        {
+            "Rep": true,
+            "o": "정광필",
+            "p": "친척(relative)",
+            "s": "김굉필"
+        },
+        {
+            "Rep": false,
+            "o": "정몽주",
+            "p": "친척(relative)",
+            "s": "정광필"
+        }
+    ]
+}

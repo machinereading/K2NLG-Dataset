@@ -1,0 +1,191 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "체사레 보르자는 오스만 제국의 리더다. 그는 스페인을 이끌었다. 그는 프랑스의 지도자다. 그는 교황 레오 10세의 걔승자다.",
+    "entities": {
+        "교황_레오_10세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_레오_10세"
+        },
+        "로렌초_데_메디치": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로렌초_데_메디치"
+        },
+        "스페인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인"
+        },
+        "오스만_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스만_제국"
+        },
+        "잉글랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잉글랜드"
+        },
+        "줄리아노_데_메디치": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/줄리아노_데_메디치"
+        },
+        "체사레_보르자": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/체사레_보르자"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 4332,
+    "pid": "42-10",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": true,
+            "o": "체사레_보르자",
+            "p": "리더이름(leaderName)",
+            "s": "오스만_제국"
+        },
+        {
+            "Rep": false,
+            "o": "스페인",
+            "p": "국가(country)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": false,
+            "o": "교황_레오_10세",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        },
+        {
+            "Rep": true,
+            "o": "체사레_보르자",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "교황_레오_10세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "스페인"
+        },
+        {
+            "Rep": true,
+            "o": "체사레_보르자",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "스페인",
+            "p": "국가(country)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "로렌초_데_메디치",
+            "p": "계승자/후임(successor)",
+            "s": "줄리아노_데_메디치"
+        },
+        {
+            "Rep": false,
+            "o": "교황_레오_10세",
+            "p": "리더이름(leaderName)",
+            "s": "오스만_제국"
+        },
+        {
+            "Rep": true,
+            "o": "체사레_보르자",
+            "p": "계승자/후임(successor)",
+            "s": "교황_레오_10세"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "오스만_제국"
+        }
+    ]
+}

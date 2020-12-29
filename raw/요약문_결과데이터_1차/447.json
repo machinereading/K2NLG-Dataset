@@ -1,0 +1,142 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "존 피셔(성직자)는 잉글랜드에서 태어났다. 잉글랜드 왕국을 이끈 사람은 카를 5세다. 잉글랜드의 지도자는 헨리 8세다. 존 피셔 (성직자)는 캔터베리에서 태어났다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "대주교": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대주교"
+        },
+        "잉글랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잉글랜드"
+        },
+        "잉글랜드_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잉글랜드_왕국"
+        },
+        "존_피셔_(성직자)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Cardinal",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/존_피셔_(성직자)"
+        },
+        "카를_5세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카를_5세"
+        },
+        "캔터베리": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캔터베리"
+        },
+        "헨리_8세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헨리_8세"
+        }
+    },
+    "id": 447,
+    "pid": "43-14",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "잉글랜드",
+            "p": "출생지(birthPlace)",
+            "s": "존_피셔_(성직자)"
+        },
+        {
+            "Rep": true,
+            "o": "카를_5세",
+            "p": "리더이름(leaderName)",
+            "s": "잉글랜드_왕국"
+        },
+        {
+            "Rep": true,
+            "o": "헨리_8세",
+            "p": "지도자(leader)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": true,
+            "o": "캔터베리",
+            "p": "출생지(birthPlace)",
+            "s": "존_피셔_(성직자)"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "대주교"
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "대한민국의 지도자는 이시연 (1980년)이다. 이시연 (1980년)은 대한민국 국적이다. ",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "동성애자인권연대": {
+            "ne_type": "OG_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동성애자인권연대"
+        },
+        "이시연_(1980년)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이시연_(1980년)"
+        },
+        "하리수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Model",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하리수"
+        },
+        "홍석천": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍석천"
+        }
+    },
+    "id": 797,
+    "pid": "280-122",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "출생지(birthPlace)",
+            "s": "하리수"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "출생지(birthPlace)",
+            "s": "홍석천"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국적(nationality)",
+            "s": "이시연_(1980년)"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "서비스지역/활동지역(regionServed)",
+            "s": "동성애자인권연대"
+        },
+        {
+            "Rep": true,
+            "o": "이시연_(1980년)",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        }
+    ]
+}

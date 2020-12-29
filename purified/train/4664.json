@@ -1,0 +1,127 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "블리자드 엔터테인먼트는 스타크래프트의 개발사다. 블리자드 엔터테인먼트의 제품은 배틀넷이다.",
+    "entities": {
+        "배틀넷": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Software",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/배틀넷"
+        },
+        "블리자드_엔터테인먼트": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/블리자드_엔터테인먼트"
+        },
+        "스타크래프트": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/VideoGame",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스타크래프트"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "한국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국어"
+        },
+        "한글": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한글"
+        }
+    },
+    "id": 4664,
+    "pid": "354-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "블리자드_엔터테인먼트",
+            "p": "개발자/개발사(developer)",
+            "s": "스타크래프트"
+        },
+        {
+            "Rep": true,
+            "o": "배틀넷",
+            "p": "제품(product)",
+            "s": "블리자드_엔터테인먼트"
+        },
+        {
+            "Rep": false,
+            "o": "한글",
+            "p": "제품(product)",
+            "s": "블리자드_엔터테인먼트"
+        },
+        {
+            "Rep": false,
+            "o": "한글",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "한글",
+            "p": "계통(languageFamily)",
+            "s": "한국어"
+        },
+        {
+            "Rep": false,
+            "o": "블리자드_엔터테인먼트",
+            "p": "개발자/개발사(developer)",
+            "s": "한글"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "한국어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "블리자드_엔터테인먼트"
+        }
+    ]
+}

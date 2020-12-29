@@ -1,0 +1,96 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": false
+        }
+    ],
+    "Text": "김구는 조소앙의 전임자다. 그의 계승자는 김성수다.",
+    "entities": {
+        "김구": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김구"
+        },
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "조소앙": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조소앙"
+        }
+    },
+    "id": 3331,
+    "pid": "819-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김구",
+            "p": "전임자(predecessor)",
+            "s": "조소앙"
+        },
+        {
+            "Rep": false,
+            "o": "김구",
+            "p": "전임자(predecessor)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "전임자(predecessor)",
+            "s": "조소앙"
+        },
+        {
+            "Rep": false,
+            "o": "조소앙",
+            "p": "전임자(predecessor)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "조소앙",
+            "p": "전임자(predecessor)",
+            "s": "김구"
+        },
+        {
+            "Rep": true,
+            "o": "김성수",
+            "p": "계승자/후임(successor)",
+            "s": "김구"
+        }
+    ]
+}

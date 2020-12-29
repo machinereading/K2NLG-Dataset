@@ -1,0 +1,130 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "강철의 연금술사의 배급사는 스퀘어 에닉스다. 강철의 연금술사의 장르는 애니메이션이다. ",
+    "entities": {
+        "강철의_연금술사": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Comic",
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Manga"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강철의_연금술사"
+        },
+        "스퀘어_에닉스": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스퀘어_에닉스"
+        },
+        "아라카와_히로무": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/ComicsCreator",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아라카와_히로무"
+        },
+        "애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "월간_소년_간간": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/PeriodicalLiterature",
+                "http://dbpedia.org/ontology/Magazine",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/월간_소년_간간"
+        }
+    },
+    "id": 4016,
+    "pid": "244-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "강철의_연금술사",
+            "p": "~로알려진(knownFor)",
+            "s": "아라카와_히로무"
+        },
+        {
+            "Rep": false,
+            "o": "월간_소년_간간",
+            "p": "배급(publisher)",
+            "s": "강철의_연금술사"
+        },
+        {
+            "Rep": true,
+            "o": "스퀘어_에닉스",
+            "p": "배급(publisher)",
+            "s": "강철의_연금술사"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "~로알려진(knownFor)",
+            "s": "아라카와_히로무"
+        },
+        {
+            "Rep": false,
+            "o": "월간_소년_간간",
+            "p": "~로알려진(knownFor)",
+            "s": "아라카와_히로무"
+        },
+        {
+            "Rep": true,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "강철의_연금술사"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "월간_소년_간간"
+        },
+        {
+            "Rep": false,
+            "o": "스퀘어_에닉스",
+            "p": "~로알려진(knownFor)",
+            "s": "아라카와_히로무"
+        }
+    ]
+}

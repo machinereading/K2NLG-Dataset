@@ -1,0 +1,131 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "대한민국 임시 정부는 미국에 위치해있다. 일본은 중화민국의 나라다. ",
+    "entities": {
+        "대한민국_임시_정부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_임시_정부"
+        },
+        "대한민국_정부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_정부"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "상하이_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/상하이_시"
+        },
+        "소련": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소련"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "중화민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화민국"
+        }
+    },
+    "id": 1643,
+    "pid": "280-56",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "위치/지역(location)",
+            "s": "대한민국_정부"
+        },
+        {
+            "Rep": false,
+            "o": "상하이_시",
+            "p": "~의부분(isPartOf)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "소련"
+        },
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "위치/지역(location)",
+            "s": "대한민국_임시_정부"
+        }
+    ]
+}

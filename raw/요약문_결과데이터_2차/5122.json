@@ -1,0 +1,127 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        }
+    ],
+    "Text": "조선민주주의인민공화국은 한반도에 있는 국가이다. 조선민주주의인민공화국과 중화인민공화국은 인접 국가이다. 조선은 대한민국의 전신이었던 국가이다. 조선은 한반도에 있던 국가이다.",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "조선": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/NobleFamily",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Family",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선"
+        },
+        "조선민주주의인민공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선민주주의인민공화국"
+        },
+        "중화인민공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화인민공화국"
+        },
+        "한반도": {
+            "ne_type": "LCG_BAY",
+            "type": [
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한반도"
+        }
+    },
+    "id": 5122,
+    "pid": "535-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "중화인민공화국",
+            "p": "국가(country)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "중화인민공화국",
+            "p": "국가(country)",
+            "s": "한반도"
+        },
+        {
+            "Rep": true,
+            "o": "조선민주주의인민공화국",
+            "p": "국가(country)",
+            "s": "한반도"
+        },
+        {
+            "Rep": true,
+            "o": "중화인민공화국",
+            "p": "국가(country)",
+            "s": "조선민주주의인민공화국"
+        },
+        {
+            "Rep": false,
+            "o": "조선민주주의인민공화국",
+            "p": "국가(country)",
+            "s": "조선"
+        },
+        {
+            "Rep": true,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "조선민주주의인민공화국"
+        },
+        {
+            "Rep": true,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "한반도"
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "숭덕제는 효장문황후의 배우자이다. 그의 자식은 화석각순장공주이다.",
+    "entities": {
+        "숭덕제": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/숭덕제"
+        },
+        "오삼계": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오삼계"
+        },
+        "오응웅": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오응웅"
+        },
+        "화석각순장공주": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/화석각순장공주"
+        },
+        "효장문황후": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/효장문황후"
+        }
+    },
+    "id": 1341,
+    "pid": "197-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "숭덕제",
+            "p": "배우자(spouse)",
+            "s": "효장문황후"
+        },
+        {
+            "Rep": true,
+            "o": "화석각순장공주",
+            "p": "자식(child)",
+            "s": "숭덕제"
+        },
+        {
+            "Rep": false,
+            "o": "오응웅",
+            "p": "자식(child)",
+            "s": "오삼계"
+        },
+        {
+            "Rep": false,
+            "o": "오삼계",
+            "p": "배우자(spouse)",
+            "s": "화석각순장공주"
+        }
+    ]
+}

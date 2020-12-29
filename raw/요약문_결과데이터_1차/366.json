@@ -1,0 +1,117 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황의 직업은 작가이다. 그의 직업은 저널리스트이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "바티칸_시국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/WorldHeritageSite",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바티칸_시국"
+        },
+        "십자군": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/십자군"
+        },
+        "작가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작가"
+        },
+        "저널리스트": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/저널리스트"
+        }
+    },
+    "id": 366,
+    "pid": "34-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "교황"
+        },
+        {
+            "Rep": true,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "저널리스트"
+        },
+        {
+            "Rep": false,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "작가"
+        },
+        {
+            "Rep": false,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "바티칸_시국"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "십자군"
+        }
+    ]
+}

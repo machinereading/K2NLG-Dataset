@@ -1,0 +1,142 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "요나라는 내몽골 자치구에 속한다. 요나라의 수도는 거란이다. ",
+    "entities": {
+        "거란": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/거란"
+        },
+        "내몽골_자치구": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/내몽골_자치구"
+        },
+        "만주": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주"
+        },
+        "베이징_시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베이징_시"
+        },
+        "서하": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서하"
+        },
+        "요나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요나라"
+        }
+    },
+    "id": 175,
+    "pid": "176-12",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "내몽골_자치구",
+            "p": "~의부분(isPartOf)",
+            "s": "베이징_시"
+        },
+        {
+            "Rep": false,
+            "o": "만주",
+            "p": "~의부분(isPartOf)",
+            "s": "베이징_시"
+        },
+        {
+            "Rep": false,
+            "o": "내몽골_자치구",
+            "p": "~의부분(isPartOf)",
+            "s": "서하"
+        },
+        {
+            "Rep": false,
+            "o": "거란",
+            "p": "~의부분(isPartOf)",
+            "s": "베이징_시"
+        },
+        {
+            "Rep": true,
+            "o": "내몽골_자치구",
+            "p": "~의부분(isPartOf)",
+            "s": "요나라"
+        },
+        {
+            "Rep": false,
+            "o": "요나라",
+            "p": "~의부분(isPartOf)",
+            "s": "베이징_시"
+        },
+        {
+            "Rep": false,
+            "o": "만주",
+            "p": "~의부분(isPartOf)",
+            "s": "서하"
+        },
+        {
+            "Rep": false,
+            "o": "요나라",
+            "p": "국가(country)",
+            "s": "만주"
+        },
+        {
+            "Rep": true,
+            "o": "거란",
+            "p": "수도(capital)",
+            "s": "요나라"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "다케시타 노보루의 전임자는 나카소네 야스히로다.",
+    "entities": {
+        "나카소네_야스히로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나카소네_야스히로"
+        },
+        "다케시타_노보루": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다케시타_노보루"
+        },
+        "미야자와_기이치": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미야자와_기이치"
+        },
+        "아베_신타로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아베_신타로"
+        }
+    },
+    "id": 5682,
+    "pid": "752-32",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "나카소네_야스히로",
+            "p": "전임자(predecessor)",
+            "s": "다케시타_노보루"
+        },
+        {
+            "Rep": false,
+            "o": "다케시타_노보루",
+            "p": "계승자/후임(successor)",
+            "s": "나카소네_야스히로"
+        },
+        {
+            "Rep": false,
+            "o": "다케시타_노보루",
+            "p": "전임자(predecessor)",
+            "s": "미야자와_기이치"
+        },
+        {
+            "Rep": false,
+            "o": "다케시타_노보루",
+            "p": "계승자/후임(successor)",
+            "s": "아베_신타로"
+        }
+    ]
+}

@@ -1,0 +1,160 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "장제스의 국가는 중화민국이다. 그는 중화민국의 리더였다.",
+    "entities": {
+        "나치_독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나치_독일"
+        },
+        "영국군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국군"
+        },
+        "이탈리아_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아_왕국"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "장제스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장제스"
+        },
+        "중화민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화민국"
+        }
+    },
+    "id": 2439,
+    "pid": "480-55",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "장제스"
+        },
+        {
+            "Rep": true,
+            "o": "장제스",
+            "p": "리더이름(leaderName)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": false,
+            "o": "장제스",
+            "p": "리더이름(leaderName)",
+            "s": "이탈리아_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "장제스",
+            "p": "지도자(leader)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "나치_독일",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아_왕국",
+            "p": "국가(country)",
+            "s": "장제스"
+        },
+        {
+            "Rep": false,
+            "o": "장제스",
+            "p": "리더이름(leaderName)",
+            "s": "나치_독일"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "사망지(deathPlace)",
+            "s": "장제스"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "위치/지역(location)",
+            "s": "나치_독일"
+        },
+        {
+            "Rep": false,
+            "o": "나치_독일",
+            "p": "국가(country)",
+            "s": "영국군"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        }
+    ],
+    "Text": "나심토노미야 모리마사 왕은 일본을 이끄는 지도자다. 그의 배우자는 이방자다.",
+    "entities": {
+        "나시모토노미야_모리마사_왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나시모토노미야_모리마사_왕"
+        },
+        "의민태자": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의민태자"
+        },
+        "이방자": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이방자"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        }
+    },
+    "id": 4822,
+    "pid": "439-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "이방자",
+            "p": "배우자(spouse)",
+            "s": "의민태자"
+        },
+        {
+            "Rep": false,
+            "o": "나시모토노미야_모리마사_왕",
+            "p": "배우자(spouse)",
+            "s": "의민태자"
+        },
+        {
+            "Rep": true,
+            "o": "나시모토노미야_모리마사_왕",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "이방자",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "이방자",
+            "p": "배우자(spouse)",
+            "s": "나시모토노미야_모리마사_왕"
+        }
+    ]
+}

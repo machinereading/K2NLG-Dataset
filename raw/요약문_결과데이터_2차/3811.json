@@ -1,0 +1,141 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": false
+        }
+    ],
+    "Text": "중국인은 일본에 있다. 그들은 포르투갈에도 있다. 그들을 청나라에도 있었다.",
+    "entities": {
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "중국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국어"
+        },
+        "중국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국인"
+        },
+        "청나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청나라"
+        },
+        "포르투갈": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포르투갈"
+        }
+    },
+    "id": 3811,
+    "pid": "195-15",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "중국어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "청나라"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "있는곳(populationPlace)",
+            "s": "중국인"
+        },
+        {
+            "Rep": true,
+            "o": "포르투갈",
+            "p": "있는곳(populationPlace)",
+            "s": "중국인"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "청나라"
+        },
+        {
+            "Rep": true,
+            "o": "청나라",
+            "p": "있는곳(populationPlace)",
+            "s": "중국인"
+        },
+        {
+            "Rep": false,
+            "o": "청나라",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "중국인",
+            "p": "민족(ethnicGroup)",
+            "s": "포르투갈"
+        },
+        {
+            "Rep": false,
+            "o": "중국인",
+            "p": "민족(ethnicGroup)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "포르투갈",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "포르투갈"
+        },
+        {
+            "Rep": false,
+            "o": "포르투갈",
+            "p": "국가(country)",
+            "s": "청나라"
+        }
+    ]
+}

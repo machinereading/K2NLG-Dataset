@@ -1,0 +1,184 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "김구는 정화왕후의 배우자다. 그의 계승자는 김성수다.",
+    "entities": {
+        "김구": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김구"
+        },
+        "김규식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김규식"
+        },
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "안재홍": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안재홍"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "정화왕후": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정화왕후"
+        },
+        "한국의_군정기": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국의_군정기"
+        }
+    },
+    "id": 6033,
+    "pid": "833-49",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "한국의_군정기",
+            "p": "직업(occupation)",
+            "s": "김구"
+        },
+        {
+            "Rep": false,
+            "o": "정화왕후",
+            "p": "배우자(spouse)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "정화왕후",
+            "p": "배우자(spouse)",
+            "s": "김구"
+        },
+        {
+            "Rep": false,
+            "o": "김구",
+            "p": "배우자(spouse)",
+            "s": "정화왕후"
+        },
+        {
+            "Rep": false,
+            "o": "김규식",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "김구",
+            "p": "배우자(spouse)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "이승만",
+            "p": "배우자(spouse)",
+            "s": "정화왕후"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "지도자(leader)",
+            "s": "한국의_군정기"
+        },
+        {
+            "Rep": false,
+            "o": "이승만",
+            "p": "계승자/후임(successor)",
+            "s": "김구"
+        },
+        {
+            "Rep": false,
+            "o": "한국의_군정기",
+            "p": "직함/포지션(position)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "김성수",
+            "p": "계승자/후임(successor)",
+            "s": "김구"
+        },
+        {
+            "Rep": false,
+            "o": "이승만",
+            "p": "지도자(leader)",
+            "s": "한국의_군정기"
+        },
+        {
+            "Rep": false,
+            "o": "안재홍",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        }
+    ]
+}

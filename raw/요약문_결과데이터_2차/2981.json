@@ -1,0 +1,90 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "가지산은 경상남도에 위치한다.",
+    "entities": {
+        "가지산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가지산_(경상도)"
+        },
+        "경상남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상남도"
+        },
+        "대구광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대구광역시"
+        },
+        "밀양시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/밀양시"
+        }
+    },
+    "id": 2981,
+    "pid": "659-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "경상남도",
+            "p": "있는곳(locatedInArea)",
+            "s": "가지산"
+        },
+        {
+            "Rep": false,
+            "o": "대구광역시",
+            "p": "있는곳(locatedInArea)",
+            "s": "가지산"
+        },
+        {
+            "Rep": false,
+            "o": "가지산",
+            "p": "지역/분양(region)",
+            "s": "밀양시"
+        }
+    ]
+}

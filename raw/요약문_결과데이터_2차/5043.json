@@ -1,0 +1,91 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "덩샤오핑의 전임자는 화궈펑이다. 화궈펑의 전임자는 마오쩌둥이다. 덩샤오핑의 전임자는 마오쩌둥이다.",
+    "entities": {
+        "덩샤오핑": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/덩샤오핑"
+        },
+        "마오쩌둥": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마오쩌둥"
+        },
+        "화궈펑": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/화궈펑"
+        }
+    },
+    "id": 5043,
+    "pid": "515-18",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "화궈펑",
+            "p": "전임자(predecessor)",
+            "s": "덩샤오핑"
+        },
+        {
+            "Rep": true,
+            "o": "마오쩌둥",
+            "p": "전임자(predecessor)",
+            "s": "화궈펑"
+        },
+        {
+            "Rep": false,
+            "o": "덩샤오핑",
+            "p": "전임자(predecessor)",
+            "s": "화궈펑"
+        },
+        {
+            "Rep": true,
+            "o": "마오쩌둥",
+            "p": "전임자(predecessor)",
+            "s": "덩샤오핑"
+        }
+    ]
+}

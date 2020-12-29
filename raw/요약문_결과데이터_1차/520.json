@@ -1,0 +1,156 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 인노첸시오 9세는 이탈리아에서 사망했다. 그의 계승자는 교황 클레멘스 8세이다. 교황 인노첸시오 9세의 직함은 교황이었다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_인노첸시오_9세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_인노첸시오_9세"
+        },
+        "교황_클레멘스_8세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_클레멘스_8세"
+        },
+        "스페인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인"
+        },
+        "이탈리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아"
+        },
+        "정치가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정치가"
+        },
+        "펠리페_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/펠리페_2세"
+        }
+    },
+    "id": 520,
+    "pid": "54-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "이탈리아",
+            "p": "사망지(deathPlace)",
+            "s": "교황_인노첸시오_9세"
+        },
+        {
+            "Rep": true,
+            "o": "교황_클레멘스_8세",
+            "p": "계승자/후임(successor)",
+            "s": "교황_인노첸시오_9세"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "정치가"
+        },
+        {
+            "Rep": false,
+            "o": "펠리페_2세",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        },
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_인노첸시오_9세"
+        },
+        {
+            "Rep": false,
+            "o": "펠리페_2세",
+            "p": "지도자(leader)",
+            "s": "이탈리아"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "교황_인노첸시오_9세",
+            "p": "계승자/후임(successor)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황"
+        }
+    ]
+}

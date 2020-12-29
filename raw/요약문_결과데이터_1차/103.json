@@ -1,0 +1,162 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "공각기동대의 장르는 애니메이션이다. 공각기동대는 비디오 게임 장르로도 출시되었다.",
+    "entities": {
+        "공각기동대": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Comic",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Manga"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공각기동대"
+        },
+        "비디오_게임": {
+            "ne_type": "TMIG_GENRE",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비디오_게임"
+        },
+        "애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "텔레비전": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/텔레비전"
+        }
+    },
+    "id": 103,
+    "pid": "126-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "공각기동대"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "비디오_게임",
+            "p": "장르(genre)",
+            "s": "애니메이션"
+        },
+        {
+            "Rep": true,
+            "o": "비디오_게임",
+            "p": "장르(genre)",
+            "s": "공각기동대"
+        },
+        {
+            "Rep": false,
+            "o": "텔레비전",
+            "p": "장르(genre)",
+            "s": "애니메이션"
+        },
+        {
+            "Rep": false,
+            "o": "비디오_게임",
+            "p": "장르(genre)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "비디오_게임"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "텔레비전"
+        },
+        {
+            "Rep": false,
+            "o": "비디오_게임",
+            "p": "장르(genre)",
+            "s": "텔레비전"
+        },
+        {
+            "Rep": false,
+            "o": "텔레비전",
+            "p": "장르(genre)",
+            "s": "공각기동대"
+        },
+        {
+            "Rep": false,
+            "o": "텔레비전",
+            "p": "장르(genre)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "공각기동대"
+        },
+        {
+            "Rep": false,
+            "o": "텔레비전",
+            "p": "장르(genre)",
+            "s": "비디오_게임"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "애니메이션"
+        }
+    ]
+}

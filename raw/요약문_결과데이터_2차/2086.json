@@ -1,0 +1,169 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "린 마굴리스의 직업은 교수이다. 그는 지구로 잘 알려졌다.",
+    "entities": {
+        "교수": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교수"
+        },
+        "린_마굴리스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/린_마굴리스"
+        },
+        "매사추세츠_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/매사추세츠_대학교"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "생물학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/생물학자"
+        },
+        "지구": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지구"
+        }
+    },
+    "id": 2086,
+    "pid": "305-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "매사추세츠_대학교"
+        },
+        {
+            "Rep": true,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "린_마굴리스"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "생물학자"
+        },
+        {
+            "Rep": true,
+            "o": "지구",
+            "p": "~로알려진(knownFor)",
+            "s": "린_마굴리스"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "지구"
+        },
+        {
+            "Rep": false,
+            "o": "생물학자",
+            "p": "직업(occupation)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "생물학자",
+            "p": "직업(occupation)",
+            "s": "린_마굴리스"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "교수"
+        },
+        {
+            "Rep": false,
+            "o": "생물학자",
+            "p": "국가(country)",
+            "s": "매사추세츠_대학교"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "지구",
+            "p": "~로알려진(knownFor)",
+            "s": "생물학자"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "지구"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "생물학자"
+        },
+        {
+            "Rep": false,
+            "o": "생물학자",
+            "p": "~로알려진(knownFor)",
+            "s": "교수"
+        }
+    ]
+}

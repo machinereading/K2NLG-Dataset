@@ -1,0 +1,107 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "강문봉과 김창룡의 직업은 교사이다. ",
+    "entities": {
+        "강문봉": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강문봉"
+        },
+        "교사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교사"
+        },
+        "김창룡": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김창룡"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "정일권": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정일권"
+        }
+    },
+    "id": 5836,
+    "pid": "818-30",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "교사",
+            "p": "직업(occupation)",
+            "s": "강문봉"
+        },
+        {
+            "Rep": true,
+            "o": "교사",
+            "p": "직업(occupation)",
+            "s": "김창룡"
+        },
+        {
+            "Rep": false,
+            "o": "정일권",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "강문봉",
+            "p": "전임자(predecessor)",
+            "s": "정일권"
+        },
+        {
+            "Rep": false,
+            "o": "교사",
+            "p": "직업(occupation)",
+            "s": "정일권"
+        }
+    ]
+}

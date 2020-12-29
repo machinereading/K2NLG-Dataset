@@ -1,0 +1,105 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "로버트 오펜하이머는 맨해튼 계획으로 유명해졌다. 로스앨러모스의 직업은 교수다. 스타니스와프 울람은 캘리포니아 대학교 출신이다.",
+    "entities": {
+        "교수": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교수"
+        },
+        "로버트_오펜하이머": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로버트_오펜하이머"
+        },
+        "로스앨러모스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로스앨러모스"
+        },
+        "맨해튼_계획": {
+            "ne_type": "TMI_PROJECT",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/맨해튼_계획"
+        },
+        "스타니스와프_울람": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스타니스와프_울람"
+        },
+        "캘리포니아_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캘리포니아_대학교"
+        }
+    },
+    "id": 3117,
+    "pid": "729-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "맨해튼_계획",
+            "p": "~로알려진(knownFor)",
+            "s": "로버트_오펜하이머"
+        },
+        {
+            "Rep": true,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "로스앨러모스"
+        },
+        {
+            "Rep": true,
+            "o": "캘리포니아_대학교",
+            "p": "학력(education)",
+            "s": "스타니스와프_울람"
+        }
+    ]
+}

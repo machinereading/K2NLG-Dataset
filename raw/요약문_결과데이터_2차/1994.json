@@ -1,0 +1,91 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "사부아의 국가는 포르투갈이다. 포르투갈의 지도자는 교황 베네딕토 13세이다.",
+    "entities": {
+        "교황_베네딕토_13세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_베네딕토_13세"
+        },
+        "사르데냐": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사르데냐"
+        },
+        "사부아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사부아"
+        },
+        "포르투갈": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포르투갈"
+        }
+    },
+    "id": 1994,
+    "pid": "68-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "포르투갈",
+            "p": "국가(country)",
+            "s": "사부아"
+        },
+        {
+            "Rep": true,
+            "o": "교황_베네딕토_13세",
+            "p": "지도자(leader)",
+            "s": "포르투갈"
+        },
+        {
+            "Rep": false,
+            "o": "포르투갈",
+            "p": "국가(country)",
+            "s": "사르데냐"
+        }
+    ]
+}

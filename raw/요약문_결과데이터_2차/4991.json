@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "의친왕의 국가는 대한제국이다. 의친왕의 부모는 조선 정조이다.",
+    "entities": {
+        "대한제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한제국"
+        },
+        "의친왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의친왕"
+        },
+        "이구": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이구_(1931년)"
+        },
+        "조선_정조": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_정조"
+        }
+    },
+    "id": 4991,
+    "pid": "493-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한제국",
+            "p": "국가(country)",
+            "s": "의친왕"
+        },
+        {
+            "Rep": true,
+            "o": "의친왕",
+            "p": "부모(parent)",
+            "s": "조선_정조"
+        },
+        {
+            "Rep": false,
+            "o": "조선_정조",
+            "p": "친척(relative)",
+            "s": "이구"
+        }
+    ]
+}

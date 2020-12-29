@@ -1,0 +1,130 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 1,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "도봉산은 서울특별시에 있다. 서울특별시 안에 도봉산이 있다.",
+    "entities": {
+        "도봉산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도봉산"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "안암동": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안암동"
+        },
+        "장위동": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장위동"
+        },
+        "창신동": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/창신동"
+        }
+    },
+    "id": 1672,
+    "pid": "284-16",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "있는곳(locatedInArea)",
+            "s": "도봉산"
+        },
+        {
+            "Rep": false,
+            "o": "장위동",
+            "p": "지역/분양(region)",
+            "s": "창신동"
+        },
+        {
+            "Rep": false,
+            "o": "장위동",
+            "p": "지역/분양(region)",
+            "s": "안암동"
+        },
+        {
+            "Rep": false,
+            "o": "창신동",
+            "p": "지역/분양(region)",
+            "s": "안암동"
+        },
+        {
+            "Rep": false,
+            "o": "창신동",
+            "p": "지역/분양(region)",
+            "s": "장위동"
+        },
+        {
+            "Rep": false,
+            "o": "안암동",
+            "p": "지역/분양(region)",
+            "s": "창신동"
+        },
+        {
+            "Rep": false,
+            "o": "안암동",
+            "p": "지역/분양(region)",
+            "s": "장위동"
+        },
+        {
+            "Rep": true,
+            "o": "도봉산",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        }
+    ]
+}

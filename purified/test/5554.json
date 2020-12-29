@@ -1,0 +1,94 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "부산 아이파크는 안익수, 황선홍이 맡았던 클럽이다. 포항 스틸러스는 황선홍이 맡았던 클럽이다. ",
+    "entities": {
+        "부산_아이파크": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산_아이파크"
+        },
+        "안익수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/SportsManager",
+                "http://dbpedia.org/ontology/SoccerManager",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안익수_(축구인)"
+        },
+        "포항_스틸러스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포항_스틸러스"
+        },
+        "황선홍": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/SportsManager",
+                "http://dbpedia.org/ontology/SoccerManager",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/황선홍"
+        }
+    },
+    "id": 5554,
+    "pid": "678-15",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "부산_아이파크",
+            "p": "맡았던클럽(managerClub)",
+            "s": "안익수"
+        },
+        {
+            "Rep": true,
+            "o": "부산_아이파크",
+            "p": "맡았던클럽(managerClub)",
+            "s": "황선홍"
+        },
+        {
+            "Rep": true,
+            "o": "포항_스틸러스",
+            "p": "맡았던클럽(managerClub)",
+            "s": "황선홍"
+        }
+    ]
+}

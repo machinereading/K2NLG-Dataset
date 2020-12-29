@@ -1,0 +1,103 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "송진우와 김준연은 친척이다. 송진우는 안재홍과도 친척이다.",
+    "entities": {
+        "김준연": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김준연"
+        },
+        "송진우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송진우_(정치인)"
+        },
+        "안재홍": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안재홍"
+        },
+        "여운형": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/여운형"
+        }
+    },
+    "id": 3193,
+    "pid": "800-105",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "여운형",
+            "p": "전임자(predecessor)",
+            "s": "김준연"
+        },
+        {
+            "Rep": false,
+            "o": "여운형",
+            "p": "전임자(predecessor)",
+            "s": "안재홍"
+        },
+        {
+            "Rep": false,
+            "o": "송진우",
+            "p": "전임자(predecessor)",
+            "s": "김준연"
+        },
+        {
+            "Rep": true,
+            "o": "김준연",
+            "p": "친척(relative)",
+            "s": "송진우"
+        },
+        {
+            "Rep": true,
+            "o": "안재홍",
+            "p": "친척(relative)",
+            "s": "송진우"
+        }
+    ]
+}

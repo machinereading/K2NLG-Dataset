@@ -1,0 +1,85 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "샤르트르의 직업은 사제이다. 교황의 종교는 신학이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "사제": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사제"
+        },
+        "샤르트르": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/샤르트르"
+        },
+        "신학": {
+            "ne_type": "FD_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신학"
+        }
+    },
+    "id": 1024,
+    "pid": "1-23",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "사제",
+            "p": "직업(occupation)",
+            "s": "샤르트르"
+        },
+        {
+            "Rep": false,
+            "o": "신학",
+            "p": "직업(occupation)",
+            "s": "교황"
+        },
+        {
+            "Rep": true,
+            "o": "신학",
+            "p": "종교(religion)",
+            "s": "교황"
+        }
+    ]
+}

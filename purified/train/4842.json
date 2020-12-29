@@ -1,0 +1,110 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "사부아와 니스가 있는 국가는 이탈리아다. ",
+    "entities": {
+        "니스": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/니스_(프랑스)"
+        },
+        "사부아": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사부아"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "이탈리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 4842,
+    "pid": "443-20",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "사부아"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "이탈리아"
+        },
+        {
+            "Rep": true,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "니스"
+        }
+    ]
+}

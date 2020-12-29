@@ -1,0 +1,186 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "윤보선의 정당은 민정당이다.",
+    "entities": {
+        "민정당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민정당"
+        },
+        "민주공화당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주공화당_(대한민국)"
+        },
+        "민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주당_(미국)"
+        },
+        "박순천": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박순천"
+        },
+        "변영태": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/변영태"
+        },
+        "신민당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신민당_(1967년)"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        }
+    },
+    "id": 5166,
+    "pid": "541-166",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "민정당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "민주공화당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "박순천",
+            "p": "직함/포지션(position)",
+            "s": "변영태"
+        },
+        {
+            "Rep": false,
+            "o": "변영태",
+            "p": "직함/포지션(position)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "박순천",
+            "p": "직함/포지션(position)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "신민당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "신민당"
+        },
+        {
+            "Rep": false,
+            "o": "민정당",
+            "p": "기원/소속(affiliation)",
+            "s": "민주당"
+        },
+        {
+            "Rep": false,
+            "o": "민정당",
+            "p": "기원/소속(affiliation)",
+            "s": "신민당"
+        },
+        {
+            "Rep": false,
+            "o": "민주공화당",
+            "p": "기원/소속(affiliation)",
+            "s": "신민당"
+        },
+        {
+            "Rep": false,
+            "o": "민정당",
+            "p": "기원/소속(affiliation)",
+            "s": "민주공화당"
+        },
+        {
+            "Rep": false,
+            "o": "민주공화당",
+            "p": "정당(party)",
+            "s": "신민당"
+        },
+        {
+            "Rep": false,
+            "o": "민정당",
+            "p": "직함/포지션(position)",
+            "s": "민주공화당"
+        }
+    ]
+}

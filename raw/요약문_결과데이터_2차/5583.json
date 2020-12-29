@@ -1,0 +1,73 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "타이인의 언어는 태국어다.",
+    "entities": {
+        "타이": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/타이"
+        },
+        "타이인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/타이인"
+        },
+        "태국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태국어"
+        }
+    },
+    "id": 5583,
+    "pid": "700-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "타이인",
+            "p": "민족(ethnicGroup)",
+            "s": "타이"
+        },
+        {
+            "Rep": false,
+            "o": "타이",
+            "p": "있는곳(populationPlace)",
+            "s": "타이인"
+        },
+        {
+            "Rep": true,
+            "o": "태국어",
+            "p": "언어(language)",
+            "s": "타이인"
+        }
+    ]
+}

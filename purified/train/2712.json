@@ -1,0 +1,116 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "윤보선은 서울특별시의 리더이다. 그는 유엔 평화유지군 소속이다.",
+    "entities": {
+        "LOVE": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Group",
+                "http://dbpedia.org/ontology/Band",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/LOVE_(일본의_가수)"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "유엔_평화유지군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유엔_평화유지군"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "장면": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장면"
+        },
+        "한국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국"
+        }
+    },
+    "id": 2712,
+    "pid": "541-309",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "장면",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "리더이름(leaderName)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "LOVE",
+            "p": "지도자(leader)",
+            "s": "한국"
+        },
+        {
+            "Rep": true,
+            "o": "유엔_평화유지군",
+            "p": "직함/포지션(position)",
+            "s": "윤보선"
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "만주의 국가는 일본이다. 청나라를 이끈 사람은 아이신기오로 푸이다. 일본 제국을 이끈 사람은 아이신기오로 푸이다. 만주국을 이끈 사람은 아이신기오로 푸이다. 만주의 민족은 일본인이다. 일본의 민족은 일본인이다. 일본인은 일본에 있다. ",
+    "entities": {
+        "만주": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주"
+        },
+        "만주국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주국"
+        },
+        "아이신기오로_푸이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아이신기오로_푸이"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "일본_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본_제국"
+        },
+        "일본인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본인"
+        },
+        "청나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청나라"
+        }
+    },
+    "id": 2414,
+    "pid": "480-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "만주"
+        },
+        {
+            "Rep": true,
+            "o": "아이신기오로_푸이",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        },
+        {
+            "Rep": true,
+            "o": "아이신기오로_푸이",
+            "p": "리더이름(leaderName)",
+            "s": "일본_제국"
+        },
+        {
+            "Rep": true,
+            "o": "아이신기오로_푸이",
+            "p": "리더이름(leaderName)",
+            "s": "만주국"
+        },
+        {
+            "Rep": true,
+            "o": "일본인",
+            "p": "민족(ethnicGroup)",
+            "s": "만주"
+        },
+        {
+            "Rep": true,
+            "o": "일본인",
+            "p": "민족(ethnicGroup)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "있는곳(populationPlace)",
+            "s": "일본인"
+        },
+        {
+            "Rep": false,
+            "o": "일본_제국",
+            "p": "국가(country)",
+            "s": "청나라"
+        }
+    ]
+}

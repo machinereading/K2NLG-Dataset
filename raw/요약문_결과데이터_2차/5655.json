@@ -1,0 +1,169 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 5,
+            "Quality": 2,
+            "Restriction": false
+        }
+    ],
+    "Text": "베를린이 있는 국가는 독일이다. 베를린은 독일의 수도이다. 페터 구스타프 르죈 디리클레는 독일의 지도자이다. 페터 구스타프 르죈 디리클레는 수학 저서를 쓴 저자이다.",
+    "entities": {
+        "괴팅겐": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Town",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/괴팅겐"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "베를린": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베를린"
+        },
+        "수학": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학"
+        },
+        "신학": {
+            "ne_type": "FD_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신학"
+        },
+        "페터_구스타프_르죈_디리클레": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페터_구스타프_르죈_디리클레"
+        }
+    },
+    "id": 5655,
+    "pid": "736-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "베를린"
+        },
+        {
+            "Rep": true,
+            "o": "베를린",
+            "p": "수도(capital)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "신학"
+        },
+        {
+            "Rep": false,
+            "o": "베를린",
+            "p": "도시(city)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "페터_구스타프_르죈_디리클레",
+            "p": "저자(author)",
+            "s": "신학"
+        },
+        {
+            "Rep": true,
+            "o": "페터_구스타프_르죈_디리클레",
+            "p": "지도자(leader)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "수학",
+            "p": "직업(occupation)",
+            "s": "괴팅겐"
+        },
+        {
+            "Rep": true,
+            "o": "페터_구스타프_르죈_디리클레",
+            "p": "저자(author)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "신학",
+            "p": "직업(occupation)",
+            "s": "괴팅겐"
+        },
+        {
+            "Rep": false,
+            "o": "수학",
+            "p": "직업(occupation)",
+            "s": "신학"
+        },
+        {
+            "Rep": false,
+            "o": "수학",
+            "p": "직업(occupation)",
+            "s": "베를린"
+        },
+        {
+            "Rep": false,
+            "o": "베를린",
+            "p": "도시(city)",
+            "s": "신학"
+        }
+    ]
+}

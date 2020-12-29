@@ -1,0 +1,113 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "이상재와 이승훈의 직업은 발기인이다. ",
+    "entities": {
+        "발기인": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/발기인"
+        },
+        "송진우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송진우_(정치인)"
+        },
+        "안재홍": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안재홍"
+        },
+        "이상재": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이상재"
+        },
+        "이승훈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승훈_(1864년)"
+        },
+        "조만식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조만식"
+        }
+    },
+    "id": 5776,
+    "pid": "800-63",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "조만식",
+            "p": "직함/포지션(position)",
+            "s": "안재홍"
+        },
+        {
+            "Rep": true,
+            "o": "발기인",
+            "p": "직업(occupation)",
+            "s": "이상재"
+        },
+        {
+            "Rep": true,
+            "o": "발기인",
+            "p": "직업(occupation)",
+            "s": "이승훈"
+        },
+        {
+            "Rep": false,
+            "o": "조만식",
+            "p": "직함/포지션(position)",
+            "s": "송진우"
+        }
+    ]
+}

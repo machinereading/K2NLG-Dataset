@@ -1,0 +1,130 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "수원 FC는 K리그에 속한다. 최영준은 K리그 소속이다.",
+    "entities": {
+        "K리그": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsLeague",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerLeague"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/K리그"
+        },
+        "데니스_락티오노프": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/SportsManager",
+                "http://dbpedia.org/ontology/SoccerManager",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/데니스_락티오노프"
+        },
+        "수원_FC": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수원_FC"
+        },
+        "야구_코치": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/야구_코치"
+        },
+        "윤성효": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/SportsManager",
+                "http://dbpedia.org/ontology/SoccerManager",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤성효"
+        },
+        "최영준": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/최영준_(희극_배우)"
+        }
+    },
+    "id": 5556,
+    "pid": "678-18",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "야구_코치",
+            "p": "직함/포지션(position)",
+            "s": "데니스_락티오노프"
+        },
+        {
+            "Rep": false,
+            "o": "야구_코치",
+            "p": "직함/포지션(position)",
+            "s": "최영준"
+        },
+        {
+            "Rep": false,
+            "o": "야구_코치",
+            "p": "직함/포지션(position)",
+            "s": "윤성효"
+        },
+        {
+            "Rep": true,
+            "o": "K리그",
+            "p": "리그(league)",
+            "s": "수원_FC"
+        },
+        {
+            "Rep": false,
+            "o": "수원_FC",
+            "p": "팀(team)",
+            "s": "K리그"
+        },
+        {
+            "Rep": true,
+            "o": "K리그",
+            "p": "직함/포지션(position)",
+            "s": "최영준"
+        }
+    ]
+}

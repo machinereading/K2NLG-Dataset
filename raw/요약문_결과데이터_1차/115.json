@@ -1,0 +1,110 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "앨런 튜링은 컴퓨터 과학의 아버지로 알려져 있다. 그는 컴퓨터 과학과 더불어 수학자로도 유명하다. 쿠르드 괴델은 수학으로 유명하다.",
+    "entities": {
+        "수학": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학"
+        },
+        "수학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학자"
+        },
+        "앨런_튜링": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/앨런_튜링"
+        },
+        "컴퓨터_과학": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/컴퓨터_과학"
+        },
+        "쿠르트_괴델": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쿠르트_괴델"
+        }
+    },
+    "id": 115,
+    "pid": "133-7",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "컴퓨터_과학",
+            "p": "~로알려진(knownFor)",
+            "s": "쿠르트_괴델"
+        },
+        {
+            "Rep": true,
+            "o": "컴퓨터_과학",
+            "p": "~로알려진(knownFor)",
+            "s": "앨런_튜링"
+        },
+        {
+            "Rep": false,
+            "o": "수학",
+            "p": "~로알려진(knownFor)",
+            "s": "수학자"
+        },
+        {
+            "Rep": true,
+            "o": "컴퓨터_과학",
+            "p": "~로알려진(knownFor)",
+            "s": "수학자"
+        },
+        {
+            "Rep": false,
+            "o": "수학",
+            "p": "~로알려진(knownFor)",
+            "s": "앨런_튜링"
+        },
+        {
+            "Rep": true,
+            "o": "수학",
+            "p": "~로알려진(knownFor)",
+            "s": "쿠르트_괴델"
+        }
+    ]
+}

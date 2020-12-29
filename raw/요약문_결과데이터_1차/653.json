@@ -1,0 +1,104 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "신성 로마 제국의 리더는 프란츠 1세였다. 신성 로마 제국은 마리아 테레지아에 의해 지도되었다.",
+    "entities": {
+        "마리아_테레지아": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마리아_테레지아"
+        },
+        "신성_로마_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신성_로마_제국"
+        },
+        "오스트리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트리아"
+        },
+        "프란츠_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프란츠_1세"
+        },
+        "헝가리": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Language",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헝가리"
+        }
+    },
+    "id": 653,
+    "pid": "218-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "헝가리",
+            "p": "국가(country)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": true,
+            "o": "프란츠_1세",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": true,
+            "o": "마리아_테레지아",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "오스트리아",
+            "p": "국가(country)",
+            "s": "헝가리"
+        }
+    ]
+}

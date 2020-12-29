@@ -1,0 +1,164 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "심정 (1471년)은 김전과 친척 관계이다. 그는 남곤과도 친척 관계이다. 그는 홍경주와 친척이다. 송사련도 그와 친척 관계이다.",
+    "entities": {
+        "김전": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김전"
+        },
+        "남곤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남곤"
+        },
+        "송사련": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송사련"
+        },
+        "심정_(1471년)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/심정_(1471년)"
+        },
+        "안당": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안당"
+        },
+        "홍경주": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍경주"
+        }
+    },
+    "id": 696,
+    "pid": "230-76",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김전",
+            "p": "친척(relative)",
+            "s": "심정_(1471년)"
+        },
+        {
+            "Rep": false,
+            "o": "김전",
+            "p": "친척(relative)",
+            "s": "남곤"
+        },
+        {
+            "Rep": false,
+            "o": "남곤",
+            "p": "친척(relative)",
+            "s": "홍경주"
+        },
+        {
+            "Rep": true,
+            "o": "심정_(1471년)",
+            "p": "친척(relative)",
+            "s": "남곤"
+        },
+        {
+            "Rep": false,
+            "o": "남곤",
+            "p": "친척(relative)",
+            "s": "김전"
+        },
+        {
+            "Rep": true,
+            "o": "심정_(1471년)",
+            "p": "친척(relative)",
+            "s": "홍경주"
+        },
+        {
+            "Rep": false,
+            "o": "심정_(1471년)",
+            "p": "친척(relative)",
+            "s": "김전"
+        },
+        {
+            "Rep": false,
+            "o": "남곤",
+            "p": "친척(relative)",
+            "s": "심정_(1471년)"
+        },
+        {
+            "Rep": false,
+            "o": "홍경주",
+            "p": "친척(relative)",
+            "s": "심정_(1471년)"
+        },
+        {
+            "Rep": false,
+            "o": "홍경주",
+            "p": "친척(relative)",
+            "s": "남곤"
+        },
+        {
+            "Rep": false,
+            "o": "김전",
+            "p": "친척(relative)",
+            "s": "홍경주"
+        },
+        {
+            "Rep": false,
+            "o": "홍경주",
+            "p": "친척(relative)",
+            "s": "김전"
+        },
+        {
+            "Rep": true,
+            "o": "심정_(1471년)",
+            "p": "친척(relative)",
+            "s": "송사련"
+        },
+        {
+            "Rep": false,
+            "o": "남곤",
+            "p": "친척(relative)",
+            "s": "안당"
+        }
+    ]
+}

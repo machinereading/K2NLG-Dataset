@@ -1,0 +1,113 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "손기정의 직업은 기자다. ",
+    "entities": {
+        "1936년_하계_올림픽": {
+            "ne_type": "EV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsEvent",
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Olympics",
+                "http://dbpedia.org/ontology/Event"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/1936년_하계_올림픽"
+        },
+        "기자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기자_(직업)"
+        },
+        "손기정": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손기정"
+        },
+        "이길용": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이길용"
+        },
+        "한국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국인"
+        }
+    },
+    "id": 3262,
+    "pid": "800-87",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "기자",
+            "p": "직업(occupation)",
+            "s": "손기정"
+        },
+        {
+            "Rep": false,
+            "o": "기자",
+            "p": "직업(occupation)",
+            "s": "이길용"
+        },
+        {
+            "Rep": false,
+            "o": "한국인",
+            "p": "도시(city)",
+            "s": "1936년_하계_올림픽"
+        },
+        {
+            "Rep": false,
+            "o": "기자",
+            "p": "도시(city)",
+            "s": "1936년_하계_올림픽"
+        },
+        {
+            "Rep": false,
+            "o": "이길용",
+            "p": "도시(city)",
+            "s": "1936년_하계_올림픽"
+        },
+        {
+            "Rep": false,
+            "o": "한국인",
+            "p": "직업(occupation)",
+            "s": "이길용"
+        }
+    ]
+}

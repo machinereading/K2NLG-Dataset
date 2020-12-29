@@ -1,0 +1,148 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "서초구는 서울특별시의 부분이다. 서초동은 서울특별시에 있는 지역이다.",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "서초구": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서초구"
+        },
+        "서초동": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서초동"
+        },
+        "종로": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Road",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/종로_(서울)"
+        }
+    },
+    "id": 2101,
+    "pid": "328-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "도시(city)",
+            "s": "종로"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "서초구"
+        },
+        {
+            "Rep": false,
+            "o": "서초동",
+            "p": "~의부분(isPartOf)",
+            "s": "서초구"
+        },
+        {
+            "Rep": false,
+            "o": "서초구",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "지역/분양(region)",
+            "s": "서초동"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "수도(capital)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "서초동",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "서초구",
+            "p": "지역/분양(region)",
+            "s": "서초동"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "서초구"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "대한민국"
+        }
+    ]
+}

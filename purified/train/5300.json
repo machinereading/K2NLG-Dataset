@@ -1,0 +1,180 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "인천광역시는 평안남도의 한 부분이다. 평안남도는 남포특별시의 한 부분이다.",
+    "entities": {
+        "남포특별시": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남포특별시"
+        },
+        "대한민국_축구_국가대표팀": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/FootballMatch",
+                "http://dbpedia.org/ontology/SportsEvent",
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_축구_국가대표팀"
+        },
+        "아시아": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아시아"
+        },
+        "아시아_야구_선수권_대회": {
+            "ne_type": "EV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/BaseballLeague",
+                "http://dbpedia.org/ontology/SportsLeague",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아시아_야구_선수권_대회"
+        },
+        "인천광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인천광역시"
+        },
+        "평안남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평안남도"
+        },
+        "필리핀": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/필리핀"
+        }
+    },
+    "id": 5300,
+    "pid": "569-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "인천광역시",
+            "p": "위치/지역(location)",
+            "s": "대한민국_축구_국가대표팀"
+        },
+        {
+            "Rep": true,
+            "o": "평안남도",
+            "p": "~의부분(isPartOf)",
+            "s": "인천광역시"
+        },
+        {
+            "Rep": false,
+            "o": "필리핀",
+            "p": "~의부분(isPartOf)",
+            "s": "아시아"
+        },
+        {
+            "Rep": false,
+            "o": "평안남도",
+            "p": "~의부분(isPartOf)",
+            "s": "남포특별시"
+        },
+        {
+            "Rep": false,
+            "o": "남포특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "인천광역시"
+        },
+        {
+            "Rep": true,
+            "o": "남포특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "평안남도"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_축구_국가대표팀",
+            "p": "팀(team)",
+            "s": "아시아_야구_선수권_대회"
+        },
+        {
+            "Rep": false,
+            "o": "인천광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "평안남도"
+        },
+        {
+            "Rep": false,
+            "o": "아시아",
+            "p": "위치/지역(location)",
+            "s": "대한민국_축구_국가대표팀"
+        },
+        {
+            "Rep": false,
+            "o": "아시아_야구_선수권_대회",
+            "p": "~의부분(isPartOf)",
+            "s": "아시아"
+        },
+        {
+            "Rep": false,
+            "o": "인천광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "남포특별시"
+        },
+        {
+            "Rep": false,
+            "o": "필리핀",
+            "p": "국가(country)",
+            "s": "대한민국_축구_국가대표팀"
+        }
+    ]
+}

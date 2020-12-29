@@ -1,0 +1,180 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "프랑스의 지도자로 펠리페 2세와 앙리 4세, 헨리 2세가 있다. 헨리 2세는 프랑스에서 사망했다. ",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_식스토_5세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_식스토_5세"
+        },
+        "앙리_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/앙리_4세"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        },
+        "이행": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이행_(조선)"
+        },
+        "펠리페_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/펠리페_2세"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        },
+        "헨리_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헨리_2세"
+        }
+    },
+    "id": 1899,
+    "pid": "50-17",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "안식처(restingPlace)",
+            "s": "헨리_2세"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "헨리_2세"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "이행"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_식스토_5세"
+        },
+        {
+            "Rep": true,
+            "o": "펠리페_2세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "앙리_4세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "헨리_2세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "헨리_2세",
+            "p": "지도자(leader)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "교황_식스토_5세",
+            "p": "지도자(leader)",
+            "s": "유럽"
+        },
+        {
+            "Rep": true,
+            "o": "프랑스",
+            "p": "사망지(deathPlace)",
+            "s": "헨리_2세"
+        },
+        {
+            "Rep": false,
+            "o": "이행",
+            "p": "지도자(leader)",
+            "s": "유럽"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "서울특별시는 경기도의 지역이다. 경기도 지역에 서울특별시가 있다.",
+    "entities": {
+        "경기도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경기도"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "짜장면": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/짜장면"
+        }
+    },
+    "id": 3139,
+    "pid": "744-12",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "경기도",
+            "p": "지역/분양(region)",
+            "s": "짜장면"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "지역/분양(region)",
+            "s": "짜장면"
+        },
+        {
+            "Rep": true,
+            "o": "경기도",
+            "p": "지역/분양(region)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "지역/분양(region)",
+            "s": "경기도"
+        }
+    ]
+}

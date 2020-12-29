@@ -1,0 +1,143 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "안드레아스 베살리우스는 타치아노의 영향을 받았다. 그는 교확 식스토 4세에게 영향을 주었다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_식스토_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_식스토_4세"
+        },
+        "범죄": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/범죄"
+        },
+        "안드레아스_베살리우스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안드레아스_베살리우스"
+        },
+        "예술가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예술가"
+        },
+        "의사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의사"
+        },
+        "티치아노": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/티치아노"
+        }
+    },
+    "id": 4265,
+    "pid": "37-17",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "의사",
+            "p": "직업(occupation)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "의사",
+            "p": "직업(occupation)",
+            "s": "예술가"
+        },
+        {
+            "Rep": false,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "의사"
+        },
+        {
+            "Rep": true,
+            "o": "티치아노",
+            "p": "영향받은(influencedBy)",
+            "s": "안드레아스_베살리우스"
+        },
+        {
+            "Rep": true,
+            "o": "안드레아스_베살리우스",
+            "p": "영향받은(influenced)",
+            "s": "교황_식스토_4세"
+        },
+        {
+            "Rep": false,
+            "o": "의사",
+            "p": "직업(occupation)",
+            "s": "범죄"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "의사"
+        }
+    ]
+}

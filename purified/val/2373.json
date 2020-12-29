@@ -1,0 +1,137 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "데모크리토스는 그리스에서 태어났다. 그는 철학자인데 아리스토텔레스에게 영향을 받았다.",
+    "entities": {
+        "그리스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/그리스"
+        },
+        "데모크리토스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/데모크리토스"
+        },
+        "아낙사고라스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아낙사고라스"
+        },
+        "아리스토텔레스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아리스토텔레스"
+        },
+        "철학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/철학자"
+        }
+    },
+    "id": 2373,
+    "pid": "466-46",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "그리스",
+            "p": "출생지(birthPlace)",
+            "s": "데모크리토스"
+        },
+        {
+            "Rep": false,
+            "o": "데모크리토스",
+            "p": "영향받은(influencedBy)",
+            "s": "아리스토텔레스"
+        },
+        {
+            "Rep": true,
+            "o": "아리스토텔레스",
+            "p": "영향받은(influenced)",
+            "s": "데모크리토스"
+        },
+        {
+            "Rep": true,
+            "o": "철학자",
+            "p": "직업(occupation)",
+            "s": "데모크리토스"
+        },
+        {
+            "Rep": false,
+            "o": "철학자",
+            "p": "직업(occupation)",
+            "s": "아낙사고라스"
+        },
+        {
+            "Rep": false,
+            "o": "아낙사고라스",
+            "p": "영향받은(influencedBy)",
+            "s": "데모크리토스"
+        },
+        {
+            "Rep": false,
+            "o": "철학자",
+            "p": "직업(occupation)",
+            "s": "그리스"
+        },
+        {
+            "Rep": false,
+            "o": "데모크리토스",
+            "p": "영향받은(influenced)",
+            "s": "철학자"
+        },
+        {
+            "Rep": false,
+            "o": "아낙사고라스",
+            "p": "리더이름(leaderName)",
+            "s": "그리스"
+        },
+        {
+            "Rep": false,
+            "o": "데모크리토스",
+            "p": "영향받은(influencedBy)",
+            "s": "아낙사고라스"
+        }
+    ]
+}

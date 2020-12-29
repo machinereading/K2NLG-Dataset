@@ -1,0 +1,107 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "나쓰메 소세키의 직업은 작가이다. 그의 작품 중 유명한 작품은 라쇼몽이다.",
+    "entities": {
+        "나쓰메_소세키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나쓰메_소세키"
+        },
+        "라쇼몽": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라쇼몽_(1950년_영화)"
+        },
+        "영문학": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영문학"
+        },
+        "이치카와_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이치카와_시"
+        },
+        "작가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작가"
+        }
+    },
+    "id": 3656,
+    "pid": "130-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "나쓰메_소세키"
+        },
+        {
+            "Rep": false,
+            "o": "영문학",
+            "p": "~의부분(isPartOf)",
+            "s": "이치카와_시"
+        },
+        {
+            "Rep": false,
+            "o": "나쓰메_소세키",
+            "p": "~의부분(isPartOf)",
+            "s": "이치카와_시"
+        },
+        {
+            "Rep": false,
+            "o": "이치카와_시",
+            "p": "도시(city)",
+            "s": "영문학"
+        },
+        {
+            "Rep": true,
+            "o": "라쇼몽",
+            "p": "유명한작품(notableWork)",
+            "s": "나쓰메_소세키"
+        }
+    ]
+}

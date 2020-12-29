@@ -1,0 +1,104 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "NTT 도코모는 일본과 대한민국에 있다.",
+    "entities": {
+        "NTT_도코모": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/NTT_도코모"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "모바일_게임": {
+            "ne_type": "TMIG_GENRE",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/모바일_게임"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        }
+    },
+    "id": 5371,
+    "pid": "628-14",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "NTT_도코모"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "모바일_게임"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "위치/지역(location)",
+            "s": "NTT_도코모"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "위치/지역(location)",
+            "s": "NTT_도코모"
+        }
+    ]
+}

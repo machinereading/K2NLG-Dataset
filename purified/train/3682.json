@@ -1,0 +1,210 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "카를로 1세는 시칠리아의 리더이다. 그는 프랑스군을 지휘했다.",
+    "entities": {
+        "교황_마르티노_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_마르티노_4세"
+        },
+        "백작": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백작"
+        },
+        "샤를_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/샤를_2세_(프로방스)"
+        },
+        "시칠리아": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/EthnicGroup",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시칠리아"
+        },
+        "앙주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/앙주"
+        },
+        "카를로_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카를로_1세"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        },
+        "프랑스군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스군"
+        },
+        "필리프_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/필리프_3세_(프랑스)"
+        }
+    },
+    "id": 3682,
+    "pid": "14-8",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": true,
+            "o": "카를로_1세",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": true,
+            "o": "카를로_1세",
+            "p": "지휘관(commander)",
+            "s": "프랑스군"
+        },
+        {
+            "Rep": false,
+            "o": "샤를_2세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "필리프_3세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "샤를_2세",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": false,
+            "o": "필리프_3세",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": false,
+            "o": "샤를_2세",
+            "p": "지휘관(commander)",
+            "s": "프랑스군"
+        },
+        {
+            "Rep": false,
+            "o": "교황_마르티노_4세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "시칠리아",
+            "p": "지역/분양(region)",
+            "s": "앙주"
+        },
+        {
+            "Rep": false,
+            "o": "교황_마르티노_4세",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": false,
+            "o": "교황_마르티노_4세",
+            "p": "전임자(predecessor)",
+            "s": "백작"
+        },
+        {
+            "Rep": false,
+            "o": "필리프_3세",
+            "p": "전임자(predecessor)",
+            "s": "백작"
+        },
+        {
+            "Rep": false,
+            "o": "샤를_2세",
+            "p": "계승자/후임(successor)",
+            "s": "교황_마르티노_4세"
+        },
+        {
+            "Rep": false,
+            "o": "백작",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아"
+        }
+    ]
+}

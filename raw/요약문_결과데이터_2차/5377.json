@@ -1,0 +1,119 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "당나라를 이끈 사람은 당 태종이다.",
+    "entities": {
+        "당_태종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/당_태종"
+        },
+        "당나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/당나라"
+        },
+        "발해_문왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/발해_문왕"
+        },
+        "신라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신라"
+        },
+        "조선_태종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_태종"
+        },
+        "태종무열왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태종무열왕"
+        }
+    },
+    "id": 5377,
+    "pid": "631-10",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "당_태종",
+            "p": "리더이름(leaderName)",
+            "s": "당나라"
+        },
+        {
+            "Rep": false,
+            "o": "조선_태종",
+            "p": "리더이름(leaderName)",
+            "s": "당나라"
+        },
+        {
+            "Rep": false,
+            "o": "발해_문왕",
+            "p": "리더이름(leaderName)",
+            "s": "당나라"
+        },
+        {
+            "Rep": false,
+            "o": "태종무열왕",
+            "p": "리더이름(leaderName)",
+            "s": "당나라"
+        },
+        {
+            "Rep": false,
+            "o": "태종무열왕",
+            "p": "리더이름(leaderName)",
+            "s": "신라"
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "스코틀랜드의 국가는 영국이다. 포틀랜드는 라이너스 폴링의 부분이다. ",
+    "entities": {
+        "농부": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/농부"
+        },
+        "라이너스_폴링": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라이너스_폴링"
+        },
+        "스코틀랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스코틀랜드"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "포틀랜드": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포틀랜드_(오리건_주)"
+        }
+    },
+    "id": 2480,
+    "pid": "500-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "스코틀랜드"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "농부"
+        },
+        {
+            "Rep": true,
+            "o": "라이너스_폴링",
+            "p": "~의부분(isPartOf)",
+            "s": "포틀랜드"
+        }
+    ]
+}

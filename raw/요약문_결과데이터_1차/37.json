@@ -1,0 +1,127 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "박순자의 정당은 새누리당이다. 그녀의 직업은 기자이다. 그녀는 새누리당의 지도자이다.",
+    "entities": {
+        "권양숙": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/권양숙"
+        },
+        "기자_(직업)": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기자_(직업)"
+        },
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "박순자": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박순자"
+        },
+        "박연차": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박연차"
+        },
+        "새누리당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/새누리당"
+        }
+    },
+    "id": 37,
+    "pid": "114-102",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "새누리당",
+            "p": "정당(party)",
+            "s": "박순자"
+        },
+        {
+            "Rep": false,
+            "o": "권양숙",
+            "p": "배우자(spouse)",
+            "s": "노무현"
+        },
+        {
+            "Rep": false,
+            "o": "노무현",
+            "p": "배우자(spouse)",
+            "s": "권양숙"
+        },
+        {
+            "Rep": false,
+            "o": "박연차",
+            "p": "배우자(spouse)",
+            "s": "권양숙"
+        },
+        {
+            "Rep": true,
+            "o": "기자_(직업)",
+            "p": "직업(occupation)",
+            "s": "박순자"
+        },
+        {
+            "Rep": true,
+            "o": "박순자",
+            "p": "지도자(leader)",
+            "s": "새누리당"
+        },
+        {
+            "Rep": false,
+            "o": "기자_(직업)",
+            "p": "지도자(leader)",
+            "s": "새누리당"
+        }
+    ]
+}

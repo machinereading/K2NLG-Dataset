@@ -1,0 +1,116 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이승만의 국무총리는 김동원이다. 김동원은 박사 출신이다. ",
+    "entities": {
+        "김동원": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김동원_(1884년)"
+        },
+        "박사": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Award",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박사"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "최봉식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/최봉식"
+        }
+    },
+    "id": 1536,
+    "pid": "262-21",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "이승만",
+            "p": "대통령/회장(president)",
+            "s": "박사"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "최봉식"
+        },
+        {
+            "Rep": false,
+            "o": "최봉식",
+            "p": "직함/포지션(position)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "김동원",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "박사",
+            "p": "학력(education)",
+            "s": "김동원"
+        }
+    ]
+}

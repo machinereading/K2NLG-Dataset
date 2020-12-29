@@ -1,0 +1,139 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김성수의 거주지는 대한민국이다. 대한민국의 지도자는 조봉암이다. 자유당 지도자는 김성수이다.",
+    "entities": {
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "대한민국_국회": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Legislature",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국회"
+        },
+        "무소속": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/무소속"
+        },
+        "자유당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유당_(대한민국)"
+        },
+        "조봉암": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조봉암"
+        }
+    },
+    "id": 5743,
+    "pid": "800-148",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "거주지(residence)",
+            "s": "김성수"
+        },
+        {
+            "Rep": true,
+            "o": "조봉암",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": true,
+            "o": "김성수",
+            "p": "지도자(leader)",
+            "s": "자유당"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "지도자(leader)",
+            "s": "무소속"
+        },
+        {
+            "Rep": false,
+            "o": "자유당",
+            "p": "정당(party)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "자유당",
+            "p": "정당(party)",
+            "s": "무소속"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_국회",
+            "p": "직함/포지션(position)",
+            "s": "조봉암"
+        },
+        {
+            "Rep": false,
+            "o": "조봉암",
+            "p": "지도자(leader)",
+            "s": "대한민국_국회"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "계승자/후임(successor)",
+            "s": "조봉암"
+        }
+    ]
+}

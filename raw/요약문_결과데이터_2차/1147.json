@@ -1,0 +1,115 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "존 시겐설러의 직업은 저널리스트이다. 그는 미국의 지도자였다.",
+    "entities": {
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "영어_위키백과": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어_위키백과"
+        },
+        "저널리스트": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/저널리스트"
+        },
+        "존_시겐설러": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/존_시겐설러"
+        },
+        "희극_배우": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/희극_배우"
+        }
+    },
+    "id": 1147,
+    "pid": "134-37",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "존_시겐설러"
+        },
+        {
+            "Rep": false,
+            "o": "희극_배우",
+            "p": "직업(occupation)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "영어_위키백과"
+        },
+        {
+            "Rep": false,
+            "o": "저널리스트",
+            "p": "타입/종류(type)",
+            "s": "영어_위키백과"
+        },
+        {
+            "Rep": true,
+            "o": "존_시겐설러",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "저널리스트"
+        },
+        {
+            "Rep": false,
+            "o": "희극_배우",
+            "p": "지도자(leader)",
+            "s": "미국"
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김성수는 김요협과 친척관계다. 김요협은 김성수와 친척관계다. 일본의 지도자는 김성수다.",
+    "entities": {
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "김요협": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김요협"
+        },
+        "사탕": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사탕"
+        },
+        "상인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/상인"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "일본인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본인"
+        },
+        "차": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/Beverage",
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/차_(음료)"
+        }
+    },
+    "id": 5761,
+    "pid": "800-26",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김요협",
+            "p": "친척(relative)",
+            "s": "김성수"
+        },
+        {
+            "Rep": true,
+            "o": "김성수",
+            "p": "친척(relative)",
+            "s": "김요협"
+        },
+        {
+            "Rep": false,
+            "o": "상인",
+            "p": "민족(ethnicGroup)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "사탕",
+            "p": "관련되(related)",
+            "s": "상인"
+        },
+        {
+            "Rep": false,
+            "o": "차",
+            "p": "타입/종류(type)",
+            "s": "사탕"
+        },
+        {
+            "Rep": true,
+            "o": "김성수",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "있는곳(populationPlace)",
+            "s": "상인"
+        },
+        {
+            "Rep": false,
+            "o": "사탕",
+            "p": "제품(product)",
+            "s": "상인"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "학력(education)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "상인",
+            "p": "관련되(related)",
+            "s": "일본인"
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "경상남도는 대구광역시의 한 부분이다. 대구광역시는 부산광역시의 한 부분이다.",
+    "entities": {
+        "경상남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상남도"
+        },
+        "대구광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대구광역시"
+        },
+        "밀양시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/밀양시"
+        },
+        "부산광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산광역시"
+        }
+    },
+    "id": 5503,
+    "pid": "659-13",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대구광역시",
+            "p": "지역/분양(region)",
+            "s": "밀양시"
+        },
+        {
+            "Rep": true,
+            "o": "대구광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "경상남도"
+        },
+        {
+            "Rep": false,
+            "o": "부산광역시",
+            "p": "지역/분양(region)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "경상남도",
+            "p": "지역/분양(region)",
+            "s": "밀양시"
+        },
+        {
+            "Rep": true,
+            "o": "부산광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "밀양시",
+            "p": "~의부분(isPartOf)",
+            "s": "경상남도"
+        },
+        {
+            "Rep": false,
+            "o": "밀양시",
+            "p": "~의부분(isPartOf)",
+            "s": "대구광역시"
+        }
+    ]
+}

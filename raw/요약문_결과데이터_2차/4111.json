@@ -1,0 +1,184 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "한족은 중화민국에도 있다.",
+    "entities": {
+        "나가사키_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나가사키_시"
+        },
+        "에도_막부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에도_막부"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "조선": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/NobleFamily",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Family",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선"
+        },
+        "중화민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화민국"
+        },
+        "한족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한족"
+        }
+    },
+    "id": 4111,
+    "pid": "276-11",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "중화민국",
+            "p": "있는곳(populationPlace)",
+            "s": "한족"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "한족",
+            "p": "민족(ethnicGroup)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "있는곳(populationPlace)",
+            "s": "한족"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "있는곳(populationPlace)",
+            "s": "한족"
+        },
+        {
+            "Rep": false,
+            "o": "한족",
+            "p": "민족(ethnicGroup)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "나가사키_시"
+        },
+        {
+            "Rep": false,
+            "o": "나가사키_시",
+            "p": "수도(capital)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "나가사키_시"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "나가사키_시",
+            "p": "수도(capital)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "에도_막부",
+            "p": "지역/분양(region)",
+            "s": "나가사키_시"
+        }
+    ]
+}

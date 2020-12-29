@@ -1,0 +1,92 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이승만의 정당은 한국민주당이다. 그의 직함은 의원이다. ",
+    "entities": {
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "한국독립당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국독립당"
+        },
+        "한국민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국민주당"
+        }
+    },
+    "id": 752,
+    "pid": "262-36",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "한국민주당",
+            "p": "정당(party)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "한국독립당",
+            "p": "정당(party)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "한국독립당"
+        }
+    ]
+}

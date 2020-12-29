@@ -1,0 +1,165 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "장제스는 중화민국에서 사망했다. 그의 국가는 중화민국이다. 그는 중국국민당의 지도자다.",
+    "entities": {
+        "공무원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공무원"
+        },
+        "국공_내전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국공_내전"
+        },
+        "장제스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장제스"
+        },
+        "중국국민당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국국민당"
+        },
+        "중화민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화민국"
+        },
+        "타이완": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/타이완"
+        }
+    },
+    "id": 2942,
+    "pid": "650-34",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "중화민국",
+            "p": "사망지(deathPlace)",
+            "s": "장제스"
+        },
+        {
+            "Rep": false,
+            "o": "장제스",
+            "p": "지휘관(commander)",
+            "s": "국공_내전"
+        },
+        {
+            "Rep": true,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "장제스"
+        },
+        {
+            "Rep": false,
+            "o": "국공_내전",
+            "p": "전투(battle)",
+            "s": "장제스"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "타이완"
+        },
+        {
+            "Rep": true,
+            "o": "장제스",
+            "p": "지도자(leader)",
+            "s": "중국국민당"
+        },
+        {
+            "Rep": false,
+            "o": "장제스",
+            "p": "지도자(leader)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": false,
+            "o": "중국국민당",
+            "p": "정당(party)",
+            "s": "장제스"
+        },
+        {
+            "Rep": false,
+            "o": "공무원",
+            "p": "지도자(leader)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": false,
+            "o": "공무원",
+            "p": "지휘관(commander)",
+            "s": "국공_내전"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "공무원"
+        },
+        {
+            "Rep": false,
+            "o": "중국국민당",
+            "p": "정당(party)",
+            "s": "공무원"
+        }
+    ]
+}

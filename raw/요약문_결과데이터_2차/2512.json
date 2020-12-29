@@ -1,0 +1,137 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "아이작 아시모프의 직업은 작가이다. 그는 해석학의 저자이다.",
+    "entities": {
+        "아이작_아시모프": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아이작_아시모프"
+        },
+        "영문학": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영문학"
+        },
+        "올라프_스테이플던": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/올라프_스테이플던"
+        },
+        "작가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작가"
+        },
+        "해석학": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/해석학_(수학)"
+        }
+    },
+    "id": 2512,
+    "pid": "512-51",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "아이작_아시모프"
+        },
+        {
+            "Rep": true,
+            "o": "아이작_아시모프",
+            "p": "저자(author)",
+            "s": "해석학"
+        },
+        {
+            "Rep": false,
+            "o": "아이작_아시모프",
+            "p": "영향받은(influencedBy)",
+            "s": "작가"
+        },
+        {
+            "Rep": false,
+            "o": "해석학",
+            "p": "~로알려진(knownFor)",
+            "s": "아이작_아시모프"
+        },
+        {
+            "Rep": false,
+            "o": "해석학",
+            "p": "~로알려진(knownFor)",
+            "s": "올라프_스테이플던"
+        },
+        {
+            "Rep": false,
+            "o": "올라프_스테이플던",
+            "p": "저자(author)",
+            "s": "해석학"
+        },
+        {
+            "Rep": false,
+            "o": "작가",
+            "p": "저자(author)",
+            "s": "해석학"
+        },
+        {
+            "Rep": false,
+            "o": "영문학",
+            "p": "저자(author)",
+            "s": "해석학"
+        },
+        {
+            "Rep": false,
+            "o": "해석학",
+            "p": "~로알려진(knownFor)",
+            "s": "영문학"
+        },
+        {
+            "Rep": false,
+            "o": "해석학",
+            "p": "~로알려진(knownFor)",
+            "s": "작가"
+        }
+    ]
+}

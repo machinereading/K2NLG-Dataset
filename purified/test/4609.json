@@ -1,0 +1,147 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "노벨 화학상을 수상한 걸로 알려진 조지 포터의 출생지는 영국이다. 박사는 독일에 있는 괴팅겐 대학교에 속해 있다. 괴팅겐 박사의 국가는 독일이다.",
+    "entities": {
+        "괴팅겐": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Town",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/괴팅겐"
+        },
+        "괴팅겐_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Building",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/괴팅겐_대학교"
+        },
+        "노벨_화학상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/NobelPrize",
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노벨_화학상"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "박사": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Award",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박사"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "조지_포터": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조지_포터"
+        }
+    },
+    "id": 4609,
+    "pid": "304-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "영국",
+            "p": "출생지(birthPlace)",
+            "s": "조지_포터"
+        },
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "괴팅겐_대학교"
+        },
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "박사"
+        },
+        {
+            "Rep": true,
+            "o": "노벨_화학상",
+            "p": "~로알려진(knownFor)",
+            "s": "조지_포터"
+        },
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "괴팅겐"
+        },
+        {
+            "Rep": true,
+            "o": "괴팅겐_대학교",
+            "p": "기원/소속(affiliation)",
+            "s": "박사"
+        },
+        {
+            "Rep": false,
+            "o": "박사",
+            "p": "기원/소속(affiliation)",
+            "s": "괴팅겐_대학교"
+        }
+    ]
+}

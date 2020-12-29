@@ -1,0 +1,94 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "신규식과 김규식의 직함은 의원이다.",
+    "entities": {
+        "김규식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김규식"
+        },
+        "신규식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신규식"
+        },
+        "여운형": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/여운형"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        }
+    },
+    "id": 5223,
+    "pid": "541-27",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "신규식"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "여운형"
+        },
+        {
+            "Rep": true,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "김규식"
+        },
+        {
+            "Rep": false,
+            "o": "여운형",
+            "p": "전임자(predecessor)",
+            "s": "의원"
+        }
+    ]
+}

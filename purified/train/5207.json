@@ -1,0 +1,140 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "정일형의 배우자는 이태영이다. 이태영의 배우자는 정일형이다.",
+    "entities": {
+        "김대중": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김대중"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "이태영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이태영"
+        },
+        "정일형": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정일형"
+        }
+    },
+    "id": 5207,
+    "pid": "541-232",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "이태영",
+            "p": "배우자(spouse)",
+            "s": "정일형"
+        },
+        {
+            "Rep": true,
+            "o": "정일형",
+            "p": "배우자(spouse)",
+            "s": "이태영"
+        },
+        {
+            "Rep": false,
+            "o": "김대중",
+            "p": "배우자(spouse)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "김대중",
+            "p": "배우자(spouse)",
+            "s": "이태영"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "배우자(spouse)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "배우자(spouse)",
+            "s": "정일형"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "배우자(spouse)",
+            "s": "이태영"
+        },
+        {
+            "Rep": false,
+            "o": "김대중",
+            "p": "배우자(spouse)",
+            "s": "정일형"
+        },
+        {
+            "Rep": false,
+            "o": "정일형",
+            "p": "배우자(spouse)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "이태영",
+            "p": "배우자(spouse)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "이태영",
+            "p": "배우자(spouse)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "정일형",
+            "p": "배우자(spouse)",
+            "s": "김대중"
+        }
+    ]
+}

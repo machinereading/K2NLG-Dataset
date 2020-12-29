@@ -1,0 +1,159 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "비테르보는 독일에 있다. 카를로 1세의 직함은 교황이다. 루돌프 1세의 직함은 교황이다. 카를로 1세 전의 왕은 루돌프 1세다. 카를로 1세는 신성 로마 제국의 왕이다. 루돌프 1세는 독일의 지도자이다. 신성로마 제국의 황제는 루돌프 1세이다. 카를로 1세의 전임자는 루돌프 1세이다. 루돌프 1세는 독일에서 사망했다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "도미니코_수도회": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도미니코_수도회"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "루돌프_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루돌프_1세"
+        },
+        "비테르보": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비테르보"
+        },
+        "신성_로마_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신성_로마_제국"
+        },
+        "카를로_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카를로_1세"
+        }
+    },
+    "id": 1155,
+    "pid": "14-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "비테르보"
+        },
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "카를로_1세"
+        },
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "루돌프_1세"
+        },
+        {
+            "Rep": true,
+            "o": "카를로_1세",
+            "p": "전임자(predecessor)",
+            "s": "루돌프_1세"
+        },
+        {
+            "Rep": true,
+            "o": "카를로_1세",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": true,
+            "o": "루돌프_1세",
+            "p": "지도자(leader)",
+            "s": "독일"
+        },
+        {
+            "Rep": true,
+            "o": "루돌프_1세",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": true,
+            "o": "루돌프_1세",
+            "p": "전임자(predecessor)",
+            "s": "카를로_1세"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "도미니코_수도회"
+        },
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "사망지(deathPlace)",
+            "s": "루돌프_1세"
+        }
+    ]
+}

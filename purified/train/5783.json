@@ -1,0 +1,101 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "한국의 언어는 한글이다.",
+    "entities": {
+        "교장": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교장"
+        },
+        "조선": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/NobleFamily",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Family",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선"
+        },
+        "한국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국"
+        },
+        "한국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국어"
+        },
+        "한글": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한글"
+        }
+    },
+    "id": 5783,
+    "pid": "800-82",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "한글",
+            "p": "계통(languageFamily)",
+            "s": "한국어"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "한국"
+        },
+        {
+            "Rep": true,
+            "o": "한글",
+            "p": "언어(language)",
+            "s": "한국"
+        },
+        {
+            "Rep": false,
+            "o": "한글",
+            "p": "~로알려진(knownFor)",
+            "s": "교장"
+        }
+    ]
+}

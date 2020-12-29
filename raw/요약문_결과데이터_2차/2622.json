@@ -1,0 +1,79 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "중앙고등학교가 있는 도시는 서울특별시다. 민주당의 본부는 서울특별시에 있다. ",
+    "entities": {
+        "민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주당_(미국)"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "중앙고등학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중앙고등학교"
+        }
+    },
+    "id": 2622,
+    "pid": "541-121",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "본부/본사(headquarter)",
+            "s": "민주당"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "도시(city)",
+            "s": "중앙고등학교"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "기원/소속(affiliation)",
+            "s": "중앙고등학교"
+        }
+    ]
+}

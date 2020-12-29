@@ -1,0 +1,172 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "레온하르트 오일러의 출생지는 바젤이다. 그의 직업은 수학자이다. ",
+    "entities": {
+        "개신교": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개신교"
+        },
+        "레온하르트_오일러": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레온하르트_오일러"
+        },
+        "목사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/목사"
+        },
+        "바젤": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바젤"
+        },
+        "수학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학자"
+        },
+        "스위스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스위스"
+        },
+        "요한_베르누이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요한_베르누이"
+        }
+    },
+    "id": 2487,
+    "pid": "502-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "바젤",
+            "p": "출생지(birthPlace)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": false,
+            "o": "스위스",
+            "p": "국가(country)",
+            "s": "바젤"
+        },
+        {
+            "Rep": false,
+            "o": "목사",
+            "p": "직업(occupation)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": true,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": false,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "요한_베르누이"
+        },
+        {
+            "Rep": false,
+            "o": "목사",
+            "p": "직업(occupation)",
+            "s": "개신교"
+        },
+        {
+            "Rep": false,
+            "o": "목사",
+            "p": "직업(occupation)",
+            "s": "바젤"
+        },
+        {
+            "Rep": false,
+            "o": "스위스",
+            "p": "국가(country)",
+            "s": "목사"
+        },
+        {
+            "Rep": false,
+            "o": "레온하르트_오일러",
+            "p": "영향받은(influenced)",
+            "s": "수학자"
+        },
+        {
+            "Rep": false,
+            "o": "개신교",
+            "p": "종교(religion)",
+            "s": "목사"
+        },
+        {
+            "Rep": false,
+            "o": "목사",
+            "p": "직업(occupation)",
+            "s": "스위스"
+        },
+        {
+            "Rep": false,
+            "o": "바젤",
+            "p": "가장큰도시(largestCity)",
+            "s": "스위스"
+        },
+        {
+            "Rep": false,
+            "o": "요한_베르누이",
+            "p": "영향받은(influenced)",
+            "s": "수학자"
+        }
+    ]
+}

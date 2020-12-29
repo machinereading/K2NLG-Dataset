@@ -1,0 +1,195 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "제주도는 대한민국의 섬이다.",
+    "entities": {
+        "경상남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상남도"
+        },
+        "고성군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고성군_(경상남도)"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "미야코_섬": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미야코_섬"
+        },
+        "오키나와_현": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오키나와_현"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "제주도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제주도"
+        },
+        "한반도": {
+            "ne_type": "LCG_BAY",
+            "type": [
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한반도"
+        },
+        "홋카이도": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홋카이도"
+        }
+    },
+    "id": 5652,
+    "pid": "735-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "제주도"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "제주도"
+        },
+        {
+            "Rep": false,
+            "o": "고성군",
+            "p": "부분(part)",
+            "s": "경상남도"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "홋카이도"
+        },
+        {
+            "Rep": false,
+            "o": "제주도",
+            "p": "~의부분(isPartOf)",
+            "s": "한반도"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "오키나와_현"
+        },
+        {
+            "Rep": false,
+            "o": "한반도",
+            "p": "~의부분(isPartOf)",
+            "s": "고성군"
+        },
+        {
+            "Rep": false,
+            "o": "고성군",
+            "p": "~의부분(isPartOf)",
+            "s": "경상남도"
+        },
+        {
+            "Rep": false,
+            "o": "경상남도",
+            "p": "~의부분(isPartOf)",
+            "s": "고성군"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "미야코_섬"
+        },
+        {
+            "Rep": false,
+            "o": "오키나와_현",
+            "p": "~의부분(isPartOf)",
+            "s": "미야코_섬"
+        }
+    ]
+}

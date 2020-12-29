@@ -1,0 +1,70 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "소련을 이끈 사람은 이오시프 스탈린이다. 그는 소련에서 사망했다. ",
+    "entities": {
+        "소련": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소련"
+        },
+        "이오시프_스탈린": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이오시프_스탈린"
+        }
+    },
+    "id": 4741,
+    "pid": "398-10",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "소련",
+            "p": "사망지(deathPlace)",
+            "s": "이오시프_스탈린"
+        },
+        {
+            "Rep": true,
+            "o": "이오시프_스탈린",
+            "p": "리더이름(leaderName)",
+            "s": "소련"
+        },
+        {
+            "Rep": false,
+            "o": "이오시프_스탈린",
+            "p": "지도자(leader)",
+            "s": "소련"
+        }
+    ]
+}

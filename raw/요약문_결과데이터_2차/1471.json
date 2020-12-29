@@ -1,0 +1,106 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "잉글랜드는 미국 나라다. 잉글랜드의 종교는 개신교다. ",
+    "entities": {
+        "개신교": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개신교"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "아일랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아일랜드"
+        },
+        "잉글랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잉글랜드"
+        }
+    },
+    "id": 1471,
+    "pid": "235-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": false,
+            "o": "아일랜드",
+            "p": "국가(country)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": true,
+            "o": "개신교",
+            "p": "종교(religion)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": false,
+            "o": "아일랜드",
+            "p": "국가(country)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "아일랜드"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "있는곳(populationPlace)",
+            "s": "개신교"
+        }
+    ]
+}

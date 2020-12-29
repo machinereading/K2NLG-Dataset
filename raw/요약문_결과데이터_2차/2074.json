@@ -1,0 +1,116 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 2,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "현대건설의 제품은 자동차이다. 현대건설의 제품은 현대자동차이다.",
+    "entities": {
+        "자동차": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자동차"
+        },
+        "현대건설": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현대건설"
+        },
+        "현대그룹": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현대그룹"
+        },
+        "현대자동차": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현대자동차"
+        }
+    },
+    "id": 2074,
+    "pid": "301-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "현대그룹",
+            "p": "모기업(parentCompany)",
+            "s": "현대건설"
+        },
+        {
+            "Rep": true,
+            "o": "자동차",
+            "p": "제품(product)",
+            "s": "현대건설"
+        },
+        {
+            "Rep": false,
+            "o": "자동차",
+            "p": "산업(industry)",
+            "s": "현대건설"
+        },
+        {
+            "Rep": false,
+            "o": "자동차",
+            "p": "제품(product)",
+            "s": "현대자동차"
+        },
+        {
+            "Rep": true,
+            "o": "현대자동차",
+            "p": "제품(product)",
+            "s": "현대건설"
+        },
+        {
+            "Rep": false,
+            "o": "현대건설",
+            "p": "자회사(subsidiary)",
+            "s": "현대그룹"
+        },
+        {
+            "Rep": false,
+            "o": "현대건설",
+            "p": "모기업(parentCompany)",
+            "s": "현대자동차"
+        },
+        {
+            "Rep": false,
+            "o": "현대자동차",
+            "p": "모기업(parentCompany)",
+            "s": "현대건설"
+        }
+    ]
+}

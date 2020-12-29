@@ -1,0 +1,168 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 1,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "윤보선대통령의 후임은 박정희 대통령이다. 대한민국 국군은 베트남전쟁에 참여했다. 박정희 대통령은 대한민국 국군이다.",
+    "entities": {
+        "공화당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공화당_(미국)"
+        },
+        "대한민국_국군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국군"
+        },
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        },
+        "베트남_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베트남_전쟁"
+        },
+        "수단": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수단"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "의사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의사"
+        }
+    },
+    "id": 2663,
+    "pid": "541-206",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "박정희",
+            "p": "계승자/후임(successor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "지휘관(commander)",
+            "s": "베트남_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "공화당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "베트남_전쟁",
+            "p": "전투(battle)",
+            "s": "대한민국_국군"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_국군",
+            "p": "직함/포지션(position)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "지도자(leader)",
+            "s": "수단"
+        },
+        {
+            "Rep": false,
+            "o": "의사",
+            "p": "직업(occupation)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "지도자(leader)",
+            "s": "공화당"
+        },
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "지휘관(commander)",
+            "s": "대한민국_국군"
+        },
+        {
+            "Rep": false,
+            "o": "의사",
+            "p": "직업(occupation)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "대통령/회장(president)",
+            "s": "의사"
+        },
+        {
+            "Rep": false,
+            "o": "공화당",
+            "p": "정당(party)",
+            "s": "수단"
+        }
+    ]
+}

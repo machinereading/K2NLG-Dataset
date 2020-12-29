@@ -1,0 +1,130 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "스위스 안에 아펜첼 주가 있다.",
+    "entities": {
+        "개신교": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개신교"
+        },
+        "바젤": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바젤"
+        },
+        "스위스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스위스"
+        },
+        "아펜첼_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아펜첼_주"
+        },
+        "운터발덴_주": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/운터발덴_주"
+        },
+        "헬베티아_공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헬베티아_공화국"
+        }
+    },
+    "id": 5608,
+    "pid": "714-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "스위스",
+            "p": "국가(country)",
+            "s": "아펜첼_주"
+        },
+        {
+            "Rep": true,
+            "o": "아펜첼_주",
+            "p": "부분(part)",
+            "s": "스위스"
+        },
+        {
+            "Rep": false,
+            "o": "운터발덴_주",
+            "p": "~의부분(isPartOf)",
+            "s": "바젤"
+        },
+        {
+            "Rep": false,
+            "o": "개신교",
+            "p": "타입/종류(type)",
+            "s": "아펜첼_주"
+        },
+        {
+            "Rep": false,
+            "o": "운터발덴_주",
+            "p": "~의부분(isPartOf)",
+            "s": "헬베티아_공화국"
+        },
+        {
+            "Rep": false,
+            "o": "헬베티아_공화국",
+            "p": "~의부분(isPartOf)",
+            "s": "운터발덴_주"
+        },
+        {
+            "Rep": false,
+            "o": "헬베티아_공화국",
+            "p": "지역/분양(region)",
+            "s": "바젤"
+        }
+    ]
+}

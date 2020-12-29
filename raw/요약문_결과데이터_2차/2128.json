@@ -1,0 +1,106 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "이정은은 건국대학교 회장이다. 그는 한국대학총학생회연합의 회장이다.",
+    "entities": {
+        "건국대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/건국대학교"
+        },
+        "민주사회를_위한_변호사_모임": {
+            "ne_type": "OG_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주사회를_위한_변호사_모임"
+        },
+        "유엔_인권_이사회": {
+            "ne_type": "OG_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유엔_인권_이사회"
+        },
+        "이정은": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이정은_(1970년)"
+        },
+        "한국대학총학생회연합": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국대학총학생회연합"
+        }
+    },
+    "id": 2128,
+    "pid": "350-26",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "이정은",
+            "p": "대통령/회장(president)",
+            "s": "건국대학교"
+        },
+        {
+            "Rep": false,
+            "o": "유엔_인권_이사회",
+            "p": "국가(country)",
+            "s": "건국대학교"
+        },
+        {
+            "Rep": false,
+            "o": "이정은",
+            "p": "대통령/회장(president)",
+            "s": "민주사회를_위한_변호사_모임"
+        },
+        {
+            "Rep": true,
+            "o": "이정은",
+            "p": "대통령/회장(president)",
+            "s": "한국대학총학생회연합"
+        },
+        {
+            "Rep": false,
+            "o": "이정은",
+            "p": "대통령/회장(president)",
+            "s": "유엔_인권_이사회"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "선도동은 경주시의 지역이다. 경주시의 안에 선도동이 있다. ",
+    "entities": {
+        "경주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경주시"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "삼국사기": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/삼국사기"
+        },
+        "선도동": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/선도동"
+        },
+        "신라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신라"
+        },
+        "태종무열왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태종무열왕"
+        }
+    },
+    "id": 2862,
+    "pid": "631-23",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "선도동",
+            "p": "부분(part)",
+            "s": "경주시"
+        },
+        {
+            "Rep": true,
+            "o": "경주시",
+            "p": "지역/분양(region)",
+            "s": "선도동"
+        },
+        {
+            "Rep": false,
+            "o": "신라",
+            "p": "국가(country)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "신라"
+        },
+        {
+            "Rep": false,
+            "o": "태종무열왕",
+            "p": "저자(author)",
+            "s": "삼국사기"
+        }
+    ]
+}

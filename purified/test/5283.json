@@ -1,0 +1,190 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 1,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "인터넷 익스플로러와 모질라 파이어폭스의 장르는 웹 브라우저이다.",
+    "entities": {
+        "구글": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/구글"
+        },
+        "모질라_파이어폭스": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/모질라_파이어폭스"
+        },
+        "사파리": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사파리_(웹_브라우저)"
+        },
+        "오페라": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오페라"
+        },
+        "웹_브라우저": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/웹_브라우저"
+        },
+        "인터넷_익스플로러": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인터넷_익스플로러"
+        },
+        "크로뮴": {
+            "ne_type": "MT_METAL",
+            "type": [
+                "http://dbpedia.org/ontology/ChemicalSubstance",
+                "http://dbpedia.org/ontology/ChemicalCompound"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/크로뮴"
+        },
+        "파": {
+            "ne_type": "TM_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species",
+                "http://dbpedia.org/ontology/Plant"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/파_(식물)"
+        },
+        "폭스_방송": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/BroadcastNetwork",
+                "http://dbpedia.org/ontology/Broadcaster"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/폭스_방송"
+        }
+    },
+    "id": 5283,
+    "pid": "549-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "웹_브라우저",
+            "p": "장르(genre)",
+            "s": "인터넷_익스플로러"
+        },
+        {
+            "Rep": false,
+            "o": "웹_브라우저",
+            "p": "장르(genre)",
+            "s": "사파리"
+        },
+        {
+            "Rep": true,
+            "o": "웹_브라우저",
+            "p": "장르(genre)",
+            "s": "모질라_파이어폭스"
+        },
+        {
+            "Rep": false,
+            "o": "파",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "인터넷_익스플로러",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "웹_브라우저",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "크로뮴",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "사파리",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "사파리",
+            "p": "제품(product)",
+            "s": "폭스_방송"
+        },
+        {
+            "Rep": false,
+            "o": "크로뮴",
+            "p": "개발자/개발사(developer)",
+            "s": "인터넷_익스플로러"
+        },
+        {
+            "Rep": false,
+            "o": "오페라",
+            "p": "장르(genre)",
+            "s": "인터넷_익스플로러"
+        },
+        {
+            "Rep": false,
+            "o": "크로뮴",
+            "p": "개발자/개발사(developer)",
+            "s": "웹_브라우저"
+        },
+        {
+            "Rep": false,
+            "o": "크로뮴",
+            "p": "타입/종류(type)",
+            "s": "모질라_파이어폭스"
+        }
+    ]
+}

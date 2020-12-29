@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "수지구는 용인시의 한 부분이다. 수지구는 경기도의 한 부분이기도 하다. ",
+    "entities": {
+        "경기도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경기도"
+        },
+        "수지구": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수지구"
+        },
+        "양팽손": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/양팽손"
+        },
+        "용인시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/용인시"
+        }
+    },
+    "id": 695,
+    "pid": "230-72",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "수지구",
+            "p": "부분(part)",
+            "s": "경기도"
+        },
+        {
+            "Rep": true,
+            "o": "용인시",
+            "p": "~의부분(isPartOf)",
+            "s": "수지구"
+        },
+        {
+            "Rep": false,
+            "o": "경기도",
+            "p": "지역/분양(region)",
+            "s": "용인시"
+        },
+        {
+            "Rep": false,
+            "o": "수지구",
+            "p": "부분(part)",
+            "s": "용인시"
+        },
+        {
+            "Rep": true,
+            "o": "경기도",
+            "p": "~의부분(isPartOf)",
+            "s": "수지구"
+        },
+        {
+            "Rep": false,
+            "o": "양팽손",
+            "p": "~의부분(isPartOf)",
+            "s": "수지구"
+        },
+        {
+            "Rep": false,
+            "o": "경기도",
+            "p": "지역/분양(region)",
+            "s": "경기도"
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "빌리 브란트는 독일인이다. 그의 직업은 작가다. ",
+    "entities": {
+        "국제펜클럽": {
+            "ne_type": "OGG_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국제펜클럽"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "독일인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일인"
+        },
+        "빌리_브란트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빌리_브란트"
+        },
+        "작가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작가"
+        },
+        "지식인": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지식인"
+        },
+        "토마스_만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토마스_만"
+        }
+    },
+    "id": 3569,
+    "pid": "111-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "국적(nationality)",
+            "s": "빌리_브란트"
+        },
+        {
+            "Rep": false,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "지식인"
+        },
+        {
+            "Rep": false,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "독일인"
+        },
+        {
+            "Rep": true,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "빌리_브란트"
+        },
+        {
+            "Rep": false,
+            "o": "지식인",
+            "p": "직업(occupation)",
+            "s": "빌리_브란트"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "토마스_만"
+        },
+        {
+            "Rep": false,
+            "o": "지식인",
+            "p": "관련되(related)",
+            "s": "독일인"
+        },
+        {
+            "Rep": false,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "국제펜클럽",
+            "p": "직함/포지션(position)",
+            "s": "빌리_브란트"
+        }
+    ]
+}

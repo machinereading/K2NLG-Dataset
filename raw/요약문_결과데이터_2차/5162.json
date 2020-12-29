@@ -1,0 +1,132 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "유엔 평화유지군의 지휘관은 미국의 지도자 LOVE이다.",
+    "entities": {
+        "LOVE": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Group",
+                "http://dbpedia.org/ontology/Band",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/LOVE_(일본의_가수)"
+        },
+        "대한민국_국군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국군"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "유엔_평화유지군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유엔_평화유지군"
+        },
+        "조선민주주의인민공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선민주주의인민공화국"
+        }
+    },
+    "id": 5162,
+    "pid": "541-152",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "조선민주주의인민공화국",
+            "p": "국가(country)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "조선민주주의인민공화국"
+        },
+        {
+            "Rep": false,
+            "o": "조선민주주의인민공화국",
+            "p": "국가(country)",
+            "s": "대한민국_국군"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "유엔_평화유지군"
+        },
+        {
+            "Rep": true,
+            "o": "LOVE",
+            "p": "지휘관(commander)",
+            "s": "유엔_평화유지군"
+        },
+        {
+            "Rep": false,
+            "o": "조선민주주의인민공화국",
+            "p": "국가(country)",
+            "s": "유엔_평화유지군"
+        },
+        {
+            "Rep": true,
+            "o": "LOVE",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "LOVE"
+        },
+        {
+            "Rep": false,
+            "o": "LOVE",
+            "p": "지도자(leader)",
+            "s": "조선민주주의인민공화국"
+        }
+    ]
+}

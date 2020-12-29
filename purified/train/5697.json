@@ -1,0 +1,176 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "하토야마 유키오의 정당은 자유민주당이다. 그의 후임은 다니가키 사다카즈 이다. 아소 다로의 정당은 자유민주당이다.",
+    "entities": {
+        "다니가키_사다카즈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다니가키_사다카즈"
+        },
+        "민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주당_(미국)"
+        },
+        "아소_다로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아소_다로"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "자유민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유민주당_(일본)"
+        },
+        "중의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Legislature",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중의원"
+        },
+        "하토야마_유키오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하토야마_유키오"
+        }
+    },
+    "id": 5697,
+    "pid": "752-56",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "하토야마_유키오"
+        },
+        {
+            "Rep": true,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "아소_다로"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "아소_다로"
+        },
+        {
+            "Rep": false,
+            "o": "중의원",
+            "p": "직함/포지션(position)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "중의원",
+            "p": "직함/포지션(position)",
+            "s": "자유민주당"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "중의원",
+            "p": "직함/포지션(position)",
+            "s": "민주당"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "중의원"
+        },
+        {
+            "Rep": true,
+            "o": "다니가키_사다카즈",
+            "p": "계승자/후임(successor)",
+            "s": "하토야마_유키오"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "중의원"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "기원/소속(affiliation)",
+            "s": "자유민주당"
+        },
+        {
+            "Rep": false,
+            "o": "하토야마_유키오",
+            "p": "전임자(predecessor)",
+            "s": "자유민주당"
+        }
+    ]
+}

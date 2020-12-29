@@ -1,0 +1,179 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "길재와 정몽주는 친척관계다. 김굉필은 성삼문과 친척관계다. ",
+    "entities": {
+        "길재": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/길재"
+        },
+        "김굉필": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김굉필"
+        },
+        "김종직": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김종직"
+        },
+        "성리학": {
+            "ne_type": "FD_PHILOSOPHY",
+            "type": [
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성리학"
+        },
+        "성삼문": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성삼문"
+        },
+        "정광필": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정광필"
+        },
+        "정몽주": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정몽주"
+        },
+        "조광조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조광조"
+        }
+    },
+    "id": 3965,
+    "pid": "230-36",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "성리학",
+            "p": "종교(religion)",
+            "s": "정몽주"
+        },
+        {
+            "Rep": false,
+            "o": "정몽주",
+            "p": "친척(relative)",
+            "s": "김굉필"
+        },
+        {
+            "Rep": false,
+            "o": "김종직",
+            "p": "친척(relative)",
+            "s": "김굉필"
+        },
+        {
+            "Rep": false,
+            "o": "성리학",
+            "p": "학력(education)",
+            "s": "김종직"
+        },
+        {
+            "Rep": true,
+            "o": "정몽주",
+            "p": "친척(relative)",
+            "s": "길재"
+        },
+        {
+            "Rep": true,
+            "o": "성삼문",
+            "p": "친척(relative)",
+            "s": "김굉필"
+        },
+        {
+            "Rep": false,
+            "o": "김종직",
+            "p": "친척(relative)",
+            "s": "정몽주"
+        },
+        {
+            "Rep": false,
+            "o": "조광조",
+            "p": "친척(relative)",
+            "s": "정광필"
+        },
+        {
+            "Rep": false,
+            "o": "김굉필",
+            "p": "친척(relative)",
+            "s": "정몽주"
+        },
+        {
+            "Rep": false,
+            "o": "성리학",
+            "p": "종교(religion)",
+            "s": "김굉필"
+        },
+        {
+            "Rep": false,
+            "o": "성리학",
+            "p": "종교(religion)",
+            "s": "길재"
+        },
+        {
+            "Rep": false,
+            "o": "김종직",
+            "p": "친척(relative)",
+            "s": "길재"
+        },
+        {
+            "Rep": false,
+            "o": "김굉필",
+            "p": "친척(relative)",
+            "s": "성삼문"
+        }
+    ]
+}

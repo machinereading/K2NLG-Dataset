@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "장택상의 전임자는 조병옥이다. 조병옥의 전임자는 허정이다. ",
+    "entities": {
+        "김준연": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김준연"
+        },
+        "송진우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송진우_(정치인)"
+        },
+        "장택상": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장택상"
+        },
+        "조병옥": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조병옥"
+        },
+        "허정": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/허정"
+        }
+    },
+    "id": 3195,
+    "pid": "800-108",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "허정",
+            "p": "전임자(predecessor)",
+            "s": "장택상"
+        },
+        {
+            "Rep": true,
+            "o": "허정",
+            "p": "전임자(predecessor)",
+            "s": "조병옥"
+        },
+        {
+            "Rep": false,
+            "o": "김준연",
+            "p": "전임자(predecessor)",
+            "s": "장택상"
+        },
+        {
+            "Rep": true,
+            "o": "조병옥",
+            "p": "전임자(predecessor)",
+            "s": "장택상"
+        },
+        {
+            "Rep": false,
+            "o": "송진우",
+            "p": "전임자(predecessor)",
+            "s": "장택상"
+        }
+    ]
+}

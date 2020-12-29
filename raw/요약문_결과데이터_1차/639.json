@@ -1,0 +1,166 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김대익의 팀은 롯데 자이언츠다. 롯데 자이언츠는 프로 야구 소속이다. ",
+    "entities": {
+        "김대익": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/BaseballPlayer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김대익"
+        },
+        "두산_베어스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/두산_베어스"
+        },
+        "롯데_자이언츠": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/롯데_자이언츠"
+        },
+        "문동환_(야구인)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/BaseballPlayer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문동환_(야구인)"
+        },
+        "정수근": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/BaseballPlayer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정수근"
+        },
+        "프로_야구": {
+            "ne_type": "CV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Activity",
+                "http://dbpedia.org/ontology/Sport"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프로_야구"
+        },
+        "현대_유니콘스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현대_유니콘스"
+        }
+    },
+    "id": 639,
+    "pid": "200-5",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "두산_베어스",
+            "p": "팀(team)",
+            "s": "문동환_(야구인)"
+        },
+        {
+            "Rep": true,
+            "o": "롯데_자이언츠",
+            "p": "팀(team)",
+            "s": "김대익"
+        },
+        {
+            "Rep": true,
+            "o": "프로_야구",
+            "p": "기원/소속(affiliation)",
+            "s": "롯데_자이언츠"
+        },
+        {
+            "Rep": false,
+            "o": "현대_유니콘스",
+            "p": "팀(team)",
+            "s": "문동환_(야구인)"
+        },
+        {
+            "Rep": false,
+            "o": "프로_야구",
+            "p": "기원/소속(affiliation)",
+            "s": "현대_유니콘스"
+        },
+        {
+            "Rep": false,
+            "o": "롯데_자이언츠",
+            "p": "팀(team)",
+            "s": "프로_야구"
+        },
+        {
+            "Rep": false,
+            "o": "현대_유니콘스",
+            "p": "팀(team)",
+            "s": "프로_야구"
+        },
+        {
+            "Rep": false,
+            "o": "롯데_자이언츠",
+            "p": "팀(team)",
+            "s": "문동환_(야구인)"
+        },
+        {
+            "Rep": false,
+            "o": "현대_유니콘스",
+            "p": "기원/소속(affiliation)",
+            "s": "롯데_자이언츠"
+        },
+        {
+            "Rep": false,
+            "o": "롯데_자이언츠",
+            "p": "팀(team)",
+            "s": "현대_유니콘스"
+        },
+        {
+            "Rep": false,
+            "o": "롯데_자이언츠",
+            "p": "팀(team)",
+            "s": "정수근"
+        }
+    ]
+}

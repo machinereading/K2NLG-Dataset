@@ -1,0 +1,76 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "드미트리 멘델레예프는 원소로 잘 알려졌다. 그의 직업은 교수이다.",
+    "entities": {
+        "교수": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교수"
+        },
+        "드미트리_멘델레예프": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/드미트리_멘델레예프"
+        },
+        "원소": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/MilitaryPerson",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원소_(후한)"
+        }
+    },
+    "id": 1033,
+    "pid": "106-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "원소",
+            "p": "~로알려진(knownFor)",
+            "s": "드미트리_멘델레예프"
+        },
+        {
+            "Rep": true,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "드미트리_멘델레예프"
+        },
+        {
+            "Rep": false,
+            "o": "원소",
+            "p": "전임자(predecessor)",
+            "s": "드미트리_멘델레예프"
+        }
+    ]
+}

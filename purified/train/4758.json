@@ -1,0 +1,107 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "아프리카에는 캐나다인이 있다. 아프리카에는 유럽인도 있다.",
+    "entities": {
+        "북아메리카": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/북아메리카"
+        },
+        "아프리카": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아프리카"
+        },
+        "유럽인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽인"
+        },
+        "캐나다": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캐나다"
+        },
+        "캐나다인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캐나다인"
+        }
+    },
+    "id": 4758,
+    "pid": "405-29",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "유럽인",
+            "p": "관련되(related)",
+            "s": "캐나다인"
+        },
+        {
+            "Rep": false,
+            "o": "캐나다",
+            "p": "국가(country)",
+            "s": "북아메리카"
+        },
+        {
+            "Rep": true,
+            "o": "아프리카",
+            "p": "있는곳(populationPlace)",
+            "s": "캐나다인"
+        },
+        {
+            "Rep": true,
+            "o": "아프리카",
+            "p": "있는곳(populationPlace)",
+            "s": "유럽인"
+        },
+        {
+            "Rep": false,
+            "o": "캐나다인",
+            "p": "관련되(related)",
+            "s": "유럽인"
+        }
+    ]
+}

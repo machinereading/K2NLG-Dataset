@@ -1,0 +1,158 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "함경북도는 한반도에 속한다. ",
+    "entities": {
+        "구과식물": {
+            "ne_type": "PT_TYPE",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Conifer",
+                "http://dbpedia.org/ontology/Species",
+                "http://dbpedia.org/ontology/Plant"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/구과식물"
+        },
+        "동물": {
+            "ne_type": "AM_TYPE",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동물"
+        },
+        "만주": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주"
+        },
+        "백두산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Volcano",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백두산"
+        },
+        "식물": {
+            "ne_type": "PT_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species",
+                "http://dbpedia.org/ontology/Plant"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/식물"
+        },
+        "한반도": {
+            "ne_type": "LCG_BAY",
+            "type": [
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한반도"
+        },
+        "함경북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/함경북도"
+        }
+    },
+    "id": 5131,
+    "pid": "535-99",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "만주",
+            "p": "~의부분(isPartOf)",
+            "s": "함경북도"
+        },
+        {
+            "Rep": true,
+            "o": "한반도",
+            "p": "~의부분(isPartOf)",
+            "s": "함경북도"
+        },
+        {
+            "Rep": false,
+            "o": "백두산",
+            "p": "~의부분(isPartOf)",
+            "s": "함경북도"
+        },
+        {
+            "Rep": false,
+            "o": "동물",
+            "p": "문_생물분류단계(division)",
+            "s": "식물"
+        },
+        {
+            "Rep": false,
+            "o": "식물",
+            "p": "문_생물분류단계(division)",
+            "s": "동물"
+        },
+        {
+            "Rep": false,
+            "o": "동물",
+            "p": "문_생물분류단계(division)",
+            "s": "구과식물"
+        },
+        {
+            "Rep": false,
+            "o": "구과식물",
+            "p": "문_생물분류단계(division)",
+            "s": "식물"
+        },
+        {
+            "Rep": false,
+            "o": "식물",
+            "p": "문_생물분류단계(division)",
+            "s": "구과식물"
+        },
+        {
+            "Rep": false,
+            "o": "구과식물",
+            "p": "문_생물분류단계(division)",
+            "s": "동물"
+        }
+    ]
+}

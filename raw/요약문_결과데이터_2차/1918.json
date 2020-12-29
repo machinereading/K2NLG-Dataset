@@ -1,0 +1,100 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "움브리아 주 안에 마르케 주가 있다. 움브리아 주는 마르케 주의 한 부분이다.",
+    "entities": {
+        "교황_식스토_5세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_식스토_5세"
+        },
+        "교황령": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황령"
+        },
+        "마르케_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마르케_주"
+        },
+        "움브리아_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/움브리아_주"
+        }
+    },
+    "id": 1918,
+    "pid": "54-12",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "교황령",
+            "p": "사망지(deathPlace)",
+            "s": "교황_식스토_5세"
+        },
+        {
+            "Rep": true,
+            "o": "마르케_주",
+            "p": "부분(part)",
+            "s": "움브리아_주"
+        },
+        {
+            "Rep": false,
+            "o": "교황령",
+            "p": "국가(country)",
+            "s": "움브리아_주"
+        },
+        {
+            "Rep": true,
+            "o": "마르케_주",
+            "p": "~의부분(isPartOf)",
+            "s": "움브리아_주"
+        }
+    ]
+}

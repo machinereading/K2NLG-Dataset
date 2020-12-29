@@ -1,0 +1,126 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김성수의 뒤를 이승만이 이어갔다. 이승만이 윤영선의 배우자다. ",
+    "entities": {
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "미국_재무부": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국_재무부"
+        },
+        "윤영선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤영선_(1896년)"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "장택상": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장택상"
+        }
+    },
+    "id": 3211,
+    "pid": "800-134",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "미국_재무부",
+            "p": "직함/포지션(position)",
+            "s": "장택상"
+        },
+        {
+            "Rep": true,
+            "o": "이승만",
+            "p": "배우자(spouse)",
+            "s": "윤영선"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "지도자(leader)",
+            "s": "미국_재무부"
+        },
+        {
+            "Rep": false,
+            "o": "미국_재무부",
+            "p": "직함/포지션(position)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "이승만",
+            "p": "계승자/후임(successor)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "미국_재무부",
+            "p": "직함/포지션(position)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "윤영선",
+            "p": "계승자/후임(successor)",
+            "s": "김성수"
+        }
+    ]
+}

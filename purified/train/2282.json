@@ -1,0 +1,130 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "아니쉬 카푸어의 직업은 조각가다. 그는 클라우드 컴퓨팅으로 유명해졌다. ",
+    "entities": {
+        "아니쉬_카푸어": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아니쉬_카푸어"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "인도": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인도"
+        },
+        "조각가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조각가"
+        },
+        "클라우드_컴퓨팅": {
+            "ne_type": "TR_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/클라우드_컴퓨팅"
+        }
+    },
+    "id": 2282,
+    "pid": "434-32",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "아니쉬_카푸어",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "인도"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "조각가"
+        },
+        {
+            "Rep": true,
+            "o": "조각가",
+            "p": "직업(occupation)",
+            "s": "아니쉬_카푸어"
+        },
+        {
+            "Rep": false,
+            "o": "아니쉬_카푸어",
+            "p": "지도자(leader)",
+            "s": "인도"
+        },
+        {
+            "Rep": true,
+            "o": "클라우드_컴퓨팅",
+            "p": "~로알려진(knownFor)",
+            "s": "아니쉬_카푸어"
+        },
+        {
+            "Rep": false,
+            "o": "조각가",
+            "p": "직업(occupation)",
+            "s": "인도"
+        },
+        {
+            "Rep": false,
+            "o": "조각가",
+            "p": "직업(occupation)",
+            "s": "클라우드_컴퓨팅"
+        },
+        {
+            "Rep": false,
+            "o": "조각가",
+            "p": "타입/종류(type)",
+            "s": "인도"
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "일본 지도자 고이즈미 준이치로는 출생지가 일본이다. ",
+    "entities": {
+        "고이즈미_신지로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고이즈미_신지로"
+        },
+        "고이즈미_준이치로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고이즈미_준이치로"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "중의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Legislature",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중의원"
+        }
+    },
+    "id": 2216,
+    "pid": "397-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "출생지(birthPlace)",
+            "s": "고이즈미_준이치로"
+        },
+        {
+            "Rep": true,
+            "o": "고이즈미_준이치로",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "고이즈미_신지로",
+            "p": "지도자(leader)",
+            "s": "중의원"
+        },
+        {
+            "Rep": false,
+            "o": "중의원",
+            "p": "직함/포지션(position)",
+            "s": "고이즈미_신지로"
+        },
+        {
+            "Rep": false,
+            "o": "중의원",
+            "p": "직함/포지션(position)",
+            "s": "의원"
+        }
+    ]
+}

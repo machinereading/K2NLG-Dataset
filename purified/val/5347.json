@@ -1,0 +1,86 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "키예프 대공국의 수도는 키예프다. 키예프는 동유럽에 있는 한 지역이다.",
+    "entities": {
+        "동슬라브족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동슬라브족"
+        },
+        "동유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Airport"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동유럽"
+        },
+        "키예프": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/키예프"
+        },
+        "키예프_대공국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/키예프_대공국"
+        }
+    },
+    "id": 5347,
+    "pid": "604-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "키예프",
+            "p": "수도(capital)",
+            "s": "키예프_대공국"
+        },
+        {
+            "Rep": true,
+            "o": "동유럽",
+            "p": "지역/분양(region)",
+            "s": "키예프"
+        },
+        {
+            "Rep": false,
+            "o": "동유럽",
+            "p": "있는곳(populationPlace)",
+            "s": "동슬라브족"
+        }
+    ]
+}

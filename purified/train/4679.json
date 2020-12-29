@@ -1,0 +1,129 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "오를 이끈 사람은 손책이다. 손책의 뒤는 주태가 이어갔다. ",
+    "entities": {
+        "손권": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손권"
+        },
+        "손책": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손책"
+        },
+        "오": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오_(삼국)"
+        },
+        "장굉": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장굉"
+        },
+        "주태": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/주태"
+        },
+        "태사자": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태사자"
+        },
+        "허공": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/허공_(후한)"
+        }
+    },
+    "id": 4679,
+    "pid": "372-5",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "오",
+            "p": "전임자(predecessor)",
+            "s": "손권"
+        },
+        {
+            "Rep": false,
+            "o": "장굉",
+            "p": "~의부분(isPartOf)",
+            "s": "주태"
+        },
+        {
+            "Rep": false,
+            "o": "태사자",
+            "p": "~의부분(isPartOf)",
+            "s": "주태"
+        },
+        {
+            "Rep": true,
+            "o": "손책",
+            "p": "리더이름(leaderName)",
+            "s": "오"
+        },
+        {
+            "Rep": false,
+            "o": "허공",
+            "p": "계승자/후임(successor)",
+            "s": "손책"
+        },
+        {
+            "Rep": true,
+            "o": "주태",
+            "p": "계승자/후임(successor)",
+            "s": "손책"
+        }
+    ]
+}

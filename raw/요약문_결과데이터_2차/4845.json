@@ -1,0 +1,174 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "병인양요가 일어난 장소는 강화도다. 강화도가 있는 국가는 프랑스이다. ",
+    "entities": {
+        "강화도": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강화도"
+        },
+        "교수": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교수"
+        },
+        "병인양요": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/병인양요"
+        },
+        "사과나무": {
+            "ne_type": "PT_FRUIT",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Species",
+                "http://dbpedia.org/ontology/Plant"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사과나무"
+        },
+        "선교사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/선교사"
+        },
+        "조선": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/NobleFamily",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Family",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 4845,
+    "pid": "443-25",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "강화도",
+            "p": "장소(place)",
+            "s": "병인양요"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "장소(place)",
+            "s": "병인양요"
+        },
+        {
+            "Rep": false,
+            "o": "선교사",
+            "p": "직업(occupation)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "사과나무"
+        },
+        {
+            "Rep": true,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "강화도"
+        },
+        {
+            "Rep": false,
+            "o": "선교사",
+            "p": "직업(occupation)",
+            "s": "병인양요"
+        },
+        {
+            "Rep": false,
+            "o": "선교사",
+            "p": "직업(occupation)",
+            "s": "강화도"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "지휘관(commander)",
+            "s": "병인양요"
+        },
+        {
+            "Rep": false,
+            "o": "선교사",
+            "p": "직업(occupation)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국적(nationality)",
+            "s": "교수"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "프랑스"
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "미국에서 가장 큰 도시는 맨체스터다. 맨체스터는 뉴햄프셔 주에 속한다. ",
+    "entities": {
+        "뉴햄프셔_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뉴햄프셔_주"
+        },
+        "맨체스터": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/맨체스터"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "보스턴": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보스턴"
+        },
+        "아이작_뉴턴": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아이작_뉴턴"
+        },
+        "유니비전": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/BroadcastNetwork",
+                "http://dbpedia.org/ontology/Broadcaster"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유니비전"
+        },
+        "텔레비전": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/텔레비전"
+        }
+    },
+    "id": 3011,
+    "pid": "670-37",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "뉴햄프셔_주"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "맨체스터"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "보스턴"
+        },
+        {
+            "Rep": false,
+            "o": "보스턴",
+            "p": "가장큰도시(largestCity)",
+            "s": "뉴햄프셔_주"
+        },
+        {
+            "Rep": false,
+            "o": "뉴햄프셔_주",
+            "p": "~의부분(isPartOf)",
+            "s": "보스턴"
+        },
+        {
+            "Rep": false,
+            "o": "맨체스터",
+            "p": "~의부분(isPartOf)",
+            "s": "보스턴"
+        },
+        {
+            "Rep": true,
+            "o": "맨체스터",
+            "p": "가장큰도시(largestCity)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "맨체스터",
+            "p": "가장큰도시(largestCity)",
+            "s": "뉴햄프셔_주"
+        },
+        {
+            "Rep": false,
+            "o": "뉴햄프셔_주",
+            "p": "~의부분(isPartOf)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "아이작_뉴턴",
+            "p": "~의부분(isPartOf)",
+            "s": "보스턴"
+        },
+        {
+            "Rep": true,
+            "o": "뉴햄프셔_주",
+            "p": "~의부분(isPartOf)",
+            "s": "맨체스터"
+        },
+        {
+            "Rep": false,
+            "o": "텔레비전",
+            "p": "제품(product)",
+            "s": "유니비전"
+        }
+    ]
+}

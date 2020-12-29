@@ -1,0 +1,123 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "매사추세츠 주에서 가장큰도시는 보스턴이다. 보스턴의 국가는 영국이다. 플리머스는 메사추세츠 주에 속한다.",
+    "entities": {
+        "매사추세츠_만": {
+            "ne_type": "LCG_BAY",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/매사추세츠_만"
+        },
+        "매사추세츠_만_식민지": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/매사추세츠_만_식민지"
+        },
+        "매사추세츠_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/매사추세츠_주"
+        },
+        "보스턴": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보스턴"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "플리머스": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/플리머스"
+        }
+    },
+    "id": 5541,
+    "pid": "670-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "보스턴",
+            "p": "가장큰도시(largestCity)",
+            "s": "매사추세츠_주"
+        },
+        {
+            "Rep": true,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "보스턴"
+        },
+        {
+            "Rep": false,
+            "o": "매사추세츠_만_식민지",
+            "p": "~의부분(isPartOf)",
+            "s": "플리머스"
+        },
+        {
+            "Rep": false,
+            "o": "매사추세츠_만",
+            "p": "~의부분(isPartOf)",
+            "s": "플리머스"
+        },
+        {
+            "Rep": true,
+            "o": "매사추세츠_주",
+            "p": "~의부분(isPartOf)",
+            "s": "플리머스"
+        }
+    ]
+}

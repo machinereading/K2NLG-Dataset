@@ -1,0 +1,191 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "손권은 베오그라드의 리더다. 그는 셀림 1세의 계승자다. 그는 베오그라드에서 사망했다.",
+    "entities": {
+        "교황_레오_10세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_레오_10세"
+        },
+        "베오그라드": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베오그라드"
+        },
+        "셀림_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/셀림_1세"
+        },
+        "손권": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손권"
+        },
+        "쉴레이만_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쉴레이만_1세"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        },
+        "헝가리": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Language",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헝가리"
+        }
+    },
+    "id": 4336,
+    "pid": "42-15",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "교황_레오_10세",
+            "p": "지도자(leader)",
+            "s": "헝가리"
+        },
+        {
+            "Rep": false,
+            "o": "셀림_1세",
+            "p": "지도자(leader)",
+            "s": "헝가리"
+        },
+        {
+            "Rep": true,
+            "o": "손권",
+            "p": "리더이름(leaderName)",
+            "s": "베오그라드"
+        },
+        {
+            "Rep": false,
+            "o": "교황_레오_10세",
+            "p": "리더이름(leaderName)",
+            "s": "헝가리"
+        },
+        {
+            "Rep": false,
+            "o": "셀림_1세",
+            "p": "리더이름(leaderName)",
+            "s": "헝가리"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "헝가리"
+        },
+        {
+            "Rep": false,
+            "o": "헝가리",
+            "p": "국가(country)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "쉴레이만_1세",
+            "p": "계승자/후임(successor)",
+            "s": "셀림_1세"
+        },
+        {
+            "Rep": true,
+            "o": "손권",
+            "p": "계승자/후임(successor)",
+            "s": "셀림_1세"
+        },
+        {
+            "Rep": false,
+            "o": "교황_레오_10세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "셀림_1세",
+            "p": "전임자(predecessor)",
+            "s": "쉴레이만_1세"
+        },
+        {
+            "Rep": false,
+            "o": "셀림_1세",
+            "p": "전임자(predecessor)",
+            "s": "손권"
+        },
+        {
+            "Rep": false,
+            "o": "교황_레오_10세",
+            "p": "리더이름(leaderName)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "베오그라드",
+            "p": "사망지(deathPlace)",
+            "s": "손권"
+        }
+    ]
+}

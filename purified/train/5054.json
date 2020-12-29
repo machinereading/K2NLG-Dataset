@@ -1,0 +1,114 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "신화가 있는 곳은 로마이다. 신화는 라틴어로 되어있다.",
+    "entities": {
+        "그리스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/그리스"
+        },
+        "라틴어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라틴어"
+        },
+        "로마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "신화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신화"
+        },
+        "오비디우스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오비디우스"
+        }
+    },
+    "id": 5054,
+    "pid": "522-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "그리스",
+            "p": "국가(country)",
+            "s": "로마"
+        },
+        {
+            "Rep": false,
+            "o": "신화",
+            "p": "계통(languageFamily)",
+            "s": "라틴어"
+        },
+        {
+            "Rep": true,
+            "o": "로마",
+            "p": "있는곳(populationPlace)",
+            "s": "신화"
+        },
+        {
+            "Rep": false,
+            "o": "오비디우스",
+            "p": "저자(author)",
+            "s": "신화"
+        },
+        {
+            "Rep": true,
+            "o": "라틴어",
+            "p": "언어(language)",
+            "s": "신화"
+        },
+        {
+            "Rep": false,
+            "o": "그리스",
+            "p": "있는곳(populationPlace)",
+            "s": "신화"
+        }
+    ]
+}

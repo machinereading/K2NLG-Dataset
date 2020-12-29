@@ -1,0 +1,180 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "중국국민당은 국공 내전에 참전했다. 그들의 본부는 타이완 성에 있다.",
+    "entities": {
+        "국공_내전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국공_내전"
+        },
+        "국민혁명군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국민혁명군"
+        },
+        "군인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/군인"
+        },
+        "일본_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본_제국"
+        },
+        "중국국민당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국국민당"
+        },
+        "중화민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화민국"
+        },
+        "타이완_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/타이완_성"
+        }
+    },
+    "id": 2191,
+    "pid": "376-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본_제국",
+            "p": "국가(country)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": true,
+            "o": "국공_내전",
+            "p": "전투(battle)",
+            "s": "중국국민당"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "타이완_성"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "민족(ethnicGroup)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": false,
+            "o": "국공_내전",
+            "p": "전투(battle)",
+            "s": "국민혁명군"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "국민혁명군"
+        },
+        {
+            "Rep": true,
+            "o": "타이완_성",
+            "p": "본부/본사(headquarter)",
+            "s": "중국국민당"
+        },
+        {
+            "Rep": false,
+            "o": "국공_내전",
+            "p": "전투(battle)",
+            "s": "군인"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "본부/본사(headquarter)",
+            "s": "중국국민당"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "중국국민당"
+        },
+        {
+            "Rep": false,
+            "o": "중국국민당",
+            "p": "정당(party)",
+            "s": "군인"
+        },
+        {
+            "Rep": false,
+            "o": "타이완_성",
+            "p": "있는곳(populationPlace)",
+            "s": "군인"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "일본_제국"
+        }
+    ]
+}

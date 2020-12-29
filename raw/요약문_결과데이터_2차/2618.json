@@ -1,0 +1,100 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "서울특별시를 이끈 임흥순은 대한민국 내무부 소속이다. ",
+    "entities": {
+        "김도연": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김도연_(정치인)"
+        },
+        "대한민국_내무부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_내무부"
+        },
+        "민의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Legislature",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민의원"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "임흥순": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/임흥순"
+        }
+    },
+    "id": 2618,
+    "pid": "541-113",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국_내무부",
+            "p": "직함/포지션(position)",
+            "s": "임흥순"
+        },
+        {
+            "Rep": true,
+            "o": "임흥순",
+            "p": "리더이름(leaderName)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "민의원",
+            "p": "직함/포지션(position)",
+            "s": "김도연"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_내무부",
+            "p": "직함/포지션(position)",
+            "s": "김도연"
+        }
+    ]
+}

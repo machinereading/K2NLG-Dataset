@@ -1,0 +1,113 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "승려는 신라의 리더이다. 그의 국가는 신라이다.",
+    "entities": {
+        "미륵산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미륵산_(경상남도)"
+        },
+        "승려": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/승려"
+        },
+        "신라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신라"
+        },
+        "쓰시마_섬": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쓰시마_섬"
+        },
+        "용화산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/용화산"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        }
+    },
+    "id": 4780,
+    "pid": "417-11",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "쓰시마_섬"
+        },
+        {
+            "Rep": true,
+            "o": "승려",
+            "p": "리더이름(leaderName)",
+            "s": "신라"
+        },
+        {
+            "Rep": true,
+            "o": "신라",
+            "p": "국가(country)",
+            "s": "승려"
+        },
+        {
+            "Rep": false,
+            "o": "용화산",
+            "p": "있는곳(locatedInArea)",
+            "s": "미륵산"
+        }
+    ]
+}

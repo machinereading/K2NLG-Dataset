@@ -1,0 +1,91 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "오부치 게이조의 뒤는 모리 요시로가 이어갔다. 모리 요시로의 뒤는 고이즈미 준이치로가 이어갔다. 모리 요시로가 있는 정당은 자유민주당이다. ",
+    "entities": {
+        "고이즈미_준이치로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고이즈미_준이치로"
+        },
+        "모리_요시로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/모리_요시로"
+        },
+        "오부치_게이조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오부치_게이조"
+        },
+        "자유민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유민주당_(일본)"
+        }
+    },
+    "id": 3168,
+    "pid": "752-45",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "모리_요시로",
+            "p": "계승자/후임(successor)",
+            "s": "오부치_게이조"
+        },
+        {
+            "Rep": true,
+            "o": "고이즈미_준이치로",
+            "p": "계승자/후임(successor)",
+            "s": "모리_요시로"
+        },
+        {
+            "Rep": true,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "모리_요시로"
+        }
+    ]
+}

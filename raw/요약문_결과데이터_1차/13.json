@@ -1,0 +1,107 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "다미에타는 이집트에 속해 있다. 교황 특사는 십자군의 지휘관이다. 라인 강은 헝가리의 강이다.",
+    "entities": {
+        "교황_특사": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_특사"
+        },
+        "다미에타": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다미에타"
+        },
+        "라인_강": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/River"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라인_강"
+        },
+        "십자군": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/십자군"
+        },
+        "이집트": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이집트"
+        },
+        "헝가리": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Language",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헝가리"
+        }
+    },
+    "id": 13,
+    "pid": "1-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "이집트",
+            "p": "국가(country)",
+            "s": "다미에타"
+        },
+        {
+            "Rep": true,
+            "o": "교황_특사",
+            "p": "지휘관(commander)",
+            "s": "십자군"
+        },
+        {
+            "Rep": true,
+            "o": "헝가리",
+            "p": "국가(country)",
+            "s": "라인_강"
+        }
+    ]
+}

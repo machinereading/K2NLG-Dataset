@@ -1,0 +1,185 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "허정은 부산광역시에서 거주했다. 그의 직업은 교사였다. 그는 미국에서 사망했다.",
+    "entities": {
+        "교사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교사"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "부산광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산광역시"
+        },
+        "이기붕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이기붕"
+        },
+        "태평양": {
+            "ne_type": "LCG_OCEAN",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Ocean",
+                "http://dbpedia.org/ontology/Airport",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태평양"
+        },
+        "하와이_주": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하와이_주"
+        },
+        "허정": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/허정"
+        }
+    },
+    "id": 5986,
+    "pid": "831-24",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "부산광역시",
+            "p": "거주지(residence)",
+            "s": "허정"
+        },
+        {
+            "Rep": true,
+            "o": "교사",
+            "p": "직업(occupation)",
+            "s": "허정"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "하와이_주"
+        },
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "사망지(deathPlace)",
+            "s": "허정"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "태평양"
+        },
+        {
+            "Rep": false,
+            "o": "교사",
+            "p": "국가(country)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "하와이_주",
+            "p": "사망지(deathPlace)",
+            "s": "이기붕"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "사망지(deathPlace)",
+            "s": "이기붕"
+        },
+        {
+            "Rep": false,
+            "o": "태평양",
+            "p": "사망지(deathPlace)",
+            "s": "허정"
+        },
+        {
+            "Rep": false,
+            "o": "이기붕",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "허정",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "태평양",
+            "p": "사망지(deathPlace)",
+            "s": "이기붕"
+        },
+        {
+            "Rep": false,
+            "o": "이기붕",
+            "p": "계승자/후임(successor)",
+            "s": "허정"
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "아시아에는 백인이 있다. 아시아에는 흑인도 있다.",
+    "entities": {
+        "동남아시아": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동남아시아"
+        },
+        "백인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백인"
+        },
+        "아시아": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아시아"
+        },
+        "아프리카": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아프리카"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        },
+        "한국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국어"
+        },
+        "흑인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/흑인"
+        }
+    },
+    "id": 1614,
+    "pid": "280-143",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "백인",
+            "p": "관련되(related)",
+            "s": "흑인"
+        },
+        {
+            "Rep": true,
+            "o": "아시아",
+            "p": "있는곳(populationPlace)",
+            "s": "백인"
+        },
+        {
+            "Rep": true,
+            "o": "아시아",
+            "p": "있는곳(populationPlace)",
+            "s": "흑인"
+        },
+        {
+            "Rep": false,
+            "o": "흑인",
+            "p": "관련되(related)",
+            "s": "백인"
+        },
+        {
+            "Rep": false,
+            "o": "아프리카",
+            "p": "~의부분(isPartOf)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "한국어",
+            "p": "언어(language)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "아프리카",
+            "p": "~의부분(isPartOf)",
+            "s": "동남아시아"
+        }
+    ]
+}

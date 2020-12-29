@@ -1,0 +1,99 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "장길상은 대한제국의 리더이다. 그의 국가는 대한제국이다.",
+    "entities": {
+        "경기도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경기도"
+        },
+        "경상북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상북도"
+        },
+        "대한제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한제국"
+        },
+        "장길상": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장길상"
+        },
+        "장승원": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장승원"
+        }
+    },
+    "id": 6039,
+    "pid": "833-7",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "경기도",
+            "p": "~의부분(isPartOf)",
+            "s": "경상북도"
+        },
+        {
+            "Rep": true,
+            "o": "장길상",
+            "p": "리더이름(leaderName)",
+            "s": "대한제국"
+        },
+        {
+            "Rep": false,
+            "o": "장승원",
+            "p": "~의부분(isPartOf)",
+            "s": "경상북도"
+        },
+        {
+            "Rep": true,
+            "o": "대한제국",
+            "p": "국가(country)",
+            "s": "장길상"
+        }
+    ]
+}

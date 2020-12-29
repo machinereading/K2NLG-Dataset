@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "태평양 전쟁은 제2차 세계 대전의 일부분이다. 하와이 주는 아시아의 일부분이다. 하와이 주의 국가는 미국이다. 하와이는 아시아에 위치해 있다.",
+    "entities": {
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "아시아": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아시아"
+        },
+        "제2차_세계_대전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제2차_세계_대전"
+        },
+        "태평양_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태평양_전쟁"
+        },
+        "하와이_주": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하와이_주"
+        }
+    },
+    "id": 4962,
+    "pid": "480-54",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "제2차_세계_대전",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "태평양_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "하와이_주",
+            "p": "~의부분(isPartOf)",
+            "s": "아시아"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "하와이_주"
+        },
+        {
+            "Rep": true,
+            "o": "아시아",
+            "p": "위치/지역(location)",
+            "s": "하와이_주"
+        },
+        {
+            "Rep": true,
+            "o": "태평양_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "제2차_세계_대전"
+        }
+    ]
+}

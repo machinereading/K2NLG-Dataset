@@ -1,0 +1,102 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "베드로의 직업은 교황이다. 단테 알리기에리는 고대 로마에서 태어났다. 베드로의 뒤는 사도 파울로스가 이어갔다.",
+    "entities": {
+        "고대_로마": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/HistoricalRegion",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고대_로마"
+        },
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "단테_알리기에리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/단테_알리기에리"
+        },
+        "베드로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베드로"
+        },
+        "사도_파울로스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사도_파울로스"
+        }
+    },
+    "id": 3721,
+    "pid": "17-15",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "베드로"
+        },
+        {
+            "Rep": true,
+            "o": "고대_로마",
+            "p": "출생지(birthPlace)",
+            "s": "단테_알리기에리"
+        },
+        {
+            "Rep": true,
+            "o": "사도_파울로스",
+            "p": "계승자/후임(successor)",
+            "s": "베드로"
+        }
+    ]
+}

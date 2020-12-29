@@ -1,0 +1,182 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황의 국가는 이탈리아다. 그의 국가는 스페인이다. 그는 당주의 직함이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "구이도발도_다_몬테펠트로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/구이도발도_다_몬테펠트로"
+        },
+        "나폴리": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나폴리"
+        },
+        "당주": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/당주"
+        },
+        "스페인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인"
+        },
+        "우르비노": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우르비노"
+        },
+        "이탈리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아"
+        },
+        "후안_보르자": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/후안_보르자"
+        }
+    },
+    "id": 392,
+    "pid": "39-23",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "스페인",
+            "p": "국가(country)",
+            "s": "이탈리아"
+        },
+        {
+            "Rep": false,
+            "o": "스페인",
+            "p": "국가(country)",
+            "s": "나폴리"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "나폴리"
+        },
+        {
+            "Rep": true,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "교황"
+        },
+        {
+            "Rep": true,
+            "o": "스페인",
+            "p": "국가(country)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "후안_보르자",
+            "p": "리더이름(leaderName)",
+            "s": "우르비노"
+        },
+        {
+            "Rep": false,
+            "o": "구이도발도_다_몬테펠트로",
+            "p": "리더이름(leaderName)",
+            "s": "우르비노"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "당주",
+            "p": "리더이름(leaderName)",
+            "s": "이탈리아"
+        },
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "당주"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "당주"
+        },
+        {
+            "Rep": false,
+            "o": "후안_보르자",
+            "p": "계승자/후임(successor)",
+            "s": "구이도발도_다_몬테펠트로"
+        }
+    ]
+}

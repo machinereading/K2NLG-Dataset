@@ -1,0 +1,130 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 그레고리오 16세는 로마에서 사망했다. 그는 러시아를 지도했다. 그는 폴란드를 이끈 지도자였다.",
+    "entities": {
+        "교황_그레고리오_16세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_그레고리오_16세"
+        },
+        "니콜라이_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/니콜라이_1세"
+        },
+        "러시아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아"
+        },
+        "로마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "폴란드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/폴란드"
+        }
+    },
+    "id": 4548,
+    "pid": "77-17",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "로마",
+            "p": "사망지(deathPlace)",
+            "s": "교황_그레고리오_16세"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "로마"
+        },
+        {
+            "Rep": false,
+            "o": "폴란드",
+            "p": "국가(country)",
+            "s": "로마"
+        },
+        {
+            "Rep": false,
+            "o": "니콜라이_1세",
+            "p": "지도자(leader)",
+            "s": "러시아"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "폴란드"
+        },
+        {
+            "Rep": true,
+            "o": "교황_그레고리오_16세",
+            "p": "지도자(leader)",
+            "s": "러시아"
+        },
+        {
+            "Rep": false,
+            "o": "니콜라이_1세",
+            "p": "지도자(leader)",
+            "s": "폴란드"
+        },
+        {
+            "Rep": true,
+            "o": "교황_그레고리오_16세",
+            "p": "지도자(leader)",
+            "s": "폴란드"
+        }
+    ]
+}

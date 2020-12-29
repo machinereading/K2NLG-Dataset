@@ -1,0 +1,85 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "아빌라의 테레사의 자식은 수녀다. ",
+    "entities": {
+        "노벨_평화상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/NobelPrize",
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노벨_평화상"
+        },
+        "수녀": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수녀"
+        },
+        "아빌라의_테레사": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아빌라의_테레사"
+        },
+        "인도": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인도"
+        }
+    },
+    "id": 5135,
+    "pid": "540-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "인도",
+            "p": "국가(country)",
+            "s": "노벨_평화상"
+        },
+        {
+            "Rep": true,
+            "o": "수녀",
+            "p": "자식(child)",
+            "s": "아빌라의_테레사"
+        },
+        {
+            "Rep": false,
+            "o": "아빌라의_테레사",
+            "p": "부모(parent)",
+            "s": "수녀"
+        }
+    ]
+}

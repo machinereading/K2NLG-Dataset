@@ -1,0 +1,69 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 1,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 1,
+            "Quality": 2,
+            "Restriction": false
+        }
+    ],
+    "Text": "서울특별시는 경기도의 지역이다. 경기도의 안에 서울특별시가 있다. ",
+    "entities": {
+        "경기도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경기도"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        }
+    },
+    "id": 2737,
+    "pid": "541-79",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "지역/분양(region)",
+            "s": "경기도"
+        },
+        {
+            "Rep": false,
+            "o": "경기도",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "경기도",
+            "p": "지역/분양(region)",
+            "s": "서울특별시"
+        }
+    ]
+}

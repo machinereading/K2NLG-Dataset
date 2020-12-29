@@ -1,0 +1,83 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "피렌체는 볼로냐의 한 부분이다. 볼로냐는 피렌체의 한 부분이다.",
+    "entities": {
+        "교황_우르바노_6세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_우르바노_6세"
+        },
+        "볼로냐": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/볼로냐"
+        },
+        "피렌체": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피렌체"
+        }
+    },
+    "id": 4049,
+    "pid": "26-9",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "교황_우르바노_6세",
+            "p": "리더이름(leaderName)",
+            "s": "피렌체"
+        },
+        {
+            "Rep": true,
+            "o": "볼로냐",
+            "p": "~의부분(isPartOf)",
+            "s": "피렌체"
+        },
+        {
+            "Rep": true,
+            "o": "피렌체",
+            "p": "~의부분(isPartOf)",
+            "s": "볼로냐"
+        }
+    ]
+}

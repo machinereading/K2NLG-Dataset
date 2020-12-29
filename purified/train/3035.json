@@ -1,0 +1,144 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "부산아시아드주경기장은 부산광역시에 위치한다. 연제구는 부산광역시에 속한다.",
+    "entities": {
+        "FIFA_월드컵": {
+            "ne_type": "EV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsLeague",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/FIFA_월드컵"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "부산광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산광역시"
+        },
+        "부산아시아드주경기장": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/SportFacility",
+                "http://dbpedia.org/ontology/Stadium",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산아시아드주경기장"
+        },
+        "연제구": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/연제구"
+        },
+        "폴란드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/폴란드"
+        }
+    },
+    "id": 3035,
+    "pid": "678-27",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "부산광역시",
+            "p": "위치/지역(location)",
+            "s": "부산아시아드주경기장"
+        },
+        {
+            "Rep": false,
+            "o": "연제구",
+            "p": "부분(part)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": true,
+            "o": "부산광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "연제구"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "폴란드"
+        },
+        {
+            "Rep": false,
+            "o": "폴란드",
+            "p": "위치/지역(location)",
+            "s": "FIFA_월드컵"
+        },
+        {
+            "Rep": false,
+            "o": "폴란드",
+            "p": "국가(country)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "연제구",
+            "p": "위치/지역(location)",
+            "s": "부산아시아드주경기장"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "위치/지역(location)",
+            "s": "FIFA_월드컵"
+        },
+        {
+            "Rep": false,
+            "o": "폴란드",
+            "p": "국가(country)",
+            "s": "FIFA_월드컵"
+        }
+    ]
+}

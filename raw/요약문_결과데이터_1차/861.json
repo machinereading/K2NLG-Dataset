@@ -1,0 +1,180 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "인왕산은 서울특별시에 위치한다. 대한민국의 수도는 서울특별시다.",
+    "entities": {
+        "난징_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/난징_시"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "백제": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백제"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "위례성": {
+            "ne_type": "AF_CULTURAL_ASSET",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위례성"
+        },
+        "인왕산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인왕산"
+        },
+        "조선": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/NobleFamily",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Family",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선"
+        }
+    },
+    "id": 861,
+    "pid": "284-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "있는곳(locatedInArea)",
+            "s": "인왕산"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "난징_시"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "난징_시",
+            "p": "수도(capital)",
+            "s": "백제"
+        },
+        {
+            "Rep": false,
+            "o": "위례성",
+            "p": "수도(capital)",
+            "s": "백제"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "난징_시"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "위례성"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "수도(capital)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "백제"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "백제"
+        },
+        {
+            "Rep": false,
+            "o": "난징_시",
+            "p": "수도(capital)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "위례성",
+            "p": "수도(capital)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "조선"
+        }
+    ]
+}

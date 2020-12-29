@@ -1,0 +1,96 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "김정일의 정당은 조선로동당이다. 김정일은 조선로동당의 지도자이다. 김영남은 최고인민회의 전임자이다.",
+    "entities": {
+        "김영남": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김영남"
+        },
+        "김정일": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김정일"
+        },
+        "조선로동당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선로동당"
+        },
+        "최고인민회의": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Legislature",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/최고인민회의"
+        }
+    },
+    "id": 5116,
+    "pid": "535-42",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "조선로동당",
+            "p": "정당(party)",
+            "s": "김정일"
+        },
+        {
+            "Rep": false,
+            "o": "최고인민회의",
+            "p": "직함/포지션(position)",
+            "s": "김영남"
+        },
+        {
+            "Rep": true,
+            "o": "김정일",
+            "p": "지도자(leader)",
+            "s": "조선로동당"
+        },
+        {
+            "Rep": true,
+            "o": "김영남",
+            "p": "전임자(predecessor)",
+            "s": "최고인민회의"
+        }
+    ]
+}

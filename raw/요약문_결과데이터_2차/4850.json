@@ -1,0 +1,166 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 1,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "프로이센을 이끈 사람은 빌헬름 1세다. 그는 스페인의 지도자다. 스페인의 지도자는 아마데오 1세다. 오토 폰 비스미르크의 후임자는 빌헬름 1세다.",
+    "entities": {
+        "빌헬름_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빌헬름_1세"
+        },
+        "스페인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인"
+        },
+        "아마데오_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아마데오_1세"
+        },
+        "오토_폰_비스마르크": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오토_폰_비스마르크"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        },
+        "프로이센": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프로이센"
+        }
+    },
+    "id": 4850,
+    "pid": "443-37",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "스페인",
+            "p": "국가(country)",
+            "s": "프로이센"
+        },
+        {
+            "Rep": true,
+            "o": "빌헬름_1세",
+            "p": "리더이름(leaderName)",
+            "s": "프로이센"
+        },
+        {
+            "Rep": false,
+            "o": "스페인",
+            "p": "국가(country)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "빌헬름_1세",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "오토_폰_비스마르크",
+            "p": "리더이름(leaderName)",
+            "s": "스페인"
+        },
+        {
+            "Rep": true,
+            "o": "아마데오_1세",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "아마데오_1세",
+            "p": "리더이름(leaderName)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "빌헬름_1세",
+            "p": "지도자(leader)",
+            "s": "프로이센"
+        },
+        {
+            "Rep": false,
+            "o": "빌헬름_1세",
+            "p": "리더이름(leaderName)",
+            "s": "스페인"
+        },
+        {
+            "Rep": true,
+            "o": "빌헬름_1세",
+            "p": "계승자/후임(successor)",
+            "s": "오토_폰_비스마르크"
+        },
+        {
+            "Rep": false,
+            "o": "오토_폰_비스마르크",
+            "p": "전임자(predecessor)",
+            "s": "빌헬름_1세"
+        }
+    ]
+}

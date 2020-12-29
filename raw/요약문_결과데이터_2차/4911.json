@@ -1,0 +1,124 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "게르만족은 부르고뉴에 있다. 그들은 파리에도 있다.",
+    "entities": {
+        "게르만족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/게르만족"
+        },
+        "라인_강": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/River",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라인_강"
+        },
+        "부르고뉴": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부르고뉴"
+        },
+        "파리": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/파리_(프랑스)"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 4911,
+    "pid": "474-22",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "파리"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "부르고뉴"
+        },
+        {
+            "Rep": true,
+            "o": "부르고뉴",
+            "p": "있는곳(populationPlace)",
+            "s": "게르만족"
+        },
+        {
+            "Rep": false,
+            "o": "라인_강",
+            "p": "~의부분(isPartOf)",
+            "s": "파리"
+        },
+        {
+            "Rep": false,
+            "o": "게르만족",
+            "p": "민족(ethnicGroup)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "라인_강"
+        },
+        {
+            "Rep": true,
+            "o": "파리",
+            "p": "있는곳(populationPlace)",
+            "s": "게르만족"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "대한민국 국방부 본사는 소련 즉 러시아에 있습니다.",
+    "entities": {
+        "기관지": {
+            "ne_type": "TM_CELL_TISSUE",
+            "type": [
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/PeriodicalLiterature",
+                "http://dbpedia.org/ontology/Newspaper",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기관지"
+        },
+        "대한민국_국방부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국방부"
+        },
+        "러시아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아"
+        },
+        "소련": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소련"
+        }
+    },
+    "id": 2365,
+    "pid": "453-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "러시아",
+            "p": "본부/본사(headquarter)",
+            "s": "대한민국_국방부"
+        },
+        {
+            "Rep": true,
+            "o": "소련",
+            "p": "본부/본사(headquarter)",
+            "s": "대한민국_국방부"
+        },
+        {
+            "Rep": false,
+            "o": "기관지",
+            "p": "수도(capital)",
+            "s": "러시아"
+        }
+    ]
+}

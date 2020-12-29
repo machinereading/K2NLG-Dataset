@@ -1,0 +1,181 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "정광필과 김전은 친척관계다.",
+    "entities": {
+        "김전": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김전"
+        },
+        "남곤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남곤"
+        },
+        "심정": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/심정_(1471년)"
+        },
+        "안당": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안당"
+        },
+        "위훈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/VoiceActor",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위훈"
+        },
+        "정광필": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정광필"
+        },
+        "홍경주": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍경주"
+        }
+    },
+    "id": 3975,
+    "pid": "230-52",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "남곤",
+            "p": "친척(relative)",
+            "s": "김전"
+        },
+        {
+            "Rep": false,
+            "o": "김전",
+            "p": "친척(relative)",
+            "s": "안당"
+        },
+        {
+            "Rep": false,
+            "o": "정광필",
+            "p": "친척(relative)",
+            "s": "김전"
+        },
+        {
+            "Rep": false,
+            "o": "남곤",
+            "p": "친척(relative)",
+            "s": "안당"
+        },
+        {
+            "Rep": false,
+            "o": "김전",
+            "p": "친척(relative)",
+            "s": "남곤"
+        },
+        {
+            "Rep": true,
+            "o": "김전",
+            "p": "친척(relative)",
+            "s": "정광필"
+        },
+        {
+            "Rep": false,
+            "o": "남곤",
+            "p": "친척(relative)",
+            "s": "정광필"
+        },
+        {
+            "Rep": false,
+            "o": "정광필",
+            "p": "친척(relative)",
+            "s": "안당"
+        },
+        {
+            "Rep": false,
+            "o": "심정",
+            "p": "친척(relative)",
+            "s": "홍경주"
+        },
+        {
+            "Rep": false,
+            "o": "홍경주",
+            "p": "친척(relative)",
+            "s": "심정"
+        },
+        {
+            "Rep": false,
+            "o": "정광필",
+            "p": "친척(relative)",
+            "s": "남곤"
+        },
+        {
+            "Rep": false,
+            "o": "안당",
+            "p": "친척(relative)",
+            "s": "남곤"
+        },
+        {
+            "Rep": false,
+            "o": "심정",
+            "p": "친척(relative)",
+            "s": "위훈"
+        },
+        {
+            "Rep": false,
+            "o": "안당",
+            "p": "직함/포지션(position)",
+            "s": "남곤"
+        },
+        {
+            "Rep": false,
+            "o": "홍경주",
+            "p": "직함/포지션(position)",
+            "s": "심정"
+        }
+    ]
+}

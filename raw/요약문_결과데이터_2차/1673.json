@@ -1,0 +1,150 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "서울특별시에는 남산이 있다. 서울특별시에는 북악산도 있다.",
+    "entities": {
+        "가회동": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가회동"
+        },
+        "남산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남산_(서울)"
+        },
+        "남영동": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남영동"
+        },
+        "북악산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/북악산"
+        },
+        "삼청동": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/삼청동"
+        },
+        "서울역": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RailwayStation",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/Station"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울역"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "종현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/종현"
+        }
+    },
+    "id": 1673,
+    "pid": "284-18",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "있는곳(locatedInArea)",
+            "s": "남산"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "있는곳(locatedInArea)",
+            "s": "북악산"
+        },
+        {
+            "Rep": false,
+            "o": "서울역",
+            "p": "지역/분양(region)",
+            "s": "남영동"
+        },
+        {
+            "Rep": false,
+            "o": "가회동",
+            "p": "지역/분양(region)",
+            "s": "삼청동"
+        },
+        {
+            "Rep": false,
+            "o": "삼청동",
+            "p": "~의부분(isPartOf)",
+            "s": "가회동"
+        },
+        {
+            "Rep": false,
+            "o": "종현",
+            "p": "~의부분(isPartOf)",
+            "s": "가회동"
+        }
+    ]
+}

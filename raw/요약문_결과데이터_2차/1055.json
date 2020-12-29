@@ -1,0 +1,105 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "노무현의 뒤를 이은 것은 이명박이었다. 서울특별시 안에 서울광장이 있다. ",
+    "entities": {
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "버스": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/버스"
+        },
+        "서울광장": {
+            "ne_type": "LC_TOUR",
+            "type": [
+                "http://dbpedia.org/ontology/Square",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/ArchitecturalStructure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울광장"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "이명박": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이명박"
+        }
+    },
+    "id": 1055,
+    "pid": "114-138",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "이명박",
+            "p": "계승자/후임(successor)",
+            "s": "노무현"
+        },
+        {
+            "Rep": true,
+            "o": "서울광장",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "버스",
+            "p": "직함/포지션(position)",
+            "s": "노무현"
+        },
+        {
+            "Rep": false,
+            "o": "서울광장",
+            "p": "수도(capital)",
+            "s": "서울특별시"
+        }
+    ]
+}

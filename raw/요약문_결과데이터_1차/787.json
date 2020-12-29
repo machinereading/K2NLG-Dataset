@@ -1,0 +1,103 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "명나라는 홍무제가 이끄는 나라다. 신화는 성리학을 종교로 따른다. ",
+    "entities": {
+        "명나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/명나라"
+        },
+        "성리학": {
+            "ne_type": "FD_PHILOSOPHY",
+            "type": [
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성리학"
+        },
+        "신화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신화"
+        },
+        "한족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한족"
+        },
+        "홍무제": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍무제"
+        }
+    },
+    "id": 787,
+    "pid": "276-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "홍무제",
+            "p": "리더이름(leaderName)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "한족",
+            "p": "관련되(related)",
+            "s": "한족"
+        },
+        {
+            "Rep": false,
+            "o": "성리학",
+            "p": "종교(religion)",
+            "s": "성리학"
+        },
+        {
+            "Rep": true,
+            "o": "성리학",
+            "p": "종교(religion)",
+            "s": "신화"
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "바람의 화원 (드라마)의 주연은 문근영이다. 그녀의 직업은 배우이다.",
+    "entities": {
+        "류승룡": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/류승룡"
+        },
+        "문근영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문근영"
+        },
+        "문채원": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문채원"
+        },
+        "바람의_화원_(드라마)": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/TelevisionShow",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바람의_화원_(드라마)"
+        },
+        "박신양": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박신양"
+        },
+        "배수빈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/배수빈"
+        },
+        "배우": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/배우"
+        },
+        "신윤복": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신윤복"
+        },
+        "텔레비전": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/텔레비전"
+        }
+    },
+    "id": 217,
+    "pid": "183-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "바람의_화원_(드라마)"
+        },
+        {
+            "Rep": true,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "류승룡",
+            "p": "주연(starring)",
+            "s": "바람의_화원_(드라마)"
+        },
+        {
+            "Rep": false,
+            "o": "문채원",
+            "p": "주연(starring)",
+            "s": "바람의_화원_(드라마)"
+        },
+        {
+            "Rep": false,
+            "o": "박신양",
+            "p": "주연(starring)",
+            "s": "바람의_화원_(드라마)"
+        },
+        {
+            "Rep": false,
+            "o": "배수빈",
+            "p": "주연(starring)",
+            "s": "바람의_화원_(드라마)"
+        },
+        {
+            "Rep": false,
+            "o": "배수빈",
+            "p": "배우자(spouse)",
+            "s": "류승룡"
+        },
+        {
+            "Rep": false,
+            "o": "텔레비전",
+            "p": "장르(genre)",
+            "s": "바람의_화원_(드라마)"
+        },
+        {
+            "Rep": false,
+            "o": "텔레비전",
+            "p": "직업(occupation)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "텔레비전",
+            "p": "직업(occupation)",
+            "s": "신윤복"
+        }
+    ]
+}

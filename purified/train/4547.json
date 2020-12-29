@@ -1,0 +1,160 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "아스투리아스 공 돈 카를로스의 배우자는 테셴 여공작 마리아 크리스티나다. 스페인의 지도자는 아스투리아스 공 돈 카를로스다. 스페인의 지도자는 페르난도 7세다. 스페인의 지도자는 테셴 여공작 마리아 크리스티나다. 교황 그레고리오 16세의 직업은 교황이다. 테셴 여공작 마리아 크리스티나의 배우자는 아스투리아스 공 돈 카를로스다. 페르난도 7세의 배우자는 테셴 여공작 마리아 크리스티나다. 교황 그레고리오 16세는 로마에서 죽었다. 테셴 여공작 마리아 크리스티나의 배우자는 페르난도 7세다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_그레고리오_16세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_그레고리오_16세"
+        },
+        "로마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "스페인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인"
+        },
+        "아스투리아스_공_돈_카를로스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아스투리아스_공_돈_카를로스"
+        },
+        "테셴_여공작_마리아_크리스티나": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/테셴_여공작_마리아_크리스티나"
+        },
+        "페르난도_7세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페르난도_7세"
+        }
+    },
+    "id": 4547,
+    "pid": "77-14",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "테셴_여공작_마리아_크리스티나",
+            "p": "배우자(spouse)",
+            "s": "아스투리아스_공_돈_카를로스"
+        },
+        {
+            "Rep": true,
+            "o": "아스투리아스_공_돈_카를로스",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        },
+        {
+            "Rep": true,
+            "o": "페르난도_7세",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        },
+        {
+            "Rep": true,
+            "o": "테셴_여공작_마리아_크리스티나",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        },
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "교황_그레고리오_16세"
+        },
+        {
+            "Rep": true,
+            "o": "아스투리아스_공_돈_카를로스",
+            "p": "배우자(spouse)",
+            "s": "테셴_여공작_마리아_크리스티나"
+        },
+        {
+            "Rep": true,
+            "o": "테셴_여공작_마리아_크리스티나",
+            "p": "배우자(spouse)",
+            "s": "페르난도_7세"
+        },
+        {
+            "Rep": true,
+            "o": "로마",
+            "p": "사망지(deathPlace)",
+            "s": "교황_그레고리오_16세"
+        },
+        {
+            "Rep": true,
+            "o": "페르난도_7세",
+            "p": "배우자(spouse)",
+            "s": "테셴_여공작_마리아_크리스티나"
+        }
+    ]
+}

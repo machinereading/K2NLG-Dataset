@@ -1,0 +1,95 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "홍수전은 태평천국의 리더이다. 그는 청나라의 리더였다.",
+    "entities": {
+        "서구": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서구_(대전광역시)"
+        },
+        "청나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청나라"
+        },
+        "태평천국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태평천국"
+        },
+        "홍수전": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍수전"
+        }
+    },
+    "id": 4029,
+    "pid": "247-19",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "홍수전",
+            "p": "리더이름(leaderName)",
+            "s": "태평천국"
+        },
+        {
+            "Rep": true,
+            "o": "홍수전",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        },
+        {
+            "Rep": false,
+            "o": "태평천국",
+            "p": "~의부분(isPartOf)",
+            "s": "서구"
+        },
+        {
+            "Rep": false,
+            "o": "홍수전",
+            "p": "~의부분(isPartOf)",
+            "s": "서구"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "후쿠다 야스오의 전임자는 아베 신조다. 아소 다로의 전임자는 후쿠다 야스오다. 후쿠다 야스오의 뒤는 아소 다로가 이어갔다. 후쿠다 야스오의 전임자는 아소 다로다.",
+    "entities": {
+        "아베_신조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아베_신조"
+        },
+        "아소_다로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아소_다로"
+        },
+        "후쿠다_야스오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/후쿠다_야스오"
+        }
+    },
+    "id": 3172,
+    "pid": "752-52",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "아베_신조",
+            "p": "전임자(predecessor)",
+            "s": "후쿠다_야스오"
+        },
+        {
+            "Rep": true,
+            "o": "후쿠다_야스오",
+            "p": "전임자(predecessor)",
+            "s": "아소_다로"
+        },
+        {
+            "Rep": true,
+            "o": "아소_다로",
+            "p": "계승자/후임(successor)",
+            "s": "후쿠다_야스오"
+        },
+        {
+            "Rep": true,
+            "o": "아소_다로",
+            "p": "전임자(predecessor)",
+            "s": "후쿠다_야스오"
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "우주소년 아톰의 장르는 애니메이션이다.",
+    "entities": {
+        "만화가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만화가"
+        },
+        "서유기": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서유기"
+        },
+        "애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "우주소년_아톰": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Comic",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Manga"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우주소년_아톰"
+        }
+    },
+    "id": 5626,
+    "pid": "725-10",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "우주소년_아톰"
+        },
+        {
+            "Rep": false,
+            "o": "만화가",
+            "p": "직업(occupation)",
+            "s": "우주소년_아톰"
+        },
+        {
+            "Rep": false,
+            "o": "서유기",
+            "p": "유명한작품(notableWork)",
+            "s": "만화가"
+        }
+    ]
+}

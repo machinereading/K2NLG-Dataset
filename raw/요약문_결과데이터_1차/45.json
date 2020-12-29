@@ -1,0 +1,212 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "충청남도는 인천광역시에 속한다. 충청남도는 대구광역시에 속한다. 충청남도는 대전광역시에 속한다. 충청남도는 광주광역시에 속한다. 충청남도는 창원시에 속한다.",
+    "entities": {
+        "광주광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/광주광역시"
+        },
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "대구광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대구광역시"
+        },
+        "대전광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대전광역시"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "인천광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인천광역시"
+        },
+        "제주도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제주도"
+        },
+        "창원시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/창원시"
+        },
+        "천안함_침몰_사건": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/천안함_침몰_사건"
+        },
+        "충청남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/충청남도"
+        }
+    },
+    "id": 45,
+    "pid": "114-154",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "제주도"
+        },
+        {
+            "Rep": false,
+            "o": "대전광역시",
+            "p": "지역/분양(region)",
+            "s": "창원시"
+        },
+        {
+            "Rep": true,
+            "o": "인천광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "충청남도"
+        },
+        {
+            "Rep": true,
+            "o": "대구광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "충청남도"
+        },
+        {
+            "Rep": false,
+            "o": "대전광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": true,
+            "o": "대전광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "충청남도"
+        },
+        {
+            "Rep": false,
+            "o": "광주광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": true,
+            "o": "광주광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "충청남도"
+        },
+        {
+            "Rep": false,
+            "o": "대구광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": true,
+            "o": "창원시",
+            "p": "~의부분(isPartOf)",
+            "s": "충청남도"
+        },
+        {
+            "Rep": false,
+            "o": "인천광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": false,
+            "o": "창원시",
+            "p": "~의부분(isPartOf)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": false,
+            "o": "천안함_침몰_사건",
+            "p": "전투(battle)",
+            "s": "노무현"
+        }
+    ]
+}

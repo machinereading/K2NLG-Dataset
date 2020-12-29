@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "양승관은 경기도의 리더이다. 그의 팀은 삼성 라이온즈이다.",
+    "entities": {
+        "K리그_2005": {
+            "ne_type": "EV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/FootballMatch",
+                "http://dbpedia.org/ontology/SportsEvent",
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/K리그_2005"
+        },
+        "경기도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경기도"
+        },
+        "삼성_라이온즈": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/삼성_라이온즈"
+        },
+        "야구_코치": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/야구_코치"
+        },
+        "양승관": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/BaseballPlayer"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/양승관"
+        },
+        "이선덕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이선덕"
+        }
+    },
+    "id": 2779,
+    "pid": "570-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "야구_코치",
+            "p": "직함/포지션(position)",
+            "s": "이선덕"
+        },
+        {
+            "Rep": false,
+            "o": "삼성_라이온즈",
+            "p": "팀(team)",
+            "s": "K리그_2005"
+        },
+        {
+            "Rep": true,
+            "o": "양승관",
+            "p": "리더이름(leaderName)",
+            "s": "경기도"
+        },
+        {
+            "Rep": true,
+            "o": "삼성_라이온즈",
+            "p": "팀(team)",
+            "s": "양승관"
+        }
+    ]
+}

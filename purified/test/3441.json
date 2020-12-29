@@ -1,0 +1,94 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "박정희는 대한민국 국토통일원 소속이다. 고문도 대한민국 국토통일원 소속이다.",
+    "entities": {
+        "고문": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Disease"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고문"
+        },
+        "대한민국_국토통일원": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국토통일원"
+        },
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        }
+    },
+    "id": 3441,
+    "pid": "831-110",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국_국토통일원",
+            "p": "직함/포지션(position)",
+            "s": "박정희"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_국토통일원",
+            "p": "직함/포지션(position)",
+            "s": "고문"
+        },
+        {
+            "Rep": false,
+            "o": "고문",
+            "p": "직함/포지션(position)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "고문",
+            "p": "전임자(predecessor)",
+            "s": "대한민국_국토통일원"
+        },
+        {
+            "Rep": false,
+            "o": "고문",
+            "p": "지도자(leader)",
+            "s": "대한민국_국토통일원"
+        },
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "전임자(predecessor)",
+            "s": "대한민국_국토통일원"
+        }
+    ]
+}

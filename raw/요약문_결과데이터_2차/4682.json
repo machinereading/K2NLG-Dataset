@@ -1,0 +1,181 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "오를 이끈 사람은 손량이다. 그의 뒤는 제갈각이 이어갔다. ",
+    "entities": {
+        "손권": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손권"
+        },
+        "손량": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손량"
+        },
+        "손준": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손준"
+        },
+        "손침": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손침"
+        },
+        "손휴": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손휴"
+        },
+        "오": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오_(삼국)"
+        },
+        "제갈각": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제갈각"
+        },
+        "제갈탄": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제갈탄"
+        }
+    },
+    "id": 4682,
+    "pid": "372-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "손량",
+            "p": "리더이름(leaderName)",
+            "s": "오"
+        },
+        {
+            "Rep": false,
+            "o": "손휴",
+            "p": "자식(child)",
+            "s": "손권"
+        },
+        {
+            "Rep": false,
+            "o": "손휴",
+            "p": "계승자/후임(successor)",
+            "s": "손량"
+        },
+        {
+            "Rep": false,
+            "o": "손량",
+            "p": "자식(child)",
+            "s": "손권"
+        },
+        {
+            "Rep": false,
+            "o": "손권",
+            "p": "전임자(predecessor)",
+            "s": "손량"
+        },
+        {
+            "Rep": false,
+            "o": "오",
+            "p": "전임자(predecessor)",
+            "s": "손권"
+        },
+        {
+            "Rep": false,
+            "o": "손침",
+            "p": "계승자/후임(successor)",
+            "s": "손준"
+        },
+        {
+            "Rep": true,
+            "o": "제갈각",
+            "p": "계승자/후임(successor)",
+            "s": "손량"
+        },
+        {
+            "Rep": false,
+            "o": "손준",
+            "p": "전임자(predecessor)",
+            "s": "손침"
+        },
+        {
+            "Rep": false,
+            "o": "손량",
+            "p": "자식(child)",
+            "s": "손휴"
+        },
+        {
+            "Rep": false,
+            "o": "제갈탄",
+            "p": "계승자/후임(successor)",
+            "s": "손준"
+        },
+        {
+            "Rep": false,
+            "o": "손량",
+            "p": "전임자(predecessor)",
+            "s": "손침"
+        },
+        {
+            "Rep": false,
+            "o": "손침",
+            "p": "계승자/후임(successor)",
+            "s": "제갈탄"
+        }
+    ]
+}

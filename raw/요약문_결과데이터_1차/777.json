@@ -1,0 +1,93 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "미국의 지도자는 브루스 윌리스이다. 그의 직업은 배우이다. ",
+    "entities": {
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "배우": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/배우"
+        },
+        "브래드_피트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/브래드_피트"
+        },
+        "브루스_윌리스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/브루스_윌리스"
+        }
+    },
+    "id": 777,
+    "pid": "275-89",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "브래드_피트"
+        },
+        {
+            "Rep": true,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "브루스_윌리스"
+        },
+        {
+            "Rep": false,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "미국"
+        },
+        {
+            "Rep": true,
+            "o": "브루스_윌리스",
+            "p": "지도자(leader)",
+            "s": "미국"
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "영어는 산스크리트어 계통의 언어이다. 영어는 그리스어 계통의 언어이다.",
+    "entities": {
+        "그리스어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/그리스어"
+        },
+        "산스크리트어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/산스크리트어"
+        },
+        "슬라브어파": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/슬라브어파"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        },
+        "인도": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인도"
+        }
+    },
+    "id": 3086,
+    "pid": "716-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "슬라브어파",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "그리스어"
+        },
+        {
+            "Rep": true,
+            "o": "산스크리트어",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "산스크리트어"
+        },
+        {
+            "Rep": false,
+            "o": "인도",
+            "p": "국가(country)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "산스크리트어",
+            "p": "계통(languageFamily)",
+            "s": "슬라브어파"
+        },
+        {
+            "Rep": true,
+            "o": "그리스어",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "슬라브어파",
+            "p": "계통(languageFamily)",
+            "s": "산스크리트어"
+        }
+    ]
+}

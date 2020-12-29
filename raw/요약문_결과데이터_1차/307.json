@@ -1,0 +1,195 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "베드로는 교황이다. 베드로는 예술가다. 리에주는 프랑스의 도시다. 필리프는 작곡가다. 베드로는 작곡가다. 비테르보는 예술가다. ",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "리에주": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리에주"
+        },
+        "베드로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베드로"
+        },
+        "비테르보": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비테르보"
+        },
+        "사도_궁전": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사도_궁전"
+        },
+        "예술가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예술가"
+        },
+        "음악가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/음악가"
+        },
+        "작곡가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작곡가"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        },
+        "필리프_(벨기에)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/필리프_(벨기에)"
+        }
+    },
+    "id": 307,
+    "pid": "22-29",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "베드로"
+        },
+        {
+            "Rep": false,
+            "o": "음악가",
+            "p": "직업(occupation)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "음악가",
+            "p": "직업(occupation)",
+            "s": "리에주"
+        },
+        {
+            "Rep": false,
+            "o": "음악가",
+            "p": "직업(occupation)",
+            "s": "음악가"
+        },
+        {
+            "Rep": false,
+            "o": "음악가",
+            "p": "직업(occupation)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "베드로"
+        },
+        {
+            "Rep": true,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "리에주"
+        },
+        {
+            "Rep": true,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "필리프_(벨기에)"
+        },
+        {
+            "Rep": true,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "베드로"
+        },
+        {
+            "Rep": true,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "비테르보"
+        },
+        {
+            "Rep": false,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "사도_궁전"
+        }
+    ]
+}

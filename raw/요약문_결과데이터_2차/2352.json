@@ -1,0 +1,180 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "오스트리아의 지도자인 루이 16세의 직업은 군인이다. ",
+    "entities": {
+        "군인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/군인"
+        },
+        "루이_16세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루이_16세"
+        },
+        "바렌앙아르곤": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바렌앙아르곤"
+        },
+        "오스트리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트리아"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        },
+        "탕플_탑": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Castle",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/MilitaryStructure",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/탕플_탑"
+        },
+        "파리": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/파리_(프랑스)"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 2352,
+    "pid": "448-13",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "파리"
+        },
+        {
+            "Rep": false,
+            "o": "오스트리아",
+            "p": "국가(country)",
+            "s": "파리"
+        },
+        {
+            "Rep": true,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "루이_16세"
+        },
+        {
+            "Rep": false,
+            "o": "루이_16세",
+            "p": "지도자(leader)",
+            "s": "유럽"
+        },
+        {
+            "Rep": true,
+            "o": "루이_16세",
+            "p": "지도자(leader)",
+            "s": "오스트리아"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "바렌앙아르곤"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "민족(ethnicGroup)",
+            "s": "오스트리아"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "탕플_탑"
+        },
+        {
+            "Rep": false,
+            "o": "파리",
+            "p": "사망지(deathPlace)",
+            "s": "루이_16세"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "국가(country)",
+            "s": "파리"
+        },
+        {
+            "Rep": false,
+            "o": "바렌앙아르곤",
+            "p": "있는곳(populationPlace)",
+            "s": "군인"
+        }
+    ]
+}

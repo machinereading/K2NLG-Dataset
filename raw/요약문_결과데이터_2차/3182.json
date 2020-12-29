@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "데즈카 오사무는 오사카 대학 출신이다. 데즈카 오사무의 대표적인 작품은 우주소년 아톰이다. ",
+    "entities": {
+        "군의관": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/군의관"
+        },
+        "데즈카_오사무": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/ComicsCreator",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/데즈카_오사무"
+        },
+        "오사카_대학": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오사카_대학"
+        },
+        "우주소년_아톰": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Comic",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Manga"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우주소년_아톰"
+        }
+    },
+    "id": 3182,
+    "pid": "754-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "우주소년_아톰",
+            "p": "유명한작품(notableWork)",
+            "s": "데즈카_오사무"
+        },
+        {
+            "Rep": true,
+            "o": "오사카_대학",
+            "p": "학력(education)",
+            "s": "데즈카_오사무"
+        },
+        {
+            "Rep": false,
+            "o": "오사카_대학",
+            "p": "학력(education)",
+            "s": "군의관"
+        }
+    ]
+}

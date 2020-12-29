@@ -1,0 +1,124 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "카를 마르텔은 투르 푸아티에 전투에 참여한 지휘관이다. 그는 프랑크 왕국에서 사망했다.",
+    "entities": {
+        "독일어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일어"
+        },
+        "부르고뉴": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부르고뉴"
+        },
+        "카를_마르텔": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카를_마르텔"
+        },
+        "투르_푸아티에_전투": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/투르_푸아티에_전투"
+        },
+        "프랑스어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스어"
+        },
+        "프랑크_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑크_왕국"
+        }
+    },
+    "id": 2384,
+    "pid": "474-19",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "카를_마르텔",
+            "p": "지휘관(commander)",
+            "s": "투르_푸아티에_전투"
+        },
+        {
+            "Rep": true,
+            "o": "프랑크_왕국",
+            "p": "사망지(deathPlace)",
+            "s": "카를_마르텔"
+        },
+        {
+            "Rep": false,
+            "o": "독일어",
+            "p": "계통(languageFamily)",
+            "s": "프랑스어"
+        },
+        {
+            "Rep": false,
+            "o": "투르_푸아티에_전투",
+            "p": "전투(battle)",
+            "s": "카를_마르텔"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스어",
+            "p": "계통(languageFamily)",
+            "s": "독일어"
+        },
+        {
+            "Rep": false,
+            "o": "프랑크_왕국",
+            "p": "국가(country)",
+            "s": "부르고뉴"
+        }
+    ]
+}

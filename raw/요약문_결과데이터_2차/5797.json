@@ -1,0 +1,118 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "신돈의 사망지는 고려이다. 그의 친척은 고려 공민왕이다. 고려 공민왕은 고려를 이끌었다. 고려 공민왕은 고려의 왕이다. 그의 전임자는 신돈이었다.",
+    "entities": {
+        "고려": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려"
+        },
+        "고려_공민왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_공민왕"
+        },
+        "공원왕후": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공원왕후"
+        },
+        "신돈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신돈"
+        }
+    },
+    "id": 5797,
+    "pid": "807-26",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "고려",
+            "p": "사망지(deathPlace)",
+            "s": "신돈"
+        },
+        {
+            "Rep": true,
+            "o": "고려_공민왕",
+            "p": "리더이름(leaderName)",
+            "s": "고려"
+        },
+        {
+            "Rep": true,
+            "o": "고려_공민왕",
+            "p": "친척(relative)",
+            "s": "신돈"
+        },
+        {
+            "Rep": true,
+            "o": "고려",
+            "p": "왕조(dynasty)",
+            "s": "고려_공민왕"
+        },
+        {
+            "Rep": true,
+            "o": "신돈",
+            "p": "전임자(predecessor)",
+            "s": "고려_공민왕"
+        },
+        {
+            "Rep": false,
+            "o": "신돈",
+            "p": "리더이름(leaderName)",
+            "s": "고려"
+        },
+        {
+            "Rep": false,
+            "o": "공원왕후",
+            "p": "어머니(mother)",
+            "s": "고려_공민왕"
+        },
+        {
+            "Rep": false,
+            "o": "공원왕후",
+            "p": "친척(relative)",
+            "s": "신돈"
+        }
+    ]
+}

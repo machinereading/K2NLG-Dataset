@@ -1,0 +1,104 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이인임과 신돈은 친척관계다. 신돈의 직업은 승려이다. ",
+    "entities": {
+        "권신": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/권신"
+        },
+        "승려": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/승려"
+        },
+        "신돈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신돈"
+        },
+        "이인임": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이인임"
+        }
+    },
+    "id": 3286,
+    "pid": "807-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "신돈",
+            "p": "친척(relative)",
+            "s": "이인임"
+        },
+        {
+            "Rep": true,
+            "o": "이인임",
+            "p": "친척(relative)",
+            "s": "신돈"
+        },
+        {
+            "Rep": false,
+            "o": "승려",
+            "p": "직업(occupation)",
+            "s": "이인임"
+        },
+        {
+            "Rep": true,
+            "o": "승려",
+            "p": "직업(occupation)",
+            "s": "신돈"
+        },
+        {
+            "Rep": false,
+            "o": "승려",
+            "p": "직업(occupation)",
+            "s": "권신"
+        },
+        {
+            "Rep": false,
+            "o": "권신",
+            "p": "친척(relative)",
+            "s": "신돈"
+        }
+    ]
+}

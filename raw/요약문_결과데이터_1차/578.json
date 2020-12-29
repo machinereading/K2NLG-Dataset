@@ -1,0 +1,165 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "로욜라의 이냐시오는 스페인에서 태어났다. 그의 직업은 사제이다. 그의 종교는 예수회이다.",
+    "entities": {
+        "교황_클레멘스_13세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_클레멘스_13세"
+        },
+        "로욜라의_이냐시오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로욜라의_이냐시오"
+        },
+        "사제": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사제"
+        },
+        "스페인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인"
+        },
+        "예수회": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예수회"
+        },
+        "포르투갈": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포르투갈"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 578,
+    "pid": "72-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "스페인",
+            "p": "출생지(birthPlace)",
+            "s": "로욜라의_이냐시오"
+        },
+        {
+            "Rep": true,
+            "o": "사제",
+            "p": "직업(occupation)",
+            "s": "로욜라의_이냐시오"
+        },
+        {
+            "Rep": true,
+            "o": "예수회",
+            "p": "종교(religion)",
+            "s": "로욜라의_이냐시오"
+        },
+        {
+            "Rep": false,
+            "o": "교황_클레멘스_13세",
+            "p": "지도자(leader)",
+            "s": "포르투갈"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "사망지(deathPlace)",
+            "s": "사제"
+        },
+        {
+            "Rep": false,
+            "o": "포르투갈",
+            "p": "국가(country)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "스페인",
+            "p": "사망지(deathPlace)",
+            "s": "사제"
+        },
+        {
+            "Rep": false,
+            "o": "사제",
+            "p": "직업(occupation)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "포르투갈",
+            "p": "사망지(deathPlace)",
+            "s": "사제"
+        },
+        {
+            "Rep": false,
+            "o": "스페인",
+            "p": "국가(country)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "사제",
+            "p": "직업(occupation)",
+            "s": "스페인"
+        }
+    ]
+}

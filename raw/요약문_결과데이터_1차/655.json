@@ -1,0 +1,78 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "호를티 미클로시는 오스트리아의 지도자이다. 그는 헝가리를 이끌었다.",
+    "entities": {
+        "오스트리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트리아"
+        },
+        "헝가리": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Language",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헝가리"
+        },
+        "호르티_미클로시": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/호르티_미클로시"
+        }
+    },
+    "id": 655,
+    "pid": "218-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "호르티_미클로시",
+            "p": "지도자(leader)",
+            "s": "오스트리아"
+        },
+        {
+            "Rep": true,
+            "o": "호르티_미클로시",
+            "p": "지도자(leader)",
+            "s": "헝가리"
+        },
+        {
+            "Rep": false,
+            "o": "헝가리",
+            "p": "국가(country)",
+            "s": "헝가리"
+        }
+    ]
+}

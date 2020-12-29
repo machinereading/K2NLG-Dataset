@@ -1,0 +1,170 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "야마구치 현의 국가는 일본이다. 만주에서 가장큰도시는하얼빈 시이다. 일본의 언어는 일본어 이다.",
+    "entities": {
+        "만주": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주"
+        },
+        "안중근": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안중근"
+        },
+        "야마구치_현": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/야마구치_현"
+        },
+        "이토_히로부미": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이토_히로부미"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "일본어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본어"
+        },
+        "하얼빈_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하얼빈_시"
+        }
+    },
+    "id": 6017,
+    "pid": "833-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "야마구치_현"
+        },
+        {
+            "Rep": false,
+            "o": "이토_히로부미",
+            "p": "~로알려진(knownFor)",
+            "s": "안중근"
+        },
+        {
+            "Rep": true,
+            "o": "하얼빈_시",
+            "p": "가장큰도시(largestCity)",
+            "s": "만주"
+        },
+        {
+            "Rep": false,
+            "o": "안중근",
+            "p": "리더이름(leaderName)",
+            "s": "하얼빈_시"
+        },
+        {
+            "Rep": true,
+            "o": "일본어",
+            "p": "언어(language)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "만주",
+            "p": "~의부분(isPartOf)",
+            "s": "하얼빈_시"
+        },
+        {
+            "Rep": false,
+            "o": "안중근",
+            "p": "리더이름(leaderName)",
+            "s": "만주"
+        },
+        {
+            "Rep": false,
+            "o": "안중근",
+            "p": "지도자(leader)",
+            "s": "만주"
+        },
+        {
+            "Rep": false,
+            "o": "야마구치_현",
+            "p": "쓰이는곳(spokenIn)",
+            "s": "일본어"
+        },
+        {
+            "Rep": false,
+            "o": "하얼빈_시",
+            "p": "사망지(deathPlace)",
+            "s": "안중근"
+        },
+        {
+            "Rep": false,
+            "o": "이토_히로부미",
+            "p": "~의부분(isPartOf)",
+            "s": "하얼빈_시"
+        },
+        {
+            "Rep": false,
+            "o": "이토_히로부미",
+            "p": "리더이름(leaderName)",
+            "s": "하얼빈_시"
+        }
+    ]
+}

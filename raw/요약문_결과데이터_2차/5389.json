@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "안재홍의 사망지는 평양직할시이다. 백제의 수도는 평양직할시이다.",
+    "entities": {
+        "고구려": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고구려"
+        },
+        "백제": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백제"
+        },
+        "신라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신라"
+        },
+        "안재홍": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안재홍"
+        },
+        "평양직할시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평양직할시"
+        }
+    },
+    "id": 5389,
+    "pid": "631-30",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "평양직할시",
+            "p": "사망지(deathPlace)",
+            "s": "안재홍"
+        },
+        {
+            "Rep": false,
+            "o": "평양직할시",
+            "p": "수도(capital)",
+            "s": "고구려"
+        },
+        {
+            "Rep": false,
+            "o": "평양직할시",
+            "p": "수도(capital)",
+            "s": "신라"
+        },
+        {
+            "Rep": true,
+            "o": "평양직할시",
+            "p": "수도(capital)",
+            "s": "백제"
+        },
+        {
+            "Rep": false,
+            "o": "신라",
+            "p": "국가(country)",
+            "s": "고구려"
+        }
+    ]
+}

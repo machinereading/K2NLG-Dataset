@@ -1,0 +1,142 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "박상의 친척은 이행이다. 박상은 단경왕후와도 친척 관계이다.",
+    "entities": {
+        "김정": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김정_(조선)"
+        },
+        "단경왕후": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/단경왕후"
+        },
+        "박상": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박상"
+        },
+        "이행": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이행_(조선)"
+        },
+        "장경왕후": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장경왕후_(조선)"
+        }
+    },
+    "id": 1436,
+    "pid": "230-23",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "이행",
+            "p": "친척(relative)",
+            "s": "박상"
+        },
+        {
+            "Rep": true,
+            "o": "단경왕후",
+            "p": "친척(relative)",
+            "s": "박상"
+        },
+        {
+            "Rep": false,
+            "o": "단경왕후",
+            "p": "친척(relative)",
+            "s": "이행"
+        },
+        {
+            "Rep": false,
+            "o": "단경왕후",
+            "p": "친척(relative)",
+            "s": "김정"
+        },
+        {
+            "Rep": false,
+            "o": "장경왕후",
+            "p": "배우자(spouse)",
+            "s": "단경왕후"
+        },
+        {
+            "Rep": false,
+            "o": "이행",
+            "p": "친척(relative)",
+            "s": "김정"
+        },
+        {
+            "Rep": false,
+            "o": "박상",
+            "p": "직함/포지션(position)",
+            "s": "김정"
+        },
+        {
+            "Rep": false,
+            "o": "김정",
+            "p": "친척(relative)",
+            "s": "이행"
+        },
+        {
+            "Rep": false,
+            "o": "김정",
+            "p": "친척(relative)",
+            "s": "박상"
+        },
+        {
+            "Rep": false,
+            "o": "이행",
+            "p": "계승자/후임(successor)",
+            "s": "김정"
+        },
+        {
+            "Rep": false,
+            "o": "단경왕후",
+            "p": "배우자(spouse)",
+            "s": "이행"
+        }
+    ]
+}

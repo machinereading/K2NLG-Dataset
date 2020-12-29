@@ -1,0 +1,97 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "노무현의 정당은 민주노동당 (대한민국)이다. 그는 민주노동당 (대한민국)의 지도자이다.",
+    "entities": {
+        "경제학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경제학자"
+        },
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "민주노동당_(대한민국)": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주노동당_(대한민국)"
+        },
+        "허세욱_(1953년)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/허세욱_(1953년)"
+        }
+    },
+    "id": 55,
+    "pid": "114-198",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "민주노동당_(대한민국)",
+            "p": "정당(party)",
+            "s": "노무현"
+        },
+        {
+            "Rep": true,
+            "o": "노무현",
+            "p": "지도자(leader)",
+            "s": "민주노동당_(대한민국)"
+        },
+        {
+            "Rep": false,
+            "o": "민주노동당_(대한민국)",
+            "p": "정당(party)",
+            "s": "경제학자"
+        },
+        {
+            "Rep": false,
+            "o": "민주노동당_(대한민국)",
+            "p": "정당(party)",
+            "s": "허세욱_(1953년)"
+        },
+        {
+            "Rep": false,
+            "o": "허세욱_(1953년)",
+            "p": "지도자(leader)",
+            "s": "민주노동당_(대한민국)"
+        }
+    ]
+}

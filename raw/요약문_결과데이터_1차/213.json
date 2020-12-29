@@ -1,0 +1,212 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "문근영의 직업은 배우이다. 그녀는 연극의 주연이다. ",
+    "entities": {
+        "TV는_사랑을_싣고": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/TelevisionShow",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/TV는_사랑을_싣고"
+        },
+        "광주광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/광주광역시"
+        },
+        "김대중": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김대중"
+        },
+        "매곡초등학교_(광주)": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/매곡초등학교_(광주)"
+        },
+        "문근영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문근영"
+        },
+        "배우": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/배우"
+        },
+        "백설_공주와_일곱_난쟁이_(영화)": {
+            "ne_type": "AFW_PERFORMANCE",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백설_공주와_일곱_난쟁이_(영화)"
+        },
+        "새정치국민회의": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/새정치국민회의"
+        },
+        "연극": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/연극"
+        },
+        "왜소증": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Disease"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/왜소증"
+        }
+    },
+    "id": 213,
+    "pid": "183-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "김대중",
+            "p": "지도자(leader)",
+            "s": "새정치국민회의"
+        },
+        {
+            "Rep": false,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "왜소증"
+        },
+        {
+            "Rep": false,
+            "o": "연극",
+            "p": "장르(genre)",
+            "s": "백설_공주와_일곱_난쟁이_(영화)"
+        },
+        {
+            "Rep": false,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "백설_공주와_일곱_난쟁이_(영화)"
+        },
+        {
+            "Rep": false,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "광주광역시"
+        },
+        {
+            "Rep": false,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "연극"
+        },
+        {
+            "Rep": false,
+            "o": "광주광역시",
+            "p": "지역/분양(region)",
+            "s": "매곡초등학교_(광주)"
+        },
+        {
+            "Rep": false,
+            "o": "연극",
+            "p": "장르(genre)",
+            "s": "매곡초등학교_(광주)"
+        },
+        {
+            "Rep": false,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "매곡초등학교_(광주)"
+        },
+        {
+            "Rep": false,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "TV는_사랑을_싣고"
+        },
+        {
+            "Rep": false,
+            "o": "문근영",
+            "p": "전임자(predecessor)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "백설_공주와_일곱_난쟁이_(영화)",
+            "p": "유명한작품(notableWork)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "광주광역시",
+            "p": "지역/분양(region)",
+            "s": "광주광역시"
+        },
+        {
+            "Rep": true,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "연극"
+        }
+    ]
+}

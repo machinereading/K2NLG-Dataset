@@ -1,0 +1,99 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "구덕운동장은 대구광역시에 위치해있다. 구덕운동장은 부산 아이파크가 보유하고 있다.",
+    "entities": {
+        "구덕운동장": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/SportFacility",
+                "http://dbpedia.org/ontology/Stadium",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/구덕운동장"
+        },
+        "대구광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대구광역시"
+        },
+        "부산_아이파크": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산_아이파크"
+        },
+        "창원시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/창원시"
+        }
+    },
+    "id": 3028,
+    "pid": "678-11",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "부산_아이파크",
+            "p": "입주자/보유자(tenant)",
+            "s": "구덕운동장"
+        },
+        {
+            "Rep": false,
+            "o": "부산_아이파크",
+            "p": "~의부분(isPartOf)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": true,
+            "o": "대구광역시",
+            "p": "위치/지역(location)",
+            "s": "구덕운동장"
+        },
+        {
+            "Rep": false,
+            "o": "대구광역시",
+            "p": "지역/분양(region)",
+            "s": "창원시"
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "남곤의 뒤를 조광조가 이었다. 조광조는 홍경주와 친척관계다. ",
+    "entities": {
+        "남곤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남곤"
+        },
+        "심정": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/심정_(1471년)"
+        },
+        "조광조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조광조"
+        },
+        "홍경주": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍경주"
+        },
+        "희빈_장씨": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Album",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/MusicalWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/희빈_장씨"
+        }
+    },
+    "id": 1453,
+    "pid": "230-58",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "조광조",
+            "p": "친척(relative)",
+            "s": "홍경주"
+        },
+        {
+            "Rep": false,
+            "o": "홍경주",
+            "p": "친척(relative)",
+            "s": "조광조"
+        },
+        {
+            "Rep": false,
+            "o": "홍경주",
+            "p": "친척(relative)",
+            "s": "남곤"
+        },
+        {
+            "Rep": false,
+            "o": "심정",
+            "p": "자식(child)",
+            "s": "희빈_장씨"
+        },
+        {
+            "Rep": true,
+            "o": "조광조",
+            "p": "계승자/후임(successor)",
+            "s": "남곤"
+        },
+        {
+            "Rep": false,
+            "o": "홍경주",
+            "p": "친척(relative)",
+            "s": "심정"
+        },
+        {
+            "Rep": false,
+            "o": "심정",
+            "p": "친척(relative)",
+            "s": "홍경주"
+        },
+        {
+            "Rep": false,
+            "o": "홍경주",
+            "p": "주요인물(keyPerson)",
+            "s": "희빈_장씨"
+        },
+        {
+            "Rep": false,
+            "o": "심정",
+            "p": "계승자/후임(successor)",
+            "s": "남곤"
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "만주국의 수도는 난징시이다. 난징시의 국가는 만주국이다.",
+    "entities": {
+        "국민정부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국민정부"
+        },
+        "난징_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/난징_시"
+        },
+        "동북항일연군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동북항일연군"
+        },
+        "만주": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주"
+        },
+        "만주국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주국"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "톈진_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/톈진_시"
+        }
+    },
+    "id": 4939,
+    "pid": "480-13",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "난징_시",
+            "p": "수도(capital)",
+            "s": "국민정부"
+        },
+        {
+            "Rep": false,
+            "o": "난징_시",
+            "p": "~의부분(isPartOf)",
+            "s": "톈진_시"
+        },
+        {
+            "Rep": true,
+            "o": "난징_시",
+            "p": "수도(capital)",
+            "s": "만주국"
+        },
+        {
+            "Rep": false,
+            "o": "국민정부",
+            "p": "국가(country)",
+            "s": "난징_시"
+        },
+        {
+            "Rep": false,
+            "o": "동북항일연군",
+            "p": "가장큰도시(largestCity)",
+            "s": "만주"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "~의부분(isPartOf)",
+            "s": "톈진_시"
+        },
+        {
+            "Rep": false,
+            "o": "만주",
+            "p": "수도(capital)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "국민정부",
+            "p": "국가(country)",
+            "s": "만주국"
+        },
+        {
+            "Rep": false,
+            "o": "난징_시",
+            "p": "수도(capital)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "톈진_시",
+            "p": "~의부분(isPartOf)",
+            "s": "난징_시"
+        },
+        {
+            "Rep": false,
+            "o": "국민정부",
+            "p": "~의부분(isPartOf)",
+            "s": "톈진_시"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "만주"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "~의부분(isPartOf)",
+            "s": "난징_시"
+        },
+        {
+            "Rep": true,
+            "o": "만주국",
+            "p": "국가(country)",
+            "s": "난징_시"
+        },
+        {
+            "Rep": false,
+            "o": "국민정부",
+            "p": "~의부분(isPartOf)",
+            "s": "난징_시"
+        }
+    ]
+}

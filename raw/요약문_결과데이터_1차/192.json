@@ -1,0 +1,88 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 1,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "교황 비오 10세의 직업은 교황이다. 그는 교황을 이끈다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_비오_10세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_비오_10세"
+        },
+        "교황_비오_12세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_비오_12세"
+        }
+    },
+    "id": 192,
+    "pid": "178-41",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_비오_10세"
+        },
+        {
+            "Rep": true,
+            "o": "교황_비오_10세",
+            "p": "리더이름(leaderName)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황_비오_10세",
+            "p": "~의부분(isPartOf)",
+            "s": "교황_비오_12세"
+        }
+    ]
+}

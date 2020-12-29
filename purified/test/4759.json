@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "미국 독립 전쟁이 일어난 장소는 온타리오 주다. 온타리오 주는 영국의 지역이다. 영국의 수도는 온타리오 주다.",
+    "entities": {
+        "미국_독립_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국_독립_전쟁"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "온타리오_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/온타리오_주"
+        },
+        "토론토": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토론토"
+        }
+    },
+    "id": 4759,
+    "pid": "405-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "온타리오_주"
+        },
+        {
+            "Rep": true,
+            "o": "온타리오_주",
+            "p": "장소(place)",
+            "s": "미국_독립_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "토론토"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "장소(place)",
+            "s": "미국_독립_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "온타리오_주",
+            "p": "지역/분양(region)",
+            "s": "영국"
+        },
+        {
+            "Rep": true,
+            "o": "온타리오_주",
+            "p": "수도(capital)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "토론토",
+            "p": "수도(capital)",
+            "s": "영국"
+        }
+    ]
+}

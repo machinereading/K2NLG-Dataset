@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "아시아나항공의 모기업은 금호아시아나그룹이다. 아시아나항공의 자회사는 에어부산이다.",
+    "entities": {
+        "금호아시아나그룹": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/금호아시아나그룹"
+        },
+        "대한항공": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Airline",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한항공"
+        },
+        "대한항공공사": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Airline",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한항공공사"
+        },
+        "아시아나항공": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Airline",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아시아나항공"
+        },
+        "에어부산": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Airline",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에어부산"
+        }
+    },
+    "id": 4133,
+    "pid": "280-115",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "금호아시아나그룹",
+            "p": "모기업(parentCompany)",
+            "s": "아시아나항공"
+        },
+        {
+            "Rep": true,
+            "o": "에어부산",
+            "p": "자회사(subsidiary)",
+            "s": "아시아나항공"
+        },
+        {
+            "Rep": false,
+            "o": "아시아나항공",
+            "p": "자회사(subsidiary)",
+            "s": "금호아시아나그룹"
+        },
+        {
+            "Rep": false,
+            "o": "대한항공",
+            "p": "모기업(parentCompany)",
+            "s": "대한항공공사"
+        },
+        {
+            "Rep": false,
+            "o": "대한항공공사",
+            "p": "자회사(subsidiary)",
+            "s": "대한항공"
+        }
+    ]
+}

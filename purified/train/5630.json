@@ -1,0 +1,92 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "포켓몬스터의 장르는 애니메이션이다.",
+    "entities": {
+        "애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "일본의_애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본의_애니메이션"
+        },
+        "포켓몬스터": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/Anime"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포켓몬스터_(애니메이션)"
+        }
+    },
+    "id": 5630,
+    "pid": "725-27",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본의_애니메이션",
+            "p": "타입/종류(type)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "포켓몬스터"
+        },
+        {
+            "Rep": false,
+            "o": "포켓몬스터",
+            "p": "제품(product)",
+            "s": "일본의_애니메이션"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "애니메이션"
+        }
+    ]
+}

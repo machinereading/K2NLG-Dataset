@@ -1,0 +1,160 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "신세계조선호텔은 서울특별시에 있다. 신세계조선호텔의 본부도 서울특별시에 있다.",
+    "entities": {
+        "공화당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공화당_(미국)"
+        },
+        "김종필": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김종필"
+        },
+        "민주공화당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주공화당_(대한민국)"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "신세계조선호텔": {
+            "ne_type": "OGG_HOTEL",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신세계조선호텔"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "황태성": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/황태성"
+        }
+    },
+    "id": 2653,
+    "pid": "541-184",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "위치/지역(location)",
+            "s": "신세계조선호텔"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "본부/본사(headquarter)",
+            "s": "공화당"
+        },
+        {
+            "Rep": false,
+            "o": "민주공화당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "본부/본사(headquarter)",
+            "s": "민주공화당"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "본부/본사(headquarter)",
+            "s": "신세계조선호텔"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "지도자(leader)",
+            "s": "민주공화당"
+        },
+        {
+            "Rep": false,
+            "o": "민주공화당",
+            "p": "정당(party)",
+            "s": "김종필"
+        },
+        {
+            "Rep": false,
+            "o": "민주공화당",
+            "p": "정당(party)",
+            "s": "황태성"
+        },
+        {
+            "Rep": false,
+            "o": "김종필",
+            "p": "지도자(leader)",
+            "s": "민주공화당"
+        },
+        {
+            "Rep": false,
+            "o": "김종필",
+            "p": "주요인물(keyPerson)",
+            "s": "신세계조선호텔"
+        }
+    ]
+}

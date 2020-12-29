@@ -1,0 +1,76 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "방일영은 오스트레일리아의 리더이다. 그는 오스트레일리아를 이끌었다.",
+    "entities": {
+        "방일영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/방일영"
+        },
+        "방재선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/방재선"
+        },
+        "오스트레일리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트레일리아"
+        }
+    },
+    "id": 2110,
+    "pid": "331-20",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "방일영",
+            "p": "리더이름(leaderName)",
+            "s": "오스트레일리아"
+        },
+        {
+            "Rep": true,
+            "o": "방일영",
+            "p": "지도자(leader)",
+            "s": "오스트레일리아"
+        },
+        {
+            "Rep": false,
+            "o": "방재선",
+            "p": "리더이름(leaderName)",
+            "s": "오스트레일리아"
+        }
+    ]
+}

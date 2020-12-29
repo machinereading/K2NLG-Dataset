@@ -1,0 +1,217 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "양준혁의 팀은 롯데 자이언츠다. 손민한의 팀은 넥센 히어로즈다. ",
+    "entities": {
+        "NC_다이노스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/NC_다이노스"
+        },
+        "넥센_히어로즈": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/넥센_히어로즈"
+        },
+        "롯데_자이언츠": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/롯데_자이언츠"
+        },
+        "손민한": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/BaseballPlayer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손민한"
+        },
+        "송진우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송진우_(정치인)"
+        },
+        "야구_코치": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/야구_코치"
+        },
+        "양준혁": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/BaseballPlayer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/양준혁"
+        },
+        "영남대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영남대학교"
+        },
+        "프로_야구": {
+            "ne_type": "CV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Activity",
+                "http://dbpedia.org/ontology/Sport"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프로_야구"
+        },
+        "한국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국"
+        },
+        "현대_유니콘스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현대_유니콘스"
+        }
+    },
+    "id": 3886,
+    "pid": "200-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "NC_다이노스",
+            "p": "팀(team)",
+            "s": "손민한"
+        },
+        {
+            "Rep": false,
+            "o": "영남대학교",
+            "p": "기원/소속(affiliation)",
+            "s": "롯데_자이언츠"
+        },
+        {
+            "Rep": false,
+            "o": "프로_야구",
+            "p": "직함/포지션(position)",
+            "s": "송진우"
+        },
+        {
+            "Rep": false,
+            "o": "롯데_자이언츠",
+            "p": "기원/소속(affiliation)",
+            "s": "영남대학교"
+        },
+        {
+            "Rep": true,
+            "o": "롯데_자이언츠",
+            "p": "팀(team)",
+            "s": "양준혁"
+        },
+        {
+            "Rep": true,
+            "o": "넥센_히어로즈",
+            "p": "팀(team)",
+            "s": "손민한"
+        },
+        {
+            "Rep": false,
+            "o": "넥센_히어로즈",
+            "p": "팀(team)",
+            "s": "현대_유니콘스"
+        },
+        {
+            "Rep": false,
+            "o": "송진우",
+            "p": "지도자(leader)",
+            "s": "한국"
+        },
+        {
+            "Rep": false,
+            "o": "NC_다이노스",
+            "p": "팀(team)",
+            "s": "야구_코치"
+        },
+        {
+            "Rep": false,
+            "o": "현대_유니콘스",
+            "p": "팀(team)",
+            "s": "넥센_히어로즈"
+        },
+        {
+            "Rep": false,
+            "o": "양준혁",
+            "p": "친척(relative)",
+            "s": "송진우"
+        },
+        {
+            "Rep": false,
+            "o": "프로_야구",
+            "p": "직함/포지션(position)",
+            "s": "양준혁"
+        },
+        {
+            "Rep": false,
+            "o": "야구_코치",
+            "p": "직함/포지션(position)",
+            "s": "손민한"
+        }
+    ]
+}

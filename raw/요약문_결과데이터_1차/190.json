@@ -1,0 +1,125 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 비오 10세의 직업은 교황이다. 그는 바티칸 시국을 이끌었다. 그는 교황 비오 12세의 전임자이기도 하다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_비오_10세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_비오_10세"
+        },
+        "교황_비오_12세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_비오_12세"
+        },
+        "바티칸_시국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/WorldHeritageSite",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바티칸_시국"
+        }
+    },
+    "id": 190,
+    "pid": "178-39",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_비오_12세"
+        },
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_비오_10세"
+        },
+        {
+            "Rep": true,
+            "o": "교황_비오_10세",
+            "p": "리더이름(leaderName)",
+            "s": "바티칸_시국"
+        },
+        {
+            "Rep": false,
+            "o": "교황_비오_12세",
+            "p": "리더이름(leaderName)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황_비오_10세",
+            "p": "직함/포지션(position)",
+            "s": "교황_비오_12세"
+        },
+        {
+            "Rep": false,
+            "o": "교황_비오_10세",
+            "p": "리더이름(leaderName)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황_비오_12세",
+            "p": "계승자/후임(successor)",
+            "s": "교황"
+        },
+        {
+            "Rep": true,
+            "o": "교황_비오_10세",
+            "p": "전임자(predecessor)",
+            "s": "교황_비오_12세"
+        }
+    ]
+}

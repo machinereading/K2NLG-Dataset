@@ -1,0 +1,94 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "펠리페 5세는 스페인의 지도자였다. 그의 계승자는 아스투리아스 공 돈 카를로스이다.",
+    "entities": {
+        "로마_교황청": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마_교황청"
+        },
+        "스페인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인"
+        },
+        "아스투리아스_공_돈_카를로스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아스투리아스_공_돈_카를로스"
+        },
+        "펠리페_5세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/펠리페_5세"
+        }
+    },
+    "id": 571,
+    "pid": "69-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "아스투리아스_공_돈_카를로스",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        },
+        {
+            "Rep": true,
+            "o": "펠리페_5세",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "펠리페_5세",
+            "p": "전임자(predecessor)",
+            "s": "로마_교황청"
+        },
+        {
+            "Rep": true,
+            "o": "아스투리아스_공_돈_카를로스",
+            "p": "계승자/후임(successor)",
+            "s": "펠리페_5세"
+        }
+    ]
+}

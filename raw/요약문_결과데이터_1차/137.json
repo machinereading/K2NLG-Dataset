@@ -1,0 +1,194 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 2,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "에드워드 1세는 잉글랜드에서 사망했다. 그는 아라곤 왕국을 이끌었다. 또한 시칠리아를 이끌었다. 시칠리아는 프랑스에 속한 지역이다.",
+    "entities": {
+        "교황_니콜라오_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_니콜라오_4세"
+        },
+        "교황령": {
+            "ne_type": "CV_LAW",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황령"
+        },
+        "나폴리": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나폴리"
+        },
+        "시칠리아": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/EthnicGroup",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시칠리아"
+        },
+        "아라곤_왕국": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아라곤_왕국"
+        },
+        "에드워드_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에드워드_1세"
+        },
+        "잉글랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잉글랜드"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        },
+        "필리프_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/필리프_4세"
+        }
+    },
+    "id": 137,
+    "pid": "15-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "잉글랜드",
+            "p": "사망지(deathPlace)",
+            "s": "에드워드_1세"
+        },
+        {
+            "Rep": true,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "나폴리"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "교황령"
+        },
+        {
+            "Rep": true,
+            "o": "에드워드_1세",
+            "p": "리더이름(leaderName)",
+            "s": "아라곤_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "필리프_4세",
+            "p": "리더이름(leaderName)",
+            "s": "교황령"
+        },
+        {
+            "Rep": true,
+            "o": "에드워드_1세",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": false,
+            "o": "필리프_4세",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": false,
+            "o": "시칠리아",
+            "p": "지역/분양(region)",
+            "s": "나폴리"
+        },
+        {
+            "Rep": false,
+            "o": "교황_니콜라오_4세",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": false,
+            "o": "필리프_4세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        }
+    ]
+}

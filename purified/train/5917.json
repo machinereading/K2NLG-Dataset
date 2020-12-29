@@ -1,0 +1,99 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "대한민국의 지도자는 김수환이다. 그는 동성고등학교 출신이다. ",
+    "entities": {
+        "교장": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교장"
+        },
+        "김수환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Cardinal",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김수환"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "동성고등학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동성고등학교"
+        }
+    },
+    "id": 5917,
+    "pid": "829-266",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "교장",
+            "p": "직업(occupation)",
+            "s": "김수환"
+        },
+        {
+            "Rep": true,
+            "o": "김수환",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": true,
+            "o": "동성고등학교",
+            "p": "학력(education)",
+            "s": "김수환"
+        },
+        {
+            "Rep": false,
+            "o": "김수환",
+            "p": "대통령/회장(president)",
+            "s": "동성고등학교"
+        },
+        {
+            "Rep": false,
+            "o": "교장",
+            "p": "직함/포지션(position)",
+            "s": "김수환"
+        }
+    ]
+}

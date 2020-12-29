@@ -1,0 +1,94 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "윌리엄 쇼클리의 직업은 교수이며 트랜지스터로 유명해졌다. ",
+    "entities": {
+        "교수": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교수"
+        },
+        "물리학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/물리학자"
+        },
+        "윌리엄_쇼클리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윌리엄_쇼클리"
+        },
+        "트랜지스터": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/트랜지스터"
+        }
+    },
+    "id": 2209,
+    "pid": "386-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "트랜지스터",
+            "p": "~로알려진(knownFor)",
+            "s": "윌리엄_쇼클리"
+        },
+        {
+            "Rep": false,
+            "o": "트랜지스터",
+            "p": "~로알려진(knownFor)",
+            "s": "물리학자"
+        },
+        {
+            "Rep": false,
+            "o": "물리학자",
+            "p": "직업(occupation)",
+            "s": "트랜지스터"
+        },
+        {
+            "Rep": true,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "윌리엄_쇼클리"
+        },
+        {
+            "Rep": false,
+            "o": "윌리엄_쇼클리",
+            "p": "대통령/회장(president)",
+            "s": "교수"
+        }
+    ]
+}

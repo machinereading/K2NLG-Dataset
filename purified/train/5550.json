@@ -1,0 +1,77 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "닐스 보어는 루이 드 브로이의 영향을 받았다. ",
+    "entities": {
+        "닐스_보어": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/닐스_보어"
+        },
+        "루이_드_브로이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루이_드_브로이"
+        },
+        "알베르트_아인슈타인": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알베르트_아인슈타인"
+        }
+    },
+    "id": 5550,
+    "pid": "676-27",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "닐스_보어",
+            "p": "~로알려진(knownFor)",
+            "s": "알베르트_아인슈타인"
+        },
+        {
+            "Rep": false,
+            "o": "닐스_보어",
+            "p": "~로알려진(knownFor)",
+            "s": "루이_드_브로이"
+        },
+        {
+            "Rep": true,
+            "o": "루이_드_브로이",
+            "p": "영향받은(influenced)",
+            "s": "닐스_보어"
+        }
+    ]
+}

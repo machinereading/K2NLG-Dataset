@@ -1,0 +1,164 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "명나라를 이끄는 사람은 정현이다. 정현의 직업은 선교사였다. ",
+    "entities": {
+        "과학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/과학자"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "명나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/명나라"
+        },
+        "선교사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/선교사"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "정현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정현_(후한)"
+        },
+        "조선": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/NobleFamily",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Family",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선"
+        }
+    },
+    "id": 1161,
+    "pid": "145-29",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "정현",
+            "p": "수도(capital)",
+            "s": "독일"
+        },
+        {
+            "Rep": true,
+            "o": "선교사",
+            "p": "직업(occupation)",
+            "s": "정현"
+        },
+        {
+            "Rep": false,
+            "o": "과학자",
+            "p": "직업(occupation)",
+            "s": "정현"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "있는곳(populationPlace)",
+            "s": "선교사"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "있는곳(populationPlace)",
+            "s": "과학자"
+        },
+        {
+            "Rep": false,
+            "o": "과학자",
+            "p": "직업(occupation)",
+            "s": "선교사"
+        },
+        {
+            "Rep": false,
+            "o": "선교사",
+            "p": "직업(occupation)",
+            "s": "과학자"
+        },
+        {
+            "Rep": true,
+            "o": "정현",
+            "p": "리더이름(leaderName)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "과학자",
+            "p": "직업(occupation)",
+            "s": "독일"
+        }
+    ]
+}

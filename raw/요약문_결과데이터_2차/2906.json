@@ -1,0 +1,124 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "주한 미군은 제8군이다. 주한 미군의 국가는 미국이다.",
+    "entities": {
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "미국_육군부": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국_육군부"
+        },
+        "제8군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제8군_(미국)"
+        },
+        "주한_미군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/주한_미군"
+        },
+        "태평양": {
+            "ne_type": "LCG_OCEAN",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Ocean",
+                "http://dbpedia.org/ontology/Airport",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태평양"
+        }
+    },
+    "id": 2906,
+    "pid": "644-16",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "주한_미군",
+            "p": "타입/종류(type)",
+            "s": "제8군"
+        },
+        {
+            "Rep": false,
+            "o": "주한_미군",
+            "p": "타입/종류(type)",
+            "s": "미국_육군부"
+        },
+        {
+            "Rep": false,
+            "o": "태평양",
+            "p": "수도(capital)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "태평양",
+            "p": "위치/지역(location)",
+            "s": "미국_육군부"
+        },
+        {
+            "Rep": false,
+            "o": "제8군",
+            "p": "타입/종류(type)",
+            "s": "태평양"
+        },
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "주한_미군"
+        },
+        {
+            "Rep": false,
+            "o": "주한_미군",
+            "p": "타입/종류(type)",
+            "s": "미국"
+        }
+    ]
+}

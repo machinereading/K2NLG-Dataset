@@ -1,0 +1,84 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "장제스는 국공 내전의 지휘관이다. 장제스의 국가는 중화민국이다. 장제스의 사망지는 중화민국이다.",
+    "entities": {
+        "국공_내전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국공_내전"
+        },
+        "장제스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장제스"
+        },
+        "중화민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화민국"
+        }
+    },
+    "id": 4708,
+    "pid": "376-14",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "장제스",
+            "p": "지휘관(commander)",
+            "s": "국공_내전"
+        },
+        {
+            "Rep": true,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "장제스"
+        },
+        {
+            "Rep": true,
+            "o": "중화민국",
+            "p": "사망지(deathPlace)",
+            "s": "장제스"
+        }
+    ]
+}

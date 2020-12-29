@@ -1,0 +1,102 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 1,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 첼레스티노 5세의 직함은 교황이다. 성 베드로 대성당은 바티칸 시국에 있다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_첼레스티노_5세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_첼레스티노_5세"
+        },
+        "바티칸_시국": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/WorldHeritageSite",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바티칸_시국"
+        },
+        "성_베드로_대성당": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/ReligiousBuilding",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성_베드로_대성당"
+        },
+        "하와": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하와"
+        }
+    },
+    "id": 3729,
+    "pid": "17-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_첼레스티노_5세"
+        },
+        {
+            "Rep": true,
+            "o": "바티칸_시국",
+            "p": "위치/지역(location)",
+            "s": "성_베드로_대성당"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "하와"
+        }
+    ]
+}

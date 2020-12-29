@@ -1,0 +1,86 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "인도의 지도자는 마하트마 간디다. 그는 인도에서 사망했다. ",
+    "entities": {
+        "마하트마_간디": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마하트마_간디"
+        },
+        "인도": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인도"
+        },
+        "조선": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/NobleFamily",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Family",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선"
+        }
+    },
+    "id": 3257,
+    "pid": "800-73",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "마하트마_간디",
+            "p": "~의부분(isPartOf)",
+            "s": "조선"
+        },
+        {
+            "Rep": true,
+            "o": "마하트마_간디",
+            "p": "지도자(leader)",
+            "s": "인도"
+        },
+        {
+            "Rep": true,
+            "o": "인도",
+            "p": "사망지(deathPlace)",
+            "s": "마하트마_간디"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국적(nationality)",
+            "s": "마하트마_간디"
+        }
+    ]
+}

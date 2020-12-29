@@ -1,0 +1,124 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "아메리카 원주민은 아메리카에도 있고 유럽에도 있다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_바오로_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_바오로_3세"
+        },
+        "아메리카": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아메리카"
+        },
+        "아메리카_원주민": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아메리카_원주민"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        }
+    },
+    "id": 4373,
+    "pid": "44-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "교황_바오로_3세",
+            "p": "지도자(leader)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "아메리카",
+            "p": "~의부분(isPartOf)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "아메리카_원주민",
+            "p": "민족(ethnicGroup)",
+            "s": "아메리카"
+        },
+        {
+            "Rep": true,
+            "o": "아메리카",
+            "p": "있는곳(populationPlace)",
+            "s": "아메리카_원주민"
+        },
+        {
+            "Rep": true,
+            "o": "유럽",
+            "p": "있는곳(populationPlace)",
+            "s": "아메리카_원주민"
+        },
+        {
+            "Rep": false,
+            "o": "아메리카_원주민",
+            "p": "~의부분(isPartOf)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "아메리카_원주민"
+        }
+    ]
+}

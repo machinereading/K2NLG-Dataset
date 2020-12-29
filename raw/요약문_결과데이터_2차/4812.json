@@ -1,0 +1,92 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "조반니 체바의 직업은 수학자다. 그는 이탈리아를 이끈 지도자다.",
+    "entities": {
+        "레알_사라고사": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레알_사라고사"
+        },
+        "수학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학자"
+        },
+        "이탈리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아"
+        },
+        "조반니_체바": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조반니_체바"
+        }
+    },
+    "id": 4812,
+    "pid": "438-15",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "조반니_체바"
+        },
+        {
+            "Rep": false,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "레알_사라고사"
+        },
+        {
+            "Rep": true,
+            "o": "조반니_체바",
+            "p": "지도자(leader)",
+            "s": "이탈리아"
+        },
+        {
+            "Rep": false,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "이탈리아"
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "베르길리우스의 직업은 시인이다. 단테 아리기에리의 직업도 시인이다. 교황 레오 13세도 시인이었다.",
+    "entities": {
+        "교황_레오_13세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_레오_13세"
+        },
+        "단테_알리기에리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/단테_알리기에리"
+        },
+        "베르길리우스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베르길리우스"
+        },
+        "시인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시인"
+        }
+    },
+    "id": 4564,
+    "pid": "78-26",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "베르길리우스"
+        },
+        {
+            "Rep": true,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "단테_알리기에리"
+        },
+        {
+            "Rep": true,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "교황_레오_13세"
+        }
+    ]
+}

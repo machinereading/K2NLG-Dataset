@@ -1,0 +1,84 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "프랑스 혁명 전쟁의 지휘관은 마리 앙투아네트이다. 프랑스군의 지휘관은 마리 앙투아네트이다. 프랑스군은 프랑스 혁명 전쟁의 전투를 벌였다.",
+    "entities": {
+        "마리_앙투아네트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마리_앙투아네트"
+        },
+        "프랑스_혁명_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스_혁명_전쟁"
+        },
+        "프랑스군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스군"
+        }
+    },
+    "id": 2339,
+    "pid": "444-14",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "마리_앙투아네트",
+            "p": "지휘관(commander)",
+            "s": "프랑스_혁명_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "마리_앙투아네트",
+            "p": "지휘관(commander)",
+            "s": "프랑스군"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스_혁명_전쟁",
+            "p": "전투(battle)",
+            "s": "마리_앙투아네트"
+        },
+        {
+            "Rep": true,
+            "o": "프랑스_혁명_전쟁",
+            "p": "전투(battle)",
+            "s": "프랑스군"
+        }
+    ]
+}

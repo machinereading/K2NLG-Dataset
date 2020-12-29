@@ -1,0 +1,84 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "일본의 지도자는 민영환이다. 일본의 언어는 영어다. 게이오기주쿠 대학이 있는 국가는 일본이다.",
+    "entities": {
+        "게이오기주쿠_대학": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/게이오기주쿠_대학"
+        },
+        "민영환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민영환"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        }
+    },
+    "id": 5180,
+    "pid": "541-19",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "민영환",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "게이오기주쿠_대학"
+        }
+    ]
+}

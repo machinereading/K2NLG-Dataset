@@ -1,0 +1,107 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "이탈리아의 민족 중 타타르족이 있다. 타타르족을 이탈리아에서 살아가는 민족이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_인노첸시오_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_인노첸시오_3세"
+        },
+        "귀": {
+            "ne_type": "AM_PART",
+            "type": [
+                "http://dbpedia.org/ontology/AnatomicalStructure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/귀"
+        },
+        "이탈리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아"
+        },
+        "타타르족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/타타르족"
+        }
+    },
+    "id": 17,
+    "pid": "1-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "타타르족",
+            "p": "민족(ethnicGroup)",
+            "s": "이탈리아"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_인노첸시오_3세"
+        },
+        {
+            "Rep": true,
+            "o": "이탈리아",
+            "p": "있는곳(populationPlace)",
+            "s": "타타르족"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "귀"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황"
+        }
+    ]
+}

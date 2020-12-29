@@ -1,0 +1,132 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 1,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "주연 (동오)는 영화배우이다. 그는 영화의 주연이다. 그가 주연을 맡은 영화는 이글라이다. 이글라는 미국에서 개봉되었다.",
+    "entities": {
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "빅토르_초이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빅토르_초이"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "영화배우": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화배우"
+        },
+        "이글라_(영화)": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이글라_(영화)"
+        },
+        "주연_(동오)": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/주연_(동오)"
+        }
+    },
+    "id": 151,
+    "pid": "162-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "영화배우",
+            "p": "직업(occupation)",
+            "s": "빅토르_초이"
+        },
+        {
+            "Rep": true,
+            "o": "영화배우",
+            "p": "직업(occupation)",
+            "s": "주연_(동오)"
+        },
+        {
+            "Rep": false,
+            "o": "영화배우",
+            "p": "직업(occupation)",
+            "s": "이글라_(영화)"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "이글라_(영화)"
+        },
+        {
+            "Rep": false,
+            "o": "영화배우",
+            "p": "직업(occupation)",
+            "s": "영화"
+        },
+        {
+            "Rep": true,
+            "o": "주연_(동오)",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "영화"
+        },
+        {
+            "Rep": true,
+            "o": "주연_(동오)",
+            "p": "주연(starring)",
+            "s": "이글라_(영화)"
+        }
+    ]
+}

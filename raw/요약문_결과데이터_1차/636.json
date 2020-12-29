@@ -1,0 +1,131 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "롯데 자이언츠는 영남대학교 소속이다. 롯데 자이언츠는 양준혁이 속한 팀이다.",
+    "entities": {
+        "NC_다이노스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/NC_다이노스"
+        },
+        "롯데_자이언츠": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/롯데_자이언츠"
+        },
+        "손민한": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/BaseballPlayer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손민한"
+        },
+        "송진우_(정치인)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송진우_(정치인)"
+        },
+        "양준혁": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/BaseballPlayer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/양준혁"
+        },
+        "영남대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영남대학교"
+        },
+        "프로_야구": {
+            "ne_type": "CV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Activity",
+                "http://dbpedia.org/ontology/Sport"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프로_야구"
+        }
+    },
+    "id": 636,
+    "pid": "200-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "NC_다이노스",
+            "p": "팀(team)",
+            "s": "손민한"
+        },
+        {
+            "Rep": true,
+            "o": "영남대학교",
+            "p": "기원/소속(affiliation)",
+            "s": "롯데_자이언츠"
+        },
+        {
+            "Rep": false,
+            "o": "프로_야구",
+            "p": "직함/포지션(position)",
+            "s": "송진우_(정치인)"
+        },
+        {
+            "Rep": false,
+            "o": "롯데_자이언츠",
+            "p": "기원/소속(affiliation)",
+            "s": "영남대학교"
+        },
+        {
+            "Rep": true,
+            "o": "롯데_자이언츠",
+            "p": "팀(team)",
+            "s": "양준혁"
+        }
+    ]
+}

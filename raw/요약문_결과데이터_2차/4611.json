@@ -1,0 +1,156 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "돌고래는 포유류에 속한다. 물고기도 포유류에 속한다.",
+    "entities": {
+        "고래": {
+            "ne_type": "AM_MAMMALIA",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고래"
+        },
+        "다시마목": {
+            "ne_type": "PT_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다시마목"
+        },
+        "돌고래": {
+            "ne_type": "AM_MAMMALIA",
+            "type": [
+                "http://dbpedia.org/ontology/Mammal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/돌고래"
+        },
+        "말": {
+            "ne_type": "AM_MAMMALIA",
+            "type": [
+                "http://dbpedia.org/ontology/Mammal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/말_(동물)"
+        },
+        "물고기": {
+            "ne_type": "AM_TYPE",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/물고기"
+        },
+        "포유류": {
+            "ne_type": "AM_TYPE",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포유류"
+        }
+    },
+    "id": 4611,
+    "pid": "312-26",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "고래",
+            "p": "목_생물분류단계(order)",
+            "s": "돌고래"
+        },
+        {
+            "Rep": false,
+            "o": "돌고래",
+            "p": "목_생물분류단계(order)",
+            "s": "포유류"
+        },
+        {
+            "Rep": false,
+            "o": "다시마목",
+            "p": "목_생물분류단계(order)",
+            "s": "말"
+        },
+        {
+            "Rep": false,
+            "o": "고래",
+            "p": "목_생물분류단계(order)",
+            "s": "포유류"
+        },
+        {
+            "Rep": false,
+            "o": "돌고래",
+            "p": "목_생물분류단계(order)",
+            "s": "고래"
+        },
+        {
+            "Rep": false,
+            "o": "돌고래",
+            "p": "목_생물분류단계(order)",
+            "s": "물고기"
+        },
+        {
+            "Rep": false,
+            "o": "고래",
+            "p": "목_생물분류단계(order)",
+            "s": "물고기"
+        },
+        {
+            "Rep": false,
+            "o": "물고기",
+            "p": "목_생물분류단계(order)",
+            "s": "돌고래"
+        },
+        {
+            "Rep": true,
+            "o": "포유류",
+            "p": "과_생물분류단계(family)",
+            "s": "돌고래"
+        },
+        {
+            "Rep": true,
+            "o": "포유류",
+            "p": "과_생물분류단계(family)",
+            "s": "물고기"
+        }
+    ]
+}

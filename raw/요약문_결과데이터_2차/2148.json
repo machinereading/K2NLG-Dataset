@@ -1,0 +1,110 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "일본서기의 장르는 신화이다. 만엽집의 장르도 신화이다.",
+    "entities": {
+        "고사기": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고사기"
+        },
+        "만엽집": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만엽집"
+        },
+        "신화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신화"
+        },
+        "일본서기": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본서기"
+        }
+    },
+    "id": 2148,
+    "pid": "367-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "신화",
+            "p": "장르(genre)",
+            "s": "일본서기"
+        },
+        {
+            "Rep": true,
+            "o": "신화",
+            "p": "장르(genre)",
+            "s": "만엽집"
+        },
+        {
+            "Rep": false,
+            "o": "만엽집",
+            "p": "후속작(subsequentWork)",
+            "s": "고사기"
+        },
+        {
+            "Rep": false,
+            "o": "고사기",
+            "p": "장르(genre)",
+            "s": "일본서기"
+        },
+        {
+            "Rep": false,
+            "o": "일본서기",
+            "p": "~로알려진(knownFor)",
+            "s": "만엽집"
+        },
+        {
+            "Rep": false,
+            "o": "고사기",
+            "p": "유명한작품(notableWork)",
+            "s": "신화"
+        },
+        {
+            "Rep": false,
+            "o": "신화",
+            "p": "저자(author)",
+            "s": "고사기"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "최규하 대통령의 뒤는 전두환 대통령이 이어갔다.",
+    "entities": {
+        "전두환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전두환"
+        },
+        "최규하": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/최규하"
+        }
+    },
+    "id": 4160,
+    "pid": "280-45",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "전두환",
+            "p": "계승자/후임(successor)",
+            "s": "최규하"
+        },
+        {
+            "Rep": false,
+            "o": "전두환",
+            "p": "전임자(predecessor)",
+            "s": "최규하"
+        },
+        {
+            "Rep": false,
+            "o": "최규하",
+            "p": "계승자/후임(successor)",
+            "s": "전두환"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "미국에는 민주당 (미국)의 본부가 있다. 미국에는 공화당 (미국)의 본부 또한 있다.",
+    "entities": {
+        "공화당_(미국)": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공화당_(미국)"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "민주당_(미국)": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주당_(미국)"
+        },
+        "티파티_운동": {
+            "ne_type": "EV_ACTIVITY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/티파티_운동"
+        }
+    },
+    "id": 709,
+    "pid": "236-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "본부/본사(headquarter)",
+            "s": "민주당_(미국)"
+        },
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "본부/본사(headquarter)",
+            "s": "공화당_(미국)"
+        },
+        {
+            "Rep": false,
+            "o": "민주당_(미국)",
+            "p": "정당(party)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "공화당_(미국)",
+            "p": "정당(party)",
+            "s": "티파티_운동"
+        }
+    ]
+}

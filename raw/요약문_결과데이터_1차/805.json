@@ -1,0 +1,98 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "신라는 고구려의 나라다. 신윤복과 정선은 친척관계다. ",
+    "entities": {
+        "고구려": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고구려"
+        },
+        "김홍도": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김홍도"
+        },
+        "신라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신라"
+        },
+        "신윤복": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신윤복"
+        },
+        "정선": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정선"
+        }
+    },
+    "id": 805,
+    "pid": "280-170",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "정선",
+            "p": "친척(relative)",
+            "s": "김홍도"
+        },
+        {
+            "Rep": false,
+            "o": "신라",
+            "p": "국가(country)",
+            "s": "고구려"
+        },
+        {
+            "Rep": true,
+            "o": "고구려",
+            "p": "국가(country)",
+            "s": "신라"
+        },
+        {
+            "Rep": true,
+            "o": "정선",
+            "p": "친척(relative)",
+            "s": "신윤복"
+        }
+    ]
+}

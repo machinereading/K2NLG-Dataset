@@ -1,0 +1,108 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "신안군은 담양군의 한 부분이다. 담양군이 속한 곳은 아시아다.",
+    "entities": {
+        "담양군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/담양군"
+        },
+        "신안군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신안군"
+        },
+        "아시아": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아시아"
+        },
+        "장흥군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장흥군"
+        },
+        "치타슬로": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/치타슬로"
+        }
+    },
+    "id": 5588,
+    "pid": "705-18",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "담양군",
+            "p": "~의부분(isPartOf)",
+            "s": "신안군"
+        },
+        {
+            "Rep": false,
+            "o": "장흥군",
+            "p": "지역/분양(region)",
+            "s": "신안군"
+        },
+        {
+            "Rep": false,
+            "o": "아시아",
+            "p": "지역/분양(region)",
+            "s": "신안군"
+        },
+        {
+            "Rep": true,
+            "o": "아시아",
+            "p": "지역/분양(region)",
+            "s": "담양군"
+        },
+        {
+            "Rep": false,
+            "o": "치타슬로",
+            "p": "타입/종류(type)",
+            "s": "담양군"
+        }
+    ]
+}

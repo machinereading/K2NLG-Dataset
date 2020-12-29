@@ -1,0 +1,80 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "장면이 있는 정당은 민주당이다. 그가 민주당을 이끈다. ",
+    "entities": {
+        "민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주당_(미국)"
+        },
+        "장면": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장면"
+        },
+        "조나스_아우구스투_보비에": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조나스_아우구스투_보비에"
+        }
+    },
+    "id": 5159,
+    "pid": "541-147",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "조나스_아우구스투_보비에"
+        },
+        {
+            "Rep": true,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "장면"
+        },
+        {
+            "Rep": true,
+            "o": "장면",
+            "p": "지도자(leader)",
+            "s": "민주당"
+        }
+    ]
+}

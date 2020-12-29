@@ -1,0 +1,191 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "잔 로렌초 베르니니는 로마에서 사망했다. 그의 직함은 교황이었다. 베드로는 로마에서 사망했다. 그의 직업은 교황이다. 성 베드로 성당은 로마에 있다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_우르바노_8세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_우르바노_8세"
+        },
+        "로마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "베드로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베드로"
+        },
+        "성_베드로_대성당": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/ReligiousBuilding",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성_베드로_대성당"
+        },
+        "아타나시우스_키르허": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Religious",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아타나시우스_키르허"
+        },
+        "잔_로렌초_베르니니": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잔_로렌초_베르니니"
+        },
+        "조각가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조각가"
+        },
+        "트리톤_(위성)": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/트리톤_(위성)"
+        }
+    },
+    "id": 539,
+    "pid": "58-17",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "로마",
+            "p": "사망지(deathPlace)",
+            "s": "잔_로렌초_베르니니"
+        },
+        {
+            "Rep": true,
+            "o": "로마",
+            "p": "사망지(deathPlace)",
+            "s": "베드로"
+        },
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "베드로"
+        },
+        {
+            "Rep": true,
+            "o": "로마",
+            "p": "위치/지역(location)",
+            "s": "성_베드로_대성당"
+        },
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "잔_로렌초_베르니니"
+        },
+        {
+            "Rep": false,
+            "o": "조각가",
+            "p": "직업(occupation)",
+            "s": "교황_우르바노_8세"
+        },
+        {
+            "Rep": false,
+            "o": "잔_로렌초_베르니니",
+            "p": "리더이름(leaderName)",
+            "s": "로마"
+        },
+        {
+            "Rep": false,
+            "o": "잔_로렌초_베르니니",
+            "p": "리더이름(leaderName)",
+            "s": "조각가"
+        },
+        {
+            "Rep": false,
+            "o": "교황_우르바노_8세",
+            "p": "리더이름(leaderName)",
+            "s": "조각가"
+        },
+        {
+            "Rep": false,
+            "o": "트리톤_(위성)",
+            "p": "위치/지역(location)",
+            "s": "성_베드로_대성당"
+        },
+        {
+            "Rep": false,
+            "o": "아타나시우스_키르허",
+            "p": "리더이름(leaderName)",
+            "s": "로마"
+        },
+        {
+            "Rep": false,
+            "o": "교황_우르바노_8세",
+            "p": "리더이름(leaderName)",
+            "s": "로마"
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "수학으로 알려진 저자 다비트 힐베르트는 괴팅겐 대학교 출신이다. 그는 베를린에서 사망하였다.",
+    "entities": {
+        "괴팅겐_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Building",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/괴팅겐_대학교"
+        },
+        "다비트_힐베르트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다비트_힐베르트"
+        },
+        "베를린": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베를린"
+        },
+        "수학": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학"
+        },
+        "충수염": {
+            "ne_type": "TMM_DISEASE",
+            "type": [
+                "http://dbpedia.org/ontology/Disease"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/충수염"
+        },
+        "헤르만_민코프스키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헤르만_민코프스키"
+        }
+    },
+    "id": 5282,
+    "pid": "547-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "수학",
+            "p": "~로알려진(knownFor)",
+            "s": "다비트_힐베르트"
+        },
+        {
+            "Rep": false,
+            "o": "베를린",
+            "p": "도시(city)",
+            "s": "괴팅겐_대학교"
+        },
+        {
+            "Rep": false,
+            "o": "충수염",
+            "p": "~로알려진(knownFor)",
+            "s": "헤르만_민코프스키"
+        },
+        {
+            "Rep": false,
+            "o": "다비트_힐베르트",
+            "p": "영향받은(influenced)",
+            "s": "수학"
+        },
+        {
+            "Rep": true,
+            "o": "다비트_힐베르트",
+            "p": "저자(author)",
+            "s": "수학"
+        },
+        {
+            "Rep": true,
+            "o": "괴팅겐_대학교",
+            "p": "학력(education)",
+            "s": "다비트_힐베르트"
+        },
+        {
+            "Rep": true,
+            "o": "베를린",
+            "p": "사망지(deathPlace)",
+            "s": "다비트_힐베르트"
+        }
+    ]
+}

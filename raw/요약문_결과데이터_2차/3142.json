@@ -1,0 +1,118 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "박정희의 국가는 대한민국이다. 독일의 지도자는 박정희다. ",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        },
+        "조선민주주의인민공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선민주주의인민공화국"
+        }
+    },
+    "id": 3142,
+    "pid": "749-10",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "조선민주주의인민공화국"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "조선민주주의인민공화국",
+            "p": "국가(country)",
+            "s": "독일"
+        },
+        {
+            "Rep": true,
+            "o": "박정희",
+            "p": "지도자(leader)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "조선민주주의인민공화국"
+        },
+        {
+            "Rep": false,
+            "o": "조선민주주의인민공화국",
+            "p": "국가(country)",
+            "s": "대한민국"
+        }
+    ]
+}

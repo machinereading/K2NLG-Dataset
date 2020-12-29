@@ -1,0 +1,108 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "압록각의 국가는 조선민주주의인민공화국이다. 평안북도의 국가는 조선민주주의인민공화국이다. 평안남도는 자강도의 한 부분이다. 평안남도는 자강도의 한 부분이다.",
+    "entities": {
+        "압록강": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/River",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/압록강"
+        },
+        "자강도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자강도"
+        },
+        "조선민주주의인민공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선민주주의인민공화국"
+        },
+        "평안남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평안남도"
+        },
+        "평안북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평안북도"
+        }
+    },
+    "id": 5323,
+    "pid": "590-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "조선민주주의인민공화국",
+            "p": "국가(country)",
+            "s": "압록강"
+        },
+        {
+            "Rep": true,
+            "o": "조선민주주의인민공화국",
+            "p": "국가(country)",
+            "s": "평안북도"
+        },
+        {
+            "Rep": true,
+            "o": "평안남도",
+            "p": "~의부분(isPartOf)",
+            "s": "자강도"
+        },
+        {
+            "Rep": true,
+            "o": "자강도",
+            "p": "~의부분(isPartOf)",
+            "s": "평안남도"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "안노 히데아키는 일본의 지도자이다. 로봇의 장르는 애니메이션이다. ",
+    "entities": {
+        "로봇": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로봇"
+        },
+        "안노_히데아키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안노_히데아키"
+        },
+        "애니메이션": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        }
+    },
+    "id": 1416,
+    "pid": "226-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "직업(occupation)",
+            "s": "안노_히데아키"
+        },
+        {
+            "Rep": true,
+            "o": "안노_히데아키",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "로봇",
+            "p": "장르(genre)",
+            "s": "애니메이션"
+        },
+        {
+            "Rep": true,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "로봇"
+        }
+    ]
+}

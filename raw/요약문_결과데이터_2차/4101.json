@@ -1,0 +1,101 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "이마누엘 칸트는 데이비드 흄에게 영향받았다.",
+    "entities": {
+        "고트프리트_빌헬름_라이프니츠": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고트프리트_빌헬름_라이프니츠"
+        },
+        "니콜라우스_코페르니쿠스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/니콜라우스_코페르니쿠스"
+        },
+        "데이비드_흄": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/데이비드_흄"
+        },
+        "아이작_뉴턴": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아이작_뉴턴"
+        },
+        "이마누엘_칸트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이마누엘_칸트"
+        }
+    },
+    "id": 4101,
+    "pid": "275-18",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "고트프리트_빌헬름_라이프니츠",
+            "p": "영향받은(influencedBy)",
+            "s": "이마누엘_칸트"
+        },
+        {
+            "Rep": false,
+            "o": "아이작_뉴턴",
+            "p": "영향받은(influencedBy)",
+            "s": "이마누엘_칸트"
+        },
+        {
+            "Rep": true,
+            "o": "데이비드_흄",
+            "p": "영향받은(influencedBy)",
+            "s": "이마누엘_칸트"
+        },
+        {
+            "Rep": false,
+            "o": "데이비드_흄",
+            "p": "영향받은(influencedBy)",
+            "s": "니콜라우스_코페르니쿠스"
+        }
+    ]
+}

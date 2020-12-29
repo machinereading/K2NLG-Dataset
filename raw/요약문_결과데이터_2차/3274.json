@@ -1,0 +1,88 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "경주시를 이끈 사람은 고려 공민왕이다. 그의 전임자는 신돈이다.",
+    "entities": {
+        "경주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경주시"
+        },
+        "고려_공민왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_공민왕"
+        },
+        "신돈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신돈"
+        },
+        "이존오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이존오"
+        }
+    },
+    "id": 3274,
+    "pid": "807-27",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "고려_공민왕",
+            "p": "리더이름(leaderName)",
+            "s": "경주시"
+        },
+        {
+            "Rep": true,
+            "o": "신돈",
+            "p": "전임자(predecessor)",
+            "s": "고려_공민왕"
+        },
+        {
+            "Rep": false,
+            "o": "이존오",
+            "p": "전임자(predecessor)",
+            "s": "고려_공민왕"
+        }
+    ]
+}

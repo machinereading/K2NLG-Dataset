@@ -1,0 +1,101 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "로베르토 벨라르미노는 니콜라우스 코페르니쿠스와 갈릴레오 갈릴레이로 인해 유명해졌다.",
+    "entities": {
+        "갈릴레오_갈릴레이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/갈릴레오_갈릴레이"
+        },
+        "교황_바오로_5세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_바오로_5세"
+        },
+        "니콜라우스_코페르니쿠스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/니콜라우스_코페르니쿠스"
+        },
+        "로베르토_벨라르미노": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로베르토_벨라르미노"
+        }
+    },
+    "id": 1938,
+    "pid": "56-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "니콜라우스_코페르니쿠스",
+            "p": "~로알려진(knownFor)",
+            "s": "로베르토_벨라르미노"
+        },
+        {
+            "Rep": true,
+            "o": "갈릴레오_갈릴레이",
+            "p": "~로알려진(knownFor)",
+            "s": "로베르토_벨라르미노"
+        },
+        {
+            "Rep": false,
+            "o": "갈릴레오_갈릴레이",
+            "p": "전임자(predecessor)",
+            "s": "교황_바오로_5세"
+        },
+        {
+            "Rep": false,
+            "o": "로베르토_벨라르미노",
+            "p": "전임자(predecessor)",
+            "s": "교황_바오로_5세"
+        },
+        {
+            "Rep": false,
+            "o": "교황_바오로_5세",
+            "p": "~로알려진(knownFor)",
+            "s": "로베르토_벨라르미노"
+        }
+    ]
+}

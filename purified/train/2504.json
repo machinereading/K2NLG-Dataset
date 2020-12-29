@@ -1,0 +1,102 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "블레이드 러너의 장르는 영화이다. 오시이 마모루는 매트릭스로 알려졌다.",
+    "entities": {
+        "깁슨": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/깁슨_(기업)"
+        },
+        "매트릭스": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/매트릭스_(영화)"
+        },
+        "블레이드_러너": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/블레이드_러너"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "오시이_마모루": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오시이_마모루"
+        },
+        "작가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작가"
+        }
+    },
+    "id": 2504,
+    "pid": "512-26",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "블레이드_러너"
+        },
+        {
+            "Rep": false,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "깁슨"
+        },
+        {
+            "Rep": true,
+            "o": "매트릭스",
+            "p": "~로알려진(knownFor)",
+            "s": "오시이_마모루"
+        }
+    ]
+}

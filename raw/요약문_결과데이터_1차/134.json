@@ -1,0 +1,85 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "카렐 차페크는 희곡의 저자이다. 그가 만든 희곡인 로봇은 체코어로 만들어졌다.",
+    "entities": {
+        "로봇": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로봇"
+        },
+        "체코어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/체코어"
+        },
+        "카렐_차페크": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카렐_차페크"
+        },
+        "희곡": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/희곡"
+        }
+    },
+    "id": 134,
+    "pid": "147-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "카렐_차페크",
+            "p": "저자(author)",
+            "s": "희곡"
+        },
+        {
+            "Rep": false,
+            "o": "희곡",
+            "p": "장르(genre)",
+            "s": "카렐_차페크"
+        },
+        {
+            "Rep": true,
+            "o": "체코어",
+            "p": "언어(language)",
+            "s": "로봇"
+        }
+    ]
+}

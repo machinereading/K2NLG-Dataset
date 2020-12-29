@@ -1,0 +1,140 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "테살로니키는 아하이아 현의 한 부분이다. 아하이아 현은 피레아스의 한 부분이다.",
+    "entities": {
+        "그리스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/그리스"
+        },
+        "아테네": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아테네"
+        },
+        "아하이아_현": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아하이아_현"
+        },
+        "테살로니키": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/테살로니키"
+        },
+        "피레아스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피레아스"
+        }
+    },
+    "id": 4764,
+    "pid": "407-14",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "그리스",
+            "p": "국가(country)",
+            "s": "아하이아_현"
+        },
+        {
+            "Rep": false,
+            "o": "그리스",
+            "p": "국가(country)",
+            "s": "테살로니키"
+        },
+        {
+            "Rep": false,
+            "o": "그리스",
+            "p": "국가(country)",
+            "s": "아테네"
+        },
+        {
+            "Rep": false,
+            "o": "그리스",
+            "p": "국가(country)",
+            "s": "피레아스"
+        },
+        {
+            "Rep": true,
+            "o": "아하이아_현",
+            "p": "~의부분(isPartOf)",
+            "s": "테살로니키"
+        },
+        {
+            "Rep": false,
+            "o": "아하이아_현",
+            "p": "~의부분(isPartOf)",
+            "s": "아테네"
+        },
+        {
+            "Rep": false,
+            "o": "아하이아_현",
+            "p": "~의부분(isPartOf)",
+            "s": "피레아스"
+        },
+        {
+            "Rep": false,
+            "o": "테살로니키",
+            "p": "~의부분(isPartOf)",
+            "s": "아하이아_현"
+        },
+        {
+            "Rep": true,
+            "o": "피레아스",
+            "p": "~의부분(isPartOf)",
+            "s": "아하이아_현"
+        }
+    ]
+}

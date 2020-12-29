@@ -1,0 +1,91 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "쿠빌라이 칸의 계승자는 원 성종이다. 원 성종의 전임자는 쿠빌라이 칸이었다.",
+    "entities": {
+        "상앙": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/상앙"
+        },
+        "용인시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/용인시"
+        },
+        "원_성종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원_성종"
+        },
+        "쿠빌라이_칸": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쿠빌라이_칸"
+        }
+    },
+    "id": 1337,
+    "pid": "196-24",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "원_성종",
+            "p": "계승자/후임(successor)",
+            "s": "쿠빌라이_칸"
+        },
+        {
+            "Rep": true,
+            "o": "쿠빌라이_칸",
+            "p": "전임자(predecessor)",
+            "s": "원_성종"
+        },
+        {
+            "Rep": false,
+            "o": "상앙",
+            "p": "지역/분양(region)",
+            "s": "용인시"
+        }
+    ]
+}

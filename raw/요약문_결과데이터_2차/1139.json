@@ -1,0 +1,139 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "영어는 독일어의 한 계통이다. 영어는 일본어의 한 계통이다.",
+    "entities": {
+        "교수": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교수"
+        },
+        "뉴욕_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뉴욕_대학교"
+        },
+        "독일어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일어"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "위키백과": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위키백과"
+        },
+        "일본어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본어"
+        }
+    },
+    "id": 1139,
+    "pid": "134-11",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": false,
+            "o": "독일어",
+            "p": "언어(language)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "언어(language)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "계통(languageFamily)",
+            "s": "독일어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "독일어"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "뉴욕_대학교"
+        },
+        {
+            "Rep": true,
+            "o": "독일어",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "독일어",
+            "p": "계통(languageFamily)",
+            "s": "일본어"
+        },
+        {
+            "Rep": true,
+            "o": "일본어",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "일본어"
+        }
+    ]
+}

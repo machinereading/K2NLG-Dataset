@@ -1,0 +1,153 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "평양직할시의 국가는 대한민국이다. 대한민국의 수도는 평양직할시다. 평양직할시의 국가는 조선민주주의인민공화국이다. FIFA 월드컵은 대한민국에 있다.",
+    "entities": {
+        "AFC_아시안컵": {
+            "ne_type": "EV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SportsLeague"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/AFC_아시안컵"
+        },
+        "FIFA_월드컵": {
+            "ne_type": "EV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SportsLeague"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/FIFA_월드컵"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "대한민국_축구_국가대표팀": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerClub",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/FootballMatch",
+                "http://dbpedia.org/ontology/SportsEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_축구_국가대표팀"
+        },
+        "조선민주주의인민공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선민주주의인민공화국"
+        },
+        "평양직할시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평양직할시"
+        }
+    },
+    "id": 851,
+    "pid": "281-17",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "평양직할시"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "조선민주주의인민공화국"
+        },
+        {
+            "Rep": true,
+            "o": "평양직할시",
+            "p": "수도(capital)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_축구_국가대표팀",
+            "p": "팀(team)",
+            "s": "FIFA_월드컵"
+        },
+        {
+            "Rep": false,
+            "o": "평양직할시",
+            "p": "위치/지역(location)",
+            "s": "FIFA_월드컵"
+        },
+        {
+            "Rep": false,
+            "o": "조선민주주의인민공화국",
+            "p": "국가(country)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": true,
+            "o": "조선민주주의인민공화국",
+            "p": "국가(country)",
+            "s": "평양직할시"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "위치/지역(location)",
+            "s": "FIFA_월드컵"
+        },
+        {
+            "Rep": false,
+            "o": "평양직할시",
+            "p": "위치/지역(location)",
+            "s": "AFC_아시안컵"
+        }
+    ]
+}

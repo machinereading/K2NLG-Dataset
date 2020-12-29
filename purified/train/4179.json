@@ -1,0 +1,105 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "보잉은 대한항공의 자회사이다. 대한항공은 보잉의 모기업이다.",
+    "entities": {
+        "HH-60_페이브호크": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/Aircraft",
+                "http://dbpedia.org/ontology/MeanOfTransportation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/HH-60_페이브호크"
+        },
+        "UH-60_블랙_호크": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/Aircraft",
+                "http://dbpedia.org/ontology/MeanOfTransportation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/UH-60_블랙_호크"
+        },
+        "대한항공": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Airline",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한항공"
+        },
+        "보잉": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보잉"
+        },
+        "호커_800": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Aircraft",
+                "http://dbpedia.org/ontology/MeanOfTransportation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/호커_800"
+        }
+    },
+    "id": 4179,
+    "pid": "280-86",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "HH-60_페이브호크",
+            "p": "계승자/후임(successor)",
+            "s": "UH-60_블랙_호크"
+        },
+        {
+            "Rep": false,
+            "o": "HH-60_페이브호크",
+            "p": "전임자(predecessor)",
+            "s": "UH-60_블랙_호크"
+        },
+        {
+            "Rep": false,
+            "o": "HH-60_페이브호크",
+            "p": "계승자/후임(successor)",
+            "s": "호커_800"
+        },
+        {
+            "Rep": true,
+            "o": "보잉",
+            "p": "자회사(subsidiary)",
+            "s": "대한항공"
+        },
+        {
+            "Rep": true,
+            "o": "대한항공",
+            "p": "모기업(parentCompany)",
+            "s": "보잉"
+        }
+    ]
+}

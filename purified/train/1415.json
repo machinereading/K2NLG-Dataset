@@ -1,0 +1,98 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        }
+    ],
+    "Text": "아카기 리츠코는 이카리 겐도의 배우자다. 그는 유이의 배우자다.",
+    "entities": {
+        "신지": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신지_(가수)"
+        },
+        "아카기_리츠코": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/FictionalCharacter",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아카기_리츠코"
+        },
+        "유이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유이_(가수)"
+        },
+        "이카리_겐도": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ComicsCharacter",
+                "http://dbpedia.org/ontology/AnimangaCharacter",
+                "http://dbpedia.org/ontology/FictionalCharacter",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이카리_겐도"
+        }
+    },
+    "id": 1415,
+    "pid": "226-19",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "아카기_리츠코",
+            "p": "배우자(spouse)",
+            "s": "이카리_겐도"
+        },
+        {
+            "Rep": true,
+            "o": "아카기_리츠코",
+            "p": "배우자(spouse)",
+            "s": "유이"
+        },
+        {
+            "Rep": false,
+            "o": "신지",
+            "p": "배우자(spouse)",
+            "s": "유이"
+        },
+        {
+            "Rep": false,
+            "o": "유이",
+            "p": "부모(parent)",
+            "s": "신지"
+        }
+    ]
+}

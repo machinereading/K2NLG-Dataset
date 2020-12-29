@@ -1,0 +1,139 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "유진산의 정당은 신민당이다. 강원용의 정당은 신민당이다.",
+    "entities": {
+        "강원용": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강원용"
+        },
+        "민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주당_(미국)"
+        },
+        "신민당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신민당_(1967년)"
+        },
+        "유진산": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유진산"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "한국민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국민주당"
+        }
+    },
+    "id": 5189,
+    "pid": "541-209",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "신민당",
+            "p": "정당(party)",
+            "s": "유진산"
+        },
+        {
+            "Rep": true,
+            "o": "신민당",
+            "p": "정당(party)",
+            "s": "강원용"
+        },
+        {
+            "Rep": false,
+            "o": "신민당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "한국민주당"
+        },
+        {
+            "Rep": false,
+            "o": "유진산",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "친척(relative)",
+            "s": "유진산"
+        },
+        {
+            "Rep": false,
+            "o": "강원용",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "유진산",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "강원용"
+        },
+        {
+            "Rep": false,
+            "o": "강원용",
+            "p": "전임자(predecessor)",
+            "s": "유진산"
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "콰리즈미는 수학으로 유명하다. 그는 수학자이다. 그는 수학 중 해석학에서 잘 알려진 사람이다.",
+    "entities": {
+        "수학": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학"
+        },
+        "수학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학자"
+        },
+        "이항_(1499년)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이항_(1499년)"
+        },
+        "콰리즈미": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/콰리즈미"
+        },
+        "해석학_(수학)": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/해석학_(수학)"
+        }
+    },
+    "id": 139,
+    "pid": "153-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "이항_(1499년)"
+        },
+        {
+            "Rep": true,
+            "o": "수학",
+            "p": "~로알려진(knownFor)",
+            "s": "콰리즈미"
+        },
+        {
+            "Rep": true,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "콰리즈미"
+        },
+        {
+            "Rep": true,
+            "o": "해석학_(수학)",
+            "p": "~로알려진(knownFor)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "수학",
+            "p": "~로알려진(knownFor)",
+            "s": "해석학_(수학)"
+        }
+    ]
+}

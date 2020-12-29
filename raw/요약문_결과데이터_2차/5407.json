@@ -1,0 +1,175 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "크림 반도와 알루시타가 있는 국가는 우크라이나다. ",
+    "entities": {
+        "러시아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아"
+        },
+        "알루시타": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알루시타"
+        },
+        "우크라이나": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우크라이나"
+        },
+        "유엔": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유엔"
+        },
+        "크림_공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/크림_공화국_(러시아)"
+        },
+        "크림_반도": {
+            "ne_type": "LCG_BAY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/크림_반도"
+        },
+        "크림_자치_공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/크림_자치_공화국"
+        }
+    },
+    "id": 5407,
+    "pid": "638-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "우크라이나",
+            "p": "국가(country)",
+            "s": "크림_공화국"
+        },
+        {
+            "Rep": true,
+            "o": "우크라이나",
+            "p": "국가(country)",
+            "s": "크림_반도"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "알루시타"
+        },
+        {
+            "Rep": true,
+            "o": "우크라이나",
+            "p": "국가(country)",
+            "s": "알루시타"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "크림_반도"
+        },
+        {
+            "Rep": false,
+            "o": "유엔",
+            "p": "국가(country)",
+            "s": "크림_반도"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "크림_공화국"
+        },
+        {
+            "Rep": false,
+            "o": "우크라이나",
+            "p": "국가(country)",
+            "s": "크림_자치_공화국"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "우크라이나"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "유엔"
+        },
+        {
+            "Rep": false,
+            "o": "우크라이나",
+            "p": "국가(country)",
+            "s": "러시아"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "크림_자치_공화국"
+        },
+        {
+            "Rep": false,
+            "o": "우크라이나",
+            "p": "국가(country)",
+            "s": "유엔"
+        }
+    ]
+}

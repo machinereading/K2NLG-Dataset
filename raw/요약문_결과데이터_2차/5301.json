@@ -1,0 +1,93 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김진영 감독이 맡고있는 현대 유니콘스는 대한야구협회 소속이다. 김진영 감독의 출생지는 인천광역시이다.",
+    "entities": {
+        "김진영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김진영_(야구인)"
+        },
+        "대한야구협회": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한야구협회"
+        },
+        "인천광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인천광역시"
+        },
+        "현대_유니콘스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현대_유니콘스"
+        }
+    },
+    "id": 5301,
+    "pid": "569-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한야구협회",
+            "p": "기원/소속(affiliation)",
+            "s": "현대_유니콘스"
+        },
+        {
+            "Rep": true,
+            "o": "인천광역시",
+            "p": "출생지(birthPlace)",
+            "s": "김진영"
+        },
+        {
+            "Rep": false,
+            "o": "현대_유니콘스",
+            "p": "팀(team)",
+            "s": "김진영"
+        },
+        {
+            "Rep": true,
+            "o": "김진영",
+            "p": "감독(director)",
+            "s": "현대_유니콘스"
+        }
+    ]
+}

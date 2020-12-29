@@ -1,0 +1,120 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "무쓰시는 아오모리 현에 속한다. 일본의 수도는 무쓰 시다.",
+    "entities": {
+        "무쓰_시": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/무쓰_시"
+        },
+        "부산광역시": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산광역시"
+        },
+        "아오모리_현": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아오모리_현"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        }
+    },
+    "id": 2881,
+    "pid": "635-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "아오모리_현",
+            "p": "~의부분(isPartOf)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "부산광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "무쓰_시"
+        },
+        {
+            "Rep": false,
+            "o": "부산광역시",
+            "p": "수도(capital)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "아오모리_현",
+            "p": "~의부분(isPartOf)",
+            "s": "무쓰_시"
+        },
+        {
+            "Rep": false,
+            "o": "무쓰_시",
+            "p": "~의부분(isPartOf)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "무쓰_시"
+        },
+        {
+            "Rep": true,
+            "o": "무쓰_시",
+            "p": "수도(capital)",
+            "s": "일본"
+        }
+    ]
+}

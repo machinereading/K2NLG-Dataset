@@ -1,0 +1,188 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "로마 국가의 리더이름은 루돌프 1세이다. 그의 직업은 대주교이다. 신성 로마 제국은 로마 국가이다. ",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_마르티노_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_마르티노_4세"
+        },
+        "대주교": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대주교"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "로마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "루돌프_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루돌프_1세"
+        },
+        "마인츠": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Town",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마인츠"
+        },
+        "뷔르츠부르크": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뷔르츠부르크"
+        },
+        "신성_로마_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신성_로마_제국"
+        }
+    },
+    "id": 123,
+    "pid": "14-15",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "마인츠"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "뷔르츠부르크"
+        },
+        {
+            "Rep": false,
+            "o": "루돌프_1세",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "교황_마르티노_4세",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": true,
+            "o": "루돌프_1세",
+            "p": "리더이름(leaderName)",
+            "s": "로마"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "로마"
+        },
+        {
+            "Rep": false,
+            "o": "루돌프_1세",
+            "p": "지도자(leader)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_마르티노_4세"
+        },
+        {
+            "Rep": true,
+            "o": "신성_로마_제국",
+            "p": "국가(country)",
+            "s": "로마"
+        },
+        {
+            "Rep": true,
+            "o": "대주교",
+            "p": "직함/포지션(position)",
+            "s": "루돌프_1세"
+        }
+    ]
+}

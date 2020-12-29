@@ -1,0 +1,129 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 6,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "쥘 베른의 유명한 작품으로 해저 2만리가 있다. 안노 히데아키의 유명한 작품으로 신세기 에반게리온이 있다. 신비한 바다의 나디아는 안노 히데이카의 유명한 작품이다. 센세기 에반게리온의 장르는 애니메이션이다. 신비한 바다의 나디아의 장르는 애니메이션이다. ",
+    "entities": {
+        "신비한_바다의_나디아": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신비한_바다의_나디아"
+        },
+        "신세기_에반게리온": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신세기_에반게리온"
+        },
+        "안노_히데아키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안노_히데아키"
+        },
+        "애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "쥘_베른": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쥘_베른"
+        },
+        "해저_2만리": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/해저_2만리"
+        }
+    },
+    "id": 1464,
+    "pid": "233-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "해저_2만리",
+            "p": "유명한작품(notableWork)",
+            "s": "쥘_베른"
+        },
+        {
+            "Rep": true,
+            "o": "신세기_에반게리온",
+            "p": "유명한작품(notableWork)",
+            "s": "안노_히데아키"
+        },
+        {
+            "Rep": true,
+            "o": "신비한_바다의_나디아",
+            "p": "유명한작품(notableWork)",
+            "s": "안노_히데아키"
+        },
+        {
+            "Rep": true,
+            "o": "애니메이션",
+            "p": "직업(occupation)",
+            "s": "안노_히데아키"
+        },
+        {
+            "Rep": true,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "신세기_에반게리온"
+        },
+        {
+            "Rep": true,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "신비한_바다의_나디아"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "안노_히데아키"
+        }
+    ]
+}

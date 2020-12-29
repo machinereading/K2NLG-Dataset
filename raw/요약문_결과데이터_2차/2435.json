@@ -1,0 +1,134 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "만주의 지도자는 장쭤린이다. 그는 민주사변의 지휘관이다.",
+    "entities": {
+        "만주": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주"
+        },
+        "만주국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주국"
+        },
+        "만주사변": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주사변"
+        },
+        "이누카이_쓰요시": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이누카이_쓰요시"
+        },
+        "일본_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본_제국"
+        },
+        "장쭤린": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장쭤린"
+        }
+    },
+    "id": 2435,
+    "pid": "480-5",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "만주",
+            "p": "장소(place)",
+            "s": "만주사변"
+        },
+        {
+            "Rep": false,
+            "o": "일본_제국",
+            "p": "국가(country)",
+            "s": "만주"
+        },
+        {
+            "Rep": false,
+            "o": "이누카이_쓰요시",
+            "p": "지휘관(commander)",
+            "s": "만주사변"
+        },
+        {
+            "Rep": true,
+            "o": "장쭤린",
+            "p": "리더이름(leaderName)",
+            "s": "만주"
+        },
+        {
+            "Rep": true,
+            "o": "장쭤린",
+            "p": "지휘관(commander)",
+            "s": "만주사변"
+        },
+        {
+            "Rep": false,
+            "o": "만주국",
+            "p": "국가(country)",
+            "s": "만주"
+        },
+        {
+            "Rep": false,
+            "o": "이누카이_쓰요시",
+            "p": "지도자(leader)",
+            "s": "만주"
+        }
+    ]
+}

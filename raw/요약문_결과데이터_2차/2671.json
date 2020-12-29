@@ -1,0 +1,215 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이승만 대통령의 후임자는 윤보선 대통령이다. 이승만 대통령은 미국에서 사망했다. 윤보선 대통령의 후임자는 박정희 대통령이다. 박정희 대통령은 대한민국 국군의 지도자다.",
+    "entities": {
+        "기자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기자_(직업)"
+        },
+        "남원시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남원시"
+        },
+        "대한민국_국군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국군"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        },
+        "베트남_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베트남_전쟁"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "전라북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전라북도"
+        },
+        "지구": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지구"
+        }
+    },
+    "id": 2671,
+    "pid": "541-215",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "지휘관(commander)",
+            "s": "베트남_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "계승자/후임(successor)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "사망지(deathPlace)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "지구",
+            "p": "부분(part)",
+            "s": "전라북도"
+        },
+        {
+            "Rep": false,
+            "o": "전라북도",
+            "p": "지역/분양(region)",
+            "s": "남원시"
+        },
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "지구",
+            "p": "~의부분(isPartOf)",
+            "s": "남원시"
+        },
+        {
+            "Rep": true,
+            "o": "박정희",
+            "p": "계승자/후임(successor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "기자",
+            "p": "직업(occupation)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "베트남_전쟁",
+            "p": "전투(battle)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "남원시",
+            "p": "지역/분양(region)",
+            "s": "전라북도"
+        },
+        {
+            "Rep": true,
+            "o": "박정희",
+            "p": "지도자(leader)",
+            "s": "대한민국_국군"
+        },
+        {
+            "Rep": false,
+            "o": "지구",
+            "p": "부분(part)",
+            "s": "남원시"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "전임자(predecessor)",
+            "s": "박정희"
+        }
+    ]
+}

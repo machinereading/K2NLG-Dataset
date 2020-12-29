@@ -1,0 +1,109 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "노태우는 민주정의당의 지도자다. 그는 소련의 지도자였다. 그는 민주정의당 소속이다.",
+    "entities": {
+        "노태우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노태우"
+        },
+        "민주자유당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주자유당"
+        },
+        "민주정의당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주정의당"
+        },
+        "소련": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소련"
+        },
+        "전두환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전두환"
+        }
+    },
+    "id": 4162,
+    "pid": "280-49",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "전두환",
+            "p": "지도자(leader)",
+            "s": "민주정의당"
+        },
+        {
+            "Rep": true,
+            "o": "노태우",
+            "p": "지도자(leader)",
+            "s": "민주정의당"
+        },
+        {
+            "Rep": false,
+            "o": "민주자유당",
+            "p": "기원/소속(affiliation)",
+            "s": "민주정의당"
+        },
+        {
+            "Rep": true,
+            "o": "노태우",
+            "p": "지도자(leader)",
+            "s": "소련"
+        },
+        {
+            "Rep": true,
+            "o": "민주정의당",
+            "p": "직함/포지션(position)",
+            "s": "노태우"
+        }
+    ]
+}

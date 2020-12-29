@@ -1,0 +1,153 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "용인시는 광주광역시의 지역이다. 용인시는 서울특별시의 지역이다. 서울특별시 안에는 광주광역시가 있다. 서울특별시에는 인천광역시가 있다. 서울특별시 안에 용인시가 있다. 서울특별시 안에는 한강대교가 있다. 광주광역시는 서울특별시의 지역이다. 한강대교는 서울특별시 지역에 있다. 광주광역시는 서울특별시에 속한다. 인천광역시 안에 서울특별시가 있다.",
+    "entities": {
+        "광주광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/광주광역시"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "용인시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/용인시"
+        },
+        "인천광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인천광역시"
+        },
+        "한강대교": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/Bridge",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/RouteOfTransportation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한강대교"
+        }
+    },
+    "id": 875,
+    "pid": "284-58",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "광주광역시",
+            "p": "지역/분양(region)",
+            "s": "용인시"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "지역/분양(region)",
+            "s": "용인시"
+        },
+        {
+            "Rep": true,
+            "o": "광주광역시",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "인천광역시",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "용인시",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "한강대교",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "지역/분양(region)",
+            "s": "광주광역시"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "지역/분양(region)",
+            "s": "한강대교"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "광주광역시"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "부분(part)",
+            "s": "인천광역시"
+        }
+    ]
+}

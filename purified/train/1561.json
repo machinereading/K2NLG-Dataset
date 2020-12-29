@@ -1,0 +1,103 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이승만의 직함은 의원이다. 그는 자유당의 지도자이다.",
+    "entities": {
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "이갑성": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이갑성"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "자유당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유당_(대한민국)"
+        }
+    },
+    "id": 1561,
+    "pid": "266-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "이승만",
+            "p": "지도자(leader)",
+            "s": "자유당"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "이갑성"
+        },
+        {
+            "Rep": false,
+            "o": "이갑성",
+            "p": "지도자(leader)",
+            "s": "자유당"
+        },
+        {
+            "Rep": false,
+            "o": "이승만",
+            "p": "지도자(leader)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "자유당",
+            "p": "직함/포지션(position)",
+            "s": "이승만"
+        }
+    ]
+}

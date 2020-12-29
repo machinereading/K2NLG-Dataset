@@ -1,0 +1,96 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "베트남 전쟁은 제2차 세계대전을 이루는 한 전쟁이다.",
+    "entities": {
+        "눈": {
+            "ne_type": "AM_PART",
+            "type": [
+                "http://dbpedia.org/ontology/AnatomicalStructure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/눈_(해부학)"
+        },
+        "베트남_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베트남_전쟁"
+        },
+        "작가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작가"
+        },
+        "제2차_세계_대전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제2차_세계_대전"
+        }
+    },
+    "id": 5031,
+    "pid": "512-30",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "제2차_세계_대전",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "베트남_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "베트남_전쟁",
+            "p": "전투(battle)",
+            "s": "작가"
+        },
+        {
+            "Rep": false,
+            "o": "제2차_세계_대전",
+            "p": "전투(battle)",
+            "s": "작가"
+        },
+        {
+            "Rep": false,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "눈"
+        },
+        {
+            "Rep": false,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "베트남_전쟁"
+        }
+    ]
+}

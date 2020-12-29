@@ -1,0 +1,120 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "캘리포니아 공과대학교의 국가는 미국이다. 캘리포니아 공과대학교의 국가는 노르웨이다.",
+    "entities": {
+        "노르웨이": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노르웨이"
+        },
+        "노벨_평화상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/NobelPrize",
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노벨_평화상"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "소련": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소련"
+        },
+        "캘리포니아_공과대학교": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캘리포니아_공과대학교"
+        }
+    },
+    "id": 2479,
+    "pid": "500-33",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "캘리포니아_공과대학교"
+        },
+        {
+            "Rep": true,
+            "o": "노르웨이",
+            "p": "국가(country)",
+            "s": "캘리포니아_공과대학교"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "소련"
+        },
+        {
+            "Rep": false,
+            "o": "소련",
+            "p": "국가(country)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "노르웨이",
+            "p": "국가(country)",
+            "s": "노벨_평화상"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "노벨_평화상"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "타입/종류(type)",
+            "s": "캘리포니아_공과대학교"
+        }
+    ]
+}

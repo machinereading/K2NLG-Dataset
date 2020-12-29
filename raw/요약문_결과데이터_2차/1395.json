@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "리무쟁이 속한 국가는 프랑스이다. 리무쟁은 영주시이다. 리무쟁은 영주시의 하나다.",
+    "entities": {
+        "리무쟁": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/HistoricalRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리무쟁"
+        },
+        "영주시": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영주시"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 1395,
+    "pid": "22-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "리무쟁"
+        },
+        {
+            "Rep": true,
+            "o": "리무쟁",
+            "p": "지역/분양(region)",
+            "s": "영주시"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "영주시"
+        },
+        {
+            "Rep": true,
+            "o": "영주시",
+            "p": "부분(part)",
+            "s": "리무쟁"
+        }
+    ]
+}

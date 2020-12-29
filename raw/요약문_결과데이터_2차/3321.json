@@ -1,0 +1,162 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "속초시는 고성군, 인제군, 양양군 안에 있다.",
+    "entities": {
+        "고성군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고성군_(경상남도)"
+        },
+        "민주공화당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주공화당_(대한민국)"
+        },
+        "속초시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/속초시"
+        },
+        "양양군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/양양군"
+        },
+        "인제군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인제군"
+        }
+    },
+    "id": 3321,
+    "pid": "818-55",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "고성군",
+            "p": "부분(part)",
+            "s": "속초시"
+        },
+        {
+            "Rep": true,
+            "o": "인제군",
+            "p": "부분(part)",
+            "s": "속초시"
+        },
+        {
+            "Rep": true,
+            "o": "양양군",
+            "p": "부분(part)",
+            "s": "속초시"
+        },
+        {
+            "Rep": false,
+            "o": "속초시",
+            "p": "~의부분(isPartOf)",
+            "s": "양양군"
+        },
+        {
+            "Rep": false,
+            "o": "인제군",
+            "p": "~의부분(isPartOf)",
+            "s": "양양군"
+        },
+        {
+            "Rep": false,
+            "o": "인제군",
+            "p": "지역/분양(region)",
+            "s": "고성군"
+        },
+        {
+            "Rep": false,
+            "o": "고성군",
+            "p": "~의부분(isPartOf)",
+            "s": "양양군"
+        },
+        {
+            "Rep": false,
+            "o": "속초시",
+            "p": "지역/분양(region)",
+            "s": "고성군"
+        },
+        {
+            "Rep": false,
+            "o": "속초시",
+            "p": "~의부분(isPartOf)",
+            "s": "인제군"
+        },
+        {
+            "Rep": false,
+            "o": "민주공화당",
+            "p": "~의부분(isPartOf)",
+            "s": "양양군"
+        },
+        {
+            "Rep": false,
+            "o": "양양군",
+            "p": "~의부분(isPartOf)",
+            "s": "인제군"
+        },
+        {
+            "Rep": false,
+            "o": "고성군",
+            "p": "본부/본사(headquarter)",
+            "s": "민주공화당"
+        },
+        {
+            "Rep": false,
+            "o": "고성군",
+            "p": "~의부분(isPartOf)",
+            "s": "인제군"
+        },
+        {
+            "Rep": false,
+            "o": "양양군",
+            "p": "지역/분양(region)",
+            "s": "고성군"
+        }
+    ]
+}

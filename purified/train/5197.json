@@ -1,0 +1,159 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이범석의 전임자는 백낙준이다. 백낙준의 전임자는 장준하다. ",
+    "entities": {
+        "백낙준": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백낙준"
+        },
+        "유진오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유진오"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "이범석": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이범석_(1900년)"
+        },
+        "장준하": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장준하"
+        }
+    },
+    "id": 5197,
+    "pid": "541-217",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "장준하",
+            "p": "전임자(predecessor)",
+            "s": "이범석"
+        },
+        {
+            "Rep": false,
+            "o": "장준하",
+            "p": "전임자(predecessor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "장준하",
+            "p": "전임자(predecessor)",
+            "s": "유진오"
+        },
+        {
+            "Rep": true,
+            "o": "백낙준",
+            "p": "전임자(predecessor)",
+            "s": "이범석"
+        },
+        {
+            "Rep": false,
+            "o": "백낙준",
+            "p": "전임자(predecessor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "장준하",
+            "p": "전임자(predecessor)",
+            "s": "백낙준"
+        },
+        {
+            "Rep": false,
+            "o": "백낙준",
+            "p": "계승자/후임(successor)",
+            "s": "장준하"
+        },
+        {
+            "Rep": false,
+            "o": "백낙준",
+            "p": "전임자(predecessor)",
+            "s": "유진오"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "전임자(predecessor)",
+            "s": "이범석"
+        },
+        {
+            "Rep": false,
+            "o": "유진오",
+            "p": "전임자(predecessor)",
+            "s": "이범석"
+        },
+        {
+            "Rep": false,
+            "o": "유진오",
+            "p": "계승자/후임(successor)",
+            "s": "장준하"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "전임자(predecessor)",
+            "s": "유진오"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "계승자/후임(successor)",
+            "s": "장준하"
+        }
+    ]
+}

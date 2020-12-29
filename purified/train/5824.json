@@ -1,0 +1,147 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "미군의 국가는 유엔이다. 영국군의 국가도 유엔이다.",
+    "entities": {
+        "고구려": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고구려"
+        },
+        "미군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미군"
+        },
+        "소련군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소련군"
+        },
+        "영국군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국군"
+        },
+        "유엔": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유엔"
+        },
+        "조선인민군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선인민군"
+        },
+        "중학교": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중학교"
+        },
+        "터키군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/터키군"
+        }
+    },
+    "id": 5824,
+    "pid": "816-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "고구려",
+            "p": "국가(country)",
+            "s": "중학교"
+        },
+        {
+            "Rep": true,
+            "o": "유엔",
+            "p": "국가(country)",
+            "s": "미군"
+        },
+        {
+            "Rep": false,
+            "o": "유엔",
+            "p": "국가(country)",
+            "s": "터키군"
+        },
+        {
+            "Rep": false,
+            "o": "유엔",
+            "p": "국가(country)",
+            "s": "소련군"
+        },
+        {
+            "Rep": true,
+            "o": "유엔",
+            "p": "국가(country)",
+            "s": "영국군"
+        },
+        {
+            "Rep": false,
+            "o": "중학교",
+            "p": "수도(capital)",
+            "s": "고구려"
+        },
+        {
+            "Rep": false,
+            "o": "유엔",
+            "p": "국가(country)",
+            "s": "조선인민군"
+        }
+    ]
+}

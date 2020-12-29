@@ -1,0 +1,119 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "스타 트렉은 바빌론 5와 관련되어있다. 스타트렉 후속작은 바빌론 5 이다.",
+    "entities": {
+        "바빌론_5": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/TelevisionShow",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바빌론_5"
+        },
+        "스몰빌": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/TelevisionShow"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스몰빌"
+        },
+        "스타_트렉": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/TelevisionShow"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스타_트렉_(드라마)"
+        },
+        "스타게이트_SG-1": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/TelevisionShow"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스타게이트_SG-1"
+        },
+        "스타게이트_아틀란티스": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/TelevisionShow"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스타게이트_아틀란티스"
+        },
+        "스타게이트_유니버스": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/TelevisionShow",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스타게이트_유니버스"
+        },
+        "텔레비전": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/텔레비전"
+        }
+    },
+    "id": 5022,
+    "pid": "512-12",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "스타게이트_아틀란티스",
+            "p": "이전작품(previousWork)",
+            "s": "스타게이트_유니버스"
+        },
+        {
+            "Rep": false,
+            "o": "스몰빌",
+            "p": "관련되(related)",
+            "s": "스타게이트_SG-1"
+        },
+        {
+            "Rep": true,
+            "o": "바빌론_5",
+            "p": "후속작(subsequentWork)",
+            "s": "스타_트렉"
+        },
+        {
+            "Rep": false,
+            "o": "바빌론_5",
+            "p": "후속작(subsequentWork)",
+            "s": "텔레비전"
+        },
+        {
+            "Rep": true,
+            "o": "바빌론_5",
+            "p": "관련되(related)",
+            "s": "스타_트렉"
+        }
+    ]
+}

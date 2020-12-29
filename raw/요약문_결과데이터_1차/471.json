@@ -1,0 +1,131 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "카를 5세는 스페인에서 사망했다. 그는 신성로마 제국을 이끈 사람이다. 신성 로마 제국을 이끈 사람은 알렉산드로 파르네세 (추기경)이다. 신성 로마 제국을 이끈 사람은 오타비오 파르네세이다.",
+    "entities": {
+        "교황_바오로_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_바오로_3세"
+        },
+        "스페인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인"
+        },
+        "신성_로마_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신성_로마_제국"
+        },
+        "알레산드로_파르네세_(추기경)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알레산드로_파르네세_(추기경)"
+        },
+        "오타비오_파르네세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오타비오_파르네세"
+        },
+        "카를_5세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카를_5세"
+        },
+        "피에르_루이지_파르네세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피에르_루이지_파르네세"
+        }
+    },
+    "id": 471,
+    "pid": "44-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "스페인",
+            "p": "사망지(deathPlace)",
+            "s": "카를_5세"
+        },
+        {
+            "Rep": true,
+            "o": "카를_5세",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": true,
+            "o": "알레산드로_파르네세_(추기경)",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": true,
+            "o": "오타비오_파르네세",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "피에르_루이지_파르네세",
+            "p": "자식(child)",
+            "s": "교황_바오로_3세"
+        }
+    ]
+}

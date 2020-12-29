@@ -1,0 +1,113 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "조광조는 심정과 친척 관계이다. 그는 남곤과도 친척 관계이다. 그는 류자광과도 친척이다.",
+    "entities": {
+        "남곤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남곤"
+        },
+        "류자광": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/MilitaryPerson",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/류자광"
+        },
+        "심정": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/심정_(1471년)"
+        },
+        "조광조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조광조"
+        }
+    },
+    "id": 1447,
+    "pid": "230-43",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "류자광",
+            "p": "친척(relative)",
+            "s": "심정"
+        },
+        {
+            "Rep": true,
+            "o": "심정",
+            "p": "친척(relative)",
+            "s": "조광조"
+        },
+        {
+            "Rep": false,
+            "o": "조광조",
+            "p": "친척(relative)",
+            "s": "심정"
+        },
+        {
+            "Rep": false,
+            "o": "심정",
+            "p": "친척(relative)",
+            "s": "류자광"
+        },
+        {
+            "Rep": true,
+            "o": "남곤",
+            "p": "친척(relative)",
+            "s": "조광조"
+        },
+        {
+            "Rep": true,
+            "o": "조광조",
+            "p": "친척(relative)",
+            "s": "류자광"
+        },
+        {
+            "Rep": false,
+            "o": "조광조",
+            "p": "친척(relative)",
+            "s": "남곤"
+        },
+        {
+            "Rep": false,
+            "o": "류자광",
+            "p": "친척(relative)",
+            "s": "조광조"
+        }
+    ]
+}

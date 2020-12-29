@@ -1,0 +1,149 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "윤치영과 윤보선은 친척이다. 윤보선의 부모는 윤치소이다. 윤치호와 윤치영은 친척이다. 윤치소와 윤치영은 친척이다. 윤치소와 윤보선은 친척이다. 윤치호와 윤치소는 친척이다. 윤보선과 윤치호는 친척이다.",
+    "entities": {
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "윤치소": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치소"
+        },
+        "윤치영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치영"
+        },
+        "윤치호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치호"
+        }
+    },
+    "id": 5255,
+    "pid": "541-52",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "친척(relative)",
+            "s": "윤치영"
+        },
+        {
+            "Rep": true,
+            "o": "윤치소",
+            "p": "부모(parent)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "윤치영",
+            "p": "친척(relative)",
+            "s": "윤치호"
+        },
+        {
+            "Rep": true,
+            "o": "윤치호",
+            "p": "친척(relative)",
+            "s": "윤치영"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "친척(relative)",
+            "s": "윤치호"
+        },
+        {
+            "Rep": true,
+            "o": "윤치소",
+            "p": "친척(relative)",
+            "s": "윤치영"
+        },
+        {
+            "Rep": true,
+            "o": "윤치영",
+            "p": "친척(relative)",
+            "s": "윤치소"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "친척(relative)",
+            "s": "윤치소"
+        },
+        {
+            "Rep": true,
+            "o": "윤치소",
+            "p": "친척(relative)",
+            "s": "윤치호"
+        },
+        {
+            "Rep": true,
+            "o": "윤치영",
+            "p": "친척(relative)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "윤치호",
+            "p": "친척(relative)",
+            "s": "윤치소"
+        },
+        {
+            "Rep": true,
+            "o": "윤치호",
+            "p": "친척(relative)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "윤치소",
+            "p": "친척(relative)",
+            "s": "윤보선"
+        }
+    ]
+}

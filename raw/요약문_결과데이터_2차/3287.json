@@ -1,0 +1,129 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 1,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "개성특급시를 이끈 사람은 조선 태조다. 최영의 뒤는 고려 우왕이 이어갔다. 고려 우왕은 평양직할시에서 사망했다.",
+    "entities": {
+        "개성특급시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개성특급시"
+        },
+        "고려_우왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_우왕"
+        },
+        "조선_태조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_태조"
+        },
+        "최영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/최영"
+        },
+        "평양직할시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평양직할시"
+        }
+    },
+    "id": 3287,
+    "pid": "808-10",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "개성특급시",
+            "p": "~의부분(isPartOf)",
+            "s": "평양직할시"
+        },
+        {
+            "Rep": true,
+            "o": "조선_태조",
+            "p": "리더이름(leaderName)",
+            "s": "개성특급시"
+        },
+        {
+            "Rep": false,
+            "o": "평양직할시",
+            "p": "~의부분(isPartOf)",
+            "s": "개성특급시"
+        },
+        {
+            "Rep": true,
+            "o": "고려_우왕",
+            "p": "계승자/후임(successor)",
+            "s": "최영"
+        },
+        {
+            "Rep": false,
+            "o": "고려_우왕",
+            "p": "계승자/후임(successor)",
+            "s": "조선_태조"
+        },
+        {
+            "Rep": false,
+            "o": "개성특급시",
+            "p": "부분(part)",
+            "s": "평양직할시"
+        },
+        {
+            "Rep": false,
+            "o": "최영",
+            "p": "전임자(predecessor)",
+            "s": "조선_태조"
+        },
+        {
+            "Rep": true,
+            "o": "평양직할시",
+            "p": "사망지(deathPlace)",
+            "s": "고려_우왕"
+        }
+    ]
+}

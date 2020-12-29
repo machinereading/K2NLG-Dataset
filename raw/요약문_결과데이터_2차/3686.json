@@ -1,0 +1,108 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 1,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "소니의 제품은 로봇이다. 우주소년 아톰의 장르는 애니메이션이다.",
+    "entities": {
+        "로봇": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로봇"
+        },
+        "소니": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소니"
+        },
+        "애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "우주소년_아톰": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Comic",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Manga"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우주소년_아톰"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        }
+    },
+    "id": 3686,
+    "pid": "147-27",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "소니"
+        },
+        {
+            "Rep": true,
+            "o": "로봇",
+            "p": "제품(product)",
+            "s": "소니"
+        },
+        {
+            "Rep": true,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "우주소년_아톰"
+        },
+        {
+            "Rep": false,
+            "o": "로봇",
+            "p": "장르(genre)",
+            "s": "우주소년_아톰"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "로봇"
+        }
+    ]
+}

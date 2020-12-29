@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "로버트 아이첼버거는 미국의 지도자이다. ",
+    "entities": {
+        "뉴기니_섬": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뉴기니_섬"
+        },
+        "뉴브리튼_섬": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뉴브리튼_섬"
+        },
+        "로버트_아이첼버거": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로버트_아이첼버거"
+        },
+        "모로타이_섬": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/모로타이_섬"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "필리핀": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/필리핀"
+        }
+    },
+    "id": 2907,
+    "pid": "644-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "로버트_아이첼버거",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "필리핀",
+            "p": "국가(country)",
+            "s": "뉴브리튼_섬"
+        },
+        {
+            "Rep": false,
+            "o": "필리핀",
+            "p": "국가(country)",
+            "s": "뉴기니_섬"
+        },
+        {
+            "Rep": false,
+            "o": "필리핀",
+            "p": "국가(country)",
+            "s": "모로타이_섬"
+        }
+    ]
+}

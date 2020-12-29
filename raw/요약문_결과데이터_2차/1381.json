@@ -1,0 +1,140 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "미국의 언어는 일본어이다. 미국어 언어는 영어이다. 미국의 언어는 한국어이다.",
+    "entities": {
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "일본어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본어"
+        },
+        "한국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국어"
+        }
+    },
+    "id": 1381,
+    "pid": "215-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "한국어"
+        },
+        {
+            "Rep": false,
+            "o": "한국어",
+            "p": "계통(languageFamily)",
+            "s": "일본어"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "계통(languageFamily)",
+            "s": "한국어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "일본어"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "쓰이는곳(spokenIn)",
+            "s": "일본어"
+        },
+        {
+            "Rep": false,
+            "o": "한국어",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": true,
+            "o": "일본어",
+            "p": "언어(language)",
+            "s": "미국"
+        },
+        {
+            "Rep": true,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "미국"
+        },
+        {
+            "Rep": true,
+            "o": "한국어",
+            "p": "언어(language)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "애니메이션"
+        }
+    ]
+}

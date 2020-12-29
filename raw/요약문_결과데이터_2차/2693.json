@@ -1,0 +1,91 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "신규식은 항저우 시를 이끈 사람이다. 그는 항저우 시에서 사망했다. ",
+    "entities": {
+        "상하이_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/상하이_시"
+        },
+        "신규식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신규식"
+        },
+        "중국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국인"
+        },
+        "항저우_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/항저우_시"
+        }
+    },
+    "id": 2693,
+    "pid": "541-25",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "상하이_시",
+            "p": "있는곳(populationPlace)",
+            "s": "중국인"
+        },
+        {
+            "Rep": true,
+            "o": "신규식",
+            "p": "리더이름(leaderName)",
+            "s": "항저우_시"
+        },
+        {
+            "Rep": false,
+            "o": "항저우_시",
+            "p": "~의부분(isPartOf)",
+            "s": "상하이_시"
+        },
+        {
+            "Rep": true,
+            "o": "항저우_시",
+            "p": "사망지(deathPlace)",
+            "s": "신규식"
+        }
+    ]
+}

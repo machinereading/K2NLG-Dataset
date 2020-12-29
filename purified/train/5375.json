@@ -1,0 +1,158 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "프랑스의 지도자는 앙리 푸앵카레다. 앙리 푸앵카레의 국적은 프랑스다. ",
+    "entities": {
+        "알프레드_드레퓌스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알프레드_드레퓌스"
+        },
+        "앙리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/앙리_(라틴_제국)"
+        },
+        "앙리_푸앵카레": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/앙리_푸앵카레"
+        },
+        "에밀_졸라": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에밀_졸라"
+        },
+        "장_조레스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/MemberOfParliament",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장_조레스"
+        },
+        "지식인": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지식인"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 5375,
+    "pid": "630-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "프랑스",
+            "p": "국적(nationality)",
+            "s": "앙리_푸앵카레"
+        },
+        {
+            "Rep": false,
+            "o": "앙리",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "앙리_푸앵카레",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "장_조레스",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "있는곳(populationPlace)",
+            "s": "지식인"
+        },
+        {
+            "Rep": false,
+            "o": "지식인",
+            "p": "직업(occupation)",
+            "s": "에밀_졸라"
+        },
+        {
+            "Rep": false,
+            "o": "알프레드_드레퓌스",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "지식인",
+            "p": "민족(ethnicGroup)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "지식인",
+            "p": "직업(occupation)",
+            "s": "앙리_푸앵카레"
+        },
+        {
+            "Rep": false,
+            "o": "지식인",
+            "p": "직업(occupation)",
+            "s": "장_조레스"
+        }
+    ]
+}

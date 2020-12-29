@@ -1,0 +1,110 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "나카소네 야스히로와 다케시타 노보루가 있는 정당은 자유민주당이다. ",
+    "entities": {
+        "나카소네_야스히로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나카소네_야스히로"
+        },
+        "다케시타_노보루": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다케시타_노보루"
+        },
+        "우노_소스케": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우노_소스케"
+        },
+        "자유민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유민주당_(일본)"
+        }
+    },
+    "id": 5684,
+    "pid": "752-35",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "나카소네_야스히로"
+        },
+        {
+            "Rep": false,
+            "o": "우노_소스케",
+            "p": "계승자/후임(successor)",
+            "s": "다케시타_노보루"
+        },
+        {
+            "Rep": false,
+            "o": "다케시타_노보루",
+            "p": "전임자(predecessor)",
+            "s": "우노_소스케"
+        },
+        {
+            "Rep": true,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "다케시타_노보루"
+        },
+        {
+            "Rep": false,
+            "o": "나카소네_야스히로",
+            "p": "전임자(predecessor)",
+            "s": "다케시타_노보루"
+        },
+        {
+            "Rep": false,
+            "o": "나카소네_야스히로",
+            "p": "지도자(leader)",
+            "s": "자유민주당"
+        }
+    ]
+}

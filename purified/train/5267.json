@@ -1,0 +1,155 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "윤치영과 윤보선은 친척관계다. ",
+    "entities": {
+        "박사": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Award",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박사"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "윤치영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치영"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "한국민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국민주당"
+        }
+    },
+    "id": 5267,
+    "pid": "541-91",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "한국민주당",
+            "p": "정당(party)",
+            "s": "윤치영"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "친척(relative)",
+            "s": "윤치영"
+        },
+        {
+            "Rep": false,
+            "o": "이승만",
+            "p": "전임자(predecessor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "계승자/후임(successor)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "이승만",
+            "p": "대통령/회장(president)",
+            "s": "박사"
+        },
+        {
+            "Rep": true,
+            "o": "윤치영",
+            "p": "친척(relative)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "이승만",
+            "p": "지도자(leader)",
+            "s": "한국민주당"
+        },
+        {
+            "Rep": false,
+            "o": "한국민주당",
+            "p": "정당(party)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "윤치영",
+            "p": "지도자(leader)",
+            "s": "한국민주당"
+        },
+        {
+            "Rep": false,
+            "o": "윤치영",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "윤치영",
+            "p": "배우자(spouse)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "한국민주당",
+            "p": "정당(party)",
+            "s": "박사"
+        }
+    ]
+}

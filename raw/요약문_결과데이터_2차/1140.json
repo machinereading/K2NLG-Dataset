@@ -1,0 +1,125 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "독일어는 영어의 한 계통이다. 네덜란드어는 독일어의 한 계통이다.",
+    "entities": {
+        "네덜란드어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/네덜란드어"
+        },
+        "독일어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일어"
+        },
+        "세부아노어_위키백과": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/세부아노어_위키백과"
+        },
+        "스웨덴어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스웨덴어"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "위키백과": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위키백과"
+        },
+        "프랑스어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스어"
+        }
+    },
+    "id": 1140,
+    "pid": "134-13",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "독일어",
+            "p": "언어(language)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스어",
+            "p": "언어(language)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": false,
+            "o": "스웨덴어",
+            "p": "언어(language)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": false,
+            "o": "네덜란드어",
+            "p": "언어(language)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": false,
+            "o": "위키백과",
+            "p": "타입/종류(type)",
+            "s": "세부아노어_위키백과"
+        },
+        {
+            "Rep": true,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "독일어"
+        },
+        {
+            "Rep": true,
+            "o": "독일어",
+            "p": "계통(languageFamily)",
+            "s": "네덜란드어"
+        }
+    ]
+}

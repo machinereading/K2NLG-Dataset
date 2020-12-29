@@ -1,0 +1,123 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "한화갑의 전임자는 정동영이다.",
+    "entities": {
+        "김근태": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김근태"
+        },
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "이인제": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이인제"
+        },
+        "정동영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정동영"
+        },
+        "한화갑": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한화갑"
+        }
+    },
+    "id": 3611,
+    "pid": "114-34",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "정동영",
+            "p": "전임자(predecessor)",
+            "s": "한화갑"
+        },
+        {
+            "Rep": false,
+            "o": "김근태",
+            "p": "전임자(predecessor)",
+            "s": "한화갑"
+        },
+        {
+            "Rep": false,
+            "o": "김근태",
+            "p": "전임자(predecessor)",
+            "s": "이인제"
+        },
+        {
+            "Rep": false,
+            "o": "정동영",
+            "p": "전임자(predecessor)",
+            "s": "노무현"
+        },
+        {
+            "Rep": false,
+            "o": "정동영",
+            "p": "전임자(predecessor)",
+            "s": "이인제"
+        },
+        {
+            "Rep": false,
+            "o": "정동영",
+            "p": "전임자(predecessor)",
+            "s": "김근태"
+        },
+        {
+            "Rep": false,
+            "o": "한화갑",
+            "p": "계승자/후임(successor)",
+            "s": "정동영"
+        }
+    ]
+}

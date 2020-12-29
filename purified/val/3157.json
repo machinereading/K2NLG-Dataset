@@ -1,0 +1,182 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "대한민국 국회의 지도자는 다나카 카쿠에이다. 그의 정당은 자유민주당이다. ",
+    "entities": {
+        "나카소네_야스히로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나카소네_야스히로"
+        },
+        "다나카_가쿠에이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다나카_가쿠에이"
+        },
+        "대한민국_국회": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Legislature",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국회"
+        },
+        "무소속": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/무소속"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "자유민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유민주당_(일본)"
+        },
+        "중의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Legislature",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중의원"
+        }
+    },
+    "id": 3157,
+    "pid": "752-29",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "다나카_가쿠에이"
+        },
+        {
+            "Rep": false,
+            "o": "무소속",
+            "p": "정당(party)",
+            "s": "다나카_가쿠에이"
+        },
+        {
+            "Rep": false,
+            "o": "중의원",
+            "p": "직함/포지션(position)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "다나카_가쿠에이"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "중의원"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_국회",
+            "p": "직함/포지션(position)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_국회",
+            "p": "직함/포지션(position)",
+            "s": "다나카_가쿠에이"
+        },
+        {
+            "Rep": false,
+            "o": "중의원",
+            "p": "직함/포지션(position)",
+            "s": "나카소네_야스히로"
+        },
+        {
+            "Rep": false,
+            "o": "다나카_가쿠에이",
+            "p": "지도자(leader)",
+            "s": "중의원"
+        },
+        {
+            "Rep": false,
+            "o": "중의원",
+            "p": "직함/포지션(position)",
+            "s": "다나카_가쿠에이"
+        },
+        {
+            "Rep": true,
+            "o": "다나카_가쿠에이",
+            "p": "지도자(leader)",
+            "s": "대한민국_국회"
+        },
+        {
+            "Rep": false,
+            "o": "다나카_가쿠에이",
+            "p": "지도자(leader)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "무소속",
+            "p": "정당(party)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "중의원",
+            "p": "직함/포지션(position)",
+            "s": "무소속"
+        }
+    ]
+}

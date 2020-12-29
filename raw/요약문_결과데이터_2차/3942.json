@@ -1,0 +1,180 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "안노 히데아키의 대표적인 작품으로는 신세기 에반게리온이 있다. 신세기 에반게리온의 장르는 다큐멘터리 영화다.",
+    "entities": {
+        "다큐멘터리_영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다큐멘터리_영화"
+        },
+        "디자이너": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/디자이너"
+        },
+        "비행사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비행사"
+        },
+        "사다모토_요시유키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사다모토_요시유키"
+        },
+        "신비한_바다의_나디아": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신비한_바다의_나디아"
+        },
+        "신세기_에반게리온": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신세기_에반게리온"
+        },
+        "안노_히데아키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안노_히데아키"
+        },
+        "우울증": {
+            "ne_type": "TMM_DISEASE",
+            "type": [
+                "http://dbpedia.org/ontology/Disease"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우울증"
+        },
+        "텔레비전": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/텔레비전"
+        }
+    },
+    "id": 3942,
+    "pid": "226-39",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "신세기_에반게리온",
+            "p": "유명한작품(notableWork)",
+            "s": "안노_히데아키"
+        },
+        {
+            "Rep": false,
+            "o": "신비한_바다의_나디아",
+            "p": "유명한작품(notableWork)",
+            "s": "안노_히데아키"
+        },
+        {
+            "Rep": false,
+            "o": "디자이너",
+            "p": "직업(occupation)",
+            "s": "사다모토_요시유키"
+        },
+        {
+            "Rep": false,
+            "o": "디자이너",
+            "p": "직업(occupation)",
+            "s": "비행사"
+        },
+        {
+            "Rep": false,
+            "o": "디자이너",
+            "p": "직업(occupation)",
+            "s": "신세기_에반게리온"
+        },
+        {
+            "Rep": true,
+            "o": "다큐멘터리_영화",
+            "p": "장르(genre)",
+            "s": "신세기_에반게리온"
+        },
+        {
+            "Rep": false,
+            "o": "디자이너",
+            "p": "직업(occupation)",
+            "s": "텔레비전"
+        },
+        {
+            "Rep": false,
+            "o": "다큐멘터리_영화",
+            "p": "장르(genre)",
+            "s": "비행사"
+        },
+        {
+            "Rep": false,
+            "o": "우울증",
+            "p": "전임자(predecessor)",
+            "s": "안노_히데아키"
+        },
+        {
+            "Rep": false,
+            "o": "비행사",
+            "p": "직업(occupation)",
+            "s": "안노_히데아키"
+        },
+        {
+            "Rep": false,
+            "o": "안노_히데아키",
+            "p": "전임자(predecessor)",
+            "s": "우울증"
+        },
+        {
+            "Rep": false,
+            "o": "텔레비전",
+            "p": "~로알려진(knownFor)",
+            "s": "사다모토_요시유키"
+        }
+    ]
+}

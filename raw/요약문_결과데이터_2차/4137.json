@@ -1,0 +1,219 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "대한민국 통계청은 대전광역시에 있다. 대전광역시는 인천광역시의 한 부분이다.",
+    "entities": {
+        "경기도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경기도"
+        },
+        "경상남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상남도"
+        },
+        "광주광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/광주광역시"
+        },
+        "대구광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대구광역시"
+        },
+        "대전광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대전광역시"
+        },
+        "대한민국_통계청": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_통계청"
+        },
+        "부산광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산광역시"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "울산광역시": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/울산광역시"
+        },
+        "인천광역시": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인천광역시"
+        }
+    },
+    "id": 4137,
+    "pid": "280-130",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대전광역시",
+            "p": "위치/지역(location)",
+            "s": "대한민국_통계청"
+        },
+        {
+            "Rep": true,
+            "o": "인천광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": false,
+            "o": "부산광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "경상남도"
+        },
+        {
+            "Rep": false,
+            "o": "경기도",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "경기도"
+        },
+        {
+            "Rep": false,
+            "o": "광주광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": false,
+            "o": "울산광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": false,
+            "o": "경상남도",
+            "p": "~의부분(isPartOf)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "위치/지역(location)",
+            "s": "대한민국_통계청"
+        },
+        {
+            "Rep": false,
+            "o": "대전광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "울산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "대전광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "인천광역시"
+        },
+        {
+            "Rep": false,
+            "o": "인천광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "울산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "인천광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "광주광역시"
+        },
+        {
+            "Rep": false,
+            "o": "대구광역시",
+            "p": "위치/지역(location)",
+            "s": "대한민국_통계청"
+        }
+    ]
+}

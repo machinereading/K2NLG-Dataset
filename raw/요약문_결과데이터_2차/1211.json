@@ -1,0 +1,95 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "베르너 하이젠베르크는 독일인이다. 그는 국가사회주의 독일 노동자당의 지도자다. ",
+    "entities": {
+        "국가사회주의_독일_노동자당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국가사회주의_독일_노동자당"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "베르너_하이젠베르크": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베르너_하이젠베르크"
+        },
+        "코펜하겐": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/코펜하겐"
+        }
+    },
+    "id": 1211,
+    "pid": "175-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "국적(nationality)",
+            "s": "베르너_하이젠베르크"
+        },
+        {
+            "Rep": false,
+            "o": "베르너_하이젠베르크",
+            "p": "지도자(leader)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "코펜하겐"
+        },
+        {
+            "Rep": true,
+            "o": "베르너_하이젠베르크",
+            "p": "지도자(leader)",
+            "s": "국가사회주의_독일_노동자당"
+        }
+    ]
+}

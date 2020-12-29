@@ -1,0 +1,125 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "대한민국의 언어는 한글이다. 한국어는 한글의 한 계통이다. ",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "러시아어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아어"
+        },
+        "북": {
+            "ne_type": "AF_MUSICAL_INSTRUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/북"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "일본어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본어"
+        },
+        "한국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국어"
+        },
+        "한글": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한글"
+        }
+    },
+    "id": 2564,
+    "pid": "535-125",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "한글",
+            "p": "계통(languageFamily)",
+            "s": "한국어"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "계통(languageFamily)",
+            "s": "러시아어"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "북"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "쓰이는곳(spokenIn)",
+            "s": "일본어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "러시아어"
+        },
+        {
+            "Rep": true,
+            "o": "한글",
+            "p": "언어(language)",
+            "s": "대한민국"
+        }
+    ]
+}

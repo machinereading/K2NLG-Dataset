@@ -1,0 +1,164 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "대한민국 해양경찰청의 상위조직은 대한민국 국민안전처다. 대한민국 해양경찰청의 상위조직은 대한민국 해양수산부다.",
+    "entities": {
+        "대한민국_국민안전처": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국민안전처"
+        },
+        "대한민국_해양경찰청": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_해양경찰청"
+        },
+        "대한민국_해양수산부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_해양수산부"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "박근혜": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박근혜"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "해양경비안전본부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/해양경비안전본부"
+        }
+    },
+    "id": 5521,
+    "pid": "669-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대한민국_해양경찰청",
+            "p": "전임자(predecessor)",
+            "s": "해양경비안전본부"
+        },
+        {
+            "Rep": false,
+            "o": "해양경비안전본부",
+            "p": "계승자/후임(successor)",
+            "s": "대한민국_해양경찰청"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_국민안전처",
+            "p": "계승자/후임(successor)",
+            "s": "대한민국_해양경찰청"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_해양경찰청",
+            "p": "전임자(predecessor)",
+            "s": "대한민국_국민안전처"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_해양수산부",
+            "p": "전임자(predecessor)",
+            "s": "해양경비안전본부"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "미국"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_국민안전처",
+            "p": "부모/상위조직(parentOrganisation)",
+            "s": "대한민국_해양경찰청"
+        },
+        {
+            "Rep": false,
+            "o": "박근혜",
+            "p": "전임자(predecessor)",
+            "s": "대한민국_해양경찰청"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_해양수산부",
+            "p": "부모/상위조직(parentOrganisation)",
+            "s": "대한민국_해양경찰청"
+        },
+        {
+            "Rep": false,
+            "o": "해양경비안전본부",
+            "p": "부모/상위조직(parentOrganisation)",
+            "s": "대한민국_해양경찰청"
+        }
+    ]
+}

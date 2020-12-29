@@ -1,0 +1,106 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "케페우스는 에티오피아의 지도자다.",
+    "entities": {
+        "그리스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/그리스"
+        },
+        "신화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신화"
+        },
+        "에티오피아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에티오피아"
+        },
+        "케페우스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/FictionalCharacter",
+                "http://dbpedia.org/ontology/MythologicalFigure",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/케페우스"
+        }
+    },
+    "id": 4100,
+    "pid": "274-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "그리스",
+            "p": "국가(country)",
+            "s": "신화"
+        },
+        {
+            "Rep": false,
+            "o": "에티오피아",
+            "p": "국가(country)",
+            "s": "그리스"
+        },
+        {
+            "Rep": false,
+            "o": "케페우스",
+            "p": "리더이름(leaderName)",
+            "s": "에티오피아"
+        },
+        {
+            "Rep": false,
+            "o": "그리스",
+            "p": "국가(country)",
+            "s": "에티오피아"
+        },
+        {
+            "Rep": true,
+            "o": "케페우스",
+            "p": "지도자(leader)",
+            "s": "에티오피아"
+        },
+        {
+            "Rep": false,
+            "o": "케페우스",
+            "p": "지도자(leader)",
+            "s": "그리스"
+        }
+    ]
+}

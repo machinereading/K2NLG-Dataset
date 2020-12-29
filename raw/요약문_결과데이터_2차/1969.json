@@ -1,0 +1,205 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 인노첸시오 10세는 교황 알렉산데르 7세의 계승자였다. 그는 교황의 후임이기도 했다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_알렉산데르_7세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_알렉산데르_7세"
+        },
+        "교황_인노첸시오_10세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_인노첸시오_10세"
+        },
+        "사제": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사제"
+        },
+        "수단": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수단"
+        },
+        "신학": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신학"
+        },
+        "예수회": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예수회"
+        },
+        "코르넬리우스_얀센": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/코르넬리우스_얀센"
+        },
+        "파리_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/파리_대학교"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 1969,
+    "pid": "60-19",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "사제",
+            "p": "직업(occupation)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "신학",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황_인노첸시오_10세",
+            "p": "리더이름(leaderName)",
+            "s": "교황"
+        },
+        {
+            "Rep": true,
+            "o": "교황_인노첸시오_10세",
+            "p": "계승자/후임(successor)",
+            "s": "교황_알렉산데르_7세"
+        },
+        {
+            "Rep": false,
+            "o": "신학",
+            "p": "종교(religion)",
+            "s": "파리_대학교"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "사망지(deathPlace)",
+            "s": "사제"
+        },
+        {
+            "Rep": true,
+            "o": "교황_인노첸시오_10세",
+            "p": "계승자/후임(successor)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "예수회"
+        },
+        {
+            "Rep": false,
+            "o": "수단",
+            "p": "사망지(deathPlace)",
+            "s": "사제"
+        },
+        {
+            "Rep": false,
+            "o": "사제",
+            "p": "직업(occupation)",
+            "s": "수단"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "국가(country)",
+            "s": "파리_대학교"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_알렉산데르_7세"
+        },
+        {
+            "Rep": false,
+            "o": "신학",
+            "p": "~로알려진(knownFor)",
+            "s": "코르넬리우스_얀센"
+        }
+    ]
+}

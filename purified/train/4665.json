@@ -1,0 +1,73 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "로스앤젤레스는 캘리포니아 주의 가장 큰 도시이다. 로스앤젤레스는 캘리포니아 주의 일부이다. 로스앤젤레스는 캘리포니아 주에 있는 지역이다.",
+    "entities": {
+        "로스앤젤레스": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로스앤젤레스"
+        },
+        "캘리포니아_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캘리포니아_주"
+        }
+    },
+    "id": 4665,
+    "pid": "355-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "로스앤젤레스",
+            "p": "가장큰도시(largestCity)",
+            "s": "캘리포니아_주"
+        },
+        {
+            "Rep": true,
+            "o": "캘리포니아_주",
+            "p": "~의부분(isPartOf)",
+            "s": "로스앤젤레스"
+        },
+        {
+            "Rep": true,
+            "o": "캘리포니아_주",
+            "p": "지역/분양(region)",
+            "s": "로스앤젤레스"
+        }
+    ]
+}

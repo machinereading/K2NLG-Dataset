@@ -1,0 +1,146 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "몽골 제국과 원나라를 이끈 사람은 마르코 폴로이다. ",
+    "entities": {
+        "대도": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대도"
+        },
+        "마르코_폴로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마르코_폴로"
+        },
+        "몽골_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몽골_제국"
+        },
+        "여행": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/여행"
+        },
+        "원나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/NobleFamily",
+                "http://dbpedia.org/ontology/Family",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원나라"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        }
+    },
+    "id": 4695,
+    "pid": "375-16",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대도",
+            "p": "수도(capital)",
+            "s": "원나라"
+        },
+        {
+            "Rep": false,
+            "o": "대도",
+            "p": "수도(capital)",
+            "s": "몽골_제국"
+        },
+        {
+            "Rep": true,
+            "o": "마르코_폴로",
+            "p": "리더이름(leaderName)",
+            "s": "몽골_제국"
+        },
+        {
+            "Rep": true,
+            "o": "마르코_폴로",
+            "p": "리더이름(leaderName)",
+            "s": "원나라"
+        },
+        {
+            "Rep": false,
+            "o": "여행",
+            "p": "수도(capital)",
+            "s": "몽골_제국"
+        },
+        {
+            "Rep": false,
+            "o": "몽골_제국",
+            "p": "국가(country)",
+            "s": "대도"
+        },
+        {
+            "Rep": false,
+            "o": "여행",
+            "p": "가장큰도시(largestCity)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "여행",
+            "p": "직업(occupation)",
+            "s": "마르코_폴로"
+        },
+        {
+            "Rep": false,
+            "o": "유럽",
+            "p": "위치/지역(location)",
+            "s": "대도"
+        }
+    ]
+}

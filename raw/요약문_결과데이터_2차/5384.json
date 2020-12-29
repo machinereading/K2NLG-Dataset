@@ -1,0 +1,75 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "천명공주는 진평왕의 자식이다. 천명공주는 김용춘의 배우자다. ",
+    "entities": {
+        "김용춘": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김용춘"
+        },
+        "진평왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/진평왕"
+        },
+        "천명공주": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/천명공주"
+        }
+    },
+    "id": 5384,
+    "pid": "631-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "천명공주",
+            "p": "배우자(spouse)",
+            "s": "김용춘"
+        },
+        {
+            "Rep": false,
+            "o": "진평왕",
+            "p": "배우자(spouse)",
+            "s": "김용춘"
+        },
+        {
+            "Rep": true,
+            "o": "천명공주",
+            "p": "자식(child)",
+            "s": "진평왕"
+        }
+    ]
+}

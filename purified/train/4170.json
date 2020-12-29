@@ -1,0 +1,106 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "장면은 대한민국 기획재정부 소속이다. 그의 직함은 대한민국 국회이다. 그는 대한민국 교육부에 속해 있다.",
+    "entities": {
+        "대한민국_교육부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_교육부"
+        },
+        "대한민국_국회": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Legislature"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국회"
+        },
+        "대한민국_기획재정부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_기획재정부"
+        },
+        "장면": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장면"
+        }
+    },
+    "id": 4170,
+    "pid": "280-63",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국_기획재정부",
+            "p": "직함/포지션(position)",
+            "s": "장면"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_국회",
+            "p": "직함/포지션(position)",
+            "s": "장면"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_교육부",
+            "p": "직함/포지션(position)",
+            "s": "장면"
+        },
+        {
+            "Rep": false,
+            "o": "장면",
+            "p": "전임자(predecessor)",
+            "s": "대한민국_국회"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_교육부",
+            "p": "전임자(predecessor)",
+            "s": "대한민국_기획재정부"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_기획재정부",
+            "p": "직함/포지션(position)",
+            "s": "대한민국_교육부"
+        }
+    ]
+}

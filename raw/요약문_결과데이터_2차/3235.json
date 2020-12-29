@@ -1,0 +1,138 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김구는 대한민국 임시 정부 국적이다. 그의 정당은 한국독립당이다. ",
+    "entities": {
+        "김구": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김구"
+        },
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "대한민국_임시_정부": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_임시_정부"
+        },
+        "한국독립당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국독립당"
+        },
+        "한국민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국민주당"
+        }
+    },
+    "id": 3235,
+    "pid": "800-202",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "한국독립당",
+            "p": "정당(party)",
+            "s": "김구"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_임시_정부",
+            "p": "국적(nationality)",
+            "s": "김구"
+        },
+        {
+            "Rep": false,
+            "o": "한국민주당",
+            "p": "정당(party)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "한국민주당",
+            "p": "정당(party)",
+            "s": "김구"
+        },
+        {
+            "Rep": false,
+            "o": "김구",
+            "p": "지도자(leader)",
+            "s": "한국민주당"
+        },
+        {
+            "Rep": false,
+            "o": "한국독립당",
+            "p": "정당(party)",
+            "s": "대한민국_임시_정부"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "지도자(leader)",
+            "s": "한국독립당"
+        },
+        {
+            "Rep": false,
+            "o": "한국민주당",
+            "p": "정당(party)",
+            "s": "대한민국_임시_정부"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "지도자(leader)",
+            "s": "한국민주당"
+        },
+        {
+            "Rep": false,
+            "o": "한국독립당",
+            "p": "정당(party)",
+            "s": "한국민주당"
+        }
+    ]
+}

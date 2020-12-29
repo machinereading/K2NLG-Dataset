@@ -1,0 +1,108 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "헨리 클레이 시니어의 정당은 휘그당이다. 휘그당의 지도자는 재커리 테일러다.",
+    "entities": {
+        "밀러드_필모어": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/밀러드_필모어"
+        },
+        "재커리_테일러": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/재커리_테일러"
+        },
+        "텍사스_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/텍사스_주"
+        },
+        "헨리_클레이_시니어": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헨리_클레이_시니어"
+        },
+        "휘그당": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/휘그당_(영국)"
+        }
+    },
+    "id": 4011,
+    "pid": "240-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "텍사스_주",
+            "p": "~의부분(isPartOf)",
+            "s": "휘그당"
+        },
+        {
+            "Rep": false,
+            "o": "휘그당",
+            "p": "정당(party)",
+            "s": "밀러드_필모어"
+        },
+        {
+            "Rep": true,
+            "o": "휘그당",
+            "p": "정당(party)",
+            "s": "헨리_클레이_시니어"
+        },
+        {
+            "Rep": true,
+            "o": "재커리_테일러",
+            "p": "지도자(leader)",
+            "s": "휘그당"
+        }
+    ]
+}

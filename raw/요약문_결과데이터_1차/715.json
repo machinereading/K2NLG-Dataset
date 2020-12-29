@@ -1,0 +1,95 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "오스트리아의 아나 (1573년)은 언어로 영어를 썼다. 그는 일본의 지도자이다. ",
+    "entities": {
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "오스트리아의_아나_(1573년)": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트리아의_아나_(1573년)"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "일본어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본어"
+        }
+    },
+    "id": 715,
+    "pid": "243-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "오스트리아의_아나_(1573년)",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "언어(language)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "오스트리아의_아나_(1573년)"
+        }
+    ]
+}

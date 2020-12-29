@@ -1,0 +1,96 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "토론토 증권거래소는 토론토에 있다. 토론토는 북아메리카의 지역이다. ",
+    "entities": {
+        "북아메리카": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/북아메리카"
+        },
+        "캐나다": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캐나다"
+        },
+        "토론토": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토론토"
+        },
+        "토론토_증권거래소": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토론토_증권거래소"
+        }
+    },
+    "id": 2236,
+    "pid": "405-32",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "토론토",
+            "p": "위치/지역(location)",
+            "s": "토론토_증권거래소"
+        },
+        {
+            "Rep": false,
+            "o": "캐나다",
+            "p": "국가(country)",
+            "s": "토론토"
+        },
+        {
+            "Rep": false,
+            "o": "캐나다",
+            "p": "국가(country)",
+            "s": "북아메리카"
+        },
+        {
+            "Rep": true,
+            "o": "북아메리카",
+            "p": "지역/분양(region)",
+            "s": "토론토"
+        }
+    ]
+}

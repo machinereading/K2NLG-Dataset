@@ -1,0 +1,86 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "단팥빵의 주연은 주연과 김민종이다.",
+    "entities": {
+        "김민종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김민종"
+        },
+        "단팥빵": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/TelevisionShow"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/단팥빵_(드라마)"
+        },
+        "심지호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/심지호"
+        },
+        "주연": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/주연_(동오)"
+        }
+    },
+    "id": 3334,
+    "pid": "823-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "주연",
+            "p": "직업(occupation)",
+            "s": "심지호"
+        },
+        {
+            "Rep": true,
+            "o": "주연",
+            "p": "주연(starring)",
+            "s": "단팥빵"
+        },
+        {
+            "Rep": true,
+            "o": "김민종",
+            "p": "주연(starring)",
+            "s": "단팥빵"
+        }
+    ]
+}

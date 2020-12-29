@@ -1,0 +1,125 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "리하르트 슈트라우스는 제2차 세계 대전의 지휘관이었다. 그는 일본의 지도자였다. 그의 배우자는 안익태였다.",
+    "entities": {
+        "리하르트_슈트라우스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리하르트_슈트라우스"
+        },
+        "베를린": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베를린"
+        },
+        "안익태": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안익태"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "제2차_세계_대전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제2차_세계_대전"
+        }
+    },
+    "id": 4193,
+    "pid": "283-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "리하르트_슈트라우스",
+            "p": "지휘관(commander)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": false,
+            "o": "제2차_세계_대전",
+            "p": "전투(battle)",
+            "s": "리하르트_슈트라우스"
+        },
+        {
+            "Rep": false,
+            "o": "안익태",
+            "p": "지휘관(commander)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": true,
+            "o": "리하르트_슈트라우스",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "제2차_세계_대전",
+            "p": "전투(battle)",
+            "s": "안익태"
+        },
+        {
+            "Rep": true,
+            "o": "리하르트_슈트라우스",
+            "p": "배우자(spouse)",
+            "s": "안익태"
+        },
+        {
+            "Rep": false,
+            "o": "베를린",
+            "p": "사망지(deathPlace)",
+            "s": "리하르트_슈트라우스"
+        }
+    ]
+}

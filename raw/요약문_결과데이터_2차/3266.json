@@ -1,0 +1,143 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김성수는 중일 전쟁에 참전한 지휘관이다. 춘천시는 강원도에 속한다.",
+    "entities": {
+        "강원도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강원도"
+        },
+        "교장": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교장"
+        },
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "라디오": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Broadcaster"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라디오"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "중일_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중일_전쟁"
+        },
+        "춘천시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/춘천시"
+        }
+    },
+    "id": 3266,
+    "pid": "800-99",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "학력(education)",
+            "s": "김성수"
+        },
+        {
+            "Rep": true,
+            "o": "김성수",
+            "p": "지휘관(commander)",
+            "s": "중일_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "강원도",
+            "p": "지역/분양(region)",
+            "s": "춘천시"
+        },
+        {
+            "Rep": false,
+            "o": "교장",
+            "p": "직함/포지션(position)",
+            "s": "김성수"
+        },
+        {
+            "Rep": true,
+            "o": "강원도",
+            "p": "~의부분(isPartOf)",
+            "s": "춘천시"
+        },
+        {
+            "Rep": false,
+            "o": "라디오",
+            "p": "직함/포지션(position)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "중일_전쟁",
+            "p": "전투(battle)",
+            "s": "김성수"
+        }
+    ]
+}

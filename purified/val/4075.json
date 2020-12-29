@@ -1,0 +1,78 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "대통합민주신당은 정동영이 이끈다. 대통합민주신당의 기원은 열린우리당이다. ",
+    "entities": {
+        "대통합민주신당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대통합민주신당"
+        },
+        "열린우리당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/열린우리당"
+        },
+        "정동영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정동영"
+        }
+    },
+    "id": 4075,
+    "pid": "265-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "정동영",
+            "p": "지도자(leader)",
+            "s": "대통합민주신당"
+        },
+        {
+            "Rep": true,
+            "o": "열린우리당",
+            "p": "기원/소속(affiliation)",
+            "s": "대통합민주신당"
+        },
+        {
+            "Rep": false,
+            "o": "열린우리당",
+            "p": "정당(party)",
+            "s": "정동영"
+        }
+    ]
+}

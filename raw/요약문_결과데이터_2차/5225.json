@@ -1,0 +1,152 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "이승만은 이시영을 국무총리로 임명하였다. 이승만의 계승자는 윤보선이다. 윤보선의 전임자는 이승만이다.",
+    "entities": {
+        "김규식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김규식"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "윤치소": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치소"
+        },
+        "윤치호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치호"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "이시영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이시영_(1868년)"
+        }
+    },
+    "id": 5225,
+    "pid": "541-28",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "이승만",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이시영"
+        },
+        {
+            "Rep": true,
+            "o": "이시영",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "윤치소",
+            "p": "부모(parent)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "친척(relative)",
+            "s": "윤치호"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "계승자/후임(successor)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "이승만",
+            "p": "전임자(predecessor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "김규식",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "김규식",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이시영"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "친척(relative)",
+            "s": "이시영"
+        },
+        {
+            "Rep": false,
+            "o": "윤치소",
+            "p": "친척(relative)",
+            "s": "이시영"
+        }
+    ]
+}

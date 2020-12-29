@@ -1,0 +1,124 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        }
+    ],
+    "Text": "서울특별시 안에는 울산광역시가 있다. 서울특별시는 울산광역시의 한 부분이다.",
+    "entities": {
+        "대구광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대구광역시"
+        },
+        "대한민국_환경부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_환경부"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "울산광역시": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/울산광역시"
+        },
+        "자동차": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자동차"
+        }
+    },
+    "id": 4198,
+    "pid": "284-23",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "위치/지역(location)",
+            "s": "자동차"
+        },
+        {
+            "Rep": true,
+            "o": "울산광역시",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "울산광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "울산광역시"
+        },
+        {
+            "Rep": true,
+            "o": "울산광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "위치/지역(location)",
+            "s": "대한민국_환경부"
+        },
+        {
+            "Rep": false,
+            "o": "대구광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "울산광역시"
+        }
+    ]
+}

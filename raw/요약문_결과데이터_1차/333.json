@@ -1,0 +1,101 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "로마에는 산탄젤로 성이 있다. 바티칸 시국이라는 나라도 로마에 있다. ",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "로마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "바티칸_시국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/WorldHeritageSite",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바티칸_시국"
+        },
+        "보호자": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보호자"
+        },
+        "산탄젤로_성": {
+            "ne_type": "AF_CULTURAL_ASSET",
+            "type": [
+                "http://dbpedia.org/ontology/Building",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Museum"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/산탄젤로_성"
+        }
+    },
+    "id": 333,
+    "pid": "28-7",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "보호자"
+        },
+        {
+            "Rep": true,
+            "o": "로마",
+            "p": "위치/지역(location)",
+            "s": "산탄젤로_성"
+        },
+        {
+            "Rep": true,
+            "o": "바티칸_시국",
+            "p": "국가(country)",
+            "s": "로마"
+        }
+    ]
+}

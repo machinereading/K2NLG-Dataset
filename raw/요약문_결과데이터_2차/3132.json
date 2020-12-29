@@ -1,0 +1,92 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "서양 고전 음악의 장르는 재즈다. 서양 고전 음악의 장르는 팝 음악이다. ",
+    "entities": {
+        "록": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/록"
+        },
+        "서양_고전_음악": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서양_고전_음악"
+        },
+        "재즈": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/재즈"
+        },
+        "팝_음악": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팝_음악"
+        }
+    },
+    "id": 3132,
+    "pid": "738-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "재즈",
+            "p": "장르(genre)",
+            "s": "서양_고전_음악"
+        },
+        {
+            "Rep": true,
+            "o": "팝_음악",
+            "p": "장르(genre)",
+            "s": "서양_고전_음악"
+        },
+        {
+            "Rep": false,
+            "o": "재즈",
+            "p": "장르(genre)",
+            "s": "록"
+        },
+        {
+            "Rep": false,
+            "o": "팝_음악",
+            "p": "장르(genre)",
+            "s": "록"
+        }
+    ]
+}

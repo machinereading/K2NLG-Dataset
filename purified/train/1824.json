@@ -1,0 +1,139 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "사부아는 이탈리아의 도시다. 줄리아노 데 메디치는 이탈리아의 지도자다. ",
+    "entities": {
+        "로마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "사부아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사부아"
+        },
+        "우르비노": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우르비노"
+        },
+        "이탈리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아"
+        },
+        "줄리아노_데_메디치": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/줄리아노_데_메디치"
+        },
+        "페라라": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/WorldHeritageSite"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페라라"
+        },
+        "피아첸차": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피아첸차"
+        }
+    },
+    "id": 1824,
+    "pid": "42-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "줄리아노_데_메디치",
+            "p": "지도자(leader)",
+            "s": "이탈리아"
+        },
+        {
+            "Rep": true,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "사부아"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "페라라"
+        },
+        {
+            "Rep": false,
+            "o": "줄리아노_데_메디치",
+            "p": "리더이름(leaderName)",
+            "s": "로마"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "피아첸차"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "우르비노"
+        }
+    ]
+}

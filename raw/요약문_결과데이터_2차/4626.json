@@ -1,0 +1,160 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "넷마블은 스타크래프트를 배급한다. 넷마블은 온라인 게임 산업을 하는 기업이다.",
+    "entities": {
+        "넥슨": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/넥슨"
+        },
+        "넷마블": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Company"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/넷마블"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "블리자드_엔터테인먼트": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/블리자드_엔터테인먼트"
+        },
+        "스타크래프트": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/VideoGame",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스타크래프트"
+        },
+        "온라인_게임": {
+            "ne_type": "TMIG_GENRE",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/온라인_게임"
+        },
+        "전략_비디오_게임": {
+            "ne_type": "TMIG_GENRE",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전략_비디오_게임"
+        }
+    },
+    "id": 4626,
+    "pid": "328-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "온라인_게임",
+            "p": "산업(industry)",
+            "s": "넥슨"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "온라인_게임",
+            "p": "제품(product)",
+            "s": "넥슨"
+        },
+        {
+            "Rep": false,
+            "o": "스타크래프트",
+            "p": "제품(product)",
+            "s": "블리자드_엔터테인먼트"
+        },
+        {
+            "Rep": true,
+            "o": "넷마블",
+            "p": "배급(publisher)",
+            "s": "스타크래프트"
+        },
+        {
+            "Rep": false,
+            "o": "블리자드_엔터테인먼트",
+            "p": "배급(publisher)",
+            "s": "스타크래프트"
+        },
+        {
+            "Rep": true,
+            "o": "온라인_게임",
+            "p": "산업(industry)",
+            "s": "넷마블"
+        },
+        {
+            "Rep": false,
+            "o": "온라인_게임",
+            "p": "제품(product)",
+            "s": "넷마블"
+        },
+        {
+            "Rep": false,
+            "o": "전략_비디오_게임",
+            "p": "타입/종류(type)",
+            "s": "미국"
+        }
+    ]
+}

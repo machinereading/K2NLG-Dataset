@@ -1,0 +1,154 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "한국의 지도자는 김구다. 그는 미국에서 사망했다. 미국의 지도자는 장제스다. 그는 미국에서 사망했다.",
+    "entities": {
+        "김구": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김구"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "장제스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장제스"
+        },
+        "한국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국"
+        }
+    },
+    "id": 2937,
+    "pid": "650-25",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "미국"
+        },
+        {
+            "Rep": true,
+            "o": "김구",
+            "p": "지도자(leader)",
+            "s": "한국"
+        },
+        {
+            "Rep": false,
+            "o": "장제스",
+            "p": "지도자(leader)",
+            "s": "한국"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "한국"
+        },
+        {
+            "Rep": false,
+            "o": "김구",
+            "p": "전임자(predecessor)",
+            "s": "장제스"
+        },
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "사망지(deathPlace)",
+            "s": "김구"
+        },
+        {
+            "Rep": false,
+            "o": "김구",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "한국"
+        },
+        {
+            "Rep": true,
+            "o": "장제스",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "김구",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "사망지(deathPlace)",
+            "s": "장제스"
+        }
+    ]
+}

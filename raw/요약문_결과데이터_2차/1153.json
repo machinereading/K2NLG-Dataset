@@ -1,0 +1,113 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "보스턴은 잉글랜드에 속한다. 잉글랜드의 수도는 노리치다. ",
+    "entities": {
+        "노리치": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노리치"
+        },
+        "보스턴": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보스턴"
+        },
+        "사제": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사제"
+        },
+        "잉글랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잉글랜드"
+        }
+    },
+    "id": 1153,
+    "pid": "14-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "사제",
+            "p": "직업(occupation)",
+            "s": "노리치"
+        },
+        {
+            "Rep": false,
+            "o": "노리치",
+            "p": "~의부분(isPartOf)",
+            "s": "보스턴"
+        },
+        {
+            "Rep": false,
+            "o": "사제",
+            "p": "직업(occupation)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": false,
+            "o": "사제",
+            "p": "직업(occupation)",
+            "s": "보스턴"
+        },
+        {
+            "Rep": true,
+            "o": "노리치",
+            "p": "수도(capital)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": false,
+            "o": "보스턴",
+            "p": "~의부분(isPartOf)",
+            "s": "노리치"
+        },
+        {
+            "Rep": true,
+            "o": "잉글랜드",
+            "p": "~의부분(isPartOf)",
+            "s": "보스턴"
+        }
+    ]
+}

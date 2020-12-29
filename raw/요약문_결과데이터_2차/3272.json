@@ -1,0 +1,113 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "신돈의 직업은 승려다. 고려 공민왕의 전임자는 신돈이다.",
+    "entities": {
+        "고려_공민왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_공민왕"
+        },
+        "승려": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/승려"
+        },
+        "신돈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신돈"
+        },
+        "이구수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이구수"
+        },
+        "최영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/최영"
+        }
+    },
+    "id": 3272,
+    "pid": "807-15",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "최영",
+            "p": "전임자(predecessor)",
+            "s": "고려_공민왕"
+        },
+        {
+            "Rep": true,
+            "o": "승려",
+            "p": "직업(occupation)",
+            "s": "신돈"
+        },
+        {
+            "Rep": true,
+            "o": "신돈",
+            "p": "전임자(predecessor)",
+            "s": "고려_공민왕"
+        },
+        {
+            "Rep": false,
+            "o": "이구수",
+            "p": "계승자/후임(successor)",
+            "s": "최영"
+        },
+        {
+            "Rep": false,
+            "o": "신돈",
+            "p": "전임자(predecessor)",
+            "s": "최영"
+        },
+        {
+            "Rep": false,
+            "o": "최영",
+            "p": "전임자(predecessor)",
+            "s": "신돈"
+        }
+    ]
+}

@@ -1,0 +1,191 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "에드문트 후설은 마르틴 하이데거의 영향을 받았다. 에드문트 후설은 프라이부르크에서 사망했다. ",
+    "entities": {
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "레오_스트라우스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레오_스트라우스"
+        },
+        "마르부르크": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Town",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마르부르크"
+        },
+        "마르부르크_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마르부르크_대학교"
+        },
+        "마르틴_하이데거": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마르틴_하이데거"
+        },
+        "에드문트_후설": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에드문트_후설"
+        },
+        "에른스트_카시러": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에른스트_카시러"
+        },
+        "프라이부르크": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Town",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프라이부르크"
+        },
+        "프리드리히_니체": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프리드리히_니체"
+        }
+    },
+    "id": 4071,
+    "pid": "264-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "에른스트_카시러",
+            "p": "영향받은(influencedBy)",
+            "s": "레오_스트라우스"
+        },
+        {
+            "Rep": false,
+            "o": "마르틴_하이데거",
+            "p": "영향받은(influencedBy)",
+            "s": "레오_스트라우스"
+        },
+        {
+            "Rep": false,
+            "o": "레오_스트라우스",
+            "p": "영향받은(influenced)",
+            "s": "마르틴_하이데거"
+        },
+        {
+            "Rep": false,
+            "o": "에드문트_후설",
+            "p": "영향받은(influencedBy)",
+            "s": "마르틴_하이데거"
+        },
+        {
+            "Rep": true,
+            "o": "프라이부르크",
+            "p": "사망지(deathPlace)",
+            "s": "에드문트_후설"
+        },
+        {
+            "Rep": false,
+            "o": "프리드리히_니체",
+            "p": "영향받은(influencedBy)",
+            "s": "레오_스트라우스"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "마르부르크"
+        },
+        {
+            "Rep": true,
+            "o": "마르틴_하이데거",
+            "p": "영향받은(influenced)",
+            "s": "에드문트_후설"
+        },
+        {
+            "Rep": false,
+            "o": "마르부르크",
+            "p": "출생지(birthPlace)",
+            "s": "레오_스트라우스"
+        },
+        {
+            "Rep": false,
+            "o": "레오_스트라우스",
+            "p": "영향받은(influencedBy)",
+            "s": "에드문트_후설"
+        },
+        {
+            "Rep": false,
+            "o": "레오_스트라우스",
+            "p": "영향받은(influencedBy)",
+            "s": "마르틴_하이데거"
+        },
+        {
+            "Rep": false,
+            "o": "마르부르크_대학교",
+            "p": "학력(education)",
+            "s": "마르틴_하이데거"
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "모노노케 히메의 장르는 애니메이션이다. 모노노케 히메는 공각기동대의 후속작이다.",
+    "entities": {
+        "공각기동대": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Comic",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Manga"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공각기동대"
+        },
+        "모노노케_히메": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/모노노케_히메"
+        },
+        "애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "인형극": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인형극"
+        },
+        "일본의_애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본의_애니메이션"
+        }
+    },
+    "id": 5628,
+    "pid": "725-20",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "인형극",
+            "p": "장르(genre)",
+            "s": "애니메이션"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "공각기동대"
+        },
+        {
+            "Rep": true,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "모노노케_히메"
+        },
+        {
+            "Rep": false,
+            "o": "일본의_애니메이션",
+            "p": "타입/종류(type)",
+            "s": "애니메이션"
+        },
+        {
+            "Rep": false,
+            "o": "인형극",
+            "p": "장르(genre)",
+            "s": "일본의_애니메이션"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "인형극"
+        },
+        {
+            "Rep": true,
+            "o": "모노노케_히메",
+            "p": "후속작(subsequentWork)",
+            "s": "공각기동대"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "타입/종류(type)",
+            "s": "일본의_애니메이션"
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "고문은 일본의 지도자다. 그는 경기고등학교를 졸업했다.",
+    "entities": {
+        "경기고등학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경기고등학교"
+        },
+        "고문": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Disease"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고문"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "조선일보": {
+            "ne_type": "OGG_MEDIA",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/PeriodicalLiterature",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Newspaper"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선일보"
+        }
+    },
+    "id": 2113,
+    "pid": "331-5",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "경기고등학교"
+        },
+        {
+            "Rep": true,
+            "o": "고문",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "경기고등학교",
+            "p": "학력(education)",
+            "s": "고문"
+        },
+        {
+            "Rep": false,
+            "o": "고문",
+            "p": "대통령/회장(president)",
+            "s": "경기고등학교"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "학력(education)",
+            "s": "고문"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "조선일보"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "김규식이 있는 정당은 신한청년당이다. 김규식 내각에서 국무총리는 신규식이다. 신한청년당의 지도자는 김규식이다.",
+    "entities": {
+        "김규식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김규식"
+        },
+        "신규식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신규식"
+        },
+        "신한청년당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신한청년당"
+        }
+    },
+    "id": 5221,
+    "pid": "541-26",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "신한청년당",
+            "p": "정당(party)",
+            "s": "김규식"
+        },
+        {
+            "Rep": true,
+            "o": "신규식",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "김규식"
+        },
+        {
+            "Rep": true,
+            "o": "김규식",
+            "p": "지도자(leader)",
+            "s": "신한청년당"
+        }
+    ]
+}

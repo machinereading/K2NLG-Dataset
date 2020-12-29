@@ -1,0 +1,139 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "도련님은 나쓰메 소세키의 유명한 작품이다. 나쓰메 소세키의 학력은 도쿄 대학이다. 나는 고양이로소이다는 나쓰메 소세키의 유명한 작품이다. ",
+    "entities": {
+        "강사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강사"
+        },
+        "나는_고양이로소이다": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나는_고양이로소이다"
+        },
+        "나쓰메_소세키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나쓰메_소세키"
+        },
+        "도련님": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도련님"
+        },
+        "도쿄_대학": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿄_대학"
+        },
+        "메이지_대학": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/메이지_대학"
+        },
+        "작가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작가"
+        }
+    },
+    "id": 5073,
+    "pid": "533-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "도련님",
+            "p": "유명한작품(notableWork)",
+            "s": "나쓰메_소세키"
+        },
+        {
+            "Rep": false,
+            "o": "도쿄_대학",
+            "p": "학력(education)",
+            "s": "강사"
+        },
+        {
+            "Rep": false,
+            "o": "메이지_대학",
+            "p": "학력(education)",
+            "s": "강사"
+        },
+        {
+            "Rep": true,
+            "o": "도쿄_대학",
+            "p": "학력(education)",
+            "s": "나쓰메_소세키"
+        },
+        {
+            "Rep": true,
+            "o": "나는_고양이로소이다",
+            "p": "유명한작품(notableWork)",
+            "s": "나쓰메_소세키"
+        },
+        {
+            "Rep": false,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "도련님"
+        },
+        {
+            "Rep": false,
+            "o": "메이지_대학",
+            "p": "학력(education)",
+            "s": "나쓰메_소세키"
+        }
+    ]
+}

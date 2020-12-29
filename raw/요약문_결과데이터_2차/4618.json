@@ -1,0 +1,97 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "리처드 도킨스는 영국에 산다. 그는 윌리엄 페일리의 영향을 받았다.",
+    "entities": {
+        "리처드_도킨스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리처드_도킨스"
+        },
+        "신학": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신학"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "윌리엄_페일리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윌리엄_페일리"
+        }
+    },
+    "id": 4618,
+    "pid": "325-14",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "영국",
+            "p": "거주지(residence)",
+            "s": "리처드_도킨스"
+        },
+        {
+            "Rep": false,
+            "o": "윌리엄_페일리",
+            "p": "저자(author)",
+            "s": "신학"
+        },
+        {
+            "Rep": false,
+            "o": "윌리엄_페일리",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "신학"
+        },
+        {
+            "Rep": true,
+            "o": "윌리엄_페일리",
+            "p": "영향받은(influencedBy)",
+            "s": "리처드_도킨스"
+        }
+    ]
+}

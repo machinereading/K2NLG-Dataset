@@ -1,0 +1,131 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "누피디어는 영어로 쓰인 웹사이트다. 지미 웨일스는 위키백과의 저자다. 래리 생어는 위키백과의 저자다. 지미 웨일스는 누피디어의 저자다. 프레더릭 생어는 누피디어의 저자다.",
+    "entities": {
+        "누피디어": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/누피디어"
+        },
+        "래리_생어": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/래리_생어"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "위키": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위키"
+        },
+        "위키백과": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위키백과"
+        },
+        "지미_웨일스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지미_웨일스"
+        },
+        "프레더릭_생어": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프레더릭_생어"
+        }
+    },
+    "id": 118,
+    "pid": "134-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "누피디어"
+        },
+        {
+            "Rep": true,
+            "o": "지미_웨일스",
+            "p": "저자(author)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": true,
+            "o": "래리_생어",
+            "p": "저자(author)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": true,
+            "o": "지미_웨일스",
+            "p": "저자(author)",
+            "s": "누피디어"
+        },
+        {
+            "Rep": false,
+            "o": "위키",
+            "p": "타입/종류(type)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": false,
+            "o": "위키백과",
+            "p": "~로알려진(knownFor)",
+            "s": "래리_생어"
+        },
+        {
+            "Rep": true,
+            "o": "프레더릭_생어",
+            "p": "저자(author)",
+            "s": "누피디어"
+        }
+    ]
+}

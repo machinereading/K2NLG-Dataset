@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "중국동맹회의 본부는 상하이 시에 있다. 중국동맹회의 본사는 난징 시에 있다.",
+    "entities": {
+        "난징_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/난징_시"
+        },
+        "붉은_군대": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/붉은_군대"
+        },
+        "상하이_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/상하이_시"
+        },
+        "중국동맹회": {
+            "ne_type": "OG_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국동맹회"
+        }
+    },
+    "id": 1321,
+    "pid": "195-81",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "상하이_시",
+            "p": "~의부분(isPartOf)",
+            "s": "난징_시"
+        },
+        {
+            "Rep": false,
+            "o": "붉은_군대",
+            "p": "~의부분(isPartOf)",
+            "s": "난징_시"
+        },
+        {
+            "Rep": false,
+            "o": "난징_시",
+            "p": "~의부분(isPartOf)",
+            "s": "상하이_시"
+        },
+        {
+            "Rep": true,
+            "o": "상하이_시",
+            "p": "본부/본사(headquarter)",
+            "s": "중국동맹회"
+        },
+        {
+            "Rep": false,
+            "o": "중국동맹회",
+            "p": "국가(country)",
+            "s": "난징_시"
+        },
+        {
+            "Rep": true,
+            "o": "난징_시",
+            "p": "본부/본사(headquarter)",
+            "s": "중국동맹회"
+        },
+        {
+            "Rep": false,
+            "o": "난징_시",
+            "p": "수도(capital)",
+            "s": "상하이_시"
+        }
+    ]
+}

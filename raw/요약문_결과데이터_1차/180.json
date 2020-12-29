@@ -1,0 +1,150 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "주나라의 지도자는 제 환공이었다. 제 환공의 후임은 진 문공이다. 진 문공은 합려이다. 진 문공은 오 (삼국)을 이끌었다.",
+    "entities": {
+        "오_(삼국)": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오_(삼국)"
+        },
+        "제_환공": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제_환공"
+        },
+        "주나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/주나라"
+        },
+        "진_문공": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/진_문공"
+        },
+        "초_장왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/초_장왕"
+        },
+        "합려": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/합려"
+        }
+    },
+    "id": 180,
+    "pid": "176-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "진_문공",
+            "p": "리더이름(leaderName)",
+            "s": "주나라"
+        },
+        {
+            "Rep": true,
+            "o": "제_환공",
+            "p": "리더이름(leaderName)",
+            "s": "주나라"
+        },
+        {
+            "Rep": false,
+            "o": "초_장왕",
+            "p": "리더이름(leaderName)",
+            "s": "주나라"
+        },
+        {
+            "Rep": true,
+            "o": "진_문공",
+            "p": "계승자/후임(successor)",
+            "s": "제_환공"
+        },
+        {
+            "Rep": true,
+            "o": "합려",
+            "p": "직함/포지션(position)",
+            "s": "진_문공"
+        },
+        {
+            "Rep": false,
+            "o": "초_장왕",
+            "p": "계승자/후임(successor)",
+            "s": "제_환공"
+        },
+        {
+            "Rep": false,
+            "o": "합려",
+            "p": "직함/포지션(position)",
+            "s": "제_환공"
+        },
+        {
+            "Rep": false,
+            "o": "제_환공",
+            "p": "리더이름(leaderName)",
+            "s": "오_(삼국)"
+        },
+        {
+            "Rep": true,
+            "o": "진_문공",
+            "p": "리더이름(leaderName)",
+            "s": "오_(삼국)"
+        },
+        {
+            "Rep": false,
+            "o": "초_장왕",
+            "p": "계승자/후임(successor)",
+            "s": "진_문공"
+        }
+    ]
+}

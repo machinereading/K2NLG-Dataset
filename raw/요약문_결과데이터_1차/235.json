@@ -1,0 +1,172 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "이승철의 배우자는 강문영이다. 그의 직업은 보컬이다.",
+    "entities": {
+        "강문영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강문영"
+        },
+        "교장": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교장"
+        },
+        "김태원_(음악인)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김태원_(음악인)"
+        },
+        "보컬": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Instrument",
+                "http://dbpedia.org/ontology/Device"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보컬"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "이승철": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승철"
+        },
+        "한국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국"
+        }
+    },
+    "id": 235,
+    "pid": "191-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "강문영",
+            "p": "배우자(spouse)",
+            "s": "이승철"
+        },
+        {
+            "Rep": false,
+            "o": "이승철",
+            "p": "배우자(spouse)",
+            "s": "강문영"
+        },
+        {
+            "Rep": false,
+            "o": "강문영",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "이승철",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": true,
+            "o": "보컬",
+            "p": "직업(occupation)",
+            "s": "이승철"
+        },
+        {
+            "Rep": false,
+            "o": "강문영",
+            "p": "배우자(spouse)",
+            "s": "김태원_(음악인)"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "직업(occupation)",
+            "s": "김태원_(음악인)"
+        },
+        {
+            "Rep": false,
+            "o": "이승철",
+            "p": "배우자(spouse)",
+            "s": "김태원_(음악인)"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "직업(occupation)",
+            "s": "이승철"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "한국"
+        },
+        {
+            "Rep": false,
+            "o": "교장",
+            "p": "직함/포지션(position)",
+            "s": "이승철"
+        }
+    ]
+}

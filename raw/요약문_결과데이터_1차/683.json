@@ -1,0 +1,81 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "심정 (1471년)은 류자광의 친척이다. 그는 조광조의 친척이기도 하다.",
+    "entities": {
+        "류자광": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/MilitaryPerson",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/류자광"
+        },
+        "심정_(1471년)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/심정_(1471년)"
+        },
+        "조광조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조광조"
+        }
+    },
+    "id": 683,
+    "pid": "230-43",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "류자광",
+            "p": "친척(relative)",
+            "s": "심정_(1471년)"
+        },
+        {
+            "Rep": false,
+            "o": "심정_(1471년)",
+            "p": "친척(relative)",
+            "s": "조광조"
+        },
+        {
+            "Rep": true,
+            "o": "조광조",
+            "p": "친척(relative)",
+            "s": "심정_(1471년)"
+        },
+        {
+            "Rep": false,
+            "o": "심정_(1471년)",
+            "p": "친척(relative)",
+            "s": "류자광"
+        }
+    ]
+}

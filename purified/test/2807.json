@@ -1,0 +1,182 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "영월군은 충주시의 한 부분이다. 영월군은 제천시의 한 부분이다.",
+    "entities": {
+        "단양군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/단양군"
+        },
+        "영월군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영월군"
+        },
+        "원주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원주시"
+        },
+        "제천시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제천시"
+        },
+        "중앙고속도로": {
+            "ne_type": "AF_ROAD",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Road",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중앙고속도로"
+        },
+        "충주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/충주시"
+        }
+    },
+    "id": 2807,
+    "pid": "595-25",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "충주시",
+            "p": "~의부분(isPartOf)",
+            "s": "영월군"
+        },
+        {
+            "Rep": false,
+            "o": "영월군",
+            "p": "부분(part)",
+            "s": "충주시"
+        },
+        {
+            "Rep": false,
+            "o": "원주시",
+            "p": "~의부분(isPartOf)",
+            "s": "단양군"
+        },
+        {
+            "Rep": false,
+            "o": "단양군",
+            "p": "부분(part)",
+            "s": "원주시"
+        },
+        {
+            "Rep": false,
+            "o": "원주시",
+            "p": "~의부분(isPartOf)",
+            "s": "제천시"
+        },
+        {
+            "Rep": false,
+            "o": "영월군",
+            "p": "부분(part)",
+            "s": "제천시"
+        },
+        {
+            "Rep": false,
+            "o": "단양군",
+            "p": "~의부분(isPartOf)",
+            "s": "원주시"
+        },
+        {
+            "Rep": false,
+            "o": "제천시",
+            "p": "부분(part)",
+            "s": "충주시"
+        },
+        {
+            "Rep": false,
+            "o": "단양군",
+            "p": "부분(part)",
+            "s": "제천시"
+        },
+        {
+            "Rep": false,
+            "o": "중앙고속도로",
+            "p": "~의부분(isPartOf)",
+            "s": "단양군"
+        },
+        {
+            "Rep": false,
+            "o": "영월군",
+            "p": "~의부분(isPartOf)",
+            "s": "충주시"
+        },
+        {
+            "Rep": false,
+            "o": "중앙고속도로",
+            "p": "~의부분(isPartOf)",
+            "s": "원주시"
+        },
+        {
+            "Rep": false,
+            "o": "충주시",
+            "p": "~의부분(isPartOf)",
+            "s": "제천시"
+        },
+        {
+            "Rep": false,
+            "o": "영월군",
+            "p": "~의부분(isPartOf)",
+            "s": "제천시"
+        },
+        {
+            "Rep": true,
+            "o": "제천시",
+            "p": "~의부분(isPartOf)",
+            "s": "영월군"
+        }
+    ]
+}

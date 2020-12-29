@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        }
+    ],
+    "Text": "로마 교황청은 네덜란드의 행정기관이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "네덜란드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/네덜란드"
+        },
+        "로마_교황청": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마_교황청"
+        },
+        "아일랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아일랜드"
+        }
+    },
+    "id": 4546,
+    "pid": "77-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "네덜란드",
+            "p": "국가(country)",
+            "s": "로마_교황청"
+        },
+        {
+            "Rep": false,
+            "o": "네덜란드",
+            "p": "국가(country)",
+            "s": "아일랜드"
+        },
+        {
+            "Rep": false,
+            "o": "로마_교황청",
+            "p": "수도(capital)",
+            "s": "아일랜드"
+        },
+        {
+            "Rep": false,
+            "o": "로마_교황청",
+            "p": "수도(capital)",
+            "s": "네덜란드"
+        },
+        {
+            "Rep": false,
+            "o": "아일랜드",
+            "p": "위치/지역(location)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "아일랜드"
+        },
+        {
+            "Rep": false,
+            "o": "아일랜드",
+            "p": "국가(country)",
+            "s": "로마_교황청"
+        }
+    ]
+}

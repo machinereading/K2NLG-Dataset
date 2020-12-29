@@ -1,0 +1,132 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "민주공화당의 지도자 윤보선의 정당은 민주공화당이다. 전주시는 전라북도에 속한다.",
+    "entities": {
+        "김형욱": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김형욱"
+        },
+        "민주공화당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주공화당_(대한민국)"
+        },
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "전라북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전라북도"
+        },
+        "전주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전주시"
+        }
+    },
+    "id": 5170,
+    "pid": "541-173",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "민주공화당",
+            "p": "정당(party)",
+            "s": "박정희"
+        },
+        {
+            "Rep": true,
+            "o": "민주공화당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "지도자(leader)",
+            "s": "민주공화당"
+        },
+        {
+            "Rep": false,
+            "o": "김형욱",
+            "p": "지도자(leader)",
+            "s": "민주공화당"
+        },
+        {
+            "Rep": true,
+            "o": "전라북도",
+            "p": "지역/분양(region)",
+            "s": "전주시"
+        },
+        {
+            "Rep": false,
+            "o": "민주공화당",
+            "p": "정당(party)",
+            "s": "김형욱"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "지도자(leader)",
+            "s": "전라북도"
+        }
+    ]
+}

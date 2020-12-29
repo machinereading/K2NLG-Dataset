@@ -1,0 +1,180 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "쑨원의 안식처는 청나라이다. 그의 안식처는 일본이다. 그는 청나라의 지도자이다. 그는 의화단 운동을 이끌었다.",
+    "entities": {
+        "광둥_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/광둥_성"
+        },
+        "수_양제": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수_양제"
+        },
+        "쑨원": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쑨원"
+        },
+        "의화단_운동": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의화단_운동"
+        },
+        "이홍장": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이홍장"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "지식인": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지식인"
+        },
+        "청나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청나라"
+        },
+        "후이저우_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/후이저우_시"
+        }
+    },
+    "id": 250,
+    "pid": "195-26",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "청나라",
+            "p": "안식처(restingPlace)",
+            "s": "쑨원"
+        },
+        {
+            "Rep": false,
+            "o": "청나라",
+            "p": "장소(place)",
+            "s": "의화단_운동"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "안식처(restingPlace)",
+            "s": "쑨원"
+        },
+        {
+            "Rep": false,
+            "o": "광둥_성",
+            "p": "~의부분(isPartOf)",
+            "s": "후이저우_시"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "청나라"
+        },
+        {
+            "Rep": false,
+            "o": "지식인",
+            "p": "민족(ethnicGroup)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "수_양제",
+            "p": "지휘관(commander)",
+            "s": "의화단_운동"
+        },
+        {
+            "Rep": true,
+            "o": "쑨원",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        },
+        {
+            "Rep": true,
+            "o": "쑨원",
+            "p": "지휘관(commander)",
+            "s": "의화단_운동"
+        },
+        {
+            "Rep": false,
+            "o": "이홍장",
+            "p": "지휘관(commander)",
+            "s": "의화단_운동"
+        }
+    ]
+}

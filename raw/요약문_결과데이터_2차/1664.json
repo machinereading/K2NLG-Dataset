@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "주요한의 직업은 정치가이다. 홍재형과 안창호의 직업은 정치가이다.",
+    "entities": {
+        "무궁화": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Plant",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/무궁화"
+        },
+        "안창호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안창호"
+        },
+        "정치가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정치가"
+        },
+        "주요한": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/주요한"
+        },
+        "홍재형": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍재형"
+        }
+    },
+    "id": 1664,
+    "pid": "281-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "정치가",
+            "p": "직업(occupation)",
+            "s": "주요한"
+        },
+        {
+            "Rep": true,
+            "o": "정치가",
+            "p": "직업(occupation)",
+            "s": "홍재형"
+        },
+        {
+            "Rep": false,
+            "o": "정치가",
+            "p": "직업(occupation)",
+            "s": "무궁화"
+        },
+        {
+            "Rep": true,
+            "o": "정치가",
+            "p": "직업(occupation)",
+            "s": "안창호"
+        },
+        {
+            "Rep": false,
+            "o": "정치가",
+            "p": "친척(relative)",
+            "s": "주요한"
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "시칠리아는 프랑스에 속해 있다. 카를로 1세는 시칠리아를 이끌었다. 그는 프랑스군의 지휘관이기도 하였다. 카를로 1세를 이어 샤를 2세가 프랑스의 지도자가 되었다. 샤를 2세는 역시 시칠리아를 이끌었다. 더불어 프랑스군의 지휘관을 역임하기도 했다. 샤를 2세에 이어 필리프 3세가 프랑스를 지도했다. 필리프 3세는 시칠리아의 지도자 또한 맡았다. 필리프 3세의 뒤를 이어 프랑스 지도자에 역임한 사람은 교황 마르티노 4세였다.",
+    "entities": {
+        "교황_마르티노_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_마르티노_4세"
+        },
+        "샤를_2세_(프로방스)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/샤를_2세_(프로방스)"
+        },
+        "시칠리아": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/EthnicGroup",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시칠리아"
+        },
+        "앙주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/앙주"
+        },
+        "카를로_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카를로_1세"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        },
+        "프랑스군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스군"
+        },
+        "필리프_3세_(프랑스)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/필리프_3세_(프랑스)"
+        }
+    },
+    "id": 128,
+    "pid": "14-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": true,
+            "o": "카를로_1세",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": true,
+            "o": "카를로_1세",
+            "p": "지휘관(commander)",
+            "s": "프랑스군"
+        },
+        {
+            "Rep": true,
+            "o": "샤를_2세_(프로방스)",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "필리프_3세_(프랑스)",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "샤를_2세_(프로방스)",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": true,
+            "o": "필리프_3세_(프랑스)",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": true,
+            "o": "샤를_2세_(프로방스)",
+            "p": "지휘관(commander)",
+            "s": "프랑스군"
+        },
+        {
+            "Rep": true,
+            "o": "교황_마르티노_4세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "시칠리아",
+            "p": "지역/분양(region)",
+            "s": "앙주"
+        }
+    ]
+}

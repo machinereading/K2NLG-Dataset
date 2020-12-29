@@ -1,0 +1,104 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "수도기계화보병사단은 대한민국 육군본부 소속이다. 대한민국 육군사관학교가 있는 곳은 부산광역시이다.",
+    "entities": {
+        "대한민국_육군본부": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_육군본부"
+        },
+        "대한민국_육군사관학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_육군사관학교"
+        },
+        "부산광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산광역시"
+        },
+        "수도기계화보병사단": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수도기계화보병사단_(대한민국)"
+        },
+        "태능": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태능"
+        }
+    },
+    "id": 5871,
+    "pid": "828-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "부산광역시",
+            "p": "도시(city)",
+            "s": "대한민국_육군사관학교"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_육군본부",
+            "p": "직함/포지션(position)",
+            "s": "수도기계화보병사단"
+        },
+        {
+            "Rep": false,
+            "o": "수도기계화보병사단",
+            "p": "직함/포지션(position)",
+            "s": "대한민국_육군본부"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_육군사관학교",
+            "p": "학력(education)",
+            "s": "태능"
+        }
+    ]
+}

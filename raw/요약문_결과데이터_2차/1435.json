@@ -1,0 +1,87 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "전라남도 안에 화순군이 있다. 화순군은 전라남도에 있는 한 지역이다.",
+    "entities": {
+        "성리학": {
+            "ne_type": "FD_PHILOSOPHY",
+            "type": [
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성리학"
+        },
+        "전라남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전라남도"
+        },
+        "조선_중종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_중종"
+        },
+        "화순군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/화순군"
+        }
+    },
+    "id": 1435,
+    "pid": "230-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "화순군",
+            "p": "부분(part)",
+            "s": "전라남도"
+        },
+        {
+            "Rep": false,
+            "o": "성리학",
+            "p": "종교(religion)",
+            "s": "조선_중종"
+        },
+        {
+            "Rep": true,
+            "o": "전라남도",
+            "p": "지역/분양(region)",
+            "s": "화순군"
+        }
+    ]
+}

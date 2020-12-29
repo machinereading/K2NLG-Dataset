@@ -1,0 +1,182 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "제임스 클러크 맥스웰은 스코틀랜드에서 태어났다.",
+    "entities": {
+        "루트비히_볼츠만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루트비히_볼츠만"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "베르너_폰_브라운": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베르너_폰_브라운"
+        },
+        "스코틀랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스코틀랜드"
+        },
+        "장_바티스트_페랭": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장_바티스트_페랭"
+        },
+        "제임스_클러크_맥스웰": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제임스_클러크_맥스웰"
+        },
+        "존_돌턴": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/존_돌턴"
+        },
+        "화학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/화학자"
+        }
+    },
+    "id": 5616,
+    "pid": "720-15",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "스코틀랜드",
+            "p": "출생지(birthPlace)",
+            "s": "제임스_클러크_맥스웰"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "스코틀랜드"
+        },
+        {
+            "Rep": false,
+            "o": "베르너_폰_브라운",
+            "p": "~로알려진(knownFor)",
+            "s": "장_바티스트_페랭"
+        },
+        {
+            "Rep": false,
+            "o": "존_돌턴",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "제임스_클러크_맥스웰",
+            "p": "지도자(leader)",
+            "s": "스코틀랜드"
+        },
+        {
+            "Rep": false,
+            "o": "화학자",
+            "p": "직업(occupation)",
+            "s": "스코틀랜드"
+        },
+        {
+            "Rep": false,
+            "o": "화학자",
+            "p": "직업(occupation)",
+            "s": "제임스_클러크_맥스웰"
+        },
+        {
+            "Rep": false,
+            "o": "베르너_폰_브라운",
+            "p": "~로알려진(knownFor)",
+            "s": "루트비히_볼츠만"
+        },
+        {
+            "Rep": false,
+            "o": "화학자",
+            "p": "직업(occupation)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "스코틀랜드",
+            "p": "언어(language)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "화학자",
+            "p": "직업(occupation)",
+            "s": "존_돌턴"
+        },
+        {
+            "Rep": false,
+            "o": "화학자",
+            "p": "~로알려진(knownFor)",
+            "s": "존_돌턴"
+        },
+        {
+            "Rep": false,
+            "o": "존_돌턴",
+            "p": "영향받은(influenced)",
+            "s": "화학자"
+        }
+    ]
+}

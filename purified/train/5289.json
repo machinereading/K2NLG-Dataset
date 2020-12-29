@@ -1,0 +1,137 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "구글의 제품으로는 크로뮴, 인터넷 익스플로러, 모질라 파이어폭스가 있다.",
+    "entities": {
+        "구글": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/구글"
+        },
+        "모질라_파이어폭스": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/모질라_파이어폭스"
+        },
+        "오페라": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오페라"
+        },
+        "웹_브라우저": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/웹_브라우저"
+        },
+        "인터넷_익스플로러": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인터넷_익스플로러"
+        },
+        "크로뮴": {
+            "ne_type": "MT_METAL",
+            "type": [
+                "http://dbpedia.org/ontology/ChemicalSubstance",
+                "http://dbpedia.org/ontology/ChemicalCompound"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/크로뮴"
+        }
+    },
+    "id": 5289,
+    "pid": "550-18",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "웹_브라우저",
+            "p": "장르(genre)",
+            "s": "인터넷_익스플로러"
+        },
+        {
+            "Rep": false,
+            "o": "웹_브라우저",
+            "p": "장르(genre)",
+            "s": "모질라_파이어폭스"
+        },
+        {
+            "Rep": false,
+            "o": "오페라",
+            "p": "장르(genre)",
+            "s": "인터넷_익스플로러"
+        },
+        {
+            "Rep": false,
+            "o": "오페라",
+            "p": "장르(genre)",
+            "s": "모질라_파이어폭스"
+        },
+        {
+            "Rep": true,
+            "o": "크로뮴",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": true,
+            "o": "인터넷_익스플로러",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "웹_브라우저",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "크로뮴",
+            "p": "제품(product)",
+            "s": "오페라"
+        },
+        {
+            "Rep": true,
+            "o": "모질라_파이어폭스",
+            "p": "제품(product)",
+            "s": "구글"
+        }
+    ]
+}

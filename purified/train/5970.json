@@ -1,0 +1,154 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "교사 허정은 서울특별시에서 사망했다.",
+    "entities": {
+        "교사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교사"
+        },
+        "대구광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대구광역시"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "초등학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/초등학교"
+        },
+        "허정": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/허정"
+        }
+    },
+    "id": 5970,
+    "pid": "831-132",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "사망지(deathPlace)",
+            "s": "허정"
+        },
+        {
+            "Rep": false,
+            "o": "초등학교",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "교사",
+            "p": "직업(occupation)",
+            "s": "허정"
+        },
+        {
+            "Rep": false,
+            "o": "교사",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "대구광역시",
+            "p": "도시(city)",
+            "s": "초등학교"
+        },
+        {
+            "Rep": false,
+            "o": "초등학교",
+            "p": "부분(part)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "교사",
+            "p": "직업(occupation)",
+            "s": "초등학교"
+        },
+        {
+            "Rep": false,
+            "o": "교사",
+            "p": "직업(occupation)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "지역/분양(region)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "교사",
+            "p": "부분(part)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "출생지(birthPlace)",
+            "s": "교사"
+        }
+    ]
+}

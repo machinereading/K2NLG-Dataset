@@ -1,0 +1,86 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "장쩌민의 전임자는 양상쿤이다. 양상쿤의 후임은 장쩌민이다. 양상쿤은 1989년 톈안먼 사건의 지휘관이다.",
+    "entities": {
+        "1989년_톈안먼_사건": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/1989년_톈안먼_사건"
+        },
+        "양상쿤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/양상쿤"
+        },
+        "장쩌민": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장쩌민"
+        }
+    },
+    "id": 5046,
+    "pid": "515-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "양상쿤",
+            "p": "전임자(predecessor)",
+            "s": "장쩌민"
+        },
+        {
+            "Rep": true,
+            "o": "양상쿤",
+            "p": "지휘관(commander)",
+            "s": "1989년_톈안먼_사건"
+        },
+        {
+            "Rep": true,
+            "o": "장쩌민",
+            "p": "계승자/후임(successor)",
+            "s": "양상쿤"
+        },
+        {
+            "Rep": false,
+            "o": "1989년_톈안먼_사건",
+            "p": "전투(battle)",
+            "s": "장쩌민"
+        }
+    ]
+}

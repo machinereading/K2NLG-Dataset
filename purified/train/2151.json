@@ -1,0 +1,78 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "모리스 르네 프레셰는 프랑스의 지도자다. 그의 국적은 프랑스다.",
+    "entities": {
+        "모리스_르네_프레셰": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/모리스_르네_프레셰"
+        },
+        "알프레트_타르스키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알프레트_타르스키"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 2151,
+    "pid": "371-20",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "모리스_르네_프레셰",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "프랑스",
+            "p": "국적(nationality)",
+            "s": "모리스_르네_프레셰"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국적(nationality)",
+            "s": "알프레트_타르스키"
+        }
+    ]
+}

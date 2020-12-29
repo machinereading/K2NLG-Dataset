@@ -1,0 +1,127 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "호남선의 소유자는 한국철도시설공단이다. 경부선이 있는 국가는 대한민국이다. 경춘선이 있는 국가는 대한민국이다. ",
+    "entities": {
+        "경부선": {
+            "ne_type": "AF_ROAD",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/RailwayLine"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경부선"
+        },
+        "경춘선": {
+            "ne_type": "AF_ROAD",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/RailwayLine"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경춘선"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "대한민국_철도청": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_철도청"
+        },
+        "한국철도공사": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국철도공사"
+        },
+        "한국철도시설공단": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국철도시설공단"
+        },
+        "호남선": {
+            "ne_type": "AF_ROAD",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/RailwayLine"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/호남선"
+        }
+    },
+    "id": 794,
+    "pid": "280-111",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "한국철도공사",
+            "p": "계승자/후임(successor)",
+            "s": "대한민국_철도청"
+        },
+        {
+            "Rep": true,
+            "o": "한국철도시설공단",
+            "p": "소유자/주주(owner)",
+            "s": "호남선"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "경부선"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "경춘선"
+        }
+    ]
+}

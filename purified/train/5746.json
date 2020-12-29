@@ -1,0 +1,98 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김기중은 김경중의 부모이다. 김경중의 자식은 김연수이다.",
+    "entities": {
+        "공주시": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공주시"
+        },
+        "김경중": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김경중_(1863년)"
+        },
+        "김기중": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김기중"
+        },
+        "김연수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김연수_(국악인)"
+        },
+        "김재수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김재수"
+        }
+    },
+    "id": 5746,
+    "pid": "800-16",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김연수",
+            "p": "자식(child)",
+            "s": "김경중"
+        },
+        {
+            "Rep": false,
+            "o": "김재수",
+            "p": "자식(child)",
+            "s": "김기중"
+        },
+        {
+            "Rep": true,
+            "o": "김기중",
+            "p": "부모(parent)",
+            "s": "김경중"
+        },
+        {
+            "Rep": false,
+            "o": "공주시",
+            "p": "출생지(birthPlace)",
+            "s": "김재수"
+        }
+    ]
+}

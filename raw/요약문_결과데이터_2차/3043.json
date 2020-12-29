@@ -1,0 +1,143 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "평양직할시는 남포특별시의 한 부분이다. 평양직할시에는 신의주시가 있다.",
+    "entities": {
+        "남포특별시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남포특별시"
+        },
+        "신의주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신의주시"
+        },
+        "평남선": {
+            "ne_type": "AF_ROAD",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/RailwayLine"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평남선"
+        },
+        "평양직할시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평양직할시"
+        },
+        "평의선": {
+            "ne_type": "AF_ROAD",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/RailwayLine"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평의선"
+        }
+    },
+    "id": 3043,
+    "pid": "688-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "남포특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "평양직할시"
+        },
+        {
+            "Rep": true,
+            "o": "신의주시",
+            "p": "부분(part)",
+            "s": "평양직할시"
+        },
+        {
+            "Rep": false,
+            "o": "남포특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "신의주시"
+        },
+        {
+            "Rep": false,
+            "o": "신의주시",
+            "p": "부분(part)",
+            "s": "남포특별시"
+        },
+        {
+            "Rep": false,
+            "o": "평의선",
+            "p": "타입/종류(type)",
+            "s": "평남선"
+        },
+        {
+            "Rep": false,
+            "o": "평양직할시",
+            "p": "~의부분(isPartOf)",
+            "s": "신의주시"
+        },
+        {
+            "Rep": false,
+            "o": "평남선",
+            "p": "부분(part)",
+            "s": "평양직할시"
+        },
+        {
+            "Rep": false,
+            "o": "평양직할시",
+            "p": "~의부분(isPartOf)",
+            "s": "남포특별시"
+        },
+        {
+            "Rep": false,
+            "o": "남포특별시",
+            "p": "부분(part)",
+            "s": "평양직할시"
+        }
+    ]
+}

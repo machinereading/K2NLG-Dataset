@@ -1,0 +1,82 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김준엽은 민필호, 신규식, 신준호와 친척관계다.",
+    "entities": {
+        "김준엽": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김준엽"
+        },
+        "민필호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민필호"
+        },
+        "신규식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신규식"
+        },
+        "신준호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신준호"
+        }
+    },
+    "id": 5247,
+    "pid": "541-35",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "민필호",
+            "p": "친척(relative)",
+            "s": "김준엽"
+        },
+        {
+            "Rep": true,
+            "o": "신규식",
+            "p": "친척(relative)",
+            "s": "김준엽"
+        },
+        {
+            "Rep": true,
+            "o": "신준호",
+            "p": "친척(relative)",
+            "s": "김준엽"
+        }
+    ]
+}

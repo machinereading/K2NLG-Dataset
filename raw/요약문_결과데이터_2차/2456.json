@@ -1,0 +1,88 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "프리드리히 에베르트의 정당은 독일 사회민주당이다. 신성 로마 제국을 이끈 사람은 프리드리히 에베르트다. 프리드리히 에베르트의 정당은 스프라타쿠스단이다. ",
+    "entities": {
+        "독일_사회민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일_사회민주당"
+        },
+        "스파르타쿠스단": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스파르타쿠스단"
+        },
+        "신성_로마_제국": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신성_로마_제국"
+        },
+        "프리드리히_에베르트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프리드리히_에베르트"
+        }
+    },
+    "id": 2456,
+    "pid": "486-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "독일_사회민주당",
+            "p": "정당(party)",
+            "s": "프리드리히_에베르트"
+        },
+        {
+            "Rep": true,
+            "o": "프리드리히_에베르트",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": true,
+            "o": "스파르타쿠스단",
+            "p": "정당(party)",
+            "s": "프리드리히_에베르트"
+        }
+    ]
+}

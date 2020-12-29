@@ -1,0 +1,134 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "윤보선의 후임 박정희의 국적은 대한민국이다. 그는 대한민국의 지도자이다. 정치가 윤치영은 윤보선의 친척이다. 그의 국가는 대한민국이다.",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "윤치영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치영"
+        },
+        "정치가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정치가"
+        }
+    },
+    "id": 5175,
+    "pid": "541-180",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국적(nationality)",
+            "s": "박정희"
+        },
+        {
+            "Rep": true,
+            "o": "박정희",
+            "p": "계승자/후임(successor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "친척(relative)",
+            "s": "윤치영"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "정치가",
+            "p": "직업(occupation)",
+            "s": "윤치영"
+        },
+        {
+            "Rep": true,
+            "o": "박정희",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "윤치영",
+            "p": "친척(relative)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "정치가",
+            "p": "직함/포지션(position)",
+            "s": "윤치영"
+        },
+        {
+            "Rep": false,
+            "o": "윤치영",
+            "p": "지도자(leader)",
+            "s": "정치가"
+        }
+    ]
+}

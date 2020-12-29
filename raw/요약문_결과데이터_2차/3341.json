@@ -1,0 +1,68 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "청양군은 충청남도 안에 있다. 청양군은 충청남도에 속한다.",
+    "entities": {
+        "청양군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청양군"
+        },
+        "충청남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/충청남도"
+        }
+    },
+    "id": 3341,
+    "pid": "825-28",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "청양군",
+            "p": "부분(part)",
+            "s": "충청남도"
+        },
+        {
+            "Rep": true,
+            "o": "충청남도",
+            "p": "~의부분(isPartOf)",
+            "s": "청양군"
+        },
+        {
+            "Rep": false,
+            "o": "청양군",
+            "p": "~의부분(isPartOf)",
+            "s": "충청남도"
+        }
+    ]
+}

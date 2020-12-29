@@ -1,0 +1,132 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "윤보선은 게이오기주쿠 대학 출신으로 직업은 배우다. ",
+    "entities": {
+        "게이오기주쿠_대학": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/게이오기주쿠_대학"
+        },
+        "도쿄": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿄"
+        },
+        "배우": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/배우"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        }
+    },
+    "id": 2650,
+    "pid": "541-18",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "도쿄",
+            "p": "수도(capital)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "도쿄",
+            "p": "도시(city)",
+            "s": "게이오기주쿠_대학"
+        },
+        {
+            "Rep": true,
+            "o": "게이오기주쿠_대학",
+            "p": "학력(education)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "게이오기주쿠_대학"
+        },
+        {
+            "Rep": false,
+            "o": "도쿄",
+            "p": "사망지(deathPlace)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "배우자(spouse)",
+            "s": "배우"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "도쿄"
+        }
+    ]
+}

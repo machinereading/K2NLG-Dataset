@@ -1,0 +1,143 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "안노 히데아키의 작품 중 신세기 에반게리온이 유명하다. 그의 작품 중 신비한 바다의 나디아가 대표작이다.",
+    "entities": {
+        "다큐멘터리_영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다큐멘터리_영화"
+        },
+        "디자이너": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/디자이너"
+        },
+        "비행사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비행사"
+        },
+        "사다모토_요시유키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사다모토_요시유키"
+        },
+        "신비한_바다의_나디아": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신비한_바다의_나디아"
+        },
+        "신세기_에반게리온": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신세기_에반게리온"
+        },
+        "안노_히데아키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안노_히데아키"
+        },
+        "텔레비전": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/텔레비전"
+        }
+    },
+    "id": 668,
+    "pid": "226-39",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "신세기_에반게리온",
+            "p": "유명한작품(notableWork)",
+            "s": "안노_히데아키"
+        },
+        {
+            "Rep": true,
+            "o": "신비한_바다의_나디아",
+            "p": "유명한작품(notableWork)",
+            "s": "안노_히데아키"
+        },
+        {
+            "Rep": false,
+            "o": "디자이너",
+            "p": "직업(occupation)",
+            "s": "사다모토_요시유키"
+        },
+        {
+            "Rep": false,
+            "o": "디자이너",
+            "p": "직업(occupation)",
+            "s": "비행사"
+        },
+        {
+            "Rep": false,
+            "o": "디자이너",
+            "p": "직업(occupation)",
+            "s": "신세기_에반게리온"
+        },
+        {
+            "Rep": false,
+            "o": "다큐멘터리_영화",
+            "p": "장르(genre)",
+            "s": "신세기_에반게리온"
+        },
+        {
+            "Rep": false,
+            "o": "디자이너",
+            "p": "직업(occupation)",
+            "s": "텔레비전"
+        }
+    ]
+}

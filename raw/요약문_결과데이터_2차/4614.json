@@ -1,0 +1,139 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "세인트루이스는 미국의 도시다.",
+    "entities": {
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "빵": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빵"
+        },
+        "샌드위치": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/샌드위치"
+        },
+        "세인트루이스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/세인트루이스"
+        },
+        "함부르크": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/함부르크"
+        },
+        "햄버거": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/햄버거"
+        },
+        "햄버그_스테이크": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/햄버그_스테이크"
+        }
+    },
+    "id": 4614,
+    "pid": "322-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "세인트루이스"
+        },
+        {
+            "Rep": false,
+            "o": "샌드위치",
+            "p": "타입/종류(type)",
+            "s": "빵"
+        },
+        {
+            "Rep": false,
+            "o": "빵",
+            "p": "타입/종류(type)",
+            "s": "샌드위치"
+        },
+        {
+            "Rep": false,
+            "o": "샌드위치",
+            "p": "타입/종류(type)",
+            "s": "햄버거"
+        },
+        {
+            "Rep": false,
+            "o": "빵",
+            "p": "타입/종류(type)",
+            "s": "햄버거"
+        },
+        {
+            "Rep": false,
+            "o": "햄버거",
+            "p": "타입/종류(type)",
+            "s": "햄버그_스테이크"
+        },
+        {
+            "Rep": false,
+            "o": "햄버거",
+            "p": "타입/종류(type)",
+            "s": "샌드위치"
+        },
+        {
+            "Rep": false,
+            "o": "함부르크",
+            "p": "가장큰도시(largestCity)",
+            "s": "세인트루이스"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "한국민주당의 지도자는 송진우이다. 송진우의 뒤는 김성수가 이어갔다. ",
+    "entities": {
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "김준연": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김준연"
+        },
+        "송진우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송진우_(정치인)"
+        },
+        "장택상": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장택상"
+        },
+        "조병옥": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조병옥"
+        },
+        "한국민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국민주당"
+        }
+    },
+    "id": 3465,
+    "pid": "831-31",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "송진우",
+            "p": "지도자(leader)",
+            "s": "한국민주당"
+        },
+        {
+            "Rep": false,
+            "o": "조병옥",
+            "p": "계승자/후임(successor)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "송진우",
+            "p": "전임자(predecessor)",
+            "s": "장택상"
+        },
+        {
+            "Rep": true,
+            "o": "김성수",
+            "p": "계승자/후임(successor)",
+            "s": "송진우"
+        },
+        {
+            "Rep": false,
+            "o": "한국민주당",
+            "p": "정당(party)",
+            "s": "송진우"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "계승자/후임(successor)",
+            "s": "김준연"
+        },
+        {
+            "Rep": false,
+            "o": "김준연",
+            "p": "전임자(predecessor)",
+            "s": "장택상"
+        },
+        {
+            "Rep": false,
+            "o": "김준연",
+            "p": "계승자/후임(successor)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "장택상",
+            "p": "계승자/후임(successor)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "송진우",
+            "p": "전임자(predecessor)",
+            "s": "조병옥"
+        }
+    ]
+}

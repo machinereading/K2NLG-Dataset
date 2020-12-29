@@ -1,0 +1,80 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "뫼즈 강이 있는 그리스는 그리어슬 사용한다.",
+    "entities": {
+        "그리스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/그리스"
+        },
+        "그리스어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/그리스어"
+        },
+        "뫼즈_강": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/River",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뫼즈_강"
+        }
+    },
+    "id": 5400,
+    "pid": "633-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "그리스어",
+            "p": "언어(language)",
+            "s": "뫼즈_강"
+        },
+        {
+            "Rep": true,
+            "o": "그리스어",
+            "p": "언어(language)",
+            "s": "그리스"
+        },
+        {
+            "Rep": true,
+            "o": "그리스",
+            "p": "국가(country)",
+            "s": "뫼즈_강"
+        }
+    ]
+}

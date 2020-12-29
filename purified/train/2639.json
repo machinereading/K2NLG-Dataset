@@ -1,0 +1,162 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "윤보선 대통령의 후임인 박정희 대통령은 미국의 지도자이다. ",
+    "entities": {
+        "김용식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김용식_(1913년)"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        },
+        "유엔": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유엔"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "장도영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장도영"
+        }
+    },
+    "id": 2639,
+    "pid": "541-156",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "박정희",
+            "p": "계승자/후임(successor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "김용식",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "전임자(predecessor)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "장도영",
+            "p": "전임자(predecessor)",
+            "s": "김용식"
+        },
+        {
+            "Rep": false,
+            "o": "장도영",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": true,
+            "o": "박정희",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "유엔",
+            "p": "국가(country)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "장도영",
+            "p": "전임자(predecessor)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "장도영",
+            "p": "전임자(predecessor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "전임자(predecessor)",
+            "s": "윤보선"
+        }
+    ]
+}

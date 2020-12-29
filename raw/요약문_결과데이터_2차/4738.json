@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "보컬로이드의 장르는 온라인 게임이다. 하녀의 장르는 연애 시뮬레이션 게임이다.",
+    "entities": {
+        "보컬로이드": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보컬로이드"
+        },
+        "연애_시뮬레이션_게임": {
+            "ne_type": "TMIG_GENRE",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/연애_시뮬레이션_게임"
+        },
+        "온라인_게임": {
+            "ne_type": "TMIG_GENRE",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/온라인_게임"
+        },
+        "코스프레": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/코스프레"
+        },
+        "하녀": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하녀"
+        }
+    },
+    "id": 4738,
+    "pid": "391-17",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "온라인_게임",
+            "p": "장르(genre)",
+            "s": "하녀"
+        },
+        {
+            "Rep": false,
+            "o": "하녀",
+            "p": "관련되(related)",
+            "s": "코스프레"
+        },
+        {
+            "Rep": false,
+            "o": "코스프레",
+            "p": "장르(genre)",
+            "s": "하녀"
+        },
+        {
+            "Rep": true,
+            "o": "온라인_게임",
+            "p": "장르(genre)",
+            "s": "보컬로이드"
+        },
+        {
+            "Rep": true,
+            "o": "연애_시뮬레이션_게임",
+            "p": "장르(genre)",
+            "s": "하녀"
+        },
+        {
+            "Rep": false,
+            "o": "코스프레",
+            "p": "장르(genre)",
+            "s": "보컬로이드"
+        }
+    ]
+}

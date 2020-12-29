@@ -1,0 +1,165 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "파르테논 신전이 있는 국가는 그리스이다.",
+    "entities": {
+        "그리스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/그리스"
+        },
+        "만리장성": {
+            "ne_type": "AF_CULTURAL_ASSET",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만리장성"
+        },
+        "바빌론의_공중_정원": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Garden"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바빌론의_공중_정원"
+        },
+        "아스테카_문명": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아스테카_문명"
+        },
+        "이집트": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이집트"
+        },
+        "잉카_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잉카_제국"
+        },
+        "파르테논_신전": {
+            "ne_type": "AF_CULTURAL_ASSET",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/파르테논_신전"
+        }
+    },
+    "id": 2475,
+    "pid": "499-11",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "이집트",
+            "p": "국가(country)",
+            "s": "잉카_제국"
+        },
+        {
+            "Rep": false,
+            "o": "그리스",
+            "p": "국가(country)",
+            "s": "잉카_제국"
+        },
+        {
+            "Rep": false,
+            "o": "이집트",
+            "p": "국가(country)",
+            "s": "그리스"
+        },
+        {
+            "Rep": false,
+            "o": "이집트",
+            "p": "국가(country)",
+            "s": "파르테논_신전"
+        },
+        {
+            "Rep": true,
+            "o": "그리스",
+            "p": "국가(country)",
+            "s": "파르테논_신전"
+        },
+        {
+            "Rep": false,
+            "o": "이집트",
+            "p": "국가(country)",
+            "s": "만리장성"
+        },
+        {
+            "Rep": false,
+            "o": "이집트",
+            "p": "국가(country)",
+            "s": "아스테카_문명"
+        },
+        {
+            "Rep": false,
+            "o": "그리스",
+            "p": "국가(country)",
+            "s": "아스테카_문명"
+        },
+        {
+            "Rep": false,
+            "o": "그리스",
+            "p": "국가(country)",
+            "s": "만리장성"
+        },
+        {
+            "Rep": false,
+            "o": "잉카_제국",
+            "p": "국가(country)",
+            "s": "아스테카_문명"
+        },
+        {
+            "Rep": false,
+            "o": "만리장성",
+            "p": "위치/지역(location)",
+            "s": "바빌론의_공중_정원"
+        },
+        {
+            "Rep": false,
+            "o": "바빌론의_공중_정원",
+            "p": "수도(capital)",
+            "s": "이집트"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이명박의 전임자는 노무현이다. 이명박의 계승자는 박근혜다.",
+    "entities": {
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "박근혜": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박근혜"
+        },
+        "이명박": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이명박"
+        }
+    },
+    "id": 75,
+    "pid": "114-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "노무현",
+            "p": "전임자(predecessor)",
+            "s": "이명박"
+        },
+        {
+            "Rep": false,
+            "o": "이명박",
+            "p": "계승자/후임(successor)",
+            "s": "노무현"
+        },
+        {
+            "Rep": true,
+            "o": "박근혜",
+            "p": "계승자/후임(successor)",
+            "s": "이명박"
+        },
+        {
+            "Rep": false,
+            "o": "이명박",
+            "p": "전임자(predecessor)",
+            "s": "박근혜"
+        }
+    ]
+}

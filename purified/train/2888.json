@@ -1,0 +1,178 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "시드니는 오스트레일리아에 있다. 그곳은 오스트레일리아에서 가장 큰 도시이다.",
+    "entities": {
+        "노스쇼어시티": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노스쇼어시티"
+        },
+        "뉴질랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뉴질랜드"
+        },
+        "시드니": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시드니"
+        },
+        "에핑": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에핑"
+        },
+        "오스트레일리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트레일리아"
+        },
+        "오클랜드": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오클랜드_(뉴질랜드)"
+        },
+        "코리아타운": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/코리아타운"
+        }
+    },
+    "id": 2888,
+    "pid": "642-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "오스트레일리아",
+            "p": "국가(country)",
+            "s": "시드니"
+        },
+        {
+            "Rep": false,
+            "o": "오스트레일리아",
+            "p": "국가(country)",
+            "s": "에핑"
+        },
+        {
+            "Rep": false,
+            "o": "오클랜드",
+            "p": "가장큰도시(largestCity)",
+            "s": "뉴질랜드"
+        },
+        {
+            "Rep": false,
+            "o": "뉴질랜드",
+            "p": "국가(country)",
+            "s": "오클랜드"
+        },
+        {
+            "Rep": true,
+            "o": "시드니",
+            "p": "가장큰도시(largestCity)",
+            "s": "오스트레일리아"
+        },
+        {
+            "Rep": false,
+            "o": "코리아타운",
+            "p": "~의부분(isPartOf)",
+            "s": "에핑"
+        },
+        {
+            "Rep": false,
+            "o": "노스쇼어시티",
+            "p": "가장큰도시(largestCity)",
+            "s": "뉴질랜드"
+        },
+        {
+            "Rep": false,
+            "o": "뉴질랜드",
+            "p": "국가(country)",
+            "s": "노스쇼어시티"
+        },
+        {
+            "Rep": false,
+            "o": "코리아타운",
+            "p": "~의부분(isPartOf)",
+            "s": "시드니"
+        },
+        {
+            "Rep": false,
+            "o": "에핑",
+            "p": "가장큰도시(largestCity)",
+            "s": "오스트레일리아"
+        },
+        {
+            "Rep": false,
+            "o": "오클랜드",
+            "p": "~의부분(isPartOf)",
+            "s": "노스쇼어시티"
+        },
+        {
+            "Rep": false,
+            "o": "노스쇼어시티",
+            "p": "가장큰도시(largestCity)",
+            "s": "오클랜드"
+        },
+        {
+            "Rep": false,
+            "o": "시드니",
+            "p": "~의부분(isPartOf)",
+            "s": "에핑"
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "미키 다케오가 있는 정당은 자유민주당이다. 그의 전임자는 다나카 가쿠에이다. 시나 에쓰사부로가 있는 정당은 자유민주당이다. 그의 후임자는 미키 다케오다.",
+    "entities": {
+        "다나카_가쿠에이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다나카_가쿠에이"
+        },
+        "미키_다케오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미키_다케오"
+        },
+        "시나_에쓰사부로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시나_에쓰사부로"
+        },
+        "신임": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신임"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "자유민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유민주당_(일본)"
+        },
+        "참의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Legislature",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/참의원_(일본)"
+        }
+    },
+    "id": 3153,
+    "pid": "752-21",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "미키_다케오"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "다나카_가쿠에이"
+        },
+        {
+            "Rep": true,
+            "o": "다나카_가쿠에이",
+            "p": "전임자(predecessor)",
+            "s": "미키_다케오"
+        },
+        {
+            "Rep": false,
+            "o": "참의원",
+            "p": "직함/포지션(position)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "신임"
+        },
+        {
+            "Rep": true,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "시나_에쓰사부로"
+        },
+        {
+            "Rep": false,
+            "o": "미키_다케오",
+            "p": "전임자(predecessor)",
+            "s": "다나카_가쿠에이"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "참의원"
+        },
+        {
+            "Rep": false,
+            "o": "미키_다케오",
+            "p": "계승자/후임(successor)",
+            "s": "다나카_가쿠에이"
+        },
+        {
+            "Rep": false,
+            "o": "신임",
+            "p": "직함/포지션(position)",
+            "s": "미키_다케오"
+        },
+        {
+            "Rep": true,
+            "o": "미키_다케오",
+            "p": "계승자/후임(successor)",
+            "s": "시나_에쓰사부로"
+        },
+        {
+            "Rep": false,
+            "o": "신임",
+            "p": "직함/포지션(position)",
+            "s": "다나카_가쿠에이"
+        },
+        {
+            "Rep": false,
+            "o": "시나_에쓰사부로",
+            "p": "계승자/후임(successor)",
+            "s": "다나카_가쿠에이"
+        }
+    ]
+}

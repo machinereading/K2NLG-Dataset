@@ -1,0 +1,96 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "KBO리그에는 현대 유니콘스에 소속되어 있다. KBO 리그에는 롯데 자이언츠도 소속되어 있다.",
+    "entities": {
+        "KBO_리그": {
+            "ne_type": "EV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/BaseballLeague",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SportsLeague"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/KBO_리그"
+        },
+        "넥센_히어로즈": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/넥센_히어로즈"
+        },
+        "롯데_자이언츠": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/롯데_자이언츠"
+        },
+        "현대_유니콘스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현대_유니콘스"
+        }
+    },
+    "id": 634,
+    "pid": "200-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "롯데_자이언츠",
+            "p": "팀(team)",
+            "s": "KBO_리그"
+        },
+        {
+            "Rep": false,
+            "o": "넥센_히어로즈",
+            "p": "팀(team)",
+            "s": "KBO_리그"
+        },
+        {
+            "Rep": true,
+            "o": "KBO_리그",
+            "p": "기원/소속(affiliation)",
+            "s": "현대_유니콘스"
+        },
+        {
+            "Rep": true,
+            "o": "KBO_리그",
+            "p": "기원/소속(affiliation)",
+            "s": "롯데_자이언츠"
+        }
+    ]
+}

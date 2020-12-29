@@ -1,0 +1,76 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "올혼 섬의 국가는 몽골 제국이다.",
+    "entities": {
+        "몽골_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몽골_제국"
+        },
+        "올혼_섬": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/올혼_섬"
+        },
+        "튀르크어족": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/튀르크어족"
+        }
+    },
+    "id": 5308,
+    "pid": "578-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "몽골_제국",
+            "p": "국가(country)",
+            "s": "올혼_섬"
+        },
+        {
+            "Rep": false,
+            "o": "올혼_섬",
+            "p": "지역/분양(region)",
+            "s": "튀르크어족"
+        },
+        {
+            "Rep": false,
+            "o": "튀르크어족",
+            "p": "타입/종류(type)",
+            "s": "올혼_섬"
+        }
+    ]
+}

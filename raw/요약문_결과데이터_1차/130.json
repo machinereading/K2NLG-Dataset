@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "아랍어는 산스크리트어의 계통이다. 라틴어 또한 산스크리트어 계통의 언어이다. 그로 인해 라틴어는 아랍어 계열이라고 볼 수 있다. 더불어 아랍어 역시 라틴어 계열의 언어로 볼 수 있다. 결과적으로 산스크리트어는 라틴어 계통의 언어이다. 또한 산스크리트어는 아랍어 계통의 언어라고 봐도 무방하다.",
+    "entities": {
+        "라틴어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라틴어"
+        },
+        "산스크리트어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/산스크리트어"
+        },
+        "아랍어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아랍어"
+        }
+    },
+    "id": 130,
+    "pid": "145-28",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "산스크리트어",
+            "p": "계통(languageFamily)",
+            "s": "아랍어"
+        },
+        {
+            "Rep": true,
+            "o": "산스크리트어",
+            "p": "계통(languageFamily)",
+            "s": "라틴어"
+        },
+        {
+            "Rep": true,
+            "o": "아랍어",
+            "p": "계통(languageFamily)",
+            "s": "라틴어"
+        },
+        {
+            "Rep": true,
+            "o": "라틴어",
+            "p": "계통(languageFamily)",
+            "s": "아랍어"
+        },
+        {
+            "Rep": true,
+            "o": "라틴어",
+            "p": "계통(languageFamily)",
+            "s": "산스크리트어"
+        },
+        {
+            "Rep": true,
+            "o": "아랍어",
+            "p": "계통(languageFamily)",
+            "s": "산스크리트어"
+        }
+    ]
+}

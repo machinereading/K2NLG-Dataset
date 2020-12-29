@@ -1,0 +1,79 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "샤를 드 발루아 백작의 직함은 백작이다. 백작은 피렌체에서 사망했다.",
+    "entities": {
+        "백작": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백작"
+        },
+        "샤를_드_발루아_백작": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/샤를_드_발루아_백작"
+        },
+        "피렌체": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피렌체"
+        }
+    },
+    "id": 1196,
+    "pid": "17-14",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "샤를_드_발루아_백작",
+            "p": "직함/포지션(position)",
+            "s": "백작"
+        },
+        {
+            "Rep": true,
+            "o": "백작",
+            "p": "직함/포지션(position)",
+            "s": "샤를_드_발루아_백작"
+        },
+        {
+            "Rep": true,
+            "o": "피렌체",
+            "p": "사망지(deathPlace)",
+            "s": "백작"
+        }
+    ]
+}

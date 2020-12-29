@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김영삼은 대한민국 국방부 소속이다. 그는 대한민국 국회 소속이다. 대한민국 국회의 지도자는 노무현이다.",
+    "entities": {
+        "김영삼": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김영삼"
+        },
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "대한민국_국방부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국방부"
+        },
+        "대한민국_국회": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Legislature"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국회"
+        }
+    },
+    "id": 1068,
+    "pid": "114-184",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국_국방부",
+            "p": "직함/포지션(position)",
+            "s": "김영삼"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_국회",
+            "p": "직함/포지션(position)",
+            "s": "김영삼"
+        },
+        {
+            "Rep": true,
+            "o": "노무현",
+            "p": "지도자(leader)",
+            "s": "대한민국_국회"
+        }
+    ]
+}

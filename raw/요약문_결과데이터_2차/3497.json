@@ -1,0 +1,166 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "이범석은 대한민국에서 사망했다. 그의 국가는 대한민국이다. 그의 뒤는 장면 국무총리가 이어갔다.",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "대한민국_경찰청": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_경찰청"
+        },
+        "부산광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산광역시"
+        },
+        "유엔_총회": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유엔_총회"
+        },
+        "이범석": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이범석_(1900년)"
+        },
+        "장면": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장면"
+        },
+        "조선공산당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선공산당"
+        }
+    },
+    "id": 3497,
+    "pid": "833-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "사망지(deathPlace)",
+            "s": "이범석"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "이범석"
+        },
+        {
+            "Rep": false,
+            "o": "이범석",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "이범석",
+            "p": "리더이름(leaderName)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "장면",
+            "p": "리더이름(leaderName)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "장면",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "부산광역시",
+            "p": "수도(capital)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_경찰청",
+            "p": "직함/포지션(position)",
+            "s": "조선공산당"
+        },
+        {
+            "Rep": false,
+            "o": "유엔_총회",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": true,
+            "o": "장면",
+            "p": "계승자/후임(successor)",
+            "s": "이범석"
+        }
+    ]
+}

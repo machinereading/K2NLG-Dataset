@@ -1,0 +1,155 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "칠곡군은 대구광역시에 속한다. 석적읍은 칠곡군에 속한다. 석적읍은 구미시에 속한다. ",
+    "entities": {
+        "구미시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/구미시"
+        },
+        "대구광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대구광역시"
+        },
+        "석적읍": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/석적읍"
+        },
+        "칠곡군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/칠곡군"
+        }
+    },
+    "id": 5494,
+    "pid": "654-12",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "구미시",
+            "p": "~의부분(isPartOf)",
+            "s": "칠곡군"
+        },
+        {
+            "Rep": true,
+            "o": "대구광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "칠곡군"
+        },
+        {
+            "Rep": false,
+            "o": "석적읍",
+            "p": "~의부분(isPartOf)",
+            "s": "칠곡군"
+        },
+        {
+            "Rep": true,
+            "o": "칠곡군",
+            "p": "~의부분(isPartOf)",
+            "s": "석적읍"
+        },
+        {
+            "Rep": false,
+            "o": "구미시",
+            "p": "~의부분(isPartOf)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "칠곡군",
+            "p": "~의부분(isPartOf)",
+            "s": "구미시"
+        },
+        {
+            "Rep": false,
+            "o": "칠곡군",
+            "p": "~의부분(isPartOf)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "대구광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "구미시"
+        },
+        {
+            "Rep": false,
+            "o": "구미시",
+            "p": "지역/분양(region)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "석적읍",
+            "p": "~의부분(isPartOf)",
+            "s": "구미시"
+        },
+        {
+            "Rep": true,
+            "o": "구미시",
+            "p": "~의부분(isPartOf)",
+            "s": "석적읍"
+        },
+        {
+            "Rep": false,
+            "o": "대구광역시",
+            "p": "지역/분양(region)",
+            "s": "구미시"
+        },
+        {
+            "Rep": false,
+            "o": "구미시",
+            "p": "지역/분양(region)",
+            "s": "석적읍"
+        },
+        {
+            "Rep": false,
+            "o": "석적읍",
+            "p": "~의부분(isPartOf)",
+            "s": "대구광역시"
+        }
+    ]
+}

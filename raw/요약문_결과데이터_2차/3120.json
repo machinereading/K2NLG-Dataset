@@ -1,0 +1,75 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "마이크로소프트는 팜 OS를 개발한 개발사다. 그들의 제품은 비행사다.",
+    "entities": {
+        "마이크로소프트": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마이크로소프트"
+        },
+        "비행사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비행사"
+        },
+        "팜_OS": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Software",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팜_OS"
+        }
+    },
+    "id": 3120,
+    "pid": "731-42",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "비행사",
+            "p": "제품(product)",
+            "s": "마이크로소프트"
+        },
+        {
+            "Rep": false,
+            "o": "팜_OS",
+            "p": "제품(product)",
+            "s": "비행사"
+        },
+        {
+            "Rep": true,
+            "o": "마이크로소프트",
+            "p": "개발자/개발사(developer)",
+            "s": "팜_OS"
+        }
+    ]
+}

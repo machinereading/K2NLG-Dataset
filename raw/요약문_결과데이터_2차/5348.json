@@ -1,0 +1,146 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "우크라이나 소비에트 사회주의 공화국의 수도는 키예프이다.",
+    "entities": {
+        "러시아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아"
+        },
+        "러시아_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아_제국"
+        },
+        "리투아니아_대공국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리투아니아_대공국"
+        },
+        "우크라이나_소비에트_사회주의_공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우크라이나_소비에트_사회주의_공화국"
+        },
+        "키예프": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/키예프"
+        },
+        "폴란드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/폴란드"
+        },
+        "하르키우": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하르키우"
+        }
+    },
+    "id": 5348,
+    "pid": "604-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "키예프",
+            "p": "수도(capital)",
+            "s": "우크라이나_소비에트_사회주의_공화국"
+        },
+        {
+            "Rep": false,
+            "o": "하르키우",
+            "p": "수도(capital)",
+            "s": "우크라이나_소비에트_사회주의_공화국"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "폴란드"
+        },
+        {
+            "Rep": false,
+            "o": "하르키우",
+            "p": "수도(capital)",
+            "s": "키예프"
+        },
+        {
+            "Rep": false,
+            "o": "러시아_제국",
+            "p": "국가(country)",
+            "s": "폴란드"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "리투아니아_대공국"
+        },
+        {
+            "Rep": false,
+            "o": "러시아_제국",
+            "p": "국가(country)",
+            "s": "리투아니아_대공국"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "러시아_제국"
+        }
+    ]
+}

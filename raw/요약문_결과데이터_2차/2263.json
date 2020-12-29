@@ -1,0 +1,128 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 1,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "이만수의 팀은 삼성 라이온즈다. 그의 팀은 두산 베어스다. ",
+    "entities": {
+        "SK_와이번스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/SK_와이번스"
+        },
+        "두산_베어스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/두산_베어스"
+        },
+        "삼성_라이온즈": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/삼성_라이온즈"
+        },
+        "이만수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/BaseballPlayer"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이만수"
+        },
+        "프로_야구": {
+            "ne_type": "CV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Activity",
+                "http://dbpedia.org/ontology/Sport"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프로_야구"
+        }
+    },
+    "id": 2263,
+    "pid": "423-23",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "삼성_라이온즈",
+            "p": "팀(team)",
+            "s": "이만수"
+        },
+        {
+            "Rep": false,
+            "o": "프로_야구",
+            "p": "기원/소속(affiliation)",
+            "s": "SK_와이번스"
+        },
+        {
+            "Rep": false,
+            "o": "프로_야구",
+            "p": "기원/소속(affiliation)",
+            "s": "두산_베어스"
+        },
+        {
+            "Rep": false,
+            "o": "두산_베어스",
+            "p": "팀(team)",
+            "s": "프로_야구"
+        },
+        {
+            "Rep": false,
+            "o": "SK_와이번스",
+            "p": "팀(team)",
+            "s": "프로_야구"
+        },
+        {
+            "Rep": false,
+            "o": "SK_와이번스",
+            "p": "팀(team)",
+            "s": "이만수"
+        },
+        {
+            "Rep": false,
+            "o": "SK_와이번스",
+            "p": "팀(team)",
+            "s": "두산_베어스"
+        },
+        {
+            "Rep": true,
+            "o": "두산_베어스",
+            "p": "팀(team)",
+            "s": "이만수"
+        }
+    ]
+}

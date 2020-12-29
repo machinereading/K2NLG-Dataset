@@ -1,0 +1,198 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "진 이세황제는 진나라의 지도자다. 왕망은 신나라의 지도자다. 왕망은 진나라의 지도자다. 왕망은 후한의 지도자다. 왕망은 전한의 지도자다. 왕망은 한나라의 지도자다. 전한 무제는 한나라의 지도자다. 진 이세황제는 초한전쟁을 지휘했다. ",
+    "entities": {
+        "신나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신나라"
+        },
+        "왕망": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/왕망"
+        },
+        "전한": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전한"
+        },
+        "전한_무제": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전한_무제"
+        },
+        "진_이세황제": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/진_이세황제"
+        },
+        "진나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/진나라"
+        },
+        "초한전쟁": {
+            "ne_type": "EV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/초한전쟁"
+        },
+        "한나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한나라"
+        },
+        "후한": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/후한"
+        }
+    },
+    "id": 181,
+    "pid": "176-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "진_이세황제",
+            "p": "리더이름(leaderName)",
+            "s": "진나라"
+        },
+        {
+            "Rep": true,
+            "o": "왕망",
+            "p": "리더이름(leaderName)",
+            "s": "신나라"
+        },
+        {
+            "Rep": true,
+            "o": "왕망",
+            "p": "리더이름(leaderName)",
+            "s": "진나라"
+        },
+        {
+            "Rep": true,
+            "o": "왕망",
+            "p": "리더이름(leaderName)",
+            "s": "후한"
+        },
+        {
+            "Rep": true,
+            "o": "왕망",
+            "p": "리더이름(leaderName)",
+            "s": "전한"
+        },
+        {
+            "Rep": false,
+            "o": "한나라",
+            "p": "국가(country)",
+            "s": "신나라"
+        },
+        {
+            "Rep": false,
+            "o": "한나라",
+            "p": "국가(country)",
+            "s": "진나라"
+        },
+        {
+            "Rep": false,
+            "o": "한나라",
+            "p": "국가(country)",
+            "s": "전한"
+        },
+        {
+            "Rep": true,
+            "o": "왕망",
+            "p": "리더이름(leaderName)",
+            "s": "한나라"
+        },
+        {
+            "Rep": false,
+            "o": "신나라",
+            "p": "국가(country)",
+            "s": "전한"
+        },
+        {
+            "Rep": true,
+            "o": "전한_무제",
+            "p": "리더이름(leaderName)",
+            "s": "한나라"
+        },
+        {
+            "Rep": true,
+            "o": "진_이세황제",
+            "p": "지휘관(commander)",
+            "s": "초한전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "전한",
+            "p": "~의부분(isPartOf)",
+            "s": "전한"
+        }
+    ]
+}

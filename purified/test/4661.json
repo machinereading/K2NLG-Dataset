@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "중국어는 일본어 계통의 언어이다. 중국어는 영어 계통의 언어이기도 하다.",
+    "entities": {
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "일본어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본어"
+        },
+        "조선일보": {
+            "ne_type": "OGG_MEDIA",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/PeriodicalLiterature",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Newspaper"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선일보"
+        },
+        "중국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국어"
+        }
+    },
+    "id": 4661,
+    "pid": "351-36",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "일본어",
+            "p": "계통(languageFamily)",
+            "s": "중국어"
+        },
+        {
+            "Rep": true,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "중국어"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "언어(language)",
+            "s": "조선일보"
+        },
+        {
+            "Rep": false,
+            "o": "중국어",
+            "p": "계통(languageFamily)",
+            "s": "일본어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "조선일보"
+        },
+        {
+            "Rep": false,
+            "o": "중국어",
+            "p": "언어(language)",
+            "s": "조선일보"
+        },
+        {
+            "Rep": false,
+            "o": "중국어",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "일본어"
+        }
+    ]
+}

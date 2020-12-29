@@ -1,0 +1,217 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "윤성효의 직업은 축구 감독이다. 수원 삼성 블루윙즈는 윤성효가 맡았던 클럽이다. ",
+    "entities": {
+        "김창수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김창수_(축구_선수)"
+        },
+        "대한민국_축구_국가대표팀": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/FootballMatch",
+                "http://dbpedia.org/ontology/SportsEvent",
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_축구_국가대표팀"
+        },
+        "박종우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박종우_(1989년)"
+        },
+        "부산광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산광역시"
+        },
+        "성남_FC": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성남_FC"
+        },
+        "수원_삼성_블루윙즈": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수원_삼성_블루윙즈"
+        },
+        "안익수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/SportsManager",
+                "http://dbpedia.org/ontology/SoccerManager",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안익수_(축구인)"
+        },
+        "윤성효": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/SportsManager",
+                "http://dbpedia.org/ontology/SoccerManager",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤성효"
+        },
+        "이범영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이범영"
+        },
+        "축구_감독": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/축구_감독"
+        }
+    },
+    "id": 5555,
+    "pid": "678-17",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "부산광역시",
+            "p": "위치/지역(location)",
+            "s": "대한민국_축구_국가대표팀"
+        },
+        {
+            "Rep": false,
+            "o": "성남_FC",
+            "p": "맡았던클럽(managerClub)",
+            "s": "안익수"
+        },
+        {
+            "Rep": true,
+            "o": "수원_삼성_블루윙즈",
+            "p": "맡았던클럽(managerClub)",
+            "s": "윤성효"
+        },
+        {
+            "Rep": false,
+            "o": "축구_감독",
+            "p": "직함/포지션(position)",
+            "s": "윤성효"
+        },
+        {
+            "Rep": false,
+            "o": "박종우",
+            "p": "리더이름(leaderName)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_축구_국가대표팀",
+            "p": "팀(team)",
+            "s": "김창수"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_축구_국가대표팀",
+            "p": "팀(team)",
+            "s": "박종우"
+        },
+        {
+            "Rep": false,
+            "o": "축구_감독",
+            "p": "직함/포지션(position)",
+            "s": "안익수"
+        },
+        {
+            "Rep": false,
+            "o": "김창수",
+            "p": "리더이름(leaderName)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_축구_국가대표팀",
+            "p": "팀(team)",
+            "s": "이범영"
+        },
+        {
+            "Rep": true,
+            "o": "축구_감독",
+            "p": "직업(occupation)",
+            "s": "윤성효"
+        },
+        {
+            "Rep": false,
+            "o": "성남_FC",
+            "p": "맡았던클럽(managerClub)",
+            "s": "윤성효"
+        },
+        {
+            "Rep": false,
+            "o": "수원_삼성_블루윙즈",
+            "p": "맡았던클럽(managerClub)",
+            "s": "안익수"
+        }
+    ]
+}

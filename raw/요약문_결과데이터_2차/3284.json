@@ -1,0 +1,78 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "신돈의 부모는 신원경이다. 경상도를 이끈 사람은 신원경이다.",
+    "entities": {
+        "경상도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상도"
+        },
+        "신돈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신돈"
+        },
+        "신원경": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신원경"
+        }
+    },
+    "id": 3284,
+    "pid": "807-5",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "신돈",
+            "p": "자식(child)",
+            "s": "신원경"
+        },
+        {
+            "Rep": true,
+            "o": "신원경",
+            "p": "부모(parent)",
+            "s": "신돈"
+        },
+        {
+            "Rep": true,
+            "o": "신원경",
+            "p": "리더이름(leaderName)",
+            "s": "경상도"
+        }
+    ]
+}

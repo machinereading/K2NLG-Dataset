@@ -1,0 +1,173 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "박정희 대통령의 전임자는 윤보선 대통령이다. 윤보선이 있는 정당은 신민당이다. 김상근, 문동환의 직업은 목사다. 박기출의 직업은 기자다.",
+    "entities": {
+        "기자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기자_(직업)"
+        },
+        "김상근": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김상근"
+        },
+        "목사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/목사"
+        },
+        "문동환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/BaseballPlayer"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문동환_(야구인)"
+        },
+        "박기출": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박기출"
+        },
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        },
+        "신민당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신민당_(1967년)"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "정구영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정구영_(1894년)"
+        },
+        "지학순": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지학순"
+        }
+    },
+    "id": 5203,
+    "pid": "541-227",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "전임자(predecessor)",
+            "s": "박정희"
+        },
+        {
+            "Rep": true,
+            "o": "신민당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "목사",
+            "p": "직업(occupation)",
+            "s": "김상근"
+        },
+        {
+            "Rep": true,
+            "o": "목사",
+            "p": "직업(occupation)",
+            "s": "문동환"
+        },
+        {
+            "Rep": true,
+            "o": "기자",
+            "p": "직업(occupation)",
+            "s": "박기출"
+        },
+        {
+            "Rep": false,
+            "o": "지학순",
+            "p": "직함/포지션(position)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "친척(relative)",
+            "s": "지학순"
+        },
+        {
+            "Rep": false,
+            "o": "지학순",
+            "p": "직함/포지션(position)",
+            "s": "정구영"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "친척(relative)",
+            "s": "정구영"
+        }
+    ]
+}

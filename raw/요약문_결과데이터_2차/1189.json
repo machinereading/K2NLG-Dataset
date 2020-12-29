@@ -1,0 +1,94 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "막스 플랑크는 노벨 물리학상을 수상했다. 그는 베를린 훔볼트 대학교 출신이다.",
+    "entities": {
+        "노벨_물리학상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/Award",
+                "http://dbpedia.org/ontology/NobelPrize"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노벨_물리학상"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "막스_플랑크": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/막스_플랑크"
+        },
+        "베를린_훔볼트_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베를린_훔볼트_대학교"
+        }
+    },
+    "id": 1189,
+    "pid": "165-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "노벨_물리학상",
+            "p": "수상(award)",
+            "s": "막스_플랑크"
+        },
+        {
+            "Rep": false,
+            "o": "노벨_물리학상",
+            "p": "~로알려진(knownFor)",
+            "s": "막스_플랑크"
+        },
+        {
+            "Rep": true,
+            "o": "베를린_훔볼트_대학교",
+            "p": "학력(education)",
+            "s": "막스_플랑크"
+        },
+        {
+            "Rep": false,
+            "o": "막스_플랑크",
+            "p": "지도자(leader)",
+            "s": "독일"
+        }
+    ]
+}

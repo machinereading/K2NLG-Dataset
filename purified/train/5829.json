@@ -1,0 +1,154 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "랴오허의 국가는 일본이다. 랴오허는 시베리아 횡단 철도에 속한다.",
+    "entities": {
+        "광명중학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/광명중학교"
+        },
+        "랴오허": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/River",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/랴오허"
+        },
+        "만주국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주국"
+        },
+        "만주국군": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주국군"
+        },
+        "시베리아_횡단_철도": {
+            "ne_type": "AF_ROAD",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/RailwayLine"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시베리아_횡단_철도"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "장교": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장교"
+        }
+    },
+    "id": 5829,
+    "pid": "818-13",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "만주국군"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "랴오허"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "시베리아_횡단_철도"
+        },
+        {
+            "Rep": false,
+            "o": "만주국",
+            "p": "국가(country)",
+            "s": "광명중학교"
+        },
+        {
+            "Rep": true,
+            "o": "시베리아_횡단_철도",
+            "p": "~의부분(isPartOf)",
+            "s": "랴오허"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "장교"
+        },
+        {
+            "Rep": false,
+            "o": "장교",
+            "p": "타입/종류(type)",
+            "s": "랴오허"
+        },
+        {
+            "Rep": false,
+            "o": "시베리아_횡단_철도",
+            "p": "~의부분(isPartOf)",
+            "s": "장교"
+        },
+        {
+            "Rep": false,
+            "o": "시베리아_횡단_철도",
+            "p": "~의부분(isPartOf)",
+            "s": "만주국군"
+        }
+    ]
+}

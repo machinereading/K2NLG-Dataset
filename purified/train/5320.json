@@ -1,0 +1,103 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "요제프 하이든의 장르는 서양 고전 음악이다. 닌텐독스의 장르는 영화다.",
+    "entities": {
+        "닌텐독스": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/VideoGame",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/닌텐독스"
+        },
+        "서양_고전_음악": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서양_고전_음악"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "요제프_하이든": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요제프_하이든"
+        }
+    },
+    "id": 5320,
+    "pid": "589-19",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "서양_고전_음악",
+            "p": "장르(genre)",
+            "s": "닌텐독스"
+        },
+        {
+            "Rep": false,
+            "o": "서양_고전_음악",
+            "p": "장르(genre)",
+            "s": "영화"
+        },
+        {
+            "Rep": true,
+            "o": "서양_고전_음악",
+            "p": "장르(genre)",
+            "s": "요제프_하이든"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "서양_고전_음악"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "요제프_하이든"
+        },
+        {
+            "Rep": true,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "닌텐독스"
+        }
+    ]
+}

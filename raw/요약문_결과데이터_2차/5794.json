@@ -1,0 +1,107 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "고려 공민왕의 전임자는 신돈이다. 신돈의 직업은 승려다. ",
+    "entities": {
+        "개성특급시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개성특급시"
+        },
+        "고려_공민왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_공민왕"
+        },
+        "승려": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/승려"
+        },
+        "신돈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신돈"
+        }
+    },
+    "id": 5794,
+    "pid": "807-10",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "고려_공민왕",
+            "p": "리더이름(leaderName)",
+            "s": "개성특급시"
+        },
+        {
+            "Rep": false,
+            "o": "신돈",
+            "p": "친척(relative)",
+            "s": "승려"
+        },
+        {
+            "Rep": true,
+            "o": "신돈",
+            "p": "전임자(predecessor)",
+            "s": "고려_공민왕"
+        },
+        {
+            "Rep": false,
+            "o": "승려",
+            "p": "~의부분(isPartOf)",
+            "s": "개성특급시"
+        },
+        {
+            "Rep": true,
+            "o": "승려",
+            "p": "직업(occupation)",
+            "s": "신돈"
+        },
+        {
+            "Rep": false,
+            "o": "승려",
+            "p": "전임자(predecessor)",
+            "s": "고려_공민왕"
+        }
+    ]
+}

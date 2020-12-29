@@ -1,0 +1,110 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "상하이 시는 영국에 있다. 상하이 시는 오정방의 일부이다. 영국의 지도자는 위안스카이이다. 상하이 시는 붉은 군대의 일부다. 붉은 군대의 국가는 영국이다.",
+    "entities": {
+        "붉은_군대": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/붉은_군대"
+        },
+        "상하이_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/상하이_시"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "오정방": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오정방"
+        },
+        "위안스카이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위안스카이"
+        }
+    },
+    "id": 1318,
+    "pid": "195-72",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "상하이_시"
+        },
+        {
+            "Rep": true,
+            "o": "오정방",
+            "p": "~의부분(isPartOf)",
+            "s": "상하이_시"
+        },
+        {
+            "Rep": true,
+            "o": "위안스카이",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": true,
+            "o": "붉은_군대",
+            "p": "~의부분(isPartOf)",
+            "s": "상하이_시"
+        },
+        {
+            "Rep": true,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "붉은_군대"
+        }
+    ]
+}

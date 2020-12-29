@@ -1,0 +1,197 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "신애라의 배우자는 차인표다. 신애라와 차인표의 직업은 배우다.",
+    "entities": {
+        "배우": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/배우"
+        },
+        "수잔_샤키야": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수잔_샤키야"
+        },
+        "스웨덴": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스웨덴"
+        },
+        "신애라": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신애라"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "윤석화": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤석화"
+        },
+        "차인표": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/차인표"
+        },
+        "한국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국"
+        }
+    },
+    "id": 2368,
+    "pid": "457-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "차인표",
+            "p": "배우자(spouse)",
+            "s": "신애라"
+        },
+        {
+            "Rep": true,
+            "o": "신애라",
+            "p": "배우자(spouse)",
+            "s": "차인표"
+        },
+        {
+            "Rep": true,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "신애라"
+        },
+        {
+            "Rep": true,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "차인표"
+        },
+        {
+            "Rep": false,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "윤석화"
+        },
+        {
+            "Rep": false,
+            "o": "신애라",
+            "p": "배우자(spouse)",
+            "s": "윤석화"
+        },
+        {
+            "Rep": false,
+            "o": "신애라",
+            "p": "배우자(spouse)",
+            "s": "배우"
+        },
+        {
+            "Rep": false,
+            "o": "차인표",
+            "p": "배우자(spouse)",
+            "s": "윤석화"
+        },
+        {
+            "Rep": false,
+            "o": "윤석화",
+            "p": "직업(occupation)",
+            "s": "배우"
+        },
+        {
+            "Rep": false,
+            "o": "스웨덴",
+            "p": "국가(country)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "차인표",
+            "p": "배우자(spouse)",
+            "s": "배우"
+        },
+        {
+            "Rep": false,
+            "o": "배우",
+            "p": "배우자(spouse)",
+            "s": "신애라"
+        },
+        {
+            "Rep": false,
+            "o": "윤석화",
+            "p": "배우자(spouse)",
+            "s": "신애라"
+        },
+        {
+            "Rep": false,
+            "o": "윤석화",
+            "p": "배우자(spouse)",
+            "s": "배우"
+        },
+        {
+            "Rep": false,
+            "o": "수잔_샤키야",
+            "p": "지도자(leader)",
+            "s": "한국"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "경안여객은 안동버스의 자회사다. 동춘여객은 안동버스의 자회사다.",
+    "entities": {
+        "경안여객": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경안여객"
+        },
+        "동춘여객": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동춘여객"
+        },
+        "버스": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/Species",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/버스"
+        },
+        "안동버스": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안동버스"
+        },
+        "안동시": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안동시"
+        }
+    },
+    "id": 5477,
+    "pid": "651-28",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "경안여객",
+            "p": "자회사(subsidiary)",
+            "s": "안동버스"
+        },
+        {
+            "Rep": false,
+            "o": "버스",
+            "p": "~의부분(isPartOf)",
+            "s": "안동시"
+        },
+        {
+            "Rep": true,
+            "o": "동춘여객",
+            "p": "자회사(subsidiary)",
+            "s": "안동버스"
+        }
+    ]
+}

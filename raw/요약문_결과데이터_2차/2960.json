@@ -1,0 +1,188 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "김성일의 직업은 저술가이다. 류성룡의 직업은 저술가이다. 이현보의 직업은 저술가이다. 이황의 직업은 저술가이다. 이상룡의 직업은 저술가이다. 이육사의 직업은 저술가이다.",
+    "entities": {
+        "김성일": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성일"
+        },
+        "류성룡": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/류성룡"
+        },
+        "안동시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안동시"
+        },
+        "이상룡": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이상룡_(1858년)"
+        },
+        "이육사": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이육사"
+        },
+        "이천시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Village",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이천시"
+        },
+        "이현보": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이현보"
+        },
+        "이황": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이황"
+        },
+        "저술가": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/MusicGenre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/저술가"
+        }
+    },
+    "id": 2960,
+    "pid": "651-5",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "안동시",
+            "p": "학력(education)",
+            "s": "이육사"
+        },
+        {
+            "Rep": true,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "김성일"
+        },
+        {
+            "Rep": true,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "류성룡"
+        },
+        {
+            "Rep": true,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "이현보"
+        },
+        {
+            "Rep": false,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "이천시"
+        },
+        {
+            "Rep": true,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "이황"
+        },
+        {
+            "Rep": false,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "안동시"
+        },
+        {
+            "Rep": true,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "이상룡"
+        },
+        {
+            "Rep": false,
+            "o": "류성룡",
+            "p": "친척(relative)",
+            "s": "이황"
+        },
+        {
+            "Rep": true,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "이육사"
+        },
+        {
+            "Rep": false,
+            "o": "이천시",
+            "p": "사망지(deathPlace)",
+            "s": "이상룡"
+        }
+    ]
+}

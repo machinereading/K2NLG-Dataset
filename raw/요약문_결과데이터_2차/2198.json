@@ -1,0 +1,116 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "지구는 태즈메이니아 주의 부분이다. 태즈메이니아 주 안에는 지구가 있다.",
+    "entities": {
+        "오스트레일리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트레일리아"
+        },
+        "인도양": {
+            "ne_type": "LCG_OCEAN",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/Ocean"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인도양"
+        },
+        "지구": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지구"
+        },
+        "태즈메이니아_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태즈메이니아_주"
+        },
+        "태평양": {
+            "ne_type": "LCG_OCEAN",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Ocean",
+                "http://dbpedia.org/ontology/Airport",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태평양"
+        }
+    },
+    "id": 2198,
+    "pid": "381-19",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "오스트레일리아",
+            "p": "국가(country)",
+            "s": "태즈메이니아_주"
+        },
+        {
+            "Rep": false,
+            "o": "오스트레일리아",
+            "p": "국가(country)",
+            "s": "태평양"
+        },
+        {
+            "Rep": true,
+            "o": "태즈메이니아_주",
+            "p": "~의부분(isPartOf)",
+            "s": "지구"
+        },
+        {
+            "Rep": false,
+            "o": "오스트레일리아",
+            "p": "국가(country)",
+            "s": "인도양"
+        },
+        {
+            "Rep": true,
+            "o": "지구",
+            "p": "부분(part)",
+            "s": "태즈메이니아_주"
+        }
+    ]
+}

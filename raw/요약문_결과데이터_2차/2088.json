@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 1,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": false
+        }
+    ],
+    "Text": "돌고래는 고래 목에 속한다. 고래는 돌고래 목에 속한다.",
+    "entities": {
+        "고래": {
+            "ne_type": "AM_MAMMALIA",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고래"
+        },
+        "돌고래": {
+            "ne_type": "AM_MAMMALIA",
+            "type": [
+                "http://dbpedia.org/ontology/Mammal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/돌고래"
+        },
+        "수달": {
+            "ne_type": "AM_MAMMALIA",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수달"
+        },
+        "포유류": {
+            "ne_type": "AM_TYPE",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포유류"
+        }
+    },
+    "id": 2088,
+    "pid": "312-27",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "고래",
+            "p": "목_생물분류단계(order)",
+            "s": "돌고래"
+        },
+        {
+            "Rep": false,
+            "o": "고래",
+            "p": "목_생물분류단계(order)",
+            "s": "포유류"
+        },
+        {
+            "Rep": false,
+            "o": "고래",
+            "p": "목_생물분류단계(order)",
+            "s": "수달"
+        },
+        {
+            "Rep": true,
+            "o": "돌고래",
+            "p": "목_생물분류단계(order)",
+            "s": "고래"
+        },
+        {
+            "Rep": false,
+            "o": "돌고래",
+            "p": "목_생물분류단계(order)",
+            "s": "포유류"
+        },
+        {
+            "Rep": false,
+            "o": "돌고래",
+            "p": "목_생물분류단계(order)",
+            "s": "수달"
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "마이크로소프트의 제품으로 윈도우 CE, 심비안, 리눅스, 팜 OS가 있다. 윈도우 CE, 리눅스, 팜OS는 마이크로소프트에서 개발하였다. ",
+    "entities": {
+        "리눅스": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리눅스"
+        },
+        "마이크로소프트": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마이크로소프트"
+        },
+        "심비안": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/심비안"
+        },
+        "윈도우_CE": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Software",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윈도우_CE"
+        },
+        "팜_OS": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Software",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팜_OS"
+        }
+    },
+    "id": 2492,
+    "pid": "505-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "윈도우_CE",
+            "p": "제품(product)",
+            "s": "마이크로소프트"
+        },
+        {
+            "Rep": true,
+            "o": "마이크로소프트",
+            "p": "개발자/개발사(developer)",
+            "s": "윈도우_CE"
+        },
+        {
+            "Rep": true,
+            "o": "마이크로소프트",
+            "p": "개발자/개발사(developer)",
+            "s": "리눅스"
+        },
+        {
+            "Rep": true,
+            "o": "마이크로소프트",
+            "p": "개발자/개발사(developer)",
+            "s": "팜_OS"
+        },
+        {
+            "Rep": true,
+            "o": "심비안",
+            "p": "제품(product)",
+            "s": "마이크로소프트"
+        },
+        {
+            "Rep": true,
+            "o": "리눅스",
+            "p": "제품(product)",
+            "s": "마이크로소프트"
+        },
+        {
+            "Rep": true,
+            "o": "팜_OS",
+            "p": "제품(product)",
+            "s": "마이크로소프트"
+        }
+    ]
+}

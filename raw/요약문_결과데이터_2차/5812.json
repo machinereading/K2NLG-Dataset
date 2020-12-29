@@ -1,0 +1,148 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        }
+    ],
+    "Text": "조선 태조는 조선에서 사망하였다. 그는 그곳을 이끌었던 사람이다.",
+    "entities": {
+        "고려": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려"
+        },
+        "명나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/명나라"
+        },
+        "역사가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/역사가"
+        },
+        "조선": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/NobleFamily",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Family",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선"
+        },
+        "조선_태조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_태조"
+        }
+    },
+    "id": 5812,
+    "pid": "808-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "조선",
+            "p": "사망지(deathPlace)",
+            "s": "조선_태조"
+        },
+        {
+            "Rep": false,
+            "o": "조선_태조",
+            "p": "리더이름(leaderName)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "명나라",
+            "p": "국가(country)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "명나라",
+            "p": "국가(country)",
+            "s": "고려"
+        },
+        {
+            "Rep": false,
+            "o": "조선_태조",
+            "p": "리더이름(leaderName)",
+            "s": "고려"
+        },
+        {
+            "Rep": false,
+            "o": "고려",
+            "p": "국가(country)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "명나라"
+        },
+        {
+            "Rep": true,
+            "o": "조선_태조",
+            "p": "리더이름(leaderName)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "고려",
+            "p": "국가(country)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "명나라",
+            "p": "사망지(deathPlace)",
+            "s": "조선_태조"
+        },
+        {
+            "Rep": false,
+            "o": "역사가",
+            "p": "리더이름(leaderName)",
+            "s": "명나라"
+        }
+    ]
+}

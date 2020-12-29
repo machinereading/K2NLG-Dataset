@@ -1,0 +1,141 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "조만식은 안재홍과 친척 관계이다. 그는 일본에서 태어났다.",
+    "entities": {
+        "방응모": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/방응모"
+        },
+        "안재홍": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안재홍"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "일본_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본_제국"
+        },
+        "조만식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조만식"
+        },
+        "중일_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중일_전쟁"
+        }
+    },
+    "id": 2132,
+    "pid": "351-13",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "장소(place)",
+            "s": "중일_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "방응모",
+            "p": "계승자/후임(successor)",
+            "s": "안재홍"
+        },
+        {
+            "Rep": false,
+            "o": "방응모",
+            "p": "계승자/후임(successor)",
+            "s": "조만식"
+        },
+        {
+            "Rep": true,
+            "o": "조만식",
+            "p": "친척(relative)",
+            "s": "안재홍"
+        },
+        {
+            "Rep": false,
+            "o": "일본_제국",
+            "p": "장소(place)",
+            "s": "중일_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "방응모",
+            "p": "친척(relative)",
+            "s": "안재홍"
+        },
+        {
+            "Rep": false,
+            "o": "조만식",
+            "p": "계승자/후임(successor)",
+            "s": "안재홍"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "위치/지역(location)",
+            "s": "중일_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "출생지(birthPlace)",
+            "s": "조만식"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "민주당의 본부는 미국에 있다. ",
+    "entities": {
+        "공화당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공화당_(미국)"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주당_(미국)"
+        }
+    },
+    "id": 3998,
+    "pid": "236-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "본부/본사(headquarter)",
+            "s": "민주당"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "본부/본사(headquarter)",
+            "s": "공화당"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "기원/소속(affiliation)",
+            "s": "공화당"
+        },
+        {
+            "Rep": false,
+            "o": "공화당",
+            "p": "기원/소속(affiliation)",
+            "s": "민주당"
+        }
+    ]
+}

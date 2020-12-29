@@ -1,0 +1,101 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "아야나미 레이의 직업은 디자이너다. 이카리 겐도의 직업은 디자이너다. 기아 레이의 직업은 디자이너다.",
+    "entities": {
+        "기아_레이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Automobile",
+                "http://dbpedia.org/ontology/MeanOfTransportation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기아_레이"
+        },
+        "디자이너": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/디자이너"
+        },
+        "목": {
+            "ne_type": "AM_PART",
+            "type": [
+                "http://dbpedia.org/ontology/AnatomicalStructure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/목"
+        },
+        "아야나미_레이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ComicsCharacter",
+                "http://dbpedia.org/ontology/AnimangaCharacter",
+                "http://dbpedia.org/ontology/FictionalCharacter",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아야나미_레이"
+        },
+        "이카리_겐도": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ComicsCharacter",
+                "http://dbpedia.org/ontology/AnimangaCharacter",
+                "http://dbpedia.org/ontology/FictionalCharacter",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이카리_겐도"
+        }
+    },
+    "id": 1422,
+    "pid": "226-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "디자이너",
+            "p": "직업(occupation)",
+            "s": "아야나미_레이"
+        },
+        {
+            "Rep": true,
+            "o": "디자이너",
+            "p": "직업(occupation)",
+            "s": "이카리_겐도"
+        },
+        {
+            "Rep": false,
+            "o": "디자이너",
+            "p": "직업(occupation)",
+            "s": "목"
+        },
+        {
+            "Rep": true,
+            "o": "디자이너",
+            "p": "직업(occupation)",
+            "s": "기아_레이"
+        }
+    ]
+}

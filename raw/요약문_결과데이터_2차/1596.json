@@ -1,0 +1,91 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "신나라의 리더는 왕망이었다. 신나라의 수도는 농부이다.",
+    "entities": {
+        "농부": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/농부"
+        },
+        "신나라": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신나라"
+        },
+        "왕망": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/왕망"
+        },
+        "황하": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/River"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/황하"
+        }
+    },
+    "id": 1596,
+    "pid": "278-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "왕망",
+            "p": "리더이름(leaderName)",
+            "s": "신나라"
+        },
+        {
+            "Rep": true,
+            "o": "농부",
+            "p": "수도(capital)",
+            "s": "신나라"
+        },
+        {
+            "Rep": false,
+            "o": "신나라",
+            "p": "국가(country)",
+            "s": "황하"
+        }
+    ]
+}

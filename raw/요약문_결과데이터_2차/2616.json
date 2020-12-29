@@ -1,0 +1,84 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "윤치소는 윤보선의 부모이다. 윤치소는 윤치오의 부모이다.",
+    "entities": {
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "윤취동": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤취동"
+        },
+        "윤치소": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치소"
+        },
+        "윤치오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치오"
+        }
+    },
+    "id": 2616,
+    "pid": "541-11",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "윤치소",
+            "p": "부모(parent)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "윤치소",
+            "p": "부모(parent)",
+            "s": "윤치오"
+        },
+        {
+            "Rep": false,
+            "o": "윤취동",
+            "p": "부모(parent)",
+            "s": "윤보선"
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "쑨원의 후임은 위안스카이이다. 붉은 군대의 지휘관은 위안스카이이다. 난징 시의 리더는 위안스카이이다. 난징 시는 베이징 시의 일부이다. ",
+    "entities": {
+        "난징_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/난징_시"
+        },
+        "베이징_시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베이징_시"
+        },
+        "붉은_군대": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/붉은_군대"
+        },
+        "쑨원": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쑨원"
+        },
+        "위안스카이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위안스카이"
+        }
+    },
+    "id": 1329,
+    "pid": "195-98",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "위안스카이",
+            "p": "계승자/후임(successor)",
+            "s": "쑨원"
+        },
+        {
+            "Rep": true,
+            "o": "위안스카이",
+            "p": "지휘관(commander)",
+            "s": "붉은_군대"
+        },
+        {
+            "Rep": true,
+            "o": "위안스카이",
+            "p": "리더이름(leaderName)",
+            "s": "난징_시"
+        },
+        {
+            "Rep": true,
+            "o": "베이징_시",
+            "p": "~의부분(isPartOf)",
+            "s": "난징_시"
+        },
+        {
+            "Rep": false,
+            "o": "붉은_군대",
+            "p": "계승자/후임(successor)",
+            "s": "쑨원"
+        }
+    ]
+}

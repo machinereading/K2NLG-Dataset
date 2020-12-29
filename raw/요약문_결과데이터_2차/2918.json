@@ -1,0 +1,79 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "데프콘은 조선민주주의인민공화국의 지도자다. 그는 대한민국 국군을 지휘했다.",
+    "entities": {
+        "대한민국_국군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국군"
+        },
+        "데프콘": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/데프콘_(가수)"
+        },
+        "조선민주주의인민공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선민주주의인민공화국"
+        }
+    },
+    "id": 2918,
+    "pid": "647-18",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대한민국_국군",
+            "p": "직함/포지션(position)",
+            "s": "데프콘"
+        },
+        {
+            "Rep": true,
+            "o": "데프콘",
+            "p": "지도자(leader)",
+            "s": "조선민주주의인민공화국"
+        },
+        {
+            "Rep": true,
+            "o": "데프콘",
+            "p": "지휘관(commander)",
+            "s": "대한민국_국군"
+        }
+    ]
+}

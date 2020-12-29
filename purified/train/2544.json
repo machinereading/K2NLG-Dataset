@@ -1,0 +1,114 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "팔레스타인의 가장 큰 도시는 카이로다. 카이로는 팔레스타인에 속한다. ",
+    "entities": {
+        "이스라엘": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이스라엘"
+        },
+        "이스라엘_방위군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이스라엘_방위군"
+        },
+        "카이로": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카이로"
+        },
+        "팔레스타인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팔레스타인"
+        },
+        "팔레스타인_해방_기구": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팔레스타인_해방_기구"
+        }
+    },
+    "id": 2544,
+    "pid": "532-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "이스라엘",
+            "p": "국가(country)",
+            "s": "이스라엘_방위군"
+        },
+        {
+            "Rep": false,
+            "o": "팔레스타인_해방_기구",
+            "p": "국가(country)",
+            "s": "이스라엘_방위군"
+        },
+        {
+            "Rep": true,
+            "o": "팔레스타인",
+            "p": "~의부분(isPartOf)",
+            "s": "카이로"
+        },
+        {
+            "Rep": true,
+            "o": "카이로",
+            "p": "가장큰도시(largestCity)",
+            "s": "팔레스타인"
+        },
+        {
+            "Rep": false,
+            "o": "카이로",
+            "p": "가장큰도시(largestCity)",
+            "s": "팔레스타인_해방_기구"
+        }
+    ]
+}

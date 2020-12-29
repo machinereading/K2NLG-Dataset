@@ -1,0 +1,134 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "현대건설은 서울특별시에 있다. 현대건설의 모기업은 현대그룹이다.",
+    "entities": {
+        "돈암동": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/돈암동"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "재조선미육군사령부군정청": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/재조선미육군사령부군정청"
+        },
+        "현대건설": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현대건설"
+        },
+        "현대그룹": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현대그룹"
+        }
+    },
+    "id": 2068,
+    "pid": "301-10",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "수도(capital)",
+            "s": "재조선미육군사령부군정청"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "위치/지역(location)",
+            "s": "현대건설"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "위치/지역(location)",
+            "s": "현대그룹"
+        },
+        {
+            "Rep": false,
+            "o": "돈암동",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "현대그룹",
+            "p": "모기업(parentCompany)",
+            "s": "현대건설"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "지역/분양(region)",
+            "s": "돈암동"
+        },
+        {
+            "Rep": false,
+            "o": "현대건설",
+            "p": "자회사(subsidiary)",
+            "s": "현대그룹"
+        },
+        {
+            "Rep": false,
+            "o": "현대건설",
+            "p": "설립되다(foundedBy)",
+            "s": "현대그룹"
+        },
+        {
+            "Rep": false,
+            "o": "재조선미육군사령부군정청",
+            "p": "지역/분양(region)",
+            "s": "돈암동"
+        }
+    ]
+}

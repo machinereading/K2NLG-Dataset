@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": false
+        }
+    ],
+    "Text": "리처드 도킨슨은 만들어진 신의 저자이다. 그의 직업은 배우이다.",
+    "entities": {
+        "더글러스_애덤스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/더글러스_애덤스"
+        },
+        "리처드_도킨스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리처드_도킨스"
+        },
+        "마이크로소프트_워드": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마이크로소프트_워드"
+        },
+        "만들어진_신": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만들어진_신"
+        },
+        "배우": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/배우"
+        }
+    },
+    "id": 2093,
+    "pid": "325-12",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "리처드_도킨스",
+            "p": "영향받은(influencedBy)",
+            "s": "더글러스_애덤스"
+        },
+        {
+            "Rep": true,
+            "o": "리처드_도킨스",
+            "p": "저자(author)",
+            "s": "만들어진_신"
+        },
+        {
+            "Rep": true,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "리처드_도킨스"
+        },
+        {
+            "Rep": false,
+            "o": "만들어진_신",
+            "p": "~로알려진(knownFor)",
+            "s": "리처드_도킨스"
+        },
+        {
+            "Rep": false,
+            "o": "마이크로소프트_워드",
+            "p": "~로알려진(knownFor)",
+            "s": "리처드_도킨스"
+        },
+        {
+            "Rep": false,
+            "o": "리처드_도킨스",
+            "p": "저자(author)",
+            "s": "마이크로소프트_워드"
+        }
+    ]
+}

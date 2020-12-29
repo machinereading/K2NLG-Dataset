@@ -1,0 +1,97 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "김숙자 (1389년)는 김종직의 부모이다. 그녀의 친척은 남곤이다.",
+    "entities": {
+        "김숙자_(1389년)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김숙자_(1389년)"
+        },
+        "김종직": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김종직"
+        },
+        "남곤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남곤"
+        },
+        "조광조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조광조"
+        }
+    },
+    "id": 684,
+    "pid": "230-44",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김숙자_(1389년)",
+            "p": "부모(parent)",
+            "s": "김종직"
+        },
+        {
+            "Rep": false,
+            "o": "김종직",
+            "p": "자식(child)",
+            "s": "김숙자_(1389년)"
+        },
+        {
+            "Rep": true,
+            "o": "남곤",
+            "p": "친척(relative)",
+            "s": "김숙자_(1389년)"
+        },
+        {
+            "Rep": false,
+            "o": "남곤",
+            "p": "친척(relative)",
+            "s": "조광조"
+        },
+        {
+            "Rep": false,
+            "o": "김종직",
+            "p": "자식(child)",
+            "s": "조광조"
+        }
+    ]
+}

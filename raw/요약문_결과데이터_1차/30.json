@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "아돌프 히틀러의 정당은 국가사회주의 독일 노동자당이다. 토마스 만의 국가는 독일이다. 국가사회주의 독일 노동자당의 지도자는 토마스 만이다.",
+    "entities": {
+        "국가사회주의_독일_노동자당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국가사회주의_독일_노동자당"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "아돌프_히틀러": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아돌프_히틀러"
+        },
+        "토마스_만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토마스_만"
+        }
+    },
+    "id": 30,
+    "pid": "110-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "국가사회주의_독일_노동자당",
+            "p": "정당(party)",
+            "s": "아돌프_히틀러"
+        },
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "토마스_만"
+        },
+        {
+            "Rep": true,
+            "o": "토마스_만",
+            "p": "지도자(leader)",
+            "s": "국가사회주의_독일_노동자당"
+        }
+    ]
+}

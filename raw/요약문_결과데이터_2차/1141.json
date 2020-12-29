@@ -1,0 +1,98 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "래리 생어는 위키백과의 저자이다. 그는 시티즌디움을 지었다. 래리 생어는 위키백과로 알려져 있다.",
+    "entities": {
+        "USA_투데이": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/PeriodicalLiterature",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Newspaper"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/USA_투데이"
+        },
+        "래리_생어": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/래리_생어"
+        },
+        "시티즌디움": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시티즌디움"
+        },
+        "위키백과": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위키백과"
+        },
+        "편집장": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/편집장"
+        }
+    },
+    "id": 1141,
+    "pid": "134-19",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "래리_생어",
+            "p": "저자(author)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": true,
+            "o": "래리_생어",
+            "p": "저자(author)",
+            "s": "시티즌디움"
+        },
+        {
+            "Rep": false,
+            "o": "편집장",
+            "p": "타입/종류(type)",
+            "s": "USA_투데이"
+        },
+        {
+            "Rep": true,
+            "o": "위키백과",
+            "p": "~로알려진(knownFor)",
+            "s": "래리_생어"
+        }
+    ]
+}

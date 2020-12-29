@@ -1,0 +1,136 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "서부 전선은 제2차 세계 대전을 이루는 한 부분이다. 서부 전선이 있었던 장소는 독일이다.",
+    "entities": {
+        "5호_전차_판터": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/Weapon",
+                "http://dbpedia.org/ontology/Device"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/5호_전차_판터"
+        },
+        "6호_전차_티거_1": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/Weapon",
+                "http://dbpedia.org/ontology/Device"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/6호_전차_티거_1"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "서부_전선": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서부_전선_(제2차_세계_대전)"
+        },
+        "영국군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국군"
+        },
+        "제2차_세계_대전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제2차_세계_대전"
+        }
+    },
+    "id": 5577,
+    "pid": "696-10",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "제2차_세계_대전",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "서부_전선"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "영국군"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "영국군"
+        },
+        {
+            "Rep": false,
+            "o": "6호_전차_티거_1",
+            "p": "계승자/후임(successor)",
+            "s": "5호_전차_판터"
+        },
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "장소(place)",
+            "s": "서부_전선"
+        }
+    ]
+}

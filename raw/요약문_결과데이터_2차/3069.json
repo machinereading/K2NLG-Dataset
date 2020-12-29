@@ -1,0 +1,106 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "담자균류는 자낭균류 목에 속한다. 접합균류도 자낭균류 목에 속한다.",
+    "entities": {
+        "균계": {
+            "ne_type": "AM_TYPE",
+            "type": [
+                "http://dbpedia.org/ontology/Fungus",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/균계"
+        },
+        "담자균류": {
+            "ne_type": "PT_TYPE",
+            "type": [
+                "http://dbpedia.org/ontology/Fungus",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/담자균류"
+        },
+        "자낭균류": {
+            "ne_type": "PT_TYPE",
+            "type": [
+                "http://dbpedia.org/ontology/Fungus",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자낭균류"
+        },
+        "접합균류": {
+            "ne_type": "PT_TYPE",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Species",
+                "http://dbpedia.org/ontology/Taxon"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/접합균류"
+        }
+    },
+    "id": 3069,
+    "pid": "707-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "자낭균류",
+            "p": "목_생물분류단계(order)",
+            "s": "담자균류"
+        },
+        {
+            "Rep": true,
+            "o": "자낭균류",
+            "p": "목_생물분류단계(order)",
+            "s": "접합균류"
+        },
+        {
+            "Rep": false,
+            "o": "접합균류",
+            "p": "목_생물분류단계(order)",
+            "s": "자낭균류"
+        },
+        {
+            "Rep": false,
+            "o": "접합균류",
+            "p": "목_생물분류단계(order)",
+            "s": "담자균류"
+        },
+        {
+            "Rep": false,
+            "o": "자낭균류",
+            "p": "목_생물분류단계(order)",
+            "s": "균계"
+        }
+    ]
+}

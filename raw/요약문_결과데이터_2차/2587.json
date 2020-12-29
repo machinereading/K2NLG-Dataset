@@ -1,0 +1,95 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "김정은, 김정일은 조선민주주의인민공화국에 안식되었다. 김정일은 김정은의 부모다. 김정일의 뒤는 김정은이 이어갔다. 조선민주주의인민공화국의 지도자는 김정은이다. ",
+    "entities": {
+        "김정은": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김정은"
+        },
+        "김정일": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김정일"
+        },
+        "조선민주주의인민공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선민주주의인민공화국"
+        }
+    },
+    "id": 2587,
+    "pid": "535-28",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "조선민주주의인민공화국",
+            "p": "안식처(restingPlace)",
+            "s": "김정은"
+        },
+        {
+            "Rep": true,
+            "o": "김정일",
+            "p": "부모(parent)",
+            "s": "김정은"
+        },
+        {
+            "Rep": true,
+            "o": "김정은",
+            "p": "계승자/후임(successor)",
+            "s": "김정일"
+        },
+        {
+            "Rep": true,
+            "o": "조선민주주의인민공화국",
+            "p": "안식처(restingPlace)",
+            "s": "김정일"
+        },
+        {
+            "Rep": true,
+            "o": "김정은",
+            "p": "지도자(leader)",
+            "s": "조선민주주의인민공화국"
+        }
+    ]
+}

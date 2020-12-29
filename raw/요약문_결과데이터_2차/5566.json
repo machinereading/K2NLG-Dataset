@@ -1,0 +1,167 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": false
+        }
+    ],
+    "Text": "평양직할시는 남포특별시에 속한다. 대동강은 남포특별시에 속한다. 남포특별시는 조선에 속한다.",
+    "entities": {
+        "남포특별시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남포특별시"
+        },
+        "대동강": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/River",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대동강"
+        },
+        "순천시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/순천시_(전라남도)"
+        },
+        "조선": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/NobleFamily",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Family",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선"
+        },
+        "평양직할시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평양직할시"
+        }
+    },
+    "id": 5566,
+    "pid": "688-11",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "대동강"
+        },
+        {
+            "Rep": false,
+            "o": "남포특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "순천시"
+        },
+        {
+            "Rep": true,
+            "o": "남포특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "평양직할시"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "남포특별시"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "평양직할시"
+        },
+        {
+            "Rep": true,
+            "o": "대동강",
+            "p": "~의부분(isPartOf)",
+            "s": "남포특별시"
+        },
+        {
+            "Rep": false,
+            "o": "평양직할시",
+            "p": "~의부분(isPartOf)",
+            "s": "남포특별시"
+        },
+        {
+            "Rep": false,
+            "o": "대동강",
+            "p": "~의부분(isPartOf)",
+            "s": "조선"
+        },
+        {
+            "Rep": true,
+            "o": "남포특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "순천시"
+        },
+        {
+            "Rep": false,
+            "o": "대동강",
+            "p": "~의부분(isPartOf)",
+            "s": "평양직할시"
+        },
+        {
+            "Rep": false,
+            "o": "평양직할시",
+            "p": "~의부분(isPartOf)",
+            "s": "순천시"
+        },
+        {
+            "Rep": true,
+            "o": "평양직할시",
+            "p": "~의부분(isPartOf)",
+            "s": "조선"
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "바젤에서 태어난 레온하르트 오일러의 직업은 목사다. ",
+    "entities": {
+        "레온하르트_오일러": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레온하르트_오일러"
+        },
+        "르네_데카르트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/르네_데카르트"
+        },
+        "목사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/목사"
+        },
+        "바젤": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바젤"
+        },
+        "바젤_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바젤_대학교"
+        },
+        "석사": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/석사"
+        },
+        "수학": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학"
+        },
+        "수학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학자"
+        },
+        "아이작_뉴턴": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아이작_뉴턴"
+        },
+        "요한_베르누이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요한_베르누이"
+        }
+    },
+    "id": 2488,
+    "pid": "502-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "바젤",
+            "p": "출생지(birthPlace)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": true,
+            "o": "목사",
+            "p": "직업(occupation)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": false,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": false,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "요한_베르누이"
+        },
+        {
+            "Rep": false,
+            "o": "바젤_대학교",
+            "p": "학력(education)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": false,
+            "o": "레온하르트_오일러",
+            "p": "영향받은(influenced)",
+            "s": "수학자"
+        },
+        {
+            "Rep": false,
+            "o": "요한_베르누이",
+            "p": "저자(author)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "르네_데카르트",
+            "p": "영향받은(influencedBy)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": false,
+            "o": "수학",
+            "p": "직업(occupation)",
+            "s": "요한_베르누이"
+        },
+        {
+            "Rep": false,
+            "o": "요한_베르누이",
+            "p": "영향받은(influenced)",
+            "s": "수학자"
+        },
+        {
+            "Rep": false,
+            "o": "아이작_뉴턴",
+            "p": "영향받은(influenced)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": false,
+            "o": "요한_베르누이",
+            "p": "영향받은(influenced)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "아이작_뉴턴",
+            "p": "저자(author)",
+            "s": "석사"
+        },
+        {
+            "Rep": false,
+            "o": "바젤_대학교",
+            "p": "기원/소속(affiliation)",
+            "s": "석사"
+        }
+    ]
+}

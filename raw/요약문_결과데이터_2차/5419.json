@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "백인은 필리핀에 있는 민족 중 하나다. 백인은 하와이 주에도 있다. ",
+    "entities": {
+        "백인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백인"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "필리핀": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/필리핀"
+        },
+        "하와이_주": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하와이_주"
+        }
+    },
+    "id": 5419,
+    "pid": "643-20",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "필리핀",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "있는곳(populationPlace)",
+            "s": "백인"
+        },
+        {
+            "Rep": false,
+            "o": "필리핀",
+            "p": "있는곳(populationPlace)",
+            "s": "백인"
+        },
+        {
+            "Rep": true,
+            "o": "하와이_주",
+            "p": "있는곳(populationPlace)",
+            "s": "백인"
+        },
+        {
+            "Rep": false,
+            "o": "필리핀",
+            "p": "국가(country)",
+            "s": "하와이_주"
+        },
+        {
+            "Rep": true,
+            "o": "백인",
+            "p": "민족(ethnicGroup)",
+            "s": "필리핀"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "하와이_주"
+        }
+    ]
+}

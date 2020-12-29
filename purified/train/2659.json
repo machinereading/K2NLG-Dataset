@@ -1,0 +1,93 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "한나라를 이끄는 사람은 장택상이며 직업은 정치가다. ",
+    "entities": {
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "장택상": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장택상"
+        },
+        "정치가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정치가"
+        },
+        "한나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한나라"
+        }
+    },
+    "id": 2659,
+    "pid": "541-197",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "정치가",
+            "p": "직업(occupation)",
+            "s": "장택상"
+        },
+        {
+            "Rep": true,
+            "o": "장택상",
+            "p": "리더이름(leaderName)",
+            "s": "한나라"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "수도(capital)",
+            "s": "정치가"
+        },
+        {
+            "Rep": false,
+            "o": "정치가",
+            "p": "직업(occupation)",
+            "s": "서울특별시"
+        }
+    ]
+}

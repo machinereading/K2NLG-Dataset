@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "그리스어는 이탈리아어 계통의 언어이다. 그리스어는 알바니아어 계통의 언어이기도 하다.",
+    "entities": {
+        "그리스어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/그리스어"
+        },
+        "알바니아어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알바니아어"
+        },
+        "이탈리아어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아어"
+        }
+    },
+    "id": 4772,
+    "pid": "410-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "그리스어",
+            "p": "계통(languageFamily)",
+            "s": "이탈리아어"
+        },
+        {
+            "Rep": true,
+            "o": "이탈리아어",
+            "p": "계통(languageFamily)",
+            "s": "그리스어"
+        },
+        {
+            "Rep": true,
+            "o": "알바니아어",
+            "p": "계통(languageFamily)",
+            "s": "그리스어"
+        },
+        {
+            "Rep": false,
+            "o": "그리스어",
+            "p": "계통(languageFamily)",
+            "s": "알바니아어"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아어",
+            "p": "계통(languageFamily)",
+            "s": "알바니아어"
+        },
+        {
+            "Rep": false,
+            "o": "알바니아어",
+            "p": "계통(languageFamily)",
+            "s": "이탈리아어"
+        }
+    ]
+}

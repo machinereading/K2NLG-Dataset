@@ -1,0 +1,126 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 2,
+            "Restriction": false
+        }
+    ],
+    "Text": "교통방송은 서울특별시에 위치해있다. 기타는 한국음악과 연관이있다. ",
+    "entities": {
+        "교통방송": {
+            "ne_type": "OGG_MEDIA",
+            "type": [
+                "http://dbpedia.org/ontology/BroadcastNetwork",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Broadcaster",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교통방송"
+        },
+        "국악방송": {
+            "ne_type": "OGG_MEDIA",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/RadioStation",
+                "http://dbpedia.org/ontology/Broadcaster",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국악방송"
+        },
+        "극동방송": {
+            "ne_type": "OGG_MEDIA",
+            "type": [
+                "http://dbpedia.org/ontology/BroadcastNetwork",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Broadcaster",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/극동방송"
+        },
+        "기타": {
+            "ne_type": "AF_MUSICAL_INSTRUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Device",
+                "http://dbpedia.org/ontology/Instrument"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기타"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "한국음악": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국음악"
+        }
+    },
+    "id": 1617,
+    "pid": "280-163",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "위치/지역(location)",
+            "s": "국악방송"
+        },
+        {
+            "Rep": false,
+            "o": "기타",
+            "p": "제품(product)",
+            "s": "극동방송"
+        },
+        {
+            "Rep": false,
+            "o": "기타",
+            "p": "제품(product)",
+            "s": "교통방송"
+        },
+        {
+            "Rep": false,
+            "o": "기타",
+            "p": "제품(product)",
+            "s": "국악방송"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "위치/지역(location)",
+            "s": "교통방송"
+        },
+        {
+            "Rep": true,
+            "o": "기타",
+            "p": "관련되(related)",
+            "s": "한국음악"
+        }
+    ]
+}

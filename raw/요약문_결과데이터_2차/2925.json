@@ -1,0 +1,121 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "노태우의 전임자는 전두환이다. 전두환의 뒤를 노태우가 이어갔다. ",
+    "entities": {
+        "권익현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/권익현"
+        },
+        "노태우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노태우"
+        },
+        "백운택": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백운택"
+        },
+        "손영길": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손영길"
+        },
+        "전두환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전두환"
+        }
+    },
+    "id": 2925,
+    "pid": "648-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "전두환",
+            "p": "전임자(predecessor)",
+            "s": "노태우"
+        },
+        {
+            "Rep": false,
+            "o": "전두환",
+            "p": "전임자(predecessor)",
+            "s": "권익현"
+        },
+        {
+            "Rep": false,
+            "o": "전두환",
+            "p": "전임자(predecessor)",
+            "s": "손영길"
+        },
+        {
+            "Rep": false,
+            "o": "전두환",
+            "p": "전임자(predecessor)",
+            "s": "백운택"
+        },
+        {
+            "Rep": false,
+            "o": "노태우",
+            "p": "전임자(predecessor)",
+            "s": "권익현"
+        },
+        {
+            "Rep": false,
+            "o": "손영길",
+            "p": "전임자(predecessor)",
+            "s": "노태우"
+        },
+        {
+            "Rep": true,
+            "o": "노태우",
+            "p": "계승자/후임(successor)",
+            "s": "전두환"
+        }
+    ]
+}

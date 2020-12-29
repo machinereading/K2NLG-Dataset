@@ -1,0 +1,98 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "유창순의 직업은 관료이다. 그의 직업은 기업가다.",
+    "entities": {
+        "관료": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/관료"
+        },
+        "기업가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/MusicGenre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기업가"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "유창순": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유창순_(1918년)"
+        }
+    },
+    "id": 3297,
+    "pid": "813-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "관료",
+            "p": "직업(occupation)",
+            "s": "유창순"
+        },
+        {
+            "Rep": true,
+            "o": "기업가",
+            "p": "직업(occupation)",
+            "s": "유창순"
+        },
+        {
+            "Rep": false,
+            "o": "기업가",
+            "p": "직업(occupation)",
+            "s": "관료"
+        },
+        {
+            "Rep": false,
+            "o": "관료",
+            "p": "수도(capital)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "기업가",
+            "p": "직업(occupation)",
+            "s": "대한민국"
+        }
+    ]
+}

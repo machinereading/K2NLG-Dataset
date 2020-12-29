@@ -1,0 +1,132 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "윤보선은 부산광역시의 리더이다. 그는 부산광역시에서 사망했다. 그의 계승자는 이승만이다.",
+    "entities": {
+        "박은혜": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박은혜_(1904년)"
+        },
+        "부산광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산광역시"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "장덕수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장덕수"
+        },
+        "한국_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국_전쟁"
+        }
+    },
+    "id": 2748,
+    "pid": "541-99",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "박은혜",
+            "p": "배우자(spouse)",
+            "s": "장덕수"
+        },
+        {
+            "Rep": false,
+            "o": "이승만",
+            "p": "지휘관(commander)",
+            "s": "한국_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "계승자/후임(successor)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "이승만",
+            "p": "전임자(predecessor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "리더이름(leaderName)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": true,
+            "o": "부산광역시",
+            "p": "사망지(deathPlace)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "이승만",
+            "p": "계승자/후임(successor)",
+            "s": "윤보선"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "신도군은 룡천군의 한 부분이다. 룡천군은 신도군의 한 지역이다.",
+    "entities": {
+        "룡천군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/룡천군"
+        },
+        "신도군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신도군"
+        }
+    },
+    "id": 5317,
+    "pid": "588-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "신도군",
+            "p": "~의부분(isPartOf)",
+            "s": "룡천군"
+        },
+        {
+            "Rep": true,
+            "o": "룡천군",
+            "p": "~의부분(isPartOf)",
+            "s": "신도군"
+        },
+        {
+            "Rep": true,
+            "o": "신도군",
+            "p": "지역/분양(region)",
+            "s": "룡천군"
+        },
+        {
+            "Rep": false,
+            "o": "신도군",
+            "p": "타입/종류(type)",
+            "s": "룡천군"
+        }
+    ]
+}

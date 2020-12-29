@@ -1,0 +1,171 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "현석호의 직업은 정치가다. 그의 정당은 민주당이다. 그의 전임자는 박순천이다.",
+    "entities": {
+        "김도연": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김도연_(정치인)"
+        },
+        "민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주당_(미국)"
+        },
+        "박순천": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박순천"
+        },
+        "오위영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오위영"
+        },
+        "정치가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정치가"
+        },
+        "조재천": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조재천"
+        },
+        "현석호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현석호"
+        }
+    },
+    "id": 3366,
+    "pid": "829-175",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "정치가",
+            "p": "직업(occupation)",
+            "s": "현석호"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "박순천"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "조재천"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "김도연"
+        },
+        {
+            "Rep": true,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "현석호"
+        },
+        {
+            "Rep": false,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "오위영"
+        },
+        {
+            "Rep": true,
+            "o": "박순천",
+            "p": "전임자(predecessor)",
+            "s": "현석호"
+        },
+        {
+            "Rep": false,
+            "o": "오위영",
+            "p": "지도자(leader)",
+            "s": "민주당"
+        },
+        {
+            "Rep": false,
+            "o": "현석호",
+            "p": "전임자(predecessor)",
+            "s": "김도연"
+        },
+        {
+            "Rep": false,
+            "o": "김도연",
+            "p": "계승자/후임(successor)",
+            "s": "오위영"
+        },
+        {
+            "Rep": false,
+            "o": "오위영",
+            "p": "전임자(predecessor)",
+            "s": "김도연"
+        },
+        {
+            "Rep": false,
+            "o": "김도연",
+            "p": "지도자(leader)",
+            "s": "민주당"
+        },
+        {
+            "Rep": false,
+            "o": "박순천",
+            "p": "전임자(predecessor)",
+            "s": "김도연"
+        }
+    ]
+}

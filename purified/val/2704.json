@@ -1,0 +1,121 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "도쿄가 있는 국가는 일본이다. 중국인이 있는 곳은 일본이다. 일본의 수도는 도쿄이다. 중국인은 일본에 있는 민족 중 하나다. 기독교 청년회의 본부가 있는 곳은 도쿄다. 윤보선은 상하이 시에서 사망했다.",
+    "entities": {
+        "기독교청년회": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기독교청년회"
+        },
+        "도쿄": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿄"
+        },
+        "상하이_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/상하이_시"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "중국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국인"
+        }
+    },
+    "id": 2704,
+    "pid": "541-29",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "있는곳(populationPlace)",
+            "s": "중국인"
+        },
+        {
+            "Rep": true,
+            "o": "도쿄",
+            "p": "수도(capital)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "중국인",
+            "p": "민족(ethnicGroup)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "도쿄",
+            "p": "본부/본사(headquarter)",
+            "s": "기독교청년회"
+        },
+        {
+            "Rep": true,
+            "o": "상하이_시",
+            "p": "사망지(deathPlace)",
+            "s": "윤보선"
+        }
+    ]
+}

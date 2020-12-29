@@ -1,0 +1,137 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "미국인은 영국에 있다. 박사의 직업은 수학자이다.",
+    "entities": {
+        "물리학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/물리학자"
+        },
+        "미국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film",
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국인"
+        },
+        "박사": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Award",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박사"
+        },
+        "수학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학자"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        }
+    },
+    "id": 2083,
+    "pid": "303-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "미국인"
+        },
+        {
+            "Rep": true,
+            "o": "영국",
+            "p": "있는곳(populationPlace)",
+            "s": "미국인"
+        },
+        {
+            "Rep": false,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "물리학자"
+        },
+        {
+            "Rep": true,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "박사"
+        },
+        {
+            "Rep": false,
+            "o": "물리학자",
+            "p": "직업(occupation)",
+            "s": "미국인"
+        },
+        {
+            "Rep": false,
+            "o": "물리학자",
+            "p": "직업(occupation)",
+            "s": "박사"
+        },
+        {
+            "Rep": false,
+            "o": "물리학자",
+            "p": "직업(occupation)",
+            "s": "수학자"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "박사"
+        },
+        {
+            "Rep": false,
+            "o": "물리학자",
+            "p": "직업(occupation)",
+            "s": "영국"
+        }
+    ]
+}

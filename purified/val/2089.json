@@ -1,0 +1,77 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        }
+    ],
+    "Text": "햄버거 스테이크는 빵이다. 빵가루도 빵이다.",
+    "entities": {
+        "빵": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빵"
+        },
+        "빵가루": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빵가루"
+        },
+        "햄버그_스테이크": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/햄버그_스테이크"
+        }
+    },
+    "id": 2089,
+    "pid": "322-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "빵",
+            "p": "타입/종류(type)",
+            "s": "햄버그_스테이크"
+        },
+        {
+            "Rep": true,
+            "o": "빵",
+            "p": "타입/종류(type)",
+            "s": "빵가루"
+        },
+        {
+            "Rep": false,
+            "o": "햄버그_스테이크",
+            "p": "타입/종류(type)",
+            "s": "빵가루"
+        },
+        {
+            "Rep": false,
+            "o": "빵가루",
+            "p": "타입/종류(type)",
+            "s": "햄버그_스테이크"
+        }
+    ]
+}

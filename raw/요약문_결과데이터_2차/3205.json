@@ -1,0 +1,159 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이승만 내각에서 국무총리는 김성수, 김규식이었다. 남조선로동당의 지도자는 이승만, 김규식, 김구, 김성수다. 김구의 후임은 이승만이다. 김성수, 김규식이 있는 정당은 남조선로동당이다. 김성수의 전임자는 김구, 김규식이다. 김규식의 후임은 이승만이다. 김구의 후임은 김성수다. ",
+    "entities": {
+        "김구": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김구"
+        },
+        "김규식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김규식"
+        },
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "남조선로동당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남조선로동당"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        }
+    },
+    "id": 3205,
+    "pid": "800-122",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김성수",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "이승만",
+            "p": "지도자(leader)",
+            "s": "남조선로동당"
+        },
+        {
+            "Rep": true,
+            "o": "김규식",
+            "p": "지도자(leader)",
+            "s": "남조선로동당"
+        },
+        {
+            "Rep": true,
+            "o": "이승만",
+            "p": "계승자/후임(successor)",
+            "s": "김구"
+        },
+        {
+            "Rep": true,
+            "o": "김구",
+            "p": "지도자(leader)",
+            "s": "남조선로동당"
+        },
+        {
+            "Rep": true,
+            "o": "김규식",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "남조선로동당",
+            "p": "정당(party)",
+            "s": "김성수"
+        },
+        {
+            "Rep": true,
+            "o": "김구",
+            "p": "전임자(predecessor)",
+            "s": "김성수"
+        },
+        {
+            "Rep": true,
+            "o": "김규식",
+            "p": "전임자(predecessor)",
+            "s": "김성수"
+        },
+        {
+            "Rep": true,
+            "o": "이승만",
+            "p": "계승자/후임(successor)",
+            "s": "김규식"
+        },
+        {
+            "Rep": true,
+            "o": "김성수",
+            "p": "지도자(leader)",
+            "s": "남조선로동당"
+        },
+        {
+            "Rep": true,
+            "o": "김성수",
+            "p": "계승자/후임(successor)",
+            "s": "김구"
+        },
+        {
+            "Rep": true,
+            "o": "남조선로동당",
+            "p": "정당(party)",
+            "s": "김규식"
+        }
+    ]
+}

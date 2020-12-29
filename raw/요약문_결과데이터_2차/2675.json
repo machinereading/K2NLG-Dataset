@@ -1,0 +1,153 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "윤보선의 직업은 정치가며 정당은 신민당이다. ",
+    "entities": {
+        "남조선로동당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남조선로동당"
+        },
+        "민주공화당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주공화당_(대한민국)"
+        },
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        },
+        "신민당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신민당_(1967년)"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "정치가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정치가"
+        }
+    },
+    "id": 2675,
+    "pid": "541-219",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "민주공화당",
+            "p": "정당(party)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "계승자/후임(successor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "정치가",
+            "p": "직업(occupation)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "지도자(leader)",
+            "s": "남조선로동당"
+        },
+        {
+            "Rep": true,
+            "o": "신민당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "지도자(leader)",
+            "s": "민주공화당"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "지도자(leader)",
+            "s": "신민당"
+        },
+        {
+            "Rep": false,
+            "o": "신민당",
+            "p": "정당(party)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "남조선로동당",
+            "p": "정당(party)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "남조선로동당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "남조선로동당",
+            "p": "정당(party)",
+            "s": "신민당"
+        }
+    ]
+}

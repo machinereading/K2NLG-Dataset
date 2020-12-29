@@ -1,0 +1,117 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "손견의 자식은 손권이다. 그의 또 다른 자식은 손책이다.",
+    "entities": {
+        "강동군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강동군"
+        },
+        "손견": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손견"
+        },
+        "손권": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손권"
+        },
+        "손책": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손책"
+        },
+        "수성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수성"
+        },
+        "오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오_(삼국)"
+        }
+    },
+    "id": 2152,
+    "pid": "372-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "손권",
+            "p": "자식(child)",
+            "s": "손견"
+        },
+        {
+            "Rep": true,
+            "o": "손책",
+            "p": "자식(child)",
+            "s": "손견"
+        },
+        {
+            "Rep": false,
+            "o": "오",
+            "p": "전임자(predecessor)",
+            "s": "손권"
+        },
+        {
+            "Rep": false,
+            "o": "수성",
+            "p": "~의부분(isPartOf)",
+            "s": "강동군"
+        },
+        {
+            "Rep": false,
+            "o": "손권",
+            "p": "리더이름(leaderName)",
+            "s": "강동군"
+        }
+    ]
+}

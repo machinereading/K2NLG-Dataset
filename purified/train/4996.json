@@ -1,0 +1,130 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 1,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "홍해는 페르시아 만에 있는 지역이다. 홍해는 아라비아 해로 이어지는 지역이다. 홍해는 아덴만으로 이어지는 지역이다. 아덴 만은 아라비아 해에 있는 지역이다.",
+    "entities": {
+        "소말리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소말리아"
+        },
+        "아덴_만": {
+            "ne_type": "LCG_BAY",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아덴_만"
+        },
+        "아라비아_해": {
+            "ne_type": "LCG_OCEAN",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Lake",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아라비아_해"
+        },
+        "인도": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인도"
+        },
+        "페르시아_만": {
+            "ne_type": "LCG_BAY",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페르시아_만"
+        },
+        "홍해": {
+            "ne_type": "LCG_OCEAN",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Lake",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍해"
+        }
+    },
+    "id": 4996,
+    "pid": "495-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "페르시아_만",
+            "p": "지역/분양(region)",
+            "s": "홍해"
+        },
+        {
+            "Rep": true,
+            "o": "아라비아_해",
+            "p": "지역/분양(region)",
+            "s": "홍해"
+        },
+        {
+            "Rep": true,
+            "o": "아덴_만",
+            "p": "지역/분양(region)",
+            "s": "홍해"
+        },
+        {
+            "Rep": true,
+            "o": "아라비아_해",
+            "p": "지역/분양(region)",
+            "s": "아덴_만"
+        },
+        {
+            "Rep": false,
+            "o": "소말리아",
+            "p": "국가(country)",
+            "s": "인도"
+        },
+        {
+            "Rep": false,
+            "o": "페르시아_만",
+            "p": "지역/분양(region)",
+            "s": "아덴_만"
+        },
+        {
+            "Rep": false,
+            "o": "인도",
+            "p": "국가(country)",
+            "s": "소말리아"
+        }
+    ]
+}

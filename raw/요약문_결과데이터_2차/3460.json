@@ -1,0 +1,106 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "만주에서 가장 큰 도시는 구미시다. 한국인은 대한민국 임시 정부에 있는 민족 중 하나다. 한국인은 대한민국 임시 정부에도 있다.",
+    "entities": {
+        "구미시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/구미시"
+        },
+        "대한민국_임시_정부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_임시_정부"
+        },
+        "만주": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주"
+        },
+        "인두세": {
+            "ne_type": "CV_TAX",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Tax"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인두세"
+        },
+        "한국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국인"
+        }
+    },
+    "id": 3460,
+    "pid": "831-22",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "구미시",
+            "p": "가장큰도시(largestCity)",
+            "s": "만주"
+        },
+        {
+            "Rep": true,
+            "o": "한국인",
+            "p": "민족(ethnicGroup)",
+            "s": "대한민국_임시_정부"
+        },
+        {
+            "Rep": false,
+            "o": "한국인",
+            "p": "직업(occupation)",
+            "s": "인두세"
+        },
+        {
+            "Rep": false,
+            "o": "인두세",
+            "p": "있는곳(populationPlace)",
+            "s": "한국인"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_임시_정부",
+            "p": "있는곳(populationPlace)",
+            "s": "한국인"
+        }
+    ]
+}

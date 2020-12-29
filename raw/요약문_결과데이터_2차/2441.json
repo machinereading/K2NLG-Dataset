@@ -1,0 +1,160 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        }
+    ],
+    "Text": "베이징 시는 쓰촨 성에 속한다. 충칭 시는 쓰촨 성에 속한다. 옌시산의 정당은 중국국민당이다. 중국국민당의 지도자는 장제스다. 베이징 시는 충칭 시에 속한다. 중국국민당의 본부는 충충 시에 있다. 충칭 시는 베이징 시에 속한다. 장제스의 정당은 중국국민당이다. 충칭 시는 산시 성에 속한다. ",
+    "entities": {
+        "베이징_시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베이징_시"
+        },
+        "산시_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/산시_성_(섬서성)"
+        },
+        "쓰촨_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쓰촨_성"
+        },
+        "옌시산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/옌시산"
+        },
+        "장제스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장제스"
+        },
+        "중국국민당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국국민당"
+        },
+        "충칭_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/충칭_시"
+        }
+    },
+    "id": 2441,
+    "pid": "480-58",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "쓰촨_성",
+            "p": "~의부분(isPartOf)",
+            "s": "베이징_시"
+        },
+        {
+            "Rep": true,
+            "o": "쓰촨_성",
+            "p": "~의부분(isPartOf)",
+            "s": "충칭_시"
+        },
+        {
+            "Rep": true,
+            "o": "중국국민당",
+            "p": "정당(party)",
+            "s": "옌시산"
+        },
+        {
+            "Rep": true,
+            "o": "장제스",
+            "p": "지도자(leader)",
+            "s": "중국국민당"
+        },
+        {
+            "Rep": true,
+            "o": "충칭_시",
+            "p": "~의부분(isPartOf)",
+            "s": "베이징_시"
+        },
+        {
+            "Rep": true,
+            "o": "충칭_시",
+            "p": "본부/본사(headquarter)",
+            "s": "중국국민당"
+        },
+        {
+            "Rep": true,
+            "o": "베이징_시",
+            "p": "~의부분(isPartOf)",
+            "s": "충칭_시"
+        },
+        {
+            "Rep": true,
+            "o": "중국국민당",
+            "p": "정당(party)",
+            "s": "장제스"
+        },
+        {
+            "Rep": true,
+            "o": "산시_성",
+            "p": "~의부분(isPartOf)",
+            "s": "충칭_시"
+        },
+        {
+            "Rep": false,
+            "o": "쓰촨_성",
+            "p": "~의부분(isPartOf)",
+            "s": "산시_성"
+        }
+    ]
+}

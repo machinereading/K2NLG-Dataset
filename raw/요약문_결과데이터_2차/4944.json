@@ -1,0 +1,83 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "만주사변이 일어난 장소는 일본이다. 루거우차오 사건은 만주사변을 이루는 한 전쟁이다.",
+    "entities": {
+        "루거우차오_사건": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루거우차오_사건"
+        },
+        "만주사변": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주사변"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        }
+    },
+    "id": 4944,
+    "pid": "480-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "장소(place)",
+            "s": "만주사변"
+        },
+        {
+            "Rep": true,
+            "o": "만주사변",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "루거우차오_사건"
+        },
+        {
+            "Rep": false,
+            "o": "루거우차오_사건",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "만주사변"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "장소(place)",
+            "s": "루거우차오_사건"
+        }
+    ]
+}

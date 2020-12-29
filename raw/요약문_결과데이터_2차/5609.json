@@ -1,0 +1,108 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "페르낭 브로델은 지리학으로 잘 알려졌다. 그는 프랑스의 지도자였다.",
+    "entities": {
+        "인류학": {
+            "ne_type": "FD_SOCIAL_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인류학"
+        },
+        "지리학": {
+            "ne_type": "FD_SOCIAL_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지리학"
+        },
+        "페르낭_브로델": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페르낭_브로델"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 5609,
+    "pid": "716-10",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "지리학",
+            "p": "~로알려진(knownFor)",
+            "s": "페르낭_브로델"
+        },
+        {
+            "Rep": false,
+            "o": "인류학",
+            "p": "~로알려진(knownFor)",
+            "s": "페르낭_브로델"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "인류학"
+        },
+        {
+            "Rep": false,
+            "o": "인류학",
+            "p": "언어(language)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "지리학"
+        },
+        {
+            "Rep": false,
+            "o": "지리학",
+            "p": "언어(language)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "페르낭_브로델",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        }
+    ]
+}

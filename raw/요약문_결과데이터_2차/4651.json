@@ -1,0 +1,75 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "한국대학총학생회연합은 대한민국에 있는 단체다.",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "유엔_인권_이사회": {
+            "ne_type": "OG_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유엔_인권_이사회"
+        },
+        "한국대학총학생회연합": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국대학총학생회연합"
+        }
+    },
+    "id": 4651,
+    "pid": "350-25",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "유엔_인권_이사회",
+            "p": "수도(capital)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "위치/지역(location)",
+            "s": "한국대학총학생회연합"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "위치/지역(location)",
+            "s": "유엔_인권_이사회"
+        }
+    ]
+}

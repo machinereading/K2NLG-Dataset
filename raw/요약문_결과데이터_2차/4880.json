@@ -1,0 +1,84 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "바스티유 감옥은 프랑스 혁명의 일부분이다. 루이 16세는 프랑스 혁명에 참전했다.",
+    "entities": {
+        "루이_16세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루이_16세"
+        },
+        "바스티유_감옥": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Prison",
+                "http://dbpedia.org/ontology/Castle",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/MilitaryStructure",
+                "http://dbpedia.org/ontology/Building",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바스티유_감옥"
+        },
+        "프랑스_혁명": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스_혁명"
+        }
+    },
+    "id": 4880,
+    "pid": "448-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "프랑스_혁명",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "바스티유_감옥"
+        },
+        {
+            "Rep": true,
+            "o": "프랑스_혁명",
+            "p": "전투(battle)",
+            "s": "루이_16세"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스_혁명",
+            "p": "결과(result)",
+            "s": "바스티유_감옥"
+        }
+    ]
+}

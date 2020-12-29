@@ -1,0 +1,115 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "막스 플랑크의 국적은 독일이다. 그는 독일의 지도자였다.",
+    "entities": {
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "막스_플랑크": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/막스_플랑크"
+        },
+        "뮌헨": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뮌헨"
+        },
+        "베를린": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베를린"
+        },
+        "킬": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/킬_(슐레스비히홀슈타인_주)"
+        }
+    },
+    "id": 1188,
+    "pid": "165-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "국적(nationality)",
+            "s": "막스_플랑크"
+        },
+        {
+            "Rep": false,
+            "o": "뮌헨",
+            "p": "도시(city)",
+            "s": "킬"
+        },
+        {
+            "Rep": false,
+            "o": "베를린",
+            "p": "도시(city)",
+            "s": "킬"
+        },
+        {
+            "Rep": false,
+            "o": "막스_플랑크",
+            "p": "리더이름(leaderName)",
+            "s": "킬"
+        },
+        {
+            "Rep": true,
+            "o": "막스_플랑크",
+            "p": "지도자(leader)",
+            "s": "독일"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "발터 울브리히트는 제2차 세계 대전을 지휘한 지휘관이다. 그는 제2차 세계 대전에 참전했다.",
+    "entities": {
+        "발터_울브리히트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/발터_울브리히트"
+        },
+        "이오시프_스탈린": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이오시프_스탈린"
+        },
+        "제2차_세계_대전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제2차_세계_대전"
+        }
+    },
+    "id": 4977,
+    "pid": "484-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "이오시프_스탈린",
+            "p": "지휘관(commander)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": true,
+            "o": "발터_울브리히트",
+            "p": "지휘관(commander)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": true,
+            "o": "제2차_세계_대전",
+            "p": "전투(battle)",
+            "s": "발터_울브리히트"
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 2,
+            "Restriction": false
+        }
+    ],
+    "Text": "교황 바오로 3세의 포지션은 교황이다. 그는 헝가리를 이끌었다. 그의 계승자는 조반니 디 코시모 데 메디치가 있다. 그는 독일도 이끌었다. 그는 교황의 계승자이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_바오로_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_바오로_3세"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "조반니_디_코시모_데_메디치": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조반니_디_코시모_데_메디치"
+        },
+        "헝가리": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Language",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헝가리"
+        }
+    },
+    "id": 4400,
+    "pid": "48-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_바오로_3세"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "조반니_디_코시모_데_메디치"
+        },
+        {
+            "Rep": false,
+            "o": "헝가리",
+            "p": "국가(country)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "헝가리"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "지도자(leader)",
+            "s": "헝가리"
+        },
+        {
+            "Rep": true,
+            "o": "교황_바오로_3세",
+            "p": "지도자(leader)",
+            "s": "헝가리"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "지도자(leader)",
+            "s": "독일"
+        },
+        {
+            "Rep": true,
+            "o": "조반니_디_코시모_데_메디치",
+            "p": "계승자/후임(successor)",
+            "s": "교황_바오로_3세"
+        },
+        {
+            "Rep": true,
+            "o": "교황_바오로_3세",
+            "p": "지도자(leader)",
+            "s": "독일"
+        },
+        {
+            "Rep": true,
+            "o": "교황_바오로_3세",
+            "p": "계승자/후임(successor)",
+            "s": "교황"
+        }
+    ]
+}

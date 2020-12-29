@@ -1,0 +1,148 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "쑨원이 가입된 정당은 중국동맹회이다. 쑨원은 중화민국에 안장되어있다. 쑨원의 후임은 위안스카이이다. 청나라의 리더는 위안스카이이다. 청나라의 리더는 쑨원이다. 중화민국의 리더는 쑨원이다. 중화민국의 리더는 위안스카이이다. 중국동맹회는 중화민국의 정당이다.",
+    "entities": {
+        "쑨원": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쑨원"
+        },
+        "위안스카이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위안스카이"
+        },
+        "중국동맹회": {
+            "ne_type": "OG_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국동맹회"
+        },
+        "중화민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화민국"
+        },
+        "청나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청나라"
+        }
+    },
+    "id": 1323,
+    "pid": "195-85",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "중국동맹회",
+            "p": "정당(party)",
+            "s": "쑨원"
+        },
+        {
+            "Rep": true,
+            "o": "중화민국",
+            "p": "안식처(restingPlace)",
+            "s": "쑨원"
+        },
+        {
+            "Rep": true,
+            "o": "위안스카이",
+            "p": "계승자/후임(successor)",
+            "s": "쑨원"
+        },
+        {
+            "Rep": true,
+            "o": "위안스카이",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        },
+        {
+            "Rep": true,
+            "o": "쑨원",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        },
+        {
+            "Rep": true,
+            "o": "쑨원",
+            "p": "리더이름(leaderName)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": false,
+            "o": "중국동맹회",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        },
+        {
+            "Rep": true,
+            "o": "위안스카이",
+            "p": "리더이름(leaderName)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "청나라"
+        },
+        {
+            "Rep": true,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "중국동맹회"
+        }
+    ]
+}

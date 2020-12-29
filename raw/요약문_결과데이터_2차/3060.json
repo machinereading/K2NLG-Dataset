@@ -1,0 +1,104 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "타이에서 가장 큰 도시는 방콕이다. 이산의 나라는 타이이다.",
+    "entities": {
+        "라오어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라오어"
+        },
+        "방콕": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/방콕"
+        },
+        "이산": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이산_(타이)"
+        },
+        "타이": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/타이"
+        },
+        "태국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태국어"
+        }
+    },
+    "id": 3060,
+    "pid": "700-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "타이",
+            "p": "국가(country)",
+            "s": "방콕"
+        },
+        {
+            "Rep": false,
+            "o": "태국어",
+            "p": "계통(languageFamily)",
+            "s": "라오어"
+        },
+        {
+            "Rep": true,
+            "o": "타이",
+            "p": "국가(country)",
+            "s": "이산"
+        },
+        {
+            "Rep": true,
+            "o": "방콕",
+            "p": "가장큰도시(largestCity)",
+            "s": "타이"
+        },
+        {
+            "Rep": false,
+            "o": "라오어",
+            "p": "계통(languageFamily)",
+            "s": "태국어"
+        }
+    ]
+}

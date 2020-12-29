@@ -1,0 +1,175 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "권승렬의 뒤는 전예용이 이어갔다. 전예용의 뒤는 이종찬이 이어갔다. ",
+    "entities": {
+        "권승렬": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/권승렬"
+        },
+        "이병도": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이병도"
+        },
+        "이종찬": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이종찬_(1936년)"
+        },
+        "이해익": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이해익_(1849년)"
+        },
+        "이호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이호"
+        },
+        "전예용": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전예용"
+        },
+        "허정": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/허정"
+        }
+    },
+    "id": 3476,
+    "pid": "831-67",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "전예용",
+            "p": "계승자/후임(successor)",
+            "s": "권승렬"
+        },
+        {
+            "Rep": false,
+            "o": "이종찬",
+            "p": "계승자/후임(successor)",
+            "s": "권승렬"
+        },
+        {
+            "Rep": false,
+            "o": "이종찬",
+            "p": "계승자/후임(successor)",
+            "s": "이호"
+        },
+        {
+            "Rep": true,
+            "o": "이종찬",
+            "p": "계승자/후임(successor)",
+            "s": "전예용"
+        },
+        {
+            "Rep": false,
+            "o": "이종찬",
+            "p": "계승자/후임(successor)",
+            "s": "이병도"
+        },
+        {
+            "Rep": false,
+            "o": "이종찬",
+            "p": "계승자/후임(successor)",
+            "s": "허정"
+        },
+        {
+            "Rep": false,
+            "o": "이해익",
+            "p": "계승자/후임(successor)",
+            "s": "전예용"
+        },
+        {
+            "Rep": false,
+            "o": "이호",
+            "p": "계승자/후임(successor)",
+            "s": "허정"
+        },
+        {
+            "Rep": false,
+            "o": "허정",
+            "p": "전임자(predecessor)",
+            "s": "전예용"
+        },
+        {
+            "Rep": false,
+            "o": "이호",
+            "p": "계승자/후임(successor)",
+            "s": "전예용"
+        },
+        {
+            "Rep": false,
+            "o": "이해익",
+            "p": "계승자/후임(successor)",
+            "s": "권승렬"
+        },
+        {
+            "Rep": false,
+            "o": "이해익",
+            "p": "~의부분(isPartOf)",
+            "s": "이병도"
+        },
+        {
+            "Rep": false,
+            "o": "권승렬",
+            "p": "계승자/후임(successor)",
+            "s": "허정"
+        }
+    ]
+}

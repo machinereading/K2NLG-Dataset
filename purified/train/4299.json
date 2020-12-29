@@ -1,0 +1,189 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "헨리 2세는 잉글랜드의 리더였다. 그는 잉글랜드에서 사망했다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_인노첸시오_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_인노첸시오_4세"
+        },
+        "대주교": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대주교"
+        },
+        "보헤미아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/HistoricalRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보헤미아"
+        },
+        "잉글랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잉글랜드"
+        },
+        "캔터베리": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캔터베리"
+        },
+        "포르투갈": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포르투갈"
+        },
+        "포르투갈의_아폰수_5세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포르투갈의_아폰수_5세"
+        },
+        "헨리_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헨리_2세"
+        }
+    },
+    "id": 4299,
+    "pid": "4-19",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "포르투갈의_아폰수_5세",
+            "p": "지도자(leader)",
+            "s": "포르투갈"
+        },
+        {
+            "Rep": true,
+            "o": "헨리_2세",
+            "p": "리더이름(leaderName)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": true,
+            "o": "잉글랜드",
+            "p": "사망지(deathPlace)",
+            "s": "헨리_2세"
+        },
+        {
+            "Rep": false,
+            "o": "포르투갈의_아폰수_5세",
+            "p": "리더이름(leaderName)",
+            "s": "포르투갈"
+        },
+        {
+            "Rep": false,
+            "o": "캔터베리",
+            "p": "사망지(deathPlace)",
+            "s": "헨리_2세"
+        },
+        {
+            "Rep": false,
+            "o": "잉글랜드",
+            "p": "사망지(deathPlace)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "대주교"
+        },
+        {
+            "Rep": false,
+            "o": "교황_인노첸시오_4세",
+            "p": "리더이름(leaderName)",
+            "s": "보헤미아"
+        },
+        {
+            "Rep": false,
+            "o": "잉글랜드",
+            "p": "사망지(deathPlace)",
+            "s": "대주교"
+        },
+        {
+            "Rep": false,
+            "o": "잉글랜드",
+            "p": "~의부분(isPartOf)",
+            "s": "캔터베리"
+        },
+        {
+            "Rep": false,
+            "o": "헨리_2세",
+            "p": "리더이름(leaderName)",
+            "s": "캔터베리"
+        }
+    ]
+}

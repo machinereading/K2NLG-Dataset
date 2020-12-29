@@ -1,0 +1,95 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "빌 게이츠는 워싱턴 주에서 태어났다. 그의 자식은 스티브 발머다. ",
+    "entities": {
+        "게이츠": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/TelevisionShow"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/게이츠_(드라마)"
+        },
+        "빌_게이츠": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빌_게이츠"
+        },
+        "스티브_발머": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스티브_발머"
+        },
+        "워싱턴_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/워싱턴_주"
+        },
+        "인도": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인도"
+        }
+    },
+    "id": 2768,
+    "pid": "553-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "워싱턴_주",
+            "p": "출생지(birthPlace)",
+            "s": "빌_게이츠"
+        },
+        {
+            "Rep": false,
+            "o": "인도",
+            "p": "국가(country)",
+            "s": "게이츠"
+        },
+        {
+            "Rep": true,
+            "o": "스티브_발머",
+            "p": "자식(child)",
+            "s": "빌_게이츠"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "유진산의 전임자는 윤보선이다. 윤보선의 전임자는 김병로다.",
+    "entities": {
+        "김병로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김병로"
+        },
+        "유진산": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유진산"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "이범석": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이범석_(1900년)"
+        }
+    },
+    "id": 3437,
+    "pid": "831-103",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "전임자(predecessor)",
+            "s": "유진산"
+        },
+        {
+            "Rep": false,
+            "o": "김병로",
+            "p": "전임자(predecessor)",
+            "s": "유진산"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "전임자(predecessor)",
+            "s": "김병로"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "전임자(predecessor)",
+            "s": "이범석"
+        },
+        {
+            "Rep": true,
+            "o": "김병로",
+            "p": "전임자(predecessor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "김병로",
+            "p": "전임자(predecessor)",
+            "s": "이범석"
+        },
+        {
+            "Rep": false,
+            "o": "이범석",
+            "p": "전임자(predecessor)",
+            "s": "유진산"
+        },
+        {
+            "Rep": false,
+            "o": "이범석",
+            "p": "전임자(predecessor)",
+            "s": "김병로"
+        },
+        {
+            "Rep": false,
+            "o": "유진산",
+            "p": "전임자(predecessor)",
+            "s": "이범석"
+        }
+    ]
+}

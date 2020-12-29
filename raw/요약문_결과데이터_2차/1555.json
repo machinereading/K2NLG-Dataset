@@ -1,0 +1,165 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "이승만은 대한민국 국회의 지도자이다. 그의 직함은 의원이다.",
+    "entities": {
+        "대한민국_국회": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Legislature"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국회"
+        },
+        "무소속": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/무소속"
+        },
+        "신흥우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신흥우"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "장면": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장면"
+        }
+    },
+    "id": 1555,
+    "pid": "266-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "장면",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "이승만",
+            "p": "지도자(leader)",
+            "s": "대한민국_국회"
+        },
+        {
+            "Rep": false,
+            "o": "이승만",
+            "p": "지도자(leader)",
+            "s": "무소속"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_국회",
+            "p": "직함/포지션(position)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "장면"
+        },
+        {
+            "Rep": false,
+            "o": "무소속",
+            "p": "정당(party)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "신흥우",
+            "p": "전임자(predecessor)",
+            "s": "장면"
+        },
+        {
+            "Rep": false,
+            "o": "신흥우",
+            "p": "전임자(predecessor)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "이승만",
+            "p": "지도자(leader)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "대한민국_국회"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "신흥우"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_국회",
+            "p": "직함/포지션(position)",
+            "s": "의원"
+        }
+    ]
+}

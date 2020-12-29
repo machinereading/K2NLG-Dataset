@@ -1,0 +1,102 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "남양주시에서는 정약용이 태어났다. 남양주시는 경기도의 지역이다.",
+    "entities": {
+        "경기도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경기도"
+        },
+        "남양주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남양주시"
+        },
+        "정약용": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정약용"
+        }
+    },
+    "id": 3326,
+    "pid": "818-79",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "남양주시",
+            "p": "출생지(birthPlace)",
+            "s": "정약용"
+        },
+        {
+            "Rep": true,
+            "o": "경기도",
+            "p": "지역/분양(region)",
+            "s": "남양주시"
+        },
+        {
+            "Rep": false,
+            "o": "경기도",
+            "p": "지역/분양(region)",
+            "s": "정약용"
+        },
+        {
+            "Rep": false,
+            "o": "남양주시",
+            "p": "지역/분양(region)",
+            "s": "정약용"
+        },
+        {
+            "Rep": false,
+            "o": "정약용",
+            "p": "~의부분(isPartOf)",
+            "s": "경기도"
+        },
+        {
+            "Rep": false,
+            "o": "남양주시",
+            "p": "~의부분(isPartOf)",
+            "s": "경기도"
+        },
+        {
+            "Rep": false,
+            "o": "남양주시",
+            "p": "지역/분양(region)",
+            "s": "경기도"
+        }
+    ]
+}

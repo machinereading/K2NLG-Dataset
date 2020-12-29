@@ -1,0 +1,79 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "임페리얼 칼리지 런던과 런던 대학교는 제1차 세계대전에 참여하였다. 런던 대학교는 임페리얼 칼리지 런던 소속이다.",
+    "entities": {
+        "런던_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/런던_대학교"
+        },
+        "임페리얼_칼리지_런던": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/임페리얼_칼리지_런던"
+        },
+        "제1차_세계_대전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제1차_세계_대전"
+        }
+    },
+    "id": 3782,
+    "pid": "188-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "제1차_세계_대전",
+            "p": "전투(battle)",
+            "s": "임페리얼_칼리지_런던"
+        },
+        {
+            "Rep": true,
+            "o": "제1차_세계_대전",
+            "p": "전투(battle)",
+            "s": "런던_대학교"
+        },
+        {
+            "Rep": true,
+            "o": "임페리얼_칼리지_런던",
+            "p": "기원/소속(affiliation)",
+            "s": "런던_대학교"
+        }
+    ]
+}

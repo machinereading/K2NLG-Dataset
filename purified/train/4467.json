@@ -1,0 +1,215 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "지그문트 3세는 폴란드의 지도자다.",
+    "entities": {
+        "개신교": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개신교"
+        },
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_그레고리오_15세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_그레고리오_15세"
+        },
+        "신성_로마_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신성_로마_제국"
+        },
+        "오스만_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스만_제국"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        },
+        "지그문트_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지그문트_3세"
+        },
+        "페르디난트_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페르디난트_2세"
+        },
+        "폴란드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/폴란드"
+        }
+    },
+    "id": 4467,
+    "pid": "57-9",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "페르디난트_2세",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "지그문트_3세",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "지그문트_3세",
+            "p": "리더이름(leaderName)",
+            "s": "오스만_제국"
+        },
+        {
+            "Rep": true,
+            "o": "지그문트_3세",
+            "p": "지도자(leader)",
+            "s": "폴란드"
+        },
+        {
+            "Rep": false,
+            "o": "페르디난트_2세",
+            "p": "리더이름(leaderName)",
+            "s": "오스만_제국"
+        },
+        {
+            "Rep": false,
+            "o": "개신교",
+            "p": "종교(religion)",
+            "s": "지그문트_3세"
+        },
+        {
+            "Rep": false,
+            "o": "지그문트_3세",
+            "p": "리더이름(leaderName)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "페르디난트_2세",
+            "p": "리더이름(leaderName)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "지그문트_3세",
+            "p": "리더이름(leaderName)",
+            "s": "폴란드"
+        },
+        {
+            "Rep": false,
+            "o": "유럽",
+            "p": "위치/지역(location)",
+            "s": "오스만_제국"
+        },
+        {
+            "Rep": false,
+            "o": "페르디난트_2세",
+            "p": "리더이름(leaderName)",
+            "s": "폴란드"
+        },
+        {
+            "Rep": false,
+            "o": "페르디난트_2세",
+            "p": "지도자(leader)",
+            "s": "폴란드"
+        },
+        {
+            "Rep": false,
+            "o": "개신교",
+            "p": "종교(religion)",
+            "s": "페르디난트_2세"
+        },
+        {
+            "Rep": false,
+            "o": "폴란드",
+            "p": "국가(country)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "교황_그레고리오_15세"
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "정오의 희망곡의 장르는 라디오이다. SBS 인기가요의 장르도 라디오다.",
+    "entities": {
+        "SBS_인기가요": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/TelevisionShow",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/SBS_인기가요"
+        },
+        "라디오": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Broadcaster",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MusicGenre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라디오"
+        },
+        "리쿠드": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리쿠드"
+        },
+        "벅스": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/벅스_(웹사이트)"
+        },
+        "이수영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Band",
+                "http://dbpedia.org/ontology/Group"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이수영"
+        },
+        "정오의_희망곡": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/RadioProgram",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정오의_희망곡"
+        },
+        "팬텀엔터테인먼트그룹": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/RecordLabel",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팬텀엔터테인먼트그룹"
+        }
+    },
+    "id": 1349,
+    "pid": "199-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "라디오",
+            "p": "장르(genre)",
+            "s": "정오의_희망곡"
+        },
+        {
+            "Rep": true,
+            "o": "라디오",
+            "p": "장르(genre)",
+            "s": "SBS_인기가요"
+        },
+        {
+            "Rep": false,
+            "o": "라디오",
+            "p": "장르(genre)",
+            "s": "벅스"
+        },
+        {
+            "Rep": false,
+            "o": "리쿠드",
+            "p": "소유조직(owningOrganisation)",
+            "s": "이수영"
+        },
+        {
+            "Rep": false,
+            "o": "라디오",
+            "p": "타입/종류(type)",
+            "s": "벅스"
+        },
+        {
+            "Rep": false,
+            "o": "팬텀엔터테인먼트그룹",
+            "p": "소유조직(owningOrganisation)",
+            "s": "이수영"
+        },
+        {
+            "Rep": false,
+            "o": "라디오",
+            "p": "타입/종류(type)",
+            "s": "SBS_인기가요"
+        },
+        {
+            "Rep": false,
+            "o": "라디오",
+            "p": "타입/종류(type)",
+            "s": "정오의_희망곡"
+        }
+    ]
+}

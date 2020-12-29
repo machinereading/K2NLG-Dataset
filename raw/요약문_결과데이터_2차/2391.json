@@ -1,0 +1,171 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "서프랑크 왕국을 이끈 건 카를 2세이다. 그의 후임으로 루트비히 1세가 서프랑크 왕국을 다스렸다.",
+    "entities": {
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "동프랑크_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동프랑크_왕국"
+        },
+        "루트비히_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루트비히_1세_(프랑크)"
+        },
+        "서프랑크_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서프랑크_왕국"
+        },
+        "손권": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손권"
+        },
+        "카를_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카를_2세_(서프랑크)"
+        },
+        "프랑크_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑크_왕국"
+        }
+    },
+    "id": 2391,
+    "pid": "474-33",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "카를_2세",
+            "p": "리더이름(leaderName)",
+            "s": "서프랑크_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "손권",
+            "p": "리더이름(leaderName)",
+            "s": "서프랑크_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "손권",
+            "p": "리더이름(leaderName)",
+            "s": "동프랑크_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "카를_2세",
+            "p": "리더이름(leaderName)",
+            "s": "동프랑크_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "손권",
+            "p": "리더이름(leaderName)",
+            "s": "프랑크_왕국"
+        },
+        {
+            "Rep": true,
+            "o": "루트비히_1세",
+            "p": "계승자/후임(successor)",
+            "s": "카를_2세"
+        },
+        {
+            "Rep": true,
+            "o": "루트비히_1세",
+            "p": "리더이름(leaderName)",
+            "s": "서프랑크_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "손권",
+            "p": "계승자/후임(successor)",
+            "s": "카를_2세"
+        },
+        {
+            "Rep": false,
+            "o": "루트비히_1세",
+            "p": "리더이름(leaderName)",
+            "s": "프랑크_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "카를_2세",
+            "p": "지도자(leader)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "카를_2세",
+            "p": "전임자(predecessor)",
+            "s": "손권"
+        }
+    ]
+}

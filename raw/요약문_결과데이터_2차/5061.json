@@ -1,0 +1,115 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "다이애나 로스의 직업은 작곡가다. ",
+    "entities": {
+        "글래디스_나이트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/글래디스_나이트"
+        },
+        "기자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기자_(직업)"
+        },
+        "다이애나_로스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다이애나_로스"
+        },
+        "손": {
+            "ne_type": "AM_PART",
+            "type": [
+                "http://dbpedia.org/ontology/AnatomicalStructure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손"
+        },
+        "작곡가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작곡가"
+        },
+        "잭슨_5": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Band",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Group"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잭슨_5"
+        }
+    },
+    "id": 5061,
+    "pid": "531-10",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "다이애나_로스"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "손"
+        },
+        {
+            "Rep": false,
+            "o": "기자",
+            "p": "직업(occupation)",
+            "s": "다이애나_로스"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "잭슨_5"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "글래디스_나이트"
+        }
+    ]
+}

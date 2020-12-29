@@ -1,0 +1,77 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": false
+        }
+    ],
+    "Text": "독일인은 콜롬비아에도 있다. 그들은 독일에 있는 민족 중 하나이다.",
+    "entities": {
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "독일인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일인"
+        },
+        "콜롬비아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/콜롬비아"
+        }
+    },
+    "id": 677,
+    "pid": "229-18",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "독일"
+        },
+        {
+            "Rep": true,
+            "o": "콜롬비아",
+            "p": "있는곳(populationPlace)",
+            "s": "독일인"
+        },
+        {
+            "Rep": true,
+            "o": "독일인",
+            "p": "민족(ethnicGroup)",
+            "s": "독일"
+        }
+    ]
+}

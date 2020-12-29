@@ -1,0 +1,123 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "강원용 윤보선 신현확 김수환의 종교는 개신교이다. 개신교 지도자 윤보선의 전임자는 전두환이다.",
+    "entities": {
+        "강원용": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강원용"
+        },
+        "개신교": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개신교"
+        },
+        "김수환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Cardinal",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김수환"
+        },
+        "신현확": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신현확"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "전두환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전두환"
+        }
+    },
+    "id": 5219,
+    "pid": "541-256",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "개신교",
+            "p": "종교(religion)",
+            "s": "강원용"
+        },
+        {
+            "Rep": true,
+            "o": "개신교",
+            "p": "종교(religion)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "개신교",
+            "p": "종교(religion)",
+            "s": "신현확"
+        },
+        {
+            "Rep": true,
+            "o": "개신교",
+            "p": "종교(religion)",
+            "s": "김수환"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "지도자(leader)",
+            "s": "개신교"
+        },
+        {
+            "Rep": true,
+            "o": "전두환",
+            "p": "전임자(predecessor)",
+            "s": "윤보선"
+        }
+    ]
+}

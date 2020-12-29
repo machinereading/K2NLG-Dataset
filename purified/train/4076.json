@@ -1,0 +1,83 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이승만의 정당은 무소속이다. 그가 무소속의 지도자다. ",
+    "entities": {
+        "무소속": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/무소속"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "조봉암": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조봉암"
+        }
+    },
+    "id": 4076,
+    "pid": "266-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "이승만",
+            "p": "지도자(leader)",
+            "s": "무소속"
+        },
+        {
+            "Rep": false,
+            "o": "무소속",
+            "p": "정당(party)",
+            "s": "조봉암"
+        },
+        {
+            "Rep": true,
+            "o": "무소속",
+            "p": "정당(party)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "조봉암",
+            "p": "지도자(leader)",
+            "s": "무소속"
+        }
+    ]
+}

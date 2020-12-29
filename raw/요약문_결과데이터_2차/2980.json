@@ -1,0 +1,177 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "금산군의 안에 밀양시가 있다. 가지산은 금산군에 속한다.",
+    "entities": {
+        "가지산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가지산_(경상도)"
+        },
+        "금산군": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/금산군"
+        },
+        "낙동강": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/River",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/낙동강"
+        },
+        "밀양강": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/River",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/밀양강"
+        },
+        "밀양시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/밀양시"
+        },
+        "하남시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/River",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하남시"
+        }
+    },
+    "id": 2980,
+    "pid": "659-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "금산군",
+            "p": "부분(part)",
+            "s": "밀양시"
+        },
+        {
+            "Rep": false,
+            "o": "밀양강",
+            "p": "지역/분양(region)",
+            "s": "하남시"
+        },
+        {
+            "Rep": false,
+            "o": "밀양시",
+            "p": "지역/분양(region)",
+            "s": "하남시"
+        },
+        {
+            "Rep": false,
+            "o": "금산군",
+            "p": "지역/분양(region)",
+            "s": "하남시"
+        },
+        {
+            "Rep": false,
+            "o": "밀양강",
+            "p": "지역/분양(region)",
+            "s": "밀양시"
+        },
+        {
+            "Rep": false,
+            "o": "하남시",
+            "p": "지역/분양(region)",
+            "s": "밀양시"
+        },
+        {
+            "Rep": false,
+            "o": "밀양시",
+            "p": "지역/분양(region)",
+            "s": "금산군"
+        },
+        {
+            "Rep": false,
+            "o": "밀양강",
+            "p": "~의부분(isPartOf)",
+            "s": "가지산"
+        },
+        {
+            "Rep": true,
+            "o": "금산군",
+            "p": "~의부분(isPartOf)",
+            "s": "가지산"
+        },
+        {
+            "Rep": false,
+            "o": "밀양시",
+            "p": "도시(city)",
+            "s": "낙동강"
+        },
+        {
+            "Rep": false,
+            "o": "가지산",
+            "p": "지역/분양(region)",
+            "s": "밀양시"
+        },
+        {
+            "Rep": false,
+            "o": "하남시",
+            "p": "지역/분양(region)",
+            "s": "금산군"
+        },
+        {
+            "Rep": false,
+            "o": "금산군",
+            "p": "지역/분양(region)",
+            "s": "밀양시"
+        }
+    ]
+}

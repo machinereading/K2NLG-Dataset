@@ -1,0 +1,190 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "이디 아민의 전임자는 밀턴 오보테이다. 이디 아민은 제2차 세계 대전의 지휘관이었다. 이디 아민은 우간다의 지도자이다. 우간다의 지도자는 무테사 2세이다.",
+    "entities": {
+        "농부": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/농부"
+        },
+        "무테사_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/무테사_2세"
+        },
+        "밀턴_오보테": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/밀턴_오보테"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "영국군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국군"
+        },
+        "우간다": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우간다"
+        },
+        "이디_아민": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이디_아민"
+        },
+        "장교": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장교"
+        },
+        "제2차_세계_대전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제2차_세계_대전"
+        },
+        "케냐": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/케냐"
+        }
+    },
+    "id": 4669,
+    "pid": "366-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "우간다",
+            "p": "국가(country)",
+            "s": "이디_아민"
+        },
+        {
+            "Rep": true,
+            "o": "밀턴_오보테",
+            "p": "전임자(predecessor)",
+            "s": "이디_아민"
+        },
+        {
+            "Rep": true,
+            "o": "이디_아민",
+            "p": "지휘관(commander)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": false,
+            "o": "케냐",
+            "p": "국가(country)",
+            "s": "이디_아민"
+        },
+        {
+            "Rep": false,
+            "o": "제2차_세계_대전",
+            "p": "전투(battle)",
+            "s": "이디_아민"
+        },
+        {
+            "Rep": true,
+            "o": "이디_아민",
+            "p": "지도자(leader)",
+            "s": "우간다"
+        },
+        {
+            "Rep": false,
+            "o": "농부",
+            "p": "직업(occupation)",
+            "s": "이디_아민"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "케냐"
+        },
+        {
+            "Rep": false,
+            "o": "장교",
+            "p": "직업(occupation)",
+            "s": "우간다"
+        },
+        {
+            "Rep": true,
+            "o": "무테사_2세",
+            "p": "지도자(leader)",
+            "s": "우간다"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "영국군"
+        }
+    ]
+}

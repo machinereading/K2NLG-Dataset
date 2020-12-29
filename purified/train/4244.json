@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "콘스탄티노폴리스는 오스만 제국의 수도다. 유럽은 콘스탄티노폴리스의 한 부분이다.",
+    "entities": {
+        "십자군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/십자군"
+        },
+        "오스만_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스만_제국"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        },
+        "콘스탄티노폴리스": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/콘스탄티노폴리스"
+        }
+    },
+    "id": 4244,
+    "pid": "33-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "십자군",
+            "p": "~의부분(isPartOf)",
+            "s": "유럽"
+        },
+        {
+            "Rep": true,
+            "o": "콘스탄티노폴리스",
+            "p": "수도(capital)",
+            "s": "오스만_제국"
+        },
+        {
+            "Rep": false,
+            "o": "콘스탄티노폴리스",
+            "p": "~의부분(isPartOf)",
+            "s": "십자군"
+        },
+        {
+            "Rep": false,
+            "o": "유럽",
+            "p": "~의부분(isPartOf)",
+            "s": "십자군"
+        },
+        {
+            "Rep": true,
+            "o": "콘스탄티노폴리스",
+            "p": "~의부분(isPartOf)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "십자군",
+            "p": "~의부분(isPartOf)",
+            "s": "오스만_제국"
+        }
+    ]
+}

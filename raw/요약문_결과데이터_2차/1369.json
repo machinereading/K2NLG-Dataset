@@ -1,0 +1,124 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "방글라데시와 인도의 공용어는 벵골어다. 인도에서 가장 큰 도시는 서벵골 주이다.",
+    "entities": {
+        "라빈드라나트_타고르": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라빈드라나트_타고르"
+        },
+        "방글라데시": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/방글라데시"
+        },
+        "벵골어": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/벵골어"
+        },
+        "서벵골_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서벵골_주"
+        },
+        "인도": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인도"
+        }
+    },
+    "id": 1369,
+    "pid": "204-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "인도",
+            "p": "국가(country)",
+            "s": "서벵골_주"
+        },
+        {
+            "Rep": false,
+            "o": "방글라데시",
+            "p": "국가(country)",
+            "s": "서벵골_주"
+        },
+        {
+            "Rep": false,
+            "o": "방글라데시",
+            "p": "국가(country)",
+            "s": "인도"
+        },
+        {
+            "Rep": false,
+            "o": "인도",
+            "p": "국가(country)",
+            "s": "방글라데시"
+        },
+        {
+            "Rep": false,
+            "o": "벵골어",
+            "p": "언어(language)",
+            "s": "라빈드라나트_타고르"
+        },
+        {
+            "Rep": true,
+            "o": "벵골어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "방글라데시"
+        },
+        {
+            "Rep": true,
+            "o": "서벵골_주",
+            "p": "가장큰도시(largestCity)",
+            "s": "인도"
+        },
+        {
+            "Rep": true,
+            "o": "벵골어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "인도"
+        }
+    ]
+}

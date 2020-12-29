@@ -1,0 +1,146 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "대동강이 있는 국가는 신라다. 신라를 이끈 사람은 당 태종이다. ",
+    "entities": {
+        "고구려": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고구려"
+        },
+        "당_태종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/당_태종"
+        },
+        "당나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/당나라"
+        },
+        "대동강": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/River",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대동강"
+        },
+        "백제": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백제"
+        },
+        "신라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신라"
+        }
+    },
+    "id": 2868,
+    "pid": "631-36",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "당_태종",
+            "p": "리더이름(leaderName)",
+            "s": "당나라"
+        },
+        {
+            "Rep": false,
+            "o": "당나라",
+            "p": "국가(country)",
+            "s": "대동강"
+        },
+        {
+            "Rep": false,
+            "o": "당_태종",
+            "p": "리더이름(leaderName)",
+            "s": "고구려"
+        },
+        {
+            "Rep": false,
+            "o": "신라",
+            "p": "국가(country)",
+            "s": "고구려"
+        },
+        {
+            "Rep": true,
+            "o": "신라",
+            "p": "국가(country)",
+            "s": "대동강"
+        },
+        {
+            "Rep": false,
+            "o": "당_태종",
+            "p": "리더이름(leaderName)",
+            "s": "백제"
+        },
+        {
+            "Rep": true,
+            "o": "당_태종",
+            "p": "리더이름(leaderName)",
+            "s": "신라"
+        },
+        {
+            "Rep": false,
+            "o": "고구려",
+            "p": "국가(country)",
+            "s": "신라"
+        },
+        {
+            "Rep": false,
+            "o": "고구려",
+            "p": "국가(country)",
+            "s": "백제"
+        }
+    ]
+}

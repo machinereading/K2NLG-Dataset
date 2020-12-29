@@ -1,0 +1,133 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "이승철이 소유하고 있는 도쿄 국제공항은 일본에 있다.",
+    "entities": {
+        "대마초": {
+            "ne_type": "PT_GRASS",
+            "type": [
+                "http://dbpedia.org/ontology/Drug",
+                "http://dbpedia.org/ontology/ChemicalSubstance"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대마초"
+        },
+        "도쿄_국제공항": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Airport",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Infrastructure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿄_국제공항"
+        },
+        "독도": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Airport",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Archipelago",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Infrastructure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독도"
+        },
+        "이승철": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승철"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "직원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/직원"
+        }
+    },
+    "id": 3798,
+    "pid": "191-7",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "대마초"
+        },
+        {
+            "Rep": true,
+            "o": "이승철",
+            "p": "소유자/주주(owner)",
+            "s": "도쿄_국제공항"
+        },
+        {
+            "Rep": false,
+            "o": "직원",
+            "p": "직업(occupation)",
+            "s": "이승철"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "위치/지역(location)",
+            "s": "도쿄_국제공항"
+        },
+        {
+            "Rep": false,
+            "o": "직원",
+            "p": "운영(operator)",
+            "s": "독도"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "독도"
+        },
+        {
+            "Rep": false,
+            "o": "대마초",
+            "p": "민족(ethnicGroup)",
+            "s": "일본"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "고려 우왕의 종교는 성리학이다.",
+    "entities": {
+        "고려_공민왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_공민왕"
+        },
+        "고려_우왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_우왕"
+        },
+        "성리학": {
+            "ne_type": "FD_PHILOSOPHY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성리학"
+        },
+        "이색": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이색"
+        },
+        "조선_태조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_태조"
+        },
+        "최영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/최영"
+        }
+    },
+    "id": 5815,
+    "pid": "808-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "성리학",
+            "p": "종교(religion)",
+            "s": "고려_우왕"
+        },
+        {
+            "Rep": false,
+            "o": "성리학",
+            "p": "종교(religion)",
+            "s": "고려_공민왕"
+        },
+        {
+            "Rep": false,
+            "o": "이색",
+            "p": "배우자(spouse)",
+            "s": "고려_우왕"
+        },
+        {
+            "Rep": false,
+            "o": "성리학",
+            "p": "종교(religion)",
+            "s": "이색"
+        },
+        {
+            "Rep": false,
+            "o": "성리학",
+            "p": "종교(religion)",
+            "s": "조선_태조"
+        },
+        {
+            "Rep": false,
+            "o": "성리학",
+            "p": "종교(religion)",
+            "s": "최영"
+        }
+    ]
+}

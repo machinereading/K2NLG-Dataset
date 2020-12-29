@@ -1,0 +1,167 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "신돈은 고려 우왕의 전임자다. 신돈은 수원시에서 사망했다. ",
+    "entities": {
+        "고려_공민왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_공민왕"
+        },
+        "고려_우왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_우왕"
+        },
+        "수원시": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수원시"
+        },
+        "순정왕후": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/순정왕후"
+        },
+        "신돈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신돈"
+        },
+        "한나라": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한나라"
+        }
+    },
+    "id": 3283,
+    "pid": "807-49",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "고려_공민왕",
+            "p": "친척(relative)",
+            "s": "신돈"
+        },
+        {
+            "Rep": false,
+            "o": "고려_우왕",
+            "p": "리더이름(leaderName)",
+            "s": "한나라"
+        },
+        {
+            "Rep": false,
+            "o": "순정왕후",
+            "p": "리더이름(leaderName)",
+            "s": "한나라"
+        },
+        {
+            "Rep": false,
+            "o": "고려_공민왕",
+            "p": "리더이름(leaderName)",
+            "s": "수원시"
+        },
+        {
+            "Rep": false,
+            "o": "고려_우왕",
+            "p": "리더이름(leaderName)",
+            "s": "수원시"
+        },
+        {
+            "Rep": false,
+            "o": "고려_우왕",
+            "p": "친척(relative)",
+            "s": "신돈"
+        },
+        {
+            "Rep": false,
+            "o": "순정왕후",
+            "p": "배우자(spouse)",
+            "s": "고려_우왕"
+        },
+        {
+            "Rep": true,
+            "o": "수원시",
+            "p": "사망지(deathPlace)",
+            "s": "신돈"
+        },
+        {
+            "Rep": false,
+            "o": "고려_우왕",
+            "p": "계승자/후임(successor)",
+            "s": "고려_공민왕"
+        },
+        {
+            "Rep": false,
+            "o": "고려_우왕",
+            "p": "전임자(predecessor)",
+            "s": "고려_공민왕"
+        },
+        {
+            "Rep": true,
+            "o": "신돈",
+            "p": "전임자(predecessor)",
+            "s": "고려_우왕"
+        },
+        {
+            "Rep": false,
+            "o": "고려_공민왕",
+            "p": "전임자(predecessor)",
+            "s": "고려_우왕"
+        },
+        {
+            "Rep": false,
+            "o": "수원시",
+            "p": "사망지(deathPlace)",
+            "s": "고려_공민왕"
+        }
+    ]
+}

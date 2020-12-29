@@ -1,0 +1,135 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "만주족은 한족과 관련있다. 한족은 명나라에 있는 민족 중 하나다. 명나라를 이끈 사람은 홍무제이다.",
+    "entities": {
+        "만주족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주족"
+        },
+        "명나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/명나라"
+        },
+        "이자성": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이자성"
+        },
+        "청나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청나라"
+        },
+        "한족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한족"
+        },
+        "홍무제": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍무제"
+        }
+    },
+    "id": 778,
+    "pid": "276-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "홍무제",
+            "p": "리더이름(leaderName)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "이자성",
+            "p": "리더이름(leaderName)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "이자성",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        },
+        {
+            "Rep": false,
+            "o": "홍무제",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        },
+        {
+            "Rep": true,
+            "o": "한족",
+            "p": "관련되(related)",
+            "s": "만주족"
+        },
+        {
+            "Rep": false,
+            "o": "만주족",
+            "p": "관련되(related)",
+            "s": "한족"
+        },
+        {
+            "Rep": true,
+            "o": "한족",
+            "p": "민족(ethnicGroup)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "청나라",
+            "p": "국가(country)",
+            "s": "명나라"
+        }
+    ]
+}

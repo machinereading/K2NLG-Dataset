@@ -1,0 +1,125 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "중국공산당의 본부는 중화소비에트공화국이다. 중화소비에트공화국의 수도는 장시 성이다.",
+    "entities": {
+        "산시_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/산시_성_(섬서성)"
+        },
+        "옌안_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/옌안_시"
+        },
+        "장시_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장시_성"
+        },
+        "제1방면군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제1방면군"
+        },
+        "중국공산당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국공산당"
+        },
+        "중화소비에트공화국": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화소비에트공화국"
+        }
+    },
+    "id": 2417,
+    "pid": "480-16",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "장시_성",
+            "p": "수도(capital)",
+            "s": "중화소비에트공화국"
+        },
+        {
+            "Rep": false,
+            "o": "장시_성",
+            "p": "~의부분(isPartOf)",
+            "s": "제1방면군"
+        },
+        {
+            "Rep": false,
+            "o": "산시_성",
+            "p": "~의부분(isPartOf)",
+            "s": "옌안_시"
+        },
+        {
+            "Rep": false,
+            "o": "장시_성",
+            "p": "본부/본사(headquarter)",
+            "s": "제1방면군"
+        },
+        {
+            "Rep": false,
+            "o": "옌안_시",
+            "p": "부분(part)",
+            "s": "산시_성"
+        },
+        {
+            "Rep": true,
+            "o": "중화소비에트공화국",
+            "p": "본부/본사(headquarter)",
+            "s": "중국공산당"
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 1,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "안익태는 작곡가이다. 윤치호는 작곡가이다. 한국의 지도자는 윤치호이다. 한국의 지도자는 안창호이다. 안창호의 직업은 작곡가이다. 스코틀랜드의 지도자는 윤치호이다. 안익태는 한국을 이끈다.",
+    "entities": {
+        "대한민국_임시_정부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_임시_정부"
+        },
+        "민요": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민요"
+        },
+        "스코틀랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스코틀랜드"
+        },
+        "안익태": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안익태"
+        },
+        "안창호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안창호"
+        },
+        "윤치호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치호"
+        },
+        "작곡가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작곡가"
+        },
+        "작별_(민요)": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Song",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/MusicalWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작별_(민요)"
+        },
+        "한국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국"
+        }
+    },
+    "id": 849,
+    "pid": "281-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "안익태"
+        },
+        {
+            "Rep": true,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "윤치호"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "민요"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "스코틀랜드"
+        },
+        {
+            "Rep": true,
+            "o": "윤치호",
+            "p": "지도자(leader)",
+            "s": "한국"
+        },
+        {
+            "Rep": true,
+            "o": "안창호",
+            "p": "지도자(leader)",
+            "s": "한국"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "작별_(민요)"
+        },
+        {
+            "Rep": true,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "안창호"
+        },
+        {
+            "Rep": true,
+            "o": "윤치호",
+            "p": "지도자(leader)",
+            "s": "스코틀랜드"
+        },
+        {
+            "Rep": false,
+            "o": "민요",
+            "p": "장르(genre)",
+            "s": "윤치호"
+        },
+        {
+            "Rep": true,
+            "o": "안익태",
+            "p": "지도자(leader)",
+            "s": "한국"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "대한민국_임시_정부"
+        },
+        {
+            "Rep": false,
+            "o": "한국",
+            "p": "학력(education)",
+            "s": "윤치호"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "한국"
+        },
+        {
+            "Rep": false,
+            "o": "안창호",
+            "p": "지도자(leader)",
+            "s": "스코틀랜드"
+        }
+    ]
+}

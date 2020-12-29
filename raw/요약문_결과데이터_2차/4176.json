@@ -1,0 +1,157 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "영어는 프랑스어 계통의 언어다. 영어는 스페인어 계통의 언어다.",
+    "entities": {
+        "개성특급시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개성특급시"
+        },
+        "고려": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "상인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/상인"
+        },
+        "스페인어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인어"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "프랑스어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스어"
+        }
+    },
+    "id": 4176,
+    "pid": "280-8",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "개성특급시",
+            "p": "수도(capital)",
+            "s": "고려"
+        },
+        {
+            "Rep": true,
+            "o": "프랑스어",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스어",
+            "p": "계통(languageFamily)",
+            "s": "스페인어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "프랑스어"
+        },
+        {
+            "Rep": true,
+            "o": "스페인어",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "스페인어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "상인"
+        },
+        {
+            "Rep": false,
+            "o": "고려",
+            "p": "국가(country)",
+            "s": "개성특급시"
+        },
+        {
+            "Rep": false,
+            "o": "상인",
+            "p": "~의부분(isPartOf)",
+            "s": "개성특급시"
+        },
+        {
+            "Rep": false,
+            "o": "스페인어",
+            "p": "계통(languageFamily)",
+            "s": "프랑스어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "대한민국"
+        }
+    ]
+}

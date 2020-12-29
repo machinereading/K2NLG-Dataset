@@ -1,0 +1,115 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "포클랜드 전쟁이 일어난 장소는 포클랜드 제도이다. 이 전쟁의 지휘관은 마거릿 대처이다. 포클랜드 제도의 국가는 아르헨티나이다. 포클랜드 제도의 국가는 영국이다. ",
+    "entities": {
+        "마거릿_대처": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마거릿_대처"
+        },
+        "아르헨티나": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아르헨티나"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "포클랜드_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포클랜드_전쟁"
+        },
+        "포클랜드_제도": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Archipelago",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포클랜드_제도"
+        }
+    },
+    "id": 2361,
+    "pid": "453-15",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "포클랜드_제도",
+            "p": "장소(place)",
+            "s": "포클랜드_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "마거릿_대처",
+            "p": "지휘관(commander)",
+            "s": "포클랜드_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "아르헨티나",
+            "p": "국가(country)",
+            "s": "포클랜드_제도"
+        },
+        {
+            "Rep": true,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "포클랜드_제도"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "아르헨티나"
+        },
+        {
+            "Rep": false,
+            "o": "아르헨티나",
+            "p": "국가(country)",
+            "s": "영국"
+        }
+    ]
+}

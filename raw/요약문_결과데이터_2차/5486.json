@@ -1,0 +1,81 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "안동대학교가 있는 곳은 안동시이다. 안동시는 영어를 사요한다.",
+    "entities": {
+        "안동대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안동대학교"
+        },
+        "안동시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안동시"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        }
+    },
+    "id": 5486,
+    "pid": "651-53",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "안동시",
+            "p": "도시(city)",
+            "s": "안동대학교"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "안동대학교"
+        },
+        {
+            "Rep": true,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "안동시"
+        }
+    ]
+}

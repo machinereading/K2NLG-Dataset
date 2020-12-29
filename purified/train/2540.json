@@ -1,0 +1,99 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "마이클 도슨의 장르는 발라드이다. 잭슨의 직업은 음악가다. ",
+    "entities": {
+        "마이클_도슨": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/FictionalCharacter",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마이클_도슨_(로스트)"
+        },
+        "발라드": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/발라드_(대중_음악)"
+        },
+        "음악가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/MusicGenre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/음악가"
+        },
+        "잭슨": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잭슨_(미시시피_주)"
+        },
+        "코러스": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/코러스_(대중음악)"
+        }
+    },
+    "id": 2540,
+    "pid": "531-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "발라드",
+            "p": "장르(genre)",
+            "s": "마이클_도슨"
+        },
+        {
+            "Rep": false,
+            "o": "음악가",
+            "p": "직업(occupation)",
+            "s": "코러스"
+        },
+        {
+            "Rep": true,
+            "o": "음악가",
+            "p": "직업(occupation)",
+            "s": "잭슨"
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "요코야마 미쓰테루의 직업은 만화가이다. 그는 효고 현에서 태어났다. 그의 작품 중 유명한 작품에는 바벨 2세가 있다.",
+    "entities": {
+        "고베_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고베_시"
+        },
+        "만화가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만화가"
+        },
+        "바벨_2세": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Comic",
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Manga"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바벨_2세"
+        },
+        "요코야마_미쓰테루": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요코야마_미쓰테루"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "효고_현": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/효고_현"
+        }
+    },
+    "id": 701,
+    "pid": "232-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "만화가",
+            "p": "직업(occupation)",
+            "s": "요코야마_미쓰테루"
+        },
+        {
+            "Rep": true,
+            "o": "효고_현",
+            "p": "출생지(birthPlace)",
+            "s": "요코야마_미쓰테루"
+        },
+        {
+            "Rep": true,
+            "o": "바벨_2세",
+            "p": "유명한작품(notableWork)",
+            "s": "요코야마_미쓰테루"
+        },
+        {
+            "Rep": false,
+            "o": "효고_현",
+            "p": "~의부분(isPartOf)",
+            "s": "고베_시"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "효고_현"
+        },
+        {
+            "Rep": false,
+            "o": "효고_현",
+            "p": "지역/분양(region)",
+            "s": "고베_시"
+        },
+        {
+            "Rep": false,
+            "o": "고베_시",
+            "p": "수도(capital)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "고베_시"
+        },
+        {
+            "Rep": false,
+            "o": "만화가",
+            "p": "직업(occupation)",
+            "s": "효고_현"
+        },
+        {
+            "Rep": false,
+            "o": "만화가",
+            "p": "직업(occupation)",
+            "s": "고베_시"
+        },
+        {
+            "Rep": false,
+            "o": "고베_시",
+            "p": "수도(capital)",
+            "s": "효고_현"
+        },
+        {
+            "Rep": false,
+            "o": "만화가",
+            "p": "직업(occupation)",
+            "s": "일본"
+        }
+    ]
+}

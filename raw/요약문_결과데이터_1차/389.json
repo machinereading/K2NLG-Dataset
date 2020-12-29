@@ -1,0 +1,145 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "잔 갈레아초 스포르차는 밀라노를 이끌었다. 그는 페르디난도 1세의 배우자이다. 그는 이사벨라 드 프랑스의 배우자이다. 그는 나폴리를 이끌었다.",
+    "entities": {
+        "나폴리": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나폴리"
+        },
+        "루도비코_스포르차": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루도비코_스포르차"
+        },
+        "밀라노": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/밀라노"
+        },
+        "밀라노_공국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/밀라노_공국"
+        },
+        "이사벨라_드_프랑스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이사벨라_드_프랑스"
+        },
+        "잔_갈레아초_스포르차": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잔_갈레아초_스포르차"
+        },
+        "페르디난도_1세_(양시칠리아)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페르디난도_1세_(양시칠리아)"
+        }
+    },
+    "id": 389,
+    "pid": "39-18",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "나폴리",
+            "p": "사망지(deathPlace)",
+            "s": "페르디난도_1세_(양시칠리아)"
+        },
+        {
+            "Rep": false,
+            "o": "루도비코_스포르차",
+            "p": "리더이름(leaderName)",
+            "s": "밀라노_공국"
+        },
+        {
+            "Rep": true,
+            "o": "잔_갈레아초_스포르차",
+            "p": "리더이름(leaderName)",
+            "s": "밀라노"
+        },
+        {
+            "Rep": true,
+            "o": "잔_갈레아초_스포르차",
+            "p": "배우자(spouse)",
+            "s": "페르디난도_1세_(양시칠리아)"
+        },
+        {
+            "Rep": true,
+            "o": "잔_갈레아초_스포르차",
+            "p": "배우자(spouse)",
+            "s": "이사벨라_드_프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "잔_갈레아초_스포르차",
+            "p": "리더이름(leaderName)",
+            "s": "나폴리"
+        },
+        {
+            "Rep": false,
+            "o": "루도비코_스포르차",
+            "p": "배우자(spouse)",
+            "s": "이사벨라_드_프랑스"
+        }
+    ]
+}

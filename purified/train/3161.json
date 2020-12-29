@@ -1,0 +1,106 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "도이 다카코의 정당은 일본사회당이다. 그가 일본사회당의 지도자다. ",
+    "entities": {
+        "도이_다카코": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도이_다카코"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "일본사회당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본사회당"
+        },
+        "자유민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유민주당_(일본)"
+        },
+        "참의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Legislature",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/참의원_(일본)"
+        }
+    },
+    "id": 3161,
+    "pid": "752-36",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "도이_다카코",
+            "p": "지도자(leader)",
+            "s": "일본사회당"
+        },
+        {
+            "Rep": true,
+            "o": "일본사회당",
+            "p": "정당(party)",
+            "s": "도이_다카코"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "참의원"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "전임자(predecessor)",
+            "s": "자유민주당"
+        }
+    ]
+}

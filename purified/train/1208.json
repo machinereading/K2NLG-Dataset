@@ -1,0 +1,106 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "베르너 하이젠베르크는 노벨 물리학상을 수상했다. 그의 직업은 물리학자다. ",
+    "entities": {
+        "노벨_물리학상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/Award",
+                "http://dbpedia.org/ontology/NobelPrize"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노벨_물리학상"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "물리학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/물리학자"
+        },
+        "베르너_하이젠베르크": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베르너_하이젠베르크"
+        },
+        "파스쿠알_요르단": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/파스쿠알_요르단"
+        }
+    },
+    "id": 1208,
+    "pid": "175-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "노벨_물리학상",
+            "p": "수상(award)",
+            "s": "베르너_하이젠베르크"
+        },
+        {
+            "Rep": true,
+            "o": "물리학자",
+            "p": "직업(occupation)",
+            "s": "베르너_하이젠베르크"
+        },
+        {
+            "Rep": false,
+            "o": "파스쿠알_요르단",
+            "p": "~로알려진(knownFor)",
+            "s": "베르너_하이젠베르크"
+        },
+        {
+            "Rep": false,
+            "o": "물리학자",
+            "p": "직업(occupation)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국적(nationality)",
+            "s": "베르너_하이젠베르크"
+        }
+    ]
+}

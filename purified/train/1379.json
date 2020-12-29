@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "도쿄는 애니메이션의 도시이다. 현란무답제 더 마즈 데이브레이크의 장르는 애니메이션이다.",
+    "entities": {
+        "도쿄": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿄"
+        },
+        "애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "현란무답제_더_마즈_데이브레이크": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Cartoon"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현란무답제_더_마즈_데이브레이크"
+        }
+    },
+    "id": 1379,
+    "pid": "212-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "도쿄",
+            "p": "도시(city)",
+            "s": "애니메이션"
+        },
+        {
+            "Rep": true,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "현란무답제_더_마즈_데이브레이크"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "타입/종류(type)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "현란무답제_더_마즈_데이브레이크",
+            "p": "후속작(subsequentWork)",
+            "s": "애니메이션"
+        }
+    ]
+}

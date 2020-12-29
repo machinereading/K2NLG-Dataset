@@ -1,0 +1,173 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "헝가리의 지도자는 에르되시 팔이다. 니콜라 드 콩도르세의 직업은 철학자다. 프랑스의 지도자는 니콜라 드 콩도르세, 레온하르트 오일러다. 에르되시 팔의 직업은 수학자다. 레온하르트 오일러의 직업은 철학자다. 레온하르트 오일러는 뇌출혈로 유명해졌다. ",
+    "entities": {
+        "뇌출혈": {
+            "ne_type": "TMM_DISEASE",
+            "type": [
+                "http://dbpedia.org/ontology/Disease"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뇌출혈"
+        },
+        "니콜라_드_콩도르세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/니콜라_드_콩도르세"
+        },
+        "레온하르트_오일러": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레온하르트_오일러"
+        },
+        "수학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학자"
+        },
+        "에르되시_팔": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에르되시_팔"
+        },
+        "철학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/철학자"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        },
+        "헝가리": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Language",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헝가리"
+        }
+    },
+    "id": 2485,
+    "pid": "502-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "에르되시_팔",
+            "p": "지도자(leader)",
+            "s": "헝가리"
+        },
+        {
+            "Rep": false,
+            "o": "철학자",
+            "p": "직업(occupation)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "철학자",
+            "p": "직업(occupation)",
+            "s": "니콜라_드_콩도르세"
+        },
+        {
+            "Rep": true,
+            "o": "니콜라_드_콩도르세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "레온하르트_오일러",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "에르되시_팔"
+        },
+        {
+            "Rep": true,
+            "o": "철학자",
+            "p": "직업(occupation)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": true,
+            "o": "뇌출혈",
+            "p": "~로알려진(knownFor)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": false,
+            "o": "레온하르트_오일러",
+            "p": "영향받은(influenced)",
+            "s": "철학자"
+        },
+        {
+            "Rep": false,
+            "o": "에르되시_팔",
+            "p": "영향받은(influenced)",
+            "s": "수학자"
+        },
+        {
+            "Rep": false,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "헝가리"
+        },
+        {
+            "Rep": false,
+            "o": "니콜라_드_콩도르세",
+            "p": "영향받은(influenced)",
+            "s": "철학자"
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "노무현의 정당은 열린우리당이다. 열린우리당은 대한민국 국회에 속해있다. ",
+    "entities": {
+        "노무현": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "대한민국_국회": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Legislature"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_국회"
+        },
+        "민주자유당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주자유당"
+        },
+        "새누리당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/새누리당"
+        },
+        "열린우리당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/열린우리당"
+        },
+        "자유민주연합": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유민주연합"
+        }
+    },
+    "id": 47,
+    "pid": "114-163",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "자유민주연합",
+            "p": "정당(party)",
+            "s": "노무현"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주연합",
+            "p": "정당(party)",
+            "s": "열린우리당"
+        },
+        {
+            "Rep": false,
+            "o": "새누리당",
+            "p": "정당(party)",
+            "s": "열린우리당"
+        },
+        {
+            "Rep": false,
+            "o": "노무현",
+            "p": "지도자(leader)",
+            "s": "민주자유당"
+        },
+        {
+            "Rep": false,
+            "o": "노무현",
+            "p": "지도자(leader)",
+            "s": "새누리당"
+        },
+        {
+            "Rep": false,
+            "o": "민주자유당",
+            "p": "정당(party)",
+            "s": "노무현"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_국회",
+            "p": "직함/포지션(position)",
+            "s": "노무현"
+        },
+        {
+            "Rep": false,
+            "o": "열린우리당",
+            "p": "정당(party)",
+            "s": "대한민국_국회"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_국회",
+            "p": "직함/포지션(position)",
+            "s": "열린우리당"
+        },
+        {
+            "Rep": false,
+            "o": "열린우리당",
+            "p": "기원/소속(affiliation)",
+            "s": "민주자유당"
+        },
+        {
+            "Rep": true,
+            "o": "열린우리당",
+            "p": "정당(party)",
+            "s": "노무현"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "시몬 페레스, 이츠하크 라빈의 국가는 이스라엘이다. 이스라엘의 지도자는 시몬 페레스, 이츠하크 라빈이다. 이츠하크 라빈, 시몬 페레스는 노벨 평화상으로 유명해졌다. ",
+    "entities": {
+        "노벨_평화상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/NobelPrize",
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노벨_평화상"
+        },
+        "시몬_페레스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시몬_페레스"
+        },
+        "이스라엘": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이스라엘"
+        },
+        "이츠하크_라빈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이츠하크_라빈"
+        }
+    },
+    "id": 2542,
+    "pid": "532-10",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "이스라엘",
+            "p": "국가(country)",
+            "s": "시몬_페레스"
+        },
+        {
+            "Rep": true,
+            "o": "이스라엘",
+            "p": "국가(country)",
+            "s": "이츠하크_라빈"
+        },
+        {
+            "Rep": true,
+            "o": "시몬_페레스",
+            "p": "지도자(leader)",
+            "s": "이스라엘"
+        },
+        {
+            "Rep": true,
+            "o": "이츠하크_라빈",
+            "p": "지도자(leader)",
+            "s": "이스라엘"
+        },
+        {
+            "Rep": false,
+            "o": "이스라엘",
+            "p": "국가(country)",
+            "s": "노벨_평화상"
+        },
+        {
+            "Rep": true,
+            "o": "노벨_평화상",
+            "p": "~로알려진(knownFor)",
+            "s": "이츠하크_라빈"
+        },
+        {
+            "Rep": true,
+            "o": "노벨_평화상",
+            "p": "~로알려진(knownFor)",
+            "s": "시몬_페레스"
+        }
+    ]
+}

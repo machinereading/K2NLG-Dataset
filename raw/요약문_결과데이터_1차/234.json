@@ -1,0 +1,185 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "이승철의 배우자는 강문영이다. 그의 배우자의 직업은 배우이다. 그의 직업은 음악가이다.",
+    "entities": {
+        "강문영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강문영"
+        },
+        "대신고등학교_(서울)": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SoccerClub",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대신고등학교_(서울)"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "배우": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/배우"
+        },
+        "보컬": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Instrument",
+                "http://dbpedia.org/ontology/Device"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보컬"
+        },
+        "수원과학대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수원과학대학교"
+        },
+        "음악가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/음악가"
+        },
+        "이승철": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승철"
+        },
+        "팝_록": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팝_록"
+        }
+    },
+    "id": 234,
+    "pid": "191-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "팝_록",
+            "p": "장르(genre)",
+            "s": "이승철"
+        },
+        {
+            "Rep": true,
+            "o": "강문영",
+            "p": "배우자(spouse)",
+            "s": "이승철"
+        },
+        {
+            "Rep": false,
+            "o": "보컬",
+            "p": "악기(instrument)",
+            "s": "이승철"
+        },
+        {
+            "Rep": false,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "강문영"
+        },
+        {
+            "Rep": false,
+            "o": "음악가",
+            "p": "직업(occupation)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "음악가",
+            "p": "직업(occupation)",
+            "s": "팝_록"
+        },
+        {
+            "Rep": true,
+            "o": "배우",
+            "p": "배우자(spouse)",
+            "s": "이승철"
+        },
+        {
+            "Rep": false,
+            "o": "수원과학대학교",
+            "p": "학력(education)",
+            "s": "이승철"
+        },
+        {
+            "Rep": false,
+            "o": "대신고등학교_(서울)",
+            "p": "학력(education)",
+            "s": "이승철"
+        },
+        {
+            "Rep": true,
+            "o": "음악가",
+            "p": "직업(occupation)",
+            "s": "이승철"
+        },
+        {
+            "Rep": false,
+            "o": "팝_록",
+            "p": "장르(genre)",
+            "s": "음악가"
+        }
+    ]
+}

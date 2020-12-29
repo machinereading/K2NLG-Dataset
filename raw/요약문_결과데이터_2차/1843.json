@@ -1,0 +1,88 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 바오로 3세의 직업은 예술가이다. 미켈란젤로 부오나로티의 직업도 예술가이다.",
+    "entities": {
+        "교황_바오로_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_바오로_3세"
+        },
+        "미켈란젤로_부오나로티": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미켈란젤로_부오나로티"
+        },
+        "시스티나_성당": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/ReligiousBuilding",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시스티나_성당"
+        },
+        "예술가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예술가"
+        }
+    },
+    "id": 1843,
+    "pid": "44-19",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "교황_바오로_3세"
+        },
+        {
+            "Rep": false,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "시스티나_성당"
+        },
+        {
+            "Rep": true,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "미켈란젤로_부오나로티"
+        }
+    ]
+}

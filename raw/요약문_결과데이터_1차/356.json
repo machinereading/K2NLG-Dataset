@@ -1,0 +1,149 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 비오 2세는 십자군 전투에 참여했다. 그는 나폴리 왕국을 이끌었다. 그는 오스만 제국의 리더였다.",
+    "entities": {
+        "교황_비오_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_비오_2세"
+        },
+        "나폴리_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나폴리_왕국"
+        },
+        "만토바": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만토바"
+        },
+        "십자군": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/십자군"
+        },
+        "아라곤_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아라곤_왕국"
+        },
+        "오스만_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스만_제국"
+        },
+        "페르난도_2세_(아라곤)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페르난도_2세_(아라곤)"
+        }
+    },
+    "id": 356,
+    "pid": "34-10",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "페르난도_2세_(아라곤)",
+            "p": "리더이름(leaderName)",
+            "s": "아라곤_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "페르난도_2세_(아라곤)",
+            "p": "리더이름(leaderName)",
+            "s": "나폴리_왕국"
+        },
+        {
+            "Rep": true,
+            "o": "십자군",
+            "p": "전투(battle)",
+            "s": "교황_비오_2세"
+        },
+        {
+            "Rep": true,
+            "o": "교황_비오_2세",
+            "p": "리더이름(leaderName)",
+            "s": "나폴리_왕국"
+        },
+        {
+            "Rep": true,
+            "o": "교황_비오_2세",
+            "p": "리더이름(leaderName)",
+            "s": "오스만_제국"
+        },
+        {
+            "Rep": false,
+            "o": "오스만_제국",
+            "p": "국가(country)",
+            "s": "나폴리_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "오스만_제국",
+            "p": "국가(country)",
+            "s": "만토바"
+        }
+    ]
+}

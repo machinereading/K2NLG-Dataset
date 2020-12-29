@@ -1,0 +1,105 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "라틴어는 고대 그리스어의 계통이다. 로마 제국은 라틴어를 공용어로 사용한다.",
+    "entities": {
+        "고대_그리스어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고대_그리스어"
+        },
+        "라틴어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라틴어"
+        },
+        "로마_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마_제국"
+        },
+        "아우구스티누스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아우구스티누스"
+        },
+        "콘스탄티노폴리스": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/콘스탄티노폴리스"
+        }
+    },
+    "id": 2874,
+    "pid": "633-10",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "고대_그리스어",
+            "p": "계통(languageFamily)",
+            "s": "라틴어"
+        },
+        {
+            "Rep": true,
+            "o": "라틴어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "라틴어",
+            "p": "계통(languageFamily)",
+            "s": "고대_그리스어"
+        },
+        {
+            "Rep": false,
+            "o": "고대_그리스어",
+            "p": "시대(era)",
+            "s": "콘스탄티노폴리스"
+        },
+        {
+            "Rep": false,
+            "o": "아우구스티누스",
+            "p": "리더이름(leaderName)",
+            "s": "로마_제국"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": false
+        }
+    ],
+    "Text": "1988년 하계 올림픽은 서울특별시에서 열렸다. 서울특별시의 공용어는 중국어다.",
+    "entities": {
+        "1988년_하계_올림픽": {
+            "ne_type": "EV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Olympics",
+                "http://dbpedia.org/ontology/SportsEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/1988년_하계_올림픽"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "중국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국어"
+        }
+    },
+    "id": 4209,
+    "pid": "284-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "도시(city)",
+            "s": "1988년_하계_올림픽"
+        },
+        {
+            "Rep": true,
+            "o": "중국어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "중국어",
+            "p": "언어(language)",
+            "s": "1988년_하계_올림픽"
+        }
+    ]
+}

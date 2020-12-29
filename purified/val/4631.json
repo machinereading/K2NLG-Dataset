@@ -1,0 +1,126 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "방일영은 기업가이며 저널리스트이다. ",
+    "entities": {
+        "기업가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/MusicGenre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기업가"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "방일영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/방일영"
+        },
+        "저널리스트": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/저널리스트"
+        },
+        "조선일보": {
+            "ne_type": "OGG_MEDIA",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/PeriodicalLiterature",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Newspaper"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선일보"
+        }
+    },
+    "id": 4631,
+    "pid": "331-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "기업가",
+            "p": "직업(occupation)",
+            "s": "방일영"
+        },
+        {
+            "Rep": true,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "방일영"
+        },
+        {
+            "Rep": false,
+            "o": "기업가",
+            "p": "직업(occupation)",
+            "s": "저널리스트"
+        },
+        {
+            "Rep": false,
+            "o": "기업가",
+            "p": "직업(occupation)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "기업가"
+        },
+        {
+            "Rep": false,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "조선일보"
+        },
+        {
+            "Rep": false,
+            "o": "기업가",
+            "p": "직업(occupation)",
+            "s": "조선일보"
+        },
+        {
+            "Rep": false,
+            "o": "저널리스트",
+            "p": "수도(capital)",
+            "s": "대한민국"
+        }
+    ]
+}

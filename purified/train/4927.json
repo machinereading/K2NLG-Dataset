@@ -1,0 +1,133 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "빅토리아의 배우자는 조지 3세이다. 조지 3세의 뒤는 조지 4세가 이어갔다. ",
+    "entities": {
+        "공주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공주시"
+        },
+        "빅토리아": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빅토리아_(영국)"
+        },
+        "샬럿": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/샬럿"
+        },
+        "오거스타": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오거스타_(조지아_주)"
+        },
+        "조지_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/MusicalWork",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Single"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조지_3세"
+        },
+        "조지_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조지_4세"
+        }
+    },
+    "id": 4927,
+    "pid": "475-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "조지_4세",
+            "p": "계승자/후임(successor)",
+            "s": "조지_3세"
+        },
+        {
+            "Rep": false,
+            "o": "공주시",
+            "p": "~의부분(isPartOf)",
+            "s": "오거스타"
+        },
+        {
+            "Rep": true,
+            "o": "조지_3세",
+            "p": "배우자(spouse)",
+            "s": "빅토리아"
+        },
+        {
+            "Rep": false,
+            "o": "샬럿",
+            "p": "~의부분(isPartOf)",
+            "s": "오거스타"
+        },
+        {
+            "Rep": false,
+            "o": "오거스타",
+            "p": "~의부분(isPartOf)",
+            "s": "공주시"
+        },
+        {
+            "Rep": false,
+            "o": "오거스타",
+            "p": "~의부분(isPartOf)",
+            "s": "샬럿"
+        }
+    ]
+}

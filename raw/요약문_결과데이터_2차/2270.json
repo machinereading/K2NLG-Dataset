@@ -1,0 +1,106 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "임희재의 전임자는 김종직이다. 김종직은 최부와 친척관계다.",
+    "entities": {
+        "김굉필": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김굉필"
+        },
+        "김종직": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김종직"
+        },
+        "임희재": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/임희재_(1472년)"
+        },
+        "최부": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/최부"
+        }
+    },
+    "id": 2270,
+    "pid": "428-18",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "김굉필",
+            "p": "친척(relative)",
+            "s": "임희재"
+        },
+        {
+            "Rep": false,
+            "o": "김굉필",
+            "p": "친척(relative)",
+            "s": "최부"
+        },
+        {
+            "Rep": false,
+            "o": "임희재",
+            "p": "친척(relative)",
+            "s": "최부"
+        },
+        {
+            "Rep": false,
+            "o": "김종직",
+            "p": "친척(relative)",
+            "s": "임희재"
+        },
+        {
+            "Rep": false,
+            "o": "김종직",
+            "p": "친척(relative)",
+            "s": "김굉필"
+        },
+        {
+            "Rep": true,
+            "o": "김종직",
+            "p": "친척(relative)",
+            "s": "최부"
+        },
+        {
+            "Rep": true,
+            "o": "김종직",
+            "p": "전임자(predecessor)",
+            "s": "임희재"
+        }
+    ]
+}

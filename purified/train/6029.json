@@ -1,0 +1,212 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "경상북도는 경상도에 속해있다. 구미시는 경상도에 속해있다. 구미시는 경상북도에 속해있다.",
+    "entities": {
+        "경기도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경기도"
+        },
+        "경상도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상도"
+        },
+        "경상북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상북도"
+        },
+        "구미시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/구미시"
+        },
+        "남조선로동당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남조선로동당"
+        },
+        "여운형": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/여운형"
+        },
+        "장승원": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장승원"
+        },
+        "장현광": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장현광"
+        },
+        "조봉암": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조봉암"
+        },
+        "조선공산당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선공산당"
+        }
+    },
+    "id": 6029,
+    "pid": "833-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "조선공산당",
+            "p": "정당(party)",
+            "s": "조봉암"
+        },
+        {
+            "Rep": true,
+            "o": "경상도",
+            "p": "~의부분(isPartOf)",
+            "s": "경상북도"
+        },
+        {
+            "Rep": false,
+            "o": "구미시",
+            "p": "~의부분(isPartOf)",
+            "s": "경상북도"
+        },
+        {
+            "Rep": true,
+            "o": "경상도",
+            "p": "~의부분(isPartOf)",
+            "s": "구미시"
+        },
+        {
+            "Rep": true,
+            "o": "경상북도",
+            "p": "~의부분(isPartOf)",
+            "s": "구미시"
+        },
+        {
+            "Rep": false,
+            "o": "구미시",
+            "p": "~의부분(isPartOf)",
+            "s": "경상도"
+        },
+        {
+            "Rep": false,
+            "o": "여운형",
+            "p": "전임자(predecessor)",
+            "s": "조봉암"
+        },
+        {
+            "Rep": false,
+            "o": "남조선로동당",
+            "p": "정당(party)",
+            "s": "조봉암"
+        },
+        {
+            "Rep": false,
+            "o": "장승원",
+            "p": "자식(child)",
+            "s": "장현광"
+        },
+        {
+            "Rep": false,
+            "o": "남조선로동당",
+            "p": "정당(party)",
+            "s": "여운형"
+        },
+        {
+            "Rep": false,
+            "o": "장승원",
+            "p": "리더이름(leaderName)",
+            "s": "경기도"
+        },
+        {
+            "Rep": false,
+            "o": "여운형",
+            "p": "지도자(leader)",
+            "s": "남조선로동당"
+        },
+        {
+            "Rep": false,
+            "o": "경상북도",
+            "p": "~의부분(isPartOf)",
+            "s": "경상도"
+        },
+        {
+            "Rep": false,
+            "o": "여운형",
+            "p": "지도자(leader)",
+            "s": "조선공산당"
+        },
+        {
+            "Rep": false,
+            "o": "조봉암",
+            "p": "계승자/후임(successor)",
+            "s": "여운형"
+        }
+    ]
+}

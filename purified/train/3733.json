@@ -1,0 +1,166 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "베르너 하이젠베르크의 직업은 교수다. 그는 코펜하겐 대학교 출신이다. ",
+    "entities": {
+        "괴팅겐": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Town",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/괴팅겐"
+        },
+        "교수": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교수"
+        },
+        "닐스_보어": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/닐스_보어"
+        },
+        "라이프치히_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라이프치히_대학교"
+        },
+        "막스_보른": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/막스_보른"
+        },
+        "베르너_하이젠베르크": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베르너_하이젠베르크"
+        },
+        "코펜하겐": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/코펜하겐"
+        },
+        "코펜하겐_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/코펜하겐_대학교"
+        },
+        "파스쿠알_요르단": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/파스쿠알_요르단"
+        }
+    },
+    "id": 3733,
+    "pid": "175-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "베르너_하이젠베르크"
+        },
+        {
+            "Rep": false,
+            "o": "닐스_보어",
+            "p": "~로알려진(knownFor)",
+            "s": "베르너_하이젠베르크"
+        },
+        {
+            "Rep": true,
+            "o": "코펜하겐_대학교",
+            "p": "학력(education)",
+            "s": "베르너_하이젠베르크"
+        },
+        {
+            "Rep": false,
+            "o": "라이프치히_대학교",
+            "p": "학력(education)",
+            "s": "베르너_하이젠베르크"
+        },
+        {
+            "Rep": false,
+            "o": "파스쿠알_요르단",
+            "p": "~로알려진(knownFor)",
+            "s": "베르너_하이젠베르크"
+        },
+        {
+            "Rep": false,
+            "o": "괴팅겐",
+            "p": "~로알려진(knownFor)",
+            "s": "베르너_하이젠베르크"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "코펜하겐"
+        },
+        {
+            "Rep": false,
+            "o": "막스_보른",
+            "p": "리더이름(leaderName)",
+            "s": "괴팅겐"
+        }
+    ]
+}

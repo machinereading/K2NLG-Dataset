@@ -1,0 +1,121 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "쇼와 천황은 중일 전쟁의 지휘관이었다. 그의 직업은 장교다.",
+    "entities": {
+        "미카사노미야_다카히토_친왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미카사노미야_다카히토_친왕"
+        },
+        "쇼와_천황": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쇼와_천황"
+        },
+        "의사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의사"
+        },
+        "이시이_시로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이시이_시로"
+        },
+        "장교": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장교"
+        },
+        "중일_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중일_전쟁"
+        }
+    },
+    "id": 5597,
+    "pid": "709-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "쇼와_천황",
+            "p": "지휘관(commander)",
+            "s": "중일_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "의사",
+            "p": "직업(occupation)",
+            "s": "이시이_시로"
+        },
+        {
+            "Rep": false,
+            "o": "장교",
+            "p": "직업(occupation)",
+            "s": "미카사노미야_다카히토_친왕"
+        },
+        {
+            "Rep": true,
+            "o": "장교",
+            "p": "직업(occupation)",
+            "s": "쇼와_천황"
+        },
+        {
+            "Rep": false,
+            "o": "쇼와_천황",
+            "p": "전임자(predecessor)",
+            "s": "미카사노미야_다카히토_친왕"
+        },
+        {
+            "Rep": false,
+            "o": "쇼와_천황",
+            "p": "대통령/회장(president)",
+            "s": "장교"
+        }
+    ]
+}

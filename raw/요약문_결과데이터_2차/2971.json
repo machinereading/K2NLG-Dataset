@@ -1,0 +1,70 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "칠곡군은 대구광역시에 속한다. 대구광역시 안에 칠곡군이 있다. ",
+    "entities": {
+        "대구광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대구광역시"
+        },
+        "칠곡군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/칠곡군"
+        }
+    },
+    "id": 2971,
+    "pid": "654-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "칠곡군",
+            "p": "부분(part)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": true,
+            "o": "대구광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "칠곡군"
+        },
+        {
+            "Rep": false,
+            "o": "칠곡군",
+            "p": "~의부분(isPartOf)",
+            "s": "대구광역시"
+        }
+    ]
+}

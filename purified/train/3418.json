@@ -1,0 +1,90 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "이홍규의 정당은 남조선로동당이다. 그는 장택상과 친척 관계이다.",
+    "entities": {
+        "남조선로동당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남조선로동당"
+        },
+        "유엔_총회": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유엔_총회"
+        },
+        "이홍규": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이홍규"
+        },
+        "장택상": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장택상"
+        }
+    },
+    "id": 3418,
+    "pid": "829-65",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "남조선로동당",
+            "p": "정당(party)",
+            "s": "이홍규"
+        },
+        {
+            "Rep": false,
+            "o": "유엔_총회",
+            "p": "직함/포지션(position)",
+            "s": "장택상"
+        },
+        {
+            "Rep": true,
+            "o": "이홍규",
+            "p": "친척(relative)",
+            "s": "장택상"
+        },
+        {
+            "Rep": false,
+            "o": "이홍규",
+            "p": "지도자(leader)",
+            "s": "남조선로동당"
+        }
+    ]
+}

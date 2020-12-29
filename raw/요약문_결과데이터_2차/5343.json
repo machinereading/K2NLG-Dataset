@@ -1,0 +1,171 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "윌타족은 러시아와 일본, 쿠릴 열도, 사할린 섬에도 있다.",
+    "entities": {
+        "러시아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아"
+        },
+        "사할린_섬": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사할린_섬"
+        },
+        "윌타족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윌타족"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "쿠릴_열도": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Archipelago"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쿠릴_열도"
+        },
+        "홋카이도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홋카이도"
+        }
+    },
+    "id": 5343,
+    "pid": "601-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "홋카이도"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "홋카이도"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "사할린_섬"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "쿠릴_열도"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "사할린_섬"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "러시아"
+        },
+        {
+            "Rep": true,
+            "o": "러시아",
+            "p": "있는곳(populationPlace)",
+            "s": "윌타족"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "쿠릴_열도"
+        },
+        {
+            "Rep": false,
+            "o": "윌타족",
+            "p": "민족(ethnicGroup)",
+            "s": "러시아"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "있는곳(populationPlace)",
+            "s": "윌타족"
+        },
+        {
+            "Rep": false,
+            "o": "윌타족",
+            "p": "민족(ethnicGroup)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "쿠릴_열도",
+            "p": "있는곳(populationPlace)",
+            "s": "윌타족"
+        },
+        {
+            "Rep": true,
+            "o": "사할린_섬",
+            "p": "있는곳(populationPlace)",
+            "s": "윌타족"
+        }
+    ]
+}

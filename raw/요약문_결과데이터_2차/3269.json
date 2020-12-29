@@ -1,0 +1,144 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "대구광역시 안에 비슬산이 있다. 비슬산은 대구광역시에 위치한다. ",
+    "entities": {
+        "대구광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대구광역시"
+        },
+        "대구스타디움": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/SportFacility",
+                "http://dbpedia.org/ontology/Stadium",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대구스타디움"
+        },
+        "디_아크": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Band",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Group"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/디_아크"
+        },
+        "비슬산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비슬산"
+        },
+        "수성못역": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RailwayStation",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수성못역"
+        },
+        "팔공산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팔공산"
+        }
+    },
+    "id": 3269,
+    "pid": "802-22",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대구광역시",
+            "p": "있는곳(locatedInArea)",
+            "s": "팔공산"
+        },
+        {
+            "Rep": false,
+            "o": "대구광역시",
+            "p": "위치/지역(location)",
+            "s": "대구스타디움"
+        },
+        {
+            "Rep": true,
+            "o": "대구광역시",
+            "p": "있는곳(locatedInArea)",
+            "s": "비슬산"
+        },
+        {
+            "Rep": false,
+            "o": "대구스타디움",
+            "p": "~의부분(isPartOf)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "수성못역",
+            "p": "부분(part)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "대구스타디움",
+            "p": "부분(part)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": false,
+            "o": "디_아크",
+            "p": "~의부분(isPartOf)",
+            "s": "대구광역시"
+        },
+        {
+            "Rep": true,
+            "o": "비슬산",
+            "p": "부분(part)",
+            "s": "대구광역시"
+        }
+    ]
+}

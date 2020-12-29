@@ -1,0 +1,179 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "카우보이 비밥의 장르는 영화다. 숀 코너리는 반딧불이과로 유명해졌다. 애니메이션의 장르는 영화다. 조스 휘던의 대표적인 작품으로는 카우보이 비밥이 있다. 카우보이 비밥의 장르는 애니메이션이다. 숀 코너리의 대표적인 작품으로는 카우보이 비밥이 있다. 서부극의 장르는 영화다. ",
+    "entities": {
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "반딧불이과": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species",
+                "http://dbpedia.org/ontology/Insect"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/반딧불이과"
+        },
+        "서부극": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서부극"
+        },
+        "숀_코너리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/숀_코너리"
+        },
+        "애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "조스_휘던": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조스_휘던"
+        },
+        "카우보이_비밥": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/Anime"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카우보이_비밥"
+        }
+    },
+    "id": 2509,
+    "pid": "512-35",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "영화"
+        },
+        {
+            "Rep": true,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "카우보이_비밥"
+        },
+        {
+            "Rep": true,
+            "o": "반딧불이과",
+            "p": "~로알려진(knownFor)",
+            "s": "숀_코너리"
+        },
+        {
+            "Rep": false,
+            "o": "서부극",
+            "p": "장르(genre)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "서부극"
+        },
+        {
+            "Rep": true,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "애니메이션"
+        },
+        {
+            "Rep": true,
+            "o": "카우보이_비밥",
+            "p": "유명한작품(notableWork)",
+            "s": "조스_휘던"
+        },
+        {
+            "Rep": true,
+            "o": "애니메이션",
+            "p": "장르(genre)",
+            "s": "카우보이_비밥"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "조스_휘던"
+        },
+        {
+            "Rep": true,
+            "o": "카우보이_비밥",
+            "p": "유명한작품(notableWork)",
+            "s": "숀_코너리"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "직업(occupation)",
+            "s": "조스_휘던"
+        },
+        {
+            "Rep": true,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "서부극"
+        }
+    ]
+}

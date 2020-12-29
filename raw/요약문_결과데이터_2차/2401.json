@@ -1,0 +1,176 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "조지 1세는 영국의 리더이다. 그는 윌리엄 4세의 계승자이다.",
+    "entities": {
+        "빅토리아": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빅토리아_(영국)"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "윌리엄_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윌리엄_4세"
+        },
+        "조지_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/MusicalWork",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Single"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조지_1세"
+        },
+        "하노버": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하노버"
+        }
+    },
+    "id": 2401,
+    "pid": "475-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "하노버"
+        },
+        {
+            "Rep": false,
+            "o": "윌리엄_4세",
+            "p": "리더이름(leaderName)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "윌리엄_4세",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "빅토리아",
+            "p": "리더이름(leaderName)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "하노버",
+            "p": "수도(capital)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "조지_1세",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": true,
+            "o": "조지_1세",
+            "p": "리더이름(leaderName)",
+            "s": "영국"
+        },
+        {
+            "Rep": true,
+            "o": "조지_1세",
+            "p": "계승자/후임(successor)",
+            "s": "윌리엄_4세"
+        },
+        {
+            "Rep": false,
+            "o": "빅토리아",
+            "p": "계승자/후임(successor)",
+            "s": "윌리엄_4세"
+        },
+        {
+            "Rep": false,
+            "o": "윌리엄_4세",
+            "p": "리더이름(leaderName)",
+            "s": "하노버"
+        },
+        {
+            "Rep": false,
+            "o": "윌리엄_4세",
+            "p": "전임자(predecessor)",
+            "s": "조지_1세"
+        },
+        {
+            "Rep": false,
+            "o": "윌리엄_4세",
+            "p": "전임자(predecessor)",
+            "s": "빅토리아"
+        },
+        {
+            "Rep": false,
+            "o": "빅토리아",
+            "p": "리더이름(leaderName)",
+            "s": "하노버"
+        },
+        {
+            "Rep": false,
+            "o": "빅토리아",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "조지_1세",
+            "p": "리더이름(leaderName)",
+            "s": "하노버"
+        }
+    ]
+}

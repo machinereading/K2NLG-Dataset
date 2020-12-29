@@ -1,0 +1,147 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "조광조의 직함은 김근사이다. 그의 전임자는 김구이다.",
+    "entities": {
+        "고형산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고형산"
+        },
+        "김구": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김구"
+        },
+        "김근사": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김근사"
+        },
+        "김전": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김전"
+        },
+        "남곤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남곤"
+        },
+        "심정_(1471년)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/심정_(1471년)"
+        },
+        "조광조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조광조"
+        },
+        "조선_중종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_중종"
+        }
+    },
+    "id": 692,
+    "pid": "230-61",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "김근사",
+            "p": "직함/포지션(position)",
+            "s": "조선_중종"
+        },
+        {
+            "Rep": false,
+            "o": "김근사",
+            "p": "직함/포지션(position)",
+            "s": "심정_(1471년)"
+        },
+        {
+            "Rep": true,
+            "o": "김근사",
+            "p": "직함/포지션(position)",
+            "s": "조광조"
+        },
+        {
+            "Rep": false,
+            "o": "김근사",
+            "p": "직함/포지션(position)",
+            "s": "남곤"
+        },
+        {
+            "Rep": false,
+            "o": "김전",
+            "p": "직함/포지션(position)",
+            "s": "심정_(1471년)"
+        },
+        {
+            "Rep": true,
+            "o": "김구",
+            "p": "전임자(predecessor)",
+            "s": "조광조"
+        },
+        {
+            "Rep": false,
+            "o": "고형산",
+            "p": "직함/포지션(position)",
+            "s": "심정_(1471년)"
+        },
+        {
+            "Rep": false,
+            "o": "김근사",
+            "p": "직함/포지션(position)",
+            "s": "김전"
+        }
+    ]
+}

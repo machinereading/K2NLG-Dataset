@@ -1,0 +1,218 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "박정희의 국가는 대한민국이다. 그는 청도군의 리더다.",
+    "entities": {
+        "가수": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가수"
+        },
+        "경상북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상북도"
+        },
+        "귀산": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/귀산"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "대한민국_문화관광부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_문화관광부"
+        },
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        },
+        "소": {
+            "ne_type": "AM_MAMMALIA",
+            "type": [
+                "http://dbpedia.org/ontology/Mammal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소"
+        },
+        "원광": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원광"
+        },
+        "청나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청나라"
+        },
+        "청도군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청도군"
+        },
+        "황소": {
+            "ne_type": "AM_MAMMALIA",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/황소"
+        }
+    },
+    "id": 2967,
+    "pid": "653-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "경상북도",
+            "p": "~의부분(isPartOf)",
+            "s": "청도군"
+        },
+        {
+            "Rep": false,
+            "o": "청도군",
+            "p": "~의부분(isPartOf)",
+            "s": "경상북도"
+        },
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "황소"
+        },
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "소"
+        },
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "~의부분(isPartOf)",
+            "s": "청도군"
+        },
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "~의부분(isPartOf)",
+            "s": "경상북도"
+        },
+        {
+            "Rep": false,
+            "o": "청나라",
+            "p": "국가(country)",
+            "s": "청도군"
+        },
+        {
+            "Rep": false,
+            "o": "원광",
+            "p": "주소(address)",
+            "s": "귀산"
+        },
+        {
+            "Rep": true,
+            "o": "박정희",
+            "p": "리더이름(leaderName)",
+            "s": "청도군"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "위치/지역(location)",
+            "s": "대한민국_문화관광부"
+        },
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "가수"
+        },
+        {
+            "Rep": false,
+            "o": "청도군",
+            "p": "부분(part)",
+            "s": "경상북도"
+        }
+    ]
+}

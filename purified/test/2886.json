@@ -1,0 +1,76 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "류큐국의 국가는 일본이다. 일본의 언어는 오키나와어다.",
+    "entities": {
+        "류큐국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/류큐국"
+        },
+        "오키나와어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오키나와어"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        }
+    },
+    "id": 2886,
+    "pid": "640-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "류큐국"
+        },
+        {
+            "Rep": true,
+            "o": "오키나와어",
+            "p": "언어(language)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "류큐국",
+            "p": "국가(country)",
+            "s": "일본"
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "에르빈 슈뢰딩거는 오스트리아 국적이고 그는 오스트리아의 지도자다. 막스 보른은 독일 국적이고 그는 독일의 지도자다.",
+    "entities": {
+        "과학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/과학자"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "막스_보른": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/막스_보른"
+        },
+        "에르빈_슈뢰딩거": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에르빈_슈뢰딩거"
+        },
+        "오스트리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트리아"
+        }
+    },
+    "id": 2516,
+    "pid": "513-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "오스트리아",
+            "p": "국적(nationality)",
+            "s": "에르빈_슈뢰딩거"
+        },
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "국적(nationality)",
+            "s": "막스_보른"
+        },
+        {
+            "Rep": true,
+            "o": "에르빈_슈뢰딩거",
+            "p": "지도자(leader)",
+            "s": "오스트리아"
+        },
+        {
+            "Rep": true,
+            "o": "막스_보른",
+            "p": "지도자(leader)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "과학자",
+            "p": "직업(occupation)",
+            "s": "오스트리아"
+        }
+    ]
+}

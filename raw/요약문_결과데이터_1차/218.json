@@ -1,0 +1,141 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "예수는 로마 제국에서 사망했다. 로마 제국의 공식언어는 고대 그리스어이다. ",
+    "entities": {
+        "고대_그리스어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고대_그리스어"
+        },
+        "로마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "로마_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마_제국"
+        },
+        "문화어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문화어"
+        },
+        "예수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Deity",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예수"
+        },
+        "히브리어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/히브리어"
+        }
+    },
+    "id": 218,
+    "pid": "184-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "로마_제국",
+            "p": "사망지(deathPlace)",
+            "s": "예수"
+        },
+        {
+            "Rep": false,
+            "o": "고대_그리스어",
+            "p": "계통(languageFamily)",
+            "s": "히브리어"
+        },
+        {
+            "Rep": false,
+            "o": "히브리어",
+            "p": "계통(languageFamily)",
+            "s": "고대_그리스어"
+        },
+        {
+            "Rep": false,
+            "o": "문화어",
+            "p": "계통(languageFamily)",
+            "s": "고대_그리스어"
+        },
+        {
+            "Rep": false,
+            "o": "문화어",
+            "p": "계통(languageFamily)",
+            "s": "히브리어"
+        },
+        {
+            "Rep": false,
+            "o": "로마",
+            "p": "~의부분(isPartOf)",
+            "s": "로마"
+        },
+        {
+            "Rep": false,
+            "o": "히브리어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "고대_그리스어",
+            "p": "계통(languageFamily)",
+            "s": "문화어"
+        },
+        {
+            "Rep": true,
+            "o": "고대_그리스어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "히브리어",
+            "p": "계통(languageFamily)",
+            "s": "문화어"
+        }
+    ]
+}

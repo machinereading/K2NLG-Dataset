@@ -1,0 +1,144 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "신한은행은 안동시에 있다. ",
+    "entities": {
+        "KEB하나은행": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/KEB하나은행"
+        },
+        "국민은행": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국민은행"
+        },
+        "농업협동조합": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/농업협동조합"
+        },
+        "신한은행": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신한은행"
+        },
+        "안동시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안동시"
+        },
+        "우리은행": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우리은행"
+        },
+        "제갈량": {
+            "ne_type": "LC_TOUR",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제갈량"
+        },
+        "한국스탠다드차타드은행": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국스탠다드차타드은행"
+        }
+    },
+    "id": 5481,
+    "pid": "651-37",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "국민은행",
+            "p": "전임자(predecessor)",
+            "s": "신한은행"
+        },
+        {
+            "Rep": false,
+            "o": "안동시",
+            "p": "위치/지역(location)",
+            "s": "KEB하나은행"
+        },
+        {
+            "Rep": false,
+            "o": "안동시",
+            "p": "위치/지역(location)",
+            "s": "한국스탠다드차타드은행"
+        },
+        {
+            "Rep": true,
+            "o": "안동시",
+            "p": "위치/지역(location)",
+            "s": "신한은행"
+        },
+        {
+            "Rep": false,
+            "o": "농업협동조합",
+            "p": "직함/포지션(position)",
+            "s": "제갈량"
+        },
+        {
+            "Rep": false,
+            "o": "안동시",
+            "p": "위치/지역(location)",
+            "s": "우리은행"
+        }
+    ]
+}

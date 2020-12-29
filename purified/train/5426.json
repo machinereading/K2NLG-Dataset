@@ -1,0 +1,86 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "주한 미군은 베트남 전쟁 전투에 참여했다. ",
+    "entities": {
+        "베트남_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베트남_전쟁"
+        },
+        "제2보병사단": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제2보병사단_(미국)"
+        },
+        "제7보병사단": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제7보병사단_(미국)"
+        },
+        "주한_미군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/주한_미군"
+        }
+    },
+    "id": 5426,
+    "pid": "644-11",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "제7보병사단",
+            "p": "타입/종류(type)",
+            "s": "제2보병사단"
+        },
+        {
+            "Rep": true,
+            "o": "베트남_전쟁",
+            "p": "전투(battle)",
+            "s": "주한_미군"
+        },
+        {
+            "Rep": false,
+            "o": "제2보병사단",
+            "p": "타입/종류(type)",
+            "s": "제7보병사단"
+        }
+    ]
+}

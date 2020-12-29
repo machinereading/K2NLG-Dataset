@@ -1,0 +1,136 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "요코하마 시는 도쿄의 한 부분이다. 요코하마 시에는 제8군의 본부가 있다.",
+    "entities": {
+        "간토_지방": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/간토_지방"
+        },
+        "도쿄": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿄"
+        },
+        "요코하마_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요코하마_시"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "제8군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제8군_(미국)"
+        },
+        "혼슈": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/혼슈"
+        }
+    },
+    "id": 2909,
+    "pid": "644-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "혼슈"
+        },
+        {
+            "Rep": true,
+            "o": "도쿄",
+            "p": "~의부분(isPartOf)",
+            "s": "요코하마_시"
+        },
+        {
+            "Rep": false,
+            "o": "제8군",
+            "p": "~의부분(isPartOf)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "요코하마_시",
+            "p": "~의부분(isPartOf)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "제8군",
+            "p": "~의부분(isPartOf)",
+            "s": "요코하마_시"
+        },
+        {
+            "Rep": false,
+            "o": "도쿄",
+            "p": "본부/본사(headquarter)",
+            "s": "제8군"
+        },
+        {
+            "Rep": true,
+            "o": "요코하마_시",
+            "p": "본부/본사(headquarter)",
+            "s": "제8군"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "간토_지방"
+        }
+    ]
+}

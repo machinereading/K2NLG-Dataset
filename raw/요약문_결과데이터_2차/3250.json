@@ -1,0 +1,181 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "한겨례는 송건호에 의해 설립되었다. 그의 직업은 저널리스트다. ",
+    "entities": {
+        "기자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기자_(직업)"
+        },
+        "동아일보": {
+            "ne_type": "OGG_MEDIA",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PeriodicalLiterature",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Magazine",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Newspaper"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동아일보"
+        },
+        "발기인": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/발기인"
+        },
+        "송건호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송건호"
+        },
+        "송진우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송진우_(정치인)"
+        },
+        "양기탁": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/양기탁"
+        },
+        "장덕수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장덕수"
+        },
+        "저널리스트": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/저널리스트"
+        },
+        "한겨레": {
+            "ne_type": "OGG_MEDIA",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/PeriodicalLiterature",
+                "http://dbpedia.org/ontology/Magazine",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Newspaper"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한겨레"
+        }
+    },
+    "id": 3250,
+    "pid": "800-56",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "송건호"
+        },
+        {
+            "Rep": false,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "송진우"
+        },
+        {
+            "Rep": false,
+            "o": "기자",
+            "p": "직업(occupation)",
+            "s": "송건호"
+        },
+        {
+            "Rep": false,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "한겨레"
+        },
+        {
+            "Rep": false,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "기자"
+        },
+        {
+            "Rep": false,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "발기인"
+        },
+        {
+            "Rep": false,
+            "o": "발기인",
+            "p": "직업(occupation)",
+            "s": "장덕수"
+        },
+        {
+            "Rep": false,
+            "o": "발기인",
+            "p": "직업(occupation)",
+            "s": "양기탁"
+        },
+        {
+            "Rep": false,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "동아일보"
+        },
+        {
+            "Rep": true,
+            "o": "송건호",
+            "p": "설립되다(foundedBy)",
+            "s": "한겨레"
+        }
+    ]
+}

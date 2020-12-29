@@ -1,0 +1,201 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "요제프 2세는 빈에서 태어났다. 그의 전임자는 마리아 테레지아이다.",
+    "entities": {
+        "교황령": {
+            "ne_type": "CV_LAW",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황령"
+        },
+        "로마_교황청": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마_교황청"
+        },
+        "마리아_테레지아": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마리아_테레지아"
+        },
+        "벨기에": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/벨기에"
+        },
+        "빈": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빈"
+        },
+        "사제": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사제"
+        },
+        "신하": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Band",
+                "http://dbpedia.org/ontology/Group"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신하"
+        },
+        "오스트리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트리아"
+        },
+        "요제프_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Single",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/MusicalWork",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요제프_2세"
+        },
+        "철학": {
+            "ne_type": "FD_PHILOSOPHY",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/철학"
+        }
+    },
+    "id": 4534,
+    "pid": "73-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "빈",
+            "p": "출생지(birthPlace)",
+            "s": "요제프_2세"
+        },
+        {
+            "Rep": false,
+            "o": "마리아_테레지아",
+            "p": "부모(parent)",
+            "s": "요제프_2세"
+        },
+        {
+            "Rep": true,
+            "o": "마리아_테레지아",
+            "p": "전임자(predecessor)",
+            "s": "요제프_2세"
+        },
+        {
+            "Rep": false,
+            "o": "마리아_테레지아",
+            "p": "지도자(leader)",
+            "s": "오스트리아"
+        },
+        {
+            "Rep": false,
+            "o": "사제",
+            "p": "직업(occupation)",
+            "s": "로마_교황청"
+        },
+        {
+            "Rep": false,
+            "o": "신하",
+            "p": "~로알려진(knownFor)",
+            "s": "마리아_테레지아"
+        },
+        {
+            "Rep": false,
+            "o": "철학",
+            "p": "직업(occupation)",
+            "s": "사제"
+        },
+        {
+            "Rep": false,
+            "o": "오스트리아",
+            "p": "국가(country)",
+            "s": "벨기에"
+        },
+        {
+            "Rep": false,
+            "o": "철학",
+            "p": "직업(occupation)",
+            "s": "로마_교황청"
+        },
+        {
+            "Rep": false,
+            "o": "철학",
+            "p": "직업(occupation)",
+            "s": "교황령"
+        },
+        {
+            "Rep": false,
+            "o": "사제",
+            "p": "직업(occupation)",
+            "s": "교황령"
+        },
+        {
+            "Rep": false,
+            "o": "요제프_2세",
+            "p": "계승자/후임(successor)",
+            "s": "마리아_테레지아"
+        }
+    ]
+}

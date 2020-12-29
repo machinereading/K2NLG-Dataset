@@ -1,0 +1,127 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "한족과 만주족은 관련되어 있다. 만주족과 한족도 관련이 있다.",
+    "entities": {
+        "광저우_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/광저우_시"
+        },
+        "대금": {
+            "ne_type": "AF_MUSICAL_INSTRUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Instrument",
+                "http://dbpedia.org/ontology/Device"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대금"
+        },
+        "만주족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주족"
+        },
+        "쓰촨_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쓰촨_성"
+        },
+        "투자가": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/투자가"
+        },
+        "한족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한족"
+        },
+        "한커우": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한커우"
+        }
+    },
+    "id": 3832,
+    "pid": "195-55",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "만주족",
+            "p": "관련되(related)",
+            "s": "한족"
+        },
+        {
+            "Rep": true,
+            "o": "한족",
+            "p": "관련되(related)",
+            "s": "만주족"
+        },
+        {
+            "Rep": false,
+            "o": "쓰촨_성",
+            "p": "~의부분(isPartOf)",
+            "s": "한커우"
+        },
+        {
+            "Rep": false,
+            "o": "투자가",
+            "p": "타입/종류(type)",
+            "s": "대금"
+        },
+        {
+            "Rep": false,
+            "o": "쓰촨_성",
+            "p": "~의부분(isPartOf)",
+            "s": "광저우_시"
+        },
+        {
+            "Rep": false,
+            "o": "광저우_시",
+            "p": "~의부분(isPartOf)",
+            "s": "한커우"
+        }
+    ]
+}

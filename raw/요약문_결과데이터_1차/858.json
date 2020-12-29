@@ -1,0 +1,224 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "안익태는 평양직할시에서 태어났다. 그의 직업은 음악 감독이다. 그는 숭실고등학교 출신이다. ",
+    "entities": {
+        "도쿄": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿄"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "숭실고등학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/숭실고등학교"
+        },
+        "안익태": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안익태"
+        },
+        "음악_감독": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/음악_감독"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "지휘": {
+            "ne_type": "AF_MUSICAL_INSTRUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Instrument",
+                "http://dbpedia.org/ontology/Device",
+                "http://dbpedia.org/ontology/Activity"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지휘"
+        },
+        "첼로": {
+            "ne_type": "AF_MUSICAL_INSTRUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Device",
+                "http://dbpedia.org/ontology/Instrument"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/첼로"
+        },
+        "커티스_음악원": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/커티스_음악원"
+        },
+        "평안남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평안남도"
+        },
+        "평양직할시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평양직할시"
+        }
+    },
+    "id": 858,
+    "pid": "283-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "지휘",
+            "p": "직업(occupation)",
+            "s": "안익태"
+        },
+        {
+            "Rep": true,
+            "o": "평양직할시",
+            "p": "출생지(birthPlace)",
+            "s": "안익태"
+        },
+        {
+            "Rep": false,
+            "o": "평안남도",
+            "p": "출생지(birthPlace)",
+            "s": "안익태"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": true,
+            "o": "음악_감독",
+            "p": "직업(occupation)",
+            "s": "안익태"
+        },
+        {
+            "Rep": false,
+            "o": "음악_감독",
+            "p": "직업(occupation)",
+            "s": "커티스_음악원"
+        },
+        {
+            "Rep": false,
+            "o": "음악_감독",
+            "p": "직업(occupation)",
+            "s": "지휘"
+        },
+        {
+            "Rep": false,
+            "o": "음악_감독",
+            "p": "직업(occupation)",
+            "s": "첼로"
+        },
+        {
+            "Rep": false,
+            "o": "안익태",
+            "p": "~의부분(isPartOf)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "~의부분(isPartOf)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "안익태",
+            "p": "~의부분(isPartOf)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "첼로",
+            "p": "관련되(related)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "평안남도",
+            "p": "~의부분(isPartOf)",
+            "s": "평양직할시"
+        },
+        {
+            "Rep": false,
+            "o": "숭실고등학교",
+            "p": "학력(education)",
+            "s": "안익태"
+        }
+    ]
+}

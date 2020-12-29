@@ -1,0 +1,148 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 비오 5세의 직업은 작곡가이다. 그의 직업은 교황이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_비오_5세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_비오_5세"
+        },
+        "기독교_음악": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기독교_음악"
+        },
+        "작곡가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작곡가"
+        },
+        "조반니_피에를루이지_다_팔레스트리나": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조반니_피에를루이지_다_팔레스트리나"
+        },
+        "토마스_아퀴나스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토마스_아퀴나스"
+        }
+    },
+    "id": 1880,
+    "pid": "49-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "교황_비오_5세"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "조반니_피에를루이지_다_팔레스트리나"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "토마스_아퀴나스"
+        },
+        {
+            "Rep": false,
+            "o": "기독교_음악",
+            "p": "장르(genre)",
+            "s": "작곡가"
+        },
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "교황_비오_5세"
+        },
+        {
+            "Rep": false,
+            "o": "기독교_음악",
+            "p": "장르(genre)",
+            "s": "조반니_피에를루이지_다_팔레스트리나"
+        },
+        {
+            "Rep": false,
+            "o": "조반니_피에를루이지_다_팔레스트리나",
+            "p": "저자(author)",
+            "s": "기독교_음악"
+        },
+        {
+            "Rep": false,
+            "o": "기독교_음악",
+            "p": "장르(genre)",
+            "s": "교황_비오_5세"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "기독교_음악"
+        },
+        {
+            "Rep": false,
+            "o": "기독교_음악",
+            "p": "장르(genre)",
+            "s": "토마스_아퀴나스"
+        }
+    ]
+}

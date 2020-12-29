@@ -1,0 +1,118 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김홍도는 여운형과 친척관계다. 장택상의 전임자는 여운형이다. ",
+    "entities": {
+        "김홍도": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김홍도"
+        },
+        "남구": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남구_(울산광역시)"
+        },
+        "서울대학교병원": {
+            "ne_type": "OGG_MEDICINE",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Hospital",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울대학교병원"
+        },
+        "여운형": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/여운형"
+        },
+        "장택상": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장택상"
+        },
+        "한지근": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한지근"
+        }
+    },
+    "id": 3513,
+    "pid": "833-64",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "서울대학교병원",
+            "p": "~의부분(isPartOf)",
+            "s": "남구"
+        },
+        {
+            "Rep": false,
+            "o": "한지근",
+            "p": "친척(relative)",
+            "s": "김홍도"
+        },
+        {
+            "Rep": true,
+            "o": "여운형",
+            "p": "친척(relative)",
+            "s": "김홍도"
+        },
+        {
+            "Rep": false,
+            "o": "장택상",
+            "p": "~의부분(isPartOf)",
+            "s": "남구"
+        },
+        {
+            "Rep": true,
+            "o": "여운형",
+            "p": "전임자(predecessor)",
+            "s": "장택상"
+        }
+    ]
+}

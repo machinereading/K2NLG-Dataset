@@ -1,0 +1,122 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "시마즈 나리아키라는 도쿠가와 나리아키와 도쿠가와 요시노부의 전임자다.",
+    "entities": {
+        "도쿠가와_나리아키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿠가와_나리아키"
+        },
+        "도쿠가와_요시노부": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿠가와_요시노부"
+        },
+        "도쿠가와_이에모치": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿠가와_이에모치"
+        },
+        "도쿠가와_이에사다": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿠가와_이에사다"
+        },
+        "시마즈_나리아키라": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시마즈_나리아키라"
+        },
+        "이이_나오스케": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이이_나오스케"
+        }
+    },
+    "id": 5350,
+    "pid": "608-8",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "도쿠가와_이에모치",
+            "p": "직함/포지션(position)",
+            "s": "도쿠가와_이에사다"
+        },
+        {
+            "Rep": true,
+            "o": "시마즈_나리아키라",
+            "p": "전임자(predecessor)",
+            "s": "도쿠가와_나리아키"
+        },
+        {
+            "Rep": true,
+            "o": "시마즈_나리아키라",
+            "p": "전임자(predecessor)",
+            "s": "도쿠가와_요시노부"
+        },
+        {
+            "Rep": false,
+            "o": "도쿠가와_이에사다",
+            "p": "직함/포지션(position)",
+            "s": "도쿠가와_이에모치"
+        },
+        {
+            "Rep": false,
+            "o": "이이_나오스케",
+            "p": "전임자(predecessor)",
+            "s": "도쿠가와_요시노부"
+        },
+        {
+            "Rep": false,
+            "o": "이이_나오스케",
+            "p": "전임자(predecessor)",
+            "s": "도쿠가와_나리아키"
+        }
+    ]
+}

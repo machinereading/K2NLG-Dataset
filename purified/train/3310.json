@@ -1,0 +1,117 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "김창룡의 뒤를 정일권이 이어갔다. ",
+    "entities": {
+        "강문봉": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강문봉"
+        },
+        "김창룡": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김창룡"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "정일권": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정일권"
+        }
+    },
+    "id": 3310,
+    "pid": "818-29",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "정일권",
+            "p": "직함/포지션(position)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "강문봉",
+            "p": "직함/포지션(position)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "정일권",
+            "p": "직함/포지션(position)",
+            "s": "김창룡"
+        },
+        {
+            "Rep": false,
+            "o": "정일권",
+            "p": "직함/포지션(position)",
+            "s": "강문봉"
+        },
+        {
+            "Rep": true,
+            "o": "정일권",
+            "p": "계승자/후임(successor)",
+            "s": "김창룡"
+        },
+        {
+            "Rep": false,
+            "o": "강문봉",
+            "p": "직함/포지션(position)",
+            "s": "김창룡"
+        },
+        {
+            "Rep": false,
+            "o": "김창룡",
+            "p": "전임자(predecessor)",
+            "s": "정일권"
+        },
+        {
+            "Rep": false,
+            "o": "김창룡",
+            "p": "직함/포지션(position)",
+            "s": "이승만"
+        }
+    ]
+}

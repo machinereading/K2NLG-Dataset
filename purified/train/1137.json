@@ -1,0 +1,81 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "에츠허르 데이크스트라는 컴퓨터 과학으로 알려져있다. 에츠허르 데이크스트라는 컴퓨터 과학의 저자이다.",
+    "entities": {
+        "에츠허르_데이크스트라": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에츠허르_데이크스트라"
+        },
+        "컴퓨터_과학": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/컴퓨터_과학"
+        },
+        "컴퓨터_과학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/컴퓨터_과학자"
+        }
+    },
+    "id": 1137,
+    "pid": "133-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "컴퓨터_과학",
+            "p": "~로알려진(knownFor)",
+            "s": "에츠허르_데이크스트라"
+        },
+        {
+            "Rep": false,
+            "o": "컴퓨터_과학",
+            "p": "~로알려진(knownFor)",
+            "s": "컴퓨터_과학자"
+        },
+        {
+            "Rep": false,
+            "o": "컴퓨터_과학자",
+            "p": "타입/종류(type)",
+            "s": "컴퓨터_과학"
+        },
+        {
+            "Rep": true,
+            "o": "에츠허르_데이크스트라",
+            "p": "저자(author)",
+            "s": "컴퓨터_과학"
+        }
+    ]
+}

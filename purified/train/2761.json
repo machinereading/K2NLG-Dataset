@@ -1,0 +1,76 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "인터넷 익스플로러의 장르는 웹브라우저이다. ",
+    "entities": {
+        "웹_브라우저": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/웹_브라우저"
+        },
+        "웹_서버": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/웹_서버"
+        },
+        "인터넷_익스플로러": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인터넷_익스플로러"
+        }
+    },
+    "id": 2761,
+    "pid": "549-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "웹_브라우저",
+            "p": "장르(genre)",
+            "s": "인터넷_익스플로러"
+        },
+        {
+            "Rep": false,
+            "o": "웹_서버",
+            "p": "장르(genre)",
+            "s": "인터넷_익스플로러"
+        },
+        {
+            "Rep": false,
+            "o": "웹_서버",
+            "p": "타입/종류(type)",
+            "s": "웹_브라우저"
+        }
+    ]
+}

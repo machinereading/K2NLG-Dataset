@@ -1,0 +1,114 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "로열 온타리오 박물관은 온타리오 주에 위치했다. 토론토는 온타리오 주의 지역이다. ",
+    "entities": {
+        "다니엘_리베스킨트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Architect"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다니엘_리베스킨트"
+        },
+        "로열_온타리오_박물관": {
+            "ne_type": "OGG_ART",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Museum",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로열_온타리오_박물관"
+        },
+        "온타리오_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/온타리오_주"
+        },
+        "토론토": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토론토"
+        }
+    },
+    "id": 2226,
+    "pid": "405-18",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "온타리오_주",
+            "p": "위치/지역(location)",
+            "s": "로열_온타리오_박물관"
+        },
+        {
+            "Rep": true,
+            "o": "온타리오_주",
+            "p": "지역/분양(region)",
+            "s": "토론토"
+        },
+        {
+            "Rep": false,
+            "o": "온타리오_주",
+            "p": "~의부분(isPartOf)",
+            "s": "토론토"
+        },
+        {
+            "Rep": false,
+            "o": "로열_온타리오_박물관",
+            "p": "~로알려진(knownFor)",
+            "s": "다니엘_리베스킨트"
+        },
+        {
+            "Rep": false,
+            "o": "로열_온타리오_박물관",
+            "p": "~의부분(isPartOf)",
+            "s": "토론토"
+        },
+        {
+            "Rep": false,
+            "o": "온타리오_주",
+            "p": "~의부분(isPartOf)",
+            "s": "다니엘_리베스킨트"
+        },
+        {
+            "Rep": false,
+            "o": "토론토",
+            "p": "수도(capital)",
+            "s": "온타리오_주"
+        }
+    ]
+}

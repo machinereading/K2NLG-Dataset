@@ -1,0 +1,93 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 3,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "보잉은 일본항공 아래에 있다. 일본항공의 중요인물로 손목인이 있다. ",
+    "entities": {
+        "보잉": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보잉"
+        },
+        "손목인": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손목인"
+        },
+        "일본항공": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Airline",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본항공"
+        },
+        "형사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/형사"
+        }
+    },
+    "id": 2206,
+    "pid": "385-23",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "형사",
+            "p": "제품(product)",
+            "s": "보잉"
+        },
+        {
+            "Rep": false,
+            "o": "일본항공",
+            "p": "직함/포지션(position)",
+            "s": "손목인"
+        },
+        {
+            "Rep": true,
+            "o": "일본항공",
+            "p": "모기업(parentCompany)",
+            "s": "보잉"
+        },
+        {
+            "Rep": true,
+            "o": "손목인",
+            "p": "주요인물(keyPerson)",
+            "s": "일본항공"
+        }
+    ]
+}

@@ -1,0 +1,197 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "프로이센-오스트리아 전쟁은 독일에서 발발했다. 프로이센-오스트리아 전쟁은 룩셈부르크에서 일어났다.",
+    "entities": {
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "룩셈부르크": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/룩셈부르크"
+        },
+        "마인_강": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/River",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마인_강"
+        },
+        "벨기에": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/벨기에"
+        },
+        "오스트리아_연방육군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트리아_연방육군"
+        },
+        "오토_폰_비스마르크": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오토_폰_비스마르크"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        },
+        "프로이센": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프로이센"
+        },
+        "프로이센-오스트리아_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프로이센-오스트리아_전쟁"
+        }
+    },
+    "id": 4847,
+    "pid": "443-29",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "장소(place)",
+            "s": "프로이센-오스트리아_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "벨기에",
+            "p": "국가(country)",
+            "s": "룩셈부르크"
+        },
+        {
+            "Rep": true,
+            "o": "룩셈부르크",
+            "p": "장소(place)",
+            "s": "프로이센-오스트리아_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "프로이센",
+            "p": "국가(country)",
+            "s": "오스트리아_연방육군"
+        },
+        {
+            "Rep": false,
+            "o": "오토_폰_비스마르크",
+            "p": "리더이름(leaderName)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "오토_폰_비스마르크",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "마인_강"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "마인_강"
+        },
+        {
+            "Rep": false,
+            "o": "오토_폰_비스마르크",
+            "p": "리더이름(leaderName)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "룩셈부르크",
+            "p": "국가(country)",
+            "s": "벨기에"
+        },
+        {
+            "Rep": false,
+            "o": "프로이센",
+            "p": "장소(place)",
+            "s": "프로이센-오스트리아_전쟁"
+        }
+    ]
+}

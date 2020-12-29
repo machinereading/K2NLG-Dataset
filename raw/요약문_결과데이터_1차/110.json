@@ -1,0 +1,192 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "아시아는 싱가포르에 속한다. 아시아는 말레이시아의 한 부분이다.",
+    "entities": {
+        "가수": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가수"
+        },
+        "말레이시아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/말레이시아"
+        },
+        "싱가포르": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/싱가포르"
+        },
+        "아시아": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아시아"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "영화배우": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화배우"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "중화인민공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화인민공화국"
+        },
+        "캐나다": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캐나다"
+        }
+    },
+    "id": 110,
+    "pid": "131-5",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "영화배우",
+            "p": "직업(occupation)",
+            "s": "가수"
+        },
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "캐나다"
+        },
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "말레이시아"
+        },
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "싱가포르"
+        },
+        {
+            "Rep": false,
+            "o": "중화인민공화국",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "영화"
+        },
+        {
+            "Rep": true,
+            "o": "싱가포르",
+            "p": "~의부분(isPartOf)",
+            "s": "아시아"
+        },
+        {
+            "Rep": false,
+            "o": "말레이시아",
+            "p": "국가(country)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "영화배우",
+            "p": "직업(occupation)",
+            "s": "캐나다"
+        },
+        {
+            "Rep": false,
+            "o": "아시아",
+            "p": "위치/지역(location)",
+            "s": "말레이시아"
+        },
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "아시아"
+        },
+        {
+            "Rep": true,
+            "o": "말레이시아",
+            "p": "~의부분(isPartOf)",
+            "s": "아시아"
+        }
+    ]
+}

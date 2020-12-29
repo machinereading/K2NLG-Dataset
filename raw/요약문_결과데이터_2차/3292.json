@@ -1,0 +1,77 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "조민수와 조선 태조는 친척 관계다. 조선 태조의 전임자는 최영이다.",
+    "entities": {
+        "조민수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조민수"
+        },
+        "조선_태조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_태조"
+        },
+        "최영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/최영"
+        }
+    },
+    "id": 3292,
+    "pid": "808-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "조선_태조",
+            "p": "친척(relative)",
+            "s": "조민수"
+        },
+        {
+            "Rep": true,
+            "o": "최영",
+            "p": "전임자(predecessor)",
+            "s": "조선_태조"
+        },
+        {
+            "Rep": false,
+            "o": "조민수",
+            "p": "직함/포지션(position)",
+            "s": "최영"
+        }
+    ]
+}

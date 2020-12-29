@@ -1,0 +1,110 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "미에몬테 주는 이탈리아에 있다. 사르데냐 왕국도 이탈리아에 있다.",
+    "entities": {
+        "사르데냐_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사르데냐_왕국"
+        },
+        "오스트리아_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트리아_제국"
+        },
+        "이탈리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아"
+        },
+        "피에몬테_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피에몬테_주"
+        }
+    },
+    "id": 2316,
+    "pid": "443-19",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "피에몬테_주"
+        },
+        {
+            "Rep": false,
+            "o": "오스트리아_제국",
+            "p": "국가(country)",
+            "s": "피에몬테_주"
+        },
+        {
+            "Rep": true,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "사르데냐_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "오스트리아_제국",
+            "p": "국가(country)",
+            "s": "사르데냐_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "사르데냐_왕국",
+            "p": "국가(country)",
+            "s": "피에몬테_주"
+        },
+        {
+            "Rep": false,
+            "o": "오스트리아_제국",
+            "p": "국가(country)",
+            "s": "이탈리아"
+        }
+    ]
+}

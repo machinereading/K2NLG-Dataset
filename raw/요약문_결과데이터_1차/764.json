@@ -1,0 +1,118 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이시영 (1868년)의 정당은 민주국민당(1949년)이다. 그는 조병옥의 전임자이다.",
+    "entities": {
+        "기자_(직업)": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기자_(직업)"
+        },
+        "민주국민당_(1949년)": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주국민당_(1949년)"
+        },
+        "이시영_(1868년)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이시영_(1868년)"
+        },
+        "조병옥": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조병옥"
+        }
+    },
+    "id": 764,
+    "pid": "266-24",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "민주국민당_(1949년)",
+            "p": "정당(party)",
+            "s": "이시영_(1868년)"
+        },
+        {
+            "Rep": false,
+            "o": "민주국민당_(1949년)",
+            "p": "정당(party)",
+            "s": "민주국민당_(1949년)"
+        },
+        {
+            "Rep": true,
+            "o": "이시영_(1868년)",
+            "p": "전임자(predecessor)",
+            "s": "조병옥"
+        },
+        {
+            "Rep": false,
+            "o": "민주국민당_(1949년)",
+            "p": "정당(party)",
+            "s": "기자_(직업)"
+        },
+        {
+            "Rep": false,
+            "o": "조병옥",
+            "p": "지도자(leader)",
+            "s": "민주국민당_(1949년)"
+        },
+        {
+            "Rep": false,
+            "o": "이시영_(1868년)",
+            "p": "전임자(predecessor)",
+            "s": "이시영_(1868년)"
+        },
+        {
+            "Rep": false,
+            "o": "조병옥",
+            "p": "전임자(predecessor)",
+            "s": "조병옥"
+        },
+        {
+            "Rep": false,
+            "o": "조병옥",
+            "p": "전임자(predecessor)",
+            "s": "민주국민당_(1949년)"
+        }
+    ]
+}

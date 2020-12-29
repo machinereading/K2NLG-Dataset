@@ -1,0 +1,102 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "단천시 안에 수동구가 있다. 수동구는 단천시에 속해 있다.",
+    "entities": {
+        "금호지구": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/금호지구"
+        },
+        "단천시": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/단천시"
+        },
+        "수동구": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수동구"
+        },
+        "신포시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신포시"
+        }
+    },
+    "id": 3047,
+    "pid": "689-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "수동구",
+            "p": "부분(part)",
+            "s": "단천시"
+        },
+        {
+            "Rep": false,
+            "o": "금호지구",
+            "p": "~의부분(isPartOf)",
+            "s": "신포시"
+        },
+        {
+            "Rep": true,
+            "o": "단천시",
+            "p": "~의부분(isPartOf)",
+            "s": "수동구"
+        },
+        {
+            "Rep": false,
+            "o": "금호지구",
+            "p": "부분(part)",
+            "s": "신포시"
+        },
+        {
+            "Rep": false,
+            "o": "수동구",
+            "p": "지역/분양(region)",
+            "s": "단천시"
+        }
+    ]
+}

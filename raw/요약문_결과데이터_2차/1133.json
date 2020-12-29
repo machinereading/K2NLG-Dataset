@@ -1,0 +1,131 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "영웅본색의 감독은 위위썬이다. 영웅본색의 주연은 주윤발이다.",
+    "entities": {
+        "영웅본색": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영웅본색"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "우위썬": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우위썬"
+        },
+        "주연": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/주연_(동오)"
+        },
+        "주윤발": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/주윤발"
+        }
+    },
+    "id": 1133,
+    "pid": "131-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "직업(occupation)",
+            "s": "주윤발"
+        },
+        {
+            "Rep": true,
+            "o": "우위썬",
+            "p": "감독(director)",
+            "s": "영웅본색"
+        },
+        {
+            "Rep": false,
+            "o": "주연",
+            "p": "직업(occupation)",
+            "s": "주윤발"
+        },
+        {
+            "Rep": false,
+            "o": "주윤발",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": true,
+            "o": "주윤발",
+            "p": "주연(starring)",
+            "s": "영웅본색"
+        },
+        {
+            "Rep": false,
+            "o": "주연",
+            "p": "주연(starring)",
+            "s": "영웅본색"
+        },
+        {
+            "Rep": false,
+            "o": "주연",
+            "p": "직업(occupation)",
+            "s": "우위썬"
+        },
+        {
+            "Rep": false,
+            "o": "주연",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "영웅본색"
+        }
+    ]
+}

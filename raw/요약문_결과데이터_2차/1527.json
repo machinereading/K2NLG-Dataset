@@ -1,0 +1,172 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "안창호의 안식처는 미국이다. 그이 자식은 안필립이다.",
+    "entities": {
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "안창호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안창호"
+        },
+        "안필립": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안필립"
+        },
+        "캘리포니아_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캘리포니아_주"
+        },
+        "한국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국"
+        },
+        "한국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국인"
+        }
+    },
+    "id": 1527,
+    "pid": "260-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "안식처(restingPlace)",
+            "s": "안창호"
+        },
+        {
+            "Rep": true,
+            "o": "안필립",
+            "p": "자식(child)",
+            "s": "안창호"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "캘리포니아_주"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "있는곳(populationPlace)",
+            "s": "한국인"
+        },
+        {
+            "Rep": false,
+            "o": "캘리포니아_주",
+            "p": "있는곳(populationPlace)",
+            "s": "한국인"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "안필립"
+        },
+        {
+            "Rep": false,
+            "o": "캘리포니아_주",
+            "p": "~의부분(isPartOf)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "안창호",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "안창호",
+            "p": "지도자(leader)",
+            "s": "한국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "한국"
+        },
+        {
+            "Rep": false,
+            "o": "한국인",
+            "p": "국가(country)",
+            "s": "캘리포니아_주"
+        },
+        {
+            "Rep": false,
+            "o": "한국인",
+            "p": "민족(ethnicGroup)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "한국인",
+            "p": "직업(occupation)",
+            "s": "안필립"
+        },
+        {
+            "Rep": false,
+            "o": "안필립",
+            "p": "지도자(leader)",
+            "s": "미국"
+        }
+    ]
+}

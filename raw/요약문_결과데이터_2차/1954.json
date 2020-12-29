@@ -1,0 +1,179 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "프랑스의 지도자는 쥘 마자랭이다. 그의 국가는 아일랜드다. 아일랜드의 지도자는 찰스 1세다.",
+    "entities": {
+        "교황_인노첸시오_10세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_인노첸시오_10세"
+        },
+        "대주교": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대주교"
+        },
+        "아일랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아일랜드"
+        },
+        "잉글랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잉글랜드"
+        },
+        "쥘_마자랭": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쥘_마자랭"
+        },
+        "찰스_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/찰스_1세"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 1954,
+    "pid": "59-11",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": false,
+            "o": "아일랜드",
+            "p": "국가(country)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": false,
+            "o": "쥘_마자랭",
+            "p": "지도자(leader)",
+            "s": "아일랜드"
+        },
+        {
+            "Rep": false,
+            "o": "교황_인노첸시오_10세",
+            "p": "지도자(leader)",
+            "s": "아일랜드"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "아일랜드"
+        },
+        {
+            "Rep": false,
+            "o": "쥘_마자랭",
+            "p": "배우자(spouse)",
+            "s": "교황_인노첸시오_10세"
+        },
+        {
+            "Rep": false,
+            "o": "아일랜드",
+            "p": "국가(country)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "찰스_1세",
+            "p": "지도자(leader)",
+            "s": "아일랜드"
+        },
+        {
+            "Rep": false,
+            "o": "아일랜드",
+            "p": "국가(country)",
+            "s": "대주교"
+        },
+        {
+            "Rep": true,
+            "o": "쥘_마자랭",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "찰스_1세",
+            "p": "리더이름(leaderName)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": false,
+            "o": "잉글랜드",
+            "p": "수도(capital)",
+            "s": "아일랜드"
+        },
+        {
+            "Rep": true,
+            "o": "아일랜드",
+            "p": "국가(country)",
+            "s": "쥘_마자랭"
+        }
+    ]
+}

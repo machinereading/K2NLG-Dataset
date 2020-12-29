@@ -1,0 +1,126 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "나폴리 왕국의 리더는 샤를 8세였다. 나폴리 왕국은 교황 율리오 2세가 이끌었었다. 나폴리 왕국은 교황 알렉산데르 6세의 지도하에 있었다.",
+    "entities": {
+        "교황_알렉산데르_6세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_알렉산데르_6세"
+        },
+        "교황_율리오_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_율리오_2세"
+        },
+        "나폴리_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나폴리_왕국"
+        },
+        "로마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "샤를_8세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/샤를_8세"
+        },
+        "이탈리아_반도": {
+            "ne_type": "LCG_BAY",
+            "type": [
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아_반도"
+        }
+    },
+    "id": 430,
+    "pid": "41-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "샤를_8세",
+            "p": "리더이름(leaderName)",
+            "s": "나폴리_왕국"
+        },
+        {
+            "Rep": true,
+            "o": "교황_율리오_2세",
+            "p": "리더이름(leaderName)",
+            "s": "나폴리_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "나폴리_왕국",
+            "p": "국가(country)",
+            "s": "이탈리아_반도"
+        },
+        {
+            "Rep": true,
+            "o": "교황_알렉산데르_6세",
+            "p": "리더이름(leaderName)",
+            "s": "나폴리_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "나폴리_왕국",
+            "p": "국가(country)",
+            "s": "로마"
+        }
+    ]
+}

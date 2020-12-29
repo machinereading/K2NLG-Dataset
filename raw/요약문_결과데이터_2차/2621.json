@@ -1,0 +1,118 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "윤보선, 조병옥이 있는 정당은 민주당이다. 민주당의 지도자는 윤보선, 조병옥이다.  조병옥의 전임자는 윤보선이다. 조병옥의 뒤는 윤보선이 이어갔다.",
+    "entities": {
+        "민의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Legislature",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민의원"
+        },
+        "민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주당_(미국)"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "조병옥": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조병옥"
+        }
+    },
+    "id": 2621,
+    "pid": "541-120",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "민주당",
+            "p": "정당(party)",
+            "s": "조병옥"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "지도자(leader)",
+            "s": "민주당"
+        },
+        {
+            "Rep": false,
+            "o": "조병옥",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "민의원",
+            "p": "직함/포지션(position)",
+            "s": "민주당"
+        },
+        {
+            "Rep": true,
+            "o": "조병옥",
+            "p": "지도자(leader)",
+            "s": "민주당"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "전임자(predecessor)",
+            "s": "조병옥"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "계승자/후임(successor)",
+            "s": "조병옥"
+        }
+    ]
+}

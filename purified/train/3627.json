@@ -1,0 +1,86 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "아시아 태평양 경제협력체의 지도자는 아베 신조다. 아시아 태평양 경제협력체는 동해에 있다.",
+    "entities": {
+        "동해": {
+            "ne_type": "LCG_OCEAN",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Artist"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동해"
+        },
+        "아베_신조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아베_신조"
+        },
+        "아시아_태평양_경제협력체": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아시아_태평양_경제협력체"
+        },
+        "청와대": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청와대"
+        }
+    },
+    "id": 3627,
+    "pid": "114-64",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "아베_신조",
+            "p": "지도자(leader)",
+            "s": "아시아_태평양_경제협력체"
+        },
+        {
+            "Rep": false,
+            "o": "동해",
+            "p": "주소(address)",
+            "s": "청와대"
+        },
+        {
+            "Rep": true,
+            "o": "동해",
+            "p": "위치/지역(location)",
+            "s": "아시아_태평양_경제협력체"
+        }
+    ]
+}

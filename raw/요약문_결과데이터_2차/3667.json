@@ -1,0 +1,131 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "래리 생어는 위키백과의 저자이다. 그는 위키백과로 알려졌다.",
+    "entities": {
+        "누피디어": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/누피디어"
+        },
+        "래리_생어": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/래리_생어"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "위키": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위키"
+        },
+        "위키백과": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위키백과"
+        },
+        "지미_웨일스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지미_웨일스"
+        },
+        "프레더릭_생어": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프레더릭_생어"
+        }
+    },
+    "id": 3667,
+    "pid": "134-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "누피디어"
+        },
+        {
+            "Rep": false,
+            "o": "지미_웨일스",
+            "p": "저자(author)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": true,
+            "o": "래리_생어",
+            "p": "저자(author)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": false,
+            "o": "지미_웨일스",
+            "p": "저자(author)",
+            "s": "누피디어"
+        },
+        {
+            "Rep": false,
+            "o": "위키",
+            "p": "타입/종류(type)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": true,
+            "o": "위키백과",
+            "p": "~로알려진(knownFor)",
+            "s": "래리_생어"
+        },
+        {
+            "Rep": false,
+            "o": "프레더릭_생어",
+            "p": "저자(author)",
+            "s": "누피디어"
+        }
+    ]
+}

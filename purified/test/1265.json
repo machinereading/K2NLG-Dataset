@@ -1,0 +1,90 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김문기의 직업은 만화가이다. 그는 상지대학교를 졸업했다.",
+    "entities": {
+        "김문기": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김문기"
+        },
+        "만화가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만화가"
+        },
+        "상지대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SoccerClub",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/상지대학교"
+        }
+    },
+    "id": 1265,
+    "pid": "189-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "만화가",
+            "p": "직업(occupation)",
+            "s": "김문기"
+        },
+        {
+            "Rep": true,
+            "o": "상지대학교",
+            "p": "학력(education)",
+            "s": "김문기"
+        },
+        {
+            "Rep": false,
+            "o": "만화가",
+            "p": "타입/종류(type)",
+            "s": "상지대학교"
+        },
+        {
+            "Rep": false,
+            "o": "상지대학교",
+            "p": "학력(education)",
+            "s": "만화가"
+        },
+        {
+            "Rep": false,
+            "o": "김문기",
+            "p": "타입/종류(type)",
+            "s": "상지대학교"
+        }
+    ]
+}

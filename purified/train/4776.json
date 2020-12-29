@@ -1,0 +1,74 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "배트맨 2는 빅 피쉬의 이전작품이다. 배트맨 2의 후속작은 슬리피 할로우이다.",
+    "entities": {
+        "배트맨_2": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/배트맨_2"
+        },
+        "빅_피쉬": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빅_피쉬"
+        },
+        "슬리피_할로우": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/TelevisionShow"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/슬리피_할로우_(드라마)"
+        }
+    },
+    "id": 4776,
+    "pid": "414-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "배트맨_2",
+            "p": "이전작품(previousWork)",
+            "s": "빅_피쉬"
+        },
+        {
+            "Rep": true,
+            "o": "슬리피_할로우",
+            "p": "후속작(subsequentWork)",
+            "s": "배트맨_2"
+        },
+        {
+            "Rep": false,
+            "o": "배트맨_2",
+            "p": "이전작품(previousWork)",
+            "s": "슬리피_할로우"
+        }
+    ]
+}

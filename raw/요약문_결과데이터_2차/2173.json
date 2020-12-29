@@ -1,0 +1,122 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 5,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "원 인증의 계승자는 원 영종이다. 그는 원 무종의 계승자이다.",
+    "entities": {
+        "다기": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다기_(원나라)"
+        },
+        "원_무종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원_무종"
+        },
+        "원_영종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원_영종_(5대)"
+        },
+        "원_인종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원_인종"
+        },
+        "원_혜종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원_혜종"
+        }
+    },
+    "id": 2173,
+    "pid": "375-19",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "다기",
+            "p": "부모(parent)",
+            "s": "원_인종"
+        },
+        {
+            "Rep": false,
+            "o": "원_혜종",
+            "p": "계승자/후임(successor)",
+            "s": "원_영종"
+        },
+        {
+            "Rep": false,
+            "o": "원_혜종",
+            "p": "계승자/후임(successor)",
+            "s": "원_인종"
+        },
+        {
+            "Rep": true,
+            "o": "원_영종",
+            "p": "계승자/후임(successor)",
+            "s": "원_인종"
+        },
+        {
+            "Rep": true,
+            "o": "원_인종",
+            "p": "계승자/후임(successor)",
+            "s": "원_무종"
+        },
+        {
+            "Rep": false,
+            "o": "원_인종",
+            "p": "전임자(predecessor)",
+            "s": "원_혜종"
+        },
+        {
+            "Rep": false,
+            "o": "다기",
+            "p": "계승자/후임(successor)",
+            "s": "원_인종"
+        }
+    ]
+}

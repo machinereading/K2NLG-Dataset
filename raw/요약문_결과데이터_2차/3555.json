@@ -1,0 +1,86 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "브라이언 커니핸은 C로 유명해졌다. 그는 C를 개발하였다.",
+    "entities": {
+        "C": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/ProgrammingLanguage",
+                "http://dbpedia.org/ontology/Language",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/C_(프로그래밍_언어)"
+        },
+        "브라이언_커니핸": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/브라이언_커니핸"
+        },
+        "유닉스": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Software",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유닉스"
+        },
+        "켄_톰프슨": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/켄_톰프슨"
+        }
+    },
+    "id": 3555,
+    "pid": "105-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "C",
+            "p": "~로알려진(knownFor)",
+            "s": "브라이언_커니핸"
+        },
+        {
+            "Rep": false,
+            "o": "유닉스",
+            "p": "~로알려진(knownFor)",
+            "s": "켄_톰프슨"
+        },
+        {
+            "Rep": true,
+            "o": "브라이언_커니핸",
+            "p": "개발자/개발사(developer)",
+            "s": "C"
+        }
+    ]
+}

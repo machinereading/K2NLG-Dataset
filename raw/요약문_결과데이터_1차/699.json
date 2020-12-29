@@ -1,0 +1,78 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "평안북도는 함경북도의 한 부분이다. 평안북도는 함경북도에 있는 한 지역이다.",
+    "entities": {
+        "평안북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평안북도"
+        },
+        "함경북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/함경북도"
+        }
+    },
+    "id": 699,
+    "pid": "230-87",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "함경북도",
+            "p": "~의부분(isPartOf)",
+            "s": "평안북도"
+        },
+        {
+            "Rep": false,
+            "o": "평안북도",
+            "p": "~의부분(isPartOf)",
+            "s": "함경북도"
+        },
+        {
+            "Rep": false,
+            "o": "함경북도",
+            "p": "~의부분(isPartOf)",
+            "s": "함경북도"
+        },
+        {
+            "Rep": true,
+            "o": "함경북도",
+            "p": "지역/분양(region)",
+            "s": "평안북도"
+        }
+    ]
+}

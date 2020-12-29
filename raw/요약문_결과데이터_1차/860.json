@@ -1,0 +1,100 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "제2차 세계 대전 지휘관은 리하르트 슈트라우스다. 리하르트 슈트라우스는 제2차 세계 대전 전투에 참가했다. 제2차 세계대전 지휘관은 안익태이다. 일본의 지도자는 리하르트 슈트라우스다. 안익태는 제2차 세계대전에 참전했다.",
+    "entities": {
+        "리하르트_슈트라우스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리하르트_슈트라우스"
+        },
+        "안익태": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안익태"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "제2차_세계_대전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제2차_세계_대전"
+        }
+    },
+    "id": 860,
+    "pid": "283-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "리하르트_슈트라우스",
+            "p": "지휘관(commander)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": true,
+            "o": "제2차_세계_대전",
+            "p": "전투(battle)",
+            "s": "리하르트_슈트라우스"
+        },
+        {
+            "Rep": true,
+            "o": "안익태",
+            "p": "지휘관(commander)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": true,
+            "o": "리하르트_슈트라우스",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "제2차_세계_대전",
+            "p": "전투(battle)",
+            "s": "안익태"
+        }
+    ]
+}

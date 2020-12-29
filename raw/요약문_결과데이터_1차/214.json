@@ -1,0 +1,172 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "김지운 (영화 감독)은 청룡영화상을 수상했다. 그는 주연 (동오)라는 작품을 찍었다.",
+    "entities": {
+        "김갑수_(배우)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김갑수_(배우)"
+        },
+        "김지운_(영화_감독)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김지운_(영화_감독)"
+        },
+        "문근영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문근영"
+        },
+        "염정아": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/염정아"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "임수정_(배우)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/임수정_(배우)"
+        },
+        "주연_(동오)": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/주연_(동오)"
+        },
+        "청룡영화상": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청룡영화상"
+        }
+    },
+    "id": 214,
+    "pid": "183-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "청룡영화상",
+            "p": "수상(award)",
+            "s": "김지운_(영화_감독)"
+        },
+        {
+            "Rep": false,
+            "o": "김갑수_(배우)",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "임수정_(배우)",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "주연_(동오)",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "염정아",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "주연_(동오)",
+            "p": "직업(occupation)",
+            "s": "염정아"
+        },
+        {
+            "Rep": true,
+            "o": "주연_(동오)",
+            "p": "직업(occupation)",
+            "s": "김지운_(영화_감독)"
+        },
+        {
+            "Rep": false,
+            "o": "주연_(동오)",
+            "p": "직업(occupation)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "주연_(동오)",
+            "p": "직업(occupation)",
+            "s": "임수정_(배우)"
+        },
+        {
+            "Rep": false,
+            "o": "주연_(동오)",
+            "p": "직업(occupation)",
+            "s": "김갑수_(배우)"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "범죄는 군인과 관련있다. 장준하의 직업은 군인이다. ",
+    "entities": {
+        "군인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/군인"
+        },
+        "범죄": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/범죄"
+        },
+        "장준하": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장준하"
+        }
+    },
+    "id": 3387,
+    "pid": "829-252",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "장준하"
+        },
+        {
+            "Rep": true,
+            "o": "군인",
+            "p": "관련되(related)",
+            "s": "범죄"
+        },
+        {
+            "Rep": false,
+            "o": "장준하",
+            "p": "전임자(predecessor)",
+            "s": "범죄"
+        },
+        {
+            "Rep": false,
+            "o": "장준하",
+            "p": "지도자(leader)",
+            "s": "군인"
+        }
+    ]
+}

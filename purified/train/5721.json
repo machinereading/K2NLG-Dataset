@@ -1,0 +1,182 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김구의 전임자는 조소앙이다. ",
+    "entities": {
+        "고려": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려"
+        },
+        "고려대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려대학교"
+        },
+        "교장": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교장"
+        },
+        "김구": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김구"
+        },
+        "재조선미육군사령부군정청": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/재조선미육군사령부군정청"
+        },
+        "조성환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조성환"
+        },
+        "조소앙": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조소앙"
+        },
+        "한국민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국민주당"
+        },
+        "현상윤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현상윤"
+        }
+    },
+    "id": 5721,
+    "pid": "800-110",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "김구",
+            "p": "전임자(predecessor)",
+            "s": "조소앙"
+        },
+        {
+            "Rep": false,
+            "o": "교장",
+            "p": "직함/포지션(position)",
+            "s": "현상윤"
+        },
+        {
+            "Rep": false,
+            "o": "교장",
+            "p": "지도자(leader)",
+            "s": "한국민주당"
+        },
+        {
+            "Rep": false,
+            "o": "현상윤",
+            "p": "리더이름(leaderName)",
+            "s": "고려"
+        },
+        {
+            "Rep": false,
+            "o": "현상윤",
+            "p": "지도자(leader)",
+            "s": "한국민주당"
+        },
+        {
+            "Rep": false,
+            "o": "조성환",
+            "p": "전임자(predecessor)",
+            "s": "조소앙"
+        },
+        {
+            "Rep": false,
+            "o": "김구",
+            "p": "전임자(predecessor)",
+            "s": "조성환"
+        },
+        {
+            "Rep": false,
+            "o": "조소앙",
+            "p": "전임자(predecessor)",
+            "s": "조성환"
+        },
+        {
+            "Rep": true,
+            "o": "조소앙",
+            "p": "전임자(predecessor)",
+            "s": "김구"
+        },
+        {
+            "Rep": false,
+            "o": "한국민주당",
+            "p": "정당(party)",
+            "s": "교장"
+        },
+        {
+            "Rep": false,
+            "o": "재조선미육군사령부군정청",
+            "p": "국가(country)",
+            "s": "고려대학교"
+        }
+    ]
+}

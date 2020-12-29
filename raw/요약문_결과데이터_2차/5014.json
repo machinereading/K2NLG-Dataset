@@ -1,0 +1,132 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "과학자 레온하르트 오일러는 상트페테르부르크에서 사망하였다. 그 뒤를 표트르 2세가 계승하였다. 그는 상트페테르부르크의 리더이다.",
+    "entities": {
+        "과학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/과학자"
+        },
+        "레온하르트_오일러": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레온하르트_오일러"
+        },
+        "상트페테르부르크": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/상트페테르부르크"
+        },
+        "아카데미상": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아카데미상"
+        },
+        "예카테리나_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예카테리나_1세"
+        },
+        "표트르_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/표트르_2세"
+        }
+    },
+    "id": 5014,
+    "pid": "502-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "상트페테르부르크",
+            "p": "사망지(deathPlace)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": true,
+            "o": "표트르_2세",
+            "p": "리더이름(leaderName)",
+            "s": "상트페테르부르크"
+        },
+        {
+            "Rep": false,
+            "o": "예카테리나_1세",
+            "p": "리더이름(leaderName)",
+            "s": "상트페테르부르크"
+        },
+        {
+            "Rep": false,
+            "o": "레온하르트_오일러",
+            "p": "영향받은(influenced)",
+            "s": "과학자"
+        },
+        {
+            "Rep": true,
+            "o": "표트르_2세",
+            "p": "계승자/후임(successor)",
+            "s": "레온하르트_오일러"
+        },
+        {
+            "Rep": false,
+            "o": "과학자",
+            "p": "직업(occupation)",
+            "s": "아카데미상"
+        },
+        {
+            "Rep": true,
+            "o": "과학자",
+            "p": "직업(occupation)",
+            "s": "레온하르트_오일러"
+        }
+    ]
+}

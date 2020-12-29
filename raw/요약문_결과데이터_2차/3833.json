@@ -1,0 +1,161 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "청나라의 수도는 우한 시다. 청나라의 리더는 보로이다.",
+    "entities": {
+        "보로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/SoccerManager",
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SportsManager"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보로_(축구인)"
+        },
+        "순천시": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/순천시_(평안남도)"
+        },
+        "쓰촨_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쓰촨_성"
+        },
+        "우창_봉기": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우창_봉기"
+        },
+        "우한_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우한_시"
+        },
+        "청나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청나라"
+        },
+        "후베이_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/후베이_성"
+        }
+    },
+    "id": 3833,
+    "pid": "195-58",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "쓰촨_성",
+            "p": "~의부분(isPartOf)",
+            "s": "우한_시"
+        },
+        {
+            "Rep": false,
+            "o": "후베이_성",
+            "p": "~의부분(isPartOf)",
+            "s": "순천시"
+        },
+        {
+            "Rep": true,
+            "o": "우한_시",
+            "p": "수도(capital)",
+            "s": "청나라"
+        },
+        {
+            "Rep": false,
+            "o": "청나라",
+            "p": "국가(country)",
+            "s": "우한_시"
+        },
+        {
+            "Rep": false,
+            "o": "쓰촨_성",
+            "p": "~의부분(isPartOf)",
+            "s": "후베이_성"
+        },
+        {
+            "Rep": true,
+            "o": "보로",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        },
+        {
+            "Rep": false,
+            "o": "쓰촨_성",
+            "p": "~의부분(isPartOf)",
+            "s": "순천시"
+        },
+        {
+            "Rep": false,
+            "o": "보로",
+            "p": "리더이름(leaderName)",
+            "s": "우한_시"
+        },
+        {
+            "Rep": false,
+            "o": "보로",
+            "p": "지휘관(commander)",
+            "s": "우창_봉기"
+        },
+        {
+            "Rep": false,
+            "o": "후베이_성",
+            "p": "지역/분양(region)",
+            "s": "순천시"
+        }
+    ]
+}

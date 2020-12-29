@@ -1,0 +1,172 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "컴팩의 제품으로 개인용 컴퓨터가 있다. 세이코홀딩스는 일본에 있다. 미쓰비시 전기와 샤프의 모기업은 세이코홀딩스다.",
+    "entities": {
+        "개인용_컴퓨터": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Software",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개인용_컴퓨터"
+        },
+        "레노버": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레노버"
+        },
+        "미쓰비시_전기": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미쓰비시_전기"
+        },
+        "샤프": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/샤프_(기업)"
+        },
+        "세이코홀딩스": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/세이코홀딩스"
+        },
+        "에이서": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에이서"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "컴팩": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/컴팩"
+        },
+        "휴렛_팩커드": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/휴렛_팩커드"
+        }
+    },
+    "id": 2493,
+    "pid": "506-16",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "샤프"
+        },
+        {
+            "Rep": true,
+            "o": "개인용_컴퓨터",
+            "p": "제품(product)",
+            "s": "컴팩"
+        },
+        {
+            "Rep": false,
+            "o": "레노버",
+            "p": "모기업(parentCompany)",
+            "s": "에이서"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "위치/지역(location)",
+            "s": "세이코홀딩스"
+        },
+        {
+            "Rep": true,
+            "o": "세이코홀딩스",
+            "p": "모기업(parentCompany)",
+            "s": "미쓰비시_전기"
+        },
+        {
+            "Rep": false,
+            "o": "레노버",
+            "p": "모기업(parentCompany)",
+            "s": "휴렛_팩커드"
+        },
+        {
+            "Rep": false,
+            "o": "개인용_컴퓨터",
+            "p": "제품(product)",
+            "s": "레노버"
+        },
+        {
+            "Rep": false,
+            "o": "개인용_컴퓨터",
+            "p": "제품(product)",
+            "s": "에이서"
+        },
+        {
+            "Rep": false,
+            "o": "에이서",
+            "p": "자회사(subsidiary)",
+            "s": "컴팩"
+        },
+        {
+            "Rep": true,
+            "o": "세이코홀딩스",
+            "p": "모기업(parentCompany)",
+            "s": "샤프"
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "지리산에는 덕유산이 있다. 지리산에는 팔공산도 있다. 지리산에는 장안산도 있다.",
+    "entities": {
+        "덕유산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/덕유산"
+        },
+        "장안산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장안산"
+        },
+        "지리산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지리산"
+        },
+        "팔공산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팔공산"
+        }
+    },
+    "id": 2781,
+    "pid": "574-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "지리산",
+            "p": "있는곳(locatedInArea)",
+            "s": "덕유산"
+        },
+        {
+            "Rep": true,
+            "o": "지리산",
+            "p": "있는곳(locatedInArea)",
+            "s": "팔공산"
+        },
+        {
+            "Rep": true,
+            "o": "지리산",
+            "p": "있는곳(locatedInArea)",
+            "s": "장안산"
+        },
+        {
+            "Rep": false,
+            "o": "덕유산",
+            "p": "있는곳(locatedInArea)",
+            "s": "지리산"
+        },
+        {
+            "Rep": false,
+            "o": "팔공산",
+            "p": "있는곳(locatedInArea)",
+            "s": "덕유산"
+        },
+        {
+            "Rep": false,
+            "o": "팔공산",
+            "p": "있는곳(locatedInArea)",
+            "s": "장안산"
+        },
+        {
+            "Rep": false,
+            "o": "덕유산",
+            "p": "있는곳(locatedInArea)",
+            "s": "팔공산"
+        },
+        {
+            "Rep": false,
+            "o": "팔공산",
+            "p": "있는곳(locatedInArea)",
+            "s": "지리산"
+        },
+        {
+            "Rep": false,
+            "o": "덕유산",
+            "p": "있는곳(locatedInArea)",
+            "s": "장안산"
+        }
+    ]
+}

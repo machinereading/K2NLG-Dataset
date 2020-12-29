@@ -1,0 +1,78 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 1,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "항저우 시는 쑤저우 시의 부분이다. 항저우 시에는 송강이 있다.",
+    "entities": {
+        "송강": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송강_(북송)"
+        },
+        "쑤저우_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쑤저우_시"
+        },
+        "항저우_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/항저우_시"
+        }
+    },
+    "id": 1590,
+    "pid": "276-35",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "항저우_시",
+            "p": "~의부분(isPartOf)",
+            "s": "쑤저우_시"
+        },
+        {
+            "Rep": true,
+            "o": "쑤저우_시",
+            "p": "~의부분(isPartOf)",
+            "s": "항저우_시"
+        },
+        {
+            "Rep": true,
+            "o": "송강",
+            "p": "부분(part)",
+            "s": "항저우_시"
+        }
+    ]
+}

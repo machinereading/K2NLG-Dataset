@@ -1,0 +1,150 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "SS 라치오는 이탈리아의 축구클럽이다.",
+    "entities": {
+        "SS_라치오": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/SS_라치오"
+        },
+        "롬바르디아_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/롬바르디아_주"
+        },
+        "시칠리아": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/EthnicGroup",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시칠리아"
+        },
+        "이탈리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아"
+        },
+        "캄파니아_주": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캄파니아_주"
+        }
+    },
+    "id": 4771,
+    "pid": "410-5",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "시칠리아"
+        },
+        {
+            "Rep": false,
+            "o": "캄파니아_주",
+            "p": "부분(part)",
+            "s": "롬바르디아_주"
+        },
+        {
+            "Rep": false,
+            "o": "롬바르디아_주",
+            "p": "구장(ground)",
+            "s": "SS_라치오"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아",
+            "p": "구장(ground)",
+            "s": "SS_라치오"
+        },
+        {
+            "Rep": false,
+            "o": "캄파니아_주",
+            "p": "지역/분양(region)",
+            "s": "롬바르디아_주"
+        },
+        {
+            "Rep": false,
+            "o": "롬바르디아_주",
+            "p": "~의부분(isPartOf)",
+            "s": "캄파니아_주"
+        },
+        {
+            "Rep": true,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "SS_라치오"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "캄파니아_주"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "롬바르디아_주"
+        },
+        {
+            "Rep": false,
+            "o": "캄파니아_주",
+            "p": "지역/분양(region)",
+            "s": "이탈리아"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아",
+            "p": "가장큰도시(largestCity)",
+            "s": "캄파니아_주"
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 6,
+            "Naturalness": 1,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "김종직과 김일손은 친척 관계다.",
+    "entities": {
+        "김일손": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김일손"
+        },
+        "김종직": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김종직"
+        },
+        "조선_연산군": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_연산군"
+        }
+    },
+    "id": 2268,
+    "pid": "428-16",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김일손",
+            "p": "친척(relative)",
+            "s": "김종직"
+        },
+        {
+            "Rep": false,
+            "o": "김종직",
+            "p": "친척(relative)",
+            "s": "김일손"
+        },
+        {
+            "Rep": false,
+            "o": "조선_연산군",
+            "p": "친척(relative)",
+            "s": "김일손"
+        }
+    ]
+}

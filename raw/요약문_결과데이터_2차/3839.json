@@ -1,0 +1,190 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "펑궈장의 안식처는 청나라다. 그는 청나라의 리더이다.",
+    "entities": {
+        "돤치루이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/돤치루이"
+        },
+        "북양군벌": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/북양군벌"
+        },
+        "붉은_군대": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/붉은_군대"
+        },
+        "위안스카이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위안스카이"
+        },
+        "청나라": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청나라"
+        },
+        "펑궈장": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/펑궈장"
+        },
+        "한성부": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한성부"
+        },
+        "한커우": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한커우"
+        }
+    },
+    "id": 3839,
+    "pid": "195-69",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "청나라",
+            "p": "안식처(restingPlace)",
+            "s": "펑궈장"
+        },
+        {
+            "Rep": false,
+            "o": "북양군벌",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        },
+        {
+            "Rep": false,
+            "o": "돤치루이",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        },
+        {
+            "Rep": false,
+            "o": "한커우",
+            "p": "~의부분(isPartOf)",
+            "s": "한성부"
+        },
+        {
+            "Rep": false,
+            "o": "돤치루이",
+            "p": "지휘관(commander)",
+            "s": "북양군벌"
+        },
+        {
+            "Rep": true,
+            "o": "펑궈장",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        },
+        {
+            "Rep": false,
+            "o": "북양군벌",
+            "p": "전투(battle)",
+            "s": "붉은_군대"
+        },
+        {
+            "Rep": false,
+            "o": "한커우",
+            "p": "수도(capital)",
+            "s": "청나라"
+        },
+        {
+            "Rep": false,
+            "o": "돤치루이",
+            "p": "전임자(predecessor)",
+            "s": "위안스카이"
+        },
+        {
+            "Rep": false,
+            "o": "북양군벌",
+            "p": "전투(battle)",
+            "s": "위안스카이"
+        },
+        {
+            "Rep": false,
+            "o": "붉은_군대",
+            "p": "~의부분(isPartOf)",
+            "s": "한성부"
+        },
+        {
+            "Rep": false,
+            "o": "붉은_군대",
+            "p": "~의부분(isPartOf)",
+            "s": "한커우"
+        },
+        {
+            "Rep": false,
+            "o": "붉은_군대",
+            "p": "직함/포지션(position)",
+            "s": "한커우"
+        }
+    ]
+}

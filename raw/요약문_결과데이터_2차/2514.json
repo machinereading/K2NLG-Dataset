@@ -1,0 +1,109 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "퍼시 비시 셸리의 대표 작품으로는 최후의 인간, 프랑켄슈타인이 있다. 웰스의 국가는 영국이다. 프랑켄슈타인, 최후의 인간의 저자는 퍼시 비시 셸리다. ",
+    "entities": {
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "웰스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/웰스_(서머싯_주)"
+        },
+        "최후의_인간": {
+            "ne_type": "AFW_ART_CRAFT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/최후의_인간"
+        },
+        "퍼시_비시_셸리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/퍼시_비시_셸리"
+        },
+        "프랑켄슈타인": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑켄슈타인"
+        }
+    },
+    "id": 2514,
+    "pid": "512-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "최후의_인간",
+            "p": "유명한작품(notableWork)",
+            "s": "퍼시_비시_셸리"
+        },
+        {
+            "Rep": true,
+            "o": "프랑켄슈타인",
+            "p": "유명한작품(notableWork)",
+            "s": "퍼시_비시_셸리"
+        },
+        {
+            "Rep": true,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "웰스"
+        },
+        {
+            "Rep": true,
+            "o": "퍼시_비시_셸리",
+            "p": "저자(author)",
+            "s": "프랑켄슈타인"
+        },
+        {
+            "Rep": true,
+            "o": "퍼시_비시_셸리",
+            "p": "저자(author)",
+            "s": "최후의_인간"
+        }
+    ]
+}

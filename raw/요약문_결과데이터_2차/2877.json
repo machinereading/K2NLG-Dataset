@@ -1,0 +1,171 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "바시키르어는 바시키르 공화국의 공용어이다. 바시키르어는 우랄어족의 언어이다. 바시키르어는 튀르크어족의 언어이다.",
+    "entities": {
+        "러시아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아"
+        },
+        "러시아어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아어"
+        },
+        "만시어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만시어"
+        },
+        "바시키르_공화국": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바시키르_공화국"
+        },
+        "바시키르어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바시키르어"
+        },
+        "우랄_산맥": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/MountainRange",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우랄_산맥"
+        },
+        "우랄어족": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우랄어족"
+        },
+        "지리학": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지리학"
+        },
+        "튀르크어족": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/튀르크어족"
+        }
+    },
+    "id": 2877,
+    "pid": "634-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "튀르크어족",
+            "p": "계통(languageFamily)",
+            "s": "바시키르어"
+        },
+        {
+            "Rep": true,
+            "o": "바시키르어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "바시키르_공화국"
+        },
+        {
+            "Rep": false,
+            "o": "러시아어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "바시키르_공화국"
+        },
+        {
+            "Rep": false,
+            "o": "우랄어족",
+            "p": "계통(languageFamily)",
+            "s": "바시키르어"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "우랄_산맥"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "지리학"
+        },
+        {
+            "Rep": false,
+            "o": "만시어",
+            "p": "계통(languageFamily)",
+            "s": "바시키르어"
+        },
+        {
+            "Rep": false,
+            "o": "튀르크어족",
+            "p": "계통(languageFamily)",
+            "s": "우랄어족"
+        },
+        {
+            "Rep": true,
+            "o": "바시키르어",
+            "p": "언어(language)",
+            "s": "우랄어족"
+        },
+        {
+            "Rep": true,
+            "o": "바시키르어",
+            "p": "언어(language)",
+            "s": "튀르크어족"
+        },
+        {
+            "Rep": false,
+            "o": "지리학",
+            "p": "언어(language)",
+            "s": "러시아"
+        }
+    ]
+}

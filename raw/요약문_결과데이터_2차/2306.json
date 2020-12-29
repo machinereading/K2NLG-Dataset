@@ -1,0 +1,167 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이승만은 대한민국 사람이다. 강북구는 서울특별시의 일부이다. 수유동은 서울특별시의 지역이다. 서울특별시에는 강북구가 있다. 서울특별시에는 수유동이 있다. 이승만이 속한 정당은 한국민주당이다. 수유동은 강북구의 일부이다. 수유동은 강북구에 있다. 대한민국 수도는 서울특별시다. 서울특별시의 국가는 대한민국이다. 강북구의 국가는 대한민국이다. 이승만은 서울특별시에서 사망했다. ",
+    "entities": {
+        "강북구": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강북구"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "수유동": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수유동"
+        },
+        "이승만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이승만"
+        },
+        "한국민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국민주당"
+        }
+    },
+    "id": 2306,
+    "pid": "440-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "강북구"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "지역/분양(region)",
+            "s": "수유동"
+        },
+        {
+            "Rep": true,
+            "o": "강북구",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "수유동",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "한국민주당",
+            "p": "정당(party)",
+            "s": "이승만"
+        },
+        {
+            "Rep": true,
+            "o": "수유동",
+            "p": "~의부분(isPartOf)",
+            "s": "강북구"
+        },
+        {
+            "Rep": true,
+            "o": "강북구",
+            "p": "지역/분양(region)",
+            "s": "수유동"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "수도(capital)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "강북구"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "사망지(deathPlace)",
+            "s": "이승만"
+        },
+        {
+            "Rep": false,
+            "o": "수유동",
+            "p": "가장큰도시(largestCity)",
+            "s": "대한민국"
+        }
+    ]
+}

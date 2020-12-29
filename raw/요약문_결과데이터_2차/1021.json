@@ -1,0 +1,131 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "툴루즈는 프랑스에 있다. 레스터도 프랑스에 있다. 프랑스의 수도는 레스터이다. 레스터를 이끈 사람은 제6대 레스터 백작 시몽 드 몽포르 이다. 프랑스의 지도자는 교황 인노첸시오 3세이다. 프랑스의 지도자는 제6대 레스터 백작 시몽 드 몽포르이다.",
+    "entities": {
+        "교황_인노첸시오_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_인노첸시오_3세"
+        },
+        "레스터": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레스터"
+        },
+        "백작": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백작"
+        },
+        "제6대_레스터_백작_시몽_드_몽포르": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제6대_레스터_백작_시몽_드_몽포르"
+        },
+        "툴루즈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/툴루즈"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 1021,
+    "pid": "1-17",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "툴루즈"
+        },
+        {
+            "Rep": true,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "레스터"
+        },
+        {
+            "Rep": true,
+            "o": "레스터",
+            "p": "수도(capital)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "제6대_레스터_백작_시몽_드_몽포르",
+            "p": "리더이름(leaderName)",
+            "s": "레스터"
+        },
+        {
+            "Rep": true,
+            "o": "교황_인노첸시오_3세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "제6대_레스터_백작_시몽_드_몽포르",
+            "p": "리더이름(leaderName)",
+            "s": "백작"
+        },
+        {
+            "Rep": true,
+            "o": "제6대_레스터_백작_시몽_드_몽포르",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        }
+    ]
+}

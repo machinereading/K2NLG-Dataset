@@ -1,0 +1,139 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "모그크바의 안에 야로슬랍스키 역이 있다. 하얼빈 시는 헤이룽장 성에 속한다. 쑤이펀허 시는 헤이룽장 성에 속한다.",
+    "entities": {
+        "모스크바": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/모스크바"
+        },
+        "쑤이펀허_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쑤이펀허_시"
+        },
+        "야로슬랍스키_역": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/Station"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/야로슬랍스키_역"
+        },
+        "평양역": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RailwayStation",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/Station"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평양역"
+        },
+        "하얼빈_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하얼빈_시"
+        },
+        "헤이룽장_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헤이룽장_성"
+        }
+    },
+    "id": 657,
+    "pid": "221-15",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "야로슬랍스키_역",
+            "p": "부분(part)",
+            "s": "모스크바"
+        },
+        {
+            "Rep": true,
+            "o": "헤이룽장_성",
+            "p": "~의부분(isPartOf)",
+            "s": "하얼빈_시"
+        },
+        {
+            "Rep": false,
+            "o": "평양역",
+            "p": "부분(part)",
+            "s": "모스크바"
+        },
+        {
+            "Rep": true,
+            "o": "헤이룽장_성",
+            "p": "~의부분(isPartOf)",
+            "s": "쑤이펀허_시"
+        },
+        {
+            "Rep": false,
+            "o": "헤이룽장_성",
+            "p": "지역/분양(region)",
+            "s": "하얼빈_시"
+        },
+        {
+            "Rep": false,
+            "o": "쑤이펀허_시",
+            "p": "지역/분양(region)",
+            "s": "하얼빈_시"
+        },
+        {
+            "Rep": false,
+            "o": "하얼빈_시",
+            "p": "수도(capital)",
+            "s": "헤이룽장_성"
+        }
+    ]
+}

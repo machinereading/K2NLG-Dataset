@@ -1,0 +1,94 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "러시아는 록의 국가이다. 러시아의 지도자는 빅토르 초이이다.",
+    "entities": {
+        "러시아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아"
+        },
+        "록": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/록"
+        },
+        "빅토르_초이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빅토르_초이"
+        },
+        "키노": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Band",
+                "http://dbpedia.org/ontology/Group"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/키노_(밴드)"
+        }
+    },
+    "id": 1182,
+    "pid": "162-11",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "록"
+        },
+        {
+            "Rep": true,
+            "o": "빅토르_초이",
+            "p": "지도자(leader)",
+            "s": "러시아"
+        },
+        {
+            "Rep": false,
+            "o": "록",
+            "p": "장르(genre)",
+            "s": "빅토르_초이"
+        },
+        {
+            "Rep": false,
+            "o": "록",
+            "p": "장르(genre)",
+            "s": "키노"
+        }
+    ]
+}

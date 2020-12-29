@@ -1,0 +1,154 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "마르틴 루터는 독일에서 사망했다. 그가 사용한 언어는 독일어이다. 독일어는 라틴어의 한 계통이다.",
+    "entities": {
+        "교황_레오_10세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_레오_10세"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "독일어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일어"
+        },
+        "라틴어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라틴어"
+        },
+        "마르틴_루터": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마르틴_루터"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        },
+        "총대리": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/총대리"
+        }
+    },
+    "id": 1816,
+    "pid": "42-21",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "사망지(deathPlace)",
+            "s": "마르틴_루터"
+        },
+        {
+            "Rep": false,
+            "o": "마르틴_루터",
+            "p": "지도자(leader)",
+            "s": "독일"
+        },
+        {
+            "Rep": true,
+            "o": "라틴어",
+            "p": "계통(languageFamily)",
+            "s": "독일어"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "독일어",
+            "p": "계통(languageFamily)",
+            "s": "라틴어"
+        },
+        {
+            "Rep": false,
+            "o": "마르틴_루터",
+            "p": "지도자(leader)",
+            "s": "유럽"
+        },
+        {
+            "Rep": true,
+            "o": "독일어",
+            "p": "언어(language)",
+            "s": "마르틴_루터"
+        },
+        {
+            "Rep": false,
+            "o": "독일어",
+            "p": "언어(language)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "총대리",
+            "p": "직함/포지션(position)",
+            "s": "교황_레오_10세"
+        },
+        {
+            "Rep": false,
+            "o": "라틴어",
+            "p": "언어(language)",
+            "s": "유럽"
+        }
+    ]
+}

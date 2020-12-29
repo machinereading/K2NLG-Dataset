@@ -1,0 +1,95 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "김정일의 정당은 조선로동당이고 부모는 김일성이다. ",
+    "entities": {
+        "김일성": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김일성"
+        },
+        "김정일": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김정일"
+        },
+        "조선로동당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선로동당"
+        }
+    },
+    "id": 2568,
+    "pid": "535-136",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김일성",
+            "p": "부모(parent)",
+            "s": "김정일"
+        },
+        {
+            "Rep": true,
+            "o": "조선로동당",
+            "p": "정당(party)",
+            "s": "김정일"
+        },
+        {
+            "Rep": false,
+            "o": "김정일",
+            "p": "계승자/후임(successor)",
+            "s": "김일성"
+        },
+        {
+            "Rep": false,
+            "o": "조선로동당",
+            "p": "정당(party)",
+            "s": "김일성"
+        },
+        {
+            "Rep": false,
+            "o": "김일성",
+            "p": "전임자(predecessor)",
+            "s": "김정일"
+        }
+    ]
+}

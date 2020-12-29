@@ -1,0 +1,169 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 첼레스티노 5세는 이탈리아에서 태어났다. 교황 베네딕토 16세의 전임자는 교황 첼레스티노 5세다. 교황 첼레스티노 5세의 직업은 대변인이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_베네딕토_16세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_베네딕토_16세"
+        },
+        "교황_첼레스티노_5세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_첼레스티노_5세"
+        },
+        "대변인": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대변인"
+        },
+        "라퀼라": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라퀼라"
+        },
+        "이탈리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아"
+        }
+    },
+    "id": 3703,
+    "pid": "16-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "이탈리아",
+            "p": "출생지(birthPlace)",
+            "s": "교황_첼레스티노_5세"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "대변인"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_첼레스티노_5세"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_베네딕토_16세"
+        },
+        {
+            "Rep": true,
+            "o": "교황_첼레스티노_5세",
+            "p": "전임자(predecessor)",
+            "s": "교황_베네딕토_16세"
+        },
+        {
+            "Rep": true,
+            "o": "대변인",
+            "p": "직업(occupation)",
+            "s": "교황_첼레스티노_5세"
+        },
+        {
+            "Rep": false,
+            "o": "교황_베네딕토_16세",
+            "p": "계승자/후임(successor)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황_첼레스티노_5세",
+            "p": "계승자/후임(successor)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아",
+            "p": "국가(country)",
+            "s": "라퀼라"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "대변인"
+        },
+        {
+            "Rep": false,
+            "o": "대변인",
+            "p": "민족(ethnicGroup)",
+            "s": "이탈리아"
+        },
+        {
+            "Rep": false,
+            "o": "교황_첼레스티노_5세",
+            "p": "전임자(predecessor)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "교황_첼레스티노_5세",
+            "p": "계승자/후임(successor)",
+            "s": "교황_베네딕토_16세"
+        }
+    ]
+}

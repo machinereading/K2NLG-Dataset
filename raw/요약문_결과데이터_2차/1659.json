@@ -1,0 +1,94 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "가곡의 저자는 윌리엄 쉴드다. 작별의 장르는 가곡이다. ",
+    "entities": {
+        "가곡": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가곡"
+        },
+        "스코틀랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스코틀랜드"
+        },
+        "윌리엄_쉴드": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Artist"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윌리엄_쉴드"
+        },
+        "작별": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Song",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/MusicalWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작별_(민요)"
+        }
+    },
+    "id": 1659,
+    "pid": "281-12",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "윌리엄_쉴드",
+            "p": "지도자(leader)",
+            "s": "스코틀랜드"
+        },
+        {
+            "Rep": true,
+            "o": "가곡",
+            "p": "장르(genre)",
+            "s": "작별"
+        },
+        {
+            "Rep": true,
+            "o": "윌리엄_쉴드",
+            "p": "저자(author)",
+            "s": "가곡"
+        },
+        {
+            "Rep": false,
+            "o": "윌리엄_쉴드",
+            "p": "수도(capital)",
+            "s": "스코틀랜드"
+        }
+    ]
+}

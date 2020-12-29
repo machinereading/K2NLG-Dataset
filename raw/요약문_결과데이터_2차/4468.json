@@ -1,0 +1,104 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 1,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "로마는 행정구역상 성주군에 속한다. 산탄젤로 성은 성주군에 속한다. 교황 우르바노는 역사가다.",
+    "entities": {
+        "교황_우르바노_8세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_우르바노_8세"
+        },
+        "로마": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "산탄젤로_성": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/Building",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Museum"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/산탄젤로_성"
+        },
+        "성주군": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성주군"
+        },
+        "역사가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/역사가"
+        }
+    },
+    "id": 4468,
+    "pid": "58-10",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "교황_우르바노_8세",
+            "p": "지도자(leader)",
+            "s": "역사가"
+        },
+        {
+            "Rep": true,
+            "o": "성주군",
+            "p": "행정구역(administrativeDistrict)",
+            "s": "로마"
+        },
+        {
+            "Rep": true,
+            "o": "산탄젤로_성",
+            "p": "~의부분(isPartOf)",
+            "s": "성주군"
+        },
+        {
+            "Rep": true,
+            "o": "역사가",
+            "p": "직업(occupation)",
+            "s": "교황_우르바노_8세"
+        }
+    ]
+}

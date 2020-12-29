@@ -1,0 +1,92 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "경상북도에는 청송군이 있다. 청송군이 있는 도시는 밀양시이다.",
+    "entities": {
+        "경상북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상북도"
+        },
+        "밀양시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/밀양시"
+        },
+        "장로": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장로_(후한)"
+        },
+        "청송군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청송군"
+        }
+    },
+    "id": 1501,
+    "pid": "246-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "청송군",
+            "p": "부분(part)",
+            "s": "경상북도"
+        },
+        {
+            "Rep": false,
+            "o": "장로",
+            "p": "리더이름(leaderName)",
+            "s": "밀양시"
+        },
+        {
+            "Rep": false,
+            "o": "경상북도",
+            "p": "~의부분(isPartOf)",
+            "s": "청송군"
+        },
+        {
+            "Rep": true,
+            "o": "밀양시",
+            "p": "도시(city)",
+            "s": "청송군"
+        }
+    ]
+}

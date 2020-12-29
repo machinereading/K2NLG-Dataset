@@ -1,0 +1,159 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "영락제는 명나라를 이끈 사람이다.",
+    "entities": {
+        "당나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/당나라"
+        },
+        "명나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/명나라"
+        },
+        "송나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송나라"
+        },
+        "영락제": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영락제"
+        },
+        "한나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한나라"
+        },
+        "홍무제": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍무제"
+        }
+    },
+    "id": 4112,
+    "pid": "276-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "영락제",
+            "p": "리더이름(leaderName)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "홍무제",
+            "p": "리더이름(leaderName)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "당나라",
+            "p": "국가(country)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "당나라",
+            "p": "국가(country)",
+            "s": "송나라"
+        },
+        {
+            "Rep": false,
+            "o": "당나라",
+            "p": "국가(country)",
+            "s": "한나라"
+        },
+        {
+            "Rep": false,
+            "o": "영락제",
+            "p": "계승자/후임(successor)",
+            "s": "홍무제"
+        },
+        {
+            "Rep": false,
+            "o": "명나라",
+            "p": "국가(country)",
+            "s": "한나라"
+        },
+        {
+            "Rep": false,
+            "o": "명나라",
+            "p": "국가(country)",
+            "s": "송나라"
+        },
+        {
+            "Rep": false,
+            "o": "송나라",
+            "p": "국가(country)",
+            "s": "명나라"
+        },
+        {
+            "Rep": false,
+            "o": "송나라",
+            "p": "국가(country)",
+            "s": "한나라"
+        },
+        {
+            "Rep": false,
+            "o": "한나라",
+            "p": "국가(country)",
+            "s": "송나라"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "기자 함석헌의 후임은 김대중이다. 김대중의 전임자는 함석헌이다.",
+    "entities": {
+        "기자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기자_(직업)"
+        },
+        "김대중": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김대중"
+        },
+        "삼청동": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/삼청동"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "함석헌": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/함석헌"
+        }
+    },
+    "id": 5213,
+    "pid": "541-243",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "기자",
+            "p": "지역/분양(region)",
+            "s": "삼청동"
+        },
+        {
+            "Rep": true,
+            "o": "기자",
+            "p": "직업(occupation)",
+            "s": "함석헌"
+        },
+        {
+            "Rep": true,
+            "o": "김대중",
+            "p": "계승자/후임(successor)",
+            "s": "함석헌"
+        },
+        {
+            "Rep": true,
+            "o": "함석헌",
+            "p": "전임자(predecessor)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "계승자/후임(successor)",
+            "s": "함석헌"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "전임자(predecessor)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "함석헌",
+            "p": "전임자(predecessor)",
+            "s": "윤보선"
+        }
+    ]
+}

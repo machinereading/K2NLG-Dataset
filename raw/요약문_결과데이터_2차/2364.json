@@ -1,0 +1,77 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "보수당의 본부는 영국이다. 에드워드 히스의 정당은 보수당이다. 보수당의 지도자는 에드워드 히스이다.",
+    "entities": {
+        "보수당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보수당_(영국)"
+        },
+        "에드워드_히스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에드워드_히스"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        }
+    },
+    "id": 2364,
+    "pid": "453-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "영국",
+            "p": "본부/본사(headquarter)",
+            "s": "보수당"
+        },
+        {
+            "Rep": true,
+            "o": "보수당",
+            "p": "정당(party)",
+            "s": "에드워드_히스"
+        },
+        {
+            "Rep": true,
+            "o": "에드워드_히스",
+            "p": "지도자(leader)",
+            "s": "보수당"
+        }
+    ]
+}

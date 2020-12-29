@@ -1,0 +1,184 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "로마를 이끄는 사람은 사도 파울로스다. 로마 제국의 공용어는 문화어이다. ",
+    "entities": {
+        "고대_그리스어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고대_그리스어"
+        },
+        "로마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "로마_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마_제국"
+        },
+        "마귀": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마귀_(명나라)"
+        },
+        "문화어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문화어"
+        },
+        "사도_파울로스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사도_파울로스"
+        },
+        "예수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Deity",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예수"
+        },
+        "히브리어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/히브리어"
+        }
+    },
+    "id": 3777,
+    "pid": "184-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "로마_제국",
+            "p": "사망지(deathPlace)",
+            "s": "예수"
+        },
+        {
+            "Rep": false,
+            "o": "고대_그리스어",
+            "p": "계통(languageFamily)",
+            "s": "히브리어"
+        },
+        {
+            "Rep": false,
+            "o": "히브리어",
+            "p": "계통(languageFamily)",
+            "s": "고대_그리스어"
+        },
+        {
+            "Rep": false,
+            "o": "문화어",
+            "p": "계통(languageFamily)",
+            "s": "고대_그리스어"
+        },
+        {
+            "Rep": false,
+            "o": "문화어",
+            "p": "계통(languageFamily)",
+            "s": "히브리어"
+        },
+        {
+            "Rep": false,
+            "o": "히브리어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "고대_그리스어",
+            "p": "계통(languageFamily)",
+            "s": "문화어"
+        },
+        {
+            "Rep": true,
+            "o": "고대_그리스어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "히브리어",
+            "p": "계통(languageFamily)",
+            "s": "문화어"
+        },
+        {
+            "Rep": false,
+            "o": "로마_제국",
+            "p": "쓰이는곳(spokenIn)",
+            "s": "문화어"
+        },
+        {
+            "Rep": true,
+            "o": "문화어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "로마_제국",
+            "p": "쓰이는곳(spokenIn)",
+            "s": "히브리어"
+        },
+        {
+            "Rep": false,
+            "o": "예수",
+            "p": "자식(child)",
+            "s": "마귀"
+        },
+        {
+            "Rep": true,
+            "o": "사도_파울로스",
+            "p": "리더이름(leaderName)",
+            "s": "로마"
+        }
+    ]
+}

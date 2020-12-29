@@ -1,0 +1,119 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "유닉스는 애플 제품이다. 애플이 유닉스를 개발한 것이다.",
+    "entities": {
+        "데니스_리치": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/데니스_리치"
+        },
+        "매킨토시": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Device",
+                "http://dbpedia.org/ontology/InformationAppliance"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/매킨토시"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "아이폰": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Device",
+                "http://dbpedia.org/ontology/InformationAppliance"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아이폰"
+        },
+        "애플": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애플_(기업)"
+        },
+        "유닉스": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Software",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유닉스"
+        }
+    },
+    "id": 1032,
+    "pid": "105-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "애플"
+        },
+        {
+            "Rep": true,
+            "o": "유닉스",
+            "p": "제품(product)",
+            "s": "애플"
+        },
+        {
+            "Rep": false,
+            "o": "매킨토시",
+            "p": "제품(product)",
+            "s": "애플"
+        },
+        {
+            "Rep": false,
+            "o": "데니스_리치",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "아이폰",
+            "p": "제품(product)",
+            "s": "애플"
+        },
+        {
+            "Rep": true,
+            "o": "애플",
+            "p": "개발자/개발사(developer)",
+            "s": "유닉스"
+        }
+    ]
+}

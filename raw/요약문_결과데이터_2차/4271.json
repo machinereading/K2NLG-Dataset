@@ -1,0 +1,146 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": false
+        }
+    ],
+    "Text": "페르난도 2세는 아라곤 왕국의 리더이다. 그는 카스티야 왕국의 리더이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_인노첸시오_8세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_인노첸시오_8세"
+        },
+        "아라곤_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아라곤_왕국"
+        },
+        "이베리아_반도": {
+            "ne_type": "LCG_BAY",
+            "type": [
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이베리아_반도"
+        },
+        "이사벨_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이사벨_1세"
+        },
+        "카스티야_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카스티야_왕국"
+        },
+        "페르난도_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페르난도_2세_(아라곤)"
+        }
+    },
+    "id": 4271,
+    "pid": "38-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "페르난도_2세",
+            "p": "리더이름(leaderName)",
+            "s": "아라곤_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "이사벨_1세",
+            "p": "리더이름(leaderName)",
+            "s": "카스티야_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "이사벨_1세",
+            "p": "리더이름(leaderName)",
+            "s": "아라곤_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "교황_인노첸시오_8세",
+            "p": "리더이름(leaderName)",
+            "s": "아라곤_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "교황_인노첸시오_8세",
+            "p": "리더이름(leaderName)",
+            "s": "카스티야_왕국"
+        },
+        {
+            "Rep": true,
+            "o": "페르난도_2세",
+            "p": "리더이름(leaderName)",
+            "s": "카스티야_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "이베리아_반도",
+            "p": "지역/분양(region)",
+            "s": "교황"
+        }
+    ]
+}

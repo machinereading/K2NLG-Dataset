@@ -1,0 +1,104 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "고려의 수도는 개성특급시이다. 영어는 프랑스어의 한 계통이다. 스페인어는 프랑스어의 한 계통이다. 프랑스어는 영어의 한 계통이다. 영어는 스페인어의 한 계통이다.",
+    "entities": {
+        "개성특급시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개성특급시"
+        },
+        "고려": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려"
+        },
+        "스페인어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인어"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "프랑스어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스어"
+        }
+    },
+    "id": 843,
+    "pid": "280-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "개성특급시",
+            "p": "수도(capital)",
+            "s": "고려"
+        },
+        {
+            "Rep": true,
+            "o": "프랑스어",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": true,
+            "o": "프랑스어",
+            "p": "계통(languageFamily)",
+            "s": "스페인어"
+        },
+        {
+            "Rep": true,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "프랑스어"
+        },
+        {
+            "Rep": true,
+            "o": "스페인어",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        }
+    ]
+}

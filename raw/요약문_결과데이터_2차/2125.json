@@ -1,0 +1,115 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "리하르트 데데킨트는 카를 바이어슈트라스의 영향을 받았다. 그의 직업은 수학자였다.",
+    "entities": {
+        "게오르크_칸토어": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/게오르크_칸토어"
+        },
+        "리하르트_데데킨트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리하르트_데데킨트"
+        },
+        "수학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학자"
+        },
+        "카를_바이어슈트라스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카를_바이어슈트라스"
+        }
+    },
+    "id": 2125,
+    "pid": "349-19",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "리하르트_데데킨트",
+            "p": "영향받은(influenced)",
+            "s": "카를_바이어슈트라스"
+        },
+        {
+            "Rep": false,
+            "o": "리하르트_데데킨트",
+            "p": "영향받은(influenced)",
+            "s": "수학자"
+        },
+        {
+            "Rep": false,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "카를_바이어슈트라스"
+        },
+        {
+            "Rep": true,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "리하르트_데데킨트"
+        },
+        {
+            "Rep": false,
+            "o": "수학자",
+            "p": "직업(occupation)",
+            "s": "게오르크_칸토어"
+        },
+        {
+            "Rep": false,
+            "o": "리하르트_데데킨트",
+            "p": "영향받은(influenced)",
+            "s": "게오르크_칸토어"
+        },
+        {
+            "Rep": false,
+            "o": "카를_바이어슈트라스",
+            "p": "영향받은(influenced)",
+            "s": "수학자"
+        },
+        {
+            "Rep": false,
+            "o": "카를_바이어슈트라스",
+            "p": "영향받은(influencedBy)",
+            "s": "리하르트_데데킨트"
+        }
+    ]
+}

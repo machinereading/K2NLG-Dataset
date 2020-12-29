@@ -1,0 +1,99 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": false
+        }
+    ],
+    "Text": "빌리 브란트의 국적은 서독이다. 그는 소련의 지도자였다. 그는 서독의 지도자다.",
+    "entities": {
+        "레오니트_브레즈네프": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레오니트_브레즈네프"
+        },
+        "빌리_브란트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빌리_브란트"
+        },
+        "서독": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서독"
+        },
+        "소련": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소련"
+        }
+    },
+    "id": 2448,
+    "pid": "484-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서독",
+            "p": "국적(nationality)",
+            "s": "빌리_브란트"
+        },
+        {
+            "Rep": true,
+            "o": "빌리_브란트",
+            "p": "지도자(leader)",
+            "s": "소련"
+        },
+        {
+            "Rep": false,
+            "o": "레오니트_브레즈네프",
+            "p": "지도자(leader)",
+            "s": "소련"
+        },
+        {
+            "Rep": true,
+            "o": "빌리_브란트",
+            "p": "지도자(leader)",
+            "s": "서독"
+        },
+        {
+            "Rep": false,
+            "o": "레오니트_브레즈네프",
+            "p": "지도자(leader)",
+            "s": "서독"
+        }
+    ]
+}

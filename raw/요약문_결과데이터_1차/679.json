@@ -1,0 +1,90 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이행 (조선)은 박상의 친척이다. 그는 단경왕후의 친척이기도 하다.",
+    "entities": {
+        "김정_(조선)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김정_(조선)"
+        },
+        "단경왕후": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/단경왕후"
+        },
+        "박상": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박상"
+        },
+        "이행_(조선)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이행_(조선)"
+        }
+    },
+    "id": 679,
+    "pid": "230-23",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "이행_(조선)",
+            "p": "친척(relative)",
+            "s": "박상"
+        },
+        {
+            "Rep": false,
+            "o": "단경왕후",
+            "p": "친척(relative)",
+            "s": "박상"
+        },
+        {
+            "Rep": true,
+            "o": "단경왕후",
+            "p": "친척(relative)",
+            "s": "이행_(조선)"
+        },
+        {
+            "Rep": false,
+            "o": "단경왕후",
+            "p": "친척(relative)",
+            "s": "김정_(조선)"
+        }
+    ]
+}

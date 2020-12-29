@@ -1,0 +1,98 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "대전광역시의 국가는 독일이다. 독일의 수도는 대전광역시다. ",
+    "entities": {
+        "나치_독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나치_독일"
+        },
+        "대전광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대전광역시"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        }
+    },
+    "id": 5580,
+    "pid": "696-13",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "나치_독일",
+            "p": "국가(country)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": true,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": false,
+            "o": "대전광역시",
+            "p": "수도(capital)",
+            "s": "나치_독일"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "나치_독일"
+        },
+        {
+            "Rep": false,
+            "o": "나치_독일",
+            "p": "국가(country)",
+            "s": "독일"
+        },
+        {
+            "Rep": true,
+            "o": "대전광역시",
+            "p": "수도(capital)",
+            "s": "독일"
+        }
+    ]
+}

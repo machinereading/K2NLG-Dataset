@@ -1,0 +1,128 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "슬라브족은 아하이아 현에도 있다. 아하이아현의 국가는 서로마 제국이다. ",
+    "entities": {
+        "그리스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/그리스"
+        },
+        "비잔티움_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비잔티움_제국"
+        },
+        "서로마_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서로마_제국"
+        },
+        "슬라브족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/슬라브족"
+        },
+        "십자군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/십자군"
+        },
+        "아하이아_현": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아하이아_현"
+        }
+    },
+    "id": 2242,
+    "pid": "407-9",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "비잔티움_제국",
+            "p": "국가(country)",
+            "s": "아하이아_현"
+        },
+        {
+            "Rep": true,
+            "o": "아하이아_현",
+            "p": "있는곳(populationPlace)",
+            "s": "슬라브족"
+        },
+        {
+            "Rep": false,
+            "o": "비잔티움_제국",
+            "p": "있는곳(populationPlace)",
+            "s": "슬라브족"
+        },
+        {
+            "Rep": false,
+            "o": "십자군",
+            "p": "민족(ethnicGroup)",
+            "s": "그리스"
+        },
+        {
+            "Rep": true,
+            "o": "서로마_제국",
+            "p": "국가(country)",
+            "s": "아하이아_현"
+        },
+        {
+            "Rep": false,
+            "o": "그리스",
+            "p": "국가(country)",
+            "s": "십자군"
+        },
+        {
+            "Rep": false,
+            "o": "서로마_제국",
+            "p": "있는곳(populationPlace)",
+            "s": "슬라브족"
+        }
+    ]
+}

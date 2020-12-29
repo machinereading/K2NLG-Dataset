@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "성혼은 이이와 친척 관계이다. 그는 조광조와도 친척 관계이다. 백인걸 역시 그와 친척 관계이다.",
+    "entities": {
+        "백인걸": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백인걸"
+        },
+        "성혼": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성혼"
+        },
+        "이이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이이"
+        },
+        "조광조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조광조"
+        }
+    },
+    "id": 700,
+    "pid": "230-91",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "성혼",
+            "p": "친척(relative)",
+            "s": "이이"
+        },
+        {
+            "Rep": false,
+            "o": "이이",
+            "p": "친척(relative)",
+            "s": "성혼"
+        },
+        {
+            "Rep": true,
+            "o": "성혼",
+            "p": "친척(relative)",
+            "s": "조광조"
+        },
+        {
+            "Rep": true,
+            "o": "성혼",
+            "p": "친척(relative)",
+            "s": "백인걸"
+        }
+    ]
+}

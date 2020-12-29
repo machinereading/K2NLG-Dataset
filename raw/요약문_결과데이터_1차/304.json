@@ -1,0 +1,172 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        }
+    ],
+    "Text": "헝가리 왕국의 지도자는 발해 선왕이다. 나폴리 왕국의 지도자는 발해 선왕이다. 아비뇽은 헝가리에 있는 도시다. 아비뇽은 헝가리 왕국에 있는 도시다. 알렉산드리아의 클레멘스는 헝가리 왕국의 지도자다. 그는 나폴리 왕국의 지도자다. 헝가리의 지도자는 발해 선왕이다. 아비뇽은 나폴리 왕국의 도시다. 알렉산드리아의 클레멘스는 헝가리의 지도자다.",
+    "entities": {
+        "나폴리_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나폴리_왕국"
+        },
+        "발해_선왕": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/발해_선왕"
+        },
+        "아비뇽": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아비뇽"
+        },
+        "알렉산드리아의_클레멘스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알렉산드리아의_클레멘스"
+        },
+        "조반_(1341년)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조반_(1341년)"
+        },
+        "헝가리": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Language",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헝가리"
+        },
+        "헝가리_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헝가리_왕국"
+        }
+    },
+    "id": 304,
+    "pid": "22-24",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "조반_(1341년)",
+            "p": "리더이름(leaderName)",
+            "s": "헝가리_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "조반_(1341년)",
+            "p": "리더이름(leaderName)",
+            "s": "나폴리_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "조반_(1341년)",
+            "p": "리더이름(leaderName)",
+            "s": "헝가리"
+        },
+        {
+            "Rep": true,
+            "o": "발해_선왕",
+            "p": "리더이름(leaderName)",
+            "s": "헝가리_왕국"
+        },
+        {
+            "Rep": true,
+            "o": "발해_선왕",
+            "p": "리더이름(leaderName)",
+            "s": "나폴리_왕국"
+        },
+        {
+            "Rep": true,
+            "o": "헝가리",
+            "p": "국가(country)",
+            "s": "아비뇽"
+        },
+        {
+            "Rep": true,
+            "o": "헝가리_왕국",
+            "p": "국가(country)",
+            "s": "아비뇽"
+        },
+        {
+            "Rep": true,
+            "o": "알렉산드리아의_클레멘스",
+            "p": "리더이름(leaderName)",
+            "s": "헝가리_왕국"
+        },
+        {
+            "Rep": true,
+            "o": "알렉산드리아의_클레멘스",
+            "p": "리더이름(leaderName)",
+            "s": "나폴리_왕국"
+        },
+        {
+            "Rep": true,
+            "o": "발해_선왕",
+            "p": "리더이름(leaderName)",
+            "s": "헝가리"
+        },
+        {
+            "Rep": true,
+            "o": "나폴리_왕국",
+            "p": "국가(country)",
+            "s": "아비뇽"
+        },
+        {
+            "Rep": true,
+            "o": "알렉산드리아의_클레멘스",
+            "p": "리더이름(leaderName)",
+            "s": "헝가리"
+        }
+    ]
+}

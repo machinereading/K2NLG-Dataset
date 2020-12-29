@@ -1,0 +1,87 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "에릭 레이먼드는 리눅스로 잘 알려져있다. 리눅스는 오픈소스에 영향을 받았다.",
+    "entities": {
+        "리눅스": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리눅스"
+        },
+        "성당과_시장": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성당과_시장"
+        },
+        "에릭_레이먼드": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에릭_레이먼드"
+        },
+        "오픈_소스": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오픈_소스"
+        }
+    },
+    "id": 5664,
+    "pid": "746-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "리눅스",
+            "p": "~로알려진(knownFor)",
+            "s": "에릭_레이먼드"
+        },
+        {
+            "Rep": false,
+            "o": "성당과_시장",
+            "p": "유명한작품(notableWork)",
+            "s": "에릭_레이먼드"
+        },
+        {
+            "Rep": true,
+            "o": "오픈_소스",
+            "p": "영향받은(influencedBy)",
+            "s": "리눅스"
+        }
+    ]
+}

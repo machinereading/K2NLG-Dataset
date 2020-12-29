@@ -1,0 +1,107 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": false
+        }
+    ],
+    "Text": "티캐스트는 태광그룹 아래에 있다. 태광 그룹의 자회사는 티캐스트다.",
+    "entities": {
+        "대원미디어": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대원미디어"
+        },
+        "태광그룹": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태광그룹"
+        },
+        "티캐스트": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/티캐스트"
+        }
+    },
+    "id": 3935,
+    "pid": "225-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "태광그룹",
+            "p": "모기업(parentCompany)",
+            "s": "티캐스트"
+        },
+        {
+            "Rep": false,
+            "o": "대원미디어",
+            "p": "모기업(parentCompany)",
+            "s": "태광그룹"
+        },
+        {
+            "Rep": false,
+            "o": "티캐스트",
+            "p": "모기업(parentCompany)",
+            "s": "태광그룹"
+        },
+        {
+            "Rep": false,
+            "o": "티캐스트",
+            "p": "모기업(parentCompany)",
+            "s": "대원미디어"
+        },
+        {
+            "Rep": false,
+            "o": "태광그룹",
+            "p": "모기업(parentCompany)",
+            "s": "대원미디어"
+        },
+        {
+            "Rep": false,
+            "o": "대원미디어",
+            "p": "모기업(parentCompany)",
+            "s": "티캐스트"
+        },
+        {
+            "Rep": false,
+            "o": "대원미디어",
+            "p": "자회사(subsidiary)",
+            "s": "태광그룹"
+        },
+        {
+            "Rep": true,
+            "o": "티캐스트",
+            "p": "자회사(subsidiary)",
+            "s": "태광그룹"
+        }
+    ]
+}

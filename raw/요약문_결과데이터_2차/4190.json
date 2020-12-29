@@ -1,0 +1,130 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "프랑수아 앙글레르는 노벨 물리학상을 수상했다. 그는 노벨상으로 알려졌다.",
+    "entities": {
+        "과학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/과학자"
+        },
+        "노벨_물리학상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/Award",
+                "http://dbpedia.org/ontology/NobelPrize"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노벨_물리학상"
+        },
+        "노벨상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노벨상"
+        },
+        "수브라마니안_찬드라세카르": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수브라마니안_찬드라세카르"
+        },
+        "프랑수아_앙글레르": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑수아_앙글레르"
+        },
+        "피터_힉스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피터_힉스"
+        }
+    },
+    "id": 4190,
+    "pid": "282-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "노벨_물리학상",
+            "p": "수상(award)",
+            "s": "수브라마니안_찬드라세카르"
+        },
+        {
+            "Rep": false,
+            "o": "노벨_물리학상",
+            "p": "수상(award)",
+            "s": "피터_힉스"
+        },
+        {
+            "Rep": true,
+            "o": "노벨_물리학상",
+            "p": "수상(award)",
+            "s": "프랑수아_앙글레르"
+        },
+        {
+            "Rep": false,
+            "o": "노벨상",
+            "p": "~로알려진(knownFor)",
+            "s": "피터_힉스"
+        },
+        {
+            "Rep": true,
+            "o": "노벨상",
+            "p": "~로알려진(knownFor)",
+            "s": "프랑수아_앙글레르"
+        },
+        {
+            "Rep": false,
+            "o": "노벨_물리학상",
+            "p": "~로알려진(knownFor)",
+            "s": "피터_힉스"
+        },
+        {
+            "Rep": false,
+            "o": "노벨_물리학상",
+            "p": "~로알려진(knownFor)",
+            "s": "프랑수아_앙글레르"
+        },
+        {
+            "Rep": false,
+            "o": "과학자",
+            "p": "직업(occupation)",
+            "s": "노벨_물리학상"
+        }
+    ]
+}

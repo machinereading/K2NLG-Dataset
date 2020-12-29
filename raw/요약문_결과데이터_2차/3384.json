@@ -1,0 +1,88 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "교사의 직업은 교장이다. 교사의 직함은 동성고등학교이다.",
+    "entities": {
+        "교사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교사"
+        },
+        "교장": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교장"
+        },
+        "동성고등학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동성고등학교"
+        }
+    },
+    "id": 3384,
+    "pid": "829-25",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "교장",
+            "p": "직업(occupation)",
+            "s": "교사"
+        },
+        {
+            "Rep": false,
+            "o": "교사",
+            "p": "기원/소속(affiliation)",
+            "s": "동성고등학교"
+        },
+        {
+            "Rep": false,
+            "o": "교사",
+            "p": "직업(occupation)",
+            "s": "동성고등학교"
+        },
+        {
+            "Rep": false,
+            "o": "교장",
+            "p": "직함/포지션(position)",
+            "s": "교사"
+        },
+        {
+            "Rep": true,
+            "o": "동성고등학교",
+            "p": "직함/포지션(position)",
+            "s": "교사"
+        }
+    ]
+}

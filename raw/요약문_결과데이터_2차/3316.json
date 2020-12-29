@@ -1,0 +1,109 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "박정희 내각에서 국무총리는 최두선이었다. 최두선의 전임자는 장면이다. ",
+    "entities": {
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        },
+        "장면": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장면"
+        },
+        "정일권": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정일권"
+        },
+        "최두선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/최두선"
+        }
+    },
+    "id": 3316,
+    "pid": "818-39",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "최두선",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "정일권",
+            "p": "부통령/국무총리(vicePresident)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "최두선",
+            "p": "전임자(predecessor)",
+            "s": "장면"
+        },
+        {
+            "Rep": true,
+            "o": "장면",
+            "p": "전임자(predecessor)",
+            "s": "최두선"
+        },
+        {
+            "Rep": false,
+            "o": "장면",
+            "p": "전임자(predecessor)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "전임자(predecessor)",
+            "s": "장면"
+        }
+    ]
+}

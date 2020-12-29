@@ -1,0 +1,173 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "조지프 프리스틀리는 영국에서 태어났다. 그는 영국을 이끄는 지도자였다.",
+    "entities": {
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "리즈": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리즈"
+        },
+        "만하임": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Town",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만하임"
+        },
+        "베드로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Pope"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베드로"
+        },
+        "에르푸르트": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에르푸르트"
+        },
+        "염화_수소": {
+            "ne_type": "MT_CHEMICAL",
+            "type": [
+                "http://dbpedia.org/ontology/ChemicalCompound",
+                "http://dbpedia.org/ontology/ChemicalSubstance"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/염화_수소"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "조지프_프리스틀리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조지프_프리스틀리"
+        },
+        "험프리_데이비": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/험프리_데이비"
+        }
+    },
+    "id": 4894,
+    "pid": "459-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "영국",
+            "p": "출생지(birthPlace)",
+            "s": "조지프_프리스틀리"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "리즈"
+        },
+        {
+            "Rep": false,
+            "o": "험프리_데이비",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": true,
+            "o": "조지프_프리스틀리",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "에르푸르트"
+        },
+        {
+            "Rep": false,
+            "o": "리즈",
+            "p": "수도(capital)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "염화_수소",
+            "p": "~로알려진(knownFor)",
+            "s": "조지프_프리스틀리"
+        },
+        {
+            "Rep": false,
+            "o": "만하임",
+            "p": "가장큰도시(largestCity)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "독일",
+            "p": "국가(country)",
+            "s": "베드로"
+        }
+    ]
+}

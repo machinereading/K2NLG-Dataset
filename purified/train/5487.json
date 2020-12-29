@@ -1,0 +1,73 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "예천군은 안동시에 속한다. 안동시 안에 예천군이 있다. ",
+    "entities": {
+        "안동시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안동시"
+        },
+        "예천군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예천군"
+        }
+    },
+    "id": 5487,
+    "pid": "651-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "안동시",
+            "p": "~의부분(isPartOf)",
+            "s": "예천군"
+        },
+        {
+            "Rep": true,
+            "o": "예천군",
+            "p": "부분(part)",
+            "s": "안동시"
+        },
+        {
+            "Rep": false,
+            "o": "예천군",
+            "p": "~의부분(isPartOf)",
+            "s": "안동시"
+        }
+    ]
+}

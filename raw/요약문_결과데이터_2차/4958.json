@@ -1,0 +1,186 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "영국의 수도는 한커우다. 한커우는 광둥 성의 일부분이다.",
+    "entities": {
+        "광둥_성": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/광둥_성"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "장제스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장제스"
+        },
+        "중화민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화민국"
+        },
+        "한커우": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한커우"
+        },
+        "홍콩": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍콩"
+        }
+    },
+    "id": 4958,
+    "pid": "480-48",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "한커우",
+            "p": "수도(capital)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "한커우",
+            "p": "수도(capital)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": true,
+            "o": "광둥_성",
+            "p": "~의부분(isPartOf)",
+            "s": "한커우"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "광둥_성"
+        },
+        {
+            "Rep": false,
+            "o": "광둥_성",
+            "p": "수도(capital)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "한커우"
+        },
+        {
+            "Rep": false,
+            "o": "광둥_성",
+            "p": "수도(capital)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": false,
+            "o": "한커우",
+            "p": "수도(capital)",
+            "s": "광둥_성"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "광둥_성"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "홍콩"
+        },
+        {
+            "Rep": false,
+            "o": "한커우",
+            "p": "가장큰도시(largestCity)",
+            "s": "홍콩"
+        },
+        {
+            "Rep": false,
+            "o": "광둥_성",
+            "p": "~의부분(isPartOf)",
+            "s": "홍콩"
+        },
+        {
+            "Rep": false,
+            "o": "한커우",
+            "p": "가장큰도시(largestCity)",
+            "s": "광둥_성"
+        },
+        {
+            "Rep": false,
+            "o": "한커우",
+            "p": "가장큰도시(largestCity)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": false,
+            "o": "한커우",
+            "p": "전임자(predecessor)",
+            "s": "장제스"
+        }
+    ]
+}

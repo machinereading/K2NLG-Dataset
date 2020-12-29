@@ -1,0 +1,158 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 1,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "러시아인은 몽골족과 중국인과 관련되어 있다.",
+    "entities": {
+        "군인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/군인"
+        },
+        "러시아인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아인"
+        },
+        "몽골족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몽골족"
+        },
+        "미국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film",
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국인"
+        },
+        "유럽인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽인"
+        },
+        "중국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국인"
+        }
+    },
+    "id": 5603,
+    "pid": "709-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "몽골족",
+            "p": "관련되(related)",
+            "s": "러시아인"
+        },
+        {
+            "Rep": true,
+            "o": "중국인",
+            "p": "관련되(related)",
+            "s": "러시아인"
+        },
+        {
+            "Rep": false,
+            "o": "러시아인",
+            "p": "관련되(related)",
+            "s": "몽골족"
+        },
+        {
+            "Rep": false,
+            "o": "중국인",
+            "p": "관련되(related)",
+            "s": "몽골족"
+        },
+        {
+            "Rep": false,
+            "o": "몽골족",
+            "p": "관련되(related)",
+            "s": "군인"
+        },
+        {
+            "Rep": false,
+            "o": "몽골족",
+            "p": "관련되(related)",
+            "s": "중국인"
+        },
+        {
+            "Rep": false,
+            "o": "러시아인",
+            "p": "관련되(related)",
+            "s": "군인"
+        },
+        {
+            "Rep": false,
+            "o": "러시아인",
+            "p": "관련되(related)",
+            "s": "중국인"
+        },
+        {
+            "Rep": false,
+            "o": "유럽인",
+            "p": "관련되(related)",
+            "s": "미국인"
+        },
+        {
+            "Rep": false,
+            "o": "중국인",
+            "p": "관련되(related)",
+            "s": "군인"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "관련되(related)",
+            "s": "러시아인"
+        },
+        {
+            "Rep": false,
+            "o": "미국인",
+            "p": "관련되(related)",
+            "s": "유럽인"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "관련되(related)",
+            "s": "몽골족"
+        }
+    ]
+}

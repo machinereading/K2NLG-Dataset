@@ -1,0 +1,159 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "제1차 세계 대전이 일어난 장소는 유럽이다. 제2차 세계 대전은 러시아 제국과 유럽과 미국에서 일어났다. ",
+    "entities": {
+        "러시아_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아_제국"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "역사가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/역사가"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        },
+        "제1차_세계_대전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제1차_세계_대전"
+        },
+        "제2차_세계_대전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제2차_세계_대전"
+        }
+    },
+    "id": 4747,
+    "pid": "398-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "유럽",
+            "p": "장소(place)",
+            "s": "제1차_세계_대전"
+        },
+        {
+            "Rep": true,
+            "o": "러시아_제국",
+            "p": "장소(place)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": true,
+            "o": "유럽",
+            "p": "장소(place)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "장소(place)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": false,
+            "o": "러시아_제국",
+            "p": "장소(place)",
+            "s": "제1차_세계_대전"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "장소(place)",
+            "s": "제1차_세계_대전"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "제2차_세계_대전",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "제1차_세계_대전"
+        },
+        {
+            "Rep": false,
+            "o": "러시아_제국",
+            "p": "국가(country)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "역사가",
+            "p": "지휘관(commander)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": false,
+            "o": "러시아_제국",
+            "p": "국가(country)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "역사가",
+            "p": "지휘관(commander)",
+            "s": "제1차_세계_대전"
+        }
+    ]
+}

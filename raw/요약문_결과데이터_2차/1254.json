@@ -1,0 +1,81 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "아담의 배우자는 하와이다. 아담의 자식은 예수이다.",
+    "entities": {
+        "아담": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아담"
+        },
+        "예수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Deity",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예수"
+        },
+        "하와": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하와"
+        }
+    },
+    "id": 1254,
+    "pid": "184-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "하와",
+            "p": "배우자(spouse)",
+            "s": "아담"
+        },
+        {
+            "Rep": false,
+            "o": "아담",
+            "p": "부모(parent)",
+            "s": "예수"
+        },
+        {
+            "Rep": false,
+            "o": "아담",
+            "p": "부모(parent)",
+            "s": "하와"
+        },
+        {
+            "Rep": true,
+            "o": "예수",
+            "p": "자식(child)",
+            "s": "아담"
+        }
+    ]
+}

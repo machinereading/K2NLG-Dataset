@@ -1,0 +1,204 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "델타 항공의 본부는 보스턴과 대한민국에 있다.",
+    "entities": {
+        "뉴햄프셔_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뉴햄프셔_주"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "델타_항공": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Airline",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/델타_항공"
+        },
+        "로건_국제공항": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Airport",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로건_국제공항"
+        },
+        "로드아일랜드_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로드아일랜드_주"
+        },
+        "맨체스터": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/맨체스터"
+        },
+        "보스턴": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보스턴"
+        },
+        "시영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시영"
+        },
+        "프로비던스": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프로비던스"
+        }
+    },
+    "id": 5545,
+    "pid": "670-55",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "프로비던스",
+            "p": "가장큰도시(largestCity)",
+            "s": "로드아일랜드_주"
+        },
+        {
+            "Rep": false,
+            "o": "보스턴",
+            "p": "가장큰도시(largestCity)",
+            "s": "뉴햄프셔_주"
+        },
+        {
+            "Rep": true,
+            "o": "보스턴",
+            "p": "본부/본사(headquarter)",
+            "s": "델타_항공"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "본부/본사(headquarter)",
+            "s": "델타_항공"
+        },
+        {
+            "Rep": false,
+            "o": "보스턴",
+            "p": "~의부분(isPartOf)",
+            "s": "맨체스터"
+        },
+        {
+            "Rep": false,
+            "o": "맨체스터",
+            "p": "가장큰도시(largestCity)",
+            "s": "뉴햄프셔_주"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "보스턴"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "위치/지역(location)",
+            "s": "로건_국제공항"
+        },
+        {
+            "Rep": false,
+            "o": "맨체스터",
+            "p": "~의부분(isPartOf)",
+            "s": "보스턴"
+        },
+        {
+            "Rep": false,
+            "o": "시영",
+            "p": "~의부분(isPartOf)",
+            "s": "보스턴"
+        },
+        {
+            "Rep": false,
+            "o": "로드아일랜드_주",
+            "p": "~의부분(isPartOf)",
+            "s": "프로비던스"
+        },
+        {
+            "Rep": false,
+            "o": "보스턴",
+            "p": "가장큰도시(largestCity)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "보스턴",
+            "p": "가장큰도시(largestCity)",
+            "s": "로드아일랜드_주"
+        }
+    ]
+}

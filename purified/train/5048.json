@@ -1,0 +1,144 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "중국공산당을 이끄는 덩샤오핑은 1989년 테안먼 사건을 지휘했다.",
+    "entities": {
+        "1989년_톈안먼_사건": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/1989년_톈안먼_사건"
+        },
+        "덩샤오핑": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/덩샤오핑"
+        },
+        "베이징_시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베이징_시"
+        },
+        "양상쿤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/양상쿤"
+        },
+        "중국공산당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국공산당"
+        },
+        "중국공산당_중앙군사위원회": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국공산당_중앙군사위원회"
+        }
+    },
+    "id": 5048,
+    "pid": "515-33",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "양상쿤",
+            "p": "지휘관(commander)",
+            "s": "1989년_톈안먼_사건"
+        },
+        {
+            "Rep": true,
+            "o": "덩샤오핑",
+            "p": "지휘관(commander)",
+            "s": "1989년_톈안먼_사건"
+        },
+        {
+            "Rep": false,
+            "o": "베이징_시",
+            "p": "장소(place)",
+            "s": "1989년_톈안먼_사건"
+        },
+        {
+            "Rep": false,
+            "o": "덩샤오핑",
+            "p": "지도자(leader)",
+            "s": "중국공산당_중앙군사위원회"
+        },
+        {
+            "Rep": false,
+            "o": "중국공산당_중앙군사위원회",
+            "p": "지도자(leader)",
+            "s": "중국공산당"
+        },
+        {
+            "Rep": true,
+            "o": "덩샤오핑",
+            "p": "지도자(leader)",
+            "s": "중국공산당"
+        },
+        {
+            "Rep": false,
+            "o": "1989년_톈안먼_사건",
+            "p": "전투(battle)",
+            "s": "양상쿤"
+        },
+        {
+            "Rep": false,
+            "o": "1989년_톈안먼_사건",
+            "p": "전투(battle)",
+            "s": "덩샤오핑"
+        },
+        {
+            "Rep": false,
+            "o": "중국공산당",
+            "p": "정당(party)",
+            "s": "양상쿤"
+        }
+    ]
+}

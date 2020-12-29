@@ -1,0 +1,127 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "남제주군은 서귀포시에 속한다. 제주특별자치도 안에 남제주군이 있다. ",
+    "entities": {
+        "남제주군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남제주군"
+        },
+        "서귀포시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서귀포시"
+        },
+        "제주특별자치도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제주특별자치도"
+        }
+    },
+    "id": 2244,
+    "pid": "408-10",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서귀포시",
+            "p": "~의부분(isPartOf)",
+            "s": "남제주군"
+        },
+        {
+            "Rep": true,
+            "o": "남제주군",
+            "p": "부분(part)",
+            "s": "제주특별자치도"
+        },
+        {
+            "Rep": false,
+            "o": "남제주군",
+            "p": "~의부분(isPartOf)",
+            "s": "서귀포시"
+        },
+        {
+            "Rep": false,
+            "o": "제주특별자치도",
+            "p": "~의부분(isPartOf)",
+            "s": "서귀포시"
+        },
+        {
+            "Rep": false,
+            "o": "서귀포시",
+            "p": "지역/분양(region)",
+            "s": "제주특별자치도"
+        },
+        {
+            "Rep": false,
+            "o": "남제주군",
+            "p": "지역/분양(region)",
+            "s": "제주특별자치도"
+        },
+        {
+            "Rep": false,
+            "o": "제주특별자치도",
+            "p": "지역/분양(region)",
+            "s": "서귀포시"
+        },
+        {
+            "Rep": false,
+            "o": "제주특별자치도",
+            "p": "지역/분양(region)",
+            "s": "남제주군"
+        },
+        {
+            "Rep": false,
+            "o": "남제주군",
+            "p": "지역/분양(region)",
+            "s": "서귀포시"
+        },
+        {
+            "Rep": false,
+            "o": "서귀포시",
+            "p": "~의부분(isPartOf)",
+            "s": "제주특별자치도"
+        },
+        {
+            "Rep": false,
+            "o": "서귀포시",
+            "p": "지역/분양(region)",
+            "s": "남제주군"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "김경중의 자식인 김요협은 김성수와 친척이다.",
+    "entities": {
+        "김경중": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김경중_(1863년)"
+        },
+        "김기중": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김기중"
+        },
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "김요협": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김요협"
+        },
+        "화순군": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/화순군"
+        }
+    },
+    "id": 5726,
+    "pid": "800-12",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "김요협",
+            "p": "친척(relative)",
+            "s": "김성수"
+        },
+        {
+            "Rep": true,
+            "o": "김성수",
+            "p": "친척(relative)",
+            "s": "김요협"
+        },
+        {
+            "Rep": false,
+            "o": "김경중",
+            "p": "부모(parent)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "김기중",
+            "p": "부모(parent)",
+            "s": "김성수"
+        },
+        {
+            "Rep": true,
+            "o": "김경중",
+            "p": "자식(child)",
+            "s": "김요협"
+        },
+        {
+            "Rep": false,
+            "o": "김요협",
+            "p": "~의부분(isPartOf)",
+            "s": "화순군"
+        },
+        {
+            "Rep": false,
+            "o": "김기중",
+            "p": "부모(parent)",
+            "s": "김경중"
+        },
+        {
+            "Rep": false,
+            "o": "김기중",
+            "p": "자식(child)",
+            "s": "김요협"
+        }
+    ]
+}

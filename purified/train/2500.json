@@ -1,0 +1,179 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "윌리엄 셰익스피어의 유명한 작품은 템페스트이다. 템페스트의 장르는 희곡이다.",
+    "entities": {
+        "블라디미르_나보코프": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/블라디미르_나보코프"
+        },
+        "손가락": {
+            "ne_type": "AM_PART",
+            "type": [
+                "http://dbpedia.org/ontology/AnatomicalStructure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손가락"
+        },
+        "윌리엄_셰익스피어": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윌리엄_셰익스피어"
+        },
+        "작가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작가"
+        },
+        "템페스트": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Play",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/템페스트"
+        },
+        "편집자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/편집자"
+        },
+        "희곡": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/희곡"
+        }
+    },
+    "id": 2500,
+    "pid": "512-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "희곡",
+            "p": "장르(genre)",
+            "s": "템페스트"
+        },
+        {
+            "Rep": false,
+            "o": "윌리엄_셰익스피어",
+            "p": "저자(author)",
+            "s": "희곡"
+        },
+        {
+            "Rep": false,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "편집자"
+        },
+        {
+            "Rep": true,
+            "o": "템페스트",
+            "p": "유명한작품(notableWork)",
+            "s": "윌리엄_셰익스피어"
+        },
+        {
+            "Rep": false,
+            "o": "희곡",
+            "p": "장르(genre)",
+            "s": "윌리엄_셰익스피어"
+        },
+        {
+            "Rep": false,
+            "o": "희곡",
+            "p": "장르(genre)",
+            "s": "블라디미르_나보코프"
+        },
+        {
+            "Rep": false,
+            "o": "편집자",
+            "p": "직업(occupation)",
+            "s": "작가"
+        },
+        {
+            "Rep": false,
+            "o": "템페스트",
+            "p": "유명한작품(notableWork)",
+            "s": "블라디미르_나보코프"
+        },
+        {
+            "Rep": false,
+            "o": "작가",
+            "p": "직업(occupation)",
+            "s": "손가락"
+        },
+        {
+            "Rep": false,
+            "o": "블라디미르_나보코프",
+            "p": "저자(author)",
+            "s": "희곡"
+        },
+        {
+            "Rep": false,
+            "o": "윌리엄_셰익스피어",
+            "p": "저자(author)",
+            "s": "템페스트"
+        },
+        {
+            "Rep": false,
+            "o": "윌리엄_셰익스피어",
+            "p": "영향받은(influencedBy)",
+            "s": "블라디미르_나보코프"
+        },
+        {
+            "Rep": false,
+            "o": "편집자",
+            "p": "직업(occupation)",
+            "s": "손가락"
+        },
+        {
+            "Rep": false,
+            "o": "블라디미르_나보코프",
+            "p": "저자(author)",
+            "s": "템페스트"
+        }
+    ]
+}

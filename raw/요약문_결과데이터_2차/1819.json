@@ -1,0 +1,196 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 레오 10세의 직업은 관료이다. 그는 스칸디나비아의 지도자였다. 그는 덴마크에서 사망했다.",
+    "entities": {
+        "관료": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/관료"
+        },
+        "교황_레오_10세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_레오_10세"
+        },
+        "노르웨이": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노르웨이"
+        },
+        "덴마크": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/덴마크"
+        },
+        "로마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "스웨덴": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스웨덴"
+        },
+        "스칸디나비아": {
+            "ne_type": "LCG_BAY",
+            "type": [
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스칸디나비아"
+        },
+        "신학": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신학"
+        },
+        "코펜하겐": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/코펜하겐"
+        }
+    },
+    "id": 1819,
+    "pid": "42-24",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "덴마크",
+            "p": "국가(country)",
+            "s": "로마"
+        },
+        {
+            "Rep": false,
+            "o": "스웨덴",
+            "p": "국가(country)",
+            "s": "코펜하겐"
+        },
+        {
+            "Rep": false,
+            "o": "스웨덴",
+            "p": "국가(country)",
+            "s": "로마"
+        },
+        {
+            "Rep": false,
+            "o": "덴마크",
+            "p": "국가(country)",
+            "s": "코펜하겐"
+        },
+        {
+            "Rep": false,
+            "o": "스웨덴",
+            "p": "국가(country)",
+            "s": "덴마크"
+        },
+        {
+            "Rep": false,
+            "o": "스웨덴",
+            "p": "국가(country)",
+            "s": "신학"
+        },
+        {
+            "Rep": false,
+            "o": "로마",
+            "p": "본부/본사(headquarter)",
+            "s": "신학"
+        },
+        {
+            "Rep": true,
+            "o": "관료",
+            "p": "직업(occupation)",
+            "s": "교황_레오_10세"
+        },
+        {
+            "Rep": false,
+            "o": "덴마크",
+            "p": "국가(country)",
+            "s": "신학"
+        },
+        {
+            "Rep": false,
+            "o": "덴마크",
+            "p": "국가(country)",
+            "s": "스웨덴"
+        },
+        {
+            "Rep": true,
+            "o": "교황_레오_10세",
+            "p": "지도자(leader)",
+            "s": "스칸디나비아"
+        },
+        {
+            "Rep": false,
+            "o": "노르웨이",
+            "p": "국가(country)",
+            "s": "덴마크"
+        },
+        {
+            "Rep": true,
+            "o": "덴마크",
+            "p": "사망지(deathPlace)",
+            "s": "교황_레오_10세"
+        }
+    ]
+}

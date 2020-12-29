@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "량강도는 강원도에 속한다. ",
+    "entities": {
+        "강원도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강원도"
+        },
+        "량강도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/량강도"
+        },
+        "자강도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자강도"
+        }
+    },
+    "id": 5569,
+    "pid": "689-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "자강도",
+            "p": "~의부분(isPartOf)",
+            "s": "량강도"
+        },
+        {
+            "Rep": true,
+            "o": "강원도",
+            "p": "~의부분(isPartOf)",
+            "s": "량강도"
+        },
+        {
+            "Rep": false,
+            "o": "자강도",
+            "p": "~의부분(isPartOf)",
+            "s": "강원도"
+        },
+        {
+            "Rep": false,
+            "o": "량강도",
+            "p": "~의부분(isPartOf)",
+            "s": "강원도"
+        },
+        {
+            "Rep": false,
+            "o": "량강도",
+            "p": "~의부분(isPartOf)",
+            "s": "자강도"
+        }
+    ]
+}

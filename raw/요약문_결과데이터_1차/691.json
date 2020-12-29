@@ -1,0 +1,119 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "심정 (1471년)은 남곤과 친천 관계이다. 그는 홍경주와도 친척 관계이다. 조선 중종 역시 그와 친척 관계이다.",
+    "entities": {
+        "남곤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남곤"
+        },
+        "심정_(1471년)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/심정_(1471년)"
+        },
+        "조선_중종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_중종"
+        },
+        "홍경주": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍경주"
+        }
+    },
+    "id": 691,
+    "pid": "230-60",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "남곤",
+            "p": "친척(relative)",
+            "s": "심정_(1471년)"
+        },
+        {
+            "Rep": false,
+            "o": "심정_(1471년)",
+            "p": "친척(relative)",
+            "s": "남곤"
+        },
+        {
+            "Rep": false,
+            "o": "남곤",
+            "p": "친척(relative)",
+            "s": "홍경주"
+        },
+        {
+            "Rep": true,
+            "o": "홍경주",
+            "p": "친척(relative)",
+            "s": "심정_(1471년)"
+        },
+        {
+            "Rep": false,
+            "o": "홍경주",
+            "p": "친척(relative)",
+            "s": "남곤"
+        },
+        {
+            "Rep": false,
+            "o": "심정_(1471년)",
+            "p": "친척(relative)",
+            "s": "홍경주"
+        },
+        {
+            "Rep": true,
+            "o": "조선_중종",
+            "p": "친척(relative)",
+            "s": "심정_(1471년)"
+        },
+        {
+            "Rep": false,
+            "o": "조선_중종",
+            "p": "친척(relative)",
+            "s": "홍경주"
+        },
+        {
+            "Rep": false,
+            "o": "조선_중종",
+            "p": "친척(relative)",
+            "s": "남곤"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "위키백과의 저자는 지미 웨일스다. 위키백과의 언어는 스페인어다. ",
+    "entities": {
+        "스페인어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인어"
+        },
+        "위키백과": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위키백과"
+        },
+        "지미_웨일스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지미_웨일스"
+        }
+    },
+    "id": 1148,
+    "pid": "134-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "지미_웨일스",
+            "p": "저자(author)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": true,
+            "o": "스페인어",
+            "p": "언어(language)",
+            "s": "위키백과"
+        },
+        {
+            "Rep": false,
+            "o": "위키백과",
+            "p": "~로알려진(knownFor)",
+            "s": "지미_웨일스"
+        }
+    ]
+}

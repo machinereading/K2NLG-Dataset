@@ -1,0 +1,79 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "오스트리아의 마리테레즈의 자식은 루이17세와 샤를2세가 있다.",
+    "entities": {
+        "루이_17세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루이_17세"
+        },
+        "샤를_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/샤를_2세_(프로방스)"
+        },
+        "오스트리아의_마리_테레즈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트리아의_마리_테레즈"
+        }
+    },
+    "id": 2355,
+    "pid": "448-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "루이_17세",
+            "p": "자식(child)",
+            "s": "오스트리아의_마리_테레즈"
+        },
+        {
+            "Rep": false,
+            "o": "루이_17세",
+            "p": "계승자/후임(successor)",
+            "s": "샤를_2세"
+        },
+        {
+            "Rep": true,
+            "o": "샤를_2세",
+            "p": "자식(child)",
+            "s": "오스트리아의_마리_테레즈"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "브라티슬라바가 있는 국가는 슬로바키아다. 브라티슬라바는 발칸 반도의 지역이다. ",
+    "entities": {
+        "발칸_반도": {
+            "ne_type": "LCG_BAY",
+            "type": [
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/발칸_반도"
+        },
+        "브라티슬라바": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/브라티슬라바"
+        },
+        "슬로바키아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/슬로바키아"
+        }
+    },
+    "id": 3909,
+    "pid": "218-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "슬로바키아",
+            "p": "국가(country)",
+            "s": "브라티슬라바"
+        },
+        {
+            "Rep": true,
+            "o": "발칸_반도",
+            "p": "지역/분양(region)",
+            "s": "브라티슬라바"
+        },
+        {
+            "Rep": false,
+            "o": "슬로바키아",
+            "p": "국가(country)",
+            "s": "발칸_반도"
+        }
+    ]
+}

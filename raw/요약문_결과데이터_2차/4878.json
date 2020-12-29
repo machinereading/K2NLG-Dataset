@@ -1,0 +1,187 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "신성 로마 제국을 이끈 사람은 루이 15세이다. 그의 전임자는 요제프 1세다. ",
+    "entities": {
+        "도팽_루이_페르디낭": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도팽_루이_페르디낭"
+        },
+        "루이_15세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루이_15세"
+        },
+        "루이_16세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루이_16세"
+        },
+        "베리_FC": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베리_FC"
+        },
+        "신성_로마_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신성_로마_제국"
+        },
+        "요제프_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요제프_1세"
+        },
+        "작센_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작센_주"
+        }
+    },
+    "id": 4878,
+    "pid": "448-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "루이_15세",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "베리_FC",
+            "p": "직함/포지션(position)",
+            "s": "요제프_1세"
+        },
+        {
+            "Rep": false,
+            "o": "베리_FC",
+            "p": "직함/포지션(position)",
+            "s": "도팽_루이_페르디낭"
+        },
+        {
+            "Rep": false,
+            "o": "베리_FC",
+            "p": "직함/포지션(position)",
+            "s": "루이_15세"
+        },
+        {
+            "Rep": false,
+            "o": "도팽_루이_페르디낭",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "요제프_1세",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "루이_15세",
+            "p": "리더이름(leaderName)",
+            "s": "작센_주"
+        },
+        {
+            "Rep": false,
+            "o": "도팽_루이_페르디낭",
+            "p": "전임자(predecessor)",
+            "s": "베리_FC"
+        },
+        {
+            "Rep": false,
+            "o": "요제프_1세",
+            "p": "전임자(predecessor)",
+            "s": "베리_FC"
+        },
+        {
+            "Rep": false,
+            "o": "루이_16세",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "루이_15세",
+            "p": "전임자(predecessor)",
+            "s": "베리_FC"
+        },
+        {
+            "Rep": false,
+            "o": "요제프_1세",
+            "p": "리더이름(leaderName)",
+            "s": "작센_주"
+        },
+        {
+            "Rep": false,
+            "o": "도팽_루이_페르디낭",
+            "p": "자식(child)",
+            "s": "루이_15세"
+        },
+        {
+            "Rep": true,
+            "o": "요제프_1세",
+            "p": "전임자(predecessor)",
+            "s": "루이_15세"
+        }
+    ]
+}

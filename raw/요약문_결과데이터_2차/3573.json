@@ -1,0 +1,69 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "노무현 대통령의 배우자는 권양숙이다. 권양숙의 배우자는 노무현 대통령이다.",
+    "entities": {
+        "권양숙": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/권양숙"
+        },
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        }
+    },
+    "id": 3573,
+    "pid": "114-107",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "권양숙",
+            "p": "배우자(spouse)",
+            "s": "노무현"
+        },
+        {
+            "Rep": true,
+            "o": "노무현",
+            "p": "배우자(spouse)",
+            "s": "권양숙"
+        },
+        {
+            "Rep": false,
+            "o": "권양숙",
+            "p": "전임자(predecessor)",
+            "s": "노무현"
+        }
+    ]
+}

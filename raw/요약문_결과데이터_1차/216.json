@@ -1,0 +1,156 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "사랑따윈 필요없어의 주연은 김주혁 (배우)이다. 다른 주연으로는 문근영이 있다. ",
+    "entities": {
+        "김주혁_(배우)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김주혁_(배우)"
+        },
+        "문근영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문근영"
+        },
+        "사랑따윈_필요없어": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사랑따윈_필요없어"
+        },
+        "성균관대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성균관대학교"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "인문학": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인문학"
+        },
+        "일본_드라마": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본_드라마"
+        }
+    },
+    "id": 216,
+    "pid": "183-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김주혁_(배우)",
+            "p": "주연(starring)",
+            "s": "사랑따윈_필요없어"
+        },
+        {
+            "Rep": false,
+            "o": "일본_드라마",
+            "p": "장르(genre)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "김주혁_(배우)",
+            "p": "주연(starring)",
+            "s": "일본_드라마"
+        },
+        {
+            "Rep": false,
+            "o": "김주혁_(배우)",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "사랑따윈_필요없어",
+            "p": "유명한작품(notableWork)",
+            "s": "인문학"
+        },
+        {
+            "Rep": false,
+            "o": "사랑따윈_필요없어",
+            "p": "유명한작품(notableWork)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "일본_드라마"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "성균관대학교"
+        },
+        {
+            "Rep": false,
+            "o": "사랑따윈_필요없어",
+            "p": "유명한작품(notableWork)",
+            "s": "김주혁_(배우)"
+        },
+        {
+            "Rep": true,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "사랑따윈_필요없어"
+        }
+    ]
+}

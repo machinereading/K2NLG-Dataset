@@ -1,0 +1,150 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이극돈은 김일손 및 조선 예종과 친척관계다. ",
+    "entities": {
+        "김일손": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김일손"
+        },
+        "사초과": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species",
+                "http://dbpedia.org/ontology/Plant"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사초과"
+        },
+        "이극돈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이극돈"
+        },
+        "조선_연산군": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_연산군"
+        },
+        "조선_예종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_예종"
+        }
+    },
+    "id": 2273,
+    "pid": "428-9",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "사초과",
+            "p": "과_생물분류단계(family)",
+            "s": "이극돈"
+        },
+        {
+            "Rep": false,
+            "o": "조선_예종",
+            "p": "친척(relative)",
+            "s": "김일손"
+        },
+        {
+            "Rep": true,
+            "o": "김일손",
+            "p": "친척(relative)",
+            "s": "이극돈"
+        },
+        {
+            "Rep": false,
+            "o": "이극돈",
+            "p": "친척(relative)",
+            "s": "김일손"
+        },
+        {
+            "Rep": true,
+            "o": "조선_예종",
+            "p": "친척(relative)",
+            "s": "이극돈"
+        },
+        {
+            "Rep": false,
+            "o": "조선_연산군",
+            "p": "친척(relative)",
+            "s": "이극돈"
+        },
+        {
+            "Rep": false,
+            "o": "조선_연산군",
+            "p": "친척(relative)",
+            "s": "김일손"
+        },
+        {
+            "Rep": false,
+            "o": "이극돈",
+            "p": "전임자(predecessor)",
+            "s": "조선_예종"
+        },
+        {
+            "Rep": false,
+            "o": "김일손",
+            "p": "전임자(predecessor)",
+            "s": "조선_예종"
+        },
+        {
+            "Rep": false,
+            "o": "사초과",
+            "p": "과_생물분류단계(family)",
+            "s": "김일손"
+        },
+        {
+            "Rep": false,
+            "o": "김일손",
+            "p": "전임자(predecessor)",
+            "s": "조선_연산군"
+        },
+        {
+            "Rep": false,
+            "o": "이극돈",
+            "p": "전임자(predecessor)",
+            "s": "조선_연산군"
+        }
+    ]
+}

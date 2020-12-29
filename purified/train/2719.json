@@ -1,0 +1,173 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "영국의 지도자인 신익희는 상하이 시에서 사망했다. ",
+    "entities": {
+        "상하이_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/상하이_시"
+        },
+        "신규식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신규식"
+        },
+        "신익희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신익희"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        },
+        "이시영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이시영_(1868년)"
+        }
+    },
+    "id": 2719,
+    "pid": "541-33",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "상하이_시"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "유럽"
+        },
+        {
+            "Rep": true,
+            "o": "신익희",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "이시영",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "신익희",
+            "p": "지도자(leader)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "이시영",
+            "p": "지도자(leader)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "신규식",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "신규식",
+            "p": "지도자(leader)",
+            "s": "유럽"
+        },
+        {
+            "Rep": true,
+            "o": "상하이_시",
+            "p": "사망지(deathPlace)",
+            "s": "신익희"
+        },
+        {
+            "Rep": false,
+            "o": "이시영",
+            "p": "전임자(predecessor)",
+            "s": "신익희"
+        },
+        {
+            "Rep": false,
+            "o": "신규식",
+            "p": "전임자(predecessor)",
+            "s": "신익희"
+        },
+        {
+            "Rep": false,
+            "o": "유럽",
+            "p": "사망지(deathPlace)",
+            "s": "신익희"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "사망지(deathPlace)",
+            "s": "신익희"
+        },
+        {
+            "Rep": false,
+            "o": "상하이_시",
+            "p": "사망지(deathPlace)",
+            "s": "이시영"
+        }
+    ]
+}

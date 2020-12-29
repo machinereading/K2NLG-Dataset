@@ -1,0 +1,115 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "윤보선의 직업은 군인이다. 그는 군인의 지도자다.",
+    "entities": {
+        "강원용": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강원용"
+        },
+        "군인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/군인"
+        },
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "장기": {
+            "ne_type": "CV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Game",
+                "http://dbpedia.org/ontology/Activity"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장기"
+        }
+    },
+    "id": 2694,
+    "pid": "541-253",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "강원용"
+        },
+        {
+            "Rep": true,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "장기"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "지도자(leader)",
+            "s": "군인"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "박정희"
+        },
+        {
+            "Rep": false,
+            "o": "박정희",
+            "p": "지도자(leader)",
+            "s": "군인"
+        }
+    ]
+}

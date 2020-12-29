@@ -1,0 +1,82 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "롯데 자이언츠는 프로 야구 소속이다. 야구 코치도 프로 야구 소속이다.",
+    "entities": {
+        "롯데_자이언츠": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/롯데_자이언츠"
+        },
+        "야구_코치": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/야구_코치"
+        },
+        "프로_야구": {
+            "ne_type": "CV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Activity",
+                "http://dbpedia.org/ontology/Sport"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프로_야구"
+        }
+    },
+    "id": 3888,
+    "pid": "200-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "프로_야구",
+            "p": "기원/소속(affiliation)",
+            "s": "롯데_자이언츠"
+        },
+        {
+            "Rep": false,
+            "o": "롯데_자이언츠",
+            "p": "팀(team)",
+            "s": "프로_야구"
+        },
+        {
+            "Rep": false,
+            "o": "야구_코치",
+            "p": "직함/포지션(position)",
+            "s": "롯데_자이언츠"
+        },
+        {
+            "Rep": true,
+            "o": "프로_야구",
+            "p": "기원/소속(affiliation)",
+            "s": "야구_코치"
+        }
+    ]
+}

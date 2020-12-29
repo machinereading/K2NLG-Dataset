@@ -1,0 +1,105 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이수영의 배우자는 조재희다. 히든싱어의 후속작은 불후의 명곡이다. ",
+    "entities": {
+        "라디오": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Broadcaster",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MusicGenre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라디오"
+        },
+        "불후의_명곡": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/TelevisionShow",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/불후의_명곡"
+        },
+        "이수영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Band",
+                "http://dbpedia.org/ontology/Group"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이수영"
+        },
+        "조재희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조재희"
+        },
+        "히든싱어": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/TelevisionShow",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/히든싱어"
+        }
+    },
+    "id": 3874,
+    "pid": "199-16",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "조재희",
+            "p": "배우자(spouse)",
+            "s": "이수영"
+        },
+        {
+            "Rep": false,
+            "o": "라디오",
+            "p": "직업(occupation)",
+            "s": "이수영"
+        },
+        {
+            "Rep": false,
+            "o": "불후의_명곡",
+            "p": "유명한작품(notableWork)",
+            "s": "이수영"
+        },
+        {
+            "Rep": true,
+            "o": "불후의_명곡",
+            "p": "후속작(subsequentWork)",
+            "s": "히든싱어"
+        }
+    ]
+}

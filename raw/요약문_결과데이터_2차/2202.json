@@ -1,0 +1,135 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "인텔은 고든 무어에 의해 설립되었다. 인텔의 제품은 페어차일드 반도체이다.",
+    "entities": {
+        "고든_무어": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고든_무어"
+        },
+        "로버트_노이스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로버트_노이스"
+        },
+        "어드밴스트_마이크로_디바이시스": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/어드밴스트_마이크로_디바이시스"
+        },
+        "연구원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/연구원"
+        },
+        "윌리엄_쇼클리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윌리엄_쇼클리"
+        },
+        "인텔": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인텔"
+        },
+        "페어차일드_반도체": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페어차일드_반도체"
+        }
+    },
+    "id": 2202,
+    "pid": "384-11",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "고든_무어",
+            "p": "설립되다(foundedBy)",
+            "s": "인텔"
+        },
+        {
+            "Rep": false,
+            "o": "로버트_노이스",
+            "p": "설립되다(foundedBy)",
+            "s": "인텔"
+        },
+        {
+            "Rep": false,
+            "o": "페어차일드_반도체",
+            "p": "~로알려진(knownFor)",
+            "s": "윌리엄_쇼클리"
+        },
+        {
+            "Rep": true,
+            "o": "페어차일드_반도체",
+            "p": "제품(product)",
+            "s": "인텔"
+        },
+        {
+            "Rep": false,
+            "o": "페어차일드_반도체",
+            "p": "~로알려진(knownFor)",
+            "s": "연구원"
+        },
+        {
+            "Rep": false,
+            "o": "페어차일드_반도체",
+            "p": "~로알려진(knownFor)",
+            "s": "어드밴스트_마이크로_디바이시스"
+        },
+        {
+            "Rep": false,
+            "o": "연구원",
+            "p": "~로알려진(knownFor)",
+            "s": "윌리엄_쇼클리"
+        }
+    ]
+}

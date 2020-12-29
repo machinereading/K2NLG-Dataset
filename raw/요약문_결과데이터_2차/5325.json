@@ -1,0 +1,106 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        }
+    ],
+    "Text": "룡천군은 정주시에 속한다. 신도군은 룡천군에 속한다. 정주시는 신도군에 속한다.",
+    "entities": {
+        "룡천군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/룡천군"
+        },
+        "신도군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신도군"
+        },
+        "정주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정주시"
+        }
+    },
+    "id": 5325,
+    "pid": "590-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "정주시",
+            "p": "~의부분(isPartOf)",
+            "s": "룡천군"
+        },
+        {
+            "Rep": true,
+            "o": "룡천군",
+            "p": "~의부분(isPartOf)",
+            "s": "신도군"
+        },
+        {
+            "Rep": false,
+            "o": "정주시",
+            "p": "~의부분(isPartOf)",
+            "s": "신도군"
+        },
+        {
+            "Rep": false,
+            "o": "정주시",
+            "p": "지역/분양(region)",
+            "s": "룡천군"
+        },
+        {
+            "Rep": false,
+            "o": "신도군",
+            "p": "지역/분양(region)",
+            "s": "룡천군"
+        },
+        {
+            "Rep": true,
+            "o": "신도군",
+            "p": "~의부분(isPartOf)",
+            "s": "정주시"
+        },
+        {
+            "Rep": false,
+            "o": "룡천군",
+            "p": "지역/분양(region)",
+            "s": "정주시"
+        }
+    ]
+}

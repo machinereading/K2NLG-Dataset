@@ -1,0 +1,152 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "뉴잉글랜드 레벌루션은 메이저 리그 베이스볼 소속이며 구장은 질레트 스타디움이다. ",
+    "entities": {
+        "내셔널_풋볼_리그": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/AmericanFootballLeague",
+                "http://dbpedia.org/ontology/SportsLeague",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/내셔널_풋볼_리그"
+        },
+        "뉴잉글랜드_레벌루션": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뉴잉글랜드_레벌루션"
+        },
+        "뉴잉글랜드_패트리어츠": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/AmericanFootballTeam",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뉴잉글랜드_패트리어츠"
+        },
+        "메이저_리그_베이스볼": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/BaseballLeague",
+                "http://dbpedia.org/ontology/SportsLeague",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/메이저_리그_베이스볼"
+        },
+        "아메리칸_풋볼_리그": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/AmericanFootballLeague",
+                "http://dbpedia.org/ontology/SportsLeague",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아메리칸_풋볼_리그"
+        },
+        "질레트_스타디움": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/SportFacility",
+                "http://dbpedia.org/ontology/Stadium",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/질레트_스타디움"
+        },
+        "폭스버러": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Town",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/폭스버러"
+        }
+    },
+    "id": 5537,
+    "pid": "670-40",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "질레트_스타디움",
+            "p": "구장(ground)",
+            "s": "뉴잉글랜드_레벌루션"
+        },
+        {
+            "Rep": false,
+            "o": "뉴잉글랜드_레벌루션",
+            "p": "입주자/보유자(tenant)",
+            "s": "질레트_스타디움"
+        },
+        {
+            "Rep": false,
+            "o": "뉴잉글랜드_패트리어츠",
+            "p": "입주자/보유자(tenant)",
+            "s": "질레트_스타디움"
+        },
+        {
+            "Rep": false,
+            "o": "아메리칸_풋볼_리그",
+            "p": "리그(league)",
+            "s": "내셔널_풋볼_리그"
+        },
+        {
+            "Rep": true,
+            "o": "메이저_리그_베이스볼",
+            "p": "기원/소속(affiliation)",
+            "s": "뉴잉글랜드_레벌루션"
+        },
+        {
+            "Rep": false,
+            "o": "내셔널_풋볼_리그",
+            "p": "리그(league)",
+            "s": "아메리칸_풋볼_리그"
+        },
+        {
+            "Rep": false,
+            "o": "뉴잉글랜드_패트리어츠",
+            "p": "~의부분(isPartOf)",
+            "s": "폭스버러"
+        },
+        {
+            "Rep": false,
+            "o": "내셔널_풋볼_리그",
+            "p": "기원/소속(affiliation)",
+            "s": "아메리칸_풋볼_리그"
+        }
+    ]
+}

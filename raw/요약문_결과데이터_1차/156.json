@@ -1,0 +1,110 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "막스 플랑크는 제1차 세계 대전에 참전했다. 그는 제2차 세계 대전에도 참전했다. 또한 그는 서부 전선(제2차 세계 대전)에도 참전을 했다.",
+    "entities": {
+        "막스_플랑크": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/막스_플랑크"
+        },
+        "서부_전선_(제2차_세계_대전)": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서부_전선_(제2차_세계_대전)"
+        },
+        "제1차_세계_대전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제1차_세계_대전"
+        },
+        "제2차_세계_대전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제2차_세계_대전"
+        }
+    },
+    "id": 156,
+    "pid": "165-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "제2차_세계_대전",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "서부_전선_(제2차_세계_대전)"
+        },
+        {
+            "Rep": true,
+            "o": "제1차_세계_대전",
+            "p": "전투(battle)",
+            "s": "막스_플랑크"
+        },
+        {
+            "Rep": true,
+            "o": "제2차_세계_대전",
+            "p": "전투(battle)",
+            "s": "막스_플랑크"
+        },
+        {
+            "Rep": true,
+            "o": "서부_전선_(제2차_세계_대전)",
+            "p": "전투(battle)",
+            "s": "막스_플랑크"
+        },
+        {
+            "Rep": false,
+            "o": "제2차_세계_대전",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "제1차_세계_대전"
+        },
+        {
+            "Rep": false,
+            "o": "제2차_세계_대전",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": false,
+            "o": "제1차_세계_대전",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "서부_전선_(제2차_세계_대전)"
+        }
+    ]
+}

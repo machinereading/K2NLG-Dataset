@@ -1,0 +1,86 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 2,
+            "Restriction": false
+        }
+    ],
+    "Text": "전라북도의 안에 고창군이 있다. 고창군은 전라북도에 속한다. ",
+    "entities": {
+        "고창군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고창군"
+        },
+        "대한민국_제5공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_제5공화국"
+        },
+        "민주정의당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주정의당"
+        },
+        "전라북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전라북도"
+        }
+    },
+    "id": 3294,
+    "pid": "811-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "고창군",
+            "p": "부분(part)",
+            "s": "전라북도"
+        },
+        {
+            "Rep": false,
+            "o": "민주정의당",
+            "p": "정당(party)",
+            "s": "대한민국_제5공화국"
+        },
+        {
+            "Rep": true,
+            "o": "전라북도",
+            "p": "~의부분(isPartOf)",
+            "s": "고창군"
+        }
+    ]
+}

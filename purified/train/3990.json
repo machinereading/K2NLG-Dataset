@@ -1,0 +1,106 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "몽고메리는 앨라배마 주의 한 부분이다. 앨라배마 주의 수도는 몽고메리다.",
+    "entities": {
+        "몽고메리": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몽고메리_(앨라배마_주)"
+        },
+        "버스": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/버스"
+        },
+        "앨라배마_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/앨라배마_주"
+        }
+    },
+    "id": 3990,
+    "pid": "235-12",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "앨라배마_주",
+            "p": "지역/분양(region)",
+            "s": "몽고메리"
+        },
+        {
+            "Rep": true,
+            "o": "앨라배마_주",
+            "p": "~의부분(isPartOf)",
+            "s": "몽고메리"
+        },
+        {
+            "Rep": true,
+            "o": "몽고메리",
+            "p": "수도(capital)",
+            "s": "앨라배마_주"
+        },
+        {
+            "Rep": false,
+            "o": "앨라배마_주",
+            "p": "~의부분(isPartOf)",
+            "s": "버스"
+        },
+        {
+            "Rep": false,
+            "o": "몽고메리",
+            "p": "가장큰도시(largestCity)",
+            "s": "앨라배마_주"
+        },
+        {
+            "Rep": false,
+            "o": "버스",
+            "p": "가장큰도시(largestCity)",
+            "s": "앨라배마_주"
+        },
+        {
+            "Rep": false,
+            "o": "버스",
+            "p": "~의부분(isPartOf)",
+            "s": "몽고메리"
+        }
+    ]
+}

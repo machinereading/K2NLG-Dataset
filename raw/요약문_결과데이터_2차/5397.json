@@ -1,0 +1,76 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "게오르크 빌헬름 프리드리히 헤겔과 아리스토텔레스의 직업은 예술가다.",
+    "entities": {
+        "게오르크_빌헬름_프리드리히_헤겔": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/게오르크_빌헬름_프리드리히_헤겔"
+        },
+        "아리스토텔레스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아리스토텔레스"
+        },
+        "예술가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예술가"
+        }
+    },
+    "id": 5397,
+    "pid": "632-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "게오르크_빌헬름_프리드리히_헤겔"
+        },
+        {
+            "Rep": true,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "아리스토텔레스"
+        },
+        {
+            "Rep": false,
+            "o": "아리스토텔레스",
+            "p": "영향받은(influenced)",
+            "s": "예술가"
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        }
+    ],
+    "Text": "진도는 전라남도의 지역이다. 진도군은 전라남도의 한 부분이다.",
+    "entities": {
+        "가사군도": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Island"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가사군도"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "전라남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전라남도"
+        },
+        "진도": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/진도_(섬)"
+        },
+        "진도군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/진도군"
+        }
+    },
+    "id": 3051,
+    "pid": "694-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "전라남도",
+            "p": "지역/분양(region)",
+            "s": "진도"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "진도군"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "전라남도"
+        },
+        {
+            "Rep": false,
+            "o": "진도",
+            "p": "~의부분(isPartOf)",
+            "s": "진도군"
+        },
+        {
+            "Rep": true,
+            "o": "전라남도",
+            "p": "~의부분(isPartOf)",
+            "s": "진도군"
+        },
+        {
+            "Rep": false,
+            "o": "가사군도",
+            "p": "~의부분(isPartOf)",
+            "s": "진도군"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "진도"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "가사군도"
+        },
+        {
+            "Rep": false,
+            "o": "전라남도",
+            "p": "지역/분양(region)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "가사군도",
+            "p": "수도(capital)",
+            "s": "대한민국"
+        }
+    ]
+}

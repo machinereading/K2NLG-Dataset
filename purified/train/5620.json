@@ -1,0 +1,191 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "루트비히 볼츠만은 빈에서 태어났다. 그의 직업은 교수이다. ",
+    "entities": {
+        "과학사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/과학사"
+        },
+        "교수": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교수"
+        },
+        "라이프치히_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라이프치히_대학교"
+        },
+        "루트비히_볼츠만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루트비히_볼츠만"
+        },
+        "빈": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빈"
+        },
+        "빈_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빈_대학교"
+        },
+        "에른스트_마흐": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에른스트_마흐"
+        },
+        "이직": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이직"
+        },
+        "철학": {
+            "ne_type": "FD_PHILOSOPHY",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/철학"
+        }
+    },
+    "id": 5620,
+    "pid": "720-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "빈",
+            "p": "출생지(birthPlace)",
+            "s": "루트비히_볼츠만"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "에른스트_마흐"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "과학사"
+        },
+        {
+            "Rep": true,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "루트비히_볼츠만"
+        },
+        {
+            "Rep": false,
+            "o": "빈_대학교",
+            "p": "학력(education)",
+            "s": "철학"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "철학"
+        },
+        {
+            "Rep": false,
+            "o": "빈_대학교",
+            "p": "학력(education)",
+            "s": "교수"
+        },
+        {
+            "Rep": false,
+            "o": "빈",
+            "p": "사망지(deathPlace)",
+            "s": "루트비히_볼츠만"
+        },
+        {
+            "Rep": false,
+            "o": "빈",
+            "p": "사망지(deathPlace)",
+            "s": "에른스트_마흐"
+        },
+        {
+            "Rep": false,
+            "o": "빈_대학교",
+            "p": "학력(education)",
+            "s": "루트비히_볼츠만"
+        },
+        {
+            "Rep": false,
+            "o": "라이프치히_대학교",
+            "p": "학력(education)",
+            "s": "이직"
+        },
+        {
+            "Rep": false,
+            "o": "루트비히_볼츠만",
+            "p": "영향받은(influencedBy)",
+            "s": "교수"
+        },
+        {
+            "Rep": false,
+            "o": "빈_대학교",
+            "p": "학력(education)",
+            "s": "과학사"
+        }
+    ]
+}

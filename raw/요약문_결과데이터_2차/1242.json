@@ -1,0 +1,123 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 1,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "루신인은 폴란드의 민족이다. 라흐티는 폴란드의 도시다. 루신인은 폴란드와 리투아니아에 살고 있다. 라흐티는 리투아니아의 도시다.",
+    "entities": {
+        "FC_바르셀로나": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerClub",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SportsTeam"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/FC_바르셀로나"
+        },
+        "라흐티": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라흐티"
+        },
+        "루신인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루신인"
+        },
+        "리투아니아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리투아니아"
+        },
+        "외교관": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/외교관"
+        },
+        "폴란드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/폴란드"
+        }
+    },
+    "id": 1242,
+    "pid": "179-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "루신인",
+            "p": "민족(ethnicGroup)",
+            "s": "폴란드"
+        },
+        {
+            "Rep": true,
+            "o": "폴란드",
+            "p": "국가(country)",
+            "s": "라흐티"
+        },
+        {
+            "Rep": false,
+            "o": "외교관",
+            "p": "직함/포지션(position)",
+            "s": "FC_바르셀로나"
+        },
+        {
+            "Rep": true,
+            "o": "폴란드",
+            "p": "있는곳(populationPlace)",
+            "s": "루신인"
+        },
+        {
+            "Rep": true,
+            "o": "리투아니아",
+            "p": "있는곳(populationPlace)",
+            "s": "루신인"
+        },
+        {
+            "Rep": true,
+            "o": "리투아니아",
+            "p": "국가(country)",
+            "s": "라흐티"
+        }
+    ]
+}

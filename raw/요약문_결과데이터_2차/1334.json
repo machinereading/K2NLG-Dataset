@@ -1,0 +1,68 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "남송의 리더는 한수였다. 남송의 수도는 한수이다.",
+    "entities": {
+        "남송": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남송"
+        },
+        "한수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한수_(후한)"
+        }
+    },
+    "id": 1334,
+    "pid": "196-16",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "한수",
+            "p": "리더이름(leaderName)",
+            "s": "남송"
+        },
+        {
+            "Rep": true,
+            "o": "한수",
+            "p": "수도(capital)",
+            "s": "남송"
+        },
+        {
+            "Rep": false,
+            "o": "남송",
+            "p": "전임자(predecessor)",
+            "s": "한수"
+        }
+    ]
+}

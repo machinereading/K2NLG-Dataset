@@ -1,0 +1,136 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "도쿠가와 이에사다는 에도 막부의 리더이다. 그는 센다이 시의 리더이기도 하다.",
+    "entities": {
+        "도쿠가와_요시노부": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿠가와_요시노부"
+        },
+        "도쿠가와_이에모치": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿠가와_이에모치"
+        },
+        "도쿠가와_이에사다": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿠가와_이에사다"
+        },
+        "도쿠가와_이에야스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿠가와_이에야스"
+        },
+        "센다이_시": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/센다이_시"
+        },
+        "에도_막부": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에도_막부"
+        }
+    },
+    "id": 2828,
+    "pid": "611-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "도쿠가와_이에야스",
+            "p": "리더이름(leaderName)",
+            "s": "에도_막부"
+        },
+        {
+            "Rep": false,
+            "o": "도쿠가와_요시노부",
+            "p": "리더이름(leaderName)",
+            "s": "에도_막부"
+        },
+        {
+            "Rep": false,
+            "o": "도쿠가와_이에모치",
+            "p": "리더이름(leaderName)",
+            "s": "에도_막부"
+        },
+        {
+            "Rep": true,
+            "o": "도쿠가와_이에사다",
+            "p": "리더이름(leaderName)",
+            "s": "에도_막부"
+        },
+        {
+            "Rep": true,
+            "o": "도쿠가와_이에사다",
+            "p": "리더이름(leaderName)",
+            "s": "센다이_시"
+        },
+        {
+            "Rep": false,
+            "o": "도쿠가와_이에야스",
+            "p": "리더이름(leaderName)",
+            "s": "센다이_시"
+        },
+        {
+            "Rep": false,
+            "o": "도쿠가와_요시노부",
+            "p": "리더이름(leaderName)",
+            "s": "센다이_시"
+        },
+        {
+            "Rep": false,
+            "o": "에도_막부",
+            "p": "지역/분양(region)",
+            "s": "센다이_시"
+        }
+    ]
+}

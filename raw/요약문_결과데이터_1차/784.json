@@ -1,0 +1,166 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "건문제는 정난의 변에 참전한 지휘관이다. 그는 난징 시를 이끈 사람이다. ",
+    "entities": {
+        "건문제": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/건문제"
+        },
+        "난징_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/난징_시"
+        },
+        "베이징_시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베이징_시"
+        },
+        "영락제": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영락제"
+        },
+        "유단_(연날왕)": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유단_(연날왕)"
+        },
+        "정난의_변": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정난의_변"
+        },
+        "주표": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/주표"
+        },
+        "홍무제": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍무제"
+        }
+    },
+    "id": 784,
+    "pid": "276-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "주표",
+            "p": "부모(parent)",
+            "s": "건문제"
+        },
+        {
+            "Rep": true,
+            "o": "건문제",
+            "p": "지휘관(commander)",
+            "s": "정난의_변"
+        },
+        {
+            "Rep": false,
+            "o": "영락제",
+            "p": "지휘관(commander)",
+            "s": "정난의_변"
+        },
+        {
+            "Rep": false,
+            "o": "홍무제",
+            "p": "직함/포지션(position)",
+            "s": "건문제"
+        },
+        {
+            "Rep": false,
+            "o": "홍무제",
+            "p": "직함/포지션(position)",
+            "s": "홍무제"
+        },
+        {
+            "Rep": true,
+            "o": "건문제",
+            "p": "리더이름(leaderName)",
+            "s": "난징_시"
+        },
+        {
+            "Rep": false,
+            "o": "유단_(연날왕)",
+            "p": "리더이름(leaderName)",
+            "s": "베이징_시"
+        },
+        {
+            "Rep": false,
+            "o": "홍무제",
+            "p": "리더이름(leaderName)",
+            "s": "베이징_시"
+        },
+        {
+            "Rep": false,
+            "o": "정난의_변",
+            "p": "전투(battle)",
+            "s": "유단_(연날왕)"
+        }
+    ]
+}

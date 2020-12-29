@@ -1,0 +1,134 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "에르콜레 1세 데스테는 페라라 전쟁의 지휘관이었다. 그는 베네치아 공화국을 이끌었다. 그는 교황령의 리더였다. 그는 페라라 전쟁에 참여했다. 그는 페라라를 이끌었다.",
+    "entities": {
+        "교황_식스토_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_식스토_4세"
+        },
+        "교황령": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황령"
+        },
+        "베네치아_공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베네치아_공화국"
+        },
+        "에르콜레_1세_데스테": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에르콜레_1세_데스테"
+        },
+        "페라라": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/WorldHeritageSite"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페라라"
+        },
+        "페라라_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페라라_전쟁"
+        }
+    },
+    "id": 374,
+    "pid": "37-11",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "에르콜레_1세_데스테",
+            "p": "지휘관(commander)",
+            "s": "페라라_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "에르콜레_1세_데스테",
+            "p": "리더이름(leaderName)",
+            "s": "베네치아_공화국"
+        },
+        {
+            "Rep": false,
+            "o": "교황_식스토_4세",
+            "p": "리더이름(leaderName)",
+            "s": "교황령"
+        },
+        {
+            "Rep": true,
+            "o": "에르콜레_1세_데스테",
+            "p": "리더이름(leaderName)",
+            "s": "교황령"
+        },
+        {
+            "Rep": true,
+            "o": "페라라_전쟁",
+            "p": "전투(battle)",
+            "s": "에르콜레_1세_데스테"
+        },
+        {
+            "Rep": false,
+            "o": "교황_식스토_4세",
+            "p": "지휘관(commander)",
+            "s": "페라라_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "에르콜레_1세_데스테",
+            "p": "리더이름(leaderName)",
+            "s": "페라라"
+        }
+    ]
+}

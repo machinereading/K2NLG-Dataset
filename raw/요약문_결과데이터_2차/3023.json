@@ -1,0 +1,166 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "보스턴 포위전은 미국 독립 전쟁을 이루는 하나의 전쟁이다. 보스턴 포위전의 장소는 보스턴이었다. ",
+    "entities": {
+        "렉싱턴_콩코드_전투": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/렉싱턴_콩코드_전투"
+        },
+        "미국_독립_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국_독립_전쟁"
+        },
+        "벙커_힐_전투": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/벙커_힐_전투"
+        },
+        "보스턴": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보스턴"
+        },
+        "보스턴_포위전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보스턴_포위전"
+        },
+        "보스턴_학살": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보스턴_학살"
+        }
+    },
+    "id": 3023,
+    "pid": "670-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "보스턴",
+            "p": "장소(place)",
+            "s": "보스턴_포위전"
+        },
+        {
+            "Rep": true,
+            "o": "미국_독립_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "보스턴_포위전"
+        },
+        {
+            "Rep": false,
+            "o": "렉싱턴_콩코드_전투",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "벙커_힐_전투"
+        },
+        {
+            "Rep": false,
+            "o": "렉싱턴_콩코드_전투",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "보스턴_포위전"
+        },
+        {
+            "Rep": false,
+            "o": "렉싱턴_콩코드_전투",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "보스턴_학살"
+        },
+        {
+            "Rep": false,
+            "o": "보스턴_포위전",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "보스턴_학살"
+        },
+        {
+            "Rep": false,
+            "o": "벙커_힐_전투",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "렉싱턴_콩코드_전투"
+        },
+        {
+            "Rep": false,
+            "o": "벙커_힐_전투",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "보스턴_포위전"
+        },
+        {
+            "Rep": false,
+            "o": "보스턴_학살",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "벙커_힐_전투"
+        },
+        {
+            "Rep": false,
+            "o": "보스턴_학살",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "렉싱턴_콩코드_전투"
+        },
+        {
+            "Rep": false,
+            "o": "보스턴_포위전",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "벙커_힐_전투"
+        },
+        {
+            "Rep": false,
+            "o": "보스턴_포위전",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "렉싱턴_콩코드_전투"
+        },
+        {
+            "Rep": false,
+            "o": "보스턴_학살",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "보스턴_포위전"
+        }
+    ]
+}

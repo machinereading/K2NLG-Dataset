@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "류큐어는 류큐국의 공용어이다. 류큐어는 일본어 계통의 언어이다.",
+    "entities": {
+        "류큐국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/류큐국"
+        },
+        "류큐어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/류큐어"
+        },
+        "연구원": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/연구원"
+        },
+        "일본어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본어"
+        }
+    },
+    "id": 4641,
+    "pid": "335-25",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "류큐어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "류큐국"
+        },
+        {
+            "Rep": false,
+            "o": "류큐어",
+            "p": "계통(languageFamily)",
+            "s": "일본어"
+        },
+        {
+            "Rep": false,
+            "o": "연구원",
+            "p": "쓰이는곳(spokenIn)",
+            "s": "일본어"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "류큐국"
+        },
+        {
+            "Rep": false,
+            "o": "류큐국",
+            "p": "쓰이는곳(spokenIn)",
+            "s": "일본어"
+        },
+        {
+            "Rep": true,
+            "o": "일본어",
+            "p": "계통(languageFamily)",
+            "s": "류큐어"
+        },
+        {
+            "Rep": false,
+            "o": "류큐국",
+            "p": "국가(country)",
+            "s": "연구원"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "언어(language)",
+            "s": "연구원"
+        }
+    ]
+}

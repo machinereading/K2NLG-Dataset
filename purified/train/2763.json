@@ -1,0 +1,106 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "한국 제품인 액티브X의 장르는 웹 브라우저다. ",
+    "entities": {
+        "마이크로소프트": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마이크로소프트"
+        },
+        "액티브X": {
+            "ne_type": "TR_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/액티브X"
+        },
+        "웹_브라우저": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/웹_브라우저"
+        },
+        "인터넷_익스플로러_8": {
+            "ne_type": "TR_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인터넷_익스플로러_8"
+        },
+        "한국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국"
+        }
+    },
+    "id": 2763,
+    "pid": "550-11",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "마이크로소프트",
+            "p": "개발자/개발사(developer)",
+            "s": "인터넷_익스플로러_8"
+        },
+        {
+            "Rep": false,
+            "o": "인터넷_익스플로러_8",
+            "p": "제품(product)",
+            "s": "마이크로소프트"
+        },
+        {
+            "Rep": true,
+            "o": "웹_브라우저",
+            "p": "장르(genre)",
+            "s": "액티브X"
+        },
+        {
+            "Rep": true,
+            "o": "액티브X",
+            "p": "제품(product)",
+            "s": "한국"
+        },
+        {
+            "Rep": false,
+            "o": "웹_브라우저",
+            "p": "장르(genre)",
+            "s": "인터넷_익스플로러_8"
+        }
+    ]
+}

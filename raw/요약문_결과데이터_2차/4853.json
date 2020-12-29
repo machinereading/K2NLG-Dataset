@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "나폴레옹 보나파르트는 네덜란드를 이끈 리더였다. 그의 전임자는 루이 보나파르트다.",
+    "entities": {
+        "나폴레옹_보나파르트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나폴레옹_보나파르트"
+        },
+        "네덜란드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/네덜란드"
+        },
+        "루이_보나파르트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루이_보나파르트"
+        },
+        "샤를_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/샤를_2세_(프로방스)"
+        },
+        "오르탕스_드_보아르네": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오르탕스_드_보아르네"
+        }
+    },
+    "id": 4853,
+    "pid": "443-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "루이_보나파르트",
+            "p": "리더이름(leaderName)",
+            "s": "네덜란드"
+        },
+        {
+            "Rep": true,
+            "o": "나폴레옹_보나파르트",
+            "p": "리더이름(leaderName)",
+            "s": "네덜란드"
+        },
+        {
+            "Rep": false,
+            "o": "오르탕스_드_보아르네",
+            "p": "자식(child)",
+            "s": "나폴레옹_보나파르트"
+        },
+        {
+            "Rep": false,
+            "o": "샤를_2세",
+            "p": "리더이름(leaderName)",
+            "s": "네덜란드"
+        },
+        {
+            "Rep": true,
+            "o": "루이_보나파르트",
+            "p": "전임자(predecessor)",
+            "s": "나폴레옹_보나파르트"
+        }
+    ]
+}

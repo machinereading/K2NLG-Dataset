@@ -1,0 +1,123 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "어스토니시아 스토리의 개발사는 손노리이다. 어스토니시아 스토리의 장르는 롤플레잉 게임이다.",
+    "entities": {
+        "넷마블": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Company"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/넷마블"
+        },
+        "롤플레잉_게임": {
+            "ne_type": "TMIG_GENRE",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/롤플레잉_게임"
+        },
+        "손노리": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손노리"
+        },
+        "어스토니시아_스토리": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/VideoGame",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/어스토니시아_스토리"
+        },
+        "엔트리브_소프트": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/엔트리브_소프트"
+        },
+        "이원술": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이원술"
+        }
+    },
+    "id": 2848,
+    "pid": "629-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "이원술",
+            "p": "주요인물(keyPerson)",
+            "s": "손노리"
+        },
+        {
+            "Rep": true,
+            "o": "손노리",
+            "p": "개발자/개발사(developer)",
+            "s": "어스토니시아_스토리"
+        },
+        {
+            "Rep": false,
+            "o": "넷마블",
+            "p": "개발자/개발사(developer)",
+            "s": "어스토니시아_스토리"
+        },
+        {
+            "Rep": true,
+            "o": "롤플레잉_게임",
+            "p": "장르(genre)",
+            "s": "어스토니시아_스토리"
+        },
+        {
+            "Rep": false,
+            "o": "손노리",
+            "p": "제품(product)",
+            "s": "엔트리브_소프트"
+        },
+        {
+            "Rep": false,
+            "o": "이원술",
+            "p": "제품(product)",
+            "s": "넷마블"
+        }
+    ]
+}

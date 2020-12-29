@@ -1,0 +1,225 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "경상남도는 진해구에 속한다. 경상남도를 이끈 사람은 신현준(군인)이다. 경주시는 포항시에 속한다. 경주시는 김포시에 속한다.",
+    "entities": {
+        "강화군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강화군"
+        },
+        "경상남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상남도"
+        },
+        "경주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경주시"
+        },
+        "김포시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김포시"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "대한민국_해병대": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_해병대"
+        },
+        "신현준_(군인)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/MilitaryPerson",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신현준_(군인)"
+        },
+        "장교": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장교"
+        },
+        "제주도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제주도"
+        },
+        "진해구": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/진해구"
+        },
+        "포항시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포항시"
+        }
+    },
+    "id": 846,
+    "pid": "280-89",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "제주도"
+        },
+        {
+            "Rep": true,
+            "o": "진해구",
+            "p": "부분(part)",
+            "s": "경상남도"
+        },
+        {
+            "Rep": true,
+            "o": "신현준_(군인)",
+            "p": "리더이름(leaderName)",
+            "s": "경상남도"
+        },
+        {
+            "Rep": true,
+            "o": "포항시",
+            "p": "~의부분(isPartOf)",
+            "s": "경주시"
+        },
+        {
+            "Rep": true,
+            "o": "김포시",
+            "p": "~의부분(isPartOf)",
+            "s": "경주시"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "경상남도"
+        },
+        {
+            "Rep": false,
+            "o": "신현준_(군인)",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "진해구"
+        },
+        {
+            "Rep": false,
+            "o": "경주시",
+            "p": "~의부분(isPartOf)",
+            "s": "김포시"
+        },
+        {
+            "Rep": false,
+            "o": "경주시",
+            "p": "~의부분(isPartOf)",
+            "s": "강화군"
+        },
+        {
+            "Rep": false,
+            "o": "포항시",
+            "p": "~의부분(isPartOf)",
+            "s": "김포시"
+        },
+        {
+            "Rep": false,
+            "o": "신현준_(군인)",
+            "p": "지휘관(commander)",
+            "s": "대한민국_해병대"
+        },
+        {
+            "Rep": false,
+            "o": "강화군",
+            "p": "~의부분(isPartOf)",
+            "s": "경주시"
+        },
+        {
+            "Rep": false,
+            "o": "장교",
+            "p": "타입/종류(type)",
+            "s": "진해구"
+        },
+        {
+            "Rep": false,
+            "o": "포항시",
+            "p": "~의부분(isPartOf)",
+            "s": "강화군"
+        }
+    ]
+}

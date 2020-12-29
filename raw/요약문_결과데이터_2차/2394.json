@@ -1,0 +1,177 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "빅토리아의 배우자는 작센코부르크고타의 앨버트이다.",
+    "entities": {
+        "고타": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Town",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고타_(독일)"
+        },
+        "모리스_드_삭스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/모리스_드_삭스"
+        },
+        "보어_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보어_전쟁"
+        },
+        "빅토리아": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빅토리아_(영국)"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "윈저": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윈저_(온타리오_주)"
+        },
+        "작센코부르크고타의_앨버트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작센코부르크고타의_앨버트"
+        },
+        "참회왕_에드워드": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/참회왕_에드워드"
+        },
+        "코부르크": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Town",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/코부르크"
+        }
+    },
+    "id": 2394,
+    "pid": "475-16",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "모리스_드_삭스",
+            "p": "리더이름(leaderName)",
+            "s": "윈저"
+        },
+        {
+            "Rep": true,
+            "o": "작센코부르크고타의_앨버트",
+            "p": "배우자(spouse)",
+            "s": "빅토리아"
+        },
+        {
+            "Rep": false,
+            "o": "고타",
+            "p": "쓰이는곳(spokenIn)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "코부르크",
+            "p": "쓰이는곳(spokenIn)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "보어_전쟁",
+            "p": "전투(battle)",
+            "s": "빅토리아"
+        },
+        {
+            "Rep": false,
+            "o": "윈저",
+            "p": "쓰이는곳(spokenIn)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "참회왕_에드워드",
+            "p": "자식(child)",
+            "s": "작센코부르크고타의_앨버트"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "고타"
+        },
+        {
+            "Rep": false,
+            "o": "빅토리아",
+            "p": "배우자(spouse)",
+            "s": "모리스_드_삭스"
+        }
+    ]
+}

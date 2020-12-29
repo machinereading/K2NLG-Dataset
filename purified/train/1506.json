@@ -1,0 +1,79 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "태평천국은 광둥 성의 한 부분이다. 광둥 성은 태평천국의 한 부분이다.",
+    "entities": {
+        "광둥_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/광둥_성"
+        },
+        "태평천국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태평천국"
+        },
+        "홍수전": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍수전"
+        }
+    },
+    "id": 1506,
+    "pid": "247-5",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "홍수전",
+            "p": "리더이름(leaderName)",
+            "s": "태평천국"
+        },
+        {
+            "Rep": true,
+            "o": "광둥_성",
+            "p": "~의부분(isPartOf)",
+            "s": "태평천국"
+        },
+        {
+            "Rep": true,
+            "o": "태평천국",
+            "p": "~의부분(isPartOf)",
+            "s": "광둥_성"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "태종무열왕의 배우자는 영창부인이다. 태종무열왕의 뒤를 선덕여왕이 이어갔다. ",
+    "entities": {
+        "김유신": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김유신"
+        },
+        "선덕여왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/선덕여왕"
+        },
+        "영창부인": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영창부인"
+        },
+        "태종무열왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태종무열왕"
+        }
+    },
+    "id": 5395,
+    "pid": "631-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "영창부인",
+            "p": "배우자(spouse)",
+            "s": "태종무열왕"
+        },
+        {
+            "Rep": true,
+            "o": "선덕여왕",
+            "p": "계승자/후임(successor)",
+            "s": "태종무열왕"
+        },
+        {
+            "Rep": false,
+            "o": "선덕여왕",
+            "p": "계승자/후임(successor)",
+            "s": "김유신"
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "허베이 성, 타이항 산맥의 국가는 중화인민공화국이다. 허베이 성은 타이항 산맥에 속한다. 중화인민공화국의 수도는 허베이 성이다.",
+    "entities": {
+        "중화인민공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화인민공화국"
+        },
+        "타이항_산맥": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/MountainRange"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/타이항_산맥"
+        },
+        "허베이_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/허베이_성"
+        }
+    },
+    "id": 2466,
+    "pid": "490-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "중화인민공화국",
+            "p": "국가(country)",
+            "s": "허베이_성"
+        },
+        {
+            "Rep": true,
+            "o": "중화인민공화국",
+            "p": "국가(country)",
+            "s": "타이항_산맥"
+        },
+        {
+            "Rep": true,
+            "o": "타이항_산맥",
+            "p": "~의부분(isPartOf)",
+            "s": "허베이_성"
+        },
+        {
+            "Rep": false,
+            "o": "타이항_산맥",
+            "p": "수도(capital)",
+            "s": "중화인민공화국"
+        },
+        {
+            "Rep": true,
+            "o": "허베이_성",
+            "p": "수도(capital)",
+            "s": "중화인민공화국"
+        }
+    ]
+}

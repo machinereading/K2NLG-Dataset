@@ -1,0 +1,115 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "광주광역시의 지도자는 김대중이다. 그의 뒤를 노무현이 잇고있다. ",
+    "entities": {
+        "광주광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/광주광역시"
+        },
+        "김대중": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김대중"
+        },
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "한화갑": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한화갑"
+        }
+    },
+    "id": 3614,
+    "pid": "114-37",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "김대중",
+            "p": "전임자(predecessor)",
+            "s": "노무현"
+        },
+        {
+            "Rep": true,
+            "o": "노무현",
+            "p": "계승자/후임(successor)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "노무현",
+            "p": "리더이름(leaderName)",
+            "s": "광주광역시"
+        },
+        {
+            "Rep": false,
+            "o": "한화갑",
+            "p": "전임자(predecessor)",
+            "s": "노무현"
+        },
+        {
+            "Rep": true,
+            "o": "김대중",
+            "p": "지도자(leader)",
+            "s": "광주광역시"
+        },
+        {
+            "Rep": false,
+            "o": "한화갑",
+            "p": "전임자(predecessor)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "김대중",
+            "p": "리더이름(leaderName)",
+            "s": "광주광역시"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "의상은 승려다.",
+    "entities": {
+        "승려": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/승려"
+        },
+        "의상": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Religious"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의상_(신라)"
+        },
+        "천등산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/천등산_(충청북도)"
+        }
+    },
+    "id": 5482,
+    "pid": "651-41",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "승려",
+            "p": "직업(occupation)",
+            "s": "의상"
+        },
+        {
+            "Rep": false,
+            "o": "승려",
+            "p": "국가(country)",
+            "s": "의상"
+        },
+        {
+            "Rep": false,
+            "o": "승려",
+            "p": "국가(country)",
+            "s": "천등산"
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "어스는 구글 제품이다. 어스는 클라우드 컴퓨팅 장르다.",
+    "entities": {
+        "G메일": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/G메일"
+        },
+        "구글": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/구글"
+        },
+        "구글_지도": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/구글_지도"
+        },
+        "뉴스": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/뉴스"
+        },
+        "비디오": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비디오"
+        },
+        "어스": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Band",
+                "http://dbpedia.org/ontology/Group"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/어스_(대한민국의_음악_그룹)"
+        },
+        "클라우드_컴퓨팅": {
+            "ne_type": "TR_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/클라우드_컴퓨팅"
+        },
+        "피카사": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피카사"
+        }
+    },
+    "id": 1171,
+    "pid": "159-23",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "구글",
+            "p": "개발자/개발사(developer)",
+            "s": "피카사"
+        },
+        {
+            "Rep": true,
+            "o": "어스",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "G메일",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "비디오",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "클라우드_컴퓨팅",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "뉴스",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "피카사",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": true,
+            "o": "클라우드_컴퓨팅",
+            "p": "장르(genre)",
+            "s": "어스"
+        },
+        {
+            "Rep": false,
+            "o": "구글_지도",
+            "p": "제품(product)",
+            "s": "구글"
+        }
+    ]
+}

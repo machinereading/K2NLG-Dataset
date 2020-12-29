@@ -1,0 +1,131 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김능환의 뒤는 신영철이 이어갔다. 신영철의 전임자는 김능환이다. ",
+    "entities": {
+        "김능환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김능환"
+        },
+        "김지형": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김지형"
+        },
+        "민일영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민일영"
+        },
+        "박시환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박시환_(1953년)"
+        },
+        "신영철": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신영철_(배구인)"
+        },
+        "안대희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안대희"
+        },
+        "양승태": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/양승태"
+        }
+    },
+    "id": 2775,
+    "pid": "565-5",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "양승태",
+            "p": "직함/포지션(position)",
+            "s": "박시환"
+        },
+        {
+            "Rep": false,
+            "o": "양승태",
+            "p": "직함/포지션(position)",
+            "s": "안대희"
+        },
+        {
+            "Rep": false,
+            "o": "신영철",
+            "p": "계승자/후임(successor)",
+            "s": "김지형"
+        },
+        {
+            "Rep": false,
+            "o": "신영철",
+            "p": "계승자/후임(successor)",
+            "s": "박시환"
+        },
+        {
+            "Rep": false,
+            "o": "신영철",
+            "p": "계승자/후임(successor)",
+            "s": "민일영"
+        },
+        {
+            "Rep": true,
+            "o": "김능환",
+            "p": "전임자(predecessor)",
+            "s": "신영철"
+        },
+        {
+            "Rep": true,
+            "o": "신영철",
+            "p": "계승자/후임(successor)",
+            "s": "김능환"
+        }
+    ]
+}

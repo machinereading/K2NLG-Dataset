@@ -1,0 +1,116 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "홍수전은 태평천국의 난을 지휘했다. 그는 청나라를 이끌었다.",
+    "entities": {
+        "예수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Deity",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예수"
+        },
+        "청나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청나라"
+        },
+        "태평천국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태평천국"
+        },
+        "태평천국의_난": {
+            "ne_type": "EV_ACTIVITY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태평천국의_난"
+        },
+        "홍수전": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍수전"
+        }
+    },
+    "id": 727,
+    "pid": "247-18",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "홍수전",
+            "p": "지휘관(commander)",
+            "s": "태평천국의_난"
+        },
+        {
+            "Rep": false,
+            "o": "홍수전",
+            "p": "리더이름(leaderName)",
+            "s": "태평천국"
+        },
+        {
+            "Rep": false,
+            "o": "예수",
+            "p": "리더이름(leaderName)",
+            "s": "태평천국"
+        },
+        {
+            "Rep": false,
+            "o": "예수",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        },
+        {
+            "Rep": false,
+            "o": "태평천국",
+            "p": "사망지(deathPlace)",
+            "s": "예수"
+        },
+        {
+            "Rep": true,
+            "o": "홍수전",
+            "p": "리더이름(leaderName)",
+            "s": "청나라"
+        }
+    ]
+}

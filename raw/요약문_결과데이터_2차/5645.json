@@ -1,0 +1,84 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "비루니의 직업은 천문학자다.",
+    "entities": {
+        "비루니": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비루니"
+        },
+        "안드로메다_은하": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Galaxy",
+                "http://dbpedia.org/ontology/CelestialBody"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안드로메다_은하"
+        },
+        "이집트": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이집트"
+        },
+        "천문학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/천문학자"
+        }
+    },
+    "id": 5645,
+    "pid": "733-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "천문학자",
+            "p": "직업(occupation)",
+            "s": "비루니"
+        },
+        {
+            "Rep": false,
+            "o": "안드로메다_은하",
+            "p": "~로알려진(knownFor)",
+            "s": "천문학자"
+        },
+        {
+            "Rep": false,
+            "o": "천문학자",
+            "p": "직업(occupation)",
+            "s": "이집트"
+        }
+    ]
+}

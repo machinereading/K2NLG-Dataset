@@ -1,0 +1,75 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": false
+        }
+    ],
+    "Text": "팀 버너스리의 직업은 물리학자로. 그는 물리학자로 유명해졌다.",
+    "entities": {
+        "과학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/과학자"
+        },
+        "물리학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/물리학자"
+        },
+        "팀_버너스리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팀_버너스리"
+        }
+    },
+    "id": 5294,
+    "pid": "555-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "물리학자",
+            "p": "직업(occupation)",
+            "s": "과학자"
+        },
+        {
+            "Rep": true,
+            "o": "물리학자",
+            "p": "~로알려진(knownFor)",
+            "s": "팀_버너스리"
+        },
+        {
+            "Rep": true,
+            "o": "물리학자",
+            "p": "직업(occupation)",
+            "s": "팀_버너스리"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "프랑스 혁명의 지휘관은 마리 앙투아네트이다. 그의 배우자는 막시밀리앵 드 로베스피에르이다.",
+    "entities": {
+        "마리_앙투아네트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마리_앙투아네트"
+        },
+        "막시밀리앵_드_로베스피에르": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/막시밀리앵_드_로베스피에르"
+        },
+        "프랑스_혁명": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스_혁명"
+        }
+    },
+    "id": 2340,
+    "pid": "444-22",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "마리_앙투아네트",
+            "p": "지휘관(commander)",
+            "s": "프랑스_혁명"
+        },
+        {
+            "Rep": false,
+            "o": "마리_앙투아네트",
+            "p": "배우자(spouse)",
+            "s": "막시밀리앵_드_로베스피에르"
+        },
+        {
+            "Rep": true,
+            "o": "막시밀리앵_드_로베스피에르",
+            "p": "배우자(spouse)",
+            "s": "마리_앙투아네트"
+        }
+    ]
+}

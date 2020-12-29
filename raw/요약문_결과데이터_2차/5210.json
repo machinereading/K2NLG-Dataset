@@ -1,0 +1,174 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "윤보선 대통령의 뒤는 박정희 대통령이 이어갔다. 윤보선의 배우자는 공덕귀다. 이희호의 배우자는 김대중이다. ",
+    "entities": {
+        "공덕귀": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공덕귀"
+        },
+        "김대중": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김대중"
+        },
+        "문익환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문익환"
+        },
+        "박정희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박정희"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "이희호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이희호"
+        },
+        "정일형": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정일형"
+        },
+        "함석헌": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/함석헌"
+        }
+    },
+    "id": 5210,
+    "pid": "541-238",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "박정희",
+            "p": "계승자/후임(successor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "공덕귀",
+            "p": "배우자(spouse)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "김대중",
+            "p": "배우자(spouse)",
+            "s": "이희호"
+        },
+        {
+            "Rep": false,
+            "o": "이희호",
+            "p": "배우자(spouse)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "정일형",
+            "p": "친척(relative)",
+            "s": "문익환"
+        },
+        {
+            "Rep": false,
+            "o": "함석헌",
+            "p": "친척(relative)",
+            "s": "문익환"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "전임자(predecessor)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "문익환",
+            "p": "친척(relative)",
+            "s": "함석헌"
+        },
+        {
+            "Rep": false,
+            "o": "공덕귀",
+            "p": "배우자(spouse)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "이희호",
+            "p": "전임자(predecessor)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "공덕귀",
+            "p": "전임자(predecessor)",
+            "s": "김대중"
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "태종무열왕의 배우자는 천명공주이며 자식은 문무왕이다. ",
+    "entities": {
+        "김용춘": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김용춘"
+        },
+        "김유신": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김유신"
+        },
+        "문무왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문무왕"
+        },
+        "지소부인": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지소부인"
+        },
+        "천명공주": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/천명공주"
+        },
+        "태종무열왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태종무열왕"
+        }
+    },
+    "id": 5379,
+    "pid": "631-14",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "문무왕",
+            "p": "자식(child)",
+            "s": "태종무열왕"
+        },
+        {
+            "Rep": false,
+            "o": "천명공주",
+            "p": "배우자(spouse)",
+            "s": "김용춘"
+        },
+        {
+            "Rep": true,
+            "o": "천명공주",
+            "p": "배우자(spouse)",
+            "s": "태종무열왕"
+        },
+        {
+            "Rep": false,
+            "o": "지소부인",
+            "p": "배우자(spouse)",
+            "s": "김유신"
+        }
+    ]
+}

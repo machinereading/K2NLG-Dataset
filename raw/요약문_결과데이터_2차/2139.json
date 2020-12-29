@@ -1,0 +1,139 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "스타크래프트는 블리자드 엔터테인먼트가 개발했다. 스타크래프트의 장르는 실시간 전략 게임이다.",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "범죄": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/범죄"
+        },
+        "북아메리카": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/북아메리카"
+        },
+        "블리자드_엔터테인먼트": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/블리자드_엔터테인먼트"
+        },
+        "스타크래프트": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/VideoGame",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스타크래프트"
+        },
+        "실시간_전략_게임": {
+            "ne_type": "TMIG_GENRE",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/실시간_전략_게임"
+        },
+        "지구": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지구"
+        }
+    },
+    "id": 2139,
+    "pid": "354-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "블리자드_엔터테인먼트",
+            "p": "개발자/개발사(developer)",
+            "s": "스타크래프트"
+        },
+        {
+            "Rep": true,
+            "o": "실시간_전략_게임",
+            "p": "장르(genre)",
+            "s": "스타크래프트"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "북아메리카"
+        },
+        {
+            "Rep": false,
+            "o": "범죄",
+            "p": "타입/종류(type)",
+            "s": "지구"
+        },
+        {
+            "Rep": false,
+            "o": "스타크래프트",
+            "p": "제품(product)",
+            "s": "블리자드_엔터테인먼트"
+        },
+        {
+            "Rep": false,
+            "o": "블리자드_엔터테인먼트",
+            "p": "배급(publisher)",
+            "s": "스타크래프트"
+        },
+        {
+            "Rep": false,
+            "o": "실시간_전략_게임",
+            "p": "제품(product)",
+            "s": "블리자드_엔터테인먼트"
+        }
+    ]
+}

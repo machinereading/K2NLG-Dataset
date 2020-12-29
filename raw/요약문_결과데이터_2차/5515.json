@@ -1,0 +1,225 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "작센 주를 이끈 사람은 루돌프 폰 외스터라이히운가른 황태자이다. 그의 배우자는 아시시의 프란치스코다. ",
+    "entities": {
+        "군인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/군인"
+        },
+        "로욜라의_이냐시오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로욜라의_이냐시오"
+        },
+        "루돌프_폰_외스터라이히운가른_황태자": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루돌프_폰_외스터라이히운가른_황태자"
+        },
+        "마리아": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마리아_(예수의_어머니)"
+        },
+        "몬세라트": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몬세라트"
+        },
+        "성모_승천_대성당": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/ReligiousBuilding",
+                "http://dbpedia.org/ontology/Church",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성모_승천_대성당"
+        },
+        "아시시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아시시"
+        },
+        "아시시의_프란치스코": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아시시의_프란치스코"
+        },
+        "예루살렘": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예루살렘"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        },
+        "작센_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작센_주"
+        }
+    },
+    "id": 5515,
+    "pid": "662-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "아시시",
+            "p": "사망지(deathPlace)",
+            "s": "아시시의_프란치스코"
+        },
+        {
+            "Rep": false,
+            "o": "예루살렘",
+            "p": "사망지(deathPlace)",
+            "s": "마리아"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "아시시의_프란치스코"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "루돌프_폰_외스터라이히운가른_황태자"
+        },
+        {
+            "Rep": true,
+            "o": "루돌프_폰_외스터라이히운가른_황태자",
+            "p": "리더이름(leaderName)",
+            "s": "작센_주"
+        },
+        {
+            "Rep": true,
+            "o": "아시시의_프란치스코",
+            "p": "배우자(spouse)",
+            "s": "루돌프_폰_외스터라이히운가른_황태자"
+        },
+        {
+            "Rep": false,
+            "o": "예루살렘",
+            "p": "~의부분(isPartOf)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "성모_승천_대성당",
+            "p": "부분(part)",
+            "s": "몬세라트"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "직업(occupation)",
+            "s": "마리아"
+        },
+        {
+            "Rep": false,
+            "o": "마리아",
+            "p": "부모(parent)",
+            "s": "로욜라의_이냐시오"
+        },
+        {
+            "Rep": false,
+            "o": "작센_주",
+            "p": "지역/분양(region)",
+            "s": "아시시의_프란치스코"
+        },
+        {
+            "Rep": false,
+            "o": "유럽",
+            "p": "~의부분(isPartOf)",
+            "s": "예루살렘"
+        },
+        {
+            "Rep": false,
+            "o": "로욜라의_이냐시오",
+            "p": "~의부분(isPartOf)",
+            "s": "유럽"
+        }
+    ]
+}

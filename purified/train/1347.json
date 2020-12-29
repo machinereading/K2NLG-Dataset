@@ -1,0 +1,114 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "팬텀엔터테인먼트그룹은 버라이어티 쇼를 만든다. 이수영은 골든 디스크 상을 수상했다.",
+    "entities": {
+        "골든_디스크": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/골든_디스크"
+        },
+        "버라이어티_쇼": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/버라이어티_쇼"
+        },
+        "소니_뮤직_엔터테인먼트": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/RecordLabel",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소니_뮤직_엔터테인먼트"
+        },
+        "이수영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Band",
+                "http://dbpedia.org/ontology/Group"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이수영"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "팬텀엔터테인먼트그룹": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/RecordLabel",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팬텀엔터테인먼트그룹"
+        }
+    },
+    "id": 1347,
+    "pid": "199-10",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "버라이어티_쇼",
+            "p": "제품(product)",
+            "s": "팬텀엔터테인먼트그룹"
+        },
+        {
+            "Rep": false,
+            "o": "소니_뮤직_엔터테인먼트",
+            "p": "소유조직(owningOrganisation)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "골든_디스크",
+            "p": "수상(award)",
+            "s": "이수영"
+        },
+        {
+            "Rep": false,
+            "o": "버라이어티_쇼",
+            "p": "장르(genre)",
+            "s": "팬텀엔터테인먼트그룹"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이시영의 정당은 무소속이다. 그가 무소속의 지도자다. ",
+    "entities": {
+        "무소속": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/무소속"
+        },
+        "민주국민당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주국민당_(1949년)"
+        },
+        "이시영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이시영_(1868년)"
+        }
+    },
+    "id": 1560,
+    "pid": "266-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "무소속",
+            "p": "정당(party)",
+            "s": "이시영"
+        },
+        {
+            "Rep": true,
+            "o": "이시영",
+            "p": "지도자(leader)",
+            "s": "무소속"
+        },
+        {
+            "Rep": false,
+            "o": "민주국민당",
+            "p": "정당(party)",
+            "s": "이시영"
+        },
+        {
+            "Rep": false,
+            "o": "이시영",
+            "p": "지도자(leader)",
+            "s": "민주국민당"
+        },
+        {
+            "Rep": false,
+            "o": "민주국민당",
+            "p": "정당(party)",
+            "s": "무소속"
+        }
+    ]
+}

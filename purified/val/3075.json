@@ -1,0 +1,146 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "하얼빈 시는 헤이룽장 성의 한 부분이다. 하얼빈 시는 만주국의 한 부분이다.",
+    "entities": {
+        "관동군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/관동군"
+        },
+        "만주국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주국"
+        },
+        "하얼빈_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하얼빈_시"
+        },
+        "헤이룽장_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헤이룽장_성"
+        },
+        "호드리구_핌팡": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/호드리구_핌팡"
+        }
+    },
+    "id": 3075,
+    "pid": "709-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "호드리구_핌팡",
+            "p": "~의부분(isPartOf)",
+            "s": "관동군"
+        },
+        {
+            "Rep": true,
+            "o": "헤이룽장_성",
+            "p": "~의부분(isPartOf)",
+            "s": "하얼빈_시"
+        },
+        {
+            "Rep": false,
+            "o": "만주국",
+            "p": "국가(country)",
+            "s": "하얼빈_시"
+        },
+        {
+            "Rep": false,
+            "o": "헤이룽장_성",
+            "p": "~의부분(isPartOf)",
+            "s": "호드리구_핌팡"
+        },
+        {
+            "Rep": false,
+            "o": "만주국",
+            "p": "국가(country)",
+            "s": "헤이룽장_성"
+        },
+        {
+            "Rep": false,
+            "o": "만주국",
+            "p": "국가(country)",
+            "s": "관동군"
+        },
+        {
+            "Rep": false,
+            "o": "헤이룽장_성",
+            "p": "~의부분(isPartOf)",
+            "s": "관동군"
+        },
+        {
+            "Rep": false,
+            "o": "관동군",
+            "p": "~의부분(isPartOf)",
+            "s": "호드리구_핌팡"
+        },
+        {
+            "Rep": false,
+            "o": "만주국",
+            "p": "국가(country)",
+            "s": "호드리구_핌팡"
+        },
+        {
+            "Rep": false,
+            "o": "호드리구_핌팡",
+            "p": "~의부분(isPartOf)",
+            "s": "하얼빈_시"
+        },
+        {
+            "Rep": true,
+            "o": "만주국",
+            "p": "~의부분(isPartOf)",
+            "s": "하얼빈_시"
+        }
+    ]
+}

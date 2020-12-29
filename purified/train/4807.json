@@ -1,0 +1,199 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "시카고 컵스는 메이저 리그 베이스볼 소속이다.",
+    "entities": {
+        "메이저_리그_베이스볼": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/BaseballLeague",
+                "http://dbpedia.org/ontology/SportsLeague",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/메이저_리그_베이스볼"
+        },
+        "시카고": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시카고"
+        },
+        "시카고_베어스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/AmericanFootballTeam"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시카고_베어스"
+        },
+        "시카고_불스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/BasketballTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시카고_불스"
+        },
+        "시카고_블랙호크스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/HockeyTeam",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시카고_블랙호크스"
+        },
+        "시카고_컵스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/BaseballTeam",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시카고_컵스"
+        },
+        "시카고_파이어": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시카고_파이어"
+        },
+        "시카고_화이트삭스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/BaseballTeam",
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시카고_화이트삭스"
+        }
+    },
+    "id": 4807,
+    "pid": "434-36",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "메이저_리그_베이스볼",
+            "p": "기원/소속(affiliation)",
+            "s": "시카고_컵스"
+        },
+        {
+            "Rep": false,
+            "o": "메이저_리그_베이스볼",
+            "p": "기원/소속(affiliation)",
+            "s": "시카고_화이트삭스"
+        },
+        {
+            "Rep": false,
+            "o": "메이저_리그_베이스볼",
+            "p": "기원/소속(affiliation)",
+            "s": "시카고_베어스"
+        },
+        {
+            "Rep": false,
+            "o": "메이저_리그_베이스볼",
+            "p": "기원/소속(affiliation)",
+            "s": "시카고_블랙호크스"
+        },
+        {
+            "Rep": false,
+            "o": "메이저_리그_베이스볼",
+            "p": "기원/소속(affiliation)",
+            "s": "시카고_파이어"
+        },
+        {
+            "Rep": false,
+            "o": "시카고_화이트삭스",
+            "p": "팀(team)",
+            "s": "메이저_리그_베이스볼"
+        },
+        {
+            "Rep": false,
+            "o": "메이저_리그_베이스볼",
+            "p": "기원/소속(affiliation)",
+            "s": "시카고_불스"
+        },
+        {
+            "Rep": false,
+            "o": "시카고_불스",
+            "p": "팀(team)",
+            "s": "메이저_리그_베이스볼"
+        },
+        {
+            "Rep": false,
+            "o": "시카고_파이어",
+            "p": "팀(team)",
+            "s": "메이저_리그_베이스볼"
+        },
+        {
+            "Rep": false,
+            "o": "시카고_블랙호크스",
+            "p": "팀(team)",
+            "s": "메이저_리그_베이스볼"
+        },
+        {
+            "Rep": false,
+            "o": "시카고_베어스",
+            "p": "팀(team)",
+            "s": "메이저_리그_베이스볼"
+        },
+        {
+            "Rep": false,
+            "o": "시카고_컵스",
+            "p": "팀(team)",
+            "s": "메이저_리그_베이스볼"
+        },
+        {
+            "Rep": false,
+            "o": "시카고",
+            "p": "도시(city)",
+            "s": "메이저_리그_베이스볼"
+        },
+        {
+            "Rep": false,
+            "o": "시카고_베어스",
+            "p": "팀(team)",
+            "s": "시카고_불스"
+        }
+    ]
+}

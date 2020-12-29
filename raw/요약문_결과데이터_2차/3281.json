@@ -1,0 +1,185 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "고려를 이끈 사람은 신돈이다. 그는 고려 국적이다. ",
+    "entities": {
+        "고려": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려"
+        },
+        "고려_공민왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_공민왕"
+        },
+        "고려_우왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_우왕"
+        },
+        "소혜왕후": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소혜왕후"
+        },
+        "신돈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신돈"
+        },
+        "조선": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/NobleFamily",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Family",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선"
+        },
+        "조선_태조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_태조"
+        }
+    },
+    "id": 3281,
+    "pid": "807-46",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "고려",
+            "p": "국적(nationality)",
+            "s": "신돈"
+        },
+        {
+            "Rep": false,
+            "o": "고려_우왕",
+            "p": "친척(relative)",
+            "s": "신돈"
+        },
+        {
+            "Rep": true,
+            "o": "신돈",
+            "p": "리더이름(leaderName)",
+            "s": "고려"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "왕조(dynasty)",
+            "s": "조선_태조"
+        },
+        {
+            "Rep": false,
+            "o": "신돈",
+            "p": "전임자(predecessor)",
+            "s": "고려_우왕"
+        },
+        {
+            "Rep": false,
+            "o": "고려_우왕",
+            "p": "리더이름(leaderName)",
+            "s": "고려"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "국가(country)",
+            "s": "고려"
+        },
+        {
+            "Rep": false,
+            "o": "고려",
+            "p": "국가(country)",
+            "s": "조선"
+        },
+        {
+            "Rep": false,
+            "o": "고려",
+            "p": "왕조(dynasty)",
+            "s": "고려_공민왕"
+        },
+        {
+            "Rep": false,
+            "o": "신돈",
+            "p": "전임자(predecessor)",
+            "s": "소혜왕후"
+        },
+        {
+            "Rep": false,
+            "o": "조선_태조",
+            "p": "리더이름(leaderName)",
+            "s": "고려"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "왕조(dynasty)",
+            "s": "고려_우왕"
+        },
+        {
+            "Rep": false,
+            "o": "조선",
+            "p": "왕조(dynasty)",
+            "s": "고려_공민왕"
+        },
+        {
+            "Rep": false,
+            "o": "조선_태조",
+            "p": "부모(parent)",
+            "s": "신돈"
+        }
+    ]
+}

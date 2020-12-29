@@ -1,0 +1,101 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이희성의 전임자는 전두환이다. 그는 국군기무사령부 소속이다. ",
+    "entities": {
+        "국군기무사령부": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/GovernmentAgency",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국군기무사령부"
+        },
+        "대한민국_육군사관학교": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_육군사관학교"
+        },
+        "이희성": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이희성_(1924년)"
+        },
+        "전두환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전두환"
+        }
+    },
+    "id": 5451,
+    "pid": "648-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "국군기무사령부",
+            "p": "직함/포지션(position)",
+            "s": "전두환"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_육군사관학교",
+            "p": "직함/포지션(position)",
+            "s": "전두환"
+        },
+        {
+            "Rep": false,
+            "o": "이희성",
+            "p": "계승자/후임(successor)",
+            "s": "전두환"
+        },
+        {
+            "Rep": false,
+            "o": "전두환",
+            "p": "대통령/회장(president)",
+            "s": "대한민국_육군사관학교"
+        },
+        {
+            "Rep": true,
+            "o": "전두환",
+            "p": "전임자(predecessor)",
+            "s": "이희성"
+        }
+    ]
+}

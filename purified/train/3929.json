@@ -1,0 +1,124 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "아르메니아인은 러시아에 있다. 그들은 블라디보스토크에 있다.",
+    "entities": {
+        "고려인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려인"
+        },
+        "러시아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아"
+        },
+        "블라디보스토크": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/블라디보스토크"
+        },
+        "소련": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소련"
+        },
+        "아르메니아인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아르메니아인"
+        },
+        "중국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국인"
+        }
+    },
+    "id": 3929,
+    "pid": "221-10",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "블라디보스토크"
+        },
+        {
+            "Rep": false,
+            "o": "중국인",
+            "p": "관련되(related)",
+            "s": "고려인"
+        },
+        {
+            "Rep": false,
+            "o": "고려인",
+            "p": "관련되(related)",
+            "s": "중국인"
+        },
+        {
+            "Rep": true,
+            "o": "러시아",
+            "p": "있는곳(populationPlace)",
+            "s": "아르메니아인"
+        },
+        {
+            "Rep": false,
+            "o": "아르메니아인",
+            "p": "민족(ethnicGroup)",
+            "s": "러시아"
+        },
+        {
+            "Rep": true,
+            "o": "블라디보스토크",
+            "p": "있는곳(populationPlace)",
+            "s": "아르메니아인"
+        },
+        {
+            "Rep": false,
+            "o": "블라디보스토크",
+            "p": "가장큰도시(largestCity)",
+            "s": "소련"
+        }
+    ]
+}

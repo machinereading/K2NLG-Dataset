@@ -1,0 +1,197 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "정주영의 배우자 변중석은 서울특별시에서 사망했다. ",
+    "entities": {
+        "변중석": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/변중석"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "신포시": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신포시"
+        },
+        "원산시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원산시"
+        },
+        "인천광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인천광역시"
+        },
+        "인천항": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Port",
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인천항"
+        },
+        "정주영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정주영"
+        },
+        "중구": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중구_(서울특별시)"
+        },
+        "청진시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청진시"
+        }
+    },
+    "id": 4603,
+    "pid": "301-7",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "정주영",
+            "p": "배우자(spouse)",
+            "s": "변중석"
+        },
+        {
+            "Rep": true,
+            "o": "변중석",
+            "p": "배우자(spouse)",
+            "s": "정주영"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "사망지(deathPlace)",
+            "s": "변중석"
+        },
+        {
+            "Rep": false,
+            "o": "인천광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "중구"
+        },
+        {
+            "Rep": false,
+            "o": "중구",
+            "p": "부분(part)",
+            "s": "인천광역시"
+        },
+        {
+            "Rep": false,
+            "o": "신포시",
+            "p": "~의부분(isPartOf)",
+            "s": "중구"
+        },
+        {
+            "Rep": false,
+            "o": "신포시",
+            "p": "부분(part)",
+            "s": "인천광역시"
+        },
+        {
+            "Rep": false,
+            "o": "인천광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "신포시"
+        },
+        {
+            "Rep": false,
+            "o": "인천항",
+            "p": "부분(part)",
+            "s": "인천광역시"
+        },
+        {
+            "Rep": false,
+            "o": "인천항",
+            "p": "~의부분(isPartOf)",
+            "s": "신포시"
+        },
+        {
+            "Rep": false,
+            "o": "원산시",
+            "p": "~의부분(isPartOf)",
+            "s": "청진시"
+        },
+        {
+            "Rep": false,
+            "o": "인천항",
+            "p": "~의부분(isPartOf)",
+            "s": "중구"
+        },
+        {
+            "Rep": false,
+            "o": "청진시",
+            "p": "가장큰도시(largestCity)",
+            "s": "원산시"
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 1,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 6,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "하카는 한족과 관련있다. 하카의 언어는 하카어다. ",
+    "entities": {
+        "일본어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본어"
+        },
+        "중국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국어"
+        },
+        "하카": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하카_(민족)"
+        },
+        "하카어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하카어"
+        },
+        "한족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한족"
+        }
+    },
+    "id": 4773,
+    "pid": "412-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "한족",
+            "p": "관련되(related)",
+            "s": "하카"
+        },
+        {
+            "Rep": false,
+            "o": "중국어",
+            "p": "계통(languageFamily)",
+            "s": "하카어"
+        },
+        {
+            "Rep": true,
+            "o": "하카어",
+            "p": "언어(language)",
+            "s": "하카"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "계통(languageFamily)",
+            "s": "중국어"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "계통(languageFamily)",
+            "s": "하카어"
+        },
+        {
+            "Rep": false,
+            "o": "하카어",
+            "p": "계통(languageFamily)",
+            "s": "중국어"
+        },
+        {
+            "Rep": false,
+            "o": "중국어",
+            "p": "계통(languageFamily)",
+            "s": "일본어"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "언어(language)",
+            "s": "하카"
+        },
+        {
+            "Rep": false,
+            "o": "하카어",
+            "p": "계통(languageFamily)",
+            "s": "일본어"
+        },
+        {
+            "Rep": false,
+            "o": "중국어",
+            "p": "언어(language)",
+            "s": "하카"
+        }
+    ]
+}

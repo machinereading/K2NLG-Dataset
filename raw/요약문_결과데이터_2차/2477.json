@@ -1,0 +1,82 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "존 바딘은 노벨 평화상을 수상했다. 그는 노벨 평화상 수상자로 알려져있다.",
+    "entities": {
+        "노벨_평화상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/NobelPrize",
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노벨_평화상"
+        },
+        "마리_퀴리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마리_퀴리"
+        },
+        "존_바딘": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/존_바딘"
+        }
+    },
+    "id": 2477,
+    "pid": "500-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "노벨_평화상",
+            "p": "수상(award)",
+            "s": "존_바딘"
+        },
+        {
+            "Rep": false,
+            "o": "노벨_평화상",
+            "p": "수상(award)",
+            "s": "마리_퀴리"
+        },
+        {
+            "Rep": true,
+            "o": "노벨_평화상",
+            "p": "~로알려진(knownFor)",
+            "s": "존_바딘"
+        },
+        {
+            "Rep": false,
+            "o": "노벨_평화상",
+            "p": "~로알려진(knownFor)",
+            "s": "마리_퀴리"
+        }
+    ]
+}

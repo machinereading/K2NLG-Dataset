@@ -1,0 +1,170 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "리처드 도킨슨은 만들어진 신의 저자이다. 그는 영국의 지도자였다.",
+    "entities": {
+        "리처드_도킨스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리처드_도킨스"
+        },
+        "만들어진_신": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만들어진_신"
+        },
+        "생물학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/생물학자"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "찰스_다윈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/찰스_다윈"
+        },
+        "토머스_헨리_헉슬리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토머스_헨리_헉슬리"
+        }
+    },
+    "id": 2096,
+    "pid": "325-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "리처드_도킨스",
+            "p": "저자(author)",
+            "s": "만들어진_신"
+        },
+        {
+            "Rep": false,
+            "o": "찰스_다윈",
+            "p": "영향받은(influencedBy)",
+            "s": "리처드_도킨스"
+        },
+        {
+            "Rep": false,
+            "o": "만들어진_신",
+            "p": "유명한작품(notableWork)",
+            "s": "리처드_도킨스"
+        },
+        {
+            "Rep": false,
+            "o": "찰스_다윈",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "토머스_헨리_헉슬리",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "만들어진_신"
+        },
+        {
+            "Rep": false,
+            "o": "토머스_헨리_헉슬리",
+            "p": "영향받은(influencedBy)",
+            "s": "찰스_다윈"
+        },
+        {
+            "Rep": false,
+            "o": "찰스_다윈",
+            "p": "영향받은(influenced)",
+            "s": "생물학자"
+        },
+        {
+            "Rep": true,
+            "o": "리처드_도킨스",
+            "p": "지도자(leader)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "생물학자",
+            "p": "직업(occupation)",
+            "s": "토머스_헨리_헉슬리"
+        },
+        {
+            "Rep": false,
+            "o": "만들어진_신",
+            "p": "~로알려진(knownFor)",
+            "s": "리처드_도킨스"
+        },
+        {
+            "Rep": false,
+            "o": "생물학자",
+            "p": "~로알려진(knownFor)",
+            "s": "찰스_다윈"
+        },
+        {
+            "Rep": false,
+            "o": "생물학자",
+            "p": "직업(occupation)",
+            "s": "찰스_다윈"
+        }
+    ]
+}

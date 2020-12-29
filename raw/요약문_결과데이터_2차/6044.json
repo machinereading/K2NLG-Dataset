@@ -1,0 +1,91 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "윤치영은 대한민국 내무부 소속이다. 그는 그곳의 지도자이다.",
+    "entities": {
+        "대한민국_경찰청": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_경찰청"
+        },
+        "대한민국_내무부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_내무부"
+        },
+        "윤치영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤치영"
+        }
+    },
+    "id": 6044,
+    "pid": "833-80",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대한민국_내무부",
+            "p": "전임자(predecessor)",
+            "s": "대한민국_경찰청"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_내무부",
+            "p": "직함/포지션(position)",
+            "s": "윤치영"
+        },
+        {
+            "Rep": false,
+            "o": "윤치영",
+            "p": "전임자(predecessor)",
+            "s": "대한민국_경찰청"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_경찰청",
+            "p": "계승자/후임(successor)",
+            "s": "윤치영"
+        },
+        {
+            "Rep": true,
+            "o": "윤치영",
+            "p": "지도자(leader)",
+            "s": "대한민국_내무부"
+        }
+    ]
+}

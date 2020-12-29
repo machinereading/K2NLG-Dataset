@@ -1,0 +1,176 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "만주사변은 중일 전쟁을 이루는 한 전쟁이다.",
+    "entities": {
+        "경기도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경기도"
+        },
+        "고려대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려대학교"
+        },
+        "김병로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김병로"
+        },
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "만주사변": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주사변"
+        },
+        "중일_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중일_전쟁"
+        }
+    },
+    "id": 2300,
+    "pid": "440-15",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "중일_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "만주사변"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "지휘관(commander)",
+            "s": "중일_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "김병로",
+            "p": "지휘관(commander)",
+            "s": "중일_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "중일_전쟁",
+            "p": "전투(battle)",
+            "s": "고려대학교"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "지휘관(commander)",
+            "s": "만주사변"
+        },
+        {
+            "Rep": false,
+            "o": "고려대학교",
+            "p": "직함/포지션(position)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "김병로",
+            "p": "지휘관(commander)",
+            "s": "만주사변"
+        },
+        {
+            "Rep": false,
+            "o": "만주사변",
+            "p": "전투(battle)",
+            "s": "고려대학교"
+        },
+        {
+            "Rep": false,
+            "o": "고려대학교",
+            "p": "직함/포지션(position)",
+            "s": "김병로"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "대통령/회장(president)",
+            "s": "고려대학교"
+        },
+        {
+            "Rep": false,
+            "o": "경기도",
+            "p": "위치/지역(location)",
+            "s": "중일_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "중일_전쟁",
+            "p": "전투(battle)",
+            "s": "김병로"
+        },
+        {
+            "Rep": false,
+            "o": "경기도",
+            "p": "위치/지역(location)",
+            "s": "만주사변"
+        },
+        {
+            "Rep": false,
+            "o": "중일_전쟁",
+            "p": "전투(battle)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "김병로",
+            "p": "대통령/회장(president)",
+            "s": "고려대학교"
+        }
+    ]
+}

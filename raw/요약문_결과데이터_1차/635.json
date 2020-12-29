@@ -1,0 +1,86 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "장기영 (1903년)은 KIA 타이거즈 소속이다. 릭 거톰슨은 KIA 타이거즈 소속이다.",
+    "entities": {
+        "KIA_타이거즈": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/KIA_타이거즈"
+        },
+        "릭_거톰슨": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/BaseballPlayer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/릭_거톰슨"
+        },
+        "장기영_(1903년)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장기영_(1903년)"
+        },
+        "프로_야구": {
+            "ne_type": "CV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Activity",
+                "http://dbpedia.org/ontology/Sport"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프로_야구"
+        }
+    },
+    "id": 635,
+    "pid": "200-12",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "프로_야구",
+            "p": "직함/포지션(position)",
+            "s": "장기영_(1903년)"
+        },
+        {
+            "Rep": true,
+            "o": "KIA_타이거즈",
+            "p": "직함/포지션(position)",
+            "s": "장기영_(1903년)"
+        },
+        {
+            "Rep": true,
+            "o": "KIA_타이거즈",
+            "p": "직함/포지션(position)",
+            "s": "릭_거톰슨"
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "민정당의 지도자는 강석진이다. 그는 의원 소속이다. ",
+    "entities": {
+        "강석진": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강석진_(1959년)"
+        },
+        "민정당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민정당"
+        },
+        "새누리당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/새누리당"
+        },
+        "신한국당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신한국당"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        }
+    },
+    "id": 2975,
+    "pid": "657-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "강석진",
+            "p": "지도자(leader)",
+            "s": "민정당"
+        },
+        {
+            "Rep": false,
+            "o": "강석진",
+            "p": "지도자(leader)",
+            "s": "새누리당"
+        },
+        {
+            "Rep": true,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "강석진"
+        },
+        {
+            "Rep": false,
+            "o": "강석진",
+            "p": "지도자(leader)",
+            "s": "신한국당"
+        },
+        {
+            "Rep": false,
+            "o": "새누리당",
+            "p": "정당(party)",
+            "s": "강석진"
+        },
+        {
+            "Rep": false,
+            "o": "민정당",
+            "p": "직함/포지션(position)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "새누리당",
+            "p": "직함/포지션(position)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "신한국당",
+            "p": "기원/소속(affiliation)",
+            "s": "새누리당"
+        },
+        {
+            "Rep": false,
+            "o": "새누리당",
+            "p": "직함/포지션(position)",
+            "s": "신한국당"
+        },
+        {
+            "Rep": false,
+            "o": "민정당",
+            "p": "기원/소속(affiliation)",
+            "s": "새누리당"
+        },
+        {
+            "Rep": false,
+            "o": "신한국당",
+            "p": "직함/포지션(position)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "민정당",
+            "p": "직함/포지션(position)",
+            "s": "신한국당"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "지도자(leader)",
+            "s": "새누리당"
+        }
+    ]
+}

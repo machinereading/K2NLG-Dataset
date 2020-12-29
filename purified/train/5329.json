@@ -1,0 +1,176 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "제천시는 충청북도에 속한다. 제천시는 충청북도 지역에있다.",
+    "entities": {
+        "봉양역": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RailwayStation",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/봉양역"
+        },
+        "제천시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제천시"
+        },
+        "제천역": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RailwayStation",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제천역"
+        },
+        "중앙선": {
+            "ne_type": "AF_ROAD",
+            "type": [
+                "http://dbpedia.org/ontology/RailwayLine",
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중앙선"
+        },
+        "충북선": {
+            "ne_type": "AF_ROAD",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/RailwayLine"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/충북선"
+        },
+        "충청북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/충청북도"
+        },
+        "태백선": {
+            "ne_type": "AF_ROAD",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RouteOfTransportation",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/RailwayLine"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태백선"
+        }
+    },
+    "id": 5329,
+    "pid": "595-22",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "태백선",
+            "p": "노선(servingRailwayLine)",
+            "s": "제천역"
+        },
+        {
+            "Rep": false,
+            "o": "충북선",
+            "p": "노선(servingRailwayLine)",
+            "s": "제천역"
+        },
+        {
+            "Rep": false,
+            "o": "태백선",
+            "p": "노선(servingRailwayLine)",
+            "s": "봉양역"
+        },
+        {
+            "Rep": false,
+            "o": "충북선",
+            "p": "노선(servingRailwayLine)",
+            "s": "봉양역"
+        },
+        {
+            "Rep": true,
+            "o": "충청북도",
+            "p": "~의부분(isPartOf)",
+            "s": "제천시"
+        },
+        {
+            "Rep": false,
+            "o": "중앙선",
+            "p": "노선(servingRailwayLine)",
+            "s": "제천역"
+        },
+        {
+            "Rep": false,
+            "o": "중앙선",
+            "p": "노선(servingRailwayLine)",
+            "s": "봉양역"
+        },
+        {
+            "Rep": false,
+            "o": "봉양역",
+            "p": "부분(part)",
+            "s": "제천시"
+        },
+        {
+            "Rep": true,
+            "o": "충청북도",
+            "p": "지역/분양(region)",
+            "s": "제천시"
+        },
+        {
+            "Rep": false,
+            "o": "제천역",
+            "p": "부분(part)",
+            "s": "제천시"
+        },
+        {
+            "Rep": false,
+            "o": "중앙선",
+            "p": "~의부분(isPartOf)",
+            "s": "제천시"
+        }
+    ]
+}

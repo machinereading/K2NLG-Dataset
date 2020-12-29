@@ -1,0 +1,210 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "양산보는 조광조와 친척 관계이다. 그의 직업은 저술가이다.",
+    "entities": {
+        "개": {
+            "ne_type": "AM_MAMMALIA",
+            "type": [
+                "http://dbpedia.org/ontology/Mammal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/개"
+        },
+        "김굉필": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김굉필"
+        },
+        "담양군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/담양군"
+        },
+        "소쇄원": {
+            "ne_type": "AF_CULTURAL_ASSET",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Garden"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소쇄원"
+        },
+        "양산보": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/양산보"
+        },
+        "이언적": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이언적"
+        },
+        "이이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이이"
+        },
+        "저술가": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/저술가"
+        },
+        "전라남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전라남도"
+        },
+        "조광조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조광조"
+        }
+    },
+    "id": 697,
+    "pid": "230-78",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "담양군",
+            "p": "부분(part)",
+            "s": "전라남도"
+        },
+        {
+            "Rep": false,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "소쇄원"
+        },
+        {
+            "Rep": false,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "전라남도"
+        },
+        {
+            "Rep": false,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "담양군"
+        },
+        {
+            "Rep": false,
+            "o": "이언적",
+            "p": "친척(relative)",
+            "s": "조광조"
+        },
+        {
+            "Rep": false,
+            "o": "조광조",
+            "p": "친척(relative)",
+            "s": "이언적"
+        },
+        {
+            "Rep": false,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "개"
+        },
+        {
+            "Rep": true,
+            "o": "조광조",
+            "p": "친척(relative)",
+            "s": "양산보"
+        },
+        {
+            "Rep": false,
+            "o": "이언적",
+            "p": "친척(relative)",
+            "s": "김굉필"
+        },
+        {
+            "Rep": false,
+            "o": "김굉필",
+            "p": "친척(relative)",
+            "s": "이언적"
+        },
+        {
+            "Rep": true,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "양산보"
+        },
+        {
+            "Rep": false,
+            "o": "조광조",
+            "p": "친척(relative)",
+            "s": "김굉필"
+        },
+        {
+            "Rep": false,
+            "o": "조광조",
+            "p": "친척(relative)",
+            "s": "이이"
+        },
+        {
+            "Rep": false,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "조광조"
+        },
+        {
+            "Rep": false,
+            "o": "이언적",
+            "p": "친척(relative)",
+            "s": "이이"
+        }
+    ]
+}

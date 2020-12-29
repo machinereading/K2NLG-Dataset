@@ -1,0 +1,143 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "일본의 수도는 도쿄다. 일본의 지도자는 김구다. ",
+    "entities": {
+        "김구": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김구"
+        },
+        "도쿄": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿄"
+        },
+        "에이브러햄_링컨": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에이브러햄_링컨"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        }
+    },
+    "id": 3596,
+    "pid": "114-203",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "에이브러햄_링컨",
+            "p": "~의부분(isPartOf)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "에이브러햄_링컨",
+            "p": "~의부분(isPartOf)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "에이브러햄_링컨",
+            "p": "~의부분(isPartOf)",
+            "s": "김구"
+        },
+        {
+            "Rep": false,
+            "o": "에이브러햄_링컨",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "김구"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "~의부분(isPartOf)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "김구",
+            "p": "~의부분(isPartOf)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "도쿄",
+            "p": "~의부분(isPartOf)",
+            "s": "에이브러햄_링컨"
+        },
+        {
+            "Rep": false,
+            "o": "김구",
+            "p": "전임자(predecessor)",
+            "s": "에이브러햄_링컨"
+        },
+        {
+            "Rep": true,
+            "o": "도쿄",
+            "p": "수도(capital)",
+            "s": "일본"
+        },
+        {
+            "Rep": true,
+            "o": "김구",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "도쿄",
+            "p": "~의부분(isPartOf)",
+            "s": "김구"
+        }
+    ]
+}

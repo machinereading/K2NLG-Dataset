@@ -1,0 +1,77 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "전라남도에 곡성군이 있다. 전라남도에는 구례군도 있다.",
+    "entities": {
+        "곡성군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/곡성군"
+        },
+        "구례군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/구례군"
+        },
+        "전라남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전라남도"
+        }
+    },
+    "id": 3052,
+    "pid": "694-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "곡성군",
+            "p": "부분(part)",
+            "s": "전라남도"
+        },
+        {
+            "Rep": false,
+            "o": "곡성군",
+            "p": "~의부분(isPartOf)",
+            "s": "구례군"
+        },
+        {
+            "Rep": true,
+            "o": "구례군",
+            "p": "부분(part)",
+            "s": "전라남도"
+        }
+    ]
+}

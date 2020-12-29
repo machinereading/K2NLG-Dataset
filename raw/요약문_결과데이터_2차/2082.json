@@ -1,0 +1,207 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "오클라호마 주에서 가장 큰 도시는 털사와 노먼이다.",
+    "entities": {
+        "노먼": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노먼_(오클라호마_주)"
+        },
+        "루이스_캐럴": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루이스_캐럴"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "수학": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학"
+        },
+        "시카고_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시카고_대학교"
+        },
+        "오클라호마_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오클라호마_주"
+        },
+        "제임스_랜디": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제임스_랜디"
+        },
+        "철학": {
+            "ne_type": "FD_PHILOSOPHY",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/철학"
+        },
+        "털사": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/털사"
+        }
+    },
+    "id": 2082,
+    "pid": "302-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "시카고_대학교"
+        },
+        {
+            "Rep": false,
+            "o": "오클라호마_주",
+            "p": "지역/분양(region)",
+            "s": "털사"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "노먼"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "오클라호마_주"
+        },
+        {
+            "Rep": true,
+            "o": "털사",
+            "p": "가장큰도시(largestCity)",
+            "s": "오클라호마_주"
+        },
+        {
+            "Rep": true,
+            "o": "노먼",
+            "p": "가장큰도시(largestCity)",
+            "s": "오클라호마_주"
+        },
+        {
+            "Rep": false,
+            "o": "노먼",
+            "p": "수도(capital)",
+            "s": "오클라호마_주"
+        },
+        {
+            "Rep": false,
+            "o": "루이스_캐럴",
+            "p": "저자(author)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "털사",
+            "p": "도시(city)",
+            "s": "철학"
+        },
+        {
+            "Rep": false,
+            "o": "시카고_대학교",
+            "p": "학력(education)",
+            "s": "철학"
+        },
+        {
+            "Rep": false,
+            "o": "오클라호마_주",
+            "p": "지역/분양(region)",
+            "s": "노먼"
+        },
+        {
+            "Rep": false,
+            "o": "제임스_랜디",
+            "p": "영향받은(influenced)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "노먼",
+            "p": "수도(capital)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "제임스_랜디",
+            "p": "영향받은(influenced)",
+            "s": "루이스_캐럴"
+        },
+        {
+            "Rep": false,
+            "o": "수학",
+            "p": "~로알려진(knownFor)",
+            "s": "제임스_랜디"
+        }
+    ]
+}

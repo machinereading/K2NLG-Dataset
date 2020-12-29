@@ -1,0 +1,121 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "알베르트 아인슈타인, 헬렌은 ABBA로 유명해졌다. 동유럽의 지도나는 이오시프 스탈린이다. 미국인은 동유럽에도 있다. 미국인은 동유럽에 있는 민족 중 하나다. ",
+    "entities": {
+        "ABBA": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Band",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Group"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/ABBA"
+        },
+        "동유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Airport"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동유럽"
+        },
+        "미국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film",
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국인"
+        },
+        "알베르트_아인슈타인": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알베르트_아인슈타인"
+        },
+        "이오시프_스탈린": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이오시프_스탈린"
+        },
+        "헬렌": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/FictionalCharacter",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MythologicalFigure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헬렌"
+        }
+    },
+    "id": 2478,
+    "pid": "500-32",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "ABBA",
+            "p": "~로알려진(knownFor)",
+            "s": "알베르트_아인슈타인"
+        },
+        {
+            "Rep": true,
+            "o": "이오시프_스탈린",
+            "p": "지도자(leader)",
+            "s": "동유럽"
+        },
+        {
+            "Rep": true,
+            "o": "동유럽",
+            "p": "있는곳(populationPlace)",
+            "s": "미국인"
+        },
+        {
+            "Rep": true,
+            "o": "ABBA",
+            "p": "~로알려진(knownFor)",
+            "s": "헬렌"
+        },
+        {
+            "Rep": true,
+            "o": "미국인",
+            "p": "민족(ethnicGroup)",
+            "s": "동유럽"
+        }
+    ]
+}

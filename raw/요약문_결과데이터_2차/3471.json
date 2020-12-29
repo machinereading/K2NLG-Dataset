@@ -1,0 +1,98 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "대전광역시는 충청남도에 속한다. 아산시는 충청남도의 지역이다. ",
+    "entities": {
+        "대전광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대전광역시"
+        },
+        "아산시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아산시"
+        },
+        "충청남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/충청남도"
+        }
+    },
+    "id": 3471,
+    "pid": "831-48",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대전광역시",
+            "p": "지역/분양(region)",
+            "s": "아산시"
+        },
+        {
+            "Rep": false,
+            "o": "아산시",
+            "p": "~의부분(isPartOf)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": true,
+            "o": "충청남도",
+            "p": "~의부분(isPartOf)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": true,
+            "o": "충청남도",
+            "p": "지역/분양(region)",
+            "s": "아산시"
+        },
+        {
+            "Rep": false,
+            "o": "대전광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "충청남도"
+        },
+        {
+            "Rep": false,
+            "o": "아산시",
+            "p": "~의부분(isPartOf)",
+            "s": "충청남도"
+        }
+    ]
+}

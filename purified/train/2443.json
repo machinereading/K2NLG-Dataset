@@ -1,0 +1,115 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "붉은 군대가 참여한 동부 전선이 생긴 장소는 소련이다. ",
+    "entities": {
+        "동부_전선": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동부_전선_(제2차_세계_대전)"
+        },
+        "만주": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주"
+        },
+        "만주국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주국"
+        },
+        "붉은_군대": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/붉은_군대"
+        },
+        "소련": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소련"
+        }
+    },
+    "id": 2443,
+    "pid": "480-61",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "소련",
+            "p": "장소(place)",
+            "s": "동부_전선"
+        },
+        {
+            "Rep": true,
+            "o": "동부_전선",
+            "p": "전투(battle)",
+            "s": "붉은_군대"
+        },
+        {
+            "Rep": false,
+            "o": "만주국",
+            "p": "장소(place)",
+            "s": "동부_전선"
+        },
+        {
+            "Rep": false,
+            "o": "만주",
+            "p": "수도(capital)",
+            "s": "소련"
+        },
+        {
+            "Rep": false,
+            "o": "만주",
+            "p": "가장큰도시(largestCity)",
+            "s": "소련"
+        },
+        {
+            "Rep": false,
+            "o": "만주",
+            "p": "가장큰도시(largestCity)",
+            "s": "만주국"
+        }
+    ]
+}

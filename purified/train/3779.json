@@ -1,0 +1,157 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "남산은 서울특별시에 있다. 국립중앙도서관도 서울특별시에 있다.",
+    "entities": {
+        "광진구": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/광진구"
+        },
+        "국립중앙도서관": {
+            "ne_type": "OGG_LIBRARY",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Library",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Building",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국립중앙도서관"
+        },
+        "남산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남산_(서울)"
+        },
+        "능동": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/능동_(서울)"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        }
+    },
+    "id": 3779,
+    "pid": "185-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "있는곳(locatedInArea)",
+            "s": "남산"
+        },
+        {
+            "Rep": false,
+            "o": "광진구",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "능동",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "능동",
+            "p": "~의부분(isPartOf)",
+            "s": "광진구"
+        },
+        {
+            "Rep": false,
+            "o": "남산",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "국립중앙도서관",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "지역/분양(region)",
+            "s": "능동"
+        },
+        {
+            "Rep": false,
+            "o": "광진구",
+            "p": "위치/지역(location)",
+            "s": "국립중앙도서관"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "위치/지역(location)",
+            "s": "국립중앙도서관"
+        },
+        {
+            "Rep": false,
+            "o": "능동",
+            "p": "부분(part)",
+            "s": "광진구"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "광진구"
+        },
+        {
+            "Rep": false,
+            "o": "남산",
+            "p": "지역/분양(region)",
+            "s": "능동"
+        }
+    ]
+}

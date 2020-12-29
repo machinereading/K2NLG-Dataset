@@ -1,0 +1,161 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "유니언역은 토론토 교통국이 소유하고 있고, 토론토 교통국은 온타리오 주에서 활동하고 있다.",
+    "entities": {
+        "버스": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/Species",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/버스"
+        },
+        "온타리오_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/온타리오_주"
+        },
+        "유니언_역": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/MetroStation",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유니언_역_(TTC)"
+        },
+        "토론토": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토론토"
+        },
+        "토론토_교통국": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/PublicTransitSystem",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토론토_교통국"
+        }
+    },
+    "id": 2230,
+    "pid": "405-22",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "토론토_교통국",
+            "p": "소유조직(owningOrganisation)",
+            "s": "유니언_역"
+        },
+        {
+            "Rep": true,
+            "o": "온타리오_주",
+            "p": "서비스지역/활동지역(regionServed)",
+            "s": "토론토_교통국"
+        },
+        {
+            "Rep": false,
+            "o": "온타리오_주",
+            "p": "지역/분양(region)",
+            "s": "토론토"
+        },
+        {
+            "Rep": false,
+            "o": "토론토",
+            "p": "수도(capital)",
+            "s": "온타리오_주"
+        },
+        {
+            "Rep": false,
+            "o": "온타리오_주",
+            "p": "~의부분(isPartOf)",
+            "s": "버스"
+        },
+        {
+            "Rep": false,
+            "o": "온타리오_주",
+            "p": "주소(address)",
+            "s": "유니언_역"
+        },
+        {
+            "Rep": false,
+            "o": "온타리오_주",
+            "p": "~의부분(isPartOf)",
+            "s": "유니언_역"
+        },
+        {
+            "Rep": false,
+            "o": "온타리오_주",
+            "p": "~의부분(isPartOf)",
+            "s": "토론토"
+        },
+        {
+            "Rep": false,
+            "o": "토론토",
+            "p": "위치/지역(location)",
+            "s": "토론토_교통국"
+        },
+        {
+            "Rep": false,
+            "o": "토론토",
+            "p": "위치/지역(location)",
+            "s": "버스"
+        },
+        {
+            "Rep": false,
+            "o": "온타리오_주",
+            "p": "위치/지역(location)",
+            "s": "토론토_교통국"
+        },
+        {
+            "Rep": false,
+            "o": "토론토",
+            "p": "~의부분(isPartOf)",
+            "s": "유니언_역"
+        },
+        {
+            "Rep": false,
+            "o": "토론토_교통국",
+            "p": "~의부분(isPartOf)",
+            "s": "토론토"
+        }
+    ]
+}

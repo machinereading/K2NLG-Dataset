@@ -1,0 +1,174 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "신성 로마 제국을 이끈 사람은 루트비히 4세다. 그는 독일의 지도자이다. 루트비히 4세의 후임자는 카를 4세다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "독일": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일"
+        },
+        "루트비히_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루트비히_4세_(신성_로마_제국)"
+        },
+        "신성_로마_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신성_로마_제국"
+        },
+        "알렉산드리아의_클레멘스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알렉산드리아의_클레멘스"
+        },
+        "카를_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카를_2세_(서프랑크)"
+        },
+        "카를_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카를_4세"
+        }
+    },
+    "id": 1397,
+    "pid": "22-23",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "루트비히_4세",
+            "p": "리더이름(leaderName)",
+            "s": "신성_로마_제국"
+        },
+        {
+            "Rep": false,
+            "o": "카를_2세",
+            "p": "지도자(leader)",
+            "s": "독일"
+        },
+        {
+            "Rep": true,
+            "o": "루트비히_4세",
+            "p": "지도자(leader)",
+            "s": "독일"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "알렉산드리아의_클레멘스"
+        },
+        {
+            "Rep": false,
+            "o": "카를_4세",
+            "p": "계승자/후임(successor)",
+            "s": "루트비히_4세"
+        },
+        {
+            "Rep": false,
+            "o": "알렉산드리아의_클레멘스",
+            "p": "전임자(predecessor)",
+            "s": "카를_4세"
+        },
+        {
+            "Rep": false,
+            "o": "루트비히_4세",
+            "p": "전임자(predecessor)",
+            "s": "카를_4세"
+        },
+        {
+            "Rep": true,
+            "o": "알렉산드리아의_클레멘스",
+            "p": "전임자(predecessor)",
+            "s": "루트비히_4세"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "루트비히_4세"
+        },
+        {
+            "Rep": false,
+            "o": "카를_4세",
+            "p": "계승자/후임(successor)",
+            "s": "알렉산드리아의_클레멘스"
+        },
+        {
+            "Rep": false,
+            "o": "루트비히_4세",
+            "p": "전임자(predecessor)",
+            "s": "알렉산드리아의_클레멘스"
+        },
+        {
+            "Rep": false,
+            "o": "카를_2세",
+            "p": "계승자/후임(successor)",
+            "s": "루트비히_4세"
+        }
+    ]
+}

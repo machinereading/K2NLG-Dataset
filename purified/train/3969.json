@@ -1,0 +1,137 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "조선 중종의 배우자는 단경왕후이다. 신수근과 단경왕후는 친척관계다. ",
+    "entities": {
+        "단경왕후": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/단경왕후"
+        },
+        "류순정": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/류순정"
+        },
+        "류자광": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/MilitaryPerson",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/류자광"
+        },
+        "박원종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박원종"
+        },
+        "성희안": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성희안"
+        },
+        "신수근": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신수근"
+        },
+        "조선_연산군": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_연산군"
+        },
+        "조선_중종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_중종"
+        }
+    },
+    "id": 3969,
+    "pid": "230-41",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "조선_연산군",
+            "p": "친척(relative)",
+            "s": "신수근"
+        },
+        {
+            "Rep": true,
+            "o": "단경왕후",
+            "p": "배우자(spouse)",
+            "s": "조선_중종"
+        },
+        {
+            "Rep": true,
+            "o": "단경왕후",
+            "p": "친척(relative)",
+            "s": "신수근"
+        },
+        {
+            "Rep": false,
+            "o": "박원종",
+            "p": "친척(relative)",
+            "s": "류순정"
+        },
+        {
+            "Rep": false,
+            "o": "류자광",
+            "p": "친척(relative)",
+            "s": "류순정"
+        },
+        {
+            "Rep": false,
+            "o": "단경왕후",
+            "p": "친척(relative)",
+            "s": "성희안"
+        }
+    ]
+}

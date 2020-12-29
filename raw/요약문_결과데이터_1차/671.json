@@ -1,0 +1,100 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 1,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "세키가하라 전투의 지휘관은 우에스기 가게카쓰이다. 세키가하라 전투는 도쿠가와 이에야스가 지휘했다. 세키가하라 전투는 다테 마사무네에 의해 지휘되었다. 세키가하라 전투는 이시다 미쓰나리가 이끌었다.",
+    "entities": {
+        "다테_마사무네": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다테_마사무네"
+        },
+        "도쿠가와_이에야스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿠가와_이에야스"
+        },
+        "세키가하라_전투": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/세키가하라_전투"
+        },
+        "우에스기_가게카쓰": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우에스기_가게카쓰"
+        },
+        "이시다_미쓰나리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이시다_미쓰나리"
+        }
+    },
+    "id": 671,
+    "pid": "228-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "우에스기_가게카쓰",
+            "p": "지휘관(commander)",
+            "s": "세키가하라_전투"
+        },
+        {
+            "Rep": true,
+            "o": "도쿠가와_이에야스",
+            "p": "지휘관(commander)",
+            "s": "세키가하라_전투"
+        },
+        {
+            "Rep": true,
+            "o": "다테_마사무네",
+            "p": "지휘관(commander)",
+            "s": "세키가하라_전투"
+        },
+        {
+            "Rep": true,
+            "o": "이시다_미쓰나리",
+            "p": "지휘관(commander)",
+            "s": "세키가하라_전투"
+        }
+    ]
+}

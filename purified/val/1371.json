@@ -1,0 +1,88 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "한스 게오르크 데멜트는 노벨 물리학상을 수상했다. 그는 노벨 물리학상으로 유명해졌다.",
+    "entities": {
+        "노먼_포스터": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Architect",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노먼_포스터"
+        },
+        "노벨_물리학상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/Award",
+                "http://dbpedia.org/ontology/NobelPrize"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노벨_물리학상"
+        },
+        "한스_게오르크_데멜트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한스_게오르크_데멜트"
+        }
+    },
+    "id": 1371,
+    "pid": "208-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "노벨_물리학상",
+            "p": "수상(award)",
+            "s": "한스_게오르크_데멜트"
+        },
+        {
+            "Rep": false,
+            "o": "노벨_물리학상",
+            "p": "수상(award)",
+            "s": "노먼_포스터"
+        },
+        {
+            "Rep": false,
+            "o": "노벨_물리학상",
+            "p": "~로알려진(knownFor)",
+            "s": "노먼_포스터"
+        },
+        {
+            "Rep": true,
+            "o": "노벨_물리학상",
+            "p": "~로알려진(knownFor)",
+            "s": "한스_게오르크_데멜트"
+        },
+        {
+            "Rep": false,
+            "o": "노먼_포스터",
+            "p": "~로알려진(knownFor)",
+            "s": "한스_게오르크_데멜트"
+        }
+    ]
+}

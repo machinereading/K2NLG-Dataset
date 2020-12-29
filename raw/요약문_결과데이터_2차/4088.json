@@ -1,0 +1,183 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "루트비히 판 베토벤의 직업은 작곡가다. 작곡가는 현악 사중주와 관련있다. ",
+    "entities": {
+        "관현악단": {
+            "ne_type": "OGG_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/관현악단"
+        },
+        "루트비히_판_베토벤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/루트비히_판_베토벤"
+        },
+        "바이올린": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Device",
+                "http://dbpedia.org/ontology/Instrument"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바이올린"
+        },
+        "빈": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빈"
+        },
+        "오스트리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트리아"
+        },
+        "작곡가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/작곡가"
+        },
+        "하나우_전투": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하나우_전투"
+        },
+        "현악_사중주": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현악_사중주"
+        }
+    },
+    "id": 4088,
+    "pid": "269-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "루트비히_판_베토벤"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "바이올린"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "현악_사중주"
+        },
+        {
+            "Rep": false,
+            "o": "오스트리아",
+            "p": "국가(country)",
+            "s": "빈"
+        },
+        {
+            "Rep": false,
+            "o": "작곡가",
+            "p": "직업(occupation)",
+            "s": "관현악단"
+        },
+        {
+            "Rep": false,
+            "o": "빈",
+            "p": "위치/지역(location)",
+            "s": "하나우_전투"
+        },
+        {
+            "Rep": false,
+            "o": "바이올린",
+            "p": "관련되(related)",
+            "s": "작곡가"
+        },
+        {
+            "Rep": false,
+            "o": "관현악단",
+            "p": "관련되(related)",
+            "s": "작곡가"
+        },
+        {
+            "Rep": false,
+            "o": "현악_사중주",
+            "p": "장르(genre)",
+            "s": "관현악단"
+        },
+        {
+            "Rep": false,
+            "o": "관현악단",
+            "p": "직업(occupation)",
+            "s": "루트비히_판_베토벤"
+        },
+        {
+            "Rep": false,
+            "o": "빈",
+            "p": "수도(capital)",
+            "s": "오스트리아"
+        },
+        {
+            "Rep": true,
+            "o": "현악_사중주",
+            "p": "관련되(related)",
+            "s": "작곡가"
+        },
+        {
+            "Rep": false,
+            "o": "오스트리아",
+            "p": "위치/지역(location)",
+            "s": "하나우_전투"
+        }
+    ]
+}

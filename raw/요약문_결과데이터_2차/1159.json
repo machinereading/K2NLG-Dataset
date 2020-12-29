@@ -1,0 +1,119 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "크리스티안 하위헌스는 르네 데카르트에게 영향을 주었다. 그는 갈릴레오로 알려진 사람이다.",
+    "entities": {
+        "갈릴레오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/ArtificialSatellite",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Satellite",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/MeanOfTransportation",
+                "http://dbpedia.org/ontology/Spacecraft"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/갈릴레오_(우주선)"
+        },
+        "니콜라우스_코페르니쿠스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/니콜라우스_코페르니쿠스"
+        },
+        "르네_데카르트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/르네_데카르트"
+        },
+        "아이작_뉴턴": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아이작_뉴턴"
+        },
+        "요하네스_케플러": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요하네스_케플러"
+        },
+        "크리스티안_하위헌스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/크리스티안_하위헌스"
+        }
+    },
+    "id": 1159,
+    "pid": "140-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "크리스티안_하위헌스",
+            "p": "영향받은(influenced)",
+            "s": "르네_데카르트"
+        },
+        {
+            "Rep": false,
+            "o": "니콜라우스_코페르니쿠스",
+            "p": "영향받은(influencedBy)",
+            "s": "요하네스_케플러"
+        },
+        {
+            "Rep": false,
+            "o": "아이작_뉴턴",
+            "p": "영향받은(influenced)",
+            "s": "요하네스_케플러"
+        },
+        {
+            "Rep": true,
+            "o": "갈릴레오",
+            "p": "~로알려진(knownFor)",
+            "s": "크리스티안_하위헌스"
+        },
+        {
+            "Rep": false,
+            "o": "갈릴레오",
+            "p": "~로알려진(knownFor)",
+            "s": "르네_데카르트"
+        }
+    ]
+}

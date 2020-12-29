@@ -1,0 +1,152 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "지미 카터는 미국에서 태어났다. 그는 미국을 이끄는 자가 되었다.",
+    "entities": {
+        "덩샤오핑": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/덩샤오핑"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "유엔_안전_보장_이사회": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유엔_안전_보장_이사회"
+        },
+        "중화민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화민국"
+        },
+        "중화인민공화국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중화인민공화국"
+        },
+        "지미_카터": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지미_카터"
+        }
+    },
+    "id": 5045,
+    "pid": "515-25",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "출생지(birthPlace)",
+            "s": "지미_카터"
+        },
+        {
+            "Rep": false,
+            "o": "중화인민공화국",
+            "p": "사망지(deathPlace)",
+            "s": "덩샤오핑"
+        },
+        {
+            "Rep": false,
+            "o": "중화인민공화국",
+            "p": "국가(country)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": false,
+            "o": "지미_카터",
+            "p": "지도자(leader)",
+            "s": "중화민국"
+        },
+        {
+            "Rep": false,
+            "o": "지미_카터",
+            "p": "지도자(leader)",
+            "s": "중화인민공화국"
+        },
+        {
+            "Rep": true,
+            "o": "지미_카터",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "중화인민공화국"
+        },
+        {
+            "Rep": false,
+            "o": "지미_카터",
+            "p": "지도자(leader)",
+            "s": "유엔_안전_보장_이사회"
+        },
+        {
+            "Rep": false,
+            "o": "유엔_안전_보장_이사회",
+            "p": "지도자(leader)",
+            "s": "중화인민공화국"
+        },
+        {
+            "Rep": false,
+            "o": "중화민국",
+            "p": "국가(country)",
+            "s": "지미_카터"
+        }
+    ]
+}

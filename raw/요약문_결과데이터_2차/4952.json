@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "내몽골 자치구는 만주에 속한다. 만주국의 수도는 만주다.",
+    "entities": {
+        "내몽골_자치구": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/내몽골_자치구"
+        },
+        "만주": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주"
+        },
+        "만주국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주국"
+        },
+        "장교": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장교"
+        }
+    },
+    "id": 4952,
+    "pid": "480-35",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "장교",
+            "p": "가장큰도시(largestCity)",
+            "s": "만주"
+        },
+        {
+            "Rep": true,
+            "o": "만주",
+            "p": "~의부분(isPartOf)",
+            "s": "내몽골_자치구"
+        },
+        {
+            "Rep": false,
+            "o": "장교",
+            "p": "가장큰도시(largestCity)",
+            "s": "만주국"
+        },
+        {
+            "Rep": true,
+            "o": "만주",
+            "p": "수도(capital)",
+            "s": "만주국"
+        },
+        {
+            "Rep": false,
+            "o": "내몽골_자치구",
+            "p": "~의부분(isPartOf)",
+            "s": "장교"
+        },
+        {
+            "Rep": false,
+            "o": "만주국",
+            "p": "국가(country)",
+            "s": "장교"
+        },
+        {
+            "Rep": false,
+            "o": "만주국",
+            "p": "국가(country)",
+            "s": "내몽골_자치구"
+        }
+    ]
+}

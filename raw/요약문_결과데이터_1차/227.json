@@ -1,0 +1,133 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "프란체스코 페트라르카의 직업은 시인이다. 그는 이탈리아의 지도자다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_LAW",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "로마_교황청": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마_교황청"
+        },
+        "시인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시인"
+        },
+        "유대인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유대인"
+        },
+        "이탈리아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아"
+        },
+        "프란체스코_페트라르카": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프란체스코_페트라르카"
+        }
+    },
+    "id": 227,
+    "pid": "19-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "프란체스코_페트라르카"
+        },
+        {
+            "Rep": false,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "로마_교황청"
+        },
+        {
+            "Rep": false,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "유대인"
+        },
+        {
+            "Rep": false,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "유대인",
+            "p": "민족(ethnicGroup)",
+            "s": "이탈리아"
+        },
+        {
+            "Rep": true,
+            "o": "프란체스코_페트라르카",
+            "p": "지도자(leader)",
+            "s": "이탈리아"
+        },
+        {
+            "Rep": false,
+            "o": "시인",
+            "p": "직업(occupation)",
+            "s": "이탈리아"
+        },
+        {
+            "Rep": false,
+            "o": "유대인",
+            "p": "관련되(related)",
+            "s": "시인"
+        }
+    ]
+}

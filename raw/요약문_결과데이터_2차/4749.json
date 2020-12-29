@@ -1,0 +1,167 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "토론토에는 미시소거가 있다. 토론토의 지도자는 토니 안이다.",
+    "entities": {
+        "미시소거": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미시소거"
+        },
+        "북아메리카": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/북아메리카"
+        },
+        "브램턴": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/브램턴"
+        },
+        "온타리오_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/온타리오_주"
+        },
+        "캐나다": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캐나다"
+        },
+        "토니_안": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토니_안"
+        },
+        "토론토": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토론토"
+        }
+    },
+    "id": 4749,
+    "pid": "405-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "온타리오_주",
+            "p": "지역/분양(region)",
+            "s": "미시소거"
+        },
+        {
+            "Rep": false,
+            "o": "캐나다",
+            "p": "국가(country)",
+            "s": "토론토"
+        },
+        {
+            "Rep": false,
+            "o": "캐나다",
+            "p": "국가(country)",
+            "s": "북아메리카"
+        },
+        {
+            "Rep": false,
+            "o": "토론토",
+            "p": "~의부분(isPartOf)",
+            "s": "브램턴"
+        },
+        {
+            "Rep": false,
+            "o": "캐나다",
+            "p": "지역/분양(region)",
+            "s": "미시소거"
+        },
+        {
+            "Rep": true,
+            "o": "토론토",
+            "p": "~의부분(isPartOf)",
+            "s": "미시소거"
+        },
+        {
+            "Rep": false,
+            "o": "토론토",
+            "p": "지역/분양(region)",
+            "s": "미시소거"
+        },
+        {
+            "Rep": false,
+            "o": "북아메리카",
+            "p": "지역/분양(region)",
+            "s": "토론토"
+        },
+        {
+            "Rep": false,
+            "o": "브램턴",
+            "p": "~의부분(isPartOf)",
+            "s": "토론토"
+        },
+        {
+            "Rep": true,
+            "o": "토니_안",
+            "p": "지도자(leader)",
+            "s": "토론토"
+        }
+    ]
+}

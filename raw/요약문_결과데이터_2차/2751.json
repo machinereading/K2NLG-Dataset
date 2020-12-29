@@ -1,0 +1,131 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "다비트 힐베르트의 직업은 교수이다. 다비트 힐베르트는 수학으로 유명해졌다. 괴팅겐 대학교의 총장은 다비트 힐베르트이다.",
+    "entities": {
+        "괴팅겐_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Building",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/괴팅겐_대학교"
+        },
+        "교수": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교수"
+        },
+        "다비트_힐베르트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다비트_힐베르트"
+        },
+        "수학": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학"
+        }
+    },
+    "id": 2751,
+    "pid": "545-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "다비트_힐베르트"
+        },
+        {
+            "Rep": true,
+            "o": "수학",
+            "p": "~로알려진(knownFor)",
+            "s": "다비트_힐베르트"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "괴팅겐_대학교",
+            "p": "학력(education)",
+            "s": "교수"
+        },
+        {
+            "Rep": false,
+            "o": "다비트_힐베르트",
+            "p": "저자(author)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "교수",
+            "p": "직업(occupation)",
+            "s": "괴팅겐_대학교"
+        },
+        {
+            "Rep": false,
+            "o": "괴팅겐_대학교",
+            "p": "학력(education)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "다비트_힐베르트",
+            "p": "영향받은(influenced)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "수학",
+            "p": "직업(occupation)",
+            "s": "교수"
+        },
+        {
+            "Rep": true,
+            "o": "다비트_힐베르트",
+            "p": "대통령/회장(president)",
+            "s": "괴팅겐_대학교"
+        }
+    ]
+}

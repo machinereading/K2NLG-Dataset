@@ -1,0 +1,157 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "로욜라의 이냐시오의 직업은 선교사다. 그는 예루살렘에서 사망했다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "로욜라의_이냐시오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로욜라의_이냐시오"
+        },
+        "몬세라트": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몬세라트"
+        },
+        "몬세라트_수도원": {
+            "ne_type": "OGG_RELIGION",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/ReligiousBuilding",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building",
+                "http://dbpedia.org/ontology/Monastery"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몬세라트_수도원"
+        },
+        "선교사": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/선교사"
+        },
+        "수사": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수사_(기독교)"
+        },
+        "아시시의_프란치스코": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Saint",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아시시의_프란치스코"
+        },
+        "예루살렘": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예루살렘"
+        }
+    },
+    "id": 5517,
+    "pid": "662-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "선교사",
+            "p": "직업(occupation)",
+            "s": "로욜라의_이냐시오"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "로욜라의_이냐시오"
+        },
+        {
+            "Rep": false,
+            "o": "수사",
+            "p": "직업(occupation)",
+            "s": "아시시의_프란치스코"
+        },
+        {
+            "Rep": false,
+            "o": "선교사",
+            "p": "직업(occupation)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "로욜라의_이냐시오",
+            "p": "~의부분(isPartOf)",
+            "s": "몬세라트"
+        },
+        {
+            "Rep": false,
+            "o": "몬세라트",
+            "p": "~의부분(isPartOf)",
+            "s": "몬세라트_수도원"
+        },
+        {
+            "Rep": true,
+            "o": "예루살렘",
+            "p": "사망지(deathPlace)",
+            "s": "로욜라의_이냐시오"
+        },
+        {
+            "Rep": false,
+            "o": "로욜라의_이냐시오",
+            "p": "~의부분(isPartOf)",
+            "s": "몬세라트_수도원"
+        }
+    ]
+}

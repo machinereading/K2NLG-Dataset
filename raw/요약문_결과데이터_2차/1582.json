@@ -1,0 +1,82 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "알베르트 아인슈타인은 쿠르트 괴델에게 영향을 받았다. 그는 수학의 저자이다.",
+    "entities": {
+        "수학": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학"
+        },
+        "알베르트_아인슈타인": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알베르트_아인슈타인"
+        },
+        "쿠르트_괴델": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쿠르트_괴델"
+        }
+    },
+    "id": 1582,
+    "pid": "275-79",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "알베르트_아인슈타인",
+            "p": "영향받은(influencedBy)",
+            "s": "쿠르트_괴델"
+        },
+        {
+            "Rep": true,
+            "o": "알베르트_아인슈타인",
+            "p": "저자(author)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "쿠르트_괴델",
+            "p": "~로알려진(knownFor)",
+            "s": "알베르트_아인슈타인"
+        },
+        {
+            "Rep": false,
+            "o": "쿠르트_괴델",
+            "p": "저자(author)",
+            "s": "수학"
+        }
+    ]
+}

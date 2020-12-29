@@ -1,0 +1,133 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        }
+    ],
+    "Text": "아시아는 유럽의 한 부분이다. 유럽은 중동의 한 부분이다.",
+    "entities": {
+        "목성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/목성"
+        },
+        "아시아": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아시아"
+        },
+        "유럽": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽"
+        },
+        "중동": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Airport",
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중동"
+        },
+        "토성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토성"
+        },
+        "화성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/화성"
+        }
+    },
+    "id": 3920,
+    "pid": "22-20",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "중동",
+            "p": "~의부분(isPartOf)",
+            "s": "아시아"
+        },
+        {
+            "Rep": true,
+            "o": "유럽",
+            "p": "~의부분(isPartOf)",
+            "s": "아시아"
+        },
+        {
+            "Rep": false,
+            "o": "아시아",
+            "p": "지역/분양(region)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "목성",
+            "p": "타입/종류(type)",
+            "s": "화성"
+        },
+        {
+            "Rep": false,
+            "o": "화성",
+            "p": "타입/종류(type)",
+            "s": "토성"
+        },
+        {
+            "Rep": true,
+            "o": "중동",
+            "p": "~의부분(isPartOf)",
+            "s": "유럽"
+        },
+        {
+            "Rep": false,
+            "o": "목성",
+            "p": "타입/종류(type)",
+            "s": "토성"
+        }
+    ]
+}

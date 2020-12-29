@@ -1,0 +1,135 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "기현의 전임자는 신돈이다. 기현의 전임자는 고려 공민왕이다. 공민왕의 배우자는 이인이다.",
+    "entities": {
+        "고려_공민왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_공민왕"
+        },
+        "기현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기현"
+        },
+        "수원시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수원시"
+        },
+        "신돈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신돈"
+        },
+        "이인": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이인"
+        }
+    },
+    "id": 5801,
+    "pid": "807-33",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "기현",
+            "p": "리더이름(leaderName)",
+            "s": "수원시"
+        },
+        {
+            "Rep": false,
+            "o": "이인",
+            "p": "배우자(spouse)",
+            "s": "신돈"
+        },
+        {
+            "Rep": false,
+            "o": "신돈",
+            "p": "배우자(spouse)",
+            "s": "이인"
+        },
+        {
+            "Rep": false,
+            "o": "고려_공민왕",
+            "p": "배우자(spouse)",
+            "s": "이인"
+        },
+        {
+            "Rep": false,
+            "o": "기현",
+            "p": "직함/포지션(position)",
+            "s": "신돈"
+        },
+        {
+            "Rep": true,
+            "o": "신돈",
+            "p": "전임자(predecessor)",
+            "s": "기현"
+        },
+        {
+            "Rep": false,
+            "o": "기현",
+            "p": "직함/포지션(position)",
+            "s": "고려_공민왕"
+        },
+        {
+            "Rep": true,
+            "o": "고려_공민왕",
+            "p": "전임자(predecessor)",
+            "s": "기현"
+        },
+        {
+            "Rep": false,
+            "o": "이인",
+            "p": "배우자(spouse)",
+            "s": "고려_공민왕"
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "정일권의 전임자는 정인숙이다. 정인숙의 직업은 저널리스트다. ",
+    "entities": {
+        "기자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기자_(직업)"
+        },
+        "문": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문"
+        },
+        "저널리스트": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/저널리스트"
+        },
+        "정인숙": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정인숙_(1945년)"
+        },
+        "정일권": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정일권"
+        }
+    },
+    "id": 3325,
+    "pid": "818-75",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "정일권"
+        },
+        {
+            "Rep": true,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "정인숙"
+        },
+        {
+            "Rep": false,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "기자"
+        },
+        {
+            "Rep": false,
+            "o": "기자",
+            "p": "직업(occupation)",
+            "s": "문"
+        },
+        {
+            "Rep": false,
+            "o": "기자",
+            "p": "직업(occupation)",
+            "s": "정인숙"
+        },
+        {
+            "Rep": false,
+            "o": "저널리스트",
+            "p": "직업(occupation)",
+            "s": "문"
+        },
+        {
+            "Rep": true,
+            "o": "정인숙",
+            "p": "전임자(predecessor)",
+            "s": "정일권"
+        },
+        {
+            "Rep": false,
+            "o": "기자",
+            "p": "직업(occupation)",
+            "s": "정일권"
+        },
+        {
+            "Rep": false,
+            "o": "정일권",
+            "p": "전임자(predecessor)",
+            "s": "정인숙"
+        },
+        {
+            "Rep": false,
+            "o": "정일권",
+            "p": "전임자(predecessor)",
+            "s": "기자"
+        },
+        {
+            "Rep": false,
+            "o": "기자",
+            "p": "직업(occupation)",
+            "s": "저널리스트"
+        },
+        {
+            "Rep": false,
+            "o": "문",
+            "p": "전임자(predecessor)",
+            "s": "정인숙"
+        }
+    ]
+}

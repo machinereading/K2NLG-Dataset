@@ -1,0 +1,129 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "청도군, 경주시는 경상도에 속한다. ",
+    "entities": {
+        "경상도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상도"
+        },
+        "경주시": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경주시"
+        },
+        "청도군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청도군"
+        },
+        "토성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토성"
+        }
+    },
+    "id": 5489,
+    "pid": "653-11",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "경주시",
+            "p": "~의부분(isPartOf)",
+            "s": "청도군"
+        },
+        {
+            "Rep": true,
+            "o": "경상도",
+            "p": "~의부분(isPartOf)",
+            "s": "청도군"
+        },
+        {
+            "Rep": false,
+            "o": "토성",
+            "p": "~의부분(isPartOf)",
+            "s": "청도군"
+        },
+        {
+            "Rep": true,
+            "o": "경상도",
+            "p": "~의부분(isPartOf)",
+            "s": "경주시"
+        },
+        {
+            "Rep": false,
+            "o": "청도군",
+            "p": "~의부분(isPartOf)",
+            "s": "경주시"
+        },
+        {
+            "Rep": false,
+            "o": "청도군",
+            "p": "부분(part)",
+            "s": "경주시"
+        },
+        {
+            "Rep": false,
+            "o": "토성",
+            "p": "~의부분(isPartOf)",
+            "s": "경주시"
+        },
+        {
+            "Rep": false,
+            "o": "경주시",
+            "p": "~의부분(isPartOf)",
+            "s": "경상도"
+        },
+        {
+            "Rep": false,
+            "o": "청도군",
+            "p": "~의부분(isPartOf)",
+            "s": "경상도"
+        },
+        {
+            "Rep": false,
+            "o": "토성",
+            "p": "~의부분(isPartOf)",
+            "s": "경상도"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "일본 제국을 이끈 사람은 아베 노부유키다.",
+    "entities": {
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "송진우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송진우_(정치인)"
+        },
+        "아베_노부유키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아베_노부유키"
+        },
+        "일본_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본_제국"
+        }
+    },
+    "id": 5789,
+    "pid": "800-97",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "송진우",
+            "p": "지도자(leader)",
+            "s": "일본_제국"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "지도자(leader)",
+            "s": "일본_제국"
+        },
+        {
+            "Rep": true,
+            "o": "아베_노부유키",
+            "p": "리더이름(leaderName)",
+            "s": "일본_제국"
+        },
+        {
+            "Rep": false,
+            "o": "송진우",
+            "p": "리더이름(leaderName)",
+            "s": "일본_제국"
+        },
+        {
+            "Rep": false,
+            "o": "송진우",
+            "p": "계승자/후임(successor)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "아베_노부유키",
+            "p": "지도자(leader)",
+            "s": "일본_제국"
+        },
+        {
+            "Rep": false,
+            "o": "송진우",
+            "p": "계승자/후임(successor)",
+            "s": "아베_노부유키"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "계승자/후임(successor)",
+            "s": "아베_노부유키"
+        }
+    ]
+}

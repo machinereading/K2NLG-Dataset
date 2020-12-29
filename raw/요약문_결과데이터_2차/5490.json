@@ -1,0 +1,154 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김종학의 직함은 의원이다. 그의 정당은 자유민주연합니다.",
+    "entities": {
+        "김종학": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김종학"
+        },
+        "민주자유당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주자유당"
+        },
+        "새누리당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/새누리당"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "이만희": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이만희_(영화_감독)"
+        },
+        "자유민주연합": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유민주연합"
+        }
+    },
+    "id": 5490,
+    "pid": "653-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "김종학"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주연합",
+            "p": "정당(party)",
+            "s": "새누리당"
+        },
+        {
+            "Rep": false,
+            "o": "민주자유당",
+            "p": "정당(party)",
+            "s": "의원"
+        },
+        {
+            "Rep": true,
+            "o": "자유민주연합",
+            "p": "정당(party)",
+            "s": "김종학"
+        },
+        {
+            "Rep": false,
+            "o": "새누리당",
+            "p": "정당(party)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "새누리당",
+            "p": "정당(party)",
+            "s": "김종학"
+        },
+        {
+            "Rep": false,
+            "o": "민주자유당",
+            "p": "정당(party)",
+            "s": "김종학"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주연합",
+            "p": "정당(party)",
+            "s": "의원"
+        },
+        {
+            "Rep": false,
+            "o": "민주자유당",
+            "p": "기원/소속(affiliation)",
+            "s": "자유민주연합"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "이만희"
+        },
+        {
+            "Rep": false,
+            "o": "새누리당",
+            "p": "기원/소속(affiliation)",
+            "s": "자유민주연합"
+        }
+    ]
+}

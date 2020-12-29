@@ -1,0 +1,80 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "현대건설은 서산시에 있다. 서산시는 울산광역시의 지역이다.",
+    "entities": {
+        "서산시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서산시"
+        },
+        "울산광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/울산광역시"
+        },
+        "현대건설": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현대건설"
+        }
+    },
+    "id": 2071,
+    "pid": "301-14",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "울산광역시",
+            "p": "위치/지역(location)",
+            "s": "현대건설"
+        },
+        {
+            "Rep": true,
+            "o": "서산시",
+            "p": "위치/지역(location)",
+            "s": "현대건설"
+        },
+        {
+            "Rep": true,
+            "o": "울산광역시",
+            "p": "지역/분양(region)",
+            "s": "서산시"
+        }
+    ]
+}

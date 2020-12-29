@@ -1,0 +1,147 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김대중 대통령의 뒤를 이은 윤보선 대통령이 있는 정당은 신민주연합당이다. ",
+    "entities": {
+        "김대중": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김대중"
+        },
+        "김영삼": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김영삼"
+        },
+        "노태우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노태우"
+        },
+        "신민주연합당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신민주연합당"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        }
+    },
+    "id": 2696,
+    "pid": "541-257",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "김대중",
+            "p": "계승자/후임(successor)",
+            "s": "김영삼"
+        },
+        {
+            "Rep": false,
+            "o": "김영삼",
+            "p": "계승자/후임(successor)",
+            "s": "노태우"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "지도자(leader)",
+            "s": "신민주연합당"
+        },
+        {
+            "Rep": false,
+            "o": "김대중",
+            "p": "지도자(leader)",
+            "s": "신민주연합당"
+        },
+        {
+            "Rep": true,
+            "o": "신민주연합당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "김영삼",
+            "p": "전임자(predecessor)",
+            "s": "김대중"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "계승자/후임(successor)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "김대중",
+            "p": "계승자/후임(successor)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "노태우",
+            "p": "전임자(predecessor)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "윤보선",
+            "p": "계승자/후임(successor)",
+            "s": "노태우"
+        },
+        {
+            "Rep": false,
+            "o": "김영삼",
+            "p": "계승자/후임(successor)",
+            "s": "윤보선"
+        }
+    ]
+}

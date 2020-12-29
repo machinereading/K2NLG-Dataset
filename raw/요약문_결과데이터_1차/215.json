@@ -1,0 +1,187 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "어린 신부의 주연은 문근영이다. 영화 상 문근영의 배우자는 김래원이었다.",
+    "entities": {
+        "김래원": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김래원"
+        },
+        "댄서의_순정": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/댄서의_순정"
+        },
+        "문근영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문근영"
+        },
+        "박건형": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박건형"
+        },
+        "박상민_(배우)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박상민_(배우)"
+        },
+        "어린_신부": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/어린_신부"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        }
+    },
+    "id": 215,
+    "pid": "183-7",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "박건형",
+            "p": "주연(starring)",
+            "s": "댄서의_순정"
+        },
+        {
+            "Rep": true,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "어린_신부"
+        },
+        {
+            "Rep": false,
+            "o": "김래원",
+            "p": "주연(starring)",
+            "s": "어린_신부"
+        },
+        {
+            "Rep": false,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "댄서의_순정"
+        },
+        {
+            "Rep": false,
+            "o": "박상민_(배우)",
+            "p": "주연(starring)",
+            "s": "어린_신부"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "직업(occupation)",
+            "s": "박상민_(배우)"
+        },
+        {
+            "Rep": false,
+            "o": "김래원",
+            "p": "배우자(spouse)",
+            "s": "박상민_(배우)"
+        },
+        {
+            "Rep": true,
+            "o": "김래원",
+            "p": "배우자(spouse)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "박상민_(배우)",
+            "p": "배우자(spouse)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "박상민_(배우)",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "박건형",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "댄서의_순정"
+        },
+        {
+            "Rep": false,
+            "o": "김래원",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "박건형"
+        },
+        {
+            "Rep": false,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "영화"
+        }
+    ]
+}

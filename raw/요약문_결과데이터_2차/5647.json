@@ -1,0 +1,170 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "해왕성은 천왕성이다. 토성은 목성이다.",
+    "entities": {
+        "금성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/금성"
+        },
+        "목성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/목성"
+        },
+        "수성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수성"
+        },
+        "지구": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지구"
+        },
+        "천왕성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/천왕성"
+        },
+        "토성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토성"
+        },
+        "해왕성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/해왕성"
+        },
+        "화성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/화성"
+        }
+    },
+    "id": 5647,
+    "pid": "733-40",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "수성",
+            "p": "~의부분(isPartOf)",
+            "s": "지구"
+        },
+        {
+            "Rep": false,
+            "o": "금성",
+            "p": "~의부분(isPartOf)",
+            "s": "지구"
+        },
+        {
+            "Rep": false,
+            "o": "해왕성",
+            "p": "타입/종류(type)",
+            "s": "토성"
+        },
+        {
+            "Rep": false,
+            "o": "해왕성",
+            "p": "타입/종류(type)",
+            "s": "천왕성"
+        },
+        {
+            "Rep": false,
+            "o": "해왕성",
+            "p": "타입/종류(type)",
+            "s": "목성"
+        },
+        {
+            "Rep": false,
+            "o": "화성",
+            "p": "~의부분(isPartOf)",
+            "s": "지구"
+        },
+        {
+            "Rep": false,
+            "o": "지구",
+            "p": "타입/종류(type)",
+            "s": "화성"
+        },
+        {
+            "Rep": false,
+            "o": "지구",
+            "p": "타입/종류(type)",
+            "s": "금성"
+        },
+        {
+            "Rep": false,
+            "o": "지구",
+            "p": "타입/종류(type)",
+            "s": "수성"
+        },
+        {
+            "Rep": true,
+            "o": "천왕성",
+            "p": "타입/종류(type)",
+            "s": "해왕성"
+        },
+        {
+            "Rep": true,
+            "o": "목성",
+            "p": "타입/종류(type)",
+            "s": "토성"
+        }
+    ]
+}

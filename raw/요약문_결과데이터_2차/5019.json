@@ -1,0 +1,126 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "장자크 루소의 영향을 받은 드니 디드로는 백과전서의 저자이다.",
+    "entities": {
+        "드니_디드로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/드니_디드로"
+        },
+        "백과전서": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백과전서"
+        },
+        "백과전서파": {
+            "ne_type": "FD_PHILOSOPHY",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백과전서파"
+        },
+        "볼테르": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/볼테르"
+        },
+        "장자크_루소": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장자크_루소"
+        },
+        "프랑수아_케네": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Economist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑수아_케네"
+        }
+    },
+    "id": 5019,
+    "pid": "508-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "드니_디드로",
+            "p": "영향받은(influencedBy)",
+            "s": "장자크_루소"
+        },
+        {
+            "Rep": true,
+            "o": "드니_디드로",
+            "p": "저자(author)",
+            "s": "백과전서"
+        },
+        {
+            "Rep": false,
+            "o": "백과전서파",
+            "p": "저자(author)",
+            "s": "백과전서"
+        },
+        {
+            "Rep": false,
+            "o": "볼테르",
+            "p": "저자(author)",
+            "s": "백과전서"
+        },
+        {
+            "Rep": false,
+            "o": "장자크_루소",
+            "p": "저자(author)",
+            "s": "백과전서"
+        },
+        {
+            "Rep": false,
+            "o": "프랑수아_케네",
+            "p": "저자(author)",
+            "s": "백과전서"
+        }
+    ]
+}

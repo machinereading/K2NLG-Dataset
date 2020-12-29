@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "관악구는 강남구의 한 부분이다. 강남구는 노원구의 한 부분이다.",
+    "entities": {
+        "강남구": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강남구"
+        },
+        "관악구": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/관악구"
+        },
+        "노원구": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노원구"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "탄천": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/River"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/탄천"
+        }
+    },
+    "id": 4195,
+    "pid": "284-14",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "도시(city)",
+            "s": "탄천"
+        },
+        {
+            "Rep": true,
+            "o": "강남구",
+            "p": "~의부분(isPartOf)",
+            "s": "관악구"
+        },
+        {
+            "Rep": false,
+            "o": "관악구",
+            "p": "~의부분(isPartOf)",
+            "s": "강남구"
+        },
+        {
+            "Rep": true,
+            "o": "노원구",
+            "p": "~의부분(isPartOf)",
+            "s": "강남구"
+        },
+        {
+            "Rep": false,
+            "o": "노원구",
+            "p": "~의부분(isPartOf)",
+            "s": "관악구"
+        }
+    ]
+}

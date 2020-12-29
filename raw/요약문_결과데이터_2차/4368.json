@@ -1,0 +1,85 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "알레산드로 파르네세는 교황령과 카니노를 이끌었다.",
+    "entities": {
+        "교황령": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황령"
+        },
+        "알레산드로_파르네세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알레산드로_파르네세_(추기경)"
+        },
+        "조반": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조반_(1341년)"
+        },
+        "카니노": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카니노"
+        }
+    },
+    "id": 4368,
+    "pid": "44-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "알레산드로_파르네세",
+            "p": "리더이름(leaderName)",
+            "s": "교황령"
+        },
+        {
+            "Rep": true,
+            "o": "알레산드로_파르네세",
+            "p": "리더이름(leaderName)",
+            "s": "카니노"
+        },
+        {
+            "Rep": false,
+            "o": "조반",
+            "p": "리더이름(leaderName)",
+            "s": "교황령"
+        }
+    ]
+}

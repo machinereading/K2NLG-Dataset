@@ -1,0 +1,108 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "제 (남조)의 국가는 송나라이다. 제 (남조)의 국가는 동진이기도 하다. 제 (남조)의 국가는 송 (남조)이다.",
+    "entities": {
+        "동진": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동진"
+        },
+        "송_(남조)": {
+            "ne_type": "PT_TREE",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송_(남조)"
+        },
+        "송나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/송나라"
+        },
+        "제_(남조)": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제_(남조)"
+        }
+    },
+    "id": 173,
+    "pid": "176-10",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "송나라",
+            "p": "국가(country)",
+            "s": "제_(남조)"
+        },
+        {
+            "Rep": false,
+            "o": "송나라",
+            "p": "국가(country)",
+            "s": "송_(남조)"
+        },
+        {
+            "Rep": true,
+            "o": "동진",
+            "p": "국가(country)",
+            "s": "제_(남조)"
+        },
+        {
+            "Rep": false,
+            "o": "동진",
+            "p": "국가(country)",
+            "s": "송_(남조)"
+        },
+        {
+            "Rep": true,
+            "o": "송_(남조)",
+            "p": "국가(country)",
+            "s": "제_(남조)"
+        },
+        {
+            "Rep": false,
+            "o": "제_(남조)",
+            "p": "국가(country)",
+            "s": "송_(남조)"
+        }
+    ]
+}

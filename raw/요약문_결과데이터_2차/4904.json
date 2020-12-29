@@ -1,0 +1,73 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "시애틀의 오리건주 안에 있다. 오리전주에서 가장 큰 도시는 시애틀이다.",
+    "entities": {
+        "시애틀": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시애틀"
+        },
+        "오리건_주": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오리건_주"
+        }
+    },
+    "id": 4904,
+    "pid": "473-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "오리건_주",
+            "p": "~의부분(isPartOf)",
+            "s": "시애틀"
+        },
+        {
+            "Rep": true,
+            "o": "시애틀",
+            "p": "가장큰도시(largestCity)",
+            "s": "오리건_주"
+        },
+        {
+            "Rep": false,
+            "o": "오리건_주",
+            "p": "지역/분양(region)",
+            "s": "시애틀"
+        }
+    ]
+}

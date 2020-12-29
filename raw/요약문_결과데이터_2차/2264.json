@@ -1,0 +1,87 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "부산광역시 안에 부산진구가 있다. 부산진구는 부산광역시에 속한다. 한국과학기술원 부설 한국과학영재학교가 있는 도시는 부산광역시다.",
+    "entities": {
+        "부산광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산광역시"
+        },
+        "부산진구": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산진구"
+        },
+        "한국과학기술원_부설_한국과학영재학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국과학기술원_부설_한국과학영재학교"
+        }
+    },
+    "id": 2264,
+    "pid": "425-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "부산진구",
+            "p": "부분(part)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": true,
+            "o": "부산광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "부산진구"
+        },
+        {
+            "Rep": true,
+            "o": "부산광역시",
+            "p": "도시(city)",
+            "s": "한국과학기술원_부설_한국과학영재학교"
+        },
+        {
+            "Rep": false,
+            "o": "한국과학기술원_부설_한국과학영재학교",
+            "p": "~의부분(isPartOf)",
+            "s": "부산진구"
+        }
+    ]
+}

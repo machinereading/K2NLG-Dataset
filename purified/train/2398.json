@@ -1,0 +1,86 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "대영 제국의 나라는 영국이다. 보어 전쟁은 크림 전쟁을 이루는 한 전쟁이다. ",
+    "entities": {
+        "대영_제국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대영_제국"
+        },
+        "보어_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보어_전쟁"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        },
+        "크림_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/크림_전쟁"
+        }
+    },
+    "id": 2398,
+    "pid": "475-22",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "대영_제국"
+        },
+        {
+            "Rep": true,
+            "o": "크림_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "보어_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "보어_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "크림_전쟁"
+        }
+    ]
+}

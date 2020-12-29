@@ -1,0 +1,157 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "권양숙은 노무현의 배우자이다. 그녀의 포지션은 대한민국 대통령비서실이다. 그녀의 포지션은 대한민국 대검찰청이다.",
+    "entities": {
+        "권양숙": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/권양숙"
+        },
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "대한민국_대검찰청": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_대검찰청"
+        },
+        "대한민국_대통령비서실": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_대통령비서실"
+        },
+        "박연차": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박연차"
+        },
+        "이인규_(법조인)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이인규_(법조인)"
+        }
+    },
+    "id": 38,
+    "pid": "114-103",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "권양숙",
+            "p": "배우자(spouse)",
+            "s": "노무현"
+        },
+        {
+            "Rep": true,
+            "o": "노무현",
+            "p": "배우자(spouse)",
+            "s": "권양숙"
+        },
+        {
+            "Rep": false,
+            "o": "권양숙",
+            "p": "배우자(spouse)",
+            "s": "박연차"
+        },
+        {
+            "Rep": false,
+            "o": "권양숙",
+            "p": "배우자(spouse)",
+            "s": "이인규_(법조인)"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_대통령비서실",
+            "p": "직함/포지션(position)",
+            "s": "권양숙"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_대통령비서실",
+            "p": "직함/포지션(position)",
+            "s": "이인규_(법조인)"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_대검찰청",
+            "p": "직함/포지션(position)",
+            "s": "권양숙"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_대통령비서실",
+            "p": "직함/포지션(position)",
+            "s": "노무현"
+        },
+        {
+            "Rep": false,
+            "o": "박연차",
+            "p": "전임자(predecessor)",
+            "s": "대한민국_대통령비서실"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_대검찰청",
+            "p": "직함/포지션(position)",
+            "s": "이인규_(법조인)"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_대통령비서실",
+            "p": "직함/포지션(position)",
+            "s": "박연차"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_대통령비서실",
+            "p": "직함/포지션(position)",
+            "s": "대한민국_대통령비서실"
+        }
+    ]
+}

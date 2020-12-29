@@ -1,0 +1,161 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "부에노스아이레스는 상파울루의 한 부분이다. 상파울루는 칠레에서 가장 큰 도시이다.",
+    "entities": {
+        "부에노스아이레스": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부에노스아이레스"
+        },
+        "산티아고": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/산티아고"
+        },
+        "상파울루": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/상파울루"
+        },
+        "아르헨티나": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아르헨티나"
+        },
+        "칠레": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/칠레"
+        },
+        "코리아타운": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/코리아타운"
+        }
+    },
+    "id": 5411,
+    "pid": "642-12",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "아르헨티나",
+            "p": "국가(country)",
+            "s": "산티아고"
+        },
+        {
+            "Rep": false,
+            "o": "칠레",
+            "p": "국가(country)",
+            "s": "산티아고"
+        },
+        {
+            "Rep": false,
+            "o": "아르헨티나",
+            "p": "국가(country)",
+            "s": "부에노스아이레스"
+        },
+        {
+            "Rep": false,
+            "o": "아르헨티나",
+            "p": "국가(country)",
+            "s": "상파울루"
+        },
+        {
+            "Rep": false,
+            "o": "칠레",
+            "p": "국가(country)",
+            "s": "상파울루"
+        },
+        {
+            "Rep": false,
+            "o": "칠레",
+            "p": "국가(country)",
+            "s": "아르헨티나"
+        },
+        {
+            "Rep": false,
+            "o": "칠레",
+            "p": "국가(country)",
+            "s": "부에노스아이레스"
+        },
+        {
+            "Rep": false,
+            "o": "코리아타운",
+            "p": "~의부분(isPartOf)",
+            "s": "부에노스아이레스"
+        },
+        {
+            "Rep": false,
+            "o": "아르헨티나",
+            "p": "국가(country)",
+            "s": "칠레"
+        },
+        {
+            "Rep": true,
+            "o": "상파울루",
+            "p": "~의부분(isPartOf)",
+            "s": "부에노스아이레스"
+        },
+        {
+            "Rep": false,
+            "o": "산티아고",
+            "p": "~의부분(isPartOf)",
+            "s": "부에노스아이레스"
+        },
+        {
+            "Rep": true,
+            "o": "상파울루",
+            "p": "가장큰도시(largestCity)",
+            "s": "칠레"
+        }
+    ]
+}

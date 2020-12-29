@@ -1,0 +1,81 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "캘리포니아 공과대학교 출신인 아서 왕의 직업은 화학자다. ",
+    "entities": {
+        "아서_왕": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아서_왕"
+        },
+        "캘리포니아_공과대학교": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캘리포니아_공과대학교"
+        },
+        "화학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/화학자"
+        }
+    },
+    "id": 2476,
+    "pid": "500-15",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "화학자",
+            "p": "직업(occupation)",
+            "s": "아서_왕"
+        },
+        {
+            "Rep": true,
+            "o": "캘리포니아_공과대학교",
+            "p": "학력(education)",
+            "s": "아서_왕"
+        },
+        {
+            "Rep": false,
+            "o": "화학자",
+            "p": "직업(occupation)",
+            "s": "캘리포니아_공과대학교"
+        },
+        {
+            "Rep": false,
+            "o": "캘리포니아_공과대학교",
+            "p": "학력(education)",
+            "s": "화학자"
+        }
+    ]
+}

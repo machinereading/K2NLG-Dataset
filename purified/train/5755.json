@@ -1,0 +1,91 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "담양군은 전라도에 속해있다.",
+    "entities": {
+        "관료": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/관료"
+        },
+        "담양군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/담양군"
+        },
+        "전라남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전라남도"
+        },
+        "전라도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전라도"
+        }
+    },
+    "id": 5755,
+    "pid": "800-18",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "전라도",
+            "p": "~의부분(isPartOf)",
+            "s": "담양군"
+        },
+        {
+            "Rep": false,
+            "o": "관료",
+            "p": "국가(country)",
+            "s": "전라도"
+        },
+        {
+            "Rep": false,
+            "o": "전라남도",
+            "p": "~의부분(isPartOf)",
+            "s": "담양군"
+        },
+        {
+            "Rep": false,
+            "o": "담양군",
+            "p": "부분(part)",
+            "s": "전라남도"
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "진지왕의 사망지는 신리이다. 그의 후임은 태종무열왕이다.",
+    "entities": {
+        "김서현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김서현"
+        },
+        "김용춘": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김용춘"
+        },
+        "김유신": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김유신"
+        },
+        "신라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신라"
+        },
+        "진지왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/진지왕"
+        },
+        "진평왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/진평왕"
+        },
+        "태종무열왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태종무열왕"
+        }
+    },
+    "id": 5396,
+    "pid": "631-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "신라",
+            "p": "사망지(deathPlace)",
+            "s": "진지왕"
+        },
+        {
+            "Rep": false,
+            "o": "신라",
+            "p": "사망지(deathPlace)",
+            "s": "김서현"
+        },
+        {
+            "Rep": true,
+            "o": "태종무열왕",
+            "p": "계승자/후임(successor)",
+            "s": "진지왕"
+        },
+        {
+            "Rep": false,
+            "o": "태종무열왕",
+            "p": "계승자/후임(successor)",
+            "s": "진평왕"
+        },
+        {
+            "Rep": false,
+            "o": "진평왕",
+            "p": "계승자/후임(successor)",
+            "s": "진지왕"
+        },
+        {
+            "Rep": false,
+            "o": "태종무열왕",
+            "p": "직함/포지션(position)",
+            "s": "진지왕"
+        },
+        {
+            "Rep": false,
+            "o": "태종무열왕",
+            "p": "직함/포지션(position)",
+            "s": "김유신"
+        },
+        {
+            "Rep": false,
+            "o": "태종무열왕",
+            "p": "직함/포지션(position)",
+            "s": "김서현"
+        },
+        {
+            "Rep": false,
+            "o": "진지왕",
+            "p": "리더이름(leaderName)",
+            "s": "신라"
+        },
+        {
+            "Rep": false,
+            "o": "태종무열왕",
+            "p": "직함/포지션(position)",
+            "s": "김용춘"
+        },
+        {
+            "Rep": false,
+            "o": "김용춘",
+            "p": "수도(capital)",
+            "s": "신라"
+        },
+        {
+            "Rep": false,
+            "o": "김서현",
+            "p": "직함/포지션(position)",
+            "s": "진지왕"
+        },
+        {
+            "Rep": false,
+            "o": "김서현",
+            "p": "직함/포지션(position)",
+            "s": "김용춘"
+        }
+    ]
+}

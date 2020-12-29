@@ -1,0 +1,170 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "현대 유니콘스는 KBO 리그 소속이다. 롯데 자이언츠도 KBO 리그에 속해 있다.",
+    "entities": {
+        "KBO_리그": {
+            "ne_type": "EV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/BaseballLeague",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/SportsLeague"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/KBO_리그"
+        },
+        "고양_다이노스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고양_다이노스"
+        },
+        "넥센_히어로즈": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/넥센_히어로즈"
+        },
+        "롯데_자이언츠": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/롯데_자이언츠"
+        },
+        "전준호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/BaseballPlayer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전준호_(1969년)"
+        },
+        "현대_유니콘스": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현대_유니콘스"
+        }
+    },
+    "id": 3884,
+    "pid": "200-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "롯데_자이언츠",
+            "p": "팀(team)",
+            "s": "KBO_리그"
+        },
+        {
+            "Rep": false,
+            "o": "넥센_히어로즈",
+            "p": "팀(team)",
+            "s": "KBO_리그"
+        },
+        {
+            "Rep": true,
+            "o": "KBO_리그",
+            "p": "기원/소속(affiliation)",
+            "s": "현대_유니콘스"
+        },
+        {
+            "Rep": true,
+            "o": "KBO_리그",
+            "p": "기원/소속(affiliation)",
+            "s": "롯데_자이언츠"
+        },
+        {
+            "Rep": false,
+            "o": "고양_다이노스",
+            "p": "팀(team)",
+            "s": "전준호"
+        },
+        {
+            "Rep": false,
+            "o": "고양_다이노스",
+            "p": "팀(team)",
+            "s": "KBO_리그"
+        },
+        {
+            "Rep": false,
+            "o": "현대_유니콘스",
+            "p": "팀(team)",
+            "s": "KBO_리그"
+        },
+        {
+            "Rep": false,
+            "o": "KBO_리그",
+            "p": "기원/소속(affiliation)",
+            "s": "넥센_히어로즈"
+        },
+        {
+            "Rep": false,
+            "o": "고양_다이노스",
+            "p": "팀(team)",
+            "s": "넥센_히어로즈"
+        },
+        {
+            "Rep": false,
+            "o": "고양_다이노스",
+            "p": "팀(team)",
+            "s": "현대_유니콘스"
+        },
+        {
+            "Rep": false,
+            "o": "고양_다이노스",
+            "p": "팀(team)",
+            "s": "롯데_자이언츠"
+        },
+        {
+            "Rep": false,
+            "o": "롯데_자이언츠",
+            "p": "팀(team)",
+            "s": "현대_유니콘스"
+        },
+        {
+            "Rep": false,
+            "o": "KBO_리그",
+            "p": "기원/소속(affiliation)",
+            "s": "고양_다이노스"
+        }
+    ]
+}

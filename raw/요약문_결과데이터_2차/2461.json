@@ -1,0 +1,110 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "중국인은 룩셈부르크에도 있다. 카를 리프크네히트는 의원이다. 그가 있는 정당은 독일 사회민주당이다. 중국인은 룩셈부르크 민족 중 하나다. ",
+    "entities": {
+        "독일_사회민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일_사회민주당"
+        },
+        "룩셈부르크": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/룩셈부르크"
+        },
+        "의원": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의원"
+        },
+        "중국인": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국인"
+        },
+        "카를_리프크네히트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카를_리프크네히트"
+        }
+    },
+    "id": 2461,
+    "pid": "486-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "룩셈부르크",
+            "p": "있는곳(populationPlace)",
+            "s": "중국인"
+        },
+        {
+            "Rep": true,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "카를_리프크네히트"
+        },
+        {
+            "Rep": true,
+            "o": "독일_사회민주당",
+            "p": "정당(party)",
+            "s": "카를_리프크네히트"
+        },
+        {
+            "Rep": true,
+            "o": "중국인",
+            "p": "민족(ethnicGroup)",
+            "s": "룩셈부르크"
+        },
+        {
+            "Rep": false,
+            "o": "의원",
+            "p": "직함/포지션(position)",
+            "s": "독일_사회민주당"
+        },
+        {
+            "Rep": false,
+            "o": "독일_사회민주당",
+            "p": "정당(party)",
+            "s": "의원"
+        }
+    ]
+}

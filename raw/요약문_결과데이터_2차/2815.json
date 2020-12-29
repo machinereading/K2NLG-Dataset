@@ -1,0 +1,226 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "포켓몬스터의 장르는 트레이딩 카드 게임이다. 포켓몬스터의 후속작은 디지몬 어드벤처다. ",
+    "entities": {
+        "강철의_연금술사": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Comic",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Manga"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강철의_연금술사"
+        },
+        "닌텐도": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/닌텐도"
+        },
+        "닌텐도_DS": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/InformationAppliance",
+                "http://dbpedia.org/ontology/Device"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/닌텐도_DS"
+        },
+        "닌텐도_게임큐브": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/InformationAppliance",
+                "http://dbpedia.org/ontology/Device"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/닌텐도_게임큐브"
+        },
+        "디지몬_어드벤처": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/Anime"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/디지몬_어드벤처"
+        },
+        "애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "유희왕": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Comic",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Manga"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유희왕"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "트레이딩_카드_게임": {
+            "ne_type": "TMIG_GENRE",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/트레이딩_카드_게임"
+        },
+        "포켓몬스터": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/Anime"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포켓몬스터_(애니메이션)"
+        },
+        "포켓몬스터_스페셜": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Comic",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Manga"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포켓몬스터_스페셜"
+        }
+    },
+    "id": 2815,
+    "pid": "597-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "닌텐도"
+        },
+        {
+            "Rep": false,
+            "o": "트레이딩_카드_게임",
+            "p": "장르(genre)",
+            "s": "유희왕"
+        },
+        {
+            "Rep": false,
+            "o": "트레이딩_카드_게임",
+            "p": "장르(genre)",
+            "s": "강철의_연금술사"
+        },
+        {
+            "Rep": false,
+            "o": "트레이딩_카드_게임",
+            "p": "장르(genre)",
+            "s": "디지몬_어드벤처"
+        },
+        {
+            "Rep": true,
+            "o": "트레이딩_카드_게임",
+            "p": "장르(genre)",
+            "s": "포켓몬스터"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "산업(industry)",
+            "s": "닌텐도"
+        },
+        {
+            "Rep": false,
+            "o": "포켓몬스터_스페셜",
+            "p": "이전작품(previousWork)",
+            "s": "디지몬_어드벤처"
+        },
+        {
+            "Rep": false,
+            "o": "유희왕",
+            "p": "이전작품(previousWork)",
+            "s": "트레이딩_카드_게임"
+        },
+        {
+            "Rep": true,
+            "o": "디지몬_어드벤처",
+            "p": "후속작(subsequentWork)",
+            "s": "포켓몬스터"
+        },
+        {
+            "Rep": false,
+            "o": "강철의_연금술사",
+            "p": "이전작품(previousWork)",
+            "s": "디지몬_어드벤처"
+        },
+        {
+            "Rep": false,
+            "o": "강철의_연금술사",
+            "p": "이전작품(previousWork)",
+            "s": "트레이딩_카드_게임"
+        },
+        {
+            "Rep": false,
+            "o": "디지몬_어드벤처",
+            "p": "후속작(subsequentWork)",
+            "s": "강철의_연금술사"
+        },
+        {
+            "Rep": false,
+            "o": "닌텐도_DS",
+            "p": "제품(product)",
+            "s": "닌텐도"
+        },
+        {
+            "Rep": false,
+            "o": "닌텐도_게임큐브",
+            "p": "제품(product)",
+            "s": "닌텐도"
+        },
+        {
+            "Rep": false,
+            "o": "유희왕",
+            "p": "이전작품(previousWork)",
+            "s": "디지몬_어드벤처"
+        }
+    ]
+}

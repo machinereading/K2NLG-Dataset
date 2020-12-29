@@ -1,0 +1,181 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 알렉산데르 6세는 나폴리 왕국의 리더이다. 그의 배우자는 줄리아 파르네세이다. 그는 나폴리 왕국에서 사망했다.",
+    "entities": {
+        "공주시": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공주시"
+        },
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_바오로_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_바오로_3세"
+        },
+        "교황_알렉산데르_6세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_알렉산데르_6세"
+        },
+        "나폴리_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나폴리_왕국"
+        },
+        "알레산드로_파르네세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알레산드로_파르네세_(추기경)"
+        },
+        "줄리아_파르네세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/줄리아_파르네세"
+        },
+        "페르디난도_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페르디난도_1세_(양시칠리아)"
+        }
+    },
+    "id": 4276,
+    "pid": "39-19",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "페르디난도_1세",
+            "p": "리더이름(leaderName)",
+            "s": "나폴리_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "알레산드로_파르네세"
+        },
+        {
+            "Rep": false,
+            "o": "교황_바오로_3세",
+            "p": "계승자/후임(successor)",
+            "s": "교황_알렉산데르_6세"
+        },
+        {
+            "Rep": false,
+            "o": "공주시",
+            "p": "수도(capital)",
+            "s": "나폴리_왕국"
+        },
+        {
+            "Rep": true,
+            "o": "교황_알렉산데르_6세",
+            "p": "리더이름(leaderName)",
+            "s": "나폴리_왕국"
+        },
+        {
+            "Rep": true,
+            "o": "줄리아_파르네세",
+            "p": "배우자(spouse)",
+            "s": "교황_알렉산데르_6세"
+        },
+        {
+            "Rep": true,
+            "o": "나폴리_왕국",
+            "p": "사망지(deathPlace)",
+            "s": "교황_알렉산데르_6세"
+        },
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "교황_알렉산데르_6세"
+        },
+        {
+            "Rep": false,
+            "o": "교황_바오로_3세",
+            "p": "계승자/후임(successor)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "공주시",
+            "p": "사망지(deathPlace)",
+            "s": "교황_알렉산데르_6세"
+        },
+        {
+            "Rep": false,
+            "o": "알레산드로_파르네세",
+            "p": "자식(child)",
+            "s": "교황_알렉산데르_6세"
+        }
+    ]
+}

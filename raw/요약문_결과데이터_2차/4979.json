@@ -1,0 +1,128 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "독일 사회민주당의 본사는 베를린에 있다. 동독의 수도는 베를린이다. 독일 사회민주당의 본사는 동독에 있다. 베를린이 있는 국가는 동독이다. 독일 사회민주당은 동독의 정당이다.",
+    "entities": {
+        "네덜란드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/네덜란드"
+        },
+        "독일_사회민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일_사회민주당"
+        },
+        "동독": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동독"
+        },
+        "베를린": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베를린"
+        }
+    },
+    "id": 4979,
+    "pid": "486-12",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "네덜란드",
+            "p": "본부/본사(headquarter)",
+            "s": "독일_사회민주당"
+        },
+        {
+            "Rep": false,
+            "o": "네덜란드",
+            "p": "국가(country)",
+            "s": "베를린"
+        },
+        {
+            "Rep": true,
+            "o": "베를린",
+            "p": "본부/본사(headquarter)",
+            "s": "독일_사회민주당"
+        },
+        {
+            "Rep": false,
+            "o": "베를린",
+            "p": "수도(capital)",
+            "s": "네덜란드"
+        },
+        {
+            "Rep": true,
+            "o": "베를린",
+            "p": "수도(capital)",
+            "s": "동독"
+        },
+        {
+            "Rep": true,
+            "o": "동독",
+            "p": "본부/본사(headquarter)",
+            "s": "독일_사회민주당"
+        },
+        {
+            "Rep": true,
+            "o": "동독",
+            "p": "국가(country)",
+            "s": "베를린"
+        },
+        {
+            "Rep": false,
+            "o": "네덜란드",
+            "p": "국가(country)",
+            "s": "동독"
+        },
+        {
+            "Rep": true,
+            "o": "독일_사회민주당",
+            "p": "정당(party)",
+            "s": "동독"
+        }
+    ]
+}

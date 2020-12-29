@@ -1,0 +1,174 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 1,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "신규식은 신해혁명을 지휘했다. 그는 우창 봉기의 지휘관이었다. 그의 직업은 한국인이다. 그는 우창 봉기에 참여했다. 그의 직업은 기자이다.",
+    "entities": {
+        "기자_(직업)": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기자_(직업)"
+        },
+        "상하이_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/상하이_시"
+        },
+        "신규식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신규식"
+        },
+        "신해혁명": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신해혁명"
+        },
+        "우창_봉기": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우창_봉기"
+        },
+        "중국동맹회": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국동맹회"
+        },
+        "천치메이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/천치메이"
+        },
+        "한국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국인"
+        }
+    },
+    "id": 259,
+    "pid": "195-42",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "천치메이",
+            "p": "지휘관(commander)",
+            "s": "신해혁명"
+        },
+        {
+            "Rep": false,
+            "o": "한국인",
+            "p": "직업(occupation)",
+            "s": "천치메이"
+        },
+        {
+            "Rep": false,
+            "o": "한국인",
+            "p": "직업(occupation)",
+            "s": "중국동맹회"
+        },
+        {
+            "Rep": false,
+            "o": "한국인",
+            "p": "직업(occupation)",
+            "s": "기자_(직업)"
+        },
+        {
+            "Rep": true,
+            "o": "신규식",
+            "p": "지휘관(commander)",
+            "s": "신해혁명"
+        },
+        {
+            "Rep": false,
+            "o": "한국인",
+            "p": "직업(occupation)",
+            "s": "상하이_시"
+        },
+        {
+            "Rep": true,
+            "o": "신규식",
+            "p": "지휘관(commander)",
+            "s": "우창_봉기"
+        },
+        {
+            "Rep": true,
+            "o": "한국인",
+            "p": "직업(occupation)",
+            "s": "신규식"
+        },
+        {
+            "Rep": true,
+            "o": "우창_봉기",
+            "p": "전투(battle)",
+            "s": "신규식"
+        },
+        {
+            "Rep": true,
+            "o": "기자_(직업)",
+            "p": "직업(occupation)",
+            "s": "신규식"
+        },
+        {
+            "Rep": false,
+            "o": "기자_(직업)",
+            "p": "직업(occupation)",
+            "s": "천치메이"
+        },
+        {
+            "Rep": false,
+            "o": "기자_(직업)",
+            "p": "직업(occupation)",
+            "s": "중국동맹회"
+        }
+    ]
+}

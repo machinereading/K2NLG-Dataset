@@ -1,0 +1,92 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "목성은 해왕성의 한 종류다. ",
+    "entities": {
+        "목성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/목성"
+        },
+        "천왕성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/천왕성"
+        },
+        "토성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토성"
+        },
+        "해왕성": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/CelestialBody",
+                "http://dbpedia.org/ontology/Planet"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/해왕성"
+        }
+    },
+    "id": 5020,
+    "pid": "510-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "해왕성",
+            "p": "타입/종류(type)",
+            "s": "목성"
+        },
+        {
+            "Rep": false,
+            "o": "해왕성",
+            "p": "타입/종류(type)",
+            "s": "토성"
+        },
+        {
+            "Rep": false,
+            "o": "목성",
+            "p": "타입/종류(type)",
+            "s": "토성"
+        },
+        {
+            "Rep": false,
+            "o": "해왕성",
+            "p": "타입/종류(type)",
+            "s": "천왕성"
+        }
+    ]
+}

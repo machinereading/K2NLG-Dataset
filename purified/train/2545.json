@@ -1,0 +1,175 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "걸프 전쟁은 이스라엘에서 발발했다. 걸프 전쟁은 가자 지구에서 일어났다.",
+    "entities": {
+        "가자_지구": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가자_지구"
+        },
+        "걸프_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/걸프_전쟁"
+        },
+        "요르단_강": {
+            "ne_type": "LCG_RIVER",
+            "type": [
+                "http://dbpedia.org/ontology/BodyOfWater",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/River",
+                "http://dbpedia.org/ontology/Stream",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요르단_강"
+        },
+        "이스라엘": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이스라엘"
+        },
+        "이스라엘_방위군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이스라엘_방위군"
+        },
+        "팔레스타인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팔레스타인"
+        },
+        "팔레스타인_자치_정부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팔레스타인_자치_정부"
+        },
+        "팔레스타인_해방_기구": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팔레스타인_해방_기구"
+        }
+    },
+    "id": 2545,
+    "pid": "532-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "이스라엘",
+            "p": "장소(place)",
+            "s": "걸프_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "가자_지구",
+            "p": "장소(place)",
+            "s": "걸프_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "팔레스타인",
+            "p": "장소(place)",
+            "s": "걸프_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "팔레스타인_해방_기구",
+            "p": "국가(country)",
+            "s": "요르단_강"
+        },
+        {
+            "Rep": false,
+            "o": "가자_지구",
+            "p": "~의부분(isPartOf)",
+            "s": "이스라엘"
+        },
+        {
+            "Rep": false,
+            "o": "팔레스타인_자치_정부",
+            "p": "장소(place)",
+            "s": "걸프_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "팔레스타인_자치_정부",
+            "p": "국가(country)",
+            "s": "이스라엘_방위군"
+        },
+        {
+            "Rep": false,
+            "o": "이스라엘",
+            "p": "국가(country)",
+            "s": "요르단_강"
+        },
+        {
+            "Rep": false,
+            "o": "팔레스타인_자치_정부",
+            "p": "국가(country)",
+            "s": "요르단_강"
+        },
+        {
+            "Rep": false,
+            "o": "이스라엘",
+            "p": "국가(country)",
+            "s": "이스라엘_방위군"
+        }
+    ]
+}

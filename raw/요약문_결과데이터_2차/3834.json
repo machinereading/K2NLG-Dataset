@@ -1,0 +1,92 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "청불 전쟁은 청일 전쟁을 이루는 한 전쟁이다. 태평천국의 난은 아편 전쟁을 이루는 한 전쟁이다.",
+    "entities": {
+        "아편_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아편_전쟁"
+        },
+        "청불_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청불_전쟁"
+        },
+        "청일_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청일_전쟁"
+        },
+        "태평천국의_난": {
+            "ne_type": "EV_ACTIVITY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태평천국의_난"
+        }
+    },
+    "id": 3834,
+    "pid": "195-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "청일_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "청불_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "아편_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "태평천국의_난"
+        },
+        {
+            "Rep": false,
+            "o": "태평천국의_난",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "아편_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "청불_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "청일_전쟁"
+        }
+    ]
+}

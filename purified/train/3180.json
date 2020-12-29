@@ -1,0 +1,119 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "자유민주당의 본부는 일본에 있다. 민주자유당은 중국국민당 소속이다. 보수당은 자유민주당 소속이다.",
+    "entities": {
+        "민주자유당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주자유당"
+        },
+        "보수당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보수당_(영국)"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "자유민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유민주당_(일본)"
+        },
+        "중국국민당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국국민당"
+        }
+    },
+    "id": 3180,
+    "pid": "752-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "본부/본사(headquarter)",
+            "s": "자유민주당"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "국가(country)",
+            "s": "보수당"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "본부/본사(headquarter)",
+            "s": "민주자유당"
+        },
+        {
+            "Rep": true,
+            "o": "중국국민당",
+            "p": "기원/소속(affiliation)",
+            "s": "민주자유당"
+        },
+        {
+            "Rep": true,
+            "o": "자유민주당",
+            "p": "기원/소속(affiliation)",
+            "s": "보수당"
+        },
+        {
+            "Rep": false,
+            "o": "민주자유당",
+            "p": "기원/소속(affiliation)",
+            "s": "보수당"
+        },
+        {
+            "Rep": false,
+            "o": "중국국민당",
+            "p": "기원/소속(affiliation)",
+            "s": "보수당"
+        }
+    ]
+}

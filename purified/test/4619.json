@@ -1,0 +1,92 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "리처드 도킨스는 찰스 다원에게 영향받았다. 찰스 다원은 마이클 패러데이에게 영향받았다. ",
+    "entities": {
+        "데시데리위스_에라스뮈스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/데시데리위스_에라스뮈스"
+        },
+        "리처드_도킨스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/리처드_도킨스"
+        },
+        "마이클_패러데이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마이클_패러데이"
+        },
+        "찰스_다윈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/찰스_다윈"
+        }
+    },
+    "id": 4619,
+    "pid": "325-20",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "찰스_다윈",
+            "p": "영향받은(influencedBy)",
+            "s": "리처드_도킨스"
+        },
+        {
+            "Rep": false,
+            "o": "찰스_다윈",
+            "p": "영향받은(influenced)",
+            "s": "리처드_도킨스"
+        },
+        {
+            "Rep": true,
+            "o": "마이클_패러데이",
+            "p": "영향받은(influenced)",
+            "s": "찰스_다윈"
+        },
+        {
+            "Rep": false,
+            "o": "찰스_다윈",
+            "p": "영향받은(influenced)",
+            "s": "데시데리위스_에라스뮈스"
+        }
+    ]
+}

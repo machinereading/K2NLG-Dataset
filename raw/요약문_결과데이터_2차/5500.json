@@ -1,0 +1,83 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "합천 해인사 장경판전과 합천 해인사 대장경판은 가야산에 있다.",
+    "entities": {
+        "가야산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가야산"
+        },
+        "합천_해인사_대장경판": {
+            "ne_type": "AF_CULTURAL_ASSET",
+            "type": [
+                "http://dbpedia.org/ontology/WorldHeritageSite",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/합천_해인사_대장경판"
+        },
+        "합천_해인사_장경판전": {
+            "ne_type": "AF_CULTURAL_ASSET",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/WorldHeritageSite",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/합천_해인사_장경판전"
+        }
+    },
+    "id": 5500,
+    "pid": "657-9",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "합천_해인사_대장경판",
+            "p": "지역/분양(region)",
+            "s": "합천_해인사_장경판전"
+        },
+        {
+            "Rep": false,
+            "o": "합천_해인사_장경판전",
+            "p": "지역/분양(region)",
+            "s": "합천_해인사_대장경판"
+        },
+        {
+            "Rep": true,
+            "o": "가야산",
+            "p": "지역/분양(region)",
+            "s": "합천_해인사_장경판전"
+        },
+        {
+            "Rep": true,
+            "o": "가야산",
+            "p": "지역/분양(region)",
+            "s": "합천_해인사_대장경판"
+        }
+    ]
+}

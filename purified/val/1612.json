@@ -1,0 +1,122 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "울릉도는 대한민국의 지역이다. 울릉도는 동해에 위치해있다. ",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "독도": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Airport",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Archipelago",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Infrastructure"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독도"
+        },
+        "동해": {
+            "ne_type": "LCG_OCEAN",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Artist"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동해"
+        },
+        "울릉도": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/Volcano",
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/NaturalPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/울릉도"
+        },
+        "제주도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제주도"
+        }
+    },
+    "id": 1612,
+    "pid": "280-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "울릉도"
+        },
+        {
+            "Rep": true,
+            "o": "동해",
+            "p": "있는곳(locatedInArea)",
+            "s": "울릉도"
+        },
+        {
+            "Rep": false,
+            "o": "제주도",
+            "p": "있는곳(locatedInArea)",
+            "s": "울릉도"
+        },
+        {
+            "Rep": false,
+            "o": "동해",
+            "p": "있는곳(locatedInArea)",
+            "s": "제주도"
+        },
+        {
+            "Rep": false,
+            "o": "독도",
+            "p": "~의부분(isPartOf)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "독도"
+        }
+    ]
+}

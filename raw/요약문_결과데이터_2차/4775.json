@@ -1,0 +1,110 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "에우제비우는 마푸투에서 태어났다. 그는 축구 선수 소속이다.",
+    "entities": {
+        "마푸투": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마푸투"
+        },
+        "모잠비크": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/모잠비크"
+        },
+        "에우제비우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에우제비우"
+        },
+        "축구_선수": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/축구_선수"
+        },
+        "포르투갈": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포르투갈"
+        }
+    },
+    "id": 4775,
+    "pid": "413-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "마푸투",
+            "p": "출생지(birthPlace)",
+            "s": "에우제비우"
+        },
+        {
+            "Rep": false,
+            "o": "모잠비크",
+            "p": "국가(country)",
+            "s": "마푸투"
+        },
+        {
+            "Rep": false,
+            "o": "축구_선수",
+            "p": "직업(occupation)",
+            "s": "포르투갈"
+        },
+        {
+            "Rep": true,
+            "o": "축구_선수",
+            "p": "직함/포지션(position)",
+            "s": "에우제비우"
+        },
+        {
+            "Rep": false,
+            "o": "에우제비우",
+            "p": "지도자(leader)",
+            "s": "포르투갈"
+        }
+    ]
+}

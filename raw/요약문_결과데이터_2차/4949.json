@@ -1,0 +1,143 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "중일 전쟁은 제2차 세계 대전을 이루는 한 전쟁이다. 중일 전쟁이 발생한 곳은 일본이다.",
+    "entities": {
+        "대륙타통작전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대륙타통작전"
+        },
+        "쇼와_천황": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쇼와_천황"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "제2차_세계_대전": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제2차_세계_대전"
+        },
+        "중일_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중일_전쟁"
+        }
+    },
+    "id": 4949,
+    "pid": "480-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "제2차_세계_대전",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "중일_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "중일_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "대륙타통작전"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "사망지(deathPlace)",
+            "s": "쇼와_천황"
+        },
+        {
+            "Rep": false,
+            "o": "쇼와_천황",
+            "p": "지휘관(commander)",
+            "s": "중일_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "쇼와_천황",
+            "p": "지휘관(commander)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": true,
+            "o": "일본",
+            "p": "장소(place)",
+            "s": "중일_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "일본",
+            "p": "장소(place)",
+            "s": "제2차_세계_대전"
+        },
+        {
+            "Rep": false,
+            "o": "쇼와_천황",
+            "p": "지휘관(commander)",
+            "s": "대륙타통작전"
+        },
+        {
+            "Rep": false,
+            "o": "쇼와_천황",
+            "p": "리더이름(leaderName)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "쇼와_천황",
+            "p": "지도자(leader)",
+            "s": "일본"
+        },
+        {
+            "Rep": false,
+            "o": "중일_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "제2차_세계_대전"
+        }
+    ]
+}

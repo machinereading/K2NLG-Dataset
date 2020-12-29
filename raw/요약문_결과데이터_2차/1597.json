@@ -1,0 +1,150 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "토끼는 돼지에 속한다. 고양이도 돼지에 속한다.",
+    "entities": {
+        "고양이": {
+            "ne_type": "AM_MAMMALIA",
+            "type": [
+                "http://dbpedia.org/ontology/Mammal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고양이"
+        },
+        "돼지": {
+            "ne_type": "AM_MAMMALIA",
+            "type": [
+                "http://dbpedia.org/ontology/Mammal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/돼지"
+        },
+        "미얀마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미얀마"
+        },
+        "베트남": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베트남"
+        },
+        "타이": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/타이"
+        },
+        "토끼": {
+            "ne_type": "AM_MAMMALIA",
+            "type": [
+                "http://dbpedia.org/ontology/Mammal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토끼"
+        }
+    },
+    "id": 1597,
+    "pid": "279-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "베트남",
+            "p": "국가(country)",
+            "s": "타이"
+        },
+        {
+            "Rep": false,
+            "o": "베트남",
+            "p": "국가(country)",
+            "s": "미얀마"
+        },
+        {
+            "Rep": false,
+            "o": "타이",
+            "p": "국가(country)",
+            "s": "미얀마"
+        },
+        {
+            "Rep": false,
+            "o": "타이",
+            "p": "국가(country)",
+            "s": "베트남"
+        },
+        {
+            "Rep": false,
+            "o": "미얀마",
+            "p": "국가(country)",
+            "s": "타이"
+        },
+        {
+            "Rep": true,
+            "o": "돼지",
+            "p": "목_생물분류단계(order)",
+            "s": "토끼"
+        },
+        {
+            "Rep": false,
+            "o": "돼지",
+            "p": "과_생물분류단계(family)",
+            "s": "고양이"
+        },
+        {
+            "Rep": false,
+            "o": "미얀마",
+            "p": "국가(country)",
+            "s": "베트남"
+        },
+        {
+            "Rep": true,
+            "o": "돼지",
+            "p": "목_생물분류단계(order)",
+            "s": "고양이"
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "교황 바오로 4세의 전임자는 레지널드 폴이다. 그의 계승자는 교황이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_바오로_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_바오로_3세"
+        },
+        "교황_바오로_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_바오로_4세"
+        },
+        "라누치오_파르네세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라누치오_파르네세_(1509년)"
+        },
+        "레지널드_폴": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Cardinal",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레지널드_폴"
+        },
+        "코스탄차_파르네세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/코스탄차_파르네세"
+        },
+        "피에르_루이지_파르네세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피에르_루이지_파르네세"
+        }
+    },
+    "id": 1847,
+    "pid": "44-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "교황",
+            "p": "직업(occupation)",
+            "s": "레지널드_폴"
+        },
+        {
+            "Rep": false,
+            "o": "코스탄차_파르네세",
+            "p": "자식(child)",
+            "s": "피에르_루이지_파르네세"
+        },
+        {
+            "Rep": false,
+            "o": "레지널드_폴",
+            "p": "계승자/후임(successor)",
+            "s": "교황_바오로_3세"
+        },
+        {
+            "Rep": false,
+            "o": "코스탄차_파르네세",
+            "p": "자식(child)",
+            "s": "라누치오_파르네세"
+        },
+        {
+            "Rep": true,
+            "o": "레지널드_폴",
+            "p": "전임자(predecessor)",
+            "s": "교황_바오로_4세"
+        },
+        {
+            "Rep": true,
+            "o": "교황_바오로_4세",
+            "p": "계승자/후임(successor)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "라누치오_파르네세",
+            "p": "친척(relative)",
+            "s": "피에르_루이지_파르네세"
+        },
+        {
+            "Rep": false,
+            "o": "교황_바오로_3세",
+            "p": "전임자(predecessor)",
+            "s": "교황_바오로_4세"
+        },
+        {
+            "Rep": false,
+            "o": "교황_바오로_4세",
+            "p": "계승자/후임(successor)",
+            "s": "레지널드_폴"
+        }
+    ]
+}

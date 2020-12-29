@@ -1,0 +1,143 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "다테 마사무네는 세키가하라 전투의 지휘관이다. 다테 마사무네가 도쿠가와 이에야스의 전임자다. ",
+    "entities": {
+        "다테_마사무네": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다테_마사무네"
+        },
+        "도요토미_히데요시": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도요토미_히데요시"
+        },
+        "도쿠가와_이에야스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿠가와_이에야스"
+        },
+        "세키가하라_전투": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/세키가하라_전투"
+        },
+        "우에스기_가게카쓰": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우에스기_가게카쓰"
+        },
+        "이시다_미쓰나리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이시다_미쓰나리"
+        },
+        "호조_우지나오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/호조_우지나오"
+        },
+        "호조_우지마사": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/호조_우지마사"
+        }
+    },
+    "id": 1423,
+    "pid": "228-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "우에스기_가게카쓰",
+            "p": "지휘관(commander)",
+            "s": "세키가하라_전투"
+        },
+        {
+            "Rep": false,
+            "o": "도쿠가와_이에야스",
+            "p": "지휘관(commander)",
+            "s": "세키가하라_전투"
+        },
+        {
+            "Rep": true,
+            "o": "다테_마사무네",
+            "p": "지휘관(commander)",
+            "s": "세키가하라_전투"
+        },
+        {
+            "Rep": false,
+            "o": "이시다_미쓰나리",
+            "p": "지휘관(commander)",
+            "s": "세키가하라_전투"
+        },
+        {
+            "Rep": false,
+            "o": "도요토미_히데요시",
+            "p": "지휘관(commander)",
+            "s": "세키가하라_전투"
+        },
+        {
+            "Rep": true,
+            "o": "다테_마사무네",
+            "p": "전임자(predecessor)",
+            "s": "도쿠가와_이에야스"
+        },
+        {
+            "Rep": false,
+            "o": "호조_우지나오",
+            "p": "계승자/후임(successor)",
+            "s": "호조_우지마사"
+        }
+    ]
+}

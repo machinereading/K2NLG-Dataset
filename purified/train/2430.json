@@ -1,0 +1,114 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "팔로군의 지휘관은 린뱌오, 조선 순조, 허룽이다. 산시 성을 이끈 사람은 조선 순조이다. 조선 순조의 출생지는 산시 성이다. ",
+    "entities": {
+        "린뱌오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/린뱌오"
+        },
+        "산시_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/산시_성_(산서성)"
+        },
+        "조선_순조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_순조"
+        },
+        "팔로군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팔로군"
+        },
+        "허룽": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/허룽_(1896년)"
+        }
+    },
+    "id": 2430,
+    "pid": "480-38",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "린뱌오",
+            "p": "지휘관(commander)",
+            "s": "팔로군"
+        },
+        {
+            "Rep": true,
+            "o": "조선_순조",
+            "p": "리더이름(leaderName)",
+            "s": "산시_성"
+        },
+        {
+            "Rep": true,
+            "o": "조선_순조",
+            "p": "지휘관(commander)",
+            "s": "팔로군"
+        },
+        {
+            "Rep": true,
+            "o": "산시_성",
+            "p": "출생지(birthPlace)",
+            "s": "조선_순조"
+        },
+        {
+            "Rep": false,
+            "o": "린뱌오",
+            "p": "직함/포지션(position)",
+            "s": "허룽"
+        },
+        {
+            "Rep": true,
+            "o": "허룽",
+            "p": "지휘관(commander)",
+            "s": "팔로군"
+        }
+    ]
+}

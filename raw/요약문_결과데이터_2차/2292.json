@@ -1,0 +1,71 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "그랜드 프린스 호텔 아카사카는 도쿄 지역에 있다.",
+    "entities": {
+        "그랜드_프린스_호텔_아카사카": {
+            "ne_type": "OGG_HOTEL",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Hotel",
+                "http://dbpedia.org/ontology/Skyscraper",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/그랜드_프린스_호텔_아카사카"
+        },
+        "도쿄": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿄"
+        }
+    },
+    "id": 2292,
+    "pid": "439-16",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "도쿄",
+            "p": "위치/지역(location)",
+            "s": "그랜드_프린스_호텔_아카사카"
+        },
+        {
+            "Rep": true,
+            "o": "그랜드_프린스_호텔_아카사카",
+            "p": "지역/분양(region)",
+            "s": "도쿄"
+        },
+        {
+            "Rep": false,
+            "o": "그랜드_프린스_호텔_아카사카",
+            "p": "~의부분(isPartOf)",
+            "s": "도쿄"
+        }
+    ]
+}

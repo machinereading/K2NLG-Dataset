@@ -1,0 +1,96 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "마거릿 애트우드는 시녀 이야기로 유명해졌다. 마거릿 애트우드의 유명한 작품으로는 시녀 이야기의 후속작인 멋진 신세계가 있다. ",
+    "entities": {
+        "마거릿_애트우드": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마거릿_애트우드"
+        },
+        "멋진_신세계": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/멋진_신세계"
+        },
+        "시녀_이야기": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시녀_이야기"
+        }
+    },
+    "id": 5027,
+    "pid": "512-24",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "시녀_이야기",
+            "p": "유명한작품(notableWork)",
+            "s": "마거릿_애트우드"
+        },
+        {
+            "Rep": true,
+            "o": "시녀_이야기",
+            "p": "~로알려진(knownFor)",
+            "s": "마거릿_애트우드"
+        },
+        {
+            "Rep": false,
+            "o": "마거릿_애트우드",
+            "p": "저자(author)",
+            "s": "시녀_이야기"
+        },
+        {
+            "Rep": true,
+            "o": "멋진_신세계",
+            "p": "유명한작품(notableWork)",
+            "s": "마거릿_애트우드"
+        },
+        {
+            "Rep": true,
+            "o": "시녀_이야기",
+            "p": "후속작(subsequentWork)",
+            "s": "멋진_신세계"
+        },
+        {
+            "Rep": false,
+            "o": "마거릿_애트우드",
+            "p": "저자(author)",
+            "s": "멋진_신세계"
+        }
+    ]
+}

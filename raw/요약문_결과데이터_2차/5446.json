@@ -1,0 +1,196 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "대한민국의 지도자는 전두환 대통령이다. 그의 뒤는 노태우 대통령이 이어갔다. ",
+    "entities": {
+        "경상도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상도"
+        },
+        "김복동": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김복동_(1933년)"
+        },
+        "노태우": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노태우"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "대한민국_육군사관학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_육군사관학교"
+        },
+        "장교": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장교"
+        },
+        "전두환": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전두환"
+        },
+        "정호용": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정호용"
+        }
+    },
+    "id": 5446,
+    "pid": "648-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "노태우",
+            "p": "계승자/후임(successor)",
+            "s": "전두환"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "전두환"
+        },
+        {
+            "Rep": true,
+            "o": "전두환",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "장교",
+            "p": "국가(country)",
+            "s": "대한민국_육군사관학교"
+        },
+        {
+            "Rep": false,
+            "o": "김복동",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "전두환",
+            "p": "전임자(predecessor)",
+            "s": "김복동"
+        },
+        {
+            "Rep": false,
+            "o": "장교",
+            "p": "국가(country)",
+            "s": "경상도"
+        },
+        {
+            "Rep": false,
+            "o": "노태우",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": false,
+            "o": "전두환",
+            "p": "전임자(predecessor)",
+            "s": "노태우"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "노태우"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_육군사관학교",
+            "p": "직함/포지션(position)",
+            "s": "장교"
+        },
+        {
+            "Rep": false,
+            "o": "정호용",
+            "p": "전임자(predecessor)",
+            "s": "노태우"
+        },
+        {
+            "Rep": false,
+            "o": "노태우",
+            "p": "전임자(predecessor)",
+            "s": "김복동"
+        },
+        {
+            "Rep": false,
+            "o": "장교",
+            "p": "직업(occupation)",
+            "s": "경상도"
+        },
+        {
+            "Rep": false,
+            "o": "김복동",
+            "p": "계승자/후임(successor)",
+            "s": "전두환"
+        }
+    ]
+}

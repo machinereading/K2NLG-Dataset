@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 1,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "유럽인은 캐나다에도 있다. 유럽인은 캐나다에 있는 민족 중 하나다. 캐나다에서 가장 큰 도시는 토론토다. 유럽인은 토론토에도 있다.",
+    "entities": {
+        "유럽인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽인"
+        },
+        "캐나다": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캐나다"
+        },
+        "토론토": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토론토"
+        }
+    },
+    "id": 4752,
+    "pid": "405-2",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "캐나다",
+            "p": "있는곳(populationPlace)",
+            "s": "유럽인"
+        },
+        {
+            "Rep": false,
+            "o": "캐나다",
+            "p": "국가(country)",
+            "s": "토론토"
+        },
+        {
+            "Rep": true,
+            "o": "유럽인",
+            "p": "민족(ethnicGroup)",
+            "s": "캐나다"
+        },
+        {
+            "Rep": true,
+            "o": "토론토",
+            "p": "가장큰도시(largestCity)",
+            "s": "캐나다"
+        },
+        {
+            "Rep": true,
+            "o": "토론토",
+            "p": "있는곳(populationPlace)",
+            "s": "유럽인"
+        }
+    ]
+}

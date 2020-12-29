@@ -1,0 +1,109 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "유진산의 정당은 신민당이다. 윤보선의 정당은 신민당이다. 유진산의 전임자는 윤보선이다. 강원용의 정당은 신민당이다. 신민당의 지도자는 강원용이다. 유진산의 전임자는 강원용이다. 윤보선의 전임자는 유진산이다.",
+    "entities": {
+        "강원용": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강원용"
+        },
+        "신민당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신민당_(1967년)"
+        },
+        "유진산": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유진산"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        }
+    },
+    "id": 5193,
+    "pid": "541-213",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "신민당",
+            "p": "정당(party)",
+            "s": "유진산"
+        },
+        {
+            "Rep": true,
+            "o": "신민당",
+            "p": "정당(party)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": true,
+            "o": "윤보선",
+            "p": "전임자(predecessor)",
+            "s": "유진산"
+        },
+        {
+            "Rep": true,
+            "o": "신민당",
+            "p": "정당(party)",
+            "s": "강원용"
+        },
+        {
+            "Rep": true,
+            "o": "강원용",
+            "p": "지도자(leader)",
+            "s": "신민당"
+        },
+        {
+            "Rep": true,
+            "o": "강원용",
+            "p": "전임자(predecessor)",
+            "s": "유진산"
+        },
+        {
+            "Rep": true,
+            "o": "유진산",
+            "p": "전임자(predecessor)",
+            "s": "윤보선"
+        }
+    ]
+}

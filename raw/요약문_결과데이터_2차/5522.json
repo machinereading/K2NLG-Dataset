@@ -1,0 +1,85 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김영삼은 대한민국 해양수산부 소속이다. ",
+    "entities": {
+        "김영삼": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김영삼"
+        },
+        "대한민국_해양경찰청": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_해양경찰청"
+        },
+        "대한민국_해양수산부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_해양수산부"
+        }
+    },
+    "id": 5522,
+    "pid": "669-3",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대한민국_해양수산부",
+            "p": "전임자(predecessor)",
+            "s": "대한민국_해양경찰청"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_해양경찰청",
+            "p": "계승자/후임(successor)",
+            "s": "김영삼"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_해양경찰청",
+            "p": "계승자/후임(successor)",
+            "s": "대한민국_해양수산부"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_해양수산부",
+            "p": "직함/포지션(position)",
+            "s": "김영삼"
+        }
+    ]
+}

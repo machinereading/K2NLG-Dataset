@@ -1,0 +1,95 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "스즈키 젠코의 후임은 나카소네 야스히로이다. 나카소네 야스히로의 전임자는 스즈키 젠코이다. 아베 신타로의 전임자는 나카소네 야스히로이다.",
+    "entities": {
+        "나카가와_이치로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나카가와_이치로"
+        },
+        "나카소네_야스히로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나카소네_야스히로"
+        },
+        "스즈키_젠코": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/PrimeMinister",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스즈키_젠코"
+        },
+        "아베_신타로": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아베_신타로"
+        }
+    },
+    "id": 5680,
+    "pid": "752-27",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "나카소네_야스히로",
+            "p": "계승자/후임(successor)",
+            "s": "스즈키_젠코"
+        },
+        {
+            "Rep": true,
+            "o": "스즈키_젠코",
+            "p": "전임자(predecessor)",
+            "s": "나카소네_야스히로"
+        },
+        {
+            "Rep": true,
+            "o": "나카소네_야스히로",
+            "p": "전임자(predecessor)",
+            "s": "아베_신타로"
+        },
+        {
+            "Rep": false,
+            "o": "나카가와_이치로",
+            "p": "계승자/후임(successor)",
+            "s": "스즈키_젠코"
+        }
+    ]
+}

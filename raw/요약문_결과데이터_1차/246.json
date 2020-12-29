@@ -1,0 +1,153 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "의화단 운동은 청나라에서 발발되었다. 의화단 운동의 지휘관은 위안스카이이다.",
+    "entities": {
+        "아편_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아편_전쟁"
+        },
+        "위안스카이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위안스카이"
+        },
+        "의화단_운동": {
+            "ne_type": "EV_ACTIVITY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/의화단_운동"
+        },
+        "청나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청나라"
+        },
+        "청불_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청불_전쟁"
+        },
+        "청일_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청일_전쟁"
+        },
+        "톈진_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/톈진_시"
+        }
+    },
+    "id": 246,
+    "pid": "195-16",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "청나라",
+            "p": "장소(place)",
+            "s": "의화단_운동"
+        },
+        {
+            "Rep": true,
+            "o": "위안스카이",
+            "p": "지휘관(commander)",
+            "s": "의화단_운동"
+        },
+        {
+            "Rep": false,
+            "o": "아편_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "청불_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "청불_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "청일_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "청일_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "청불_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "아편_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "청일_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "청일_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "아편_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "청불_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "아편_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "위안스카이",
+            "p": "리더이름(leaderName)",
+            "s": "톈진_시"
+        }
+    ]
+}

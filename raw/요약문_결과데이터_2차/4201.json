@@ -1,0 +1,130 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "1988년 하계 올림픽이 열린 도시는 서울특별시다.",
+    "entities": {
+        "1988년_하계_올림픽": {
+            "ne_type": "EV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Olympics",
+                "http://dbpedia.org/ontology/SportsEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/1988년_하계_올림픽"
+        },
+        "경기도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경기도"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "세종특별자치시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/세종특별자치시"
+        },
+        "제주도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제주도"
+        }
+    },
+    "id": 4201,
+    "pid": "284-31",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "도시(city)",
+            "s": "1988년_하계_올림픽"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "~의부분(isPartOf)",
+            "s": "세종특별자치시"
+        },
+        {
+            "Rep": false,
+            "o": "경기도",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "경기도",
+            "p": "~의부분(isPartOf)",
+            "s": "세종특별자치시"
+        },
+        {
+            "Rep": false,
+            "o": "제주도",
+            "p": "~의부분(isPartOf)",
+            "s": "세종특별자치시"
+        },
+        {
+            "Rep": false,
+            "o": "세종특별자치시",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "제주도",
+            "p": "지역/분양(region)",
+            "s": "세종특별자치시"
+        },
+        {
+            "Rep": false,
+            "o": "세종특별자치시",
+            "p": "행정구역(administrativeDistrict)",
+            "s": "경기도"
+        }
+    ]
+}

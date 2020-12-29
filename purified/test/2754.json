@@ -1,0 +1,153 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "카를 마리아 폰 베버의 후임인 헤르만 민코프스키는 베를린 훔볼트 대학교 출신이다. ",
+    "entities": {
+        "다비트_힐베르트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다비트_힐베르트"
+        },
+        "박사": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Award",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박사"
+        },
+        "베를린_훔볼트_대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베를린_훔볼트_대학교"
+        },
+        "카를_마리아_폰_베버": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카를_마리아_폰_베버"
+        },
+        "쾨니히스베르크": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쾨니히스베르크"
+        },
+        "페르디난트_폰_린데만": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/페르디난트_폰_린데만"
+        },
+        "헤르만_민코프스키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헤르만_민코프스키"
+        }
+    },
+    "id": 2754,
+    "pid": "547-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "베를린_훔볼트_대학교",
+            "p": "학력(education)",
+            "s": "헤르만_민코프스키"
+        },
+        {
+            "Rep": false,
+            "o": "베를린_훔볼트_대학교",
+            "p": "학력(education)",
+            "s": "다비트_힐베르트"
+        },
+        {
+            "Rep": false,
+            "o": "박사",
+            "p": "~로알려진(knownFor)",
+            "s": "다비트_힐베르트"
+        },
+        {
+            "Rep": true,
+            "o": "헤르만_민코프스키",
+            "p": "계승자/후임(successor)",
+            "s": "카를_마리아_폰_베버"
+        },
+        {
+            "Rep": false,
+            "o": "카를_마리아_폰_베버",
+            "p": "영향받은(influencedBy)",
+            "s": "헤르만_민코프스키"
+        },
+        {
+            "Rep": false,
+            "o": "페르디난트_폰_린데만",
+            "p": "영향받은(influenced)",
+            "s": "다비트_힐베르트"
+        },
+        {
+            "Rep": false,
+            "o": "쾨니히스베르크",
+            "p": "학력(education)",
+            "s": "다비트_힐베르트"
+        },
+        {
+            "Rep": false,
+            "o": "다비트_힐베르트",
+            "p": "영향받은(influencedBy)",
+            "s": "헤르만_민코프스키"
+        },
+        {
+            "Rep": false,
+            "o": "쾨니히스베르크",
+            "p": "도시(city)",
+            "s": "베를린_훔볼트_대학교"
+        }
+    ]
+}

@@ -1,0 +1,217 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "이수영은 발라드 음악을 한다. 그녀는 가수다. 머라이어 캐리는 가수다. 이도형은 발라드 음악을 한다. ",
+    "entities": {
+        "가수": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가수"
+        },
+        "라디오": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Broadcaster",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MusicGenre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라디오"
+        },
+        "머라이어_캐리": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/머라이어_캐리"
+        },
+        "발라드_(대중_음악)": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/발라드_(대중_음악)"
+        },
+        "별이_빛나는_밤": {
+            "ne_type": "AFW_ART_CRAFT",
+            "type": [
+                "http://dbpedia.org/ontology/Artwork",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/별이_빛나는_밤"
+        },
+        "보컬": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Instrument",
+                "http://dbpedia.org/ontology/Device"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보컬"
+        },
+        "이도형_(야구인)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/BaseballPlayer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이도형_(야구인)"
+        },
+        "이수영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Band",
+                "http://dbpedia.org/ontology/Group"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이수영"
+        },
+        "춤": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/춤"
+        },
+        "팬텀엔터테인먼트그룹": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/RecordLabel",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/팬텀엔터테인먼트그룹"
+        }
+    },
+    "id": 291,
+    "pid": "199-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "발라드_(대중_음악)",
+            "p": "장르(genre)",
+            "s": "이수영"
+        },
+        {
+            "Rep": true,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "이수영"
+        },
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "가수"
+        },
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "팬텀엔터테인먼트그룹"
+        },
+        {
+            "Rep": true,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "머라이어_캐리"
+        },
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "춤"
+        },
+        {
+            "Rep": false,
+            "o": "보컬",
+            "p": "직업(occupation)",
+            "s": "이수영"
+        },
+        {
+            "Rep": false,
+            "o": "보컬",
+            "p": "직업(occupation)",
+            "s": "머라이어_캐리"
+        },
+        {
+            "Rep": false,
+            "o": "가수",
+            "p": "직업(occupation)",
+            "s": "발라드_(대중_음악)"
+        },
+        {
+            "Rep": true,
+            "o": "발라드_(대중_음악)",
+            "p": "장르(genre)",
+            "s": "이도형_(야구인)"
+        },
+        {
+            "Rep": false,
+            "o": "보컬",
+            "p": "직업(occupation)",
+            "s": "가수"
+        },
+        {
+            "Rep": false,
+            "o": "발라드_(대중_음악)",
+            "p": "장르(genre)",
+            "s": "가수"
+        },
+        {
+            "Rep": false,
+            "o": "라디오",
+            "p": "장르(genre)",
+            "s": "별이_빛나는_밤"
+        },
+        {
+            "Rep": false,
+            "o": "발라드_(대중_음악)",
+            "p": "장르(genre)",
+            "s": "춤"
+        }
+    ]
+}

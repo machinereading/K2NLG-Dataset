@@ -1,0 +1,83 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "권경유와 표연말은 김일손과 친척관계다. ",
+    "entities": {
+        "권경유": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/권경유"
+        },
+        "김일손": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김일손"
+        },
+        "발해_선왕": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/발해_선왕"
+        },
+        "표연말": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/표연말"
+        }
+    },
+    "id": 2269,
+    "pid": "428-17",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김일손",
+            "p": "친척(relative)",
+            "s": "권경유"
+        },
+        {
+            "Rep": true,
+            "o": "김일손",
+            "p": "친척(relative)",
+            "s": "표연말"
+        },
+        {
+            "Rep": false,
+            "o": "발해_선왕",
+            "p": "계승자/후임(successor)",
+            "s": "권경유"
+        }
+    ]
+}

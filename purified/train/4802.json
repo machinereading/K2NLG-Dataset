@@ -1,0 +1,103 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "시카고는 일리노이 주에서 가장 큰 도시이다. 인디애나 주에서 가장 큰 도시는 시카고다.",
+    "entities": {
+        "시카고": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시카고"
+        },
+        "인디애나_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/인디애나_주"
+        },
+        "일리노이_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일리노이_주"
+        }
+    },
+    "id": 4802,
+    "pid": "434-27",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "시카고",
+            "p": "가장큰도시(largestCity)",
+            "s": "일리노이_주"
+        },
+        {
+            "Rep": false,
+            "o": "인디애나_주",
+            "p": "~의부분(isPartOf)",
+            "s": "시카고"
+        },
+        {
+            "Rep": false,
+            "o": "일리노이_주",
+            "p": "~의부분(isPartOf)",
+            "s": "시카고"
+        },
+        {
+            "Rep": false,
+            "o": "인디애나_주",
+            "p": "~의부분(isPartOf)",
+            "s": "일리노이_주"
+        },
+        {
+            "Rep": false,
+            "o": "일리노이_주",
+            "p": "~의부분(isPartOf)",
+            "s": "인디애나_주"
+        },
+        {
+            "Rep": true,
+            "o": "시카고",
+            "p": "가장큰도시(largestCity)",
+            "s": "인디애나_주"
+        }
+    ]
+}

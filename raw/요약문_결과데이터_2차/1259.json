@@ -1,0 +1,82 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "감기의 직업은 소설가이다. 노랑의 직업도 소설가이다. ",
+    "entities": {
+        "감기": {
+            "ne_type": "TMM_DISEASE",
+            "type": [
+                "http://dbpedia.org/ontology/Disease"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/감기"
+        },
+        "노랑": {
+            "ne_type": "TM_COLOR",
+            "type": [
+                "http://dbpedia.org/ontology/Colour"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노랑"
+        },
+        "소설가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/소설가"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 1259,
+    "pid": "188-21",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "소설가",
+            "p": "직업(occupation)",
+            "s": "감기"
+        },
+        {
+            "Rep": true,
+            "o": "소설가",
+            "p": "직업(occupation)",
+            "s": "노랑"
+        },
+        {
+            "Rep": false,
+            "o": "소설가",
+            "p": "직업(occupation)",
+            "s": "프랑스"
+        }
+    ]
+}

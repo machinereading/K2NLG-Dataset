@@ -1,0 +1,131 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "화교는 홍콩과 마카오, 타이완에 있는 민족 중 하나이다.",
+    "entities": {
+        "마카오": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마카오"
+        },
+        "중학교": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중학교"
+        },
+        "타이완": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/타이완"
+        },
+        "한나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한나라"
+        },
+        "홍콩": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/홍콩"
+        },
+        "화교": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/화교"
+        }
+    },
+    "id": 5471,
+    "pid": "650-43",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "중학교",
+            "p": "수도(capital)",
+            "s": "한나라"
+        },
+        {
+            "Rep": true,
+            "o": "화교",
+            "p": "민족(ethnicGroup)",
+            "s": "홍콩"
+        },
+        {
+            "Rep": true,
+            "o": "화교",
+            "p": "민족(ethnicGroup)",
+            "s": "마카오"
+        },
+        {
+            "Rep": false,
+            "o": "한나라",
+            "p": "국가(country)",
+            "s": "중학교"
+        },
+        {
+            "Rep": false,
+            "o": "타이완",
+            "p": "있는곳(populationPlace)",
+            "s": "화교"
+        },
+        {
+            "Rep": true,
+            "o": "화교",
+            "p": "민족(ethnicGroup)",
+            "s": "타이완"
+        },
+        {
+            "Rep": false,
+            "o": "마카오",
+            "p": "국가(country)",
+            "s": "홍콩"
+        }
+    ]
+}

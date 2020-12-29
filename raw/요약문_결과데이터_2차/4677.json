@@ -1,0 +1,122 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "손호는 오나라의 지도자이다. 손휴의 후임자는 손호이다. 손휴는 오나라의 지도자이다. 손호는 진나라의 지도자이다. 손호의 후임자는 진완이다. 복양흥은 오나라의 지도자이다.",
+    "entities": {
+        "복양흥": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/복양흥"
+        },
+        "손호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손호"
+        },
+        "손휴": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손휴"
+        },
+        "오": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오_(삼국)"
+        },
+        "진나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/진나라"
+        },
+        "진완": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/진완_(전제)"
+        }
+    },
+    "id": 4677,
+    "pid": "372-10",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "손호",
+            "p": "리더이름(leaderName)",
+            "s": "오"
+        },
+        {
+            "Rep": true,
+            "o": "손호",
+            "p": "계승자/후임(successor)",
+            "s": "손휴"
+        },
+        {
+            "Rep": true,
+            "o": "손휴",
+            "p": "리더이름(leaderName)",
+            "s": "오"
+        },
+        {
+            "Rep": true,
+            "o": "손호",
+            "p": "리더이름(leaderName)",
+            "s": "진나라"
+        },
+        {
+            "Rep": true,
+            "o": "진완",
+            "p": "계승자/후임(successor)",
+            "s": "손호"
+        },
+        {
+            "Rep": true,
+            "o": "복양흥",
+            "p": "리더이름(leaderName)",
+            "s": "오"
+        }
+    ]
+}

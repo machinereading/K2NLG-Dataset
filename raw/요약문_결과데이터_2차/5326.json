@@ -1,0 +1,81 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "대한민국 내무부의 지도자는 정호용이다.",
+    "entities": {
+        "고문": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Disease"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고문"
+        },
+        "대한민국_내무부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_내무부"
+        },
+        "정호용": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정호용"
+        }
+    },
+    "id": 5326,
+    "pid": "592-8",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대한민국_내무부",
+            "p": "직함/포지션(position)",
+            "s": "정호용"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_내무부",
+            "p": "직함/포지션(position)",
+            "s": "고문"
+        },
+        {
+            "Rep": true,
+            "o": "정호용",
+            "p": "지도자(leader)",
+            "s": "대한민국_내무부"
+        },
+        {
+            "Rep": false,
+            "o": "정호용",
+            "p": "전임자(predecessor)",
+            "s": "대한민국_내무부"
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김구, 김석황, 장덕수가 있는 정당은 한국독립당이다. 김구, 김석황이 있는 정당은 한국민주당이다. ",
+    "entities": {
+        "김구": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김구"
+        },
+        "김석황": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김석황"
+        },
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "장덕수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장덕수"
+        },
+        "한국독립당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국독립당"
+        },
+        "한국민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국민주당"
+        }
+    },
+    "id": 5727,
+    "pid": "800-120",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "한국독립당",
+            "p": "정당(party)",
+            "s": "김구"
+        },
+        {
+            "Rep": true,
+            "o": "한국민주당",
+            "p": "정당(party)",
+            "s": "김구"
+        },
+        {
+            "Rep": true,
+            "o": "한국독립당",
+            "p": "정당(party)",
+            "s": "김석황"
+        },
+        {
+            "Rep": true,
+            "o": "한국민주당",
+            "p": "정당(party)",
+            "s": "김석황"
+        },
+        {
+            "Rep": true,
+            "o": "한국독립당",
+            "p": "정당(party)",
+            "s": "장덕수"
+        },
+        {
+            "Rep": false,
+            "o": "김석황",
+            "p": "지도자(leader)",
+            "s": "한국독립당"
+        },
+        {
+            "Rep": false,
+            "o": "김석황",
+            "p": "직함/포지션(position)",
+            "s": "장덕수"
+        },
+        {
+            "Rep": false,
+            "o": "한국민주당",
+            "p": "기원/소속(affiliation)",
+            "s": "한국독립당"
+        },
+        {
+            "Rep": false,
+            "o": "장덕수",
+            "p": "전임자(predecessor)",
+            "s": "김석황"
+        },
+        {
+            "Rep": false,
+            "o": "김구",
+            "p": "전임자(predecessor)",
+            "s": "장덕수"
+        },
+        {
+            "Rep": false,
+            "o": "장덕수",
+            "p": "계승자/후임(successor)",
+            "s": "김성수"
+        }
+    ]
+}

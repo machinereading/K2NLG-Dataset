@@ -1,0 +1,103 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "한국인의 언어는 한국어와 한글이다. 훈민정음의 저자는 조선 세종이다.",
+    "entities": {
+        "조선_세종": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_세종"
+        },
+        "한국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국어"
+        },
+        "한국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국인"
+        },
+        "한글": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한글"
+        },
+        "훈민정음": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/훈민정음"
+        }
+    },
+    "id": 4140,
+    "pid": "280-156",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "한글",
+            "p": "계통(languageFamily)",
+            "s": "한국어"
+        },
+        {
+            "Rep": true,
+            "o": "한국어",
+            "p": "언어(language)",
+            "s": "한국인"
+        },
+        {
+            "Rep": true,
+            "o": "한글",
+            "p": "언어(language)",
+            "s": "한국인"
+        },
+        {
+            "Rep": true,
+            "o": "조선_세종",
+            "p": "저자(author)",
+            "s": "훈민정음"
+        },
+        {
+            "Rep": false,
+            "o": "조선_세종",
+            "p": "저자(author)",
+            "s": "한글"
+        }
+    ]
+}

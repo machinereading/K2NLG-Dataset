@@ -1,0 +1,138 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "칼 세이건은 미국의 지도자였다. 그의 직업은 물리학자이다.",
+    "entities": {
+        "물리학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/물리학자"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "블랙홀": {
+            "ne_type": "LC_SPACE",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/블랙홀"
+        },
+        "알베르트_아인슈타인": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알베르트_아인슈타인"
+        },
+        "천문학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/천문학자"
+        },
+        "칼_세이건": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/칼_세이건"
+        }
+    },
+    "id": 1581,
+    "pid": "275-77",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "블랙홀",
+            "p": "~로알려진(knownFor)",
+            "s": "알베르트_아인슈타인"
+        },
+        {
+            "Rep": true,
+            "o": "칼_세이건",
+            "p": "지도자(leader)",
+            "s": "미국"
+        },
+        {
+            "Rep": true,
+            "o": "물리학자",
+            "p": "직업(occupation)",
+            "s": "칼_세이건"
+        },
+        {
+            "Rep": false,
+            "o": "물리학자",
+            "p": "언어(language)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "천문학자",
+            "p": "~로알려진(knownFor)",
+            "s": "물리학자"
+        },
+        {
+            "Rep": false,
+            "o": "천문학자",
+            "p": "언어(language)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "사망지(deathPlace)",
+            "s": "물리학자"
+        },
+        {
+            "Rep": false,
+            "o": "물리학자",
+            "p": "직업(occupation)",
+            "s": "천문학자"
+        },
+        {
+            "Rep": false,
+            "o": "알베르트_아인슈타인",
+            "p": "저자(author)",
+            "s": "블랙홀"
+        }
+    ]
+}

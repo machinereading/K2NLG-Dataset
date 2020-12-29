@@ -1,0 +1,137 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        }
+    ],
+    "Text": "마크 웨인 클라크는 극동 사령부 소속이다.",
+    "entities": {
+        "극동_사령부": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/극동_사령부_(미국)"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "더글러스_맥아더": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/더글러스_맥아더"
+        },
+        "마크_웨인_클라크": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마크_웨인_클라크"
+        },
+        "매슈_리지웨이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/매슈_리지웨이"
+        },
+        "제임스_밴_플리트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제임스_밴_플리트"
+        },
+        "한국_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/SocietalEvent",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/MilitaryConflict"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국_전쟁"
+        }
+    },
+    "id": 5425,
+    "pid": "644-10",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "마크_웨인_클라크",
+            "p": "지휘관(commander)",
+            "s": "한국_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "매슈_리지웨이",
+            "p": "지휘관(commander)",
+            "s": "한국_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "제임스_밴_플리트",
+            "p": "지휘관(commander)",
+            "s": "한국_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "더글러스_맥아더",
+            "p": "지휘관(commander)",
+            "s": "한국_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "제임스_밴_플리트",
+            "p": "지휘관(commander)",
+            "s": "극동_사령부"
+        },
+        {
+            "Rep": false,
+            "o": "마크_웨인_클라크",
+            "p": "지도자(leader)",
+            "s": "대한민국"
+        },
+        {
+            "Rep": true,
+            "o": "극동_사령부",
+            "p": "직함/포지션(position)",
+            "s": "마크_웨인_클라크"
+        }
+    ]
+}

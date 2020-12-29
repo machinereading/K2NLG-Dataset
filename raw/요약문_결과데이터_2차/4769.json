@@ -1,0 +1,107 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "제주월드컵경기장의 보유자는 제주 유나이티드 FC이다. 그들의 구장은 제주월드컵경기장이다.",
+    "entities": {
+        "FIFA_U-17_월드컵": {
+            "ne_type": "EV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsLeague",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/FIFA_U-17_월드컵"
+        },
+        "FIFA_월드컵": {
+            "ne_type": "EV_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsLeague",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/FIFA_월드컵"
+        },
+        "제주_유나이티드_FC": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/SportsTeam",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/SoccerClub"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제주_유나이티드_FC"
+        },
+        "제주월드컵경기장": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/SportFacility",
+                "http://dbpedia.org/ontology/Stadium",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제주월드컵경기장"
+        }
+    },
+    "id": 4769,
+    "pid": "408-16",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "제주_유나이티드_FC",
+            "p": "입주자/보유자(tenant)",
+            "s": "제주월드컵경기장"
+        },
+        {
+            "Rep": false,
+            "o": "FIFA_U-17_월드컵",
+            "p": "리그(league)",
+            "s": "제주_유나이티드_FC"
+        },
+        {
+            "Rep": false,
+            "o": "제주_유나이티드_FC",
+            "p": "팀(team)",
+            "s": "FIFA_U-17_월드컵"
+        },
+        {
+            "Rep": true,
+            "o": "제주월드컵경기장",
+            "p": "구장(ground)",
+            "s": "제주_유나이티드_FC"
+        },
+        {
+            "Rep": false,
+            "o": "FIFA_월드컵",
+            "p": "리그(league)",
+            "s": "제주_유나이티드_FC"
+        },
+        {
+            "Rep": false,
+            "o": "제주_유나이티드_FC",
+            "p": "팀(team)",
+            "s": "FIFA_월드컵"
+        }
+    ]
+}

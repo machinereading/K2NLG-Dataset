@@ -1,0 +1,147 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "문근영은 청담동 앨리스의 주연이다. 그녀는 바람의 화원 (드라마)의 주연이기도 하다. ",
+    "entities": {
+        "문근영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문근영"
+        },
+        "문화방송_주말연속극": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문화방송_주말연속극"
+        },
+        "바람의_화원_(드라마)": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/TelevisionShow",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바람의_화원_(드라마)"
+        },
+        "박시후": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박시후"
+        },
+        "불의_여신_정이": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/TelevisionShow",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/불의_여신_정이"
+        },
+        "주연_(동오)": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/주연_(동오)"
+        },
+        "청담동_앨리스": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/TelevisionShow",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청담동_앨리스"
+        }
+    },
+    "id": 210,
+    "pid": "183-11",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "청담동_앨리스"
+        },
+        {
+            "Rep": false,
+            "o": "박시후",
+            "p": "주연(starring)",
+            "s": "청담동_앨리스"
+        },
+        {
+            "Rep": true,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "바람의_화원_(드라마)"
+        },
+        {
+            "Rep": false,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "불의_여신_정이"
+        },
+        {
+            "Rep": false,
+            "o": "주연_(동오)",
+            "p": "직업(occupation)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "주연_(동오)",
+            "p": "주연(starring)",
+            "s": "불의_여신_정이"
+        },
+        {
+            "Rep": false,
+            "o": "박시후",
+            "p": "주연(starring)",
+            "s": "문화방송_주말연속극"
+        },
+        {
+            "Rep": false,
+            "o": "바람의_화원_(드라마)",
+            "p": "후속작(subsequentWork)",
+            "s": "불의_여신_정이"
+        },
+        {
+            "Rep": false,
+            "o": "바람의_화원_(드라마)",
+            "p": "유명한작품(notableWork)",
+            "s": "문근영"
+        }
+    ]
+}

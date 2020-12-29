@@ -1,0 +1,185 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "서울특별시 안에 모란차량사업소가 있다. ",
+    "entities": {
+        "고덕차량사업소": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고덕차량사업소"
+        },
+        "까치산역": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RailwayStation",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/까치산역"
+        },
+        "도림천역": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RailwayStation",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도림천역"
+        },
+        "모란차량사업소": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/모란차량사업소"
+        },
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "신도림역": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RailwayStation",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/MetroStation",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신도림역"
+        },
+        "신정네거리역": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Infrastructure",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/RailwayStation",
+                "http://dbpedia.org/ontology/Station",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신정네거리역"
+        }
+    },
+    "id": 5315,
+    "pid": "579-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "모란차량사업소",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "까치산역",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "도림천역",
+            "p": "노선(servingRailwayLine)",
+            "s": "신도림역"
+        },
+        {
+            "Rep": false,
+            "o": "도림천역",
+            "p": "노선(servingRailwayLine)",
+            "s": "신정네거리역"
+        },
+        {
+            "Rep": false,
+            "o": "고덕차량사업소",
+            "p": "부분(part)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "까치산역",
+            "p": "노선(servingRailwayLine)",
+            "s": "도림천역"
+        },
+        {
+            "Rep": false,
+            "o": "도림천역",
+            "p": "노선(servingRailwayLine)",
+            "s": "까치산역"
+        },
+        {
+            "Rep": false,
+            "o": "까치산역",
+            "p": "노선(servingRailwayLine)",
+            "s": "신도림역"
+        },
+        {
+            "Rep": false,
+            "o": "신도림역",
+            "p": "노선(servingRailwayLine)",
+            "s": "도림천역"
+        },
+        {
+            "Rep": false,
+            "o": "신정네거리역",
+            "p": "노선(servingRailwayLine)",
+            "s": "도림천역"
+        },
+        {
+            "Rep": false,
+            "o": "신도림역",
+            "p": "노선(servingRailwayLine)",
+            "s": "신정네거리역"
+        },
+        {
+            "Rep": false,
+            "o": "까치산역",
+            "p": "노선(servingRailwayLine)",
+            "s": "신정네거리역"
+        }
+    ]
+}

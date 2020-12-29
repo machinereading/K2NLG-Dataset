@@ -1,0 +1,130 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "미국에 사는 사람은 미국인이다. 쿠바에는 미국인도 있다. 쿠바와 베트남은 국가 이름이다.",
+    "entities": {
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "미국인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국인"
+        },
+        "베트남": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베트남"
+        },
+        "쿠바": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쿠바"
+        }
+    },
+    "id": 1470,
+    "pid": "235-25",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "미국",
+            "p": "있는곳(populationPlace)",
+            "s": "미국인"
+        },
+        {
+            "Rep": true,
+            "o": "쿠바",
+            "p": "있는곳(populationPlace)",
+            "s": "미국인"
+        },
+        {
+            "Rep": false,
+            "o": "베트남",
+            "p": "있는곳(populationPlace)",
+            "s": "미국인"
+        },
+        {
+            "Rep": true,
+            "o": "베트남",
+            "p": "국가(country)",
+            "s": "쿠바"
+        },
+        {
+            "Rep": false,
+            "o": "베트남",
+            "p": "국가(country)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국인",
+            "p": "민족(ethnicGroup)",
+            "s": "쿠바"
+        },
+        {
+            "Rep": false,
+            "o": "쿠바",
+            "p": "국가(country)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국인",
+            "p": "민족(ethnicGroup)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "쿠바"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "베트남"
+        }
+    ]
+}

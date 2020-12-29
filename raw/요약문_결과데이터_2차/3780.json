@@ -1,0 +1,139 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "파워 디지몬의 장르는 어드벤처 게임이다. 파워 디지몬은 디지몬 어드벤처의 이전 작품이다.",
+    "entities": {
+        "도에이": {
+            "ne_type": "TR_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도에이"
+        },
+        "디지몬_어드벤처": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/디지몬_어드벤처"
+        },
+        "애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "어드벤처_게임": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/어드벤처_게임"
+        },
+        "일본어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본어"
+        },
+        "파워_디지몬": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/파워_디지몬"
+        },
+        "한국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국어"
+        }
+    },
+    "id": 3780,
+    "pid": "187-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "어드벤처_게임",
+            "p": "장르(genre)",
+            "s": "파워_디지몬"
+        },
+        {
+            "Rep": false,
+            "o": "애니메이션",
+            "p": "산업(industry)",
+            "s": "도에이"
+        },
+        {
+            "Rep": false,
+            "o": "디지몬_어드벤처",
+            "p": "제품(product)",
+            "s": "도에이"
+        },
+        {
+            "Rep": false,
+            "o": "디지몬_어드벤처",
+            "p": "제품(product)",
+            "s": "애니메이션"
+        },
+        {
+            "Rep": false,
+            "o": "파워_디지몬",
+            "p": "후속작(subsequentWork)",
+            "s": "어드벤처_게임"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "언어(language)",
+            "s": "파워_디지몬"
+        },
+        {
+            "Rep": true,
+            "o": "파워_디지몬",
+            "p": "이전작품(previousWork)",
+            "s": "디지몬_어드벤처"
+        },
+        {
+            "Rep": false,
+            "o": "일본어",
+            "p": "계통(languageFamily)",
+            "s": "한국어"
+        }
+    ]
+}

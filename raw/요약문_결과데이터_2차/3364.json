@@ -1,0 +1,93 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "이철승은 대한민국 보건사회부 소속이다. 대한민국 보건사회부의 지도자는 이철승이다. ",
+    "entities": {
+        "대한민국_내무부": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_내무부"
+        },
+        "대한민국_보건사회부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_보건사회부"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "이철승": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이철승"
+        }
+    },
+    "id": 3364,
+    "pid": "829-153",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "학력(education)",
+            "s": "이철승"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_내무부",
+            "p": "직함/포지션(position)",
+            "s": "이철승"
+        },
+        {
+            "Rep": true,
+            "o": "이철승",
+            "p": "지도자(leader)",
+            "s": "대한민국_보건사회부"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_보건사회부",
+            "p": "직함/포지션(position)",
+            "s": "이철승"
+        }
+    ]
+}

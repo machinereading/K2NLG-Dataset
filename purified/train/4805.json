@@ -1,0 +1,166 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "산티아고 칼라트라바는 건축가다. 프랭크 로이드 라이트는 건축가다. 윌리스 타워는 존 헨콕 센터에 있다.",
+    "entities": {
+        "건축가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/건축가"
+        },
+        "산티아고_칼라트라바": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Engineer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/산티아고_칼라트라바"
+        },
+        "스페인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인"
+        },
+        "시카고": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시카고"
+        },
+        "아메리카": {
+            "ne_type": "LCG_CONTINENT",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Continent",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아메리카"
+        },
+        "윌리스_타워": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Skyscraper",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윌리스_타워"
+        },
+        "존_핸콕_센터": {
+            "ne_type": "AF_BUILDING",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Skyscraper",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/존_핸콕_센터"
+        },
+        "프랭크_로이드_라이트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Architect"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랭크_로이드_라이트"
+        }
+    },
+    "id": 4805,
+    "pid": "434-30",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "건축가",
+            "p": "직업(occupation)",
+            "s": "산티아고_칼라트라바"
+        },
+        {
+            "Rep": true,
+            "o": "건축가",
+            "p": "직업(occupation)",
+            "s": "프랭크_로이드_라이트"
+        },
+        {
+            "Rep": false,
+            "o": "산티아고_칼라트라바",
+            "p": "지도자(leader)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "스페인",
+            "p": "국가(country)",
+            "s": "건축가"
+        },
+        {
+            "Rep": false,
+            "o": "시카고",
+            "p": "가장큰도시(largestCity)",
+            "s": "건축가"
+        },
+        {
+            "Rep": true,
+            "o": "존_핸콕_센터",
+            "p": "위치/지역(location)",
+            "s": "윌리스_타워"
+        },
+        {
+            "Rep": false,
+            "o": "건축가",
+            "p": "직업(occupation)",
+            "s": "시카고"
+        },
+        {
+            "Rep": false,
+            "o": "건축가",
+            "p": "직업(occupation)",
+            "s": "스페인"
+        },
+        {
+            "Rep": false,
+            "o": "스페인",
+            "p": "국가(country)",
+            "s": "아메리카"
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "영화와 연극의 장르는 재즈다. 연극의 장르는 솔 음악이다. 영화의 장르는 연극이다.",
+    "entities": {
+        "블루스": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/블루스"
+        },
+        "솔_음악": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/솔_음악"
+        },
+        "연극": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/연극"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "재즈": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/재즈"
+        }
+    },
+    "id": 2280,
+    "pid": "434-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "재즈",
+            "p": "장르(genre)",
+            "s": "영화"
+        },
+        {
+            "Rep": true,
+            "o": "재즈",
+            "p": "장르(genre)",
+            "s": "연극"
+        },
+        {
+            "Rep": true,
+            "o": "솔_음악",
+            "p": "장르(genre)",
+            "s": "연극"
+        },
+        {
+            "Rep": true,
+            "o": "연극",
+            "p": "장르(genre)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "솔_음악",
+            "p": "장르(genre)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "블루스",
+            "p": "장르(genre)",
+            "s": "연극"
+        }
+    ]
+}

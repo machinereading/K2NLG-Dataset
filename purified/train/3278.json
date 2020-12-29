@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "지윤의 전임자는 신돈이다. 금의 전임자는 신돈이다.",
+    "entities": {
+        "금": {
+            "ne_type": "MT_METAL",
+            "type": [
+                "http://dbpedia.org/ontology/Currency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/금"
+        },
+        "사형": {
+            "ne_type": "CV_LAW",
+            "type": [
+                "http://dbpedia.org/ontology/Disease"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사형"
+        },
+        "신돈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신돈"
+        },
+        "지윤": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/지윤"
+        }
+    },
+    "id": 3278,
+    "pid": "807-34",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "신돈",
+            "p": "친척(relative)",
+            "s": "사형"
+        },
+        {
+            "Rep": true,
+            "o": "신돈",
+            "p": "전임자(predecessor)",
+            "s": "지윤"
+        },
+        {
+            "Rep": false,
+            "o": "지윤",
+            "p": "계승자/후임(successor)",
+            "s": "신돈"
+        },
+        {
+            "Rep": true,
+            "o": "신돈",
+            "p": "전임자(predecessor)",
+            "s": "금"
+        }
+    ]
+}

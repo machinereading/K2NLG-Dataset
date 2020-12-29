@@ -1,0 +1,143 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이기 (1476년)의 직업은 저술가이다. 그는 윤변과 친척 관계이다. 윤관 역시 그와 친척 관계이다.",
+    "entities": {
+        "김대유_(1991년)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/BaseballPlayer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김대유_(1991년)"
+        },
+        "성수침": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/성수침"
+        },
+        "윤관": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/MilitaryPerson",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤관"
+        },
+        "윤변": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤변"
+        },
+        "이기_(1476년)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/MilitaryPerson",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이기_(1476년)"
+        },
+        "저술가": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/저술가"
+        },
+        "조욱": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조욱"
+        }
+    },
+    "id": 689,
+    "pid": "230-54",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "이기_(1476년)"
+        },
+        {
+            "Rep": true,
+            "o": "윤변",
+            "p": "친척(relative)",
+            "s": "이기_(1476년)"
+        },
+        {
+            "Rep": true,
+            "o": "윤관",
+            "p": "친척(relative)",
+            "s": "이기_(1476년)"
+        },
+        {
+            "Rep": false,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "윤관"
+        },
+        {
+            "Rep": false,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "윤변"
+        },
+        {
+            "Rep": false,
+            "o": "김대유_(1991년)",
+            "p": "계승자/후임(successor)",
+            "s": "조욱"
+        },
+        {
+            "Rep": false,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "성수침"
+        },
+        {
+            "Rep": false,
+            "o": "저술가",
+            "p": "직업(occupation)",
+            "s": "김대유_(1991년)"
+        }
+    ]
+}

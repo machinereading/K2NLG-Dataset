@@ -1,0 +1,180 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김인후는 김요협의 부모다. 그는 한성부의 리더다.",
+    "entities": {
+        "고창군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고창군"
+        },
+        "김요협": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김요협"
+        },
+        "김인후": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김인후"
+        },
+        "원경왕후": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원경왕후"
+        },
+        "장성군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장성군"
+        },
+        "전라남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전라남도"
+        },
+        "전라북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전라북도"
+        },
+        "한성부": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한성부"
+        }
+    },
+    "id": 3196,
+    "pid": "800-11",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김인후",
+            "p": "부모(parent)",
+            "s": "김요협"
+        },
+        {
+            "Rep": false,
+            "o": "전라북도",
+            "p": "~의부분(isPartOf)",
+            "s": "고창군"
+        },
+        {
+            "Rep": false,
+            "o": "전라남도",
+            "p": "~의부분(isPartOf)",
+            "s": "장성군"
+        },
+        {
+            "Rep": false,
+            "o": "고창군",
+            "p": "부분(part)",
+            "s": "전라북도"
+        },
+        {
+            "Rep": false,
+            "o": "장성군",
+            "p": "부분(part)",
+            "s": "전라남도"
+        },
+        {
+            "Rep": false,
+            "o": "김요협",
+            "p": "~의부분(isPartOf)",
+            "s": "고창군"
+        },
+        {
+            "Rep": false,
+            "o": "전라남도",
+            "p": "지역/분양(region)",
+            "s": "한성부"
+        },
+        {
+            "Rep": false,
+            "o": "한성부",
+            "p": "~의부분(isPartOf)",
+            "s": "장성군"
+        },
+        {
+            "Rep": true,
+            "o": "김인후",
+            "p": "리더이름(leaderName)",
+            "s": "한성부"
+        },
+        {
+            "Rep": false,
+            "o": "고창군",
+            "p": "~의부분(isPartOf)",
+            "s": "전라북도"
+        },
+        {
+            "Rep": false,
+            "o": "원경왕후",
+            "p": "계승자/후임(successor)",
+            "s": "김인후"
+        },
+        {
+            "Rep": false,
+            "o": "전라남도",
+            "p": "출생지(birthPlace)",
+            "s": "김인후"
+        },
+        {
+            "Rep": false,
+            "o": "장성군",
+            "p": "행정구역(administrativeDistrict)",
+            "s": "한성부"
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "칼 세이건에 영향을 받은 요하네스 케플러는 걸리버 여행기를 썼다.",
+    "entities": {
+        "걸리버_여행기": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/걸리버_여행기"
+        },
+        "볼테르": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/볼테르"
+        },
+        "사이언스": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/AcademicJournal",
+                "http://dbpedia.org/ontology/PeriodicalLiterature",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사이언스"
+        },
+        "요하네스_케플러": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요하네스_케플러"
+        },
+        "칼_세이건": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/칼_세이건"
+        }
+    },
+    "id": 5037,
+    "pid": "512-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "요하네스_케플러",
+            "p": "영향받은(influencedBy)",
+            "s": "칼_세이건"
+        },
+        {
+            "Rep": true,
+            "o": "요하네스_케플러",
+            "p": "저자(author)",
+            "s": "걸리버_여행기"
+        },
+        {
+            "Rep": false,
+            "o": "걸리버_여행기",
+            "p": "~로알려진(knownFor)",
+            "s": "요하네스_케플러"
+        },
+        {
+            "Rep": false,
+            "o": "볼테르",
+            "p": "저자(author)",
+            "s": "걸리버_여행기"
+        },
+        {
+            "Rep": false,
+            "o": "요하네스_케플러",
+            "p": "저자(author)",
+            "s": "사이언스"
+        },
+        {
+            "Rep": false,
+            "o": "걸리버_여행기",
+            "p": "~로알려진(knownFor)",
+            "s": "볼테르"
+        },
+        {
+            "Rep": false,
+            "o": "볼테르",
+            "p": "영향받은(influencedBy)",
+            "s": "요하네스_케플러"
+        },
+        {
+            "Rep": false,
+            "o": "사이언스",
+            "p": "~로알려진(knownFor)",
+            "s": "요하네스_케플러"
+        },
+        {
+            "Rep": false,
+            "o": "볼테르",
+            "p": "저자(author)",
+            "s": "사이언스"
+        }
+    ]
+}

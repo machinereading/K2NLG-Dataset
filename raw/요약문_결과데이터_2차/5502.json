@@ -1,0 +1,144 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "신라를 이끈 사람은 경덕왕이다. 밀양시는 밀성군의 지역이다.",
+    "entities": {
+        "경덕왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경덕왕"
+        },
+        "고려": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려"
+        },
+        "밀성군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/밀성군"
+        },
+        "밀양시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/밀양시"
+        },
+        "신라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신라"
+        },
+        "조선_태조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_태조"
+        },
+        "창녕군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/창녕군"
+        }
+    },
+    "id": 5502,
+    "pid": "658-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "고려",
+            "p": "출생지(birthPlace)",
+            "s": "조선_태조"
+        },
+        {
+            "Rep": false,
+            "o": "밀성군",
+            "p": "~의부분(isPartOf)",
+            "s": "창녕군"
+        },
+        {
+            "Rep": false,
+            "o": "밀양시",
+            "p": "~의부분(isPartOf)",
+            "s": "밀성군"
+        },
+        {
+            "Rep": false,
+            "o": "밀양시",
+            "p": "~의부분(isPartOf)",
+            "s": "창녕군"
+        },
+        {
+            "Rep": true,
+            "o": "경덕왕",
+            "p": "리더이름(leaderName)",
+            "s": "신라"
+        },
+        {
+            "Rep": false,
+            "o": "조선_태조",
+            "p": "리더이름(leaderName)",
+            "s": "고려"
+        },
+        {
+            "Rep": false,
+            "o": "창녕군",
+            "p": "~의부분(isPartOf)",
+            "s": "밀성군"
+        },
+        {
+            "Rep": true,
+            "o": "밀성군",
+            "p": "지역/분양(region)",
+            "s": "밀양시"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "토스카나 주의 지도자는 요제프 2세다. 토스카나 주를 이끈 사람은 레오폴드 1세다.",
+    "entities": {
+        "레오폴트_1세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레오폴트_1세_(신성_로마_제국)"
+        },
+        "요제프_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Single",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/MusicalWork",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/요제프_2세"
+        },
+        "토스카나_주": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/토스카나_주"
+        }
+    },
+    "id": 2011,
+    "pid": "73-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "요제프_2세",
+            "p": "지도자(leader)",
+            "s": "토스카나_주"
+        },
+        {
+            "Rep": true,
+            "o": "레오폴트_1세",
+            "p": "리더이름(leaderName)",
+            "s": "토스카나_주"
+        },
+        {
+            "Rep": false,
+            "o": "레오폴트_1세",
+            "p": "지도자(leader)",
+            "s": "토스카나_주"
+        }
+    ]
+}

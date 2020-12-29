@@ -1,0 +1,131 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "공명당은 자유민주당 소속이다. ",
+    "entities": {
+        "공명당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공명당"
+        },
+        "민주사회당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민주사회당_(독일)"
+        },
+        "사회당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사회당_(프랑스)"
+        },
+        "일본사회당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본사회당"
+        },
+        "자유민주당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유민주당_(일본)"
+        }
+    },
+    "id": 5675,
+    "pid": "752-18",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "민주사회당",
+            "p": "정당(party)",
+            "s": "사회당"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "공명당"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "민주사회당"
+        },
+        {
+            "Rep": false,
+            "o": "민주사회당",
+            "p": "정당(party)",
+            "s": "공명당"
+        },
+        {
+            "Rep": false,
+            "o": "공명당",
+            "p": "기원/소속(affiliation)",
+            "s": "민주사회당"
+        },
+        {
+            "Rep": false,
+            "o": "일본사회당",
+            "p": "기원/소속(affiliation)",
+            "s": "자유민주당"
+        },
+        {
+            "Rep": false,
+            "o": "자유민주당",
+            "p": "정당(party)",
+            "s": "사회당"
+        },
+        {
+            "Rep": true,
+            "o": "자유민주당",
+            "p": "기원/소속(affiliation)",
+            "s": "공명당"
+        },
+        {
+            "Rep": false,
+            "o": "공명당",
+            "p": "기원/소속(affiliation)",
+            "s": "사회당"
+        }
+    ]
+}

@@ -1,0 +1,198 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "문근영의 직업은 배우이다. 댄서의 순정은 그녀의 유명한작품이다.",
+    "entities": {
+        "SBS_연기대상": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/SBS_연기대상"
+        },
+        "대종상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대종상"
+        },
+        "댄서의_순정": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/댄서의_순정"
+        },
+        "문근영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Actor"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/문근영"
+        },
+        "바람의_화원_(드라마)": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/TelevisionShow",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/바람의_화원_(드라마)"
+        },
+        "배우": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/배우"
+        },
+        "신데렐라_언니": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/TelevisionShow",
+                "http://dbpedia.org/ontology/Work"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신데렐라_언니"
+        },
+        "아카데미_여우주연상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아카데미_여우주연상"
+        },
+        "어린_신부": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/어린_신부"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "청룡영화상": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청룡영화상"
+        },
+        "황금촬영상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/황금촬영상"
+        }
+    },
+    "id": 212,
+    "pid": "183-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "어린_신부"
+        },
+        {
+            "Rep": false,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "댄서의_순정"
+        },
+        {
+            "Rep": true,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "아카데미_여우주연상",
+            "p": "수상(award)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "청룡영화상",
+            "p": "수상(award)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "대종상",
+            "p": "수상(award)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "황금촬영상",
+            "p": "수상(award)",
+            "s": "문근영"
+        },
+        {
+            "Rep": false,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "바람의_화원_(드라마)"
+        },
+        {
+            "Rep": false,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "SBS_연기대상"
+        },
+        {
+            "Rep": false,
+            "o": "배우",
+            "p": "직업(occupation)",
+            "s": "신데렐라_언니"
+        },
+        {
+            "Rep": false,
+            "o": "문근영",
+            "p": "주연(starring)",
+            "s": "영화"
+        },
+        {
+            "Rep": true,
+            "o": "댄서의_순정",
+            "p": "유명한작품(notableWork)",
+            "s": "문근영"
+        }
+    ]
+}

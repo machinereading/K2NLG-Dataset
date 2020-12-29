@@ -1,0 +1,113 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": false
+        }
+    ],
+    "Text": "헨리 3세는 잉글랜드에서 사망했다. 그는 잉글랜드에서 태어났다. 그는 잉글랜드를 이끈 사람이다. 그의 직함은 교황이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "외교관": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/외교관"
+        },
+        "잉글랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잉글랜드"
+        },
+        "헨리_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헨리_3세"
+        }
+    },
+    "id": 1027,
+    "pid": "10-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "잉글랜드",
+            "p": "사망지(deathPlace)",
+            "s": "헨리_3세"
+        },
+        {
+            "Rep": true,
+            "o": "잉글랜드",
+            "p": "출생지(birthPlace)",
+            "s": "헨리_3세"
+        },
+        {
+            "Rep": false,
+            "o": "외교관",
+            "p": "직업(occupation)",
+            "s": "교황"
+        },
+        {
+            "Rep": true,
+            "o": "헨리_3세",
+            "p": "리더이름(leaderName)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": false,
+            "o": "헨리_3세",
+            "p": "리더이름(leaderName)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "외교관",
+            "p": "직업(occupation)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": true,
+            "o": "교황",
+            "p": "직함/포지션(position)",
+            "s": "헨리_3세"
+        }
+    ]
+}

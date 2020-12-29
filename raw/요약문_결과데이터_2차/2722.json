@@ -1,0 +1,154 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 1,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김준엽과 신규식은 친척관계다. 남궁연의 직업은 음악가다. ",
+    "entities": {
+        "김준엽": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김준엽"
+        },
+        "남궁연": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남궁연"
+        },
+        "민필호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/민필호"
+        },
+        "방송": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/방송"
+        },
+        "신규식": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신규식"
+        },
+        "신준호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신준호"
+        },
+        "음악가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/MusicGenre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/음악가"
+        }
+    },
+    "id": 2722,
+    "pid": "541-337",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "민필호",
+            "p": "친척(relative)",
+            "s": "김준엽"
+        },
+        {
+            "Rep": true,
+            "o": "신규식",
+            "p": "친척(relative)",
+            "s": "김준엽"
+        },
+        {
+            "Rep": true,
+            "o": "음악가",
+            "p": "직업(occupation)",
+            "s": "남궁연"
+        },
+        {
+            "Rep": false,
+            "o": "방송",
+            "p": "직업(occupation)",
+            "s": "음악가"
+        },
+        {
+            "Rep": false,
+            "o": "남궁연",
+            "p": "친척(relative)",
+            "s": "음악가"
+        },
+        {
+            "Rep": false,
+            "o": "방송",
+            "p": "직업(occupation)",
+            "s": "남궁연"
+        },
+        {
+            "Rep": false,
+            "o": "신준호",
+            "p": "친척(relative)",
+            "s": "김준엽"
+        },
+        {
+            "Rep": false,
+            "o": "김준엽",
+            "p": "친척(relative)",
+            "s": "민필호"
+        },
+        {
+            "Rep": false,
+            "o": "김준엽",
+            "p": "친척(relative)",
+            "s": "신준호"
+        },
+        {
+            "Rep": false,
+            "o": "남궁연",
+            "p": "현멤버(currentMember)",
+            "s": "음악가"
+        }
+    ]
+}

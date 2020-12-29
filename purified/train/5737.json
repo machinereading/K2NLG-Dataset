@@ -1,0 +1,155 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "김성수의 부모는 김경중이다. 그의 친척은 김요협이다. 김요협의 친척은 김성수이다. 김경중의 친척은 김기중이다. 김경중의 부모는 김요협이다. 김기중의 출생지는 전라북도이다. 김경중의 출생지는 전라북도이다.",
+    "entities": {
+        "고창군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고창군"
+        },
+        "김경중": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김경중_(1863년)"
+        },
+        "김기중": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김기중"
+        },
+        "김성수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김성수_(1891년)"
+        },
+        "김요협": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김요협"
+        },
+        "전라북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전라북도"
+        }
+    },
+    "id": 5737,
+    "pid": "800-14",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김경중",
+            "p": "부모(parent)",
+            "s": "김성수"
+        },
+        {
+            "Rep": true,
+            "o": "김요협",
+            "p": "친척(relative)",
+            "s": "김성수"
+        },
+        {
+            "Rep": true,
+            "o": "김성수",
+            "p": "친척(relative)",
+            "s": "김요협"
+        },
+        {
+            "Rep": true,
+            "o": "김기중",
+            "p": "친척(relative)",
+            "s": "김경중"
+        },
+        {
+            "Rep": true,
+            "o": "김요협",
+            "p": "부모(parent)",
+            "s": "김경중"
+        },
+        {
+            "Rep": false,
+            "o": "김기중",
+            "p": "부모(parent)",
+            "s": "김성수"
+        },
+        {
+            "Rep": false,
+            "o": "고창군",
+            "p": "부분(part)",
+            "s": "전라북도"
+        },
+        {
+            "Rep": false,
+            "o": "김요협",
+            "p": "~의부분(isPartOf)",
+            "s": "고창군"
+        },
+        {
+            "Rep": false,
+            "o": "전라북도",
+            "p": "~의부분(isPartOf)",
+            "s": "고창군"
+        },
+        {
+            "Rep": false,
+            "o": "김성수",
+            "p": "친척(relative)",
+            "s": "김경중"
+        },
+        {
+            "Rep": true,
+            "o": "전라북도",
+            "p": "출생지(birthPlace)",
+            "s": "김기중"
+        },
+        {
+            "Rep": true,
+            "o": "전라북도",
+            "p": "출생지(birthPlace)",
+            "s": "김경중"
+        }
+    ]
+}

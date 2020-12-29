@@ -1,0 +1,150 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "국민정부를 이끄는 사람은 장제스다. 장제스의 뒤를 장쉐량이 이어갔다. ",
+    "entities": {
+        "국민정부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/국민정부"
+        },
+        "베이징_시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베이징_시"
+        },
+        "장쉐량": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장쉐량"
+        },
+        "장제스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장제스"
+        },
+        "중국국민당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중국국민당"
+        }
+    },
+    "id": 5454,
+    "pid": "650-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "장제스",
+            "p": "리더이름(leaderName)",
+            "s": "국민정부"
+        },
+        {
+            "Rep": false,
+            "o": "국민정부",
+            "p": "국가(country)",
+            "s": "베이징_시"
+        },
+        {
+            "Rep": false,
+            "o": "중국국민당",
+            "p": "정당(party)",
+            "s": "장쉐량"
+        },
+        {
+            "Rep": false,
+            "o": "장쉐량",
+            "p": "지도자(leader)",
+            "s": "중국국민당"
+        },
+        {
+            "Rep": false,
+            "o": "장제스",
+            "p": "지도자(leader)",
+            "s": "중국국민당"
+        },
+        {
+            "Rep": false,
+            "o": "장쉐량",
+            "p": "리더이름(leaderName)",
+            "s": "베이징_시"
+        },
+        {
+            "Rep": false,
+            "o": "국민정부",
+            "p": "본부/본사(headquarter)",
+            "s": "중국국민당"
+        },
+        {
+            "Rep": true,
+            "o": "장쉐량",
+            "p": "계승자/후임(successor)",
+            "s": "장제스"
+        },
+        {
+            "Rep": false,
+            "o": "국민정부",
+            "p": "지역/분양(region)",
+            "s": "베이징_시"
+        },
+        {
+            "Rep": false,
+            "o": "중국국민당",
+            "p": "직함/포지션(position)",
+            "s": "장쉐량"
+        },
+        {
+            "Rep": false,
+            "o": "장쉐량",
+            "p": "전임자(predecessor)",
+            "s": "장제스"
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "원주시는 충주시의 한 부분이다. 원주시에는 제천시가 있다.",
+    "entities": {
+        "원주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원주시"
+        },
+        "제천시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제천시"
+        },
+        "충주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/충주시"
+        }
+    },
+    "id": 2810,
+    "pid": "595-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "충주시",
+            "p": "~의부분(isPartOf)",
+            "s": "원주시"
+        },
+        {
+            "Rep": false,
+            "o": "제천시",
+            "p": "부분(part)",
+            "s": "충주시"
+        },
+        {
+            "Rep": true,
+            "o": "제천시",
+            "p": "부분(part)",
+            "s": "원주시"
+        },
+        {
+            "Rep": false,
+            "o": "제천시",
+            "p": "~의부분(isPartOf)",
+            "s": "원주시"
+        },
+        {
+            "Rep": false,
+            "o": "충주시",
+            "p": "~의부분(isPartOf)",
+            "s": "제천시"
+        },
+        {
+            "Rep": false,
+            "o": "원주시",
+            "p": "~의부분(isPartOf)",
+            "s": "충주시"
+        },
+        {
+            "Rep": false,
+            "o": "원주시",
+            "p": "~의부분(isPartOf)",
+            "s": "제천시"
+        },
+        {
+            "Rep": false,
+            "o": "제천시",
+            "p": "~의부분(isPartOf)",
+            "s": "충주시"
+        },
+        {
+            "Rep": false,
+            "o": "충주시",
+            "p": "도시(city)",
+            "s": "원주시"
+        },
+        {
+            "Rep": false,
+            "o": "원주시",
+            "p": "수도(capital)",
+            "s": "충주시"
+        },
+        {
+            "Rep": false,
+            "o": "제천시",
+            "p": "도시(city)",
+            "s": "원주시"
+        }
+    ]
+}

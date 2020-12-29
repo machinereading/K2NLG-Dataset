@@ -1,0 +1,105 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "사천시는 경상남도 지역이다. 사천시 안에 고성군이 있다. ",
+    "entities": {
+        "경상남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상남도"
+        },
+        "고성군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고성군_(경상남도)"
+        },
+        "대한민국_기상청": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_기상청"
+        },
+        "사천시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사천시"
+        }
+    },
+    "id": 5651,
+    "pid": "735-29",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "경상남도",
+            "p": "지역/분양(region)",
+            "s": "사천시"
+        },
+        {
+            "Rep": true,
+            "o": "고성군",
+            "p": "부분(part)",
+            "s": "사천시"
+        },
+        {
+            "Rep": false,
+            "o": "고성군",
+            "p": "부분(part)",
+            "s": "경상남도"
+        },
+        {
+            "Rep": false,
+            "o": "경상남도",
+            "p": "위치/지역(location)",
+            "s": "대한민국_기상청"
+        },
+        {
+            "Rep": false,
+            "o": "고성군",
+            "p": "지역/분양(region)",
+            "s": "사천시"
+        },
+        {
+            "Rep": false,
+            "o": "경상남도",
+            "p": "지역/분양(region)",
+            "s": "고성군"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "한라산은 서귀포시에 위치하며, 또한 제주시에도 위치한다.",
+    "entities": {
+        "서귀포시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서귀포시"
+        },
+        "제주시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제주시"
+        },
+        "한라산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Volcano",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한라산"
+        }
+    },
+    "id": 2246,
+    "pid": "408-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "서귀포시",
+            "p": "있는곳(locatedInArea)",
+            "s": "한라산"
+        },
+        {
+            "Rep": false,
+            "o": "서귀포시",
+            "p": "~의부분(isPartOf)",
+            "s": "제주시"
+        },
+        {
+            "Rep": false,
+            "o": "제주시",
+            "p": "~의부분(isPartOf)",
+            "s": "서귀포시"
+        },
+        {
+            "Rep": true,
+            "o": "제주시",
+            "p": "있는곳(locatedInArea)",
+            "s": "한라산"
+        }
+    ]
+}

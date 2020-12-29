@@ -1,0 +1,150 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이묘묵은 파리의 리더이다. 그는 유엔 총회에 속해 있다. 그의 계승자는 전규홍이다.",
+    "entities": {
+        "유엔_총회": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유엔_총회"
+        },
+        "이묘묵": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이묘묵"
+        },
+        "임병직": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/임병직"
+        },
+        "전규홍": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전규홍"
+        },
+        "파리": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/파리_(프랑스)"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 3523,
+    "pid": "833-91",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "국가(country)",
+            "s": "파리"
+        },
+        {
+            "Rep": false,
+            "o": "임병직",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "이묘묵",
+            "p": "리더이름(leaderName)",
+            "s": "파리"
+        },
+        {
+            "Rep": true,
+            "o": "유엔_총회",
+            "p": "직함/포지션(position)",
+            "s": "이묘묵"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스",
+            "p": "위치/지역(location)",
+            "s": "유엔_총회"
+        },
+        {
+            "Rep": true,
+            "o": "전규홍",
+            "p": "계승자/후임(successor)",
+            "s": "이묘묵"
+        },
+        {
+            "Rep": false,
+            "o": "파리",
+            "p": "위치/지역(location)",
+            "s": "유엔_총회"
+        },
+        {
+            "Rep": false,
+            "o": "이묘묵",
+            "p": "계승자/후임(successor)",
+            "s": "임병직"
+        },
+        {
+            "Rep": false,
+            "o": "이묘묵",
+            "p": "전임자(predecessor)",
+            "s": "전규홍"
+        },
+        {
+            "Rep": false,
+            "o": "임병직",
+            "p": "전임자(predecessor)",
+            "s": "이묘묵"
+        },
+        {
+            "Rep": false,
+            "o": "파리",
+            "p": "사망지(deathPlace)",
+            "s": "이묘묵"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "헨리 3세는 잉글랜드에서 사망했다. 그는 시칠리아 왕국을 이끌었다. 그는 잉글랜드의 지도자였다.",
+    "entities": {
+        "교황_인노첸시오_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_인노첸시오_4세"
+        },
+        "교황령": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황령"
+        },
+        "샤를_2세_(프로방스)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Noble"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/샤를_2세_(프로방스)"
+        },
+        "시칠리아_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시칠리아_왕국"
+        },
+        "잉글랜드": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/잉글랜드"
+        },
+        "제1대_요크_공작_랭글리의_에드먼드": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제1대_요크_공작_랭글리의_에드먼드"
+        },
+        "헨리_3세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/헨리_3세"
+        }
+    },
+    "id": 413,
+    "pid": "4-25",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "잉글랜드",
+            "p": "사망지(deathPlace)",
+            "s": "헨리_3세"
+        },
+        {
+            "Rep": true,
+            "o": "헨리_3세",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "교황_인노첸시오_4세",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "샤를_2세_(프로방스)",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "교황_인노첸시오_4세",
+            "p": "리더이름(leaderName)",
+            "s": "교황령"
+        },
+        {
+            "Rep": false,
+            "o": "제1대_요크_공작_랭글리의_에드먼드",
+            "p": "리더이름(leaderName)",
+            "s": "시칠리아_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "잉글랜드",
+            "p": "위치/지역(location)",
+            "s": "시칠리아_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "샤를_2세_(프로방스)",
+            "p": "지도자(leader)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": false,
+            "o": "제1대_요크_공작_랭글리의_에드먼드",
+            "p": "지도자(leader)",
+            "s": "잉글랜드"
+        },
+        {
+            "Rep": true,
+            "o": "헨리_3세",
+            "p": "지도자(leader)",
+            "s": "잉글랜드"
+        }
+    ]
+}

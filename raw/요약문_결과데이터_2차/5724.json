@@ -1,0 +1,85 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "이철승의 전임자는 조소앙 김구이다. 조소앙의 전임자는 김구이다.",
+    "entities": {
+        "김구": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김구"
+        },
+        "이철승": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이철승"
+        },
+        "조소앙": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조소앙"
+        }
+    },
+    "id": 5724,
+    "pid": "800-117",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "조소앙",
+            "p": "전임자(predecessor)",
+            "s": "이철승"
+        },
+        {
+            "Rep": true,
+            "o": "김구",
+            "p": "전임자(predecessor)",
+            "s": "이철승"
+        },
+        {
+            "Rep": true,
+            "o": "김구",
+            "p": "전임자(predecessor)",
+            "s": "조소앙"
+        },
+        {
+            "Rep": false,
+            "o": "조소앙",
+            "p": "전임자(predecessor)",
+            "s": "김구"
+        }
+    ]
+}

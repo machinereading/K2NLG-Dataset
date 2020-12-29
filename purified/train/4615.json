@@ -1,0 +1,106 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "라이스버거는 빵이다. 햄버거는 샌드위치다. 베지 버거는 샌위치다.",
+    "entities": {
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "라이스버거": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라이스버거"
+        },
+        "베지_버거": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베지_버거"
+        },
+        "빵": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/빵"
+        },
+        "샌드위치": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/샌드위치"
+        },
+        "햄버거": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/햄버거"
+        }
+    },
+    "id": 4615,
+    "pid": "322-4",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "라이스버거",
+            "p": "타입/종류(type)",
+            "s": "빵"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "빵"
+        },
+        {
+            "Rep": false,
+            "o": "햄버거",
+            "p": "타입/종류(type)",
+            "s": "샌드위치"
+        },
+        {
+            "Rep": true,
+            "o": "샌드위치",
+            "p": "타입/종류(type)",
+            "s": "햄버거"
+        },
+        {
+            "Rep": true,
+            "o": "샌드위치",
+            "p": "타입/종류(type)",
+            "s": "베지_버거"
+        }
+    ]
+}

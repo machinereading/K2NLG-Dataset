@@ -1,0 +1,178 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "박순자가 있는 정당은 새누리당이다. 그의 직업은 기자다. 그는 새누리당의 지도자이다.",
+    "entities": {
+        "권양숙": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/권양숙"
+        },
+        "기자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/기자_(직업)"
+        },
+        "노무현": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노무현"
+        },
+        "박순자": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/OfficeHolder"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박순자"
+        },
+        "박연차": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박연차"
+        },
+        "새누리당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/새누리당"
+        },
+        "이호철": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이호철"
+        },
+        "정윤재": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정윤재"
+        },
+        "청와대": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청와대"
+        }
+    },
+    "id": 1048,
+    "pid": "114-102",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "새누리당",
+            "p": "정당(party)",
+            "s": "박순자"
+        },
+        {
+            "Rep": false,
+            "o": "권양숙",
+            "p": "배우자(spouse)",
+            "s": "노무현"
+        },
+        {
+            "Rep": false,
+            "o": "노무현",
+            "p": "배우자(spouse)",
+            "s": "권양숙"
+        },
+        {
+            "Rep": false,
+            "o": "박연차",
+            "p": "배우자(spouse)",
+            "s": "권양숙"
+        },
+        {
+            "Rep": true,
+            "o": "기자",
+            "p": "직업(occupation)",
+            "s": "박순자"
+        },
+        {
+            "Rep": true,
+            "o": "박순자",
+            "p": "지도자(leader)",
+            "s": "새누리당"
+        },
+        {
+            "Rep": false,
+            "o": "기자",
+            "p": "지도자(leader)",
+            "s": "새누리당"
+        },
+        {
+            "Rep": false,
+            "o": "박연차",
+            "p": "소유자/주주(owner)",
+            "s": "청와대"
+        },
+        {
+            "Rep": false,
+            "o": "이호철",
+            "p": "전임자(predecessor)",
+            "s": "정윤재"
+        },
+        {
+            "Rep": false,
+            "o": "권양숙",
+            "p": "전임자(predecessor)",
+            "s": "노무현"
+        },
+        {
+            "Rep": false,
+            "o": "박순자",
+            "p": "지도자(leader)",
+            "s": "기자"
+        }
+    ]
+}

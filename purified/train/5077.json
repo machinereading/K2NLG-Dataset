@@ -1,0 +1,88 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "진서의 저자는 나쓰메 소세키 이다.",
+    "entities": {
+        "나쓰메_소세키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/나쓰메_소세키"
+        },
+        "진서": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Book",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/진서"
+        },
+        "한문": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한문"
+        }
+    },
+    "id": 5077,
+    "pid": "533-7",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "진서",
+            "p": "~로알려진(knownFor)",
+            "s": "나쓰메_소세키"
+        },
+        {
+            "Rep": false,
+            "o": "진서",
+            "p": "유명한작품(notableWork)",
+            "s": "나쓰메_소세키"
+        },
+        {
+            "Rep": false,
+            "o": "한문",
+            "p": "~로알려진(knownFor)",
+            "s": "나쓰메_소세키"
+        },
+        {
+            "Rep": true,
+            "o": "나쓰메_소세키",
+            "p": "저자(author)",
+            "s": "진서"
+        },
+        {
+            "Rep": false,
+            "o": "한문",
+            "p": "언어(language)",
+            "s": "나쓰메_소세키"
+        }
+    ]
+}

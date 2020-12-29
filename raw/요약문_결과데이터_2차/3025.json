@@ -1,0 +1,122 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 3,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "고트프리트 빌헬름 라이프니츠는 크리스티안 하위헌스에게 영향을 받았다. 아이작 뉴턴은 갈릴레오 갈릴레이와 크리스티안 하위헌스에게 영향받았다.",
+    "entities": {
+        "갈릴레오_갈릴레이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/갈릴레오_갈릴레이"
+        },
+        "고트프리트_빌헬름_라이프니츠": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Philosopher",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고트프리트_빌헬름_라이프니츠"
+        },
+        "레온하르트_오일러": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레온하르트_오일러"
+        },
+        "아이작_뉴턴": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아이작_뉴턴"
+        },
+        "알베르트_아인슈타인": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알베르트_아인슈타인"
+        },
+        "크리스티안_하위헌스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/크리스티안_하위헌스"
+        }
+    },
+    "id": 3025,
+    "pid": "676-12",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "크리스티안_하위헌스",
+            "p": "영향받은(influencedBy)",
+            "s": "고트프리트_빌헬름_라이프니츠"
+        },
+        {
+            "Rep": true,
+            "o": "갈릴레오_갈릴레이",
+            "p": "영향받은(influencedBy)",
+            "s": "아이작_뉴턴"
+        },
+        {
+            "Rep": false,
+            "o": "레온하르트_오일러",
+            "p": "영향받은(influenced)",
+            "s": "크리스티안_하위헌스"
+        },
+        {
+            "Rep": false,
+            "o": "레온하르트_오일러",
+            "p": "영향받은(influenced)",
+            "s": "고트프리트_빌헬름_라이프니츠"
+        },
+        {
+            "Rep": false,
+            "o": "알베르트_아인슈타인",
+            "p": "영향받은(influenced)",
+            "s": "크리스티안_하위헌스"
+        },
+        {
+            "Rep": true,
+            "o": "크리스티안_하위헌스",
+            "p": "영향받은(influencedBy)",
+            "s": "아이작_뉴턴"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "마원은 저장 성에서 사망했다. 그는 저장 성의 리더였다.",
+    "entities": {
+        "대진": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대진_(청나라)"
+        },
+        "마원": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마원_(후한)"
+        },
+        "시조": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시조"
+        },
+        "저장_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/저장_성"
+        },
+        "하규": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/하규"
+        }
+    },
+    "id": 1592,
+    "pid": "276-47",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "시조",
+            "p": "직업(occupation)",
+            "s": "대진"
+        },
+        {
+            "Rep": false,
+            "o": "시조",
+            "p": "직업(occupation)",
+            "s": "마원"
+        },
+        {
+            "Rep": false,
+            "o": "시조",
+            "p": "직업(occupation)",
+            "s": "하규"
+        },
+        {
+            "Rep": true,
+            "o": "저장_성",
+            "p": "사망지(deathPlace)",
+            "s": "마원"
+        },
+        {
+            "Rep": true,
+            "o": "마원",
+            "p": "리더이름(leaderName)",
+            "s": "저장_성"
+        },
+        {
+            "Rep": false,
+            "o": "저장_성",
+            "p": "출생지(birthPlace)",
+            "s": "대진"
+        }
+    ]
+}

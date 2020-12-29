@@ -1,0 +1,124 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "조선 태조의 배우자는 최영이다. 최영과 이인임은 친척관계다. ",
+    "entities": {
+        "고려_우왕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려_우왕"
+        },
+        "염흥방": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/염흥방"
+        },
+        "이인임": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이인임"
+        },
+        "조선_태조": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선_태조"
+        },
+        "최영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/최영"
+        }
+    },
+    "id": 3290,
+    "pid": "808-4",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "고려_우왕",
+            "p": "친척(relative)",
+            "s": "이인임"
+        },
+        {
+            "Rep": false,
+            "o": "염흥방",
+            "p": "자식(child)",
+            "s": "조선_태조"
+        },
+        {
+            "Rep": false,
+            "o": "최영",
+            "p": "친척(relative)",
+            "s": "이인임"
+        },
+        {
+            "Rep": true,
+            "o": "이인임",
+            "p": "친척(relative)",
+            "s": "최영"
+        },
+        {
+            "Rep": true,
+            "o": "최영",
+            "p": "배우자(spouse)",
+            "s": "조선_태조"
+        },
+        {
+            "Rep": false,
+            "o": "조선_태조",
+            "p": "친척(relative)",
+            "s": "이인임"
+        },
+        {
+            "Rep": false,
+            "o": "최영",
+            "p": "전임자(predecessor)",
+            "s": "고려_우왕"
+        },
+        {
+            "Rep": false,
+            "o": "조선_태조",
+            "p": "배우자(spouse)",
+            "s": "최영"
+        }
+    ]
+}

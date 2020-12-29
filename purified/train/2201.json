@@ -1,0 +1,124 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "존 바딘은 트랜지스터로 알려졌다. 그는 노벨 물리학상을 수상했다.",
+    "entities": {
+        "노벨_물리학상": {
+            "ne_type": "CV_PRIZE",
+            "type": [
+                "http://dbpedia.org/ontology/NobelPrize",
+                "http://dbpedia.org/ontology/Award"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노벨_물리학상"
+        },
+        "물리학자": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/물리학자"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "월터_하우저_브래튼": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/월터_하우저_브래튼"
+        },
+        "존_바딘": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/존_바딘"
+        },
+        "트랜지스터": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/트랜지스터"
+        }
+    },
+    "id": 2201,
+    "pid": "384-1",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "트랜지스터",
+            "p": "~로알려진(knownFor)",
+            "s": "월터_하우저_브래튼"
+        },
+        {
+            "Rep": true,
+            "o": "트랜지스터",
+            "p": "~로알려진(knownFor)",
+            "s": "존_바딘"
+        },
+        {
+            "Rep": true,
+            "o": "노벨_물리학상",
+            "p": "수상(award)",
+            "s": "존_바딘"
+        },
+        {
+            "Rep": false,
+            "o": "노벨_물리학상",
+            "p": "수상(award)",
+            "s": "월터_하우저_브래튼"
+        },
+        {
+            "Rep": false,
+            "o": "노벨_물리학상",
+            "p": "~로알려진(knownFor)",
+            "s": "존_바딘"
+        },
+        {
+            "Rep": false,
+            "o": "노벨_물리학상",
+            "p": "~로알려진(knownFor)",
+            "s": "월터_하우저_브래튼"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국적(nationality)",
+            "s": "물리학자"
+        }
+    ]
+}

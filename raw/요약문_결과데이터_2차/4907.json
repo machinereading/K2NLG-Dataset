@@ -1,0 +1,102 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "프랑크 왕국을 이끈 사람은 카롤루스 대제다. 그의 부모는 아르눌프 케른텐이다.",
+    "entities": {
+        "독일어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/독일어"
+        },
+        "아르눌프_폰_케른텐": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아르눌프_폰_케른텐"
+        },
+        "카롤루스_대제": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/카롤루스_대제"
+        },
+        "프랑스어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스어"
+        },
+        "프랑크_왕국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑크_왕국"
+        }
+    },
+    "id": 4907,
+    "pid": "474-18",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "카롤루스_대제",
+            "p": "리더이름(leaderName)",
+            "s": "프랑크_왕국"
+        },
+        {
+            "Rep": false,
+            "o": "독일어",
+            "p": "계통(languageFamily)",
+            "s": "프랑스어"
+        },
+        {
+            "Rep": false,
+            "o": "프랑스어",
+            "p": "계통(languageFamily)",
+            "s": "독일어"
+        },
+        {
+            "Rep": true,
+            "o": "아르눌프_폰_케른텐",
+            "p": "부모(parent)",
+            "s": "카롤루스_대제"
+        }
+    ]
+}

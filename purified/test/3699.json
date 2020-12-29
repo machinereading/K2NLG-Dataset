@@ -1,0 +1,95 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "모토로라 인코퍼레이티드의 모기업은 레노버다.",
+    "entities": {
+        "구글": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/구글"
+        },
+        "레노버": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/레노버"
+        },
+        "모토로라_인코퍼레이티드": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/모토로라_인코퍼레이티드"
+        }
+    },
+    "id": 3699,
+    "pid": "159-9",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "모토로라_인코퍼레이티드",
+            "p": "모기업(parentCompany)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "모토로라_인코퍼레이티드",
+            "p": "모기업(parentCompany)",
+            "s": "레노버"
+        },
+        {
+            "Rep": false,
+            "o": "구글",
+            "p": "모기업(parentCompany)",
+            "s": "모토로라_인코퍼레이티드"
+        },
+        {
+            "Rep": false,
+            "o": "구글",
+            "p": "모기업(parentCompany)",
+            "s": "레노버"
+        },
+        {
+            "Rep": true,
+            "o": "레노버",
+            "p": "모기업(parentCompany)",
+            "s": "모토로라_인코퍼레이티드"
+        },
+        {
+            "Rep": false,
+            "o": "레노버",
+            "p": "모기업(parentCompany)",
+            "s": "구글"
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "윤두수의 친척은 윤근수이다. 윤근수의 친척은 윤두수이다.",
+    "entities": {
+        "윤근수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤근수"
+        },
+        "윤두수": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤두수"
+        },
+        "윤보선": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤보선"
+        },
+        "윤흔": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/윤흔"
+        }
+    },
+    "id": 5260,
+    "pid": "541-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "윤근수",
+            "p": "친척(relative)",
+            "s": "윤두수"
+        },
+        {
+            "Rep": true,
+            "o": "윤두수",
+            "p": "친척(relative)",
+            "s": "윤근수"
+        },
+        {
+            "Rep": false,
+            "o": "윤흔",
+            "p": "친척(relative)",
+            "s": "윤근수"
+        },
+        {
+            "Rep": false,
+            "o": "윤근수",
+            "p": "친척(relative)",
+            "s": "윤보선"
+        },
+        {
+            "Rep": false,
+            "o": "윤두수",
+            "p": "친척(relative)",
+            "s": "윤보선"
+        }
+    ]
+}

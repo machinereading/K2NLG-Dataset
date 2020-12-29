@@ -1,0 +1,137 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        }
+    ],
+    "Text": "앙리 4세와 펠리페 2세는 위그노 전쟁에 참전한 지휘관이다. 프랑스의 지도자는 앙리 4세다.",
+    "entities": {
+        "교황_인노첸시오_9세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_인노첸시오_9세"
+        },
+        "앙리_4세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/앙리_4세"
+        },
+        "위그노_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/위그노_전쟁"
+        },
+        "펠리페_2세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/펠리페_2세"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 1915,
+    "pid": "53-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "앙리_4세",
+            "p": "지휘관(commander)",
+            "s": "위그노_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "펠리페_2세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "펠리페_2세",
+            "p": "지휘관(commander)",
+            "s": "위그노_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "앙리_4세",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "교황_인노첸시오_9세",
+            "p": "지휘관(commander)",
+            "s": "위그노_전쟁"
+        },
+        {
+            "Rep": false,
+            "o": "위그노_전쟁",
+            "p": "전투(battle)",
+            "s": "교황_인노첸시오_9세"
+        },
+        {
+            "Rep": false,
+            "o": "펠리페_2세",
+            "p": "리더이름(leaderName)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "교황_인노첸시오_9세",
+            "p": "리더이름(leaderName)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "앙리_4세",
+            "p": "리더이름(leaderName)",
+            "s": "프랑스"
+        }
+    ]
+}

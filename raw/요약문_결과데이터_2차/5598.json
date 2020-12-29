@@ -1,0 +1,117 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "흑인은 유럽인과 관련되있다. 유럽인은 흑인과 관련되있다.",
+    "entities": {
+        "군인": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/군인"
+        },
+        "러시아": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아"
+        },
+        "몽골": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몽골"
+        },
+        "유럽인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유럽인"
+        },
+        "흑인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/흑인"
+        }
+    },
+    "id": 5598,
+    "pid": "709-25",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "유럽인",
+            "p": "관련되(related)",
+            "s": "흑인"
+        },
+        {
+            "Rep": false,
+            "o": "러시아",
+            "p": "국가(country)",
+            "s": "몽골"
+        },
+        {
+            "Rep": true,
+            "o": "흑인",
+            "p": "관련되(related)",
+            "s": "유럽인"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "민족(ethnicGroup)",
+            "s": "몽골"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "민족(ethnicGroup)",
+            "s": "러시아"
+        },
+        {
+            "Rep": false,
+            "o": "군인",
+            "p": "국가(country)",
+            "s": "몽골"
+        },
+        {
+            "Rep": false,
+            "o": "몽골",
+            "p": "국가(country)",
+            "s": "러시아"
+        }
+    ]
+}

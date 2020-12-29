@@ -1,0 +1,126 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "장제스의 전임자인 장쉐량은 만주를 이끈 사람이다. ",
+    "entities": {
+        "관동군": {
+            "ne_type": "OGG_MILITARY",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryUnit",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/관동군"
+        },
+        "내몽골_자치구": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/내몽골_자치구"
+        },
+        "만주": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주"
+        },
+        "몽골족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몽골족"
+        },
+        "장쉐량": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MilitaryPerson"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장쉐량"
+        },
+        "장제스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/장제스"
+        }
+    },
+    "id": 2418,
+    "pid": "480-17",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "몽골족",
+            "p": "~의부분(isPartOf)",
+            "s": "내몽골_자치구"
+        },
+        {
+            "Rep": false,
+            "o": "관동군",
+            "p": "~의부분(isPartOf)",
+            "s": "내몽골_자치구"
+        },
+        {
+            "Rep": false,
+            "o": "내몽골_자치구",
+            "p": "있는곳(populationPlace)",
+            "s": "몽골족"
+        },
+        {
+            "Rep": true,
+            "o": "장쉐량",
+            "p": "리더이름(leaderName)",
+            "s": "만주"
+        },
+        {
+            "Rep": false,
+            "o": "내몽골_자치구",
+            "p": "본부/본사(headquarter)",
+            "s": "관동군"
+        },
+        {
+            "Rep": true,
+            "o": "장쉐량",
+            "p": "전임자(predecessor)",
+            "s": "장제스"
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "오사카는 에도에 속한다. 오사카는 에도에서 가장 큰 도시다. ",
+    "entities": {
+        "교토": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교토"
+        },
+        "도쿠가와_이에모치": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿠가와_이에모치"
+        },
+        "미즈노_다다마사": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미즈노_다다마사"
+        },
+        "에도": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/에도"
+        },
+        "오가사와라_나가유키": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오가사와라_나가유키"
+        },
+        "오사카": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오사카"
+        },
+        "조정은": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조정은_(1979년)"
+        }
+    },
+    "id": 2829,
+    "pid": "611-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "오가사와라_나가유키",
+            "p": "~의부분(isPartOf)",
+            "s": "오사카"
+        },
+        {
+            "Rep": false,
+            "o": "도쿠가와_이에모치",
+            "p": "~의부분(isPartOf)",
+            "s": "교토"
+        },
+        {
+            "Rep": true,
+            "o": "오사카",
+            "p": "가장큰도시(largestCity)",
+            "s": "에도"
+        },
+        {
+            "Rep": false,
+            "o": "오사카",
+            "p": "가장큰도시(largestCity)",
+            "s": "교토"
+        },
+        {
+            "Rep": false,
+            "o": "미즈노_다다마사",
+            "p": "~의부분(isPartOf)",
+            "s": "교토"
+        },
+        {
+            "Rep": true,
+            "o": "에도",
+            "p": "~의부분(isPartOf)",
+            "s": "오사카"
+        },
+        {
+            "Rep": false,
+            "o": "도쿠가와_이에모치",
+            "p": "~의부분(isPartOf)",
+            "s": "오사카"
+        },
+        {
+            "Rep": false,
+            "o": "교토",
+            "p": "지역/분양(region)",
+            "s": "오사카"
+        },
+        {
+            "Rep": false,
+            "o": "조정은",
+            "p": "직함/포지션(position)",
+            "s": "도쿠가와_이에모치"
+        },
+        {
+            "Rep": false,
+            "o": "오사카",
+            "p": "주소(address)",
+            "s": "오가사와라_나가유키"
+        },
+        {
+            "Rep": false,
+            "o": "오사카",
+            "p": "주소(address)",
+            "s": "에도"
+        }
+    ]
+}

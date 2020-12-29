@@ -1,0 +1,109 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "오삼계는 삼번의 난을 지휘했다. 그는 오(삼국)의 지도자였다. 오세번은 오(삼국)의 지도자였다. 오(삼국)의 수도는 쿤밍 시다. 삼번의 난은 오(삼국)에서 발생했다.",
+    "entities": {
+        "삼번의_난": {
+            "ne_type": "EV_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/삼번의_난"
+        },
+        "오_(삼국)": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오_(삼국)"
+        },
+        "오삼계": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오삼계"
+        },
+        "오세번": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오세번"
+        },
+        "쿤밍_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쿤밍_시"
+        }
+    },
+    "id": 288,
+    "pid": "197-7",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "오삼계",
+            "p": "지휘관(commander)",
+            "s": "삼번의_난"
+        },
+        {
+            "Rep": true,
+            "o": "오삼계",
+            "p": "리더이름(leaderName)",
+            "s": "오_(삼국)"
+        },
+        {
+            "Rep": true,
+            "o": "오세번",
+            "p": "리더이름(leaderName)",
+            "s": "오_(삼국)"
+        },
+        {
+            "Rep": true,
+            "o": "쿤밍_시",
+            "p": "수도(capital)",
+            "s": "오_(삼국)"
+        },
+        {
+            "Rep": true,
+            "o": "오_(삼국)",
+            "p": "장소(place)",
+            "s": "삼번의_난"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "석적읍은 칠곡군의 지역이다. 석적읍은 칠곡군에 속한다. ",
+    "entities": {
+        "석적읍": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/석적읍"
+        },
+        "칠곡군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/칠곡군"
+        }
+    },
+    "id": 5493,
+    "pid": "654-11",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "칠곡군",
+            "p": "~의부분(isPartOf)",
+            "s": "석적읍"
+        },
+        {
+            "Rep": false,
+            "o": "석적읍",
+            "p": "~의부분(isPartOf)",
+            "s": "칠곡군"
+        },
+        {
+            "Rep": true,
+            "o": "칠곡군",
+            "p": "지역/분양(region)",
+            "s": "석적읍"
+        }
+    ]
+}

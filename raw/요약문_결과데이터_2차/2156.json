@@ -1,0 +1,154 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        }
+    ],
+    "Text": "육손은 오의 리더이다. 그는 촉한의 리더이기도 하다.",
+    "entities": {
+        "감녕": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/감녕"
+        },
+        "노숙": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/노숙"
+        },
+        "서성": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서성"
+        },
+        "손권": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/손권"
+        },
+        "오": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오_(삼국)"
+        },
+        "유비": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유비"
+        },
+        "육손": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/육손"
+        },
+        "촉한": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/촉한"
+        }
+    },
+    "id": 2156,
+    "pid": "372-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "오",
+            "p": "전임자(predecessor)",
+            "s": "손권"
+        },
+        {
+            "Rep": false,
+            "o": "손권",
+            "p": "리더이름(leaderName)",
+            "s": "오"
+        },
+        {
+            "Rep": false,
+            "o": "유비",
+            "p": "리더이름(leaderName)",
+            "s": "촉한"
+        },
+        {
+            "Rep": false,
+            "o": "유비",
+            "p": "리더이름(leaderName)",
+            "s": "오"
+        },
+        {
+            "Rep": true,
+            "o": "육손",
+            "p": "리더이름(leaderName)",
+            "s": "오"
+        },
+        {
+            "Rep": true,
+            "o": "육손",
+            "p": "리더이름(leaderName)",
+            "s": "촉한"
+        },
+        {
+            "Rep": false,
+            "o": "서성",
+            "p": "거주지(residence)",
+            "s": "노숙"
+        },
+        {
+            "Rep": false,
+            "o": "손권",
+            "p": "적(opponent)",
+            "s": "감녕"
+        }
+    ]
+}

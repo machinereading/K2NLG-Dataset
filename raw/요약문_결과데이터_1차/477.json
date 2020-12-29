@@ -1,0 +1,89 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 3,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 3,
+            "Restriction": true
+        }
+    ],
+    "Text": "이탈리아어의 그리스어의 계통이다. 이탈리아어는 라틴어의 계통이다.",
+    "entities": {
+        "그리스어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/그리스어"
+        },
+        "라틴어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라틴어"
+        },
+        "이탈리아어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이탈리아어"
+        }
+    },
+    "id": 477,
+    "pid": "46-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "그리스어",
+            "p": "계통(languageFamily)",
+            "s": "이탈리아어"
+        },
+        {
+            "Rep": true,
+            "o": "라틴어",
+            "p": "계통(languageFamily)",
+            "s": "이탈리아어"
+        },
+        {
+            "Rep": false,
+            "o": "그리스어",
+            "p": "계통(languageFamily)",
+            "s": "라틴어"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아어",
+            "p": "계통(languageFamily)",
+            "s": "라틴어"
+        },
+        {
+            "Rep": false,
+            "o": "이탈리아어",
+            "p": "계통(languageFamily)",
+            "s": "그리스어"
+        },
+        {
+            "Rep": false,
+            "o": "라틴어",
+            "p": "계통(languageFamily)",
+            "s": "그리스어"
+        }
+    ]
+}

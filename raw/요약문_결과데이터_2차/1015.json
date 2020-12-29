@@ -1,0 +1,132 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "피에르는 파리에 속한다. 볼로냐도 파리에 속한다. 피에르의 종교는 신학이다. 피에르는 볼로냐의 부분이다. 또한 푸아티에의 부분이기도 하다. 볼로냐는 푸아티에에 속한다. 피에르는 피사에 속한다.",
+    "entities": {
+        "볼로냐": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/볼로냐"
+        },
+        "신학": {
+            "ne_type": "FD_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/신학"
+        },
+        "파리": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/파리_(프랑스)"
+        },
+        "푸아티에": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/푸아티에"
+        },
+        "피사": {
+            "ne_type": "OGG_SPORTS",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피사"
+        },
+        "피에르": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피에르_(알바니아)"
+        }
+    },
+    "id": 1015,
+    "pid": "0-5",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "파리",
+            "p": "~의부분(isPartOf)",
+            "s": "피에르"
+        },
+        {
+            "Rep": true,
+            "o": "파리",
+            "p": "~의부분(isPartOf)",
+            "s": "볼로냐"
+        },
+        {
+            "Rep": true,
+            "o": "신학",
+            "p": "종교(religion)",
+            "s": "피에르"
+        },
+        {
+            "Rep": true,
+            "o": "볼로냐",
+            "p": "~의부분(isPartOf)",
+            "s": "피에르"
+        },
+        {
+            "Rep": true,
+            "o": "푸아티에",
+            "p": "~의부분(isPartOf)",
+            "s": "피에르"
+        },
+        {
+            "Rep": true,
+            "o": "푸아티에",
+            "p": "~의부분(isPartOf)",
+            "s": "볼로냐"
+        },
+        {
+            "Rep": true,
+            "o": "피사",
+            "p": "~의부분(isPartOf)",
+            "s": "피에르"
+        }
+    ]
+}

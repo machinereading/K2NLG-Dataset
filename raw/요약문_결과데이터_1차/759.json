@@ -1,0 +1,112 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이회창은 대한민국 과학기술처에 속해 있다. 그의 정당은 미래희망연대이다.",
+    "entities": {
+        "대한민국_과학기술처": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_과학기술처"
+        },
+        "무소속": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/무소속"
+        },
+        "미래희망연대": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/PoliticalParty"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미래희망연대"
+        },
+        "이회창": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/MilitaryPerson",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이회창"
+        },
+        "정근모": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/정근모"
+        }
+    },
+    "id": 759,
+    "pid": "265-12",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "무소속",
+            "p": "정당(party)",
+            "s": "이회창"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_과학기술처",
+            "p": "직함/포지션(position)",
+            "s": "정근모"
+        },
+        {
+            "Rep": true,
+            "o": "대한민국_과학기술처",
+            "p": "직함/포지션(position)",
+            "s": "이회창"
+        },
+        {
+            "Rep": true,
+            "o": "미래희망연대",
+            "p": "정당(party)",
+            "s": "이회창"
+        },
+        {
+            "Rep": false,
+            "o": "정근모",
+            "p": "직함/포지션(position)",
+            "s": "이회창"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_과학기술처",
+            "p": "직함/포지션(position)",
+            "s": "무소속"
+        }
+    ]
+}

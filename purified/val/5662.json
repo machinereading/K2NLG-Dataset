@@ -1,0 +1,108 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "된장은 자장이다. 자장은 된장이다.",
+    "entities": {
+        "대한민국_교육부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_교육부"
+        },
+        "대한민국_문교부": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/GovernmentAgency"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국_문교부"
+        },
+        "된장": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/된장"
+        },
+        "자장": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자장"
+        },
+        "짜장면": {
+            "ne_type": "CV_FOOD",
+            "type": [
+                "http://dbpedia.org/ontology/Food"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/짜장면"
+        }
+    },
+    "id": 5662,
+    "pid": "744-11",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대한민국_교육부",
+            "p": "계승자/후임(successor)",
+            "s": "대한민국_문교부"
+        },
+        {
+            "Rep": false,
+            "o": "대한민국_문교부",
+            "p": "전임자(predecessor)",
+            "s": "대한민국_교육부"
+        },
+        {
+            "Rep": true,
+            "o": "자장",
+            "p": "타입/종류(type)",
+            "s": "된장"
+        },
+        {
+            "Rep": false,
+            "o": "된장",
+            "p": "타입/종류(type)",
+            "s": "짜장면"
+        },
+        {
+            "Rep": true,
+            "o": "된장",
+            "p": "타입/종류(type)",
+            "s": "자장"
+        },
+        {
+            "Rep": false,
+            "o": "자장",
+            "p": "타입/종류(type)",
+            "s": "짜장면"
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "구글의 제품은 안드로이드이다. 구글은 안드로이드를 개발한 개발사다.",
+    "entities": {
+        "구글": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/구글"
+        },
+        "아이폰": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Device",
+                "http://dbpedia.org/ontology/InformationAppliance"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아이폰"
+        },
+        "안드로이드": {
+            "ne_type": "TMI_SW",
+            "type": [
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Software"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안드로이드_(운영_체제)"
+        },
+        "트위터": {
+            "ne_type": "TMI_SERVICE",
+            "type": [
+                "http://dbpedia.org/ontology/Single",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Website",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/MusicalWork"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/트위터"
+        }
+    },
+    "id": 3696,
+    "pid": "159-34",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "아이폰",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": true,
+            "o": "안드로이드",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": false,
+            "o": "트위터",
+            "p": "제품(product)",
+            "s": "구글"
+        },
+        {
+            "Rep": true,
+            "o": "구글",
+            "p": "개발자/개발사(developer)",
+            "s": "안드로이드"
+        },
+        {
+            "Rep": false,
+            "o": "구글",
+            "p": "개발자/개발사(developer)",
+            "s": "트위터"
+        },
+        {
+            "Rep": false,
+            "o": "트위터",
+            "p": "개발자/개발사(developer)",
+            "s": "안드로이드"
+        }
+    ]
+}

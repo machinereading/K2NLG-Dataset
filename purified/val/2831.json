@@ -1,0 +1,143 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "CJ그룹은 오리온그룹의 모기업이다. CJ그룹의 모기업은 동양그룹이다.",
+    "entities": {
+        "CJ그룹": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/CJ그룹"
+        },
+        "CJ오쇼핑": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/CJ오쇼핑"
+        },
+        "동양그룹": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/동양그룹"
+        },
+        "오리온그룹": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오리온그룹"
+        },
+        "온미디어": {
+            "ne_type": "OGG_MEDIA",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/온미디어"
+        }
+    },
+    "id": 2831,
+    "pid": "612-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "CJ그룹",
+            "p": "모기업(parentCompany)",
+            "s": "오리온그룹"
+        },
+        {
+            "Rep": false,
+            "o": "동양그룹",
+            "p": "모기업(parentCompany)",
+            "s": "오리온그룹"
+        },
+        {
+            "Rep": false,
+            "o": "오리온그룹",
+            "p": "모기업(parentCompany)",
+            "s": "CJ그룹"
+        },
+        {
+            "Rep": false,
+            "o": "동양그룹",
+            "p": "모기업(parentCompany)",
+            "s": "CJ오쇼핑"
+        },
+        {
+            "Rep": false,
+            "o": "오리온그룹",
+            "p": "모기업(parentCompany)",
+            "s": "동양그룹"
+        },
+        {
+            "Rep": true,
+            "o": "동양그룹",
+            "p": "모기업(parentCompany)",
+            "s": "CJ그룹"
+        },
+        {
+            "Rep": false,
+            "o": "CJ그룹",
+            "p": "모기업(parentCompany)",
+            "s": "CJ오쇼핑"
+        },
+        {
+            "Rep": false,
+            "o": "CJ그룹",
+            "p": "모기업(parentCompany)",
+            "s": "동양그룹"
+        },
+        {
+            "Rep": false,
+            "o": "오리온그룹",
+            "p": "모기업(parentCompany)",
+            "s": "CJ오쇼핑"
+        },
+        {
+            "Rep": false,
+            "o": "동양그룹",
+            "p": "모기업(parentCompany)",
+            "s": "온미디어"
+        },
+        {
+            "Rep": false,
+            "o": "오리온그룹",
+            "p": "자회사(subsidiary)",
+            "s": "동양그룹"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "아산시는 천안시에 속한다.  천안시 안에 아산시가 있다. ",
+    "entities": {
+        "아산시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아산시"
+        },
+        "천안시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/천안시"
+        }
+    },
+    "id": 2812,
+    "pid": "596-15",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "천안시",
+            "p": "~의부분(isPartOf)",
+            "s": "아산시"
+        },
+        {
+            "Rep": false,
+            "o": "아산시",
+            "p": "~의부분(isPartOf)",
+            "s": "천안시"
+        },
+        {
+            "Rep": true,
+            "o": "아산시",
+            "p": "부분(part)",
+            "s": "천안시"
+        }
+    ]
+}

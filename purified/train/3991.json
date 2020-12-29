@@ -1,0 +1,75 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": false
+        }
+    ],
+    "Text": "피그스 만 침공은 베트남 전쟁을 이루는 한 전쟁이다. ",
+    "entities": {
+        "베트남_전쟁": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베트남_전쟁"
+        },
+        "피그스_만_침공": {
+            "ne_type": "EV_WAR_REVOLUTION",
+            "type": [
+                "http://dbpedia.org/ontology/MilitaryConflict",
+                "http://dbpedia.org/ontology/Event",
+                "http://dbpedia.org/ontology/SocietalEvent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피그스_만_침공"
+        },
+        "흑인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/흑인"
+        }
+    },
+    "id": 3991,
+    "pid": "235-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "흑인",
+            "p": "결과(result)",
+            "s": "베트남_전쟁"
+        },
+        {
+            "Rep": true,
+            "o": "베트남_전쟁",
+            "p": "전쟁의부분(isPartOfMilitaryConflict)",
+            "s": "피그스_만_침공"
+        },
+        {
+            "Rep": false,
+            "o": "흑인",
+            "p": "결과(result)",
+            "s": "피그스_만_침공"
+        }
+    ]
+}

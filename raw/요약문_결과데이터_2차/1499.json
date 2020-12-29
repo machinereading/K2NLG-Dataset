@@ -1,0 +1,148 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "영덕군에는 주왕산이 있다. 영덕군은 영천시의 한 부분이다.",
+    "entities": {
+        "영덕군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영덕군"
+        },
+        "영천시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영천시"
+        },
+        "주왕산": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/ProtectedArea",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/NaturalPlace",
+                "http://dbpedia.org/ontology/Mountain"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/주왕산"
+        },
+        "태백산맥": {
+            "ne_type": "LCG_MOUNTAIN",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/MountainRange",
+                "http://dbpedia.org/ontology/NaturalPlace"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태백산맥"
+        },
+        "포항시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포항시"
+        }
+    },
+    "id": 1499,
+    "pid": "246-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "영덕군",
+            "p": "있는곳(locatedInArea)",
+            "s": "주왕산"
+        },
+        {
+            "Rep": true,
+            "o": "영천시",
+            "p": "~의부분(isPartOf)",
+            "s": "영덕군"
+        },
+        {
+            "Rep": false,
+            "o": "태백산맥",
+            "p": "~의부분(isPartOf)",
+            "s": "영덕군"
+        },
+        {
+            "Rep": false,
+            "o": "태백산맥",
+            "p": "~의부분(isPartOf)",
+            "s": "영천시"
+        },
+        {
+            "Rep": false,
+            "o": "영천시",
+            "p": "~의부분(isPartOf)",
+            "s": "포항시"
+        },
+        {
+            "Rep": false,
+            "o": "포항시",
+            "p": "~의부분(isPartOf)",
+            "s": "영덕군"
+        },
+        {
+            "Rep": false,
+            "o": "포항시",
+            "p": "~의부분(isPartOf)",
+            "s": "영천시"
+        },
+        {
+            "Rep": false,
+            "o": "영덕군",
+            "p": "~의부분(isPartOf)",
+            "s": "영천시"
+        },
+        {
+            "Rep": false,
+            "o": "태백산맥",
+            "p": "~의부분(isPartOf)",
+            "s": "포항시"
+        },
+        {
+            "Rep": false,
+            "o": "주왕산",
+            "p": "부분(part)",
+            "s": "포항시"
+        },
+        {
+            "Rep": false,
+            "o": "주왕산",
+            "p": "~의부분(isPartOf)",
+            "s": "영덕군"
+        }
+    ]
+}

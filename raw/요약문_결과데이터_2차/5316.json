@@ -1,0 +1,102 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "피에르 드 페르마는 수학으로 알려져 있다. 앙리 푸앵카레는 피에르 드 페르마의 영향을 받았다. 앙리 푸앵카레는 수학으로 알려져 있다.",
+    "entities": {
+        "수학": {
+            "ne_type": "FD_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/수학"
+        },
+        "앙리_푸앵카레": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/앙리_푸앵카레"
+        },
+        "연구원": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/연구원"
+        },
+        "피에르_드_페르마": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/피에르_드_페르마"
+        }
+    },
+    "id": 5316,
+    "pid": "586-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "수학",
+            "p": "~로알려진(knownFor)",
+            "s": "피에르_드_페르마"
+        },
+        {
+            "Rep": false,
+            "o": "피에르_드_페르마",
+            "p": "저자(author)",
+            "s": "수학"
+        },
+        {
+            "Rep": true,
+            "o": "앙리_푸앵카레",
+            "p": "영향받은(influenced)",
+            "s": "피에르_드_페르마"
+        },
+        {
+            "Rep": false,
+            "o": "앙리_푸앵카레",
+            "p": "저자(author)",
+            "s": "수학"
+        },
+        {
+            "Rep": false,
+            "o": "수학",
+            "p": "~로알려진(knownFor)",
+            "s": "연구원"
+        },
+        {
+            "Rep": true,
+            "o": "수학",
+            "p": "~로알려진(knownFor)",
+            "s": "앙리_푸앵카레"
+        }
+    ]
+}

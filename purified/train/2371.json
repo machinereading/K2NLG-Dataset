@@ -1,0 +1,93 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "탄산 나트륨으로 유명해진 니콜라 르블랑은 프랑스의 지도자이다. ",
+    "entities": {
+        "니콜라_르블랑": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/니콜라_르블랑"
+        },
+        "만하임": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Town",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만하임"
+        },
+        "탄산_나트륨": {
+            "ne_type": "MT_CHEMICAL",
+            "type": [
+                "http://dbpedia.org/ontology/ChemicalSubstance",
+                "http://dbpedia.org/ontology/ChemicalCompound"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/탄산_나트륨"
+        },
+        "프랑스": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랑스"
+        }
+    },
+    "id": 2371,
+    "pid": "459-5",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "만하임",
+            "p": "~로알려진(knownFor)",
+            "s": "니콜라_르블랑"
+        },
+        {
+            "Rep": true,
+            "o": "니콜라_르블랑",
+            "p": "지도자(leader)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": false,
+            "o": "만하임",
+            "p": "수도(capital)",
+            "s": "프랑스"
+        },
+        {
+            "Rep": true,
+            "o": "탄산_나트륨",
+            "p": "~로알려진(knownFor)",
+            "s": "니콜라_르블랑"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "쿠빌라이 칸의 전임자는 몽케 칸이다. 몽케 칸은 남송의 리더이다.",
+    "entities": {
+        "남송": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남송"
+        },
+        "몽케_칸": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몽케_칸"
+        },
+        "우구데이_칸": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우구데이_칸"
+        },
+        "칭기즈_칸": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/칭기즈_칸"
+        },
+        "쿠빌라이_칸": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쿠빌라이_칸"
+        },
+        "훌라구": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/훌라구"
+        }
+    },
+    "id": 285,
+    "pid": "196-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "칭기즈_칸",
+            "p": "부모(parent)",
+            "s": "우구데이_칸"
+        },
+        {
+            "Rep": true,
+            "o": "몽케_칸",
+            "p": "전임자(predecessor)",
+            "s": "쿠빌라이_칸"
+        },
+        {
+            "Rep": true,
+            "o": "몽케_칸",
+            "p": "리더이름(leaderName)",
+            "s": "남송"
+        },
+        {
+            "Rep": false,
+            "o": "우구데이_칸",
+            "p": "리더이름(leaderName)",
+            "s": "남송"
+        },
+        {
+            "Rep": false,
+            "o": "훌라구",
+            "p": "리더이름(leaderName)",
+            "s": "남송"
+        }
+    ]
+}

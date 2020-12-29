@@ -1,0 +1,135 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "몽골족은 만주족과 관련이 있다. 몽골족은 청나라에 있다. ",
+    "entities": {
+        "만주족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/만주족"
+        },
+        "몽골족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몽골족"
+        },
+        "청나라": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청나라"
+        },
+        "후이족": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/후이족"
+        }
+    },
+    "id": 1327,
+    "pid": "195-96",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "후이족",
+            "p": "관련되(related)",
+            "s": "만주족"
+        },
+        {
+            "Rep": false,
+            "o": "후이족",
+            "p": "관련되(related)",
+            "s": "몽골족"
+        },
+        {
+            "Rep": false,
+            "o": "만주족",
+            "p": "관련되(related)",
+            "s": "후이족"
+        },
+        {
+            "Rep": false,
+            "o": "몽골족",
+            "p": "관련되(related)",
+            "s": "만주족"
+        },
+        {
+            "Rep": true,
+            "o": "만주족",
+            "p": "관련되(related)",
+            "s": "몽골족"
+        },
+        {
+            "Rep": false,
+            "o": "몽골족",
+            "p": "관련되(related)",
+            "s": "후이족"
+        },
+        {
+            "Rep": false,
+            "o": "청나라",
+            "p": "있는곳(populationPlace)",
+            "s": "후이족"
+        },
+        {
+            "Rep": false,
+            "o": "청나라",
+            "p": "있는곳(populationPlace)",
+            "s": "만주족"
+        },
+        {
+            "Rep": false,
+            "o": "몽골족",
+            "p": "민족(ethnicGroup)",
+            "s": "청나라"
+        },
+        {
+            "Rep": false,
+            "o": "만주족",
+            "p": "민족(ethnicGroup)",
+            "s": "청나라"
+        },
+        {
+            "Rep": true,
+            "o": "청나라",
+            "p": "있는곳(populationPlace)",
+            "s": "몽골족"
+        },
+        {
+            "Rep": false,
+            "o": "후이족",
+            "p": "민족(ethnicGroup)",
+            "s": "청나라"
+        }
+    ]
+}

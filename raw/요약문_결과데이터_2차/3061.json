@@ -1,0 +1,146 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        }
+    ],
+    "Text": "타이의 지도자는 푸미폰 아둔야뎃이다. 태국어는 영어의 한 계통이다. 영어는 서울특별시에서 사용된다.",
+    "entities": {
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "타이": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/타이"
+        },
+        "태국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/태국어"
+        },
+        "푸미폰_아둔야뎃": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/푸미폰_아둔야뎃"
+        }
+    },
+    "id": 3061,
+    "pid": "700-6",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "타이",
+            "p": "국가(country)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "태국어",
+            "p": "계통(languageFamily)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "푸미폰_아둔야뎃",
+            "p": "리더이름(leaderName)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "쓰이는곳(spokenIn)",
+            "s": "태국어"
+        },
+        {
+            "Rep": true,
+            "o": "푸미폰_아둔야뎃",
+            "p": "지도자(leader)",
+            "s": "타이"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "수도(capital)",
+            "s": "타이"
+        },
+        {
+            "Rep": true,
+            "o": "영어",
+            "p": "계통(languageFamily)",
+            "s": "태국어"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": false,
+            "o": "영어",
+            "p": "언어(language)",
+            "s": "푸미폰_아둔야뎃"
+        },
+        {
+            "Rep": false,
+            "o": "태국어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "서울특별시"
+        },
+        {
+            "Rep": true,
+            "o": "서울특별시",
+            "p": "쓰이는곳(spokenIn)",
+            "s": "영어"
+        },
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "사망지(deathPlace)",
+            "s": "푸미폰_아둔야뎃"
+        }
+    ]
+}

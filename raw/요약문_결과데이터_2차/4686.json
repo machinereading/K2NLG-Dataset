@@ -1,0 +1,124 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "쿠빌라이 칸은 몽골을 이끈 사람이다.",
+    "entities": {
+        "남송": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/남송"
+        },
+        "몽골": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몽골"
+        },
+        "아리크부카": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아리크부카"
+        },
+        "양양군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/양양군"
+        },
+        "쿠빌라이_칸": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Monarch"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쿠빌라이_칸"
+        }
+    },
+    "id": 4686,
+    "pid": "374-15",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "몽골",
+            "p": "국가(country)",
+            "s": "양양군"
+        },
+        {
+            "Rep": false,
+            "o": "남송",
+            "p": "국가(country)",
+            "s": "양양군"
+        },
+        {
+            "Rep": false,
+            "o": "몽골",
+            "p": "국가(country)",
+            "s": "남송"
+        },
+        {
+            "Rep": true,
+            "o": "쿠빌라이_칸",
+            "p": "리더이름(leaderName)",
+            "s": "몽골"
+        },
+        {
+            "Rep": false,
+            "o": "아리크부카",
+            "p": "~의부분(isPartOf)",
+            "s": "양양군"
+        },
+        {
+            "Rep": false,
+            "o": "몽골",
+            "p": "~의부분(isPartOf)",
+            "s": "양양군"
+        },
+        {
+            "Rep": false,
+            "o": "남송",
+            "p": "~의부분(isPartOf)",
+            "s": "양양군"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김영삼의 전임자인 현석호가 있는 정당은 자유당이다. ",
+    "entities": {
+        "김영삼": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김영삼"
+        },
+        "자유당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자유당_(대한민국)"
+        },
+        "조병옥": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조병옥"
+        },
+        "현석호": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/현석호"
+        }
+    },
+    "id": 3398,
+    "pid": "829-286",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "자유당",
+            "p": "정당(party)",
+            "s": "현석호"
+        },
+        {
+            "Rep": false,
+            "o": "자유당",
+            "p": "정당(party)",
+            "s": "김영삼"
+        },
+        {
+            "Rep": false,
+            "o": "김영삼",
+            "p": "지도자(leader)",
+            "s": "자유당"
+        },
+        {
+            "Rep": false,
+            "o": "현석호",
+            "p": "지도자(leader)",
+            "s": "자유당"
+        },
+        {
+            "Rep": false,
+            "o": "조병옥",
+            "p": "지도자(leader)",
+            "s": "자유당"
+        },
+        {
+            "Rep": true,
+            "o": "현석호",
+            "p": "전임자(predecessor)",
+            "s": "김영삼"
+        },
+        {
+            "Rep": false,
+            "o": "김영삼",
+            "p": "전임자(predecessor)",
+            "s": "조병옥"
+        },
+        {
+            "Rep": false,
+            "o": "자유당",
+            "p": "정당(party)",
+            "s": "조병옥"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "창더 시와 닝보 시는 허난 성에 속한다. ",
+    "entities": {
+        "닝보_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/닝보_시"
+        },
+        "창더_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/창더_시"
+        },
+        "허난_성": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/허난_성"
+        }
+    },
+    "id": 5596,
+    "pid": "709-19",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "허난_성",
+            "p": "~의부분(isPartOf)",
+            "s": "창더_시"
+        },
+        {
+            "Rep": true,
+            "o": "허난_성",
+            "p": "~의부분(isPartOf)",
+            "s": "닝보_시"
+        },
+        {
+            "Rep": false,
+            "o": "닝보_시",
+            "p": "~의부분(isPartOf)",
+            "s": "창더_시"
+        },
+        {
+            "Rep": false,
+            "o": "창더_시",
+            "p": "~의부분(isPartOf)",
+            "s": "닝보_시"
+        },
+        {
+            "Rep": false,
+            "o": "닝보_시",
+            "p": "위치/지역(location)",
+            "s": "허난_성"
+        },
+        {
+            "Rep": false,
+            "o": "창더_시",
+            "p": "위치/지역(location)",
+            "s": "허난_성"
+        }
+    ]
+}

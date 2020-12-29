@@ -1,0 +1,72 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 2,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "박천군은 평안북도의 부분이다. 평안북도는 박천군의 부분이다.",
+    "entities": {
+        "박천군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박천군"
+        },
+        "평안북도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/평안북도"
+        }
+    },
+    "id": 2112,
+    "pid": "331-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "평안북도",
+            "p": "~의부분(isPartOf)",
+            "s": "박천군"
+        },
+        {
+            "Rep": false,
+            "o": "박천군",
+            "p": "부분(part)",
+            "s": "평안북도"
+        },
+        {
+            "Rep": true,
+            "o": "박천군",
+            "p": "~의부분(isPartOf)",
+            "s": "평안북도"
+        }
+    ]
+}

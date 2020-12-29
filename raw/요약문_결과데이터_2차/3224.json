@@ -1,0 +1,107 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "중앙고등학교의 회장은 김대중이다. 중앙고등학교는 고려대학교 소속이다. 김대중은 중앙고등학교 출신이다.",
+    "entities": {
+        "경방": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경방"
+        },
+        "고려대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려대학교"
+        },
+        "김대중": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김대중"
+        },
+        "중앙고등학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/중앙고등학교"
+        }
+    },
+    "id": 3224,
+    "pid": "800-167",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "김대중",
+            "p": "대통령/회장(president)",
+            "s": "중앙고등학교"
+        },
+        {
+            "Rep": false,
+            "o": "김대중",
+            "p": "대통령/회장(president)",
+            "s": "고려대학교"
+        },
+        {
+            "Rep": true,
+            "o": "고려대학교",
+            "p": "기원/소속(affiliation)",
+            "s": "중앙고등학교"
+        },
+        {
+            "Rep": true,
+            "o": "중앙고등학교",
+            "p": "학력(education)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "중앙고등학교",
+            "p": "직함/포지션(position)",
+            "s": "김대중"
+        },
+        {
+            "Rep": false,
+            "o": "김대중",
+            "p": "대통령/회장(president)",
+            "s": "경방"
+        }
+    ]
+}

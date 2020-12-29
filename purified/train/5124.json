@@ -1,0 +1,110 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "시진핑의 전임자는 김정은이다. 김정은이 다롄 시를 이끄는 사람이다. ",
+    "entities": {
+        "김정은": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김정은"
+        },
+        "다롄_시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다롄_시"
+        },
+        "베이징_시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베이징_시"
+        },
+        "시진핑": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/시진핑"
+        }
+    },
+    "id": 5124,
+    "pid": "535-64",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "시진핑",
+            "p": "리더이름(leaderName)",
+            "s": "베이징_시"
+        },
+        {
+            "Rep": false,
+            "o": "시진핑",
+            "p": "리더이름(leaderName)",
+            "s": "다롄_시"
+        },
+        {
+            "Rep": true,
+            "o": "김정은",
+            "p": "리더이름(leaderName)",
+            "s": "다롄_시"
+        },
+        {
+            "Rep": false,
+            "o": "베이징_시",
+            "p": "~의부분(isPartOf)",
+            "s": "다롄_시"
+        },
+        {
+            "Rep": false,
+            "o": "시진핑",
+            "p": "전임자(predecessor)",
+            "s": "김정은"
+        },
+        {
+            "Rep": true,
+            "o": "김정은",
+            "p": "전임자(predecessor)",
+            "s": "시진핑"
+        }
+    ]
+}

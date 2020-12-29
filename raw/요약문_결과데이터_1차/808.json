@@ -1,0 +1,149 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 2,
+            "Quality": 5,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "제주도의 국가는 대한민국이다. 부산광역시는 강서구에 위치해있다. 김해시는 부산광역시 지역에 속한다. 김해시는 경상남도 지역에있다. 과천시는 부산광역시의 일부분이다. 강서구(서울특별시는) 부산광역시의 일부분이다.",
+    "entities": {
+        "강서구_(서울특별시)": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/강서구_(서울특별시)"
+        },
+        "경상남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상남도"
+        },
+        "과천시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/과천시"
+        },
+        "김해시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김해시"
+        },
+        "대한민국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대한민국"
+        },
+        "부산광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산광역시"
+        },
+        "제주도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제주도"
+        }
+    },
+    "id": 808,
+    "pid": "280-177",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "대한민국",
+            "p": "국가(country)",
+            "s": "제주도"
+        },
+        {
+            "Rep": true,
+            "o": "강서구_(서울특별시)",
+            "p": "부분(part)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": true,
+            "o": "부산광역시",
+            "p": "지역/분양(region)",
+            "s": "김해시"
+        },
+        {
+            "Rep": true,
+            "o": "경상남도",
+            "p": "지역/분양(region)",
+            "s": "김해시"
+        },
+        {
+            "Rep": true,
+            "o": "부산광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "과천시"
+        },
+        {
+            "Rep": true,
+            "o": "부산광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "강서구_(서울특별시)"
+        },
+        {
+            "Rep": false,
+            "o": "강서구_(서울특별시)",
+            "p": "부분(part)",
+            "s": "김해시"
+        },
+        {
+            "Rep": false,
+            "o": "강서구_(서울특별시)",
+            "p": "부분(part)",
+            "s": "경상남도"
+        }
+    ]
+}

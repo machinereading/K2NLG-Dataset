@@ -1,0 +1,80 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 2,
+            "Quality": 2,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 1,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "아침은 도쿄 도의 한 부분이다. 도쿄 도의 수도는 아침이다.",
+    "entities": {
+        "니혼_대학": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University",
+                "http://dbpedia.org/ontology/EducationalInstitution"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/니혼_대학"
+        },
+        "도쿄_도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도쿄_도"
+        },
+        "아침": {
+            "ne_type": "TI_DURATION",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아침"
+        }
+    },
+    "id": 1463,
+    "pid": "232-2",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "아침",
+            "p": "도시(city)",
+            "s": "니혼_대학"
+        },
+        {
+            "Rep": true,
+            "o": "도쿄_도",
+            "p": "~의부분(isPartOf)",
+            "s": "아침"
+        },
+        {
+            "Rep": true,
+            "o": "아침",
+            "p": "수도(capital)",
+            "s": "도쿄_도"
+        }
+    ]
+}

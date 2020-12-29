@@ -1,0 +1,121 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "드래곤볼의 후속작은 달의 요정 세일러문이다. 달의 요정 세일러문의 후속작은 슬램 덩크다. ",
+    "entities": {
+        "달의_요정_세일러문": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Comic",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Anime",
+                "http://dbpedia.org/ontology/Cartoon",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Manga"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/달의_요정_세일러문_(만화)"
+        },
+        "드래곤볼": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Comic",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Manga"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/드래곤볼"
+        },
+        "슬램_덩크": {
+            "ne_type": "AFW_DOCUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Comic",
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/WrittenWork",
+                "http://dbpedia.org/ontology/Manga"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/슬램_덩크_(만화)"
+        },
+        "애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/애니메이션"
+        },
+        "일본": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본"
+        },
+        "일본의_애니메이션": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/일본의_애니메이션"
+        }
+    },
+    "id": 3103,
+    "pid": "725-15",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "일본의_애니메이션",
+            "p": "타입/종류(type)",
+            "s": "애니메이션"
+        },
+        {
+            "Rep": true,
+            "o": "슬램_덩크",
+            "p": "후속작(subsequentWork)",
+            "s": "달의_요정_세일러문"
+        },
+        {
+            "Rep": false,
+            "o": "슬램_덩크",
+            "p": "후속작(subsequentWork)",
+            "s": "드래곤볼"
+        },
+        {
+            "Rep": true,
+            "o": "달의_요정_세일러문",
+            "p": "후속작(subsequentWork)",
+            "s": "드래곤볼"
+        },
+        {
+            "Rep": false,
+            "o": "일본의_애니메이션",
+            "p": "타입/종류(type)",
+            "s": "일본"
+        }
+    ]
+}

@@ -1,0 +1,170 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": false
+        }
+    ],
+    "Text": "부산광역시를 이끈 심상건은 경기고등학교 출신이다. ",
+    "entities": {
+        "가야금": {
+            "ne_type": "AF_MUSICAL_INSTRUMENT",
+            "type": [
+                "http://dbpedia.org/ontology/Instrument",
+                "http://dbpedia.org/ontology/Device"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/가야금"
+        },
+        "경기고등학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/School",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경기고등학교"
+        },
+        "단국대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/단국대학교"
+        },
+        "박사": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Award",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/박사"
+        },
+        "부산광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산광역시"
+        },
+        "서울대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울대학교"
+        },
+        "심상건": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/심상건"
+        },
+        "한국음악": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국음악"
+        }
+    },
+    "id": 2254,
+    "pid": "415-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "심상건",
+            "p": "리더이름(leaderName)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "가야금",
+            "p": "도시(city)",
+            "s": "서울대학교"
+        },
+        {
+            "Rep": true,
+            "o": "경기고등학교",
+            "p": "학력(education)",
+            "s": "심상건"
+        },
+        {
+            "Rep": false,
+            "o": "부산광역시",
+            "p": "도시(city)",
+            "s": "경기고등학교"
+        },
+        {
+            "Rep": false,
+            "o": "가야금",
+            "p": "직업(occupation)",
+            "s": "심상건"
+        },
+        {
+            "Rep": false,
+            "o": "가야금",
+            "p": "리더이름(leaderName)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "한국음악",
+            "p": "도시(city)",
+            "s": "서울대학교"
+        },
+        {
+            "Rep": false,
+            "o": "한국음악",
+            "p": "장르(genre)",
+            "s": "서울대학교"
+        },
+        {
+            "Rep": false,
+            "o": "박사",
+            "p": "도시(city)",
+            "s": "단국대학교"
+        },
+        {
+            "Rep": false,
+            "o": "경기고등학교",
+            "p": "학력(education)",
+            "s": "가야금"
+        }
+    ]
+}

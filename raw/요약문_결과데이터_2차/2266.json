@@ -1,0 +1,118 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "김일손과 이극돈은 친척사이인데, 이극돈은 한성부를 이끈 사람이다.",
+    "entities": {
+        "경상도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상도"
+        },
+        "김일손": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김일손"
+        },
+        "사초과": {
+            "ne_type": "PT_GRASS",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species",
+                "http://dbpedia.org/ontology/Plant"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사초과"
+        },
+        "이극돈": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이극돈"
+        },
+        "청도군": {
+            "ne_type": "LCP_COUNTY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/청도군"
+        },
+        "한성부": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한성부"
+        }
+    },
+    "id": 2266,
+    "pid": "428-10",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "경상도",
+            "p": "~의부분(isPartOf)",
+            "s": "청도군"
+        },
+        {
+            "Rep": false,
+            "o": "사초과",
+            "p": "과_생물분류단계(family)",
+            "s": "이극돈"
+        },
+        {
+            "Rep": true,
+            "o": "이극돈",
+            "p": "리더이름(leaderName)",
+            "s": "한성부"
+        },
+        {
+            "Rep": false,
+            "o": "한성부",
+            "p": "사망지(deathPlace)",
+            "s": "김일손"
+        },
+        {
+            "Rep": true,
+            "o": "이극돈",
+            "p": "친척(relative)",
+            "s": "김일손"
+        }
+    ]
+}

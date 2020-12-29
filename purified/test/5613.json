@@ -1,0 +1,124 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "로저 테일러와 브라이언 메이의 직업은 보컬이다.",
+    "entities": {
+        "로저_테일러": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로저_테일러"
+        },
+        "베이시스트": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베이시스트"
+        },
+        "보컬": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Instrument",
+                "http://dbpedia.org/ontology/Device"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/보컬"
+        },
+        "브라이언": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/브라이언_(가수)"
+        },
+        "브라이언_메이": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/MusicalArtist",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/브라이언_메이"
+        },
+        "프레디": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/SoccerPlayer",
+                "http://dbpedia.org/ontology/Athlete",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프레디_(축구_선수)"
+        }
+    },
+    "id": 5613,
+    "pid": "719-6",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "보컬",
+            "p": "직업(occupation)",
+            "s": "로저_테일러"
+        },
+        {
+            "Rep": true,
+            "o": "보컬",
+            "p": "직업(occupation)",
+            "s": "브라이언_메이"
+        },
+        {
+            "Rep": false,
+            "o": "프레디",
+            "p": "현멤버(currentMember)",
+            "s": "베이시스트"
+        },
+        {
+            "Rep": false,
+            "o": "프레디",
+            "p": "현멤버(currentMember)",
+            "s": "보컬"
+        },
+        {
+            "Rep": false,
+            "o": "브라이언",
+            "p": "현멤버(currentMember)",
+            "s": "베이시스트"
+        },
+        {
+            "Rep": false,
+            "o": "브라이언",
+            "p": "현멤버(currentMember)",
+            "s": "보컬"
+        }
+    ]
+}

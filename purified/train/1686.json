@@ -1,0 +1,90 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "재조선미육군사령부군정청의 공식 언어는 영어와 한국어이다. 서울특별시의 공용어는 한국어다.",
+    "entities": {
+        "서울특별시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울특별시"
+        },
+        "영어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영어"
+        },
+        "재조선미육군사령부군정청": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/재조선미육군사령부군정청"
+        },
+        "한국어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국어"
+        }
+    },
+    "id": 1686,
+    "pid": "284-7",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "서울특별시",
+            "p": "수도(capital)",
+            "s": "재조선미육군사령부군정청"
+        },
+        {
+            "Rep": true,
+            "o": "영어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "재조선미육군사령부군정청"
+        },
+        {
+            "Rep": true,
+            "o": "한국어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "재조선미육군사령부군정청"
+        },
+        {
+            "Rep": true,
+            "o": "한국어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "서울특별시"
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "서울과학기술대학교와 연세대학교는 한국대학총학생회연합 소속이다. ",
+    "entities": {
+        "고려대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/고려대학교"
+        },
+        "서울과학기술대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/서울과학기술대학교"
+        },
+        "연세대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/연세대학교"
+        },
+        "전국대학생대표자협의회": {
+            "ne_type": "OG_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전국대학생대표자협의회"
+        },
+        "전북대학교": {
+            "ne_type": "OGG_EDUCATION",
+            "type": [
+                "http://dbpedia.org/ontology/EducationalInstitution",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/University"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전북대학교"
+        },
+        "한국대학총학생회연합": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Company",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한국대학총학생회연합"
+        }
+    },
+    "id": 4653,
+    "pid": "350-7",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "전국대학생대표자협의회",
+            "p": "기원/소속(affiliation)",
+            "s": "전북대학교"
+        },
+        {
+            "Rep": false,
+            "o": "전국대학생대표자협의회",
+            "p": "기원/소속(affiliation)",
+            "s": "고려대학교"
+        },
+        {
+            "Rep": true,
+            "o": "한국대학총학생회연합",
+            "p": "기원/소속(affiliation)",
+            "s": "서울과학기술대학교"
+        },
+        {
+            "Rep": true,
+            "o": "한국대학총학생회연합",
+            "p": "기원/소속(affiliation)",
+            "s": "연세대학교"
+        },
+        {
+            "Rep": false,
+            "o": "전북대학교",
+            "p": "기원/소속(affiliation)",
+            "s": "고려대학교"
+        },
+        {
+            "Rep": false,
+            "o": "고려대학교",
+            "p": "기원/소속(affiliation)",
+            "s": "전북대학교"
+        }
+    ]
+}

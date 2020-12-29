@@ -1,0 +1,152 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 4,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 3,
+            "Quality": 1,
+            "Restriction": false
+        }
+    ],
+    "Text": "경상도는 제주도의 한 부분이다. 전라남도에는 경상도가 있다.",
+    "entities": {
+        "경기도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경기도"
+        },
+        "경상도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/경상도"
+        },
+        "쓰시마_섬": {
+            "ne_type": "LCG_ISLAND",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쓰시마_섬"
+        },
+        "전라남도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/전라남도"
+        },
+        "제주도": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Island"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/제주도"
+        }
+    },
+    "id": 5653,
+    "pid": "735-7",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "경상도",
+            "p": "~의부분(isPartOf)",
+            "s": "경기도"
+        },
+        {
+            "Rep": false,
+            "o": "쓰시마_섬",
+            "p": "~의부분(isPartOf)",
+            "s": "경기도"
+        },
+        {
+            "Rep": false,
+            "o": "쓰시마_섬",
+            "p": "~의부분(isPartOf)",
+            "s": "경상도"
+        },
+        {
+            "Rep": false,
+            "o": "전라남도",
+            "p": "있는곳(locatedInArea)",
+            "s": "제주도"
+        },
+        {
+            "Rep": false,
+            "o": "제주도",
+            "p": "~의부분(isPartOf)",
+            "s": "경기도"
+        },
+        {
+            "Rep": false,
+            "o": "경상도",
+            "p": "가장큰도시(largestCity)",
+            "s": "쓰시마_섬"
+        },
+        {
+            "Rep": true,
+            "o": "제주도",
+            "p": "~의부분(isPartOf)",
+            "s": "경상도"
+        },
+        {
+            "Rep": false,
+            "o": "쓰시마_섬",
+            "p": "~의부분(isPartOf)",
+            "s": "전라남도"
+        },
+        {
+            "Rep": false,
+            "o": "쓰시마_섬",
+            "p": "~의부분(isPartOf)",
+            "s": "제주도"
+        },
+        {
+            "Rep": true,
+            "o": "경상도",
+            "p": "부분(part)",
+            "s": "전라남도"
+        },
+        {
+            "Rep": false,
+            "o": "경기도",
+            "p": "지역/분양(region)",
+            "s": "제주도"
+        },
+        {
+            "Rep": false,
+            "o": "제주도",
+            "p": "지역/분양(region)",
+            "s": "전라남도"
+        }
+    ]
+}

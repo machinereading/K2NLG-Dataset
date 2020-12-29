@@ -1,0 +1,173 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "호모 에렉투스와 호모 하빌리스는 오스트랄로피테쿠스라는 과에 속한다. ",
+    "entities": {
+        "베이징_원인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/Mammal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베이징_원인"
+        },
+        "사람": {
+            "ne_type": "TR_SOCIAL_SCIENCE",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사람"
+        },
+        "사람속": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/사람속"
+        },
+        "오스트랄로피테쿠스": {
+            "ne_type": "MT_CHEMICAL",
+            "type": [
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오스트랄로피테쿠스"
+        },
+        "원숭이": {
+            "ne_type": "AM_MAMMALIA",
+            "type": [
+                "http://dbpedia.org/ontology/Mammal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/원숭이"
+        },
+        "호모_에렉투스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Mammal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/호모_에렉투스"
+        },
+        "호모_하빌리스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Mammal",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/Animal",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/호모_하빌리스"
+        }
+    },
+    "id": 4989,
+    "pid": "488-14",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "오스트랄로피테쿠스",
+            "p": "과_생물분류단계(family)",
+            "s": "호모_에렉투스"
+        },
+        {
+            "Rep": true,
+            "o": "오스트랄로피테쿠스",
+            "p": "과_생물분류단계(family)",
+            "s": "호모_하빌리스"
+        },
+        {
+            "Rep": false,
+            "o": "원숭이",
+            "p": "과_생물분류단계(family)",
+            "s": "호모_에렉투스"
+        },
+        {
+            "Rep": false,
+            "o": "오스트랄로피테쿠스",
+            "p": "과_생물분류단계(family)",
+            "s": "원숭이"
+        },
+        {
+            "Rep": false,
+            "o": "오스트랄로피테쿠스",
+            "p": "과_생물분류단계(family)",
+            "s": "베이징_원인"
+        },
+        {
+            "Rep": false,
+            "o": "오스트랄로피테쿠스",
+            "p": "과_생물분류단계(family)",
+            "s": "사람"
+        },
+        {
+            "Rep": false,
+            "o": "원숭이",
+            "p": "과_생물분류단계(family)",
+            "s": "사람"
+        },
+        {
+            "Rep": false,
+            "o": "사람",
+            "p": "과_생물분류단계(family)",
+            "s": "호모_에렉투스"
+        },
+        {
+            "Rep": false,
+            "o": "사람속",
+            "p": "목_생물분류단계(order)",
+            "s": "원숭이"
+        },
+        {
+            "Rep": false,
+            "o": "원숭이",
+            "p": "과_생물분류단계(family)",
+            "s": "오스트랄로피테쿠스"
+        },
+        {
+            "Rep": false,
+            "o": "원숭이",
+            "p": "목_생물분류단계(order)",
+            "s": "오스트랄로피테쿠스"
+        },
+        {
+            "Rep": false,
+            "o": "원숭이",
+            "p": "과_생물분류단계(family)",
+            "s": "베이징_원인"
+        }
+    ]
+}

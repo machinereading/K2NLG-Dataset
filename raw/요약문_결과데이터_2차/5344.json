@@ -1,0 +1,79 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "러시아어는 우크라이나어의 계통이다. 키예프의 공식언어는 러시아어이다.",
+    "entities": {
+        "러시아어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/러시아어"
+        },
+        "우크라이나어": {
+            "ne_type": "CV_LANGUAGE",
+            "type": [
+                "http://dbpedia.org/ontology/Language"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/우크라이나어"
+        },
+        "키예프": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/키예프"
+        }
+    },
+    "id": 5344,
+    "pid": "604-15",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "우크라이나어",
+            "p": "계통(languageFamily)",
+            "s": "러시아어"
+        },
+        {
+            "Rep": false,
+            "o": "러시아어",
+            "p": "계통(languageFamily)",
+            "s": "우크라이나어"
+        },
+        {
+            "Rep": true,
+            "o": "러시아어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "키예프"
+        },
+        {
+            "Rep": false,
+            "o": "우크라이나어",
+            "p": "공식언어/공용어(officialLanguage)",
+            "s": "키예프"
+        }
+    ]
+}

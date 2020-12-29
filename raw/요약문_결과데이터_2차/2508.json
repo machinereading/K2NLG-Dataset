@@ -1,0 +1,180 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 4,
+            "Quality": 4,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "스타워즈의 감독은 조지 루카스이다. 스타워즈의 장르는 영화이다.",
+    "entities": {
+        "비디오": {
+            "ne_type": "TMI_HW",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/비디오"
+        },
+        "스타워즈": {
+            "ne_type": "AFW_VIDEO",
+            "type": [
+                "http://dbpedia.org/ontology/Work",
+                "http://dbpedia.org/ontology/Film"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스타워즈"
+        },
+        "스페이스": {
+            "ne_type": "OGG_ECONOMY",
+            "type": [
+                "http://dbpedia.org/ontology/TelevisionStation",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation",
+                "http://dbpedia.org/ontology/Broadcaster"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페이스_(텔레비전_채널)"
+        },
+        "영화": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영화"
+        },
+        "오페라": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오페라"
+        },
+        "조지_루카스": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조지_루카스"
+        },
+        "프랜차이즈": {
+            "ne_type": "AFW_MUSIC",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/프랜차이즈"
+        }
+    },
+    "id": 2508,
+    "pid": "512-34",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "조지_루카스",
+            "p": "감독(director)",
+            "s": "스타워즈"
+        },
+        {
+            "Rep": false,
+            "o": "오페라",
+            "p": "장르(genre)",
+            "s": "스타워즈"
+        },
+        {
+            "Rep": false,
+            "o": "오페라",
+            "p": "장르(genre)",
+            "s": "스페이스"
+        },
+        {
+            "Rep": true,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "스타워즈"
+        },
+        {
+            "Rep": false,
+            "o": "오페라",
+            "p": "장르(genre)",
+            "s": "조지_루카스"
+        },
+        {
+            "Rep": false,
+            "o": "오페라",
+            "p": "장르(genre)",
+            "s": "프랜차이즈"
+        },
+        {
+            "Rep": false,
+            "o": "오페라",
+            "p": "장르(genre)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "오페라",
+            "p": "장르(genre)",
+            "s": "비디오"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "오페라"
+        },
+        {
+            "Rep": false,
+            "o": "오페라",
+            "p": "타입/종류(type)",
+            "s": "스페이스"
+        },
+        {
+            "Rep": false,
+            "o": "스페이스",
+            "p": "채널(channel)",
+            "s": "영화"
+        },
+        {
+            "Rep": false,
+            "o": "영화",
+            "p": "장르(genre)",
+            "s": "스페이스"
+        },
+        {
+            "Rep": false,
+            "o": "스페이스",
+            "p": "채널(channel)",
+            "s": "스타워즈"
+        },
+        {
+            "Rep": false,
+            "o": "프랜차이즈",
+            "p": "관련되(related)",
+            "s": "오페라"
+        }
+    ]
+}

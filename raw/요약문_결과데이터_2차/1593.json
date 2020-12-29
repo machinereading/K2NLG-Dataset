@@ -1,0 +1,113 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 2,
+            "Quality": 1,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 3,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "몽골을 이끈 사람은 다얀 칸이다. 그는 쿠빌라이 칸의 계승자이다. 쿠빌라이 칸은 몽골을 이끈 사람이다. 다얀 칸의 계승자는 알탄 칸이다.",
+    "entities": {
+        "다얀_칸": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/다얀_칸"
+        },
+        "몽골": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/몽골"
+        },
+        "베이징_시": {
+            "ne_type": "LCP_CAPITALCITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/베이징_시"
+        },
+        "알탄_칸": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알탄_칸"
+        },
+        "쿠빌라이_칸": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Monarch",
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/쿠빌라이_칸"
+        }
+    },
+    "id": 1593,
+    "pid": "276-8",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "다얀_칸",
+            "p": "리더이름(leaderName)",
+            "s": "몽골"
+        },
+        {
+            "Rep": true,
+            "o": "다얀_칸",
+            "p": "계승자/후임(successor)",
+            "s": "쿠빌라이_칸"
+        },
+        {
+            "Rep": false,
+            "o": "알탄_칸",
+            "p": "~의부분(isPartOf)",
+            "s": "베이징_시"
+        },
+        {
+            "Rep": true,
+            "o": "쿠빌라이_칸",
+            "p": "리더이름(leaderName)",
+            "s": "몽골"
+        },
+        {
+            "Rep": true,
+            "o": "알탄_칸",
+            "p": "계승자/후임(successor)",
+            "s": "다얀_칸"
+        }
+    ]
+}

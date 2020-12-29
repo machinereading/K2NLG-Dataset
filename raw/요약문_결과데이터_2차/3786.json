@@ -1,0 +1,119 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 4,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "포도상구균은 도르토믹소바이러스과에 속한다. 푸른곰팡이는 포도상구균에 속한다.",
+    "entities": {
+        "세균": {
+            "ne_type": "AM_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Bacteria",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/세균"
+        },
+        "오르토믹소바이러스과": {
+            "ne_type": "AM_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Species",
+                "http://dbpedia.org/ontology/Taxon"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/오르토믹소바이러스과"
+        },
+        "포도상구균": {
+            "ne_type": "AM_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포도상구균"
+        },
+        "푸른곰팡이": {
+            "ne_type": "AM_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Fungus",
+                "http://dbpedia.org/ontology/Eukaryote",
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/Taxon",
+                "http://dbpedia.org/ontology/Species"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/푸른곰팡이"
+        }
+    },
+    "id": 3786,
+    "pid": "188-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "오르토믹소바이러스과",
+            "p": "과_생물분류단계(family)",
+            "s": "포도상구균"
+        },
+        {
+            "Rep": false,
+            "o": "세균",
+            "p": "문_생물분류단계(division)",
+            "s": "오르토믹소바이러스과"
+        },
+        {
+            "Rep": false,
+            "o": "세균",
+            "p": "문_생물분류단계(division)",
+            "s": "푸른곰팡이"
+        },
+        {
+            "Rep": false,
+            "o": "세균",
+            "p": "문_생물분류단계(division)",
+            "s": "포도상구균"
+        },
+        {
+            "Rep": true,
+            "o": "포도상구균",
+            "p": "문_생물분류단계(division)",
+            "s": "푸른곰팡이"
+        },
+        {
+            "Rep": false,
+            "o": "푸른곰팡이",
+            "p": "문_생물분류단계(division)",
+            "s": "포도상구균"
+        },
+        {
+            "Rep": false,
+            "o": "푸른곰팡이",
+            "p": "문_생물분류단계(division)",
+            "s": "세균"
+        },
+        {
+            "Rep": false,
+            "o": "푸른곰팡이",
+            "p": "문_생물분류단계(division)",
+            "s": "오르토믹소바이러스과"
+        }
+    ]
+}

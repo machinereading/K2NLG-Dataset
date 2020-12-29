@@ -1,0 +1,147 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 2,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "대전광역시는 아산시의 한 부분이다. 아산시는 부산광역시의 한 부분이다.",
+    "entities": {
+        "공덕귀": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Writer",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/공덕귀"
+        },
+        "대구광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대구광역시"
+        },
+        "대전광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/대전광역시"
+        },
+        "부산광역시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/부산광역시"
+        },
+        "아산시": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/아산시"
+        },
+        "자동차": {
+            "ne_type": "AF_TRANSPORT",
+            "type": [
+                "http://dbpedia.org/ontology/Genre",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/자동차"
+        }
+    },
+    "id": 2745,
+    "pid": "541-95",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "대구광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": true,
+            "o": "아산시",
+            "p": "~의부분(isPartOf)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": false,
+            "o": "부산광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "대전광역시"
+        },
+        {
+            "Rep": false,
+            "o": "아산시",
+            "p": "~의부분(isPartOf)",
+            "s": "부산광역시"
+        },
+        {
+            "Rep": false,
+            "o": "자동차",
+            "p": "직업(occupation)",
+            "s": "공덕귀"
+        },
+        {
+            "Rep": false,
+            "o": "자동차",
+            "p": "타입/종류(type)",
+            "s": "아산시"
+        },
+        {
+            "Rep": true,
+            "o": "부산광역시",
+            "p": "~의부분(isPartOf)",
+            "s": "아산시"
+        },
+        {
+            "Rep": false,
+            "o": "대전광역시",
+            "p": "위치/지역(location)",
+            "s": "자동차"
+        },
+        {
+            "Rep": false,
+            "o": "자동차",
+            "p": "~로알려진(knownFor)",
+            "s": "공덕귀"
+        }
+    ]
+}

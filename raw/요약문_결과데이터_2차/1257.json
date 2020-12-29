@@ -1,0 +1,110 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "세균학으로 알려진 알렉산더 플레밍은 영국 영토인 스코틀랜드에서 태어났고 국적은 영국이다.",
+    "entities": {
+        "세균학": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/AcademicSubject",
+                "http://dbpedia.org/ontology/TopicalConcept"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/세균학"
+        },
+        "스코틀랜드": {
+            "ne_type": "LC_OTHERS",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스코틀랜드"
+        },
+        "알렉산더_플레밍": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Scientist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알렉산더_플레밍"
+        },
+        "영국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/영국"
+        }
+    },
+    "id": 1257,
+    "pid": "188-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "스코틀랜드",
+            "p": "출생지(birthPlace)",
+            "s": "알렉산더_플레밍"
+        },
+        {
+            "Rep": true,
+            "o": "세균학",
+            "p": "~로알려진(knownFor)",
+            "s": "알렉산더_플레밍"
+        },
+        {
+            "Rep": true,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "스코틀랜드"
+        },
+        {
+            "Rep": false,
+            "o": "영국",
+            "p": "국가(country)",
+            "s": "세균학"
+        },
+        {
+            "Rep": false,
+            "o": "세균학",
+            "p": "~로알려진(knownFor)",
+            "s": "스코틀랜드"
+        },
+        {
+            "Rep": true,
+            "o": "스코틀랜드",
+            "p": "~의부분(isPartOf)",
+            "s": "영국"
+        },
+        {
+            "Rep": false,
+            "o": "스코틀랜드",
+            "p": "수도(capital)",
+            "s": "영국"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "이부영의 직업은 교도관이다. 안 드 브르타뉴의 직업도 교도관이다.",
+    "entities": {
+        "교도관": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교도관"
+        },
+        "안_드_브르타뉴": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/안_드_브르타뉴"
+        },
+        "이부영": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Governor",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/이부영"
+        }
+    },
+    "id": 5327,
+    "pid": "592-9",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "교도관",
+            "p": "직업(occupation)",
+            "s": "이부영"
+        },
+        {
+            "Rep": true,
+            "o": "교도관",
+            "p": "직업(occupation)",
+            "s": "안_드_브르타뉴"
+        },
+        {
+            "Rep": false,
+            "o": "이부영",
+            "p": "전임자(predecessor)",
+            "s": "교도관"
+        }
+    ]
+}

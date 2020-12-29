@@ -1,0 +1,118 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 3,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 2,
+            "Naturalness": 3,
+            "Quality": 2,
+            "Restriction": true
+        }
+    ],
+    "Text": "유대인은 스페인에 있다. 그들은 포르투갈에도 있다.",
+    "entities": {
+        "교황_알렉산데르_6세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_알렉산데르_6세"
+        },
+        "스페인": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스페인"
+        },
+        "알람브라": {
+            "ne_type": "AF_CULTURAL_ASSET",
+            "type": [
+                "http://dbpedia.org/ontology/HistoricPlace",
+                "http://dbpedia.org/ontology/ArchitecturalStructure",
+                "http://dbpedia.org/ontology/Monument",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Building",
+                "http://dbpedia.org/ontology/Castle"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/알람브라"
+        },
+        "유대인": {
+            "ne_type": "CV_TRIBE",
+            "type": [
+                "http://dbpedia.org/ontology/EthnicGroup"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/유대인"
+        },
+        "포르투갈": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/포르투갈"
+        }
+    },
+    "id": 1766,
+    "pid": "39-52",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "스페인",
+            "p": "국가(country)",
+            "s": "알람브라"
+        },
+        {
+            "Rep": true,
+            "o": "스페인",
+            "p": "있는곳(populationPlace)",
+            "s": "유대인"
+        },
+        {
+            "Rep": false,
+            "o": "유대인",
+            "p": "민족(ethnicGroup)",
+            "s": "포르투갈"
+        },
+        {
+            "Rep": false,
+            "o": "유대인",
+            "p": "민족(ethnicGroup)",
+            "s": "스페인"
+        },
+        {
+            "Rep": true,
+            "o": "포르투갈",
+            "p": "있는곳(populationPlace)",
+            "s": "유대인"
+        },
+        {
+            "Rep": false,
+            "o": "포르투갈",
+            "p": "사망지(deathPlace)",
+            "s": "교황_알렉산데르_6세"
+        }
+    ]
+}

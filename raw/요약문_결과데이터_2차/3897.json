@@ -1,0 +1,146 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 5,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 4,
+            "Restriction": true
+        }
+    ],
+    "Text": "로스앤젤레스는 캘리포니아 주에서 가장 큰 도시이다. 로스앤젤레스는 미국에서 가장 큰 도시이다.",
+    "entities": {
+        "로스앤젤레스": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로스앤젤레스"
+        },
+        "미국": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미국"
+        },
+        "캘리포니아_주": {
+            "ne_type": "LCP_PROVINCE",
+            "type": [
+                "http://dbpedia.org/ontology/Region",
+                "http://dbpedia.org/ontology/AdministrativeRegion",
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/캘리포니아_주"
+        },
+        "패서디나": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/패서디나_(캘리포니아_주)"
+        }
+    },
+    "id": 3897,
+    "pid": "209-1",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "로스앤젤레스",
+            "p": "가장큰도시(largestCity)",
+            "s": "캘리포니아_주"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "캘리포니아_주"
+        },
+        {
+            "Rep": false,
+            "o": "캘리포니아_주",
+            "p": "지역/분양(region)",
+            "s": "로스앤젤레스"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "패서디나"
+        },
+        {
+            "Rep": false,
+            "o": "캘리포니아_주",
+            "p": "~의부분(isPartOf)",
+            "s": "패서디나"
+        },
+        {
+            "Rep": false,
+            "o": "로스앤젤레스",
+            "p": "~의부분(isPartOf)",
+            "s": "패서디나"
+        },
+        {
+            "Rep": false,
+            "o": "미국",
+            "p": "국가(country)",
+            "s": "로스앤젤레스"
+        },
+        {
+            "Rep": true,
+            "o": "로스앤젤레스",
+            "p": "가장큰도시(largestCity)",
+            "s": "미국"
+        },
+        {
+            "Rep": false,
+            "o": "캘리포니아_주",
+            "p": "~의부분(isPartOf)",
+            "s": "로스앤젤레스"
+        },
+        {
+            "Rep": false,
+            "o": "캘리포니아_주",
+            "p": "지역/분양(region)",
+            "s": "패서디나"
+        },
+        {
+            "Rep": false,
+            "o": "패서디나",
+            "p": "지역/분양(region)",
+            "s": "로스앤젤레스"
+        },
+        {
+            "Rep": false,
+            "o": "로스앤젤레스",
+            "p": "지역/분양(region)",
+            "s": "패서디나"
+        }
+    ]
+}

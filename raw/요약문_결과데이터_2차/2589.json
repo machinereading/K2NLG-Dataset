@@ -1,0 +1,142 @@
+{
+    "Eval": [
+        {
+            "Checkbox": false,
+            "Informativeness": 1,
+            "Naturalness": 1,
+            "Quality": 1,
+            "Restriction": false
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 3,
+            "Quality": 6,
+            "Restriction": false
+        },
+        {
+            "Checkbox": false,
+            "Informativeness": 4,
+            "Naturalness": 6,
+            "Quality": 5,
+            "Restriction": true
+        }
+    ],
+    "Text": "김정은, 김일성, 김정일이 있는 정당은 조선로동당이다. 김정일의 뒤는 김정은이 이어갔다. 김정일은 김정은의 부모다. 김일성의 뒤는 김정일이 이어갔다. 조런로동당의 지도자는 김일성, 김정은, 김정일이다. 김일성의 뒤는 김정은이 이어갔다. 김정은의 전임자는 김일성이다. ",
+    "entities": {
+        "김일성": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김일성"
+        },
+        "김정은": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김정은"
+        },
+        "김정일": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/OfficeHolder",
+                "http://dbpedia.org/ontology/President",
+                "http://dbpedia.org/ontology/Actor",
+                "http://dbpedia.org/ontology/Politician",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/김정일"
+        },
+        "조선로동당": {
+            "ne_type": "OGG_POLITICS",
+            "type": [
+                "http://dbpedia.org/ontology/PoliticalParty",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Organisation"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/조선로동당"
+        }
+    },
+    "id": 2589,
+    "pid": "535-3",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "조선로동당",
+            "p": "정당(party)",
+            "s": "김정은"
+        },
+        {
+            "Rep": true,
+            "o": "김정은",
+            "p": "계승자/후임(successor)",
+            "s": "김정일"
+        },
+        {
+            "Rep": true,
+            "o": "김정일",
+            "p": "부모(parent)",
+            "s": "김정은"
+        },
+        {
+            "Rep": true,
+            "o": "김정일",
+            "p": "계승자/후임(successor)",
+            "s": "김일성"
+        },
+        {
+            "Rep": true,
+            "o": "조선로동당",
+            "p": "정당(party)",
+            "s": "김일성"
+        },
+        {
+            "Rep": true,
+            "o": "조선로동당",
+            "p": "정당(party)",
+            "s": "김정일"
+        },
+        {
+            "Rep": true,
+            "o": "김일성",
+            "p": "지도자(leader)",
+            "s": "조선로동당"
+        },
+        {
+            "Rep": true,
+            "o": "김정은",
+            "p": "계승자/후임(successor)",
+            "s": "김일성"
+        },
+        {
+            "Rep": true,
+            "o": "김정은",
+            "p": "지도자(leader)",
+            "s": "조선로동당"
+        },
+        {
+            "Rep": true,
+            "o": "김정일",
+            "p": "지도자(leader)",
+            "s": "조선로동당"
+        },
+        {
+            "Rep": true,
+            "o": "김일성",
+            "p": "전임자(predecessor)",
+            "s": "김정은"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 4,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "스웨덴의 지도자는 한스 악셀 폰 페르센과 마리 앙투아네트이다. ",
+    "entities": {
+        "마리_앙투아네트": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/BritishRoyalty",
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Royalty",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/마리_앙투아네트"
+        },
+        "백작": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Profession",
+                "http://dbpedia.org/ontology/PersonFunction"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/백작"
+        },
+        "스웨덴": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/스웨덴"
+        },
+        "한스_악셀_폰_페르센": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/한스_악셀_폰_페르센"
+        }
+    },
+    "id": 4860,
+    "pid": "444-11",
+    "triple": [
+        {
+            "Rep": false,
+            "o": "백작",
+            "p": "직함/포지션(position)",
+            "s": "마리_앙투아네트"
+        },
+        {
+            "Rep": true,
+            "o": "한스_악셀_폰_페르센",
+            "p": "지도자(leader)",
+            "s": "스웨덴"
+        },
+        {
+            "Rep": true,
+            "o": "마리_앙투아네트",
+            "p": "지도자(leader)",
+            "s": "스웨덴"
+        },
+        {
+            "Rep": false,
+            "o": "스웨덴",
+            "p": "사망지(deathPlace)",
+            "s": "백작"
+        },
+        {
+            "Rep": false,
+            "o": "마리_앙투아네트",
+            "p": "배우자(spouse)",
+            "s": "백작"
+        }
+    ]
+}

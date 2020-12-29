@@ -1,0 +1,155 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 5,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "미켈란젤로 부오나로티의 직업은 예술가이다. 그의 전임자는 교황 알렉산데르 6세이다.",
+    "entities": {
+        "교황": {
+            "ne_type": "CV_POSITION",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Agent",
+                "http://dbpedia.org/ontology/Cleric"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황"
+        },
+        "교황_알렉산데르_6세": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Pope",
+                "http://dbpedia.org/ontology/ChristianBishop",
+                "http://dbpedia.org/ontology/Cleric",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/교황_알렉산데르_6세"
+        },
+        "도나토_브라만테": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/도나토_브라만테"
+        },
+        "라파엘로_산치오": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/라파엘로_산치오"
+        },
+        "로마": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/Location",
+                "http://dbpedia.org/ontology/Settlement",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/로마"
+        },
+        "미켈란젤로_부오나로티": {
+            "ne_type": "PS_NAME",
+            "type": [
+                "http://dbpedia.org/ontology/Person",
+                "http://dbpedia.org/ontology/Artist",
+                "http://dbpedia.org/ontology/Agent"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/미켈란젤로_부오나로티"
+        },
+        "연극": {
+            "ne_type": "FD_ART",
+            "type": [
+                "http://dbpedia.org/ontology/TopicalConcept",
+                "http://dbpedia.org/ontology/MusicGenre",
+                "http://dbpedia.org/ontology/Genre"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/연극"
+        },
+        "예술가": {
+            "ne_type": "CV_OCCUPATION",
+            "type": [
+                "http://dbpedia.org/ontology/PersonFunction",
+                "http://dbpedia.org/ontology/Profession"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/예술가"
+        }
+    },
+    "id": 401,
+    "pid": "39-50",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "미켈란젤로_부오나로티"
+        },
+        {
+            "Rep": false,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "교황"
+        },
+        {
+            "Rep": false,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "라파엘로_산치오"
+        },
+        {
+            "Rep": false,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "교황_알렉산데르_6세"
+        },
+        {
+            "Rep": false,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "도나토_브라만테"
+        },
+        {
+            "Rep": false,
+            "o": "예술가",
+            "p": "직업(occupation)",
+            "s": "로마"
+        },
+        {
+            "Rep": false,
+            "o": "연극",
+            "p": "직업(occupation)",
+            "s": "교황_알렉산데르_6세"
+        },
+        {
+            "Rep": true,
+            "o": "교황_알렉산데르_6세",
+            "p": "전임자(predecessor)",
+            "s": "미켈란젤로_부오나로티"
+        }
+    ]
+}

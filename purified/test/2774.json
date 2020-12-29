@@ -1,0 +1,85 @@
+{
+    "Eval": [
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 4,
+            "Naturalness": 5,
+            "Quality": 5,
+            "Restriction": true
+        },
+        {
+            "Checkbox": true,
+            "Informativeness": 6,
+            "Naturalness": 6,
+            "Quality": 6,
+            "Restriction": true
+        }
+    ],
+    "Text": "벨리즈의 국가는 멕시코이다. 체투말의 국가는 멕시코이다. 멕시코에서 가장큰도시는 벨리즈이다. 멕시코에서 가장큰도시는 체투말이다.",
+    "entities": {
+        "멕시코": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Country",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/멕시코"
+        },
+        "벨리즈": {
+            "ne_type": "LCP_COUNTRY",
+            "type": [
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Country"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/벨리즈"
+        },
+        "체투말": {
+            "ne_type": "LCP_CITY",
+            "type": [
+                "http://dbpedia.org/ontology/City",
+                "http://dbpedia.org/ontology/PopulatedPlace",
+                "http://dbpedia.org/ontology/Place",
+                "http://dbpedia.org/ontology/Settlement"
+            ],
+            "uri": "http://kbox.kaist.ac.kr/resource/체투말"
+        }
+    },
+    "id": 2774,
+    "pid": "564-13",
+    "triple": [
+        {
+            "Rep": true,
+            "o": "멕시코",
+            "p": "국가(country)",
+            "s": "벨리즈"
+        },
+        {
+            "Rep": true,
+            "o": "멕시코",
+            "p": "국가(country)",
+            "s": "체투말"
+        },
+        {
+            "Rep": true,
+            "o": "벨리즈",
+            "p": "가장큰도시(largestCity)",
+            "s": "멕시코"
+        },
+        {
+            "Rep": true,
+            "o": "체투말",
+            "p": "가장큰도시(largestCity)",
+            "s": "멕시코"
+        }
+    ]
+}
